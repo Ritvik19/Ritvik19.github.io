@@ -20,58 +20,116 @@
 
 body{
   max-width: 100%;
-  background-color: var
+  background-color: var(--t2c4);
 }
 
-.intro{
-  display: grid;
-  width: 70%;
-  margin: 70px auto 70px;
-  grid-template-areas:
-  "profile profile name name name name name name name name name"
-  "profile profile name name name name name name name name name"
-  "profile profile desc desc desc desc desc desc desc desc desc"
-  "profile profile desc desc desc desc desc desc desc desc desc"
-  "profile profile desc desc desc desc desc desc desc desc desc"
-  "profile profile link link link link link link link link link"
+#navigate{
+  background-color: white;
 }
 
-icon-icon{
+.inner{
+  padding: 5px;
 }
 
-#pp{
+/* DESKTOP */
+@media (min-width: 567px) {
+  .block{
+    width: 70%;
+    margin: 5% auto 5%;
+    background-color: white;
+  }
+  #home{
+    display: grid;
+    grid-template-areas:
+    "nav nav nav"
+    "picture header header"
+    "picture header header"
+    "picture intro intro"
+    "dwnld intro intro";
+  }
+  #highlight{
+    color: var(--t3c4);
+  }
+  #dwnld{
+    background-color: var(--t3c4);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 567px){
+  .block{
+    width: 90%;
+    margin: 5% auto 5%;
+    background-color: white;
+  }
+  #home{
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "picture"
+    "header"
+    "intro"
+    "dwnld";
+  }
+  #highlight{
+    color: var(--t3c5);
+  }
+
+  #dwnld{
+    background-color: var(--t3c5);
+  }
+}
+
+#inavigate{
+  grid-area: nav;
+  background-color: white;
+}
+
+#picture{
+  grid-area: picture;
+}
+
+#picture img{
   width: 100%;
-  border: 5px solid var(--t2c1);
   height: 100%;
 }
 
-.profile-pic{
-  /* grid-area: 1/1/7/3; */
-  grid-area: profile;
+#header{
+  grid-area: header;
 }
 
-.name-intro{
-  /* grid-area: 1/3/3/6; */
-  grid-area: name;
+#header h1{
+  font-size: 450%;
 }
 
-.desc-info{
-  /* grid-area: 3/3/6/6; */
-  grid-area: desc;
-}
-.cntct-link{
-  /* grid-area: 6/3/7/6; */
-  grid-area: link;
-  background-color: var(--t2c1);
+#header h2{
+  font-size: 350%;
 }
 
-table{
-  width: 100%;
+#intro{
+ grid-area: intro;
+}
+
+#dwnld{
+  grid-area: dwnld;
+}
+
+.nav-item img{
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.nav-item{
   text-align: center;
 }
-ion-icon{
-  display: block;
-  /* height: 100%; */
-  width: 100%;
-  margin: auto auto;
+
+#dwnld img {
+  width: 10%;
+  height: auto;
+}
+
+#dwnld{
+  border: 5px solid white;
+  text-align: center;
 }
