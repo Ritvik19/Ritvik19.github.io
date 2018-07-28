@@ -1,0 +1,77 @@
+:root{
+  --t1c1: #EDAE49;
+  --t1c2: #D1495B;
+  --t1c3: #00798C;
+  --t1c4: #344F75;
+  --t1c5: #003D5B;
+
+  --t2c1: #2E9DFF;
+  --t2c2: #73BEFF;
+  --t2c3: #B9DEFF;
+  --t2c4: #CCCCCC;
+  --t2c5: #003E74;
+
+  --t3c1: #33658A;
+  --t3c2: #ADBDFF;
+  --t3c3: #758E4F;
+  --t3c4: #F6AE2D;
+  --t3c5: #F26419;
+}
+
+body{
+  max-width: 100%;
+  background-color: var
+}
+
+.intro{
+  display: grid;
+  width: 70%;
+  margin: 70px auto 70px;
+  grid-template-areas:
+  "profile profile name name name name name name name name name"
+  "profile profile name name name name name name name name name"
+  "profile profile desc desc desc desc desc desc desc desc desc"
+  "profile profile desc desc desc desc desc desc desc desc desc"
+  "profile profile desc desc desc desc desc desc desc desc desc"
+  "profile profile link link link link link link link link link"
+}
+
+icon-icon{
+}
+
+#pp{
+  width: 100%;
+  border: 5px solid var(--t2c1);
+  height: 100%;
+}
+
+.profile-pic{
+  /* grid-area: 1/1/7/3; */
+  grid-area: profile;
+}
+
+.name-intro{
+  /* grid-area: 1/3/3/6; */
+  grid-area: name;
+}
+
+.desc-info{
+  /* grid-area: 3/3/6/6; */
+  grid-area: desc;
+}
+.cntct-link{
+  /* grid-area: 6/3/7/6; */
+  grid-area: link;
+  background-color: var(--t2c1);
+}
+
+table{
+  width: 100%;
+  text-align: center;
+}
+ion-icon{
+  display: block;
+  /* height: 100%; */
+  width: 100%;
+  margin: auto auto;
+}
