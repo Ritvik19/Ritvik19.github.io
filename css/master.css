@@ -65,8 +65,9 @@ body{
   .lin-cont{
     display: none;
   }
-  .circle{
-    display: inline;
+  .circ-cont{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
   }
 }
 
