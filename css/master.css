@@ -34,9 +34,10 @@ body{
 /* DESKTOP */
 @media (min-width: 567px) {
   .block{
-    width: 70%;
+    width: 60%;
     margin: 5% auto 5%;
     background-color: white;
+
   }
   #home{
     display: grid;
@@ -45,13 +46,21 @@ body{
     "picture header header"
     "picture header header"
     "picture intro intro"
-    "dwnld intro intro";
+    "dwnld links links";
   }
   #highlight{
-    color: var(--t3c4);
+    color: var(--t3c1);
   }
   #dwnld{
-    background-color: var(--t3c4);
+    background-color: var(--t3c1);
+  }
+  ion-icon{
+    border: 1px solid var(--t3c1);
+  }
+  #intro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: start;
   }
 }
 
@@ -69,14 +78,18 @@ body{
     "picture"
     "header"
     "intro"
+    "links"
     "dwnld";
   }
   #highlight{
-    color: var(--t3c5);
+    color: var(--t3c2);
   }
 
   #dwnld{
-    background-color: var(--t3c5);
+    background-color: var(--t3c2);
+  }
+  ion-icon{
+    border: 1px solid var(--t3c2);
   }
 }
 
@@ -110,6 +123,15 @@ body{
  grid-area: intro;
 }
 
+#intro p{
+  font-size: 150%;
+}
+
+#links{
+  grid-area: links;
+  text-align: center;
+}
+
 #dwnld{
   grid-area: dwnld;
 }
@@ -132,4 +154,24 @@ body{
 #dwnld{
   border: 5px solid white;
   text-align: center;
+}
+
+#cv{
+  text-decoration: none;
+}
+
+#dwnld a:active{
+  color: white;
+}
+
+#dwnld a:hover{
+  color: white;
+}
+
+#dwnld a:visited{
+  color: white;
+}
+
+#dwnld a:link{
+  color: white;
 }
