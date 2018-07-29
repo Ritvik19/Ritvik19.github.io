@@ -62,6 +62,12 @@ body{
     grid-template-columns: 50% 50%;
     align-items: start;
   }
+  .lin-cont{
+    display: none;
+  }
+  .circle{
+    display: inline;
+  }
 }
 
 /* MOBILE */
@@ -90,6 +96,9 @@ body{
   }
   ion-icon{
     border: 1px solid var(--t3c2);
+  }
+  .circ-cont{
+    display: none;
   }
 }
 
