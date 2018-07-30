@@ -217,3 +217,91 @@ $("#p08b").mouseleave(function(){
     $("#p08f").fadeIn(1250);
   });
 });
+
+$("#p09f").mouseenter(function(){
+  $("#p09f").fadeOut(1250, function(){
+      $("#p09b").fadeIn(1250);
+  });
+});
+$("#p09b").mouseleave(function(){
+  $("#p09b").fadeOut(1250, function(){
+    $("#p09f").fadeIn(1250);
+  });
+});
+
+$("#p10f").mouseenter(function(){
+  $("#p10f").fadeOut(1250, function(){
+      $("#p10b").fadeIn(1250);
+  });
+});
+$("#p10b").mouseleave(function(){
+  $("#p10b").fadeOut(1250, function(){
+    $("#p10f").fadeIn(1250);
+  });
+});
+
+$("#p11f").mouseenter(function(){
+  $("#p11f").fadeOut(1250, function(){
+      $("#p11b").fadeIn(1250);
+  });
+});
+$("#p11b").mouseleave(function(){
+  $("#p11b").fadeOut(1250, function(){
+    $("#p11f").fadeIn(1250);
+  });
+});
+
+$("#p12f").mouseenter(function(){
+  $("#p12f").fadeOut(1250, function(){
+      $("#p12b").fadeIn(1250);
+  });
+});
+$("#p12b").mouseleave(function(){
+  $("#p12b").fadeOut(1250, function(){
+    $("#p12f").fadeIn(1250);
+  });
+});
+
+$("#p13f").mouseenter(function(){
+  $("#p13f").fadeOut(1250, function(){
+      $("#p13b").fadeIn(1250);
+  });
+});
+$("#p13b").mouseleave(function(){
+  $("#p13b").fadeOut(1250, function(){
+    $("#p13f").fadeIn(1250);
+  });
+});
+
+$("#p14f").mouseenter(function(){
+  $("#p14f").fadeOut(1250, function(){
+      $("#p14b").fadeIn(1250);
+  });
+});
+$("#p14b").mouseleave(function(){
+  $("#p14b").fadeOut(1250, function(){
+    $("#p14f").fadeIn(1250);
+  });
+});
+
+$("#p15f").mouseenter(function(){
+  $("#p15f").fadeOut(1250, function(){
+      $("#p15b").fadeIn(1250);
+  });
+});
+$("#p15b").mouseleave(function(){
+  $("#p15b").fadeOut(1250, function(){
+    $("#p15f").fadeIn(1250);
+  });
+});
+
+$("#p16f").mouseenter(function(){
+  $("#p16f").fadeOut(1250, function(){
+      $("#p16b").fadeIn(1250);
+  });
+});
+$("#p16b").mouseleave(function(){
+  $("#p16b").fadeOut(1250, function(){
+    $("#p16f").fadeIn(1250);
+  });
+});
