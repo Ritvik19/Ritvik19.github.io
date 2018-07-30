@@ -81,6 +81,13 @@ body{
   .back button{
     border-color: var(--t3c1);
   }
+  #edu-train h1{
+    color: var(--t3c1);
+  }
+  #edu-cert{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+  }
 }
 
 /* MOBILE */
@@ -118,6 +125,13 @@ body{
   }
   .back button{
     border-color: var(--t3c2);
+  }
+  #edu-train h1{
+    color: var(--t3c2);
+  }
+  #edu-cert{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
   }
 }
 
@@ -237,4 +251,9 @@ body{
 
 .back h1, h2{
   text-align: center;
+}
+
+#edu-train h2, h3{
+  text-align: left;
+  padding-left: 10%;
 }
