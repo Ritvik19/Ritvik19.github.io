@@ -132,7 +132,7 @@ $("#43").click(function(){
 
 $("#p01f").mouseenter(function(){
   $("#p01f").fadeOut(1250, function(){
-      $("#p01b").fadeIn(1250);
+    $("#p01b").fadeIn(1250);
   });
 });
 $("#p01b").mouseleave(function(){
@@ -143,7 +143,7 @@ $("#p01b").mouseleave(function(){
 
 $("#p02f").mouseenter(function(){
   $("#p02f").fadeOut(1250, function(){
-      $("#p02b").fadeIn(1250);
+    $("#p02b").fadeIn(1250);
   });
 });
 $("#p02b").mouseleave(function(){
@@ -154,7 +154,7 @@ $("#p02b").mouseleave(function(){
 
 $("#p03f").mouseenter(function(){
   $("#p03f").fadeOut(1250, function(){
-      $("#p03b").fadeIn(1250);
+    $("#p03b").fadeIn(1250);
   });
 });
 $("#p03b").mouseleave(function(){
@@ -165,7 +165,7 @@ $("#p03b").mouseleave(function(){
 
 $("#p04f").mouseenter(function(){
   $("#p04f").fadeOut(1250, function(){
-      $("#p04b").fadeIn(1250);
+    $("#p04b").fadeIn(1250);
   });
 });
 $("#p04b").mouseleave(function(){
@@ -176,7 +176,7 @@ $("#p04b").mouseleave(function(){
 
 $("#p05f").mouseenter(function(){
   $("#p05f").fadeOut(1250, function(){
-      $("#p05b").fadeIn(1250);
+    $("#p05b").fadeIn(1250);
   });
 });
 $("#p05b").mouseleave(function(){
@@ -187,7 +187,7 @@ $("#p05b").mouseleave(function(){
 
 $("#p06f").mouseenter(function(){
   $("#p06f").fadeOut(1250, function(){
-      $("#p06b").fadeIn(1250);
+    $("#p06b").fadeIn(1250);
   });
 });
 $("#p06b").mouseleave(function(){
@@ -198,7 +198,7 @@ $("#p06b").mouseleave(function(){
 
 $("#p07f").mouseenter(function(){
   $("#p07f").fadeOut(1250, function(){
-      $("#p07b").fadeIn(1250);
+    $("#p07b").fadeIn(1250);
   });
 });
 $("#p07b").mouseleave(function(){
@@ -209,7 +209,7 @@ $("#p07b").mouseleave(function(){
 
 $("#p08f").mouseenter(function(){
   $("#p08f").fadeOut(1250, function(){
-      $("#p08b").fadeIn(1250);
+    $("#p08b").fadeIn(1250);
   });
 });
 $("#p08b").mouseleave(function(){
@@ -220,7 +220,7 @@ $("#p08b").mouseleave(function(){
 
 $("#p09f").mouseenter(function(){
   $("#p09f").fadeOut(1250, function(){
-      $("#p09b").fadeIn(1250);
+    $("#p09b").fadeIn(1250);
   });
 });
 $("#p09b").mouseleave(function(){
@@ -231,7 +231,7 @@ $("#p09b").mouseleave(function(){
 
 $("#p10f").mouseenter(function(){
   $("#p10f").fadeOut(1250, function(){
-      $("#p10b").fadeIn(1250);
+    $("#p10b").fadeIn(1250);
   });
 });
 $("#p10b").mouseleave(function(){
@@ -242,7 +242,7 @@ $("#p10b").mouseleave(function(){
 
 $("#p11f").mouseenter(function(){
   $("#p11f").fadeOut(1250, function(){
-      $("#p11b").fadeIn(1250);
+    $("#p11b").fadeIn(1250);
   });
 });
 $("#p11b").mouseleave(function(){
@@ -253,7 +253,7 @@ $("#p11b").mouseleave(function(){
 
 $("#p12f").mouseenter(function(){
   $("#p12f").fadeOut(1250, function(){
-      $("#p12b").fadeIn(1250);
+    $("#p12b").fadeIn(1250);
   });
 });
 $("#p12b").mouseleave(function(){
@@ -264,7 +264,7 @@ $("#p12b").mouseleave(function(){
 
 $("#p13f").mouseenter(function(){
   $("#p13f").fadeOut(1250, function(){
-      $("#p13b").fadeIn(1250);
+    $("#p13b").fadeIn(1250);
   });
 });
 $("#p13b").mouseleave(function(){
@@ -275,7 +275,7 @@ $("#p13b").mouseleave(function(){
 
 $("#p14f").mouseenter(function(){
   $("#p14f").fadeOut(1250, function(){
-      $("#p14b").fadeIn(1250);
+    $("#p14b").fadeIn(1250);
   });
 });
 $("#p14b").mouseleave(function(){
@@ -286,7 +286,7 @@ $("#p14b").mouseleave(function(){
 
 $("#p15f").mouseenter(function(){
   $("#p15f").fadeOut(1250, function(){
-      $("#p15b").fadeIn(1250);
+    $("#p15b").fadeIn(1250);
   });
 });
 $("#p15b").mouseleave(function(){
@@ -297,11 +297,89 @@ $("#p15b").mouseleave(function(){
 
 $("#p16f").mouseenter(function(){
   $("#p16f").fadeOut(1250, function(){
-      $("#p16b").fadeIn(1250);
+    $("#p16b").fadeIn(1250);
   });
 });
 $("#p16b").mouseleave(function(){
   $("#p16b").fadeOut(1250, function(){
     $("#p16f").fadeIn(1250);
+  });
+});
+
+$("#p17f").mouseenter(function(){
+  $("#p17f").fadeOut(1250, function(){
+    $("#p17b").fadeIn(1250);
+  });
+});
+$("#p17b").mouseleave(function(){
+  $("#p17b").fadeOut(1250, function(){
+    $("#p17f").fadeIn(1250);
+  });
+});
+
+$("#p18f").mouseenter(function(){
+  $("#p18f").fadeOut(1250, function(){
+    $("#p18b").fadeIn(1250);
+  });
+});
+$("#p18b").mouseleave(function(){
+  $("#p18b").fadeOut(1250, function(){
+    $("#p18f").fadeIn(1250);
+  });
+});
+
+$("#p19f").mouseenter(function(){
+  $("#p19f").fadeOut(1250, function(){
+    $("#p19b").fadeIn(1250);
+  });
+});
+$("#p19b").mouseleave(function(){
+  $("#p19b").fadeOut(1250, function(){
+    $("#p19f").fadeIn(1250);
+  });
+});
+
+$("#p20f").mouseenter(function(){
+  $("#p20f").fadeOut(1250, function(){
+    $("#p20b").fadeIn(1250);
+  });
+});
+$("#p20b").mouseleave(function(){
+  $("#p20b").fadeOut(1250, function(){
+    $("#p20f").fadeIn(1250);
+  });
+});
+
+
+$("#p21f").mouseenter(function(){
+  $("#p21f").fadeOut(1250, function(){
+    $("#p21b").fadeIn(1250);
+  });
+});
+$("#p21b").mouseleave(function(){
+  $("#p21b").fadeOut(1250, function(){
+    $("#p21f").fadeIn(1250);
+  });
+});
+
+$("#p22f").mouseenter(function(){
+  $("#p22f").fadeOut(1250, function(){
+    $("#p22b").fadeIn(1250);
+  });
+});
+$("#p22b").mouseleave(function(){
+  $("#p22b").fadeOut(1250, function(){
+    $("#p22f").fadeIn(1250);
+  });
+});
+
+$("#p23f").mouseenter(function(){
+  $("#p23f").fadeOut(1250, function(){
+    $("#p23b").fadeIn(1250);
+  });
+});
+$("#p23b").mouseleave(function(){
+  $("#p23b").fadeOut(1250, function(){
+    $("#p23f").fadeIn(1250);
   });
 });
