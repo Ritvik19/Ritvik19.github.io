@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 
 $("#12").click(function(){
-  $("#picture, #header, #intro, #links, #dwnld").hide(2500, function(){
+  $("#home-content").hide(2500, function(){
       $("#inavigate").hide();
       $("#home").hide();
       $("#education").show();
@@ -16,7 +16,7 @@ $("#12").click(function(){
   });
 });
 $("#13").click(function(){
-  $("#picture, #header, #intro, #links, #dwnld").hide(2500, function(){
+  $("#home-content").hide(2500, function(){
       $("#inavigate").hide();
       $("#home").hide();
       $("#skills").show();
@@ -26,7 +26,7 @@ $("#13").click(function(){
   });
 });
 $("#14").click(function(){
-  $("#picture, #header, #intro, #links, #dwnld").hide(2500, function(){
+  $("#home-content").hide(2500, function(){
       $("#inavigate").hide();
       $("#home").hide();
       $("#portfolio").show();
@@ -41,9 +41,9 @@ $("#21").click(function(){
       $("#enavigate").hide();
       $("#education").hide();
       $("#home").show();
-      $("#picture, #header, #intro, #links, #dwnld").hide();
+      $("#home-content").hide();
       $("#inavigate").show();
-      $("#picture, #header, #intro, #links, #dwnld").show(2500);
+      $("#home-content").show(2500);
   });
 });
 $("#23").click(function(){
@@ -72,9 +72,9 @@ $("#31").click(function(){
       $("#snavigate").hide();
       $("#skills").hide();
       $("#home").show();
-      $("#picture, #header, #intro, #links, #dwnld").hide();
+      $("#home-content").hide();
       $("#inavigate").show();
-      $("#picture, #header, #intro, #links, #dwnld").show(2500);
+      $("#home-content").show(2500);
   });
 });
 $("#32").click(function(){
@@ -103,9 +103,9 @@ $("#41").click(function(){
       $("#pnavigate").hide();
       $("#portfolio").hide();
       $("#home").show();
-      $("#picture, #header, #intro, #links, #dwnld").hide();
+      $("#home-content").hide();
       $("#inavigate").show();
-      $("#picture, #header, #intro, #links, #dwnld").show(2500);
+      $("#home-content").show(2500);
   });
 });
 $("#42").click(function(){

@@ -39,10 +39,10 @@ body{
     background-color: white;
 
   }
-  #home{
+  #home-content{
     display: grid;
     grid-template-areas:
-    "nav nav nav"
+    /* "nav nav nav" */
     "picture header header"
     "picture header header"
     "picture intro intro"
@@ -90,10 +90,10 @@ body{
     margin: 5% auto 5%;
     background-color: white;
   }
-  #home{
+  #home-content{
     display: grid;
     grid-template-areas:
-    "nav"
+    /* "nav" */
     "picture"
     "header"
     "intro"
