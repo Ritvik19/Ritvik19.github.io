@@ -195,3 +195,25 @@ $("#p06b").mouseleave(function(){
     $("#p06f").fadeIn(1250);
   });
 });
+
+$("#p07f").mouseenter(function(){
+  $("#p07f").fadeOut(1250, function(){
+      $("#p07b").fadeIn(1250);
+  });
+});
+$("#p07b").mouseleave(function(){
+  $("#p07b").fadeOut(1250, function(){
+    $("#p07f").fadeIn(1250);
+  });
+});
+
+$("#p08f").mouseenter(function(){
+  $("#p08f").fadeOut(1250, function(){
+      $("#p08b").fadeIn(1250);
+  });
+});
+$("#p08b").mouseleave(function(){
+  $("#p08b").fadeOut(1250, function(){
+    $("#p08f").fadeIn(1250);
+  });
+});
