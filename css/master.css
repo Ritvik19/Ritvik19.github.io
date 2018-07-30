@@ -59,7 +59,8 @@ body{
   }
   #intro{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 35% 35%;
+    grid-gap: 10% 10%;
     align-items: start;
   }
   .lin-cont{
@@ -68,6 +69,17 @@ body{
   .circ-cont{
     display: grid;
     grid-template-columns: repeat(4, 25%);
+  }
+  #port-content{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    /* grid-template-rows: repeat(10, auto); */
+  }
+  .project{
+    border: 2px solid var(--t3c1);
+  }
+  .back button{
+    border-color: var(--t3c1);
   }
 }
 
@@ -100,6 +112,12 @@ body{
   }
   .circ-cont{
     display: none;
+  }
+  .project{
+    border: 2px solid var(--t3c2);
+  }
+  .back button{
+    border-color: var(--t3c2);
   }
 }
 
@@ -184,4 +202,39 @@ body{
 
 #dwnld a:link{
   color: white;
+}
+
+.circle h2{
+  text-align: center;
+}
+
+.front{
+  height: 100%;
+  width: 100%;
+}
+
+.front h2{
+  text-align: center;
+}
+
+.front img{
+  display: block;
+  width: 95%;
+  margin:auto;
+  height: auto;
+}
+
+.back{
+  height: 100%;
+  width: 100%;
+  padding: 2%;
+}
+
+.back button{
+  display: block;
+  margin: auto;
+}
+
+.back h1, h2{
+  text-align: center;
 }

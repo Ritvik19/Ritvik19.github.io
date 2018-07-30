@@ -1,9 +1,10 @@
-// alert("linked");
 $(document).ready(function(){
   $(".block").hide();
   $("#home").show(2500);
+  $(".back").fadeOut();
 });
-// alert("linked");
+
+
 $("#12").click(function(){
   $("#picture, #header, #intro, #links, #dwnld").hide(2500, function(){
       $("#inavigate").hide();
@@ -34,6 +35,7 @@ $("#14").click(function(){
       $("#port-content").show(2500);
   });
 });
+
 $("#21").click(function(){
   $("#edu-content").hide(2500, function(){
       $("#enavigate").hide();
@@ -64,6 +66,7 @@ $("#24").click(function(){
       $("#port-content").show(2500);
   });
 });
+
 $("#31").click(function(){
   $("#skill-content").hide(2500, function(){
       $("#snavigate").hide();
@@ -94,6 +97,7 @@ $("#34").click(function(){
       $("#port-content").show(2500);
   });
 });
+
 $("#41").click(function(){
   $("#port-content").hide(2500, function(){
       $("#pnavigate").hide();
@@ -122,5 +126,72 @@ $("#43").click(function(){
       $("#skill-content").hide();
       $("#snavigate").show();
       $("#skill-content").show(2500);
+  });
+});
+
+
+$("#p01f").mouseenter(function(){
+  $("#p01f").fadeOut(1250, function(){
+      $("#p01b").fadeIn(1250);
+  });
+});
+$("#p01b").mouseleave(function(){
+  $("#p01b").fadeOut(1250, function(){
+    $("#p01f").fadeIn(1250);
+  });
+});
+
+$("#p02f").mouseenter(function(){
+  $("#p02f").fadeOut(1250, function(){
+      $("#p02b").fadeIn(1250);
+  });
+});
+$("#p02b").mouseleave(function(){
+  $("#p02b").fadeOut(1250, function(){
+    $("#p02f").fadeIn(1250);
+  });
+});
+
+$("#p03f").mouseenter(function(){
+  $("#p03f").fadeOut(1250, function(){
+      $("#p03b").fadeIn(1250);
+  });
+});
+$("#p03b").mouseleave(function(){
+  $("#p03b").fadeOut(1250, function(){
+    $("#p03f").fadeIn(1250);
+  });
+});
+
+$("#p04f").mouseenter(function(){
+  $("#p04f").fadeOut(1250, function(){
+      $("#p04b").fadeIn(1250);
+  });
+});
+$("#p04b").mouseleave(function(){
+  $("#p04b").fadeOut(1250, function(){
+    $("#p04f").fadeIn(1250);
+  });
+});
+
+$("#p05f").mouseenter(function(){
+  $("#p05f").fadeOut(1250, function(){
+      $("#p05b").fadeIn(1250);
+  });
+});
+$("#p05b").mouseleave(function(){
+  $("#p05b").fadeOut(1250, function(){
+    $("#p05f").fadeIn(1250);
+  });
+});
+
+$("#p06f").mouseenter(function(){
+  $("#p06f").fadeOut(1250, function(){
+      $("#p06b").fadeIn(1250);
+  });
+});
+$("#p06b").mouseleave(function(){
+  $("#p06b").fadeOut(1250, function(){
+    $("#p06f").fadeIn(1250);
   });
 });
