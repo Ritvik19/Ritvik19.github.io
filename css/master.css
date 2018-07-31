@@ -77,6 +77,7 @@ body{
   }
   .project{
     border: 2px solid var(--t3c1);
+    border-radius: 5px;
   }
   .back button{
     border-color: var(--t3c1);
@@ -87,6 +88,13 @@ body{
   #edu-cert{
     display: grid;
     grid-template-columns: repeat(4, 25%);
+  }
+  #edu-cert .back{
+    background-color: var(--t3c1);
+  }
+  .cert{
+    border: 2px solid var(--t3c2);
+    border-radius: 5px;
   }
 }
 
@@ -122,6 +130,7 @@ body{
   }
   .project{
     border: 2px solid var(--t3c2);
+    border-radius: 5px;
   }
   .back button{
     border-color: var(--t3c2);
@@ -132,6 +141,13 @@ body{
   #edu-cert{
     display: grid;
     grid-template-columns: repeat(2, 50%);
+  }
+  #edu-cert .back{
+    background-color: var(--t3c2);
+  }
+  .cert{
+    border: 2px solid var(--t3c1);
+    border-radius: 5px;
   }
 }
 
@@ -255,5 +271,14 @@ body{
 
 #edu-train h2, h3{
   text-align: left;
-  padding-left: 10%;
+}
+
+#edu-cert .back button{
+  display: block;
+  background-color: white;
+  margin: 15% auto 15%;
+}
+#edu-cert h2, h3{
+  text-align: left;
+  /* padding: 2%; */
 }

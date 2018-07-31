@@ -383,3 +383,92 @@ $("#p23b").mouseleave(function(){
     $("#p23f").fadeIn(1250);
   });
 });
+
+
+$("#e01f").mouseenter(function(){
+  $("#e01f").fadeOut(1250, function(){
+    $("#e01b").fadeIn(1250);
+  });
+});
+$("#e01b").mouseleave(function(){
+  $("#e01b").fadeOut(1250, function(){
+    $("#e01f").fadeIn(1250);
+  });
+});
+
+$("#e02f").mouseenter(function(){
+  $("#e02f").fadeOut(1250, function(){
+    $("#e02b").fadeIn(1250);
+  });
+});
+$("#e02b").mouseleave(function(){
+  $("#e02b").fadeOut(1250, function(){
+    $("#e02f").fadeIn(1250);
+  });
+});
+
+$("#e03f").mouseenter(function(){
+  $("#e03f").fadeOut(1250, function(){
+    $("#e03b").fadeIn(1250);
+  });
+});
+$("#e03b").mouseleave(function(){
+  $("#e03b").fadeOut(1250, function(){
+    $("#e03f").fadeIn(1250);
+  });
+});
+
+$("#e04f").mouseenter(function(){
+  $("#e04f").fadeOut(1250, function(){
+    $("#e04b").fadeIn(1250);
+  });
+});
+$("#e04b").mouseleave(function(){
+  $("#e04b").fadeOut(1250, function(){
+    $("#e04f").fadeIn(1250);
+  });
+});
+
+$("#e05f").mouseenter(function(){
+  $("#e05f").fadeOut(1250, function(){
+    $("#e05b").fadeIn(1250);
+  });
+});
+$("#e05b").mouseleave(function(){
+  $("#e05b").fadeOut(1250, function(){
+    $("#e05f").fadeIn(1250);
+  });
+});
+
+$("#e06f").mouseenter(function(){
+  $("#e06f").fadeOut(1250, function(){
+    $("#e06b").fadeIn(1250);
+  });
+});
+$("#e06b").mouseleave(function(){
+  $("#e06b").fadeOut(1250, function(){
+    $("#e06f").fadeIn(1250);
+  });
+});
+
+$("#e07f").mouseenter(function(){
+  $("#e07f").fadeOut(1250, function(){
+    $("#e07b").fadeIn(1250);
+  });
+});
+$("#e07b").mouseleave(function(){
+  $("#e07b").fadeOut(1250, function(){
+    $("#e07f").fadeIn(1250);
+  });
+});
+
+$("#e08f").mouseenter(function(){
+  $("#e08f").fadeOut(1250, function(){
+    $("#e08b").fadeIn(1250);
+  });
+});
+$("#e08b").mouseleave(function(){
+  $("#e08b").fadeOut(1250, function(){
+    $("#e08f").fadeIn(1250);
+  });
+});
