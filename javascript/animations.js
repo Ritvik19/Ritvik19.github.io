@@ -196,6 +196,17 @@ $("#p06b").mouseleave(function(){
   });
 });
 
+$("#p06-2f").mouseenter(function(){
+  $("#p06-2f").fadeOut(1250, function(){
+    $("#p06-2b").fadeIn(1250);
+  });
+});
+$("#p06-2b").mouseleave(function(){
+  $("#p06-2b").fadeOut(1250, function(){
+    $("#p06-2f").fadeIn(1250);
+  });
+});
+
 $("#p07f").mouseenter(function(){
   $("#p07f").fadeOut(1250, function(){
     $("#p07b").fadeIn(1250);
@@ -226,6 +237,17 @@ $("#p09f").mouseenter(function(){
 $("#p09b").mouseleave(function(){
   $("#p09b").fadeOut(1250, function(){
     $("#p09f").fadeIn(1250);
+  });
+});
+
+$("#p09-2f").mouseenter(function(){
+  $("#p09-2f").fadeOut(1250, function(){
+    $("#p09-2b").fadeIn(1250);
+  });
+});
+$("#p09-2b").mouseleave(function(){
+  $("#p09-2b").fadeOut(1250, function(){
+    $("#p09-2f").fadeIn(1250);
   });
 });
 
