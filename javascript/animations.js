@@ -494,3 +494,14 @@ $("#e08b").mouseleave(function(){
     $("#e08f").fadeIn(1250);
   });
 });
+
+$("#e09f").mouseenter(function(){
+  $("#e09f").fadeOut(1250, function(){
+    $("#e09b").fadeIn(1250);
+  });
+});
+$("#e09b").mouseleave(function(){
+  $("#e09b").fadeOut(1250, function(){
+    $("#e09f").fadeIn(1250);
+  });
+});
