@@ -240,6 +240,17 @@ $("#p09b").mouseleave(function(){
   });
 });
 
+$("#p09-1f").mouseenter(function(){
+  $("#p09-1f").fadeOut(1250, function(){
+    $("#p09-1b").fadeIn(1250);
+  });
+});
+$("#p09-1b").mouseleave(function(){
+  $("#p09-1b").fadeOut(1250, function(){
+    $("#p09-1f").fadeIn(1250);
+  });
+});
+
 $("#p09-2f").mouseenter(function(){
   $("#p09-2f").fadeOut(1250, function(){
     $("#p09-2b").fadeIn(1250);
