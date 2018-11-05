@@ -28,3 +28,7 @@ html, body{
   position: absolute;
   font-size: 200%;
 }
+
+.inner{
+  padding: 5px;
+}
