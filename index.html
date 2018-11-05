@@ -7,6 +7,7 @@
     <title>Ritvik Rastogi</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -21,18 +22,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <div id='main' class="container">
-      <i class="fas fa-bars toggle-icon" id='show'></i>
+    <div id='main'>
+      <i class="fas fa-bars toggle-icon" id='show' onclick="openNav()"></i>
 
     </div>
 
-    <div id='nav' class="container">
-      <i class="fas fa-times toggle-icon" id='hide'></i>
-      <div>
-        <h1>Home</h1>
-        <h1>Education</h1>
-        <h1>Skills</h1>
-        <h1>Portfolio</h1>
+    <div id='nav' class="overlay">
+      <i class="fas fa-times toggle-icon" id='hide' onclick="closeNav()"></i>
+      <div class="overlay-content">
+        <a href="#"><h1>Home</h1></a>
+        <a href="#"><h1>Education</h1></a>
+        <a href="#"><h1>Skills</h1></a>
+        <a href="#"><h1>Portfolio</h1></a>
       </div>
     </div>
     <script src="javascript/main.js" charset="utf-8"></script>

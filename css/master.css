@@ -6,9 +6,6 @@ html, body{
   overflow-y: scroll;
   overflow-x: hidden;
   padding: 2%;
-}
-
-.container{
   height: 80vh;
   width: 80vw;
   margin:auto;
@@ -16,23 +13,18 @@ html, body{
   background-color: #ffffff;
 }
 
-.toggle-icon{
-  z-index: 1000;
+#main > .toggle-icon{
+  z-index: 1;
   top: 13vh;
   right: 13vw;
   position: absolute;
   font-size: 200%;
 }
 
-#nav > div > h1{
-  display: block;
-  text-align: center;
-}
-
-#nav > div{
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+#nav > .toggle-icon{
+  z-index: 100;
+  top: 5vh;
+  right: 5vw;
+  position: absolute;
+  font-size: 200%;
 }
