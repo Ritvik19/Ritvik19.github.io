@@ -43,7 +43,6 @@ html, body{
 
 #main > .toggle-icon{
   z-index: 1000;
-  top: 8vh;
   right: 5vw;
   /* position: relative; */
   position: absolute;
@@ -61,4 +60,15 @@ html, body{
 .inner{
   padding: 5px;
   position: absolute;
+}
+
+@media (min-width: 567px) {
+  #main > .toggle-icon{
+    top: 5vh;
+  }
+}
+@media (max-width: 567px) {
+  #main > .toggle-icon{
+    top: 2.5vh;
+  }
 }
