@@ -69,6 +69,6 @@ html, body{
 }
 @media (max-width: 567px) {
   #main > .toggle-icon{
-    top: 2.5vh;
+    top: 2vh;
   }
 }

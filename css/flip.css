@@ -37,3 +37,38 @@
   -webkit-transform : perspective(600px) rotateY(0deg);
   transform: perspective(600px) rotateY(0deg);
 }
+
+.flip3D > .back > a{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.flip3D > .front > div{
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.flip3D > .front > div > h1{
+  text-align: center;
+  min-width: 240px;
+  display: block;
+}
+
+.flip3D > .front > div > h2{
+  text-align: right;
+  margin-right: 5px;
+  display: block;
+}
+
+.flip3D > .front > div > h3{
+  text-align: left;
+  margin-left: 5px;
+  display: block;
+}
