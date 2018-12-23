@@ -25,6 +25,7 @@
 
 html, body{
   background-color: #cccccc !important;
+  max-height: 100vh !important;
 }
 
 #main{
@@ -35,19 +36,22 @@ html, body{
   width: 80vw;
   margin:auto;
   margin-top: 10vh;
+  margin-left: 10vw;
   background-color: #ffffff;
+  position: absolute;
 }
 
 #main > .toggle-icon{
-  z-index: 1;
-  top: 13vh;
-  right: 13vw;
+  z-index: 1000;
+  top: 8vh;
+  right: 5vw;
+  /* position: relative; */
   position: absolute;
   font-size: 200%;
 }
 
 #nav > .toggle-icon{
-  z-index: 100;
+  z-index: 1000;
   top: 5vh;
   right: 5vw;
   position: absolute;
@@ -56,4 +60,5 @@ html, body{
 
 .inner{
   padding: 5px;
+  position: absolute;
 }

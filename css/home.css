@@ -29,7 +29,6 @@
   #home-content{
     display: grid;
     grid-template-areas:
-    /* "nav" */
     "picture"
     "header"
     "intro"
@@ -50,11 +49,13 @@
 
 #inavigate{
   grid-area: nav;
+  position: relative;
   background-color: white;
 }
 
 #picture{
   grid-area: picture;
+  position: relative;
 }
 
 #picture img{
@@ -63,6 +64,7 @@
 }
 
 #header{
+  position: relative;
   grid-area: header;
 }
 
@@ -75,6 +77,7 @@
 }
 
 #intro{
+  position: relative;
  grid-area: intro;
 }
 
@@ -83,11 +86,13 @@
 }
 
 #links{
+  position: relative;
   grid-area: links;
   text-align: center;
 }
 
 #dwnld{
+  position: relative;
   grid-area: dwnld;
 }
 

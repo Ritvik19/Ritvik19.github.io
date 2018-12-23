@@ -1,0 +1,11 @@
+.inner > h1{
+  font-size: 250% !important;
+}
+
+.inner > h3{
+  font-size: 180% !important;
+}
+
+.inner > h5{
+  font-size: 150% !important;
+}
