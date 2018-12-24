@@ -14,6 +14,10 @@
   width: 75vw;
 }
 
+h2> img{
+  border-radius: 50%;
+}
+
 /* .circle{
   display: inline-block;
 } */
