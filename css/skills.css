@@ -1,0 +1,31 @@
+.inner > h1{
+  font-size: 250% !important;
+}
+
+.inner > h2{
+  font-size: 180% !important;
+}
+
+.inner > h3{
+  font-size: 150% !important;
+}
+
+.lin-cont{
+  width: 75vw;
+}
+
+/* .circle{
+  display: inline-block;
+} */
+
+/* @media (min-width: 567px){
+  .lin-cont{
+    display: none;
+  }
+}
+
+@media (max-width: 567px){
+  .circ-cont{
+    display: none;
+  }
+} */
