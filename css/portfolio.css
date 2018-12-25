@@ -1,0 +1,30 @@
+.inner > h1{
+  font-size: 250% !important;
+}
+
+.inner > h2{
+  font-size: 180% !important;
+}
+
+.inner > h3{
+  font-size: 150% !important;
+}
+
+.card{
+  display: inline-block !important;
+  margin: 5px 5px;
+  width: 200px !important;
+  height: 280px; /**/
+}
+
+.card > .card-img-top{
+  height: 100px !important;
+}
+
+.card-body > h1{
+  height: 75px !important;
+}
+
+.card-body > button{
+  height: 35px;
+}
