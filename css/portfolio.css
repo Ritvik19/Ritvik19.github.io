@@ -28,3 +28,14 @@
 .card-body > button{
   height: 35px;
 }
+
+.da{
+  display: inline-block !important;
+  margin: 5px 5px;
+  width: 200px !important;
+  height: 180px !important;
+}
+
+.card-link{
+  font-size: 50%;
+}
