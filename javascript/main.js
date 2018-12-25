@@ -5,3 +5,10 @@ function openNav() {
 function closeNav() {
   document.getElementById("nav").style.width = "0%";
 }
+
+$(document).ready(function(){
+  $('.disabled').click(function(){
+    alert('Sorry for the inconvenience, this project is not available on github')
+    return false;
+  });
+});
