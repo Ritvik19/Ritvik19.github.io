@@ -23,21 +23,11 @@
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: var(--t1c3);
+    color: #00798C;
     display: block;
     transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: var(--t3c2);
-}
-
-.grid{
-  /* display: grid; */
-}
-
-@media only screen and (max-width: 768px) {
-}
-
-@media only screen and (min-width: 768px) {
+    color: #ADBDFF;
 }

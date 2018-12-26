@@ -9,10 +9,10 @@
   }
   #dwnld{
     padding: 5%;
-    background-color: var(--t3c1);
+    background-color: #33658A;
   }
   ion-icon{
-    border: 1px solid var(--t3c1);
+    border: 1px solid #33658A;
   }
   #intro{
     display: grid;
@@ -34,14 +34,14 @@
     "dwnld";
   }
   #highlight{
-    color: var(--t3c2);
+    color: #ADBDFF;
   }
 
   #dwnld{
-    background-color: var(--t3c2);
+    background-color: #344F75;
   }
   ion-icon{
-    border: 1px solid var(--t3c2);
+    border: 1px solid #ADBDFF;
   }
 }
 

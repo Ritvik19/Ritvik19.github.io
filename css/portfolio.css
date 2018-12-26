@@ -3,9 +3,9 @@
   margin: 3px 3px;
   width: 200px !important;
   height: 280px;
-  border-color: var(--t1c4) !important;
+  border-color: #344F75 !important;
   border-width: 2px !important;
-  background-color: var(--t3c4) !important;
+  background-color: #99AAFF !important;
 }
 
 .card > .card-img-top{
@@ -14,7 +14,7 @@
 
 .card-body > h1{
   height: 75px !important;
-  border-color: var(--t1c4) !important;
+  border-color: #344F75 !important;
   border-width: 2px !important;
 }
 
@@ -27,13 +27,13 @@
 }
 
 .text-right > button{
-  border-color: var(--t1c5) !important;
-  background-color: var(--t2c5) !important;
-  color: var(--t2c2) !important;
+  border-color: #003D5B !important;
+  background-color: #003E74 !important;
+  color: #73BEFF !important;
 }
 
 .modal-content{
-  border-color: var(--t1c5) !important;
+  border-color: #003D5B !important;
   border-width: 2px !important;
-  background-color: var(--t3c2) !important;
+  background-color: #ADBDFF !important;
 }
