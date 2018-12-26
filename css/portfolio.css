@@ -1,11 +1,11 @@
 .card{
   display: inline-block !important;
-  margin: 5px 5px;
+  margin: 3px 3px;
   width: 200px !important;
   height: 280px;
   border-color: var(--t1c4) !important;
   border-width: 2px !important;
-  background-color: var(--t3c5) !important;
+  background-color: var(--t3c4) !important;
 }
 
 .card > .card-img-top{

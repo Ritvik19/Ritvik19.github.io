@@ -14,7 +14,7 @@
   --t3c1: #33658A;
   --t3c2: #ADBDFF;
   --t3c3: #758E4F;
-  --t3c4: #F6AE2D;
+  --t3c4: #99AAFF;
   --t3c5: #99BBFF;
 }
 
@@ -24,7 +24,7 @@
 }
 
 html, body{
-  background-color: #cccccc !important;
+  background-color: #999999 !important;
   max-height: 100vh !important;
 }
 
