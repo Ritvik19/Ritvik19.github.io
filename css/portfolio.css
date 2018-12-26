@@ -37,3 +37,13 @@
   border-width: 2px !important;
   background-color: #ADBDFF !important;
 }
+
+@media (max-width: 567px) {
+  .card{
+    margin: 5px auto !important;
+    display: block !important;
+  }
+  .card-container{
+    width: 75vw !important;
+  }
+}
