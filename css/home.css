@@ -7,9 +7,6 @@
     "picture intro intro"
     "dwnld links links";
   }
-  #highlight{
-    color: var(--t3c1);
-  }
   #dwnld{
     padding: 5%;
     background-color: var(--t3c1);

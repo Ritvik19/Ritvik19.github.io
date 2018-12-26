@@ -1,11 +1,36 @@
-.inner > h1{
-  font-size: 250% !important;
+.flip3D > .front{
+  background: var(--t3c2);
+  border: 3px solid var(--t1c5);
+  color: var(--t2c5);
 }
 
-.inner > h3{
-  font-size: 180% !important;
+.flip3D > .back{
+  background: var(--t2c2);
+  border: 3px solid var(--t2c5);
 }
 
-.inner > h5{
-  font-size: 150% !important;
+.flip3D > .front > div > h1{
+  text-align: center;
+  min-width: 240px;
+  display: block;
+  padding: 5px;
+}
+
+.flip3D > .front > div > h2{
+  text-align: right;
+  margin-right: 5px;
+  display: block;
+  padding: 5px;
+}
+
+.flip3D > .front > div > h3{
+  text-align: left;
+  margin-left: 5px;
+  display: block;
+  padding: 5px;
+}
+
+.flip3D > .back > a > button{
+  border-color: var(--t2c5) !important;
+  color: var(--t2c5) !important;
 }

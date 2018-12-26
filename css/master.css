@@ -15,7 +15,7 @@
   --t3c2: #ADBDFF;
   --t3c3: #758E4F;
   --t3c4: #F6AE2D;
-  --t3c5: #F26419;
+  --t3c5: #99BBFF;
 }
 
 *{
@@ -61,6 +61,23 @@ html, body{
   padding: 5px;
   position: absolute;
 }
+
+#highlight{
+  color: var(--t3c1);
+}
+
+.inner > span > h1{
+  font-size: 250% !important;
+}
+
+.inner > h3{
+  font-size: 180% !important;
+}
+
+.inner > h5{
+  font-size: 150% !important;
+}
+
 
 @media (min-width: 567px) {
   #main > .toggle-icon{
