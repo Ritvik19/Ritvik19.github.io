@@ -1,81 +1,889 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ritvik Rastogi</title>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/scrollbar.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <div id='main'>
-      <i class="fas fa-bars toggle-icon" id='show' onclick="openNav()"></i>
-      <div class="inner" id="home-content">
-        <div class="inner" id="picture">
-          <img src="images/profile.jpg" alt="">
-        </div>
-        <div class="inner" id="header">
-          <h1>HI I'M <span id="highlight">RITVIK RASTOGI</span> </h1>
-          <h3>I have been writing code since 2016, and taught myself a handful of skills and programming languages. I love working with python, doing frontend development and data analytics.</h3>
-        </div>
-        <div class="inner" id="intro">
-          <p>
-            Date of Birth: &nbsp; 19 Sept 1999 <br>
-            Address: &nbsp; Moradabad, Uttar Pradesh 244001 <br>
-            Nationality: &nbsp; Indian <br><br>
-          </p>
-          <p>
-            Phone: &nbsp; 8077 510 159 <br>
-            Email: &nbsp; rastogiritvik99@gmail.com <br>
-          </p>
-        </div>
-        <div class="inner" id="links">
-          <p>
-            <ion-icon name="checkbox-outline"></ion-icon>Available for freelance
-          </p>
-          <a href="https://www.linkedin.com/in/ritvik-rastogi-003085153/" target="_blank"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
-          <a href="https://www.facebook.com/ritvik.rastogi" target="_blank"><ion-icon name="logo-facebook" size="large"></ion-icon></a>
-          <a href="https://github.com/Ritvik19" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
-          <a href="https://codepen.io/Ritvik19/" target="_blank"><ion-icon name="logo-codepen" size="large"></ion-icon></a>
-        </div>
-        <div class="inner" id="dwnld">
-          <a href="https://drive.google.com/file/d/1exBPa0Sujg8nAmg0cIY1I51gRrON1nz3/view?usp=sharing" target="_blank"><img src="images/cv.svg" alt="">
-          Download CV</a>
-        </div>
-      </div>
+<html>
+<title>Ritvik Rastogi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/portfolio.css">
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="img/profile.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <ion-icon name="home" class="w3-xxlarge"></ion-icon>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <ion-icon name="contact" class="w3-xxlarge"></ion-icon>
+    <p>ABOUT</p>
+  </a>
+  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <ion-icon name="today" class="w3-xxlarge"></ion-icon>
+    <p>PORTFOLIO</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <ion-icon name="mail" class="w3-xxlarge"></ion-icon>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Hi I'm</span>Ritvik Rastogi</h1>
+    <h4>Intern, Analyttica Datalab Pvt. Ltd.</h4>
+    <h4>I have been writing code since 2016, and taught myself a handful of skills and programming languages. I love working with python, problem solving, doing frontend development and data analytics.</h4>
+    <!-- <img src="img/profile.jpg" alt="boy" class="w3-image" width="480" height="640"> -->
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h1 class="w3-text-light-grey">About Me</h1>
+    <hr>
+    <!-- Education -->
+    <h2 class="w3-padding-16 w3-text-light-grey">My Education</h2>
+    <h3>Bachelor of Technology (B.Tech), Computer Science (2016 - 2020)</h3>
+    <h5>Moradabad Institute of Technology</h5>
+    <hr class="w3-opacity">
+    <h3>XII (Senior Secondary), Science</h3>
+    <h5>Year of Completion: 2016</h5>
+    <h5>CBSE Board (RRK SCHOOL)</h5>
+    <h5>Percentage : 85.00%</h5>
+    <hr class="w3-opacity">
+    <h3>X (Secondary)</h3>
+    <h5>Year of Completion: 2014</h5>
+    <h5>CBSE Board (RRK SCHOOL)</h5>
+    <h5>CGPA : 10.0/10.0</h5>
+    <hr class="w3-opacity">
+
+    <!-- Skilss -->
+    <h2 class="w3-padding-16 w3-text-light-grey">My Skills</h2>
+    <p class="w3-wide">Python (Python 3)</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">Automation (Python)</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Data Science</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Machine Learning</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Deep Learning</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">Java (Core)</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Android Application Development</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div>
+    <p class="w3-wide">Front End Web Development</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
     </div>
 
-    <div id='nav' class="overlay">
-      <i class="fas fa-times toggle-icon" id='hide' onclick="closeNav()"></i>
-      <div class="overlay-content">
-        <a href="index.html"><h1>Home</h1></a>
-        <a href="education.html"><h1>Education</h1></a>
-        <a href="skills.html"><h1>Skills</h1></a>
-        <a href="portfolio.html"><h1>Portfolio</h1></a>
+    <br>
+    <!-- Certifications -->
+    <h2 class="w3-padding-16 w3-text-light-grey">My Certifications</h2>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>May 2019</p>
+            <h5>Data Mining</h5>
+            <p>NPTEL</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://nptel.ac.in/noc/E_Certificate/noc19-cs15/NPTEL19CS15S31770034191118349.jpg" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
       </div>
     </div>
-    <script src="javascript/main.js" charset="utf-8"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-  </body>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>April 2019</p>
+            <h5>Programming, Data Structures and Algorithms using Python</h5>
+            <p>NPTEL</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://nptel.ac.in/noc/E_Certificate/noc19-cs08/NPTEL19CS08S11590092191118349.jpg" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>December 2018</p>
+            <h5>Hands On Natural Language Processing (NLP) using Python</h5>
+            <p>Udemy</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://www.udemy.com/certificate/UC-POF5LQB3/" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>November 2018</p>
+            <h5>PHP and MySQL</h5>
+            <p>Spoken Tutorial Project IIT Bombay</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://drive.google.com/file/d/1HtRrCdb28N_AQ1oSBDKeIgI174c6IJWX/view?usp=sharing" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>August 2018</p>
+            <h5>The Complete Front-End Web Development</h5>
+            <p>Udemy</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://www.udemy.com/certificate/UC-82XYDZTE/" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>July 2018</p>
+            <h5>Android Application Development</h5>
+            <p>HCL Learning Ltd.</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="#" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>July 2018</p>
+            <h5>Responsive Web Design</h5>
+            <p>freeCodeCamp</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://www.freecodecamp.org/certification/fcc6dd5196a-ca57-415e-a959-3f52e2c2d97e/responsive-web-design" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>April 2018</p>
+            <h5>Python</h5>
+            <p>Spoken Tutorial Project IIT Bombay</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://drive.google.com/file/d/0B_XPSx96H9fzbGFua3plNndCak00SDFSUF9FY2N0NHZWako0/view" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>March 2018</p>
+            <h5>JavaScript</h5>
+            <p>SoloLearn</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://www.sololearn.com/Certificate/1024-947166/pdf/" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>July 2017</p>
+            <h5>Java 2 Standard Edition</h5>
+            <p>Info Solutions</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="#" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>July 2017</p>
+            <h5>Java</h5>
+            <p>SoloLearn</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://www.sololearn.com/Certificate/1068-947166/pdf/" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>June 2017</p>
+            <h5>HTML Fundamentals</h5>
+            <p>SoloLearn</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://www.sololearn.com/Certificate/1014-947166/pdf/" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>December 2016</p>
+            <h5>Python 3</h5>
+            <p>SoloLearn</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://www.sololearn.com/Certificate/1073-947166/pdf/" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div>
+            <p>May 2016</p>
+            <h5>C++</h5>
+            <p>SoloLearn</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <a href="https://www.sololearn.com/Certificate/1051-947166/pdf/" target="_blank"><button type="button" class="w3-button w3-round-large w3-dark-gray w3-ripple">View</button></a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Awards and Achivements -->
+    <h2 class="w3-padding-16 w3-text-light-grey">My Awards and Achivements</h2>
+    <div class="alert alert-dark" role="alert">
+      2018 AKTU Zonal Coding Contest: 1st Position
+    </div>
+    <div class="alert alert-dark" role="alert">
+      2018 AKTU State Level Coding Contest: 3rd Position
+    </div>
+    <div class="alert alert-dark" role="alert">
+      2019 AKTU Zonal Coding Contest: 1st Position
+    </div>
+    <div class="alert alert-dark" role="alert">
+      2019 AKTU State Level Coding Contest: 1st Position
+    </div>
+    <div class="alert alert-dark" role="alert">
+      Participated in the Grand Finale of Smart India Hackathon 2019
+    </div>
+  </div>
+  <!-- End About Section -->
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="portfolio">
+    <h2 class="w3-text-light-grey">My Portfolio</h2>
+    <hr style="width:200px">
+
+    <div id="myBtnContainer" class="row">
+      <button class="btn col" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn col active" onclick="filterSelection('featured')"> Featured</button>
+      <button class="btn col" onclick="filterSelection('front-end')"> Front End</button>
+      <button class="btn col" onclick="filterSelection('android')"> Android Applications</button>
+      <button class="btn col" onclick="filterSelection('java')"> Desktop Applications</button>
+      <button class="btn col" onclick="filterSelection('data')"> Data Science</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column front-end featured">
+        <div class="content w3-dark-gray">
+          <img src="img/w01.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-01">This Day That Year</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-01">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">This Day That Year</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w01.png" alt="" style="width:100%">
+                <p>A peek into the history of today</p>
+                <a href="https://github.com/Ritvik19/This-Day-That-Year" target="_blank">Git Hub</a>
+                <a href="https://thisdaythatyear.surge.sh/" target="_blank">Visit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column front-end featured">
+        <div class="content w3-dark-gray">
+          <img src="img/w02.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-02">Alumni Association Home Page</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-02">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">MIT Alumni Association Home Page</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w02.png" alt="" style="width:100%">
+                <a href="https://mitalumni.in/" target="_blank">Visit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column front-end">
+        <div class="content w3-dark-gray">
+          <img src="img/w03.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-03">To Do</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-03">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">To Do</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w03.png" alt="" style="width:100%">
+                <p>A simple To Do List where you can note your tasks according to their priority</p>
+                <a href="https://github.com/Ritvik19/Todo" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column front-end">
+        <div class="content w3-dark-gray">
+          <img src="img/w04.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-04">Games Hub</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-04">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Games Hub</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w04.png" alt="" style="width:100%">
+                <p>A simple website containing lots of light games to free you from boredom</p>
+                <a href="https://github.com/Ritvik19/Games.Hub" target="_blank">Git Hub</a>
+                <a href="https://games_hub.surge.sh/" target="_blank">Visit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column front-end">
+        <div class="content w3-dark-gray">
+          <img src="img/w05.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-05">Product Landing Page</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-05">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Product Landing Page</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w05.png" alt="" style="width:100%">
+                <p>A template for a simple Product Landing Page</p>
+                <a href="https://github.com/Ritvik19/Product-Landing-Page" target="_blank">Git Hub</a>
+                <a href="https://ritvik-template.surge.sh/" target="_blank">Visit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column front-end">
+        <div class="content w3-dark-gray">
+          <img src="img/w06.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-06">Survey Form</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-06">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Survey Form</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w06.png" alt="" style="width:100%">
+                <p>A template for a simple Survey Form</p>
+                <a href="https://github.com/Ritvik19/Survey-Form" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column front-end">
+        <div class="content w3-dark-gray">
+          <img src="img/w07.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-07">Technical Documentation</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-07">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Technical Documentation</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w07.png" alt="" style="width:100%">
+                <p>A template for a simple Technical Documentation</p>
+                <a href="https://github.com/Ritvik19/Technical_Documentation" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column front-end">
+        <div class="content w3-dark-gray">
+          <img src="img/w08.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-08">Tribute Page</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-08">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Tribute Page</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w08.png" alt="" style="width:100%">
+                <p>A template for a simple Tribute Page</p>
+                <a href="https://github.com/Ritvik19/Tribute_Page-Elon_Musk" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column front-end">
+        <div class="content w3-dark-gray">
+          <img src="img/w09.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-09">Fallout4 Pipboy</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-09">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Fallout4 Pipboy</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w09.png" alt="" style="width:100%">
+                <p>A Replica of Pipboy from Fallout 4</p>
+                <a href="https://github.com/Ritvik19/Pipboy_Fallout" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column front-end featured">
+        <div class="content w3-dark-gray">
+          <img src="img/w10.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#w-10">Youtube Downloader</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="w-10">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Youtube Downloader</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/w10.png" alt="" style="width:100%">
+                <p>A Google Chrome Extension that makes downloading Youtube videos easier than ever before</p>
+                <a href="https://github.com/Ritvik19/Chrome_Extension-Downloader" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column android">
+        <div class="content w3-dark-gray">
+          <img src="img/a01.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#a-01">Speech Search</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="a-01">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Speech Search</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/a01.png" alt="" style="width:100%">
+                <p>An Android App that lets you search things on google by voice, and many more features</p>
+                <a href="https://github.com/Ritvik19/SpeechSearch" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column android">
+        <div class="content w3-dark-gray">
+          <img src="img/a02.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#a-02">Not So Smart Editor</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="a-02">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Not So Smart Editor</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/a02.png" alt="" style="width:100%">
+                <p>A revolutionary all purpose text editor app for android, mainly preferred for short, handy coding purposes</p>
+                <a href="https://github.com/Ritvik19/NotSoSmartEditor" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column android featured">
+        <div class="content w3-dark-gray">
+          <img src="img/a03.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#a-03">OTP-Verification</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="a-03">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">OTP-Verification</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/a03.png" alt="" style="width:100%">
+                <p>It is a simple app that can be used within other apps... To send and fetch OTPs or Verification</p>
+                <a href="https://github.com/Ritvik19/OTP-Verification" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column android">
+        <div class="content w3-dark-gray">
+          <img src="img/a04.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#a-04">Expense Manager</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="a-04">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Expense Manager</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/a04.png" alt="" style="width:100%">
+                <p>A revolutionary all purpose Expense Manager to keep a better track of your money</p>
+                <a href="https://github.com/Ritvik19/Expense_Manager_Android_App" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column android">
+        <div class="content w3-dark-gray">
+          <img src="img/a05.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#a-05">Audio Recorder</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="a-05">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Audio Recorder</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/a05.png" alt="" style="width:100%">
+                <p>It is a simple Audio Recording Application</p>
+                <a href="https://github.com/Ritvik19/AudioRecorder" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column android">
+        <div class="content w3-dark-gray">
+          <img src="img/a06.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#a-06">Aas-Paas</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="a-06">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Aas-Paas</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/a06.png" alt="" style="width:100%">
+                <p>What's Around You?</p>
+                <a href="https://github.com/Ritvik19/AudioRecorder" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column android">
+        <div class="content w3-dark-gray">
+          <img src="img/a07.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#a-07">Email-Report</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="a-07">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Email-Report</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/a07.png" alt="" style="width:100%">
+                <p>It is a simple app that can be used within other apps... To get Error Reports by the users via Email</p>
+                <a href="https://github.com/Ritvik19/Email-Report_Android_App" target="_blank">Git Hub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column java">
+        <div class="content w3-dark-gray">
+          <img src="img/j01.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#j-01">Simple Calculator</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="j-01">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Simple Calculator</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/j01.png" alt="" style="width:100%">
+                <p>Simple Calculator Desktop Application in Java</p>
+                <a href="jar/Useless_Calc.jar" target="_blank" download>Download Jar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column java">
+        <div class="content w3-dark-gray">
+          <img src="img/j02.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#j-02">Editor</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="j-02">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Editor</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/j02.png" alt="" style="width:100%">
+                <p>Cool Desktop text editor for porgramming purpose with many builtin templates</p>
+                <a href="#" target="_blank">Download Jar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column java">
+        <div class="content w3-dark-gray">
+          <img src="img/j03.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#j-03">Doodler</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="j-03">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Doodler</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/j03.png" alt="" style="width:100%">
+                <p>Desktop Application in Java for doodling with many builtin features</p>
+                <a href="jar/Doodle.jar" target="_blank" download>Download Jar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column java">
+        <div class="content w3-dark-gray">
+          <img src="img/j04.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#j-04">Expense Manager</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="j-04">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Expense Manager</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/j04.png" alt="" style="width:100%">
+                <p>A Simple Desktop Application to manage your expenses and keep a better track of your money</p>
+                <a href="jar/Expense_Manager.jar" target="_blank" download>Download Jar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column java">
+        <div class="content w3-dark-gray">
+          <img src="img/j05.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#j-05">Express Copy</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="j-05">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Express Copy</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/j05.png" alt="" style="width:100%">
+                <p>Cool Desktop to copy files quickly</p>
+                <a href="jar/Express_Copy.jar" target="_blank" download>Download Jar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column java featured">
+        <div class="content w3-dark-gray">
+          <img src="img/j06.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#j-06">Occasions</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="j-06">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Occasions</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/j06.png" alt="" style="width:100%">
+                <p>Desktop Application in Java that remembers all you importtant occasions</p>
+                <a href="jar/Occasions.jar" target="_blank" download>Download Jar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column java featured">
+        <div class="content w3-dark-gray">
+          <img src="img/j07.png" alt="" style="width:100%">
+          <button type="button" class="btn btn-md btn-block" data-toggle="modal" data-target="#j-07">Memo</button>
+          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="j-07">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Memo</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="img/j07.png" alt="" style="width:100%">
+                <p>A simple Desktop Application to manage todos and memorandums</p>
+                <a href="jar/Memo.jar" target="_blank" class="card-link" download>Download Jar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- END GRID -->
+
+
+  </div>
+  <!-- End Portfolio Section -->
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Moradabad, UP, India</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 8077 510 159</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: rastogiritvik99@gmail.com</p>
+    </div>
+  </div>
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.linkedin.com/in/ritvik-rastogi-003085153/" target="_blank"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
+    <a href="https://www.facebook.com/ritvik.rastogi" target="_blank"><ion-icon name="logo-facebook" size="large"></ion-icon></a>
+    <a href="https://github.com/Ritvik19" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
+    <a href="https://codepen.io/Ritvik19/" target="_blank"><ion-icon name="logo-codepen" size="large"></ion-icon></a>
+  <!-- End footer -->
+  </footer>
+</div>
+<!-- END PAGE CONTENT -->
+<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/main.js" charset="utf-8"></script>
+</body>
 </html>
