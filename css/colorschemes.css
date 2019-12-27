@@ -1,0 +1,66 @@
+:root {
+    --c1: #b7bacc;
+    --c2: #eef0fb;
+    --c3: #2196f3;
+    --c4: #3f51b5;
+    --c5: #1c2349;
+}
+
+body {
+    background-color: var(--c2);
+}
+
+nav {
+    background-color: var(--c4) !important;
+}
+
+.w3-button:hover {
+    background-color: var(--c3) !important;
+    text-decoration: none;
+}
+
+#myNavbar {
+    background-color: var(--c5);
+    color: var(--c2);
+}
+
+h1 {
+    color: var(--c4);
+}
+
+h2,
+h3 {
+    color: var(--c5);
+}
+
+.alert {
+    color: var(--c2);
+    background-color: var(--c4);
+    border-color: var(--c5);
+}
+
+.btn {
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: var(--c4);
+    color: white;
+}
+
+.btn.active {
+    background-color: var(--c5);
+    color: white;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--c2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--c4);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--c4);
+}

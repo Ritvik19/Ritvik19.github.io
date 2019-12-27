@@ -1,122 +1,96 @@
-body, h1,h2,h3,h4,h5,h6 {
-  font-family: 'Acme', sans-serif;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Acme', sans-serif;
 }
-
-/* Scrollbar */
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-
 
 .w3-row-padding img {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
 }
-/* Set the width of the sidebar to 120px */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
 .w3-sidebar {
-  width: 120px;background: #222;
+    width: 120px;
+    background: #222;
 }
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main{
-  margin-left: 120px;
+
+#main {
+    margin-left: 120px;
 }
-/* Remove margins from "page content" on small screens */
+
 @media only screen and (max-width: 600px) {
-  #main {
-    margin-left: 0;
-  }
-}
-header{
-  min-height: 95vh !important;
-  background-image: url("../img/bg2.jpg");
-  background-position: center;
-}
-.large{
-  font-size: 50px;
+    #main {
+        margin-left: 0;
+    }
 }
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+header {
+    min-height: 95vh !important;
+    /* background-image: url("../img/bg2.jpg");
+    background-position: center; */
+}
+
+.large {
+    font-size: 50px;
+}
+
 .flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  /* border: 1px solid #f1f1f1; */
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  display: inline-block;
-  margin: 10px;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    display: inline-block;
+    margin: 10px;
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
+.flip-card-front,
 .flip-card-back {
-  background-color: #bbb;
-  color: black;
-  transform: rotateY(180deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
 
-.flip-card-back > a, .flip-card-front > div{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.flip-card-front {
+    color: black;
 }
 
-footer > a{
-  color: #888888;
+.flip-card-back {
+    color: black;
+    transform: rotateY(180deg);
 }
 
-footer > a:hover{
-  color: #fff;
+.flip-card-back>a,
+.flip-card-front>div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .alert {
-  border-radius: 0px;
-  border-color: #666666;
-  border-left-width: 6px;
+    border-radius: 0px;
+    border-left-width: 6px;
 }
