@@ -1,0 +1,26 @@
+skills = {
+    "Skill": {
+        "0": "Python (Python 3)",
+        "1": "Automation (Python)",
+        "2": "Data Science",
+        "3": "Machine Learning",
+        "4": "Deep Learning",
+        "5": "Front End Web Development",
+        "6": "Back End Web Development(Flask)",
+        "7": "Java (Core)",
+        "8": "Android Application Development",
+        "9": "Internet of Things (Arduino)"
+    },
+    "Profeciency": {
+        "0": "90",
+        "1": "85",
+        "2": "80",
+        "3": "80",
+        "4": "60",
+        "5": "90",
+        "6": "70",
+        "7": "70",
+        "8": "60",
+        "9": "60"
+    }
+}
