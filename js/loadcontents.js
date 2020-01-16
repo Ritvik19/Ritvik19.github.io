@@ -12,3 +12,17 @@ while (i <= 9) {
     console.log('inside the loop')
 }
 skill_div.innerHTML = skill_contents;
+
+var certifications_div = document.getElementById('certifications-contents')
+var i = 14;
+var certification_contents = "";
+while (i >= 0) {
+    certification_contents +=
+        '<div class="w3-container">' +
+        '<a href="' + certifications['URL'][i] + '" target="_blank"><h5 class="w3-opacity" > <b>' + certifications['Certification'][i] + '</b></h5></a>' +
+        '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>' + certifications['Date'][i] + '</h6>' +
+        '<p>' + certifications['Authority'][i] + '</p> <br>' +
+        '</div>'
+    i -= 1;
+}
+certifications_div.innerHTML = certification_contents;
