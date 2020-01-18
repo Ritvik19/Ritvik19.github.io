@@ -1,292 +1,65 @@
 portfolio = {
     "Title": {
-        "40": "Inspyrobot",
-        "39": "Automation Scripts",
-        "38": "Pyradox",
-        "37": "Data Tales",
-        "36": "Text-Insights",
-        "35": "Poem-Classifier",
-        "34": "News-Classifier",
-        "33": "Digit-Recognizer",
-        "32": "Whats-The-Pet",
-        "31": "Google-Play-Store-Apps",
-        "30": "PUBG-Finish-Placement-Prediction",
-        "29": "Tweet-O-Meter",
-        "28": "Pyrion-Lannister",
-        "27": "Lord-Varys",
-        "26": "Malicious Webpage Detection",
-        "25": "Memo",
-        "24": "Occasions",
-        "23": "Express Copy",
-        "22": "Expense Manager",
-        "21": "Doodler",
-        "20": "Editor",
-        "19": "Simple Calculator",
-        "18": "Email-Report",
-        "17": "Aas-Paas",
-        "16": "Audio Recorder",
-        "15": "Expense Manager",
-        "14": "OTP-Verification",
-        "13": "Not So Smart Editor",
-        "12": "Speech Search",
-        "11": "Code Book",
-        "10": "Snippy",
-        "9": "This Day That Year",
-        "8": "Fallout4 Pipboy",
-        "7": "Tribute Page",
-        "6": "Technical Documentation",
-        "5": "Survey Form",
-        "4": "Product Landing Page",
-        "3": "Games Hub",
-        "2": "To Do",
-        "1": "MIT Alumni Association Home Page"
-    },
-    "Classes": {
-        "40": "data featured",
-        "39": "data featured",
-        "38": "data featured",
-        "37": "data featured",
-        "36": "data featured",
-        "35": "data",
-        "34": "data",
-        "33": "data",
-        "32": "data",
-        "31": "data",
-        "30": "data",
-        "29": "data featured",
-        "28": "data featured",
-        "27": "data featured",
-        "26": "data featured",
-        "25": "java featured",
-        "24": "java featured",
-        "23": "java",
-        "22": "java",
-        "21": "java",
-        "20": "java",
-        "19": "java",
-        "18": "android",
-        "17": "android",
-        "16": "android",
-        "15": "android",
-        "14": "android featured",
-        "13": "android",
-        "12": "android",
-        "11": "front-end featured",
-        "10": "front-end featured",
-        "9": "front-end featured",
-        "8": "front-end",
-        "7": "front-end",
-        "6": "front-end",
-        "5": "front-end",
-        "4": "front-end",
-        "3": "front-end",
-        "2": "front-end",
-        "1": "front-end featured"
-    },
-    "Id": {
-        "40": "d-15",
-        "39": "d-14",
-        "38": "d-13",
-        "37": "d-12",
-        "36": "d-11",
-        "35": "d-10",
-        "34": "d-09",
-        "33": "d-08",
-        "32": "d-07",
-        "31": "d-06",
-        "30": "d-05",
-        "29": "d-04",
-        "28": "d-03",
-        "27": "d-02",
-        "26": "d-01",
-        "25": "j-07",
-        "24": "j-06",
-        "23": "j-05",
-        "22": "j-04",
-        "21": "j-03",
-        "20": "j-02",
-        "19": "j-01",
-        "18": "a-07",
-        "17": "a-06",
-        "16": "a-05",
-        "15": "a-04",
-        "14": "a-03",
-        "13": "a-02",
-        "12": "a-01",
-        "11": "w-12",
-        "10": "w-11",
-        "9": "w-10",
-        "8": "w-09",
-        "7": "w-08",
-        "6": "w-07",
-        "5": "w-06",
-        "4": "w-05",
-        "3": "w-04",
-        "2": "w-03",
-        "1": "w-02"
+        "19": "Inspyrobot",
+        "18": "Tweet-O-Meter",
+        "17": "Rock Paper Scissors",
+        "16": "Handwriting Recognition",
+        "15": "Integer Sequence Learning",
+        "14": "Code Book",
+        "13": "Lambda",
+        "12": "Data Tales",
+        "11": "Text-Insights",
+        "10": "Gladiators",
+        "9": "MIT Alumni Association Home Page",
+        "8": "This Day That Year",
+        "7": "Snippy",
+        "6": "URL CLassifier",
+        "5": "Lord-Varys",
+        "4": "Automation Scripts",
+        "3": "Simple Calculator",
+        "2": "Speech Search",
+        "1": "OTP-Verification"
     },
     "Descriptions": {
-        "40": "A Probabilistic Language Model to INSPYRE you",
-        "39": "Collection of Various Python Scripts to Automate Daily Boring Stuffs.",
-        "38": "It is a Revolutionary Personal Digital Assistant, designed to get things done from basic assitance to assistance in data analysis and natural language processing and many other utilities. <br> The motivation behind Pyradox is to ease the tasks of a programmer by automating most of the frequently performed tasks",
-        "37": "A collection of stories and teasers from data narrated through Visualizations",
-        "36": "Too Lazy to read lengthy articles <br> These tools will help you for sure",
-        "35": "Classification of poems genres as 'Activities', 'Art and Sciences', 'Living', 'Love', 'Mythology and Folklore', 'Nature', 'Relationships', 'Religion', 'Social Commentaries', on the basis of poem text on manually scrapped data <br> Algoriths Used: Logistic Regression, Naive Bayes, Random Forest, Stochastic Gradient Descent Classifier, Recurrent Neural Networks <br> Libraries Used: sci-kit learn,tensorflow <br> API Used: keras",
-        "34": "Classification of news articles on the basis of content text on manually scrapped data <br> Algoriths Used: Logistic Regression, Naive Bayes, Random Forest, Stochastic Gradient Descent Classifier, Recurrent Neural Networks <br> Libraries Used: sci-kit learn,tensorflow <br> API Used: keras",
-        "33": "MNIST ('Modified National Institute of Standards and Technology ') is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike. The goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. <br> Algoriths Used: Logistic Regression, Naive Bayes, Random Forest, Softmax Networks, Convolutional Neural Networks <br> Libraries Used: sci-kit learn,tensorflow <br> API Used: estimators, keras",
-        "32": "A dog v/s Cat Image Classifer <br> Algoriths Used: Convolutional Neural Networks <br> Libraries Used: tensorflow <br> API Used: keras",
-        "31": "Web scraped data of 10k Play Store apps for analysing the Android market: The Play Store apps data has enormous potential to drive app-making businesses to success. Actionable insights can be drawn for developers to work on and capture the Android market! <br> Algoriths Used: Data Analytics, Data Visualization <br> Libraries Used: matplotlib, seaborn",
-        "30": "Given over 65,000 games worth of anonymized player data, split into training and testing sets, asked to predict final placement from final in-game stats and initial player ratings <br> Algoriths Used: Neural Networks, Linear Regression, Random Forest <br> Libraries Used: seaborn, sci-kit learn, tensorflow <br> API Used: Keras",
-        "29": "A python script for Live Tweet analysis including hash tag analysis, sentiment analysis, keyword extraction, visualisation using word cloud etc.. <br> Also it extracts live news from the tweets",
-        "28": "Pyrion-Lannister <br> <i> The Hand of the Programmer </i> <br> <q> That's What I Do I Scrape and I Know Things </q> <br> Instant programming answers from stackoverflow",
-        "27": "Lord Varys <i>The Master of Whisperers</i><br> <q>My little birds are everywhere, and they whisper to me the strangest stories...</q><br> This repo consists of a Chrome Extension alongwith notebooks, automated browsers, and crawlers for various websites",
-        "26": "Malicious Webpage Detection",
-        "25": "A simple Desktop Application to manage todos and memorandums",
-        "24": "Desktop Application in Java that remembers all you importtant occasions",
-        "23": "Cool Desktop to copy files quickly",
-        "22": "A Simple Desktop Application to manage your expenses and keep a better track of your money",
-        "21": "Desktop Application in Java for doodling with many builtin features",
-        "20": "Cool Desktop text editor for porgramming purpose with many builtin templates",
-        "19": "Simple Calculator Desktop Application in Java",
-        "18": "It is a simple app that can be used within other apps... To get Error Reports by the users via Email",
-        "17": "What's Around You?",
-        "16": "It is a simple Audio Recording Application",
-        "15": "A revolutionary all purpose Expense Manager to keep a better track of your money",
-        "14": "It is a simple app that can be used within other apps... To send and fetch OTPs or Verification",
-        "13": "A revolutionary all purpose text editor app for android, mainly preferred for short, handy coding purposes",
-        "12": "An Android App that lets you search things on google by voice, and many more features",
-        "11": "Code Repository for various Competitive Programming platforms",
-        "10": "A code snippet repository",
-        "9": "A peek into the history of today",
-        "8": "A Replica of Pipboy from Fallout 4",
-        "7": "A template for a simple Tribute Page",
-        "6": "A template for a simple Technical Documentation",
-        "5": "A template for a simple Survey Form",
-        "4": "A template for a simple Product Landing Page",
-        "3": "A simple website containing lots of light games to free you from boredom",
-        "2": "A simple To Do List where you can note your tasks according to their priority",
-        "1": "MIT Alumni Association Home Page"
+        "19": "A Probabilistic Language Model to INSPYRE you",
+        "18": "Live twitter trend analysis including hashtag analysis, sentiment analysis, keyword extraction, word cloud generation, and live news extraction from tweets",
+        "17": "Using Computer Vision to play Rock Paper Scissors",
+        "16": "· Digit Recognition  <br>· Hand Writing Calculator  <br>· English Alphabet Recognition  <br>· Mathematical Symbol Recognition",
+        "15": "Making computer identify patterns in integer sequences and thus predicting the next term",
+        "14": "Code Repository for various Competitive Programming platforms",
+        "13": "A flask-based web app deploying various machine learning models <br>· URL Classifier <br>· Cuisine Classifier <br>· Spam Filter <br>· Text Analysers",
+        "12": "A collection of stories and teasers from data narrated through Visualizations",
+        "11": "Too Lazy to read lengthy articles <br> These tools will help you for sure",
+        "10": "Playing Games with AI <br>· Sudoku: Search Algo <br>· Sudoku: Neural Nets <br>· Tic Tac Toe: Minimax Algo · Tic Tac Toe: Reinforcement Learning",
+        "9": "Home Page for a web portal to connect students and alumni of my college",
+        "8": "A peek into the history of today",
+        "7": "A code snippet repository",
+        "6": "Malicious Webpage Detection",
+        "5": "Lord Varys <i>The Master of Whisperers</i><br> <q>My little birds are everywhere, and they whisper to me the strangest stories...</q><br> This repo consists of a Chrome Extension alongwith notebooks, automated browsers, and crawlers for various websites",
+        "4": "Using Python to automate iterative stuffs <br>Deployment Modes:<br>•	Run commands<br>•	Command Line Interface(Pyradox)<br>•	Telegram Bot (DaVinci)",
+        "3": "Simple Calculator Desktop Application in Java",
+        "2": "An Android App that lets you search things on google by voice, and many more features",
+        "1": "It is a simple android app that can be used within other apps... To send and fetch OTPs or Verification"
     },
     "Buttons": {
-        "40": [{
+        "19": [{
             "Text": "GitHub",
             "URL": "https://github.com/Ritvik19/Inspyrobot"
         }],
-        "39": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Do_your_stuffs_with_Python"
-        }],
-        "38": [{
-            "Text": "Documentation",
-            "URL": "https://pyradox.surge.sh"
-        }],
-        "37": [{
-                "Text": "Github",
-                "URL": "https://github.com/Ritvik19/Data-Tales"
-            },
-            {
-                "Text": "Visit",
-                "URL": "https://data-tales.surge.sh"
-            }
-        ],
-        "36": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Text-Insights"
-        }],
-        "35": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Poem-Classifier"
-        }],
-        "34": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/News-Classifier"
-        }],
-        "33": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Digit-Recognizer"
-        }],
-        "32": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Whats-The-Pet"
-        }],
-        "31": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Google-Play-Store-Apps"
-        }],
-        "30": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/PUBG-Finish-Placement-Prediction"
-        }],
-        "29": [],
-        "28": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Pyrion-Lannister"
-        }],
-        "27": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Lord-Varys"
-        }],
-        "26": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Malicious-Webpage-Detection"
-        }],
-        "25": [{
-            "Text": "Download Jar",
-            "URL": "jar/Memo.jar"
-        }],
-        "24": [{
-            "Text": "Download Jar",
-            "URL": "jar/Occasions.jar"
-        }],
-        "23": [{
-            "Text": "Download Jar",
-            "URL": "jar/Express_Copy.jar"
-        }],
-        "22": [{
-            "Text": "Download Jar",
-            "URL": "jar/Expense_Manager.jar"
-        }],
-        "21": [{
-            "Text": "Download Jar",
-            "URL": "jar/Doodle.jar"
-        }],
-        "20": [{
-            "Text": "Download Jar",
-            "URL": "#"
-        }],
-        "19": [{
-            "Text": "Download Jar",
-            "URL": "jar/Useless_Calc.jar"
-        }],
-        "18": [{
-            "Text": "Git Hub",
-            "URL": "https://github.com/Ritvik19/Email-Report_Android_App"
-        }],
+        "18": [],
         "17": [{
-            "Text": "Git Hub",
-            "URL": "https://github.com/Ritvik19/Aas-Paas"
+            "Text": "GitHub",
+            "URL": "https://github.com/Ritvik19/Rock-Paper-Scissors "
         }],
         "16": [{
-            "Text": "Git Hub",
-            "URL": "https://github.com/Ritvik19/AudioRecorder"
+            "Text": "GitHub",
+            "URL": "https://github.com/Ritvik19/Handwriting-Recognition "
         }],
         "15": [{
-            "Text": "Git Hub",
-            "URL": "https://github.com/Ritvik19/Expense_Manager_Android_App"
+            "Text": "GitHub",
+            "URL": "https://github.com/Ritvik19/Integer-Sequence-Learning"
         }],
         "14": [{
-            "Text": "Git Hub",
-            "URL": "https://github.com/Ritvik19/OTP-Verification"
-        }],
-        "13": [{
-            "Text": "Git Hub",
-            "URL": "https://github.com/Ritvik19/NotSoSmartEditor"
-        }],
-        "12": [{
-            "Text": "Git Hub",
-            "URL": "https://github.com/Ritvik19/SpeechSearch"
-        }],
-        "11": [{
                 "Text": "Github",
                 "URL": "https://github.com/Ritvik19/CodeBook"
             },
@@ -295,16 +68,32 @@ portfolio = {
                 "URL": "https://codebook19.surge.sh"
             }
         ],
-        "10": [{
+        "13": [{
+            "Text": "GitHub",
+            "URL": "https://github.com/Ritvik19/Lambda"
+        }],
+        "12": [{
                 "Text": "Github",
-                "URL": "https://github.com/Ritvik19/Snippy"
+                "URL": "https://github.com/Ritvik19/Data-Tales"
             },
             {
                 "Text": "Visit",
-                "URL": "https://snippy19.surge.sh"
+                "URL": "https://data-tales.surge.sh"
             }
         ],
+        "11": [{
+            "Text": "GitHub",
+            "URL": "https://github.com/Ritvik19/Text-Insights"
+        }],
+        "10": [{
+            "Text": "Github",
+            "URL": "https://github.com/Ritvik19/Galdiators"
+        }],
         "9": [{
+            "Text": "Visit",
+            "URL": "https://mitalumni.in/"
+        }],
+        "8": [{
                 "Text": "Github",
                 "URL": "https://github.com/Ritvik19/This-Day-That-Year"
             },
@@ -313,42 +102,47 @@ portfolio = {
                 "URL": "https://thisdaythatyear.surge.sh/"
             }
         ],
-        "8": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Pipboy_Fallout"
-        }],
         "7": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Pipboy_Fallout"
-        }],
-        "6": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Technical_Documentation"
-        }],
-        "5": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Survey-Form"
-        }],
-        "4": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Product-Landing-Page"
-        }],
-        "3": [{
                 "Text": "Github",
-                "URL": "https://github.com/Ritvik19/Games.Hub"
+                "URL": "https://github.com/Ritvik19/Snippy"
             },
             {
                 "Text": "Visit",
-                "URL": "https://games_hub.surge.sh/"
+                "URL": "https://snippy19.surge.sh"
             }
         ],
+        "6": [{
+            "Text": "Github",
+            "URL": "https://github.com/Ritvik19/Malicious-Webpage-Detection"
+        }],
+        "5": [{
+            "Text": "Github",
+            "URL": "https://github.com/Ritvik19/Lord-Varys"
+        }],
+        "4": [{
+                "Text": "Github (Run Commands)",
+                "URL": "https://github.com/Ritvik19/automation-scipts"
+            },
+            {
+                "Text": "Github (Run Commands)",
+                "URL": "https://pyradox.surge.sh"
+            },
+            {
+                "Text": "Github (da Vinci)",
+                "URL": "https://github.com/Ritvik19/daVinci"
+            }
+        ],
+        "3": [{
+            "Text": "Download Jar",
+            "URL": "jar/Useless_Calc.jar"
+        }],
         "2": [{
-            "Text": "GitHub",
-            "URL": "https://github.com/Ritvik19/Todo"
+            "Text": "Github",
+            "URL": "https://github.com/Ritvik19/SpeechSearch"
         }],
         "1": [{
-            "Text": "Visit",
-            "URL": "https://mitalumni.in/"
+            "Text": "Github",
+            "URL": "https://github.com/Ritvik19/OTP-Verification"
         }]
     }
 }

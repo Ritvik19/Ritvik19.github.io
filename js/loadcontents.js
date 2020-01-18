@@ -26,3 +26,25 @@ while (i >= 0) {
     i -= 1;
 }
 certifications_div.innerHTML = certification_contents;
+
+var portfolio_div = document.getElementById('portfolio-contents')
+var i = 19;
+var portfolio_contents = "";
+while (i > 0) {
+    portfolio_contents +=
+        '<div class="card w3-margin">' +
+        '<img src="jeans3.jpg" style="width:100%">' +
+        '<h1>' + portfolio['Title'][i] + '</h1>' +
+        '<p>' + portfolio['Descriptions'][i] + '</p>'
+    try {
+        portfolio_contents += '<p><a href="' + portfolio['Buttons'][i][0]['URL'] + '" target="_blank"><button class="w3-teal w3-btn w3-hover">' + portfolio['Buttons'][i][0]['Text'] + '</button></a></p>'
+        portfolio_contents += '<p><a href="' + portfolio['Buttons'][i][1]['URL'] + '" target="_blank"><button class="w3-teal w3-btn w3-hover">' + portfolio['Buttons'][i][1]['Text'] + '</button></a></p>'
+        portfolio_contents += '<p><a href="' + portfolio['Buttons'][i][2]['URL'] + '" target="_blank"><button class="w3-teal w3-btn w3-hover">' + portfolio['Buttons'][i][2]['Text'] + '</button></a></p>'
+    } catch {
+        console.log(i)
+    } finally {
+        portfolio_contents += '</div>'
+        i -= 1;
+    }
+}
+portfolio_div.innerHTML = portfolio_contents;
