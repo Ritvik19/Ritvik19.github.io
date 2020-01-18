@@ -33,7 +33,7 @@ var portfolio_contents = "";
 while (i > 0) {
     portfolio_contents +=
         '<div class="card w3-margin">' +
-        '<img src="jeans3.jpg" style="width:100%">' +
+        '<img src="img/' + i + '.png" style="width:100%">' +
         '<h1>' + portfolio['Title'][i] + '</h1>' +
         '<p>' + portfolio['Descriptions'][i] + '</p>'
     try {
