@@ -6,10 +6,12 @@ skills = {
         "3": "Machine Learning",
         "4": "Deep Learning",
         "5": "Front End Web Development",
-        "6": "Back End Web Development(Flask)",
-        "7": "Java (Core)",
-        "8": "Android Application Development",
-        "9": "Internet of Things (Arduino)"
+        "6": "JavaScript",
+        "7": "Back End Web Development(Flask)",
+        "8": "Java (Core)",
+        "9": "Android Application Development",
+        "10": "Internet of Things (Arduino)",
+        "11": "Bash Shell Scripting"
     },
     "Profeciency": {
         "0": "90",
@@ -18,9 +20,11 @@ skills = {
         "3": "80",
         "4": "60",
         "5": "90",
-        "6": "70",
+        "6": "80",
         "7": "70",
-        "8": "60",
-        "9": "60"
+        "8": "70",
+        "9": "60",
+        "10": "60",
+        "11": "70"
     }
 }

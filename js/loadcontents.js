@@ -1,7 +1,7 @@
 var skill_div = document.getElementById('skills-contents')
 var i = 0;
 var skill_contents = "";
-while (i <= 9) {
+while (i <= 11) {
     skill_contents +=
         '<p> ' + skills['Skill'][i] + '</p>' +
         '<div class="w3-light-grey w3-round-xlarge w3-small">' +
