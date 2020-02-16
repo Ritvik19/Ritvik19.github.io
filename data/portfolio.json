@@ -1,5 +1,6 @@
 portfolio = {
     "Title": {
+        "20": "Clipboard",
         "19": "Inspyrobot",
         "18": "Tweet-O-Meter",
         "17": "Rock Paper Scissors",
@@ -21,6 +22,7 @@ portfolio = {
         "1": "OTP-Verification"
     },
     "Descriptions": {
+        "20": "A Flask based Web Application to provide the clip board facility on the web so that the clips can accessed anytime, anywhere and from any device",
         "19": "A Probabilistic Language Model to INSPYRE you",
         "18": "Live twitter trend analysis including hashtag analysis, sentiment analysis, keyword extraction, word cloud generation, and live news extraction from tweets",
         "17": "Using Computer Vision to play Rock Paper Scissors",
@@ -42,6 +44,10 @@ portfolio = {
         "1": "It is a simple android app that can be used within other apps... To send and fetch OTPs or Verification"
     },
     "Buttons": {
+        "20": [{
+            "Text": "GitHub",
+            "URL": "https://github.com/Ritvik19/Inspyrobot"
+        }],
         "19": [{
             "Text": "GitHub",
             "URL": "https://github.com/Ritvik19/Inspyrobot"

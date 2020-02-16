@@ -28,7 +28,7 @@ while (i >= 0) {
 certifications_div.innerHTML = certification_contents;
 
 var portfolio_div = document.getElementById('portfolio-contents')
-var i = 19;
+var i = 20;
 var portfolio_contents = "";
 while (i > 0) {
     portfolio_contents +=
