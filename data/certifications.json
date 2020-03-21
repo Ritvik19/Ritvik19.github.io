@@ -1,5 +1,6 @@
 certifications = {
     "Certification": {
+        "7": "Bash Scripting and Shell Programming (Linux Command Line)",
         "6": "Automate the Boring Stuff with Python Programming",
         "5": "Data Mining",
         "4": "Programming, Data Structures and Algorithms using Python",
@@ -9,6 +10,7 @@ certifications = {
         "0": "JavaScript",
     },
     "Date": {
+        "7": "March 2020",
         "6": "November 2019",
         "5": "May 2019",
         "4": "April 2019",
@@ -18,6 +20,7 @@ certifications = {
         "0": "March 2018",
     },
     "Authority": {
+        "7": "Udemy",
         "6": "Udemy",
         "5": "NPTEL",
         "4": "NPTEL",
@@ -27,6 +30,7 @@ certifications = {
         "0": "SoloLearn",
     },
     "URL": {
+        "7": "https://www.udemy.com/certificate/UC-5c53bbc3-069c-4460-ac84-7ddf2d1e26d0/",
         "6": "https://www.udemy.com/certificate/UC-DELZZ1WA/",
         "5": "https://nptel.ac.in/noc/E_Certificate/noc19-cs15/NPTEL19CS15S31770034191118349.jpg",
         "4": "https://nptel.ac.in/noc/E_Certificate/noc19-cs08/NPTEL19CS08S11590092191118349.jpg",

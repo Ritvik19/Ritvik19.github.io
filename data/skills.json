@@ -1,30 +1,30 @@
 skills = {
     "Skill": {
         "0": "Python (Python 3)",
-        "1": "Automation (Python)",
-        "2": "Data Science",
-        "3": "Machine Learning",
-        "4": "Deep Learning",
-        "5": "Front End Web Development",
-        "6": "JavaScript",
-        "7": "Back End Web Development(Flask)",
-        "8": "Java (Core)",
-        "9": "Android Application Development",
-        "10": "Internet of Things (Arduino)",
-        "11": "Bash Shell Scripting"
+        "1": "Data Science",
+        "2": "Machine Learning",
+        "3": "Deep Learning",
+        "4": "Front End Web Development",
+        "5": "JavaScript",
+        "6": "Back End Web Development(Flask)",
+        "7": "Java (Core)",
+        "8": "Android Application Development",
+        "9": "Internet of Things (Arduino)",
+        "10": "Bash Scripting and Shell Programming",
+        "11": "Computer Vision"
     },
     "Profeciency": {
         "0": "90",
-        "1": "85",
+        "1": "80",
         "2": "80",
-        "3": "80",
-        "4": "60",
-        "5": "90",
-        "6": "80",
+        "3": "60",
+        "4": "90",
+        "5": "80",
+        "6": "70",
         "7": "70",
-        "8": "70",
-        "9": "60",
-        "10": "60",
-        "11": "70"
+        "8": "55",
+        "9": "55",
+        "10": "70",
+        "11": "60"
     }
 }

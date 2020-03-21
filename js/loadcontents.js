@@ -14,7 +14,7 @@ while (i <= 11) {
 skill_div.innerHTML = skill_contents;
 
 var certifications_div = document.getElementById('certifications-contents')
-var i = 6;
+var i = 7;
 var certification_contents = "";
 while (i >= 0) {
     certification_contents +=
