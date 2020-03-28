@@ -1,7 +1,7 @@
 var skill_div = document.getElementById('skills-contents')
 var i = 0;
 var skill_contents = "";
-while (i <= 11) {
+while (i <= 8) {
     skill_contents +=
         '<p> ' + skills['Skill'][i] + '</p>' +
         '<div class="w3-light-grey w3-round-xlarge w3-small">' +
@@ -28,7 +28,7 @@ while (i >= 0) {
 certifications_div.innerHTML = certification_contents;
 
 var portfolio_div = document.getElementById('portfolio-contents')
-var i = 20;
+var i = 21;
 var portfolio_contents = "";
 while (i > 0) {
     portfolio_contents +=

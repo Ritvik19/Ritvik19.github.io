@@ -8,10 +8,7 @@ skills = {
         "5": "JavaScript",
         "6": "Back End Web Development(Flask)",
         "7": "Java (Core)",
-        "8": "Android Application Development",
-        "9": "Internet of Things (Arduino)",
-        "10": "Bash Scripting and Shell Programming",
-        "11": "Computer Vision"
+        "8": "Bash Scripting and Shell Programming",
     },
     "Profeciency": {
         "0": "90",
@@ -22,9 +19,6 @@ skills = {
         "5": "80",
         "6": "70",
         "7": "70",
-        "8": "55",
-        "9": "55",
-        "10": "70",
-        "11": "60"
+        "8": "70",
     }
 }
