@@ -9,6 +9,7 @@ skills = {
         "6": "Back End Web Development(Flask)",
         "7": "Java (Core)",
         "8": "Bash Scripting and Shell Programming",
+        "9": "Web Scraping,"
     },
     "Profeciency": {
         "0": "90",
@@ -20,5 +21,6 @@ skills = {
         "6": "70",
         "7": "70",
         "8": "70",
+        "9": "85"
     }
 }
