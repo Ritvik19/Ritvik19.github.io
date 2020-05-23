@@ -40,6 +40,10 @@ body {
     background: var(--c1);
 }
 
+.navbar-toggler {
+    color: white !important;
+}
+
 .navbar-brand {
     color: white !important;
     font-size: xx-large;
