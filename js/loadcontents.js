@@ -1,30 +1,16 @@
-var skill_div = document.getElementById('skills-contents')
-var i = 0;
-var skill_contents = "";
-while (i <= 9) {
-    skill_contents +=
-        '<p> ' + skills['Skill'][i] + '</p>' +
-        '<div class="w3-light-grey w3-round-xlarge w3-small">' +
-        '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:' +
-        skills['Profeciency'][i] + '%">' + skills['Profeciency'][i] + '</div>' +
-        '</div>'
-    i += 1;
-    console.log('inside the loop')
-}
-skill_div.innerHTML = skill_contents;
-
 var certifications_div = document.getElementById('certifications-contents')
 var i = 7;
-var certification_contents = "";
+var certification_contents = "<li>[</li>";
 while (i >= 0) {
     certification_contents +=
-        '<div class="w3-container">' +
-        '<a href="' + certifications['URL'][i] + '" target="_blank"><h5 class="w3-opacity" > <b>' + certifications['Certification'][i] + '</b></h5></a>' +
-        '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>' + certifications['Date'][i] + '</h6>' +
-        '<p>' + certifications['Authority'][i] + '</p> <br>' +
-        '</div>'
+        '<li><span class="dim">··</span>{</li>' +
+        '<li><span class="dim">····</span>"Title": <a href="' + certifications['URL'][i] + '" target="_blank" class="highlight">"' + certifications['Certification'][i] + '</a>", </li>' +
+        '<li><span class="dim">····</span>"Completed": "' + certifications['Date'][i] + '",' +
+        ' "Organization": "' + certifications['Authority'][i] + '", </li>' +
+        '<li><span class="dim">··</span>},</li>'
     i -= 1;
 }
+certification_contents += '<li>]</li>'
 certifications_div.innerHTML = certification_contents;
 
 var portfolio_div = document.getElementById('portfolio-contents')
@@ -32,19 +18,87 @@ var i = 23;
 var portfolio_contents = "";
 while (i > 0) {
     portfolio_contents +=
-        '<div class="card w3-margin">' +
-        '<img src="img/' + i + '.png" style="width:100%">' +
-        '<h1>' + portfolio['Title'][i] + '</h1>' +
-        '<p>' + portfolio['Descriptions'][i] + '</p>'
+        '<div class="card">' +
+        '<img class="card-img-top" src = "img/' + i + '.png" alt = "error">' +
+        '<div class="card-body">' +
+
+        '<h5 class="card-title">' + portfolio['Title'][i] + '</h5>' +
+        '<p class="card-text">' + portfolio['Descriptions'][i] + '</p>'
     try {
-        portfolio_contents += '<p><a href="' + portfolio['Buttons'][i][0]['URL'] + '" target="_blank"><button class="w3-teal w3-btn w3-hover">' + portfolio['Buttons'][i][0]['Text'] + '</button></a></p>'
-        portfolio_contents += '<p><a href="' + portfolio['Buttons'][i][1]['URL'] + '" target="_blank"><button class="w3-teal w3-btn w3-hover">' + portfolio['Buttons'][i][1]['Text'] + '</button></a></p>'
-        portfolio_contents += '<p><a href="' + portfolio['Buttons'][i][2]['URL'] + '" target="_blank"><button class="w3-teal w3-btn w3-hover">' + portfolio['Buttons'][i][2]['Text'] + '</button></a></p>'
+        portfolio_contents += '<a href="' + portfolio['Buttons'][i][0]['URL'] + '" target="_blank" class="card-link">' + portfolio['Buttons'][i][0]['Text'] + '</a>'
+        portfolio_contents += '<a href="' + portfolio['Buttons'][i][1]['URL'] + '" target="_blank" class="card-link">' + portfolio['Buttons'][i][1]['Text'] + '</a>'
+        portfolio_contents += '<a href="' + portfolio['Buttons'][i][2]['URL'] + '" target="_blank" class="card-link">' + portfolio['Buttons'][i][2]['Text'] + '</a>'
     } catch {
         console.log(i)
     } finally {
-        portfolio_contents += '</div>'
+        portfolio_contents += '</div></div>'
         i -= 1;
     }
 }
 portfolio_div.innerHTML = portfolio_contents;
+
+chart_options = {
+    responsive: true,
+    legend: {
+        labels: {
+            fontColor: "white",
+        }
+    },
+    scale: {
+        ticks: {
+            suggestedMin: 0,
+            suggestedMax: 100,
+            fontColor: "white",
+            backdropColor: "rgba(0,0,0,0)"
+        },
+        gridLines: {
+            color: "gray"
+        },
+    }
+}
+
+
+var ctx1 = document.getElementById('chart1').getContext('2d');
+var chart1 = new Chart(ctx1, {
+    type: 'radar',
+    data: {
+        labels: ['HTML/CSS', 'JavaScript', 'Flask'],
+        datasets: [{
+            label: 'Web Development',
+            backgroundColor: 'rgba(89, 24, 223, 0.5)',
+            borderColor: 'rgb(89, 24, 223)',
+            data: [90, 80, 70]
+        }]
+    },
+    options: chart_options,
+});
+
+var ctx2 = document.getElementById('chart2').getContext('2d');
+var chart2 = new Chart(ctx2, {
+    type: 'radar',
+    data: {
+        labels: ['Python', 'Data Science', 'Machine Learning', 'Deep Learning', 'Web Scraping'],
+        datasets: [{
+            label: 'Data Science',
+            backgroundColor: 'rgba(89, 24, 223, 0.5)',
+            borderColor: 'rgb(89, 24, 223)',
+            data: [90, 80, 80, 65, 85]
+        }]
+    },
+    options: chart_options,
+});
+
+var ctx3 = document.getElementById('chart3').getContext('2d');
+var chart3 = new Chart(ctx3, {
+    type: 'radar',
+    data: {
+        labels: ['Java (Core)', 'C++', 'Bash Scripting and Shell Programming'],
+        datasets: [{
+            label: 'Other',
+            backgroundColor: 'rgba(89, 24, 223, 0.5)',
+            borderColor: 'rgb(89, 24, 223)',
+            data: [70, 70, 80]
+        }]
+    },
+    options: chart_options,
+});

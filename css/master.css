@@ -1,3 +1,11 @@
+:root {
+    --c1: #fc8210;
+    --c2: #5918df;
+    --c3: #0f0d15;
+    --c4: #1a1527;
+    --c5: #0e0c16;
+}
+
 html,
 body,
 h1,
@@ -5,19 +13,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: "Roboto", sans-serif
+h6,
+* {
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
 
-a {
-    text-decoration: none !important;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
-    display: inline-block;
-    width: 350px;
+body {
+    background-color: var(--c3);
+    background-image: linear-gradient(-180deg, var(--c4), var(--c5) 88%, var(--c4) 99%);
 }
 
 ::-webkit-scrollbar {
@@ -25,13 +29,88 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--c4);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #009688;
+    background: var(--c1);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #009688;
+    background: var(--c1);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: xx-large;
+}
+
+.highlight {
+    color: var(--c2) !important;
+}
+
+.dim {
+    color: rgba(255, 255, 255, 0.1)
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+    font-size: x-large;
+}
+
+a {
+    color: white !important;
+}
+
+a:hover {
+    color: var(--c1) !important;
+    text-decoration: none;
+}
+
+#intro h4 {
+    font-size: 22px;
+    line-height: 36px;
+}
+
+#intro h5 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#start {
+    min-height: 100vh;
+    background-image: url("/img/bg.webp");
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.achievement {
+    border-left: medium solid var(--c2);
+}
+
+.terminal {
+    background-color: var(--c5);
+}
+
+.terminal ol {
+    max-width: 768px;
+    margin: auto;
+}
+
+.terminal li,
+.terminal li span {
+    font-family: monospace !important;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.card {
+    background-color: var(--c5);
+}
+
+canvas {
+    width: 33%;
 }
