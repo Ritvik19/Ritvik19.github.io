@@ -21,12 +21,12 @@ while (i > 0) {
         '<div class="card">' +
         '<img class="card-img-top" src = "img/' + i + '.png" alt = "error">' +
         '<div class="card-body">' +
-        '<h4 class="card-title highlight">' + portfolio['Title'][i] + '</h4>' +
+        '<h4 class="card-title"> $ <span class="highlight">' + portfolio['Title'][i] + '</span></h4>' +
         '<p class="card-text">' + portfolio['Descriptions'][i] + '</p>'
     try {
-        portfolio_contents += '<a href="' + portfolio['Buttons'][i][0]['URL'] + '" target="_blank" class="card-link">&gt; ' + portfolio['Buttons'][i][0]['Text'] + '</a>'
-        portfolio_contents += '<a href="' + portfolio['Buttons'][i][1]['URL'] + '" target="_blank" class="card-link">&gt; ' + portfolio['Buttons'][i][1]['Text'] + '</a>'
-        portfolio_contents += '<a href="' + portfolio['Buttons'][i][2]['URL'] + '" target="_blank" class="card-link">&gt; ' + portfolio['Buttons'][i][2]['Text'] + '</a>'
+        portfolio_contents += '<a href="' + portfolio['Buttons'][i][0]['URL'] + '" target="_blank" class="card-link">--' + portfolio['Buttons'][i][0]['Text'] + '</a>'
+        portfolio_contents += '<a href="' + portfolio['Buttons'][i][1]['URL'] + '" target="_blank" class="card-link">--' + portfolio['Buttons'][i][1]['Text'] + '</a>'
+        portfolio_contents += '<a href="' + portfolio['Buttons'][i][2]['URL'] + '" target="_blank" class="card-link">--' + portfolio['Buttons'][i][2]['Text'] + '</a>'
     } catch {
         console.log(i)
     } finally {
