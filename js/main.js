@@ -48,3 +48,19 @@ function deletingEffect() {
 };
 
 typingEffect();
+
+function typeWriter(eid, txt, iterator) {
+    if (iterator < txt.length) {
+        document.getElementById(eid).innerHTML += txt.charAt(iterator);
+        iterator++;
+    } else {
+        document.getElementById(eid).innerHTML = '';
+        iterator = 0;
+    }
+    setTimeout(function() { typeWriter(eid, txt, iterator) }, 250);
+}
+
+typeWriter('achievement-cmd', 'open achievements.md', 0)
+typeWriter('skill-cmd', 'skills.plot.radar()', 0)
+typeWriter('certification-cmd', 'cat certifications.json', 0)
+typeWriter('portfolio-cmd', 'ls -l /portfolio', 0)

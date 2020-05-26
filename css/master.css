@@ -140,3 +140,8 @@ a:hover {
 canvas {
     width: 33%;
 }
+
+.command {
+    padding-left: 15px;
+    background-color: var(--c5);
+}
