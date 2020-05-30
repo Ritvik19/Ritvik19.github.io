@@ -25,7 +25,7 @@ portfolio = {
         "1": "OTP-Verification"
     },
     "Descriptions": {
-        "23": "Use of Machine Learning Algorithms to deeply analyse the sentiments in a text, deployed as  a flask web application",
+        "23": "Use of Machine Learning Algorithms for in depth analysis of sentiments in a text, deployed as  a flask web application",
         "22": "Machine Learning Algorithms to Analyse Similarity in two Texts, deployed as flask web application",
         "21": "Commandline Interface based Face Recognition System",
         "20": "Suggest the tags based on the content that was there in the question posted on Stackoverflow.",
