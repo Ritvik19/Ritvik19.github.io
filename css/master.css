@@ -145,3 +145,16 @@ canvas {
     padding-left: 15px;
     background-color: var(--c5);
 }
+
+.tree p {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.tree .dir {
+    cursor: pointer;
+}
+
+.pwd {
+    color: var(--c1) !important;
+}

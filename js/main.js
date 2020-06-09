@@ -64,3 +64,23 @@ typeWriter('achievement-cmd', 'open achievements.md', 0)
 typeWriter('skill-cmd', 'skills.plot.radar()', 0)
 typeWriter('certification-cmd', 'cat certifications.json', 0)
 typeWriter('portfolio-cmd', 'ls -l /portfolio', 0)
+
+function chdir(event) {
+    dirs = document.getElementsByClassName('dir')
+    for (d = 0; d < 7; d++) {
+        dirs[d].classList.remove('pwd')
+    }
+    event.target.classList.add('pwd')
+    target_class = event.target.getAttribute("data")
+    projects = document.getElementsByClassName('project')
+    for (p = 0; p < projects.length; p++)
+        projects[p].style.display = 'none'
+
+    target_projects = document.getElementsByClassName(target_class)
+    for (p = 0; p < target_projects.length; p++)
+        target_projects[p].style.display = 'inline-block'
+}
+
+$(document).ready(function() {
+    $(".dir")[0].click()
+});

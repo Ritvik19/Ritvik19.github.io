@@ -30,7 +30,7 @@ var i = 23;
 var portfolio_contents = "";
 while (i > 0) {
     portfolio_contents +=
-        '<div class="card">' +
+        '<div class="card project ' + portfolio['Class'][i] + '">' +
         '<img class="card-img-top" src = "img/' + i + '.png" alt = "error">' +
         '<div class="card-body">' +
         '<h4 class="card-title"> $ <span class="highlight">' + portfolio['Title'][i] + '</span></h4>' +
