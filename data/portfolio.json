@@ -1,5 +1,6 @@
 portfolio = {
     "Title": {
+        "24": "Sudoku Lens",
         "23": "Advanced Sentiment Analyzer",
         "22": "Text Match",
         "21": "Face Recognition",
@@ -25,6 +26,7 @@ portfolio = {
         "1": "OTP-Verification"
     },
     "Class": {
+        "24": "cv",
         "23": "nlp",
         "22": "nlp",
         "21": "cv",
@@ -50,6 +52,7 @@ portfolio = {
         "1": "oth"
     },
     "Descriptions": {
+        "24": "Sudoku Solver OCR using Convolution Neural Network and Densly Connected Neural Network",
         "23": "Use of Machine Learning Algorithms for in depth analysis of sentiments in a text, deployed as  a flask web application",
         "22": "Machine Learning Algorithms to Analyse Similarity in two Texts, deployed as flask web application",
         "21": "Commandline Interface based Face Recognition System",
@@ -75,6 +78,10 @@ portfolio = {
         "1": "It is a simple android app that can be used within other apps... To send and fetch OTPs or Verification"
     },
     "Buttons": {
+        "24": [{
+            "Text": "GitHub",
+            "URL": "https://github.com/Ritvik19/Sudoku-Lens"
+        }],
         "23": [{
             "Text": "GitHub",
             "URL": "https://github.com/Ritvik19/Toxic-Comment-Classification"
