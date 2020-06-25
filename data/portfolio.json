@@ -61,7 +61,7 @@ portfolio = {
         "18": "A Probabilistic Language Model to INSPYRE you",
         "17": "A Flask based web application that analyses social media interactions (live tweets) based on their popularity and hashtags and creates a story by selecting 4 most informative tweets<br>Providing General Sentiment Analysis of the public opinion about that trend and hashtags associated with them and Opinions of public figures for that trend along with Links for the articles of various Online Media Platforms<br>And categorizes the stories as National, World, Sports, Political, Technology, Entertainment etc.",
         "16": "Using Computer Vision to play Rock Paper Scissors",
-        "15": "· Digit Recognition  <br>· Hand Writing Calculator  <br>· English Alphabet Recognition  <br>· Mathematical Symbol Recognition",
+        "15": "· Digit Recognition  <br>· Hand Writing Calculator  <br>· English Alphabet Recognition  <br>· Mathematical Symbol Recognition <br>· Kannada Digit Recognition <br>· Devanagri Digit Recognition",
         "14": "Making computer identify patterns in integer sequences and thus predicting the next term",
         "13": "Code Repository for various Competitive Programming platforms",
         "12": "A flask-based web app deploying various machine learning models <br>· URL Classifier <br>· Cuisine Classifier <br>· Spam Filter <br>· Text Analysers",
