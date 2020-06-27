@@ -26,7 +26,7 @@ console.log(achievements_contents)
 achievements_div.innerHTML = achievements_contents;
 
 var portfolio_div = document.getElementById('portfolio-contents')
-var i = 24;
+var i = 25;
 var portfolio_contents = "";
 while (i > 0) {
     portfolio_contents +=
