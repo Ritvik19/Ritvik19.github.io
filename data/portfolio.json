@@ -58,7 +58,7 @@ portfolio = {
         "24": "Sudoku Solver OCR using Convolution Neural Network and Densly Connected Neural Network",
         "23": "Use of Machine Learning Algorithms for in depth analysis of sentiments in a text, deployed as  a flask web application",
         "22": "Machine Learning Algorithms to Analyse Similarity in two Texts, deployed as flask web application",
-        "21": "Commandline Interface based Face Recognition System",
+        "21": "Commandline Interface based Face Recognition System with features like <br>·Age Classification <br>·Face Mask Detection <br>·Gender Classification",
         "20": "Suggest the tags based on the content that was there in the question posted on Stackoverflow.",
         "19": "A Flask based Web Application to provide the clip board facility on the web so that the clips can accessed anytime, anywhere and from any device",
         "18": "A Probabilistic Language Model to INSPYRE you",

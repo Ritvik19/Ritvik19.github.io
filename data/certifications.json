@@ -1,5 +1,6 @@
 certifications = {
     "Certification": {
+        "9": "Neural Networks and Deep Learning",
         "8": "Machine Learning",
         "7": "Bash Scripting and Shell Programming (Linux Command Line)",
         "6": "Automate the Boring Stuff with Python Programming",
@@ -11,6 +12,7 @@ certifications = {
         "0": "JavaScript",
     },
     "Date": {
+        "9": "July 2020",
         "8": "June 2020",
         "7": "March 2020",
         "6": "November 2019",
@@ -22,6 +24,7 @@ certifications = {
         "0": "March 2018",
     },
     "Authority": {
+        "9": "Deeplearning.ai",
         "8": "Stanford Online (Coursera)",
         "7": "Udemy",
         "6": "Udemy",
@@ -33,6 +36,7 @@ certifications = {
         "0": "SoloLearn",
     },
     "URL": {
+        "9": "https://coursera.org/share/0dfc1dee886dac7c6b16532cfd2a676f",
         "8": "https://www.coursera.org/account/accomplishments/certificate/4RNJNT7XQ5QV",
         "7": "https://www.udemy.com/certificate/UC-5c53bbc3-069c-4460-ac84-7ddf2d1e26d0/",
         "6": "https://www.udemy.com/certificate/UC-DELZZ1WA/",
