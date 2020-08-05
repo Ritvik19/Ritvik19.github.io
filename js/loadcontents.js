@@ -1,5 +1,5 @@
 var certifications_div = document.getElementById('certifications-contents')
-var i = 8;
+var i = 9;
 var certification_contents = "<li>[</li>";
 while (i >= 0) {
     certification_contents +=
