@@ -1,5 +1,6 @@
 portfolio = {
     "Title": {
+        "26": "Record Analyzer Tool",
         "25": "Clickbait Detection",
         "24": "Sudoku Lens",
         "23": "Advanced Sentiment Analyzer",
@@ -27,6 +28,7 @@ portfolio = {
         "1": "OTP-Verification"
     },
     "Class": {
+        "26": "ds",
         "25": "nlp",
         "24": "cv",
         "23": "nlp",
@@ -54,6 +56,7 @@ portfolio = {
         "1": "oth"
     },
     "Descriptions": {
+        "26": "An application designed for Bureau of Police Research and Development that helps in investigation of crimes by analyzing CDRs and IPDRs using interactive visualizations and predictive modelling",
         "25": "Machine Learning based text Clickbait Detector",
         "24": "Sudoku Solver OCR using Convolution Neural Network and Densly Connected Neural Network",
         "23": "Use of Machine Learning Algorithms for in depth analysis of sentiments in a text, deployed as  a flask web application",
@@ -81,6 +84,7 @@ portfolio = {
         "1": "It is a simple android app that can be used within other apps... To send and fetch OTPs or Verification"
     },
     "Buttons": {
+        "26": [],
         "25": [{
             "Text": "GitHub",
             "URL": "https://github.com/Ritvik19/Clickbait-Detection"
