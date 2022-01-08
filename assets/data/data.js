@@ -19,13 +19,13 @@ const data = [{
         description: "A library that helps Solving Sudoku Puzzles using Artificial Neural Networks",
     },
     {
-        title: "Implemented-Data-Science",
+        title: "implemented-data-science",
         description: "This Library of Implementations of various data science techniques and research papers",
     },
 ];
 
 const skills = {
-    Python: 95,
+    "Python-Programming": 95,
     "Machine-Learning": 90,
     "Deep-Learning": 85,
     "Natural-Language-Processing": 85,
