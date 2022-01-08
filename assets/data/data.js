@@ -18,6 +18,10 @@ const data = [{
         title: "ai-sudoku-solver",
         description: "A library that helps Solving Sudoku Puzzles using Artificial Neural Networks",
     },
+    {
+        title: "Implemented Data Science",
+        description: "This Library of Implementations of various data science techniques and research papers",
+    },
 ];
 
 const skills = {
