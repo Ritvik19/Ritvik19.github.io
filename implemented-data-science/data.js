@@ -107,6 +107,18 @@ const data = {
             "https://www.kaggle.com/ritvik1909/nmt-with-teacher-forcing-date-format-convertor?scriptVersionId=79242874",
         ],
         [
+            "Question Answering Attention",
+            "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Question-Answering-Attention.ipynb",
+            "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Question-Answering-Attention.ipynb",
+            "https://www.kaggle.com/ritvik1909/question-answering-attention?scriptVersionId=84791869",
+        ],
+        [
+            "Question Answering RNN",
+            "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Question-Answering-RNN.ipynb",
+            "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Question-Answering-RNN.ipynb",
+            "https://www.kaggle.com/ritvik1909/question-answering-rnn?scriptVersionId=84788718",
+        ],
+        [
             "Siamese Network Text Similarity",
             "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Siamese-Network-Text-Similarity.ipynb",
             "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Siamese-Network-Text-Similarity.ipynb",
