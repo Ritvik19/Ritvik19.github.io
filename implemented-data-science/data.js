@@ -1,6 +1,12 @@
 const data = {
     ML: [
         [
+            "Automatic Removal Of Garbage Strings In OCR Text",
+            "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Automatic-Removal-Of-Garbage-Strings-In-OCR-Text.ipynb",
+            "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Automatic-Removal-Of-Garbage-Strings-In-OCR-Text.ipynb",
+            "https://www.kaggle.com/ritvik1909/automatic-removal-of-garbage-strings-in-ocr-text?scriptVersionId=85129988",
+        ],
+        [
             "Optimizing Frequency based Text Classification",
             "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Optimizing-Frequency-based-Text-Classification.ipynb",
             "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Optimizing-Frequency-based-Text-Classification.ipynb",
