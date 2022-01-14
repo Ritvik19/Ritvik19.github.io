@@ -48,7 +48,7 @@ const data = {
             "Normalization in Neural Networks",
             "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Normalization-In-Neural-Networks.ipynb",
             "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Normalization-In-Neural-Networks.ipynb",
-            "https://www.kaggle.com/ritvik1909/normalization-in-neural-networks?scriptVersionId=85210721",
+            "https://www.kaggle.com/ritvik1909/normalization-in-neural-networks?scriptVersionId=85243184",
         ],
         [
             "Time Series RNN",
