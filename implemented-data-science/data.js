@@ -27,6 +27,12 @@ const data = {
             "https://www.kaggle.com/ritvik1909/autoencoders?scriptVersionId=82641841",
         ],
         [
+            "Deep Wide And Cross Networks",
+            "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Deep-Wide-And-Cross-Networks.ipynb",
+            "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Deep-Wide-And-Cross-Networks.ipynb",
+            "https://www.kaggle.com/ritvik1909/deep-wide-and-cross-networks?scriptVersionId=85553799",
+        ],
+        [
             "Entity Embeddings",
             "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Entity-Embeddings.ipynb",
             "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Entity-Embeddings.ipynb",
@@ -197,6 +203,12 @@ const data = {
             "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Image-Classification-CNN-Transfer-Learning.ipynb",
             "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Image-Classification-CNN-Transfer-Learning.ipynb",
             "https://www.kaggle.com/ritvik1909/dont-make-a-fruit-salad?scriptVersionId=44431755",
+        ],
+        [
+            "Masked Autoencoder Vision Transformer",
+            "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
+            "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
+            "https://www.kaggle.com/ritvik1909/masked-autoencoder-vision-transformer?scriptVersionId=85466851",
         ],
         [
             "Image Colorization Autoencoder",
