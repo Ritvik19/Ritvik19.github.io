@@ -69,6 +69,12 @@ const data = {
             "https://www.kaggle.com/ritvik1909/normalization-in-neural-networks",
         ],
         [
+            "Tab Net",
+            "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Tab-Net.ipynb",
+            "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Tab-Net.ipynb",
+            "https://www.kaggle.com/ritvik1909/tab-net",
+        ],
+        [
             "Tab Transformer",
             "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Tab-Transformer.ipynb",
             "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Tab-Transformer.ipynb",
