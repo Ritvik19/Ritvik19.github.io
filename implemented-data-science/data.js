@@ -57,6 +57,12 @@ const data = {
             "https://www.kaggle.com/ritvik1909/neural-collaborative-filtering",
         ],
         [
+            "Neural Oblivious Decision Ensembles",
+            "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Neural-Oblivious-Decision-Ensembles.ipynb",
+            "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Neural-Oblivious-Decision-Ensembles.ipynb",
+            "https://www.kaggle.com/ritvik1909/neural-oblivious-decision-ensembles",
+        ],
+        [
             "Normalization in Neural Networks",
             "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Normalization-In-Neural-Networks.ipynb",
             "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Normalization-In-Neural-Networks.ipynb",
