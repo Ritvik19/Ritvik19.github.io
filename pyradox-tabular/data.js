@@ -9,6 +9,7 @@ const nav_data = [
   "Deep Neural Decision Forest",
   "Neural Oblivious Decision Tree",
   "Neural Oblivious Decision Ensemble",
+  "Feature Tokenizer Transformer",
 ];
 
 const references = [
@@ -39,6 +40,10 @@ const references = [
   [
     "Neural Oblivious Decision Ensembles for Deep Learning on Tabular Data (2019, September)",
     "https://arxiv.org/pdf/1909.06312.pdf",
+  ],
+  [
+    "Revisiting Deep Learning Models for Tabular Data (2021, June)",
+    "https://arxiv.org/abs/2106.11959",
   ],
 ];
 
@@ -283,6 +288,30 @@ from pyradox_tabular.nn import NeuralObliviousDecisionEnsemble
 
 model_config = NeuralObliviousDecisionEnsembleConfig()
 model = NeuralObliviousDecisionEnsemble.from_config(data_config, model_config, name="neural_oblivious_decision_ensemble")
+model.compile(optimizer="adam", loss="binary_crossentropy")
+model.fit(data_train, validation_data=data_valid)
+preds = model.predict(data_test)`,
+      },
+    ],
+  },
+  {
+    title: "Feature Tokenizer Transformer",
+    content: [
+      {
+        type: "p",
+        text:
+          "It is a simple adaptation of the Transformer architecture for the tabular domain. In a nutshell, " +
+          "Feature Tokenizer Transformer transforms all features (categorical and numerical) to embeddings " +
+          "and applies a stack of Transformer layers to the embeddings. <br>" +
+          "Thus, every Transformer layer operates on the feature level of one object.",
+      },
+      {
+        type: "code",
+        text: `from pyradox_tabular.model_config import FeatureTokenizerTransformerConfig
+from pyradox_tabular.nn import FeatureTokenizerTransformer
+
+model_config = FeatureTokenizerTransformerConfig(num_outputs=1, out_activation='sigmoid', num_transformer_blocks=2, num_heads=8, embedding_dim=32, dense_dim=16)
+model = FeatureTokenizerTransformer.from_config(data_config, model_config, name="feature_tokenizer_transformer")
 model.compile(optimizer="adam", loss="binary_crossentropy")
 model.fit(data_train, validation_data=data_valid)
 preds = model.predict(data_test)`,
