@@ -318,4 +318,26 @@ preds = model.predict(data_test)`,
       },
     ],
   },
+  {
+    title: "Tabular ResNet",
+    content: [
+      {
+        type: "p",
+        text:
+          "Tabular Resnet is a ResNet like architecture containing skip connection but instead of " +
+          "Convolutional Layers, it consists of Linear Layers.",
+      },
+      {
+        type: "code",
+        text: `from pyradox_tabular.model_config import TabularResNetConfig
+from pyradox_tabular.nn import TabularResNet
+
+model_config = TabularResNetConfig(num_outputs=1, out_activation='sigmoid', hidden_units=[64, 64])
+model = TabularResNet.from_config(data_config, model_config, name="deep_network")
+model.compile(optimizer="adam", loss="binary_crossentropy")
+model.fit(data_train, validation_data=data_valid)
+preds = model.predict(data_test)`,
+      },
+    ],
+  },
 ];
