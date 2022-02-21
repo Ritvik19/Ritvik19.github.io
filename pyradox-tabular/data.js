@@ -10,6 +10,7 @@ const nav_data = [
   "Neural Oblivious Decision Tree",
   "Neural Oblivious Decision Ensemble",
   "Feature Tokenizer Transformer",
+  "Tabular ResNet",
 ];
 
 const references = [
