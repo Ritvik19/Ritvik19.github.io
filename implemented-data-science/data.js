@@ -96,8 +96,8 @@ const data = {
       "Tabular ResNet",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Tabular-Resnet.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Tabular-Resnet.ipynb",
-      "https://www.kaggle.com/ritvik1909/tabular-resnet/"
-    ]
+      "https://www.kaggle.com/ritvik1909/tabular-resnet/",
+    ],
     [
       "Time Series RNN",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Time-Series-RNN.ipynb",
@@ -299,6 +299,12 @@ const data = {
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Style-GAN.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Style-GAN.ipynb",
       "https://www.kaggle.com/ritvik1909/style-gan",
+    ],
+    [
+      "Text Recognition CRNN",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Text-Recognition-CRNN.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Text-Recognition-CRNN.ipynb",
+      "https://www.kaggle.com/ritvik1909/text-recognition-crnn",
     ],
     [
       "Variational Auto Encoder",
