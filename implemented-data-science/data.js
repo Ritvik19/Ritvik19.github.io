@@ -247,16 +247,16 @@ const data = {
       "https://www.kaggle.com/ritvik1909/dont-make-a-fruit-salad",
     ],
     [
-      "Masked Autoencoder Vision Transformer",
-      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
-      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
-      "https://www.kaggle.com/ritvik1909/masked-autoencoder-vision-transformer",
-    ],
-    [
       "Image Colorization Autoencoder",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Image-Colorization-Autoencoder.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Image-Colorization-Autoencoder.ipynb",
       "https://www.kaggle.com/ritvik1909/image-colorization-autoencoder",
+    ],
+    [
+      "Masked Autoencoder Vision Transformer",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
+      "https://www.kaggle.com/ritvik1909/masked-autoencoder-vision-transformer",
     ],
     [
       "Multi Label Image Classification",
@@ -269,6 +269,24 @@ const data = {
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Neural-Style-Transfer.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Neural-Style-Transfer.ipynb",
       "https://www.kaggle.com/ritvik1909/neural-style-transfer",
+    ],
+    [
+      "Object Detection Selective Search",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Object-Detection-Selective-Search.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Object-Detection-Selective-Search.ipynb",
+      "https://www.kaggle.com/ritvik1909/object-detection-selective-search",
+    ],
+    [
+      "Object Detection Sliding Window",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Object-Detection-Sliding-Window.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Object-Detection-Sliding-Window.ipynb",
+      "https://www.kaggle.com/ritvik1909/object-detection-sliding-window",
+    ],
+    [
+      "Object Localization CNN",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Object-Localization-CNN.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Object-Localization-CNN.ipynb",
+      "https://www.kaggle.com/ritvik1909/object-localization-cnn",
     ],
     [
       "Object Localization CNN",
