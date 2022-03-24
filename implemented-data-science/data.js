@@ -289,12 +289,6 @@ const data = {
       "https://www.kaggle.com/ritvik1909/object-localization-cnn",
     ],
     [
-      "Object Localization CNN",
-      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Object-Localization-CNN.ipynb",
-      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Object-Localization-CNN.ipynb",
-      "https://www.kaggle.com/ritvik1909/object-localization-cnn",
-    ],
-    [
       "Semantic Segmentation CNN",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Semantic-Segmentation-CNN.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Semantic-Segmentation-CNN.ipynb",
@@ -323,6 +317,12 @@ const data = {
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Text-Recognition-CRNN.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Text-Recognition-CRNN.ipynb",
       "https://www.kaggle.com/ritvik1909/text-recognition-crnn",
+    ],
+    [
+      "Timeline of CNNs",
+      "https://www.kaggle.com/code/ritvik1909/timeline-of-cnns",
+      "https://www.kaggle.com/code/ritvik1909/timeline-of-cnns",
+      "https://www.kaggle.com/code/ritvik1909/timeline-of-cnns",
     ],
     [
       "Variational Auto Encoder",
