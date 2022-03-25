@@ -320,8 +320,8 @@ const data = {
     ],
     [
       "Timeline of CNNs",
-      "https://www.kaggle.com/code/ritvik1909/timeline-of-cnns",
-      "https://www.kaggle.com/code/ritvik1909/timeline-of-cnns",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Timeline-of-CNNs.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Timeline-of-CNNs.ipynb",
       "https://www.kaggle.com/code/ritvik1909/timeline-of-cnns",
     ],
     [
