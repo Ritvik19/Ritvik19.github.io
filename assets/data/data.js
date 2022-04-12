@@ -34,13 +34,20 @@ const data = [
     description:
       "This Library of Implementations of various data science techniques and research papers",
   },
+  {
+    title: "ml-notebooks",
+    description:
+      "A project in collaboration with Elvis Saravia, containing a series of code examples for all sorts of machine learning tasks and applications",
+    github: "dair-ai",
+    no_documentation: true,
+  },
 ];
 
 const skills = {
   "Python-Programming": 95,
   "Machine-Learning": 90,
-  "Deep-Learning": 85,
-  "Natural-Language-Processing": 85,
-  "Computer-Vision": 80,
+  "Deep-Learning": 90,
+  "Natural-Language-Processing": 90,
+  "Computer-Vision": 85,
   "Web-Scraping": 90,
 };
