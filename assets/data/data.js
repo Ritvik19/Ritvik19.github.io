@@ -37,7 +37,7 @@ const data = [
   {
     title: "ml-notebooks",
     description:
-      "A project in collaboration with Elvis Saravia, containing a series of code examples for all sorts of machine learning tasks and applications",
+      "A project in collaboration with Elvis Saravia (founder paperswithcodes), containing a series of code examples for all sorts of machine learning tasks and applications",
     github: "dair-ai",
     no_documentation: true,
   },
