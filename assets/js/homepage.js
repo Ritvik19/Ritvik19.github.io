@@ -1,5 +1,5 @@
-function get_nav_item(index, title) {
-  return `<li><a href="#line3_${index}">${title}</a></li>`;
+function get_nav_item(index, title, super_index) {
+  return `<li><a href="#line${super_index}_${index}">${title}</a></li>`;
 }
 
 function get_github_user(github) {
@@ -12,7 +12,7 @@ function get_documentation(title, no_documentation) {
   return `<p><a href="/${title}" role="button">View Documentation</a></p>`;
 }
 
-function get_container_block(
+function get_project_block(
   index,
   title,
   description,
@@ -36,6 +36,21 @@ function get_container_block(
         </div>`;
 }
 
+function get_model_block(index, title, description) {
+  return `
+        <div class="row">
+            <div class="col-md-12 left-align">
+                <h4 class="dark-text" id="line4_${index}">
+                    ${title}
+                </h4>
+            </div>
+            <div class="col-md-12">
+                <p>${description}</p>
+                <p><a href="https://huggingface.co/Ritvik19//${title}" role="button" target="_blank">View Model Page</a></p>
+            </div>
+        </div>`;
+}
+
 function get_skill_bar(skill, progress) {
   return `
     <div class="progress">
@@ -45,13 +60,15 @@ function get_skill_bar(skill, progress) {
     </div>`;
 }
 
-let nav = document.getElementById("nav");
-let container = document.getElementById("container");
+let nav_projects = document.getElementById("nav-projects");
+let container_projects = document.getElementById("container-projects");
+let nav_models = document.getElementById("nav-models");
+let container_models = document.getElementById("container-models");
 let skill_set = document.getElementById("skills");
 
 for (let i = 0; i < data.length; i++) {
-  nav.innerHTML += get_nav_item(i + 1, data[i]["title"]);
-  container.innerHTML += get_container_block(
+  nav_projects.innerHTML += get_nav_item(i + 1, data[i]["title"], 3);
+  container_projects.innerHTML += get_project_block(
     i + 1,
     data[i]["title"],
     data[i]["description"],
@@ -62,4 +79,13 @@ for (let i = 0; i < data.length; i++) {
 
 for (let s in skills) {
   skill_set.innerHTML += get_skill_bar(s, skills[s]);
+}
+
+for (let i = 0; i < models.length; i++) {
+  nav_models.innerHTML += get_nav_item(i + 1, models[i]["title"], 4);
+  container_models.innerHTML += get_model_block(
+    i + 1,
+    models[i]["title"],
+    models[i]["description"]
+  );
 }
