@@ -292,6 +292,12 @@ const data = {
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Object-Localization-CNN.ipynb",
       "https://www.kaggle.com/ritvik1909/object-localization-cnn",
     ],
+    [
+      "TensorFlow Object Detection API",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/TF-OD-API.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/TF-OD-API.ipynb",
+      "https://www.kaggle.com/ritvik1909/tf-od-api",
+    ],
   ],
   CNN: [
     [
