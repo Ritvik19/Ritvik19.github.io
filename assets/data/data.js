@@ -56,7 +56,7 @@ const models = [
   {
     title: "SudokuNet",
     description:
-      "Sudoku-Net is a neural network model solves sudoku puzzles. It was developed to see the performance of machine learning applications on solving sudokus.",
+      "Sudoku-Net is a neural network model that solves sudoku puzzles. It was developed to see the performance of machine learning applications on solving sudokus.",
     linked_models: [
       [
         "sudoku-net-v1",
@@ -71,7 +71,7 @@ const models = [
   {
     title: "SentiNet",
     description:
-      "Senti-Net is an intelligent model to thoroughly analyze the sentiments, emotions of a given text.",
+      "Senti-Net is an intelligent sentiment analyzer to thoroughly analyze the sentiments, emotions of a given text.",
     linked_models: [
       [
         "sentinet-v1",
