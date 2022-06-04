@@ -36,19 +36,46 @@ function get_project_block(
         </div>`;
 }
 
-function get_model_block(index, title, description) {
+function get_space_block(index, title, description, linked_models) {
   return `
         <div class="row">
             <div class="col-md-12 left-align">
-                <h4 class="dark-text" id="line4_${index}">
+                <h6 class="dark-text" id="line4_${index}">
                     ${title}
-                </h4>
+                </h6>
             </div>
             <div class="col-md-12">
                 <p>${description}</p>
-                <p><a href="https://huggingface.co/Ritvik19//${title}" role="button" target="_blank">View Model Page</a></p>
+                <p><a href="https://huggingface.co/spaces/Ritvik19/${title}" role="button" target="_blank">View Space</a></p>
+                ${get_models_table(linked_models)}
             </div>
         </div>`;
+}
+
+function get_models_table(linked_models) {
+  return `
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Model</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            ${get_models_table_rows(linked_models)}
+        </tbody>
+    </table>`;
+}
+
+function get_models_table_rows(linked_models) {
+  let rows = "";
+  for (const element of linked_models) {
+    rows += ` <tr>  
+                <td><a href="https://huggingface.co/spaces/Ritvik19/${element[0]}" target="_blank">${element[0]}</a></td>
+                <td>${element[1]}</td>
+            </tr>`;
+  }
+  return rows;
 }
 
 function get_skill_bar(skill, progress) {
@@ -83,9 +110,10 @@ for (let s in skills) {
 
 for (let i = 0; i < models.length; i++) {
   nav_models.innerHTML += get_nav_item(i + 1, models[i]["title"], 4);
-  container_models.innerHTML += get_model_block(
+  container_models.innerHTML += get_space_block(
     i + 1,
     models[i]["title"],
-    models[i]["description"]
+    models[i]["description"],
+    models[i]["linked_models"]
   );
 }

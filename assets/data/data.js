@@ -54,18 +54,29 @@ const skills = {
 
 const models = [
   {
-    title: "sudoku-net-1",
+    title: "SudokuNet",
     description:
-      "Sudoku Net V1 model solves sudoku puzzles. It was developed to see the performance of machine learning applications on solving sudokus. This model is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park",
+      "Sudoku-Net is a neural network model solves sudoku puzzles. It was developed to see the performance of machine learning applications on solving sudokus.",
+    linked_models: [
+      [
+        "sudoku-net-v1",
+        "It is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park",
+      ],
+      [
+        "sudoku-net-v2",
+        "It is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park and 9 Million Sudoku Puzzles and Solutions dataset provided on kaggle by Vopani",
+      ],
+    ],
   },
   {
-    title: "sudoku-net-2",
+    title: "SentiNet",
     description:
-      "Sudoku Net V2 model solves sudoku puzzles. It was developed to see the performance of machine learning applications on solving sudokus. This model is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park and 9 Million Sudoku Puzzles and Solutions dataset provided on kaggle by Vopani",
-  },
-  {
-    title: "mnist-net",
-    description:
-      "MNIST Net is a tensorflow Mobile Net V2 model fine tuned for 28x28x1 MNIST Handwritten Digits Classification The Images are internally rescaled in [0, 1] range and since Mobile Net V2 expects atleast 32x32 images, zero padding is added, also to translate the image to 3 color channels, we have used 1x1 Conv2D layer before the pretrained Mobile Net V2 layers",
+      "Senti-Net is an intelligent model to thoroughly analyze the sentiments, emotions of a given text.",
+    linked_models: [
+      [
+        "sentinet-v1",
+        "The underlying algorithm is TF-IDF Vectorization followed by Logistic Regression",
+      ],
+    ],
   },
 ];
