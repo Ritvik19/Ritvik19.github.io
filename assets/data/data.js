@@ -44,12 +44,12 @@ const data = [
 ];
 
 const skills = {
-  "Python-Programming": 95,
-  "Machine-Learning": 90,
-  "Deep-Learning": 90,
-  "Natural-Language-Processing": 90,
-  "Computer-Vision": 85,
-  "Web-Scraping": 90,
+  "Python-Programming": 98,
+  "Machine-Learning": 95,
+  "Deep-Learning": 95,
+  "Natural-Language-Processing": 95,
+  "Computer-Vision": 92,
+  "Web-Scraping": 95,
 };
 
 const models = [
