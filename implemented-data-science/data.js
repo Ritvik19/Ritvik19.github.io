@@ -327,6 +327,12 @@ const data = {
   ],
   CV: [
     [
+      "Document Orientation Correction",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Document-Orientation-Correction.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Document-Orientation-Correction.ipynb",
+      "https://www.kaggle.com/code/ritvik1909/document-orientation-correction",
+    ],
+    [
       "Facial Keypoint Detection CNN",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Facial-Keypoint-Detection-CNN.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Facial-Keypoint-Detection-CNN.ipynb",
