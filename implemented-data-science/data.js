@@ -339,6 +339,12 @@ const data = {
       "https://www.kaggle.com/ritvik1909/facial-keypoint-detection-cnn-aug-tl",
     ],
     [
+      "Line Segmentation in Documents",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Line-Segementation-In-Documents.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Line-Segementation-In-Documents.ipynb",
+      "https://www.kaggle.com/code/ritvik1909/line-segmentation-in-documents",
+    ],
+    [
       "Neural Style Transfer",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Neural-Style-Transfer.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Neural-Style-Transfer.ipynb",
