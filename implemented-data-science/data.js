@@ -33,6 +33,12 @@ const data = {
       "https://www.kaggle.com/ritvik1909/learning-rate-schedules",
     ],
     [
+      "Model Quantization",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Model-Quantization.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Model-Quantization.ipynb",
+      "https://www.kaggle.com/ritvik1909/model-quantization",
+    ],
+    [
       "Neural Collaborative Filtering",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Neural-Collaborative-Filtering.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Neural-Collaborative-Filtering.ipynb",
