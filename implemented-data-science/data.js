@@ -33,6 +33,12 @@ const data = {
       "https://www.kaggle.com/ritvik1909/learning-rate-schedules",
     ],
     [
+      "Model ONNX Conversion",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Model-ONNX-Conversion.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Model-ONNX-Conversion.ipynb",
+      "https://www.kaggle.com/ritvik1909/model-onnx-conversion",
+    ],
+    [
       "Model Quantization",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Model-Quantization.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Model-Quantization.ipynb",
