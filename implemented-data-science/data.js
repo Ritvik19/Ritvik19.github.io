@@ -381,4 +381,24 @@ const data = {
       "https://www.kaggle.com/ritvik1909/text-recognition-crnn",
     ],
   ],
+  LayoutLM: [
+    [
+      "LayoutLMv1",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv1.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv1.ipynb",
+      "https://www.kaggle.com/ritvik1909/layoutlmv1",
+    ],
+    [
+      "LayoutLMv1 Document Classification",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv1-Document-Classification.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv1-Document-Classification.ipynb",
+      "https://www.kaggle.com/ritvik1909/layoutlmv1-document-classification",
+    ],
+    [
+      "LayoutLMv1 Information Extraction",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv1-Information-Extraction.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv1-Information-Extraction.ipynb",
+      "https://www.kaggle.com/ritvik1909/layoutlmv1-information-extraction",
+    ],
+  ],
 };
