@@ -400,5 +400,23 @@ const data = {
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv1-Information-Extraction.ipynb",
       "https://www.kaggle.com/ritvik1909/layoutlmv1-information-extraction",
     ],
+    [
+      "LayoutLMv2",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv2.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv2.ipynb",
+      "https://www.kaggle.com/ritvik1909/layoutlmv2",
+    ],
+    [
+      "LayoutLMv2 Document Classification",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv2-Document-Classification.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv2-Document-Classification.ipynb",
+      "https://www.kaggle.com/ritvik1909/layoutlmv2-document-classification",
+    ],
+    [
+      "LayoutLMv2 Information Extraction",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv2-Information-Extraction.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv2-Information-Extraction.ipynb",
+      "https://www.kaggle.com/ritvik1909/layoutlmv2-information-extraction",
+    ],
   ],
 };
