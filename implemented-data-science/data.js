@@ -339,22 +339,10 @@ const data = {
   ],
   CV: [
     [
-      "Document Orientation Correction",
-      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Document-Orientation-Correction.ipynb",
-      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Document-Orientation-Correction.ipynb",
-      "https://www.kaggle.com/code/ritvik1909/document-orientation-correction",
-    ],
-    [
       "Facial Keypoint Detection CNN",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Facial-Keypoint-Detection-CNN.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Facial-Keypoint-Detection-CNN.ipynb",
       "https://www.kaggle.com/ritvik1909/facial-keypoint-detection-cnn-aug-tl",
-    ],
-    [
-      "Line Segmentation in Documents",
-      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Line-Segementation-In-Documents.ipynb",
-      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Line-Segementation-In-Documents.ipynb",
-      "https://www.kaggle.com/code/ritvik1909/line-segmentation-in-documents",
     ],
     [
       "Neural Style Transfer",
@@ -381,7 +369,13 @@ const data = {
       "https://www.kaggle.com/ritvik1909/text-recognition-crnn",
     ],
   ],
-  LayoutLM: [
+  DIP: [
+    [
+      "Document Orientation Correction",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Document-Orientation-Correction.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Document-Orientation-Correction.ipynb",
+      "https://www.kaggle.com/code/ritvik1909/document-orientation-correction",
+    ],
     [
       "LayoutLMv1",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv1.ipynb",
@@ -417,6 +411,18 @@ const data = {
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv2-Information-Extraction.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/LayoutLMv2-Information-Extraction.ipynb",
       "https://www.kaggle.com/ritvik1909/layoutlmv2-information-extraction",
+    ],
+    [
+      "Line Segmentation and Layout Parsing of Documents",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Line-Segementation-and-Layout-Parsing-of-Documents.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Line-Segementation-and-Layout-Parsing-of-Documents.ipynb",
+      "https://www.kaggle.com/code/ritvik1909/line-segmentation-and-layout-parsing-of-documents",
+    ],
+    [
+      "TableNet",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/TableNet.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/TableNet.ipynb",
+      "https://www.kaggle.com/code/ritvik1909/tablenet",
     ],
   ],
 };

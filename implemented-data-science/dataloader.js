@@ -66,7 +66,7 @@ let meta_data = [
   ["line09", "OD", "Object Detection"],
   ["line10", "AE", "Autoencoders"],
   ["line11", "GAN", "Generative Adversarial Networks"],
-  ["line12", "LayoutLM", "Layout LM"],
+  ["line12", "DIP", "Document Information Processing"],
 ];
 
 for (let row of meta_data) {
