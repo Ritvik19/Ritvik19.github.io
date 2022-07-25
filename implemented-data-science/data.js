@@ -273,12 +273,6 @@ const data = {
       "https://www.kaggle.com/ritvik1909/image-colorization-autoencoder",
     ],
     [
-      "Masked Autoencoder Vision Transformer",
-      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
-      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
-      "https://www.kaggle.com/ritvik1909/masked-autoencoder-vision-transformer",
-    ],
-    [
       "Variational Auto Encoder",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Variational-Auto-Encoder.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Variational-Auto-Encoder.ipynb",
@@ -339,10 +333,22 @@ const data = {
   ],
   CV: [
     [
+      "ConvMixer",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/ConvMixer.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/ConvMixer.ipynb",
+      "https://www.kaggle.com/ritvik1909/convmixer",
+    ],
+    [
       "Facial Keypoint Detection CNN",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Facial-Keypoint-Detection-CNN.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Facial-Keypoint-Detection-CNN.ipynb",
       "https://www.kaggle.com/ritvik1909/facial-keypoint-detection-cnn-aug-tl",
+    ],
+    [
+      "Masked Autoencoder Vision Transformer",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Masked-Autoencoder-Vision-Transformer.ipynb",
+      "https://www.kaggle.com/ritvik1909/masked-autoencoder-vision-transformer",
     ],
     [
       "Neural Style Transfer",
