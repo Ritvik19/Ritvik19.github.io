@@ -7,6 +7,12 @@ const data = {
       "https://www.kaggle.com/ritvik1909/automatic-removal-of-garbage-strings-in-ocr-text",
     ],
     [
+      "McNemars Test: To compare classifiers",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/McNemar-Test-To-Compare-Classifiers.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/McNemar-Test-To-Compare-Classifiers.ipynb",
+      "https://www.kaggle.com/code/ritvik1909/mcnemar-test-to-compare-classifiers",
+    ],
+    [
       "Optimizing Frequency based Text Classification",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Optimizing-Frequency-based-Text-Classification.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Optimizing-Frequency-based-Text-Classification.ipynb",
