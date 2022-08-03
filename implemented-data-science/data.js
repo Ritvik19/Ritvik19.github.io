@@ -261,6 +261,18 @@ const data = {
       "https://www.kaggle.com/ritvik1909/autoencoders",
     ],
     [
+      "Autoencoders for Learning Image Embeddings",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Autoencoders-for-Learning-Image-Embeddings.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Autoencoders-for-Learning-Image-Embeddings.ipynb",
+      "https://www.kaggle.com/code/ritvik1909/autoencoders-for-learning-image-embeddings",
+    ],
+    [
+      "Autoencoders for Transfer Learning",
+      "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Autoencoders-for-Transfer-Learning.ipynb",
+      "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Autoencoders-for-Transfer-Learning.ipynb",
+      "https://www.kaggle.com/ritvik1909/autoencoders-for-transfer-learning",
+    ],
+    [
       "Denoising Autoencoder",
       "https://github.com/Ritvik19/Implemented-Data-Science/blob/main/Denoising-Autoencoder.ipynb",
       "https://nbviewer.jupyter.org/github/Ritvik19/Implemented-Data-Science/blob/main/Denoising-Autoencoder.ipynb",
