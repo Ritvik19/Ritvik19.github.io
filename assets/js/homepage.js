@@ -12,11 +12,19 @@ function get_documentation(title, no_documentation) {
   return `<p><a href="/${title}" role="button">View Documentation</a></p>`;
 }
 
+function get_github(title, no_github, github) {
+  if (no_github !== undefined) return "";
+  return `<p><a href="https://github.com/${get_github_user(
+    github
+  )}/${title}" role="button" target="_blank">View Project</a></p>`;
+}
+
 function get_project_block(
   index,
   title,
   description,
   github,
+  no_github,
   no_documentation
 ) {
   return `
@@ -28,9 +36,7 @@ function get_project_block(
             </div>
             <div class="col-md-12">
                 <p>${description}</p>
-                <p><a href="https://github.com/${get_github_user(
-                  github
-                )}/${title}" role="button" target="_blank">View Project</a></p>
+                ${get_github(title, no_github, github)}
                 ${get_documentation(title, no_documentation)}
             </div>
         </div>`;
@@ -100,6 +106,7 @@ for (let i = 0; i < data.length; i++) {
     data[i]["title"],
     data[i]["description"],
     data[i]["github"],
+    data[i]["no_github"],
     data[i]["no_documentation"]
   );
 }

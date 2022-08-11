@@ -41,6 +41,12 @@ const data = [
     github: "dair-ai",
     no_documentation: true,
   },
+  {
+    title: "papers-explained",
+    description:
+      " A blog series on Kaggle Explaining various Research Papers followed by their implementation",
+    no_github: true,
+  },
 ];
 
 const skills = {
