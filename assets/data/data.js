@@ -24,11 +24,11 @@ const data = [
     description:
       "A library that provides you with Low Code Data Visualisations for any Tabular Data Science Project",
   },
-  {
-    title: "ai-sudoku-solver",
-    description:
-      "A library that helps Solving Sudoku Puzzles using Artificial Neural Networks",
-  },
+  // {
+  //   title: "ai-sudoku-solver",
+  //   description:
+  //     "A library that helps Solving Sudoku Puzzles using Artificial Neural Networks",
+  // },
   {
     title: "implemented-data-science",
     description:
@@ -74,15 +74,23 @@ const models = [
       ],
     ],
   },
+  // {
+  //   title: "SentiNet",
+  //   description:
+  //     "Senti-Net is an intelligent sentiment analyzer to thoroughly analyze the sentiments, emotions of a given text.",
+  //   linked_models: [
+  //     [
+  //       "sentinet-v1",
+  //       "The underlying algorithm is TF-IDF Vectorization followed by Logistic Regression",
+  //     ],
+  //   ],
+  // },
   {
-    title: "SentiNet",
+    title: "ScAi-Fi",
     description:
-      "Senti-Net is an intelligent sentiment analyzer to thoroughly analyze the sentiments, emotions of a given text.",
+      "ScAi-Fi is a language model designed to assist you in comprehensively analyzing machine learning research paper abstracts. With its various functionalities, it simplifies understanding and extracting key information from academic abstracts.",
     linked_models: [
-      [
-        "sentinet-v1",
-        "The underlying algorithm is TF-IDF Vectorization followed by Logistic Regression",
-      ],
+      ["ScAi-Fi", "A FLAN T5 fine tuned model on Papers Explained Data"],
     ],
   },
 ];

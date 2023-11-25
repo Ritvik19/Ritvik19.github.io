@@ -77,7 +77,7 @@ function get_models_table_rows(linked_models) {
   let rows = "";
   for (const element of linked_models) {
     rows += ` <tr>  
-                <td><a href="https://huggingface.co/spaces/Ritvik19/${element[0]}" target="_blank">${element[0]}</a></td>
+                <td><a href="https://huggingface.co/Ritvik19/${element[0]}" target="_blank">${element[0]}</a></td>
                 <td>${element[1]}</td>
             </tr>`;
   }
