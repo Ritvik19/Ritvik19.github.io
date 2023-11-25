@@ -57,6 +57,13 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+      td:nth-child(2),
+      td:nth-child(3),
+      td:nth-child(4) {
+        text-align: right;
+      }
+    </style>
   </head>
 
   <body>
@@ -122,21 +129,14 @@
                 <li><a href="#line1">Installation</a></li>
                 <li>
                   <a href="#line2">Usage</a>
-                  <ul class="nav">
-                    <li><a href="#line2_1">Instantiate Vizard</a></li>
-                    <li><a href="#line2_2">Exploratory Data Analysis</a></li>
-                    <li><a href="#line2_3">Target Column Analysis</a></li>
-                    <li><a href="#line2_4">Univariate Analysis</a></li>
-                    <li><a href="#line2_5">Bivariate Analysis</a></li>
-                    <li><a href="#line2_6">Trivariate Analysis</a></li>
-                    <li><a href="#line2_7">Correlation Analysis</a></li>
-                  </ul>
+                  <ul class="nav" id="nav"></ul>
                 </li>
+
                 <li><a href="#line3">Examples</a></li>
               </ul>
             </nav>
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" id="container">
             <section class="welcome">
               <div class="row">
                 <div class="col-md-12 left-align">
@@ -154,332 +154,6 @@
                 </div>
               </div>
             </section>
-
-            <section id="line1" class="section">
-              <div class="row">
-                <div class="col-md-12 left-align">
-                  <h2 class="dark-text">
-                    Installation
-                    <hr />
-                  </h2>
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-
-              <div class="row">
-                <div class="col-md-12">
-                  <pre class="brush: python;">pip install vizard</pre>
-                  or
-                  <pre class="brush: python;">
-pip install git+https://github.com/Ritvik19/vizard.git</pre
-                  >
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-            </section>
-            <!-- end section -->
-
-            <section id="line2" class="section">
-              <div class="row">
-                <div class="col-md-12 left-align">
-                  <h2 class="dark-text">
-                    Usage
-                    <hr />
-                  </h2>
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-
-              <div class="row">
-                <div class="col-md-12">
-                  <h4 id="line2_1">Instantiate Vizard</h4>
-                  <p>
-                    The Vizard or VizardIn object holds the
-                    <strong>DataFrame</strong> along with its configurations
-                    including the <strong>PROBLEM_TYPE</strong>,
-                    <strong>DEPENDENT_VARIABLE</strong>,
-                    <strong>CATEGORICAL_INDEPENDENT_VARIABLES</strong>,
-                    <strong>CONTINUOUS_INDEPENDENT_VARIABLES</strong>, and
-                    <strong>TEXT_VARIABLES</strong>
-                  </p>
-                  <pre class="brush: python;">
-import vizard
-
-class config:
-    PROBLEM_TYPE = 'regression' or 'classification' or 'unsupervised'
-    DEPENDENT_VARIABLE = 'target_variable'
-    CATEGORICAL_INDEPENDENT_VARIABLES = [categorical_features]
-    CONTINUOUS_INDEPENDENT_VARIABLES = [continuous features]
-    TEXT_VARIABLES = [text features]
-
-viz = vizard.Vizard(df, config)
-# for interactive plots use:
-viz = vizard.VizardIn(df, config)</pre
-                  >
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-              <div class="row">
-                <div class="col-md-12">
-                  <h4 id="line2_2">Exploratory Data Analysis</h4>
-                  <p>
-                    After Instatiating the <strong>Vizard</strong> object, you
-                    can try different plots for EDA
-                  </p>
-                  <ul style="list-style-type: circle">
-                    <li>Check Missing Values:</li>
-                  </ul>
-                  <pre class="brush: python;">viz.check_missing()</pre>
-
-                  <ul style="list-style-type: circle">
-                    <li>Count of Unique Values:</li>
-                  </ul>
-                  <pre class="brush: python;">viz.count_unique()</pre>
-
-                  <ul style="list-style-type: circle">
-                    <li>Count of Missing Values by Group:</li>
-                  </ul>
-                  <pre class="brush: python;">
-viz.count_missing_by_group(class_variable)</pre
-                  >
-
-                  <ul style="list-style-type: circle">
-                    <li>Count of Unique Values by Group:</li>
-                  </ul>
-                  <pre class="brush: python;">
-viz.count_unique_by_group(class_variable)</pre
-                  >
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-
-              <div class="row">
-                <div class="col-md-12">
-                  <h4 id="line2_3">Target Column Analysis</h4>
-                  <p>
-                    Based on the type of problem, perform a univariate analysis
-                    of target column
-                  </p>
-                  <pre class="brush: python;">viz.dependent_variable()</pre>
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-
-              <div class="row">
-                <div class="col-md-12">
-                  <h4 id="line2_4">Univariate Analysis</h4>
-                  <p>
-                    Based on the type of problem, preform univariate analysis of
-                    all feature columns with respect to the target column
-                  </p>
-                  <ul style="list-style-type: circle">
-                    <li>Categorical Variables:</li>
-                  </ul>
-                  <pre class="brush: python;">viz.categorical_variables()</pre>
-
-                  <ul style="list-style-type: circle">
-                    <li>Continuous Variables:</li>
-                  </ul>
-                  <pre class="brush: python;">viz.continuous_variables()</pre>
-
-                  <ul style="list-style-type: circle">
-                    <li>Text Variables:</li>
-                  </ul>
-                  <pre class="brush: python;">
-  viz.wordcloud()
-
-  viz.wordcloud_by_group()
-
-  viz.wordcloud_freq()
-</pre
-                  >
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-
-              <div class="row">
-                <div class="col-md-12">
-                  <h4 id="line2_5">Bivariate Analysis</h4>
-                  <p>
-                    Based on the type of variables, perform bivariate analysis
-                    on all the feature columns
-                  </p>
-                  <ul style="list-style-type: circle">
-                    <li>Pairwise Scatter:</li>
-                  </ul>
-                  <pre class="brush: python;">viz.pairwise_scatter()</pre>
-
-                  <ul style="list-style-type: circle">
-                    <li>Pairwise Violin:</li>
-                  </ul>
-                  <pre class="brush: python;">viz.pairwise_violin()</pre>
-
-                  <ul style="list-style-type: circle">
-                    <li>Pairwise Cross Tabs:</li>
-                  </ul>
-                  <pre class="brush: python;">
-viz.pairwise_crosstabs()
-</pre
-                  >
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-              <div class="row">
-                <div class="col-md-12">
-                  <h4 id="line2_6">Trivariate Analysis</h4>
-                  <p>
-                    Based on the type of variables, perform trivariate analysis
-                    on any of the feature columns
-                  </p>
-                  <ul style="list-style-type: circle">
-                    <li>
-                      Trivariate Bubble (Continuous vs Continuous vs
-                      Continuous):
-                    </li>
-                  </ul>
-                  <pre class="brush: python;">
-viz.trivariate_bubble(x, y, s)</pre
-                  >
-
-                  <ul style="list-style-type: circle">
-                    <li>
-                      Trivariate Scatter (Continuous vs Continuous vs
-                      Categorical):
-                    </li>
-                  </ul>
-                  <pre class="brush: python;">
-viz.trivariate_scatter(x, y, c)</pre
-                  >
-
-                  <ul style="list-style-type: circle">
-                    <li>
-                      Trivariate Violin (Categorical vs Continuous vs
-                      Categorical):
-                    </li>
-                  </ul>
-                  <pre class="brush: python;">
-viz.trivariate_violin(x, y, c)
-</pre
-                  >
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-              <div class="row">
-                <div class="col-md-12">
-                  <h4 id="line2_7">Correlation Analysis</h4>
-                  <p>
-                    Based on the type of variables, perform correaltion analysis
-                    on all the feature columns
-                  </p>
-                  <ul style="list-style-type: circle">
-                    <li>Correlation Plot:</li>
-                  </ul>
-                  <pre class="brush: python;">viz.corr_plot()</pre>
-
-                  <ul style="list-style-type: circle">
-                    <li>Pair Plot:</li>
-                  </ul>
-                  <pre class="brush: python;">
-  viz.pair_plot()
-</pre
-                  >
-
-                  <ul style="list-style-type: circle">
-                    <li>Chi Square Plot:</li>
-                  </ul>
-                  <pre class="brush: python;">
-  viz.chi_sq_plot()
-
-</pre
-                  >
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-              <hr />
-            </section>
-            <!-- end section -->
-
-            <section id="line3" class="section">
-              <div class="row">
-                <div class="col-md-12 left-align">
-                  <h2 class="dark-text">
-                    Examples
-                    <hr />
-                  </h2>
-                </div>
-                <!-- end col -->
-              </div>
-              <!-- end row -->
-
-              <div class="row">
-                <div class="col-md-12">
-                  <ul style="list-style-type: circle">
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://nbviewer.jupyter.org/github/Ritvik19/vizard-doc/blob/main/usage/Classification%20Case.ipynb"
-                        >Classification Case</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://nbviewer.jupyter.org/github/Ritvik19/vizard-doc/blob/main/usage/Regression%20Case.ipynb"
-                        >Regression Case</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://nbviewer.jupyter.org/github/Ritvik19/vizard-doc/blob/main/usage/Text%20Classification%20Case.ipynb"
-                        >Text Classification Case</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://nbviewer.jupyter.org/github/Ritvik19/vizard-doc/blob/main/usage/Unsupervised%20Case.ipynb"
-                        >Unsupervised Case</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://nbviewer.jupyter.org/github/Ritvik19/vizard-doc/blob/main/usage/Classification%20Interactive%20Case.ipynb"
-                        >Classification Case (Interactive)</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://nbviewer.jupyter.org/github/Ritvik19/vizard-doc/blob/main/usage/Regression%20Interactive%20Case.ipynb"
-                        >Regression Case (Interactive)</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://nbviewer.jupyter.org/github/Ritvik19/vizard-doc/blob/main/usage/Unsupervised%20Interactive%20Case.ipynb"
-                        >Unsupervised Case (Interactive)</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- end row -->
-            </section>
-            <!-- end section -->
           </div>
           <!-- end col -->
         </div>
@@ -499,6 +173,8 @@ viz.trivariate_violin(x, y, c)
     <!-- CUSTOM PLUGINS -->
     <script src="../assets/js/custom.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script src="data.js"></script>
+    <script src="dataloader.js"></script>
 
     <script src="../assets/js/syntax-highlighter/scripts/shCore.js"></script>
     <script src="../assets/js/syntax-highlighter/scripts/shBrushBash.js"></script>
