@@ -65,8 +65,11 @@ function create_table_row(title, link, date, description) {
   `;
 }
 
-function create_literature_review_section_contents(literature_review_data) {
-  let contents = '<table class="table table-striped table-bordered">';
+function create_literature_review_section_contents(
+  header,
+  literature_review_data
+) {
+  let contents = `<h4>${header}</h4><table class="table table-striped table-bordered">`;
   for (var i = 0; i < literature_review_data.length; i++) {
     contents += `<tr><td><a target="_blank" href="${literature_review_data[i].link}">${literature_review_data[i].title}</a></td></tr>`;
   }
@@ -85,9 +88,19 @@ for (var i = 0; i < nav_data.length; i++) {
   );
 }
 
-nav.innerHTML += create_nav_item(nav_data.length + 1, "Literature Review");
+nav.innerHTML += create_nav_item(
+  nav_data.length + 1,
+  "Literature Review and Reading Lists"
+);
 container.innerHTML += create_section(
   `line_${nav_data.length + 1}`,
-  "Literature Review",
-  create_literature_review_section_contents(literature_review_data)
+  "Literature Reviews and Reading Lists",
+  create_literature_review_section_contents(
+    "Literature Reviews",
+    literature_review_data
+  ) +
+    create_literature_review_section_contents(
+      "Reading Lists",
+      reading_list_data
+    )
 );

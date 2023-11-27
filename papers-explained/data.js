@@ -1,8 +1,5 @@
 const nav_data = [
   "Language Models",
-  "AE-AR Transformers",
-  "AE Only Transformers",
-  "AR Transformers",
   "Vision Models",
   "Convolutional Neural Networks",
   "Single Stage Object Detection",
@@ -17,24 +14,6 @@ const papers_data = [
   [
     // Language Models
     {
-      title: "Elmo",
-      link: "https://ritvik19.medium.com/papers-explained-33-elmo-76362a43e4",
-      date: "February 2018",
-      description:
-        "Deep contextualized word representations that captures both intricate aspects of word usage and contextual variations across language contexts.",
-    },
-
-    {
-      title: "CodeFusion",
-      link: "https://ritvik19.medium.com/papers-explained-70-codefusion-fee6aba0149a",
-      date: "October 2023",
-      description:
-        "A diffusion code generation model that iteratively refines entire programs based on encoded natural language, overcoming the limitation of auto-regressive models in code generation by allowing reconsideration of earlier tokens.",
-    },
-  ],
-  [
-    // AE-AR Transformers
-    {
       title: "Transformer",
       link: "https://ritvik19.medium.com/papers-explained-01-transformer-474bb60a33f7",
       date: "June 2017",
@@ -42,11 +21,39 @@ const papers_data = [
         "An Encoder Decoder model, that introduced multihead attention mechanism for language translation task.",
     },
     {
+      title: "Elmo",
+      link: "https://ritvik19.medium.com/papers-explained-33-elmo-76362a43e4",
+      date: "February 2018",
+      description:
+        "Deep contextualized word representations that captures both intricate aspects of word usage and contextual variations across language contexts.",
+    },
+    {
+      title: "GPT",
+      link: "https://ritvik19.medium.com/papers-explained-43-gpt-30b6f1e6d226",
+      date: "June 2018",
+      description:
+        "A Decoder only transformer which is autoregressively pretrained and then finetuned for specific downstream tasks using task-aware input transformations.",
+    },
+    {
+      title: "BERT",
+      link: "https://ritvik19.medium.com/papers-explained-02-bert-31e59abc0615",
+      date: "October 2018",
+      description:
+        "Introduced pre-training for Encoder Transformers. Uses unified architecture across different tasks.",
+    },
+    {
       title: "Transformer XL",
       link: "https://ritvik19.medium.com/papers-explained-34-transformerxl-2e407e780e8",
       date: "January 2019",
       description:
         "Extends the original Transformer model to handle longer sequences of text by introducing recurrence into the self-attention mechanism.",
+    },
+    {
+      title: "GPT 2",
+      link: "https://ritvik19.medium.com/papers-explained-65-gpt-2-98d0a642e520",
+      date: "February 2019",
+      description:
+        "Demonstrates that language models begin to learn various language processing tasks without any explicit supervision.",
     },
     {
       title: "UniLM",
@@ -61,44 +68,6 @@ const papers_data = [
       date: "June 2019",
       description:
         "Extension of the Transformer-XL, pre-trained using a new method that combines ideas from AR and AE objectives.",
-    },
-    {
-      title: "T5",
-      link: "https://ritvik19.medium.com/papers-explained-44-t5-9d974a3b7957",
-      date: "October 2019",
-      description:
-        "A unified encoder-decoder framework that converts all text-based language problems into a text-to-text format.",
-    },
-    {
-      title: "UniLMv2",
-      link: "https://ritvik19.medium.com/papers-explained-unilmv2-5a044ca7c525",
-      date: "February 2020",
-      description:
-        "Utilizes a pseudo-masked language model (PMLM) for both autoencoding and partially autoregressive language modeling tasks,significantly advancing the capabilities of language models in diverse NLP tasks.",
-    },
-    {
-      title: "Longformer",
-      link: "https://ritvik19.medium.com/papers-explained-38-longformer-9a08416c532e",
-      date: "April 2020",
-      description:
-        "Introduces a linearly scalable attention mechanism, allowing handling texts of exteded length.",
-    },
-    {
-      title: "T0",
-      link: "https://ritvik19.medium.com/papers-explained-74-t0-643a53079fe",
-      date: "October 2021",
-      description:
-        "A fine tuned encoder-decoder model on a multitask mixture covering a wide variety of tasks, attaining strong zero-shot performance on several standard datasets.",
-    },
-  ],
-  [
-    // AE Only Transformers
-    {
-      title: "BERT",
-      link: "https://ritvik19.medium.com/papers-explained-02-bert-31e59abc0615",
-      date: "October 2018",
-      description:
-        "Introduced pre-training for Encoder Transformers. Uses unified architecture across different tasks.",
     },
     {
       title: "RoBERTa",
@@ -136,6 +105,27 @@ const papers_data = [
         "Distills BERT on very large batches leveraging gradient accumulation, using dynamic masking and without the next sentence prediction objective.",
     },
     {
+      title: "T5",
+      link: "https://ritvik19.medium.com/papers-explained-44-t5-9d974a3b7957",
+      date: "October 2019",
+      description:
+        "A unified encoder-decoder framework that converts all text-based language problems into a text-to-text format.",
+    },
+    {
+      title: "BART",
+      link: "https://ritvik19.medium.com/papers-explained-09-bart-7f56138175bd",
+      date: "October 2019",
+      description:
+        "A Decoder pretrained to reconstruct the original text from corrupted versions of it.",
+    },
+    {
+      title: "UniLMv2",
+      link: "https://ritvik19.medium.com/papers-explained-unilmv2-5a044ca7c525",
+      date: "February 2020",
+      description:
+        "Utilizes a pseudo-masked language model (PMLM) for both autoencoding and partially autoregressive language modeling tasks,significantly advancing the capabilities of language models in diverse NLP tasks.",
+    },
+    {
       title: "FastBERT",
       link: "https://ritvik19.medium.com/papers-explained-37-fastbert-5bd246c1b432",
       date: "April 2020",
@@ -148,6 +138,20 @@ const papers_data = [
       date: "April 2020",
       description:
         "Compressed and faster version of the BERT, featuring bottleneck structures, optimized attention mechanisms, and knowledge transfer.",
+    },
+    {
+      title: "Longformer",
+      link: "https://ritvik19.medium.com/papers-explained-38-longformer-9a08416c532e",
+      date: "April 2020",
+      description:
+        "Introduces a linearly scalable attention mechanism, allowing handling texts of exteded length.",
+    },
+    {
+      title: "GPT 3",
+      link: "https://ritvik19.medium.com/papers-explained-66-gpt-3-352f5a1b397",
+      date: "May 2020",
+      description:
+        "Demonstrates that scaling up language models greatly improves task-agnostic, few-shot performance.",
     },
     {
       title: "DeBERTa",
@@ -163,37 +167,6 @@ const papers_data = [
       description:
         "Enhanced version of the DeBERTa featuring a new vocabulary, nGiE integration, optimized attention mechanisms, additional model sizes, and improved tokenization.",
     },
-  ],
-  [
-    // AR Transformers
-    {
-      title: "GPT",
-      link: "https://ritvik19.medium.com/papers-explained-43-gpt-30b6f1e6d226",
-      date: "June 2018",
-      description:
-        "A Decoder only transformer which is autoregressively pretrained and then finetuned for specific downstream tasks using task-aware input transformations.",
-    },
-    {
-      title: "GPT 2",
-      link: "https://ritvik19.medium.com/papers-explained-65-gpt-2-98d0a642e520",
-      date: "February 2019",
-      description:
-        "Demonstrates that language models begin to learn various language processing tasks without any explicit supervision.",
-    },
-    {
-      title: "BART",
-      link: "https://ritvik19.medium.com/papers-explained-09-bart-7f56138175bd",
-      date: "October 2019",
-      description:
-        "A Decoder pretrained to reconstruct the original text from corrupted versions of it.",
-    },
-    {
-      title: "GPT 3",
-      link: "https://ritvik19.medium.com/papers-explained-66-gpt-3-352f5a1b397",
-      date: "May 2020",
-      description:
-        "Demonstrates that scaling up language models greatly improves task-agnostic, few-shot performance.",
-    },
     {
       title: "Codex",
       link: "https://ritvik19.medium.com/papers-explained-45-codex-caca940feb31",
@@ -207,6 +180,13 @@ const papers_data = [
       date: "September 2021",
       description:
         "An instruction-tuned language model developed through finetuning on various NLP datasets described by natural language instructions.",
+    },
+    {
+      title: "T0",
+      link: "https://ritvik19.medium.com/papers-explained-74-t0-643a53079fe",
+      date: "October 2021",
+      description:
+        "A fine tuned encoder-decoder model on a multitask mixture covering a wide variety of tasks, attaining strong zero-shot performance on several standard datasets.",
     },
     {
       title: "Gopher",
@@ -352,6 +332,13 @@ const papers_data = [
       date: "October 2023",
       description:
         "An LLM for mathematics, formed by continued pretraining of Code Llama on a mixture of scientific papers, web data containing mathematics, and mathematical code.",
+    },
+    {
+      title: "CodeFusion",
+      link: "https://ritvik19.medium.com/papers-explained-70-codefusion-fee6aba0149a",
+      date: "October 2023",
+      description:
+        "A diffusion code generation model that iteratively refines entire programs based on encoded natural language, overcoming the limitation of auto-regressive models in code generation by allowing reconsideration of earlier tokens.",
     },
     {
       title: "Zephyr 7B",
@@ -729,5 +716,44 @@ const literature_review_data = [
   {
     title: "Tabular Deep Learning",
     link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b",
+  },
+];
+
+const reading_list_data = [
+  {
+    title: "Language Models",
+    link: "https://ritvik19.medium.com/list/language-models-11b008ddc292",
+  },
+  {
+    title: "GPT Models",
+    link: "https://ritvik19.medium.com/list/gpt-models-fa2cc801d840",
+  },
+  {
+    title: "LLaMA Models",
+    link: "https://ritvik19.medium.com/list/llama-models-5b8ea07308cb",
+  },
+  {
+    title: "Multi Task Language Models",
+    link: "https://ritvik19.medium.com/list/multi-task-language-models-e6a2a1e517e6",
+  },
+  {
+    title: "Layout Aware Transformers",
+    link: "https://ritvik19.medium.com/list/layout-transformers-1ce4f291a9f0",
+  },
+  {
+    title: "Object Detection",
+    link: "https://ritvik19.medium.com/list/object-detection-bd9e6e21ca3e",
+  },
+  {
+    title: "Region Based Convolutional Neural Networks",
+    link: "https://ritvik19.medium.com/list/rcnns-b51467f53dc9",
+  },
+  {
+    title: "Vision Models",
+    link: "https://ritvik19.medium.com/list/vision-models-61e6836230f1",
+  },
+  {
+    title: "Document Information Processing",
+    link: "https://ritvik19.medium.com/list/document-information-processing-3cd900a34972",
   },
 ];
