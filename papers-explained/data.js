@@ -83,6 +83,13 @@ const papers_data = [
       description:
         "Introduces a linearly scalable attention mechanism, allowing handling texts of exteded length.",
     },
+    {
+      title: "T0",
+      link: "https://ritvik19.medium.com/papers-explained-74-t0-643a53079fe",
+      date: "October 2021",
+      description:
+        "A fine tuned encoder-decoder model on a multitask mixture covering a wide variety of tasks, attaining strong zero-shot performance on several standard datasets.",
+    },
   ],
   [
     // AE Only Transformers
