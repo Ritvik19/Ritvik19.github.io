@@ -725,6 +725,10 @@ const reading_list_data = [
     link: "https://ritvik19.medium.com/list/language-models-11b008ddc292",
   },
   {
+    title: "Encoder Only Language Transformers",
+    link: "https://ritvik19.medium.com/list/encoderonly-language-transformers-0f2ff06e0309",
+  },
+  {
     title: "GPT Models",
     link: "https://ritvik19.medium.com/list/gpt-models-fa2cc801d840",
   },
