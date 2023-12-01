@@ -224,6 +224,12 @@ const papers_data = [
         "A suite of decoder-only pre-trained transformers with parameter ranges from 125M to 175B. OPT-175B being comparable to GPT-3.",
     },
     {
+      title: "Flan T5, Flan PaLM",
+      link: "https://ritvik19.medium.com/papers-explained-75-flan-t5-flan-palm-caf168b6f76",
+      date: "October 2022",
+      description: "Explores instruction fine tuning with a particular focus on scaling the number of tasks, scaling the model size, and fine tuning on chain-of-thought data.",
+    },
+    {
       title: "BLOOM",
       link: "https://ritvik19.medium.com/papers-explained-52-bloom-9654c56cd2",
       date: "November 2022",
