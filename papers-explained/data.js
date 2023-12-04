@@ -196,6 +196,12 @@ const papers_data = [
         "Provides a comprehensive analysis of the performance of various Transformer models across different scales upto 280B on 152 tasks.",
     },
     {
+      title: "LaMDA",
+      link: "https://ritvik19.medium.com/papers-explained-76-lamda-a580ebba1ca2",
+      date: "January 2022",
+      description: "Transformer based models specialized for dialog, which are pre-trained on public dialog data and web text."
+    },
+    {
       title: "Instruct GPT",
       link: "https://ritvik19.medium.com/papers-explained-48-instructgpt-e9bcd51f03ec",
       date: "March 2022",
