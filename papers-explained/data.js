@@ -565,6 +565,13 @@ const papers_data = [
       description:
         "Extends Faster R-CNN to solve instance segmentation tasks, by adding a branch for predicting an object mask in parallel with the existing branch.",
     },
+    {
+      title: "Cascade RCNN",
+      link: "https://ritvik19.medium.com/papers-explained-77-cascade-rcnn-720b161d86e4",
+      date: "December 2017",
+      description:
+        "Proposes a multi-stage approach where detectors are trained with progressively higher IoU thresholds, improving selectivity against false positives.",
+    },
   ],
   [
     // Document Understanding
