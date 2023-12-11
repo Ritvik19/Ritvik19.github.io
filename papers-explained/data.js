@@ -223,6 +223,13 @@ const papers_data = [
         "A 540-B parameter, densely activated, Transformer, trained using Pathways, (ML system that enables highly efficient training across multiple TPU Pods).",
     },
     {
+      title: "GPT-NeoX-20B",
+      link: "https://ritvik19.medium.com/papers-explained-78-gpt-neox-20b-fe39b6d5aa5b",
+      date: "April 2022",
+      description:
+        "An autoregressive LLM trained on the Pile, and the largest dense model that had publicly available weights at the time of submission.",
+    },
+    {
       title: "OPT",
       link: "https://ritvik19.medium.com/papers-explained-51-opt-dacd9406e2bd",
       date: "May 2022",
