@@ -2,7 +2,7 @@ const nav_data = [
   "Language Models",
   "Encoder Only Transformers",
   "Decoder Only Transformers",
-  "Vision Models",
+  "Vision Transformers",
   "Convolutional Neural Networks",
   "Single Stage Object Detection",
   "Region Based Convolutional Neural Networks",
@@ -376,7 +376,7 @@ const papers_data = [
     },
   ],
   [
-    // Vision Models
+    // Vision Transformers
     {
       title: "Vision Transformer",
       link: "https://ritvik19.medium.com/papers-explained-25-vision-transformers-e286ee8bc06b",
