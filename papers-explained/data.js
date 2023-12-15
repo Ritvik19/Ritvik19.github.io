@@ -4,7 +4,7 @@ const nav_data = [
   "Decoder Only Transformers",
   "Vision Transformers",
   "Convolutional Neural Networks",
-  "Single Stage Object Detection",
+  "Object Detection",
   "Region Based Convolutional Neural Networks",
   "Document Understanding",
   "Layout Aware Language Models",
