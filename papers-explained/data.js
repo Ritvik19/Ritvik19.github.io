@@ -331,7 +331,7 @@ const papers_data = [
       title: "Humpback",
       link: "https://ritvik19.medium.com/papers-explained-61-humpback-46992374fc34",
       date: "August 2023",
-      description: "LLaMA finetuned using Instrustion backtranslation.",
+      description: "LLaMA finetuned using Instruction backtranslation.",
     },
     {
       title: "Code LLaMA",
