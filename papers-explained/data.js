@@ -527,7 +527,7 @@ const papers_data = [
     },
   ],
   [
-    // Single Stage Object Detection
+    // Object Detection
     {
       title: "SSD",
       link: "https://ritvik19.medium.com/papers-explained-31-single-shot-multibox-detector-14b0aa2f5a97",
@@ -549,6 +549,13 @@ const papers_data = [
       description:
         "Addresses class imbalance in dense object detectors by down-weighting the loss assigned to well-classified examples.",
     },
+    {
+      title: "DETR",
+      link: "https://ritvik19.medium.com/papers-explained-79-detr-bcdd53355d9f",
+      date: "May 2020",
+      description:
+        "A novel transformers based object detection model that treats object detection as a set prediction problem, eliminating the need for hand-designed components.",
+    }
   ],
   [
     // Region Based Convolutional Neural Networks
