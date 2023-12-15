@@ -770,6 +770,10 @@ const reading_list_data = [
     link: "https://ritvik19.medium.com/list/encoderonly-language-transformers-0f2ff06e0309",
   },
   {
+    title: "Decoder Only Language Transformers",
+    link: "https://ritvik19.medium.com/list/decoderonly-language-transformers-5448110c6046",
+  },
+  {
     title: "GPT Models",
     link: "https://ritvik19.medium.com/list/gpt-models-fa2cc801d840",
   },
@@ -786,16 +790,20 @@ const reading_list_data = [
     link: "https://ritvik19.medium.com/list/layout-transformers-1ce4f291a9f0",
   },
   {
+    title: "Vision Transformers",
+    link: "https://ritvik19.medium.com/list/vision-transformers-61e6836230f1",
+  },
+  {
+    title: "Convolutional Neural Networks",
+    link: "https://ritvik19.medium.com/list/convolutional-neural-networks-5b875ce3b689",
+  },
+  {
     title: "Object Detection",
     link: "https://ritvik19.medium.com/list/object-detection-bd9e6e21ca3e",
   },
   {
     title: "Region Based Convolutional Neural Networks",
     link: "https://ritvik19.medium.com/list/rcnns-b51467f53dc9",
-  },
-  {
-    title: "Vision Models",
-    link: "https://ritvik19.medium.com/list/vision-models-61e6836230f1",
   },
   {
     title: "Document Information Processing",
