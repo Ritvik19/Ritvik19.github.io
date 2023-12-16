@@ -1,6 +1,6 @@
 const data = [
   {
-    title: "papers-explained",
+    title: "Papers Explained",
     description:
       " A series of articles on Medium Explaining various Research Papers",
     actions: [
@@ -15,7 +15,7 @@ const data = [
     ],
   },
   {
-    title: "implemented-data-science",
+    title: "Implemented Data Science",
     description:
       "A collection of various implementations of various data science techniques and research papers." +
       "This project garnered attention from Elvis Saravia, (ex Cofounder of paperswithcode.com) and he added some of my implementations to his project ML-Notebooks",
@@ -84,7 +84,7 @@ const data = [
     ],
   },
   {
-    title: "text-data-augmentation",
+    title: "Text Data Augmentation",
     description:
       "A library that implements various State of the Art Text Data Augmentation Techniques for Natural Language Processing Applications",
     actions: [
