@@ -1,5 +1,53 @@
 const data = [
   {
+    title: "papers-explained",
+    description:
+      " A series of articles on Medium Explaining various Research Papers",
+    actions: [
+      {
+        title: "View papers-explained Documentation",
+        link: "/papers-explained",
+      },
+      {
+        title: "View papers-explained on Medium",
+        link: "https://ritvik19.medium.com/",
+      },
+    ],
+  },
+  {
+    title: "implemented-data-science",
+    description:
+      "A collection of various implementations of various data science techniques and research papers." +
+      "This project garnered attention from Elvis Saravia, (ex Cofounder of paperswithcode.com) and he added some of my implementations to his project ML-Notebooks",
+    actions: [
+      {
+        title: "View implemented-data-science Documentation",
+        link: "/implemented-data-science",
+      },
+      {
+        title: "",
+        link: "",
+      },
+      {
+        title: "View implemented-data-science on GitHub",
+        link: "https://github.com/Ritvik19/Implemented-Data-Science",
+      },
+      {
+        title: "View ML-Notebooks",
+        link: "https://github.com/dair-ai/ML-Notebooks",
+      },
+    ],
+  },
+  {
+    title: "VidScripter",
+    description: "A One Stop Solution to Video Transcription. It provides you with options to download, convert to audio, transcribe and summarize any video.",
+    actions: [
+      {
+        title: "View VidScripter in Action",
+        link: "https://huggingface.co/spaces/Ritvik19/VidScripter",
+      }]
+  },
+  {
     title: "pyradox",
     description:
       "A library that helps with implementing various state of the art neural networks in a totally customizable fashion using TensorFlow 2." +
@@ -70,45 +118,6 @@ const data = [
   //   description:
   //     "A library that helps Solving Sudoku Puzzles using Artificial Neural Networks",
   // },
-  {
-    title: "implemented-data-science",
-    description:
-      "A collection of various implementations of various data science techniques and research papers." +
-      "This project garnered attention from Elvis Saravia, (ex Cofounder of paperswithcode.com) and he added some of my implementations to his project ML-Notebooks",
-    actions: [
-      {
-        title: "View implemented-data-science Documentation",
-        link: "/implemented-data-science",
-      },
-      {
-        title: "",
-        link: "",
-      },
-      {
-        title: "View implemented-data-science on GitHub",
-        link: "https://github.com/Ritvik19/Implemented-Data-Science",
-      },
-      {
-        title: "View ML-Notebooks",
-        link: "https://github.com/dair-ai/ML-Notebooks",
-      },
-    ],
-  },
-  {
-    title: "papers-explained",
-    description:
-      " A series of articles on Medium Explaining various Research Papers",
-    actions: [
-      {
-        title: "View papers-explained Documentation",
-        link: "/papers-explained",
-      },
-      {
-        title: "View papers-explained on Medium",
-        link: "https://ritvik19.medium.com/",
-      },
-    ],
-  },
 ];
 
 const skills = {

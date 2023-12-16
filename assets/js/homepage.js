@@ -2,23 +2,6 @@ function get_nav_item(index, title, super_index) {
   return `<li><a href="#line${super_index}_${index}">${title}</a></li>`;
 }
 
-// function get_github_user(github) {
-//   if (github !== undefined) return github;
-//   return "Ritvik19";
-// }
-
-// function get_documentation(title, no_documentation) {
-//   if (no_documentation !== undefined) return "";
-//   return `<p><a href="/${title}" role="button">View Documentation</a></p>`;
-// }
-
-// function get_github(title, no_github, github) {
-//   if (no_github !== undefined) return "";
-//   return `<p><a href="https://github.com/${get_github_user(
-//     github
-//   )}/${title}" role="button" target="_blank">View Project</a></p>`;
-// }
-
 function get_action_buttons(actions) {
   console.log(actions);
   columns = 2
