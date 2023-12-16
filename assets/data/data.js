@@ -53,8 +53,10 @@ const data = [
       "A library that helps with implementing various state of the art neural networks in a totally customizable fashion using TensorFlow 2." +
       "It is a high level API that provides you with a lot of flexibility and customizability. " +
       "It has two extensions pyradox-generative and pyradox-tabular. " +
-      "pyradox-generative provides lLight weight trainers for various state of the art Ggenerative Adversarial Networks" +
-      "pyradox-tabular provides implementations for various state of the art neural networks for tabular data",
+      "<ul>" +
+      "<li>pyradox-generative provides light weight trainers for various state of the art Generative Adversarial Networks</li>" +
+      "<li>pyradox-tabular provides implementations for various state of the art neural networks for tabular data</li>" +
+      "</ul>",
 
     actions: [
       {
