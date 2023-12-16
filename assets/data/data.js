@@ -2,27 +2,68 @@ const data = [
   {
     title: "pyradox",
     description:
-      "A library that helps you with implementing various state of the art neural networks in a totally customizable fashion using TensorFlow 2",
-  },
-  {
-    title: "pyradox-generative",
-    description:
-      "A library that provides Light Weight Trainers For The State Of The Art Generative Neural Networks Using A TensorFlow Backend",
-  },
-  {
-    title: "pyradox-tabular",
-    description:
-      "A library that helps you train various state of the art neural networks for tabular data using TensorFlow 2",
+      "A library that helps with implementing various state of the art neural networks in a totally customizable fashion using TensorFlow 2." +
+      "It is a high level API that provides you with a lot of flexibility and customizability. " +
+      "It has two extensions pyradox-generative and pyradox-tabular. " +
+      "pyradox-generative provides lLight weight trainers for various state of the art Ggenerative Adversarial Networks" +
+      "pyradox-tabular provides implementations for various state of the art neural networks for tabular data",
+
+    actions: [
+      {
+        title: "View pradox Documentation",
+        link: "/pyradox",
+      },
+      {
+        title: "View pyradox on GitHub",
+        link: "https://github.com/Ritvik19/pyradox",
+      },
+      {
+        title: "View pyradox-generative Documentation",
+        link: "/pyradox-generative",
+      },
+      {
+        title: "View pyradox-generative on GitHub",
+        link: "https://github.com/Ritvik19/pyradox-generative",
+      },
+      {
+        title: "View pyradox-tabular Documentation",
+        link: "/pyradox-tabular",
+      },
+      {
+        title: "View pyradox-tabular on GitHub",
+        link: "https://github.com/Ritvik19/pyradox-tabular",
+      },
+    ],
   },
   {
     title: "text-data-augmentation",
     description:
       "A library that implements various State of the Art Text Data Augmentation Techniques for Natural Language Processing Applications",
+    actions: [
+      {
+        title: "View text-data-augmentation Documentation",
+        link: "/text-data-augmentation",
+      },
+      {
+        title: "View text-data-augmentation on GitHub",
+        link: "https://github.com/Ritvik19/text-data-augmentation",
+      },
+    ],
   },
   {
     title: "vizard",
     description:
       "A library that provides you with Low Code Data Visualisations for any Tabular Data Science Project",
+    actions: [
+      {
+        title: "View vizard Documentation",
+        link: "/vizard",
+      },
+      {
+        title: "View vizard on GitHub",
+        link: "https://github.com/Ritvik19/vizard",
+      },
+    ],
   },
   // {
   //   title: "ai-sudoku-solver",
@@ -32,20 +73,41 @@ const data = [
   {
     title: "implemented-data-science",
     description:
-      "This Library of Implementations of various data science techniques and research papers",
-  },
-  {
-    title: "ml-notebooks",
-    description:
-      "A project in collaboration with Elvis Saravia (founder, paperswithcode), containing a series of code examples for all sorts of machine learning tasks and applications",
-    github: "dair-ai",
-    no_documentation: true,
+      "A collection of various implementations of various data science techniques and research papers." +
+      "This project garnered attention from Elvis Saravia, (ex Cofounder of paperswithcode.com) and he added some of my implementations to his project ML-Notebooks",
+    actions: [
+      {
+        title: "View implemented-data-science Documentation",
+        link: "/implemented-data-science",
+      },
+      {
+        title: "",
+        link: "",
+      },
+      {
+        title: "View implemented-data-science on GitHub",
+        link: "https://github.com/Ritvik19/Implemented-Data-Science",
+      },
+      {
+        title: "View ML-Notebooks",
+        link: "https://github.com/dair-ai/ML-Notebooks",
+      },
+    ],
   },
   {
     title: "papers-explained",
     description:
-      " A blog series on Kaggle Explaining various Research Papers followed by their implementation",
-    no_github: true,
+      " A series of articles on Medium Explaining various Research Papers",
+    actions: [
+      {
+        title: "View papers-explained Documentation",
+        link: "/papers-explained",
+      },
+      {
+        title: "View papers-explained on Medium",
+        link: "https://ritvik19.medium.com/",
+      },
+    ],
   },
 ];
 
