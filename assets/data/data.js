@@ -5,11 +5,11 @@ const data = [
       " A series of articles on Medium Explaining various Research Papers",
     actions: [
       {
-        title: "View papers-explained Documentation",
+        title: "View Papers Explained Documentation",
         link: "/papers-explained",
       },
       {
-        title: "View papers-explained on Medium",
+        title: "View Papers Explained on Medium",
         link: "https://ritvik19.medium.com/",
       },
     ],
@@ -21,7 +21,7 @@ const data = [
       "This project garnered attention from Elvis Saravia, (ex Cofounder of paperswithcode.com) and he added some of my implementations to his project ML-Notebooks",
     actions: [
       {
-        title: "View implemented-data-science Documentation",
+        title: "View Implemented Data Science Documentation",
         link: "/implemented-data-science",
       },
       {
@@ -29,11 +29,11 @@ const data = [
         link: "",
       },
       {
-        title: "View implemented-data-science on GitHub",
+        title: "View Implemented Data Science on GitHub",
         link: "https://github.com/Ritvik19/Implemented-Data-Science",
       },
       {
-        title: "View ML-Notebooks",
+        title: "View ML Notebooks",
         link: "https://github.com/dair-ai/ML-Notebooks",
       },
     ],
@@ -89,11 +89,11 @@ const data = [
       "A library that implements various State of the Art Text Data Augmentation Techniques for Natural Language Processing Applications",
     actions: [
       {
-        title: "View text-data-augmentation Documentation",
+        title: "View Text Data Augmentation Documentation",
         link: "/text-data-augmentation",
       },
       {
-        title: "View text-data-augmentation on GitHub",
+        title: "View Text Data Augmentation on GitHub",
         link: "https://github.com/Ritvik19/text-data-augmentation",
       },
     ],
