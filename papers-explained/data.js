@@ -374,6 +374,13 @@ const papers_data = [
       description:
         "Utilizes dDPO and AI Feedback (AIF) preference data to achieve superior intent alignment in chat-based language modeling.",
     },
+    {
+      title: "Gemini 1.0",
+      link: "https://ritvik19.medium.com/papers-explained-80-gemini-1-0-97308ef96fcd",
+      date: "December 2023",
+      description:
+        "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
+    },
   ],
   [
     // Vision Transformers
@@ -788,6 +795,10 @@ const reading_list_data = [
   {
     title: "Layout Aware Transformers",
     link: "https://ritvik19.medium.com/list/layout-transformers-1ce4f291a9f0",
+  },
+  {
+    title: "Multi Modal Transformers",
+    link: "https://ritvik19.medium.com/list/multi-modal-transformers-67453f215ecf",
   },
   {
     title: "Vision Transformers",
