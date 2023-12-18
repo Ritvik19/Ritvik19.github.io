@@ -132,21 +132,21 @@ const skills = {
 };
 
 const models = [
-  {
-    title: "SudokuNet",
-    description:
-      "Sudoku-Net is a neural network model that solves sudoku puzzles. It was developed to see the performance of machine learning applications on solving sudokus.",
-    linked_models: [
-      [
-        "sudoku-net-v1",
-        "It is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park",
-      ],
-      [
-        "sudoku-net-v2",
-        "It is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park and 9 Million Sudoku Puzzles and Solutions dataset provided on kaggle by Vopani",
-      ],
-    ],
-  },
+  // {
+  //   title: "SudokuNet",
+  //   description:
+  //     "Sudoku-Net is a neural network model that solves sudoku puzzles. It was developed to see the performance of machine learning applications on solving sudokus.",
+  //   linked_models: [
+  //     [
+  //       "sudoku-net-v1",
+  //       "It is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park",
+  //     ],
+  //     [
+  //       "sudoku-net-v2",
+  //       "It is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park and 9 Million Sudoku Puzzles and Solutions dataset provided on kaggle by Vopani",
+  //     ],
+  //   ],
+  // },
   // {
   //   title: "SentiNet",
   //   description:
