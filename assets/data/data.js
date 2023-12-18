@@ -40,12 +40,14 @@ const data = [
   },
   {
     title: "VidScripter",
-    description: "A One Stop Solution to Video Transcription. It provides you with options to download, convert to audio, transcribe and summarize any video.",
+    description:
+      "A One Stop Solution to Video Transcription. It provides you with options to download, convert to audio, transcribe and summarize any video.",
     actions: [
       {
         title: "View VidScripter in Action",
         link: "https://huggingface.co/spaces/Ritvik19/VidScripter",
-      }]
+      },
+    ],
   },
   {
     title: "pyradox",
@@ -132,38 +134,27 @@ const skills = {
 };
 
 const models = [
-  // {
-  //   title: "SudokuNet",
-  //   description:
-  //     "Sudoku-Net is a neural network model that solves sudoku puzzles. It was developed to see the performance of machine learning applications on solving sudokus.",
-  //   linked_models: [
-  //     [
-  //       "sudoku-net-v1",
-  //       "It is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park",
-  //     ],
-  //     [
-  //       "sudoku-net-v2",
-  //       "It is trained on 1 million Sudoku games dataset provided on kaggle by Kyubyong Park and 9 Million Sudoku Puzzles and Solutions dataset provided on kaggle by Vopani",
-  //     ],
-  //   ],
-  // },
-  // {
-  //   title: "SentiNet",
-  //   description:
-  //     "Senti-Net is an intelligent sentiment analyzer to thoroughly analyze the sentiments, emotions of a given text.",
-  //   linked_models: [
-  //     [
-  //       "sentinet-v1",
-  //       "The underlying algorithm is TF-IDF Vectorization followed by Logistic Regression",
-  //     ],
-  //   ],
-  // },
   {
-    title: "ScAi-Fi",
+    title: "SudokuNet",
     description:
-      "ScAi-Fi is a language model designed to assist you in comprehensively analyzing machine learning research paper abstracts. With its various functionalities, it simplifies understanding and extracting key information from academic abstracts.",
-    linked_models: [
-      ["ScAi-Fi", "A FLAN T5 fine tuned model on Papers Explained Data"],
+      "Sudoku-Net is a neural network model that solves sudoku puzzles, developed to examine the performance of machine learning applications on solving sudokus.",
+    actions: [
+      {
+        title: "View Demo",
+        link: "https://huggingface.co/spaces/Ritvik19/SuDoKuNet",
+      },
+      {
+        title: "Download Model",
+        link: "https://huggingface.co/Ritvik19/SuDoKu-Net",
+      },
+      {
+        title: "Download Dataset",
+        link: "https://huggingface.co/datasets/Ritvik19/Sudoku-Dataset",
+      },
+      {
+        title: "View Code",
+        link: "https://github.com/Ritvik19/SuDoKuNet",
+      },
     ],
   },
 ];
