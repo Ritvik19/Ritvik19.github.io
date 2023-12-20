@@ -9,7 +9,7 @@ const nav_data = [
   "Document Understanding",
   "Layout Aware Language Models",
   "Tabular Data",
-  "Miscellaneous",
+  "Miscellaneous Studies",
 ];
 
 const papers_data = [
@@ -737,13 +737,20 @@ const papers_data = [
     },
   ],
   [
-    // Miscellaneous
+    // Miscellaneous Studies
     {
       title: "ColD Fusion",
       link: "https://ritvik19.medium.com/papers-explained-32-cold-fusion-452f33101a91",
       date: "December 2022",
       description:
         "A method enabling the benefits of multitask learning through distributed computation without data sharing and improving model performance.",
+    },
+    {
+      title: "An In-depth Look at Gemini's Language Abilities",
+      link: "https://ritvik19.medium.com/papers-explained-81-an-in-depth-look-at-geminis-language-abilities-540ca9046d8e",
+      date: "December 2023",
+      description:
+        "A third-party, objective comparison of the abilities of the OpenAI GPT and Google Gemini models with reproducible code and fully transparent results.",
     },
   ],
 ];
