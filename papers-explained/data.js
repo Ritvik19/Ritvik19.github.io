@@ -251,6 +251,13 @@ const papers_data = [
         "An autoregressive LLM trained on the Pile, and the largest dense model that had publicly available weights at the time of submission.",
     },
     {
+      title: "Flamingo",
+      link: "https://ritvik19.medium.com/papers-explained-82-flamingo-8c124c394cdb",
+      date: "April 2022",
+      description:
+        "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
+    },    
+    {
       title: "OPT",
       link: "https://ritvik19.medium.com/papers-explained-51-opt-dacd9406e2bd",
       date: "May 2022",
