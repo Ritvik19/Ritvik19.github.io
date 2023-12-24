@@ -753,6 +753,13 @@ const papers_data = [
         "A method enabling the benefits of multitask learning through distributed computation without data sharing and improving model performance.",
     },
     {
+      title: "Are Emergent Abilities of Large Language Models a Mirage?",
+      link: "https://ritvik19.medium.com/papers-explained-are-emergent-abilities-of-large-language-models-a-mirage-4160cf0e44cb",
+      date: "April 2022",
+      description:
+        "This paper presents an alternative explanation for emergent abilities, i.e. emergent abilities are created by the researcher’s choice of metrics, not fundamental changes in model family behaviour on specific tasks with scale.",
+    },
+    {
       title: "An In-depth Look at Gemini's Language Abilities",
       link: "https://ritvik19.medium.com/papers-explained-81-an-in-depth-look-at-geminis-language-abilities-540ca9046d8e",
       date: "December 2023",
