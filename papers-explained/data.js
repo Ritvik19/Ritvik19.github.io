@@ -761,9 +761,16 @@ const papers_data = [
     {
       title: "Are Emergent Abilities of Large Language Models a Mirage?",
       link: "https://ritvik19.medium.com/papers-explained-are-emergent-abilities-of-large-language-models-a-mirage-4160cf0e44cb",
-      date: "April 2022",
+      date: "April 2023",
       description:
         "Presents an alternative explanation for emergent abilities, i.e. emergent abilities are created by the researcher’s choice of metrics, not fundamental changes in model family behaviour on specific tasks with scale.",
+    },
+    {
+      title: "Scaling Data-Constrained Language Models",
+      link: "https://ritvik19.medium.com/papers-explained-85-scaling-data-constrained-language-models-2a4c18bcc7d3",
+      date: "May 2023",
+      description:
+        "This study investigates scaling language models in data-constrained regimes.",
     },
     {
       title: "An In-depth Look at Gemini's Language Abilities",
