@@ -117,11 +117,6 @@ const data = [
       },
     ],
   },
-  // {
-  //   title: "ai-sudoku-solver",
-  //   description:
-  //     "A library that helps Solving Sudoku Puzzles using Artificial Neural Networks",
-  // },
 ];
 
 const skills = {
