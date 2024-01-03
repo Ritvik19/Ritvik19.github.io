@@ -144,15 +144,15 @@ const models = [
         link: "https://huggingface.co/spaces/Ritvik19/SudokuNetDemo",
       },
       {
-        title: "Download Model",
+        title: "Model Card",
         link: "https://huggingface.co/Ritvik19/SudokuNet",
       },
       {
-        title: "Download Dataset",
+        title: "Dataset Card",
         link: "https://huggingface.co/datasets/Ritvik19/Sudoku-Dataset",
       },
       {
-        title: "View Code",
+        title: "Github",
         link: "https://github.com/Ritvik19/SudokuNet",
       },
     ],

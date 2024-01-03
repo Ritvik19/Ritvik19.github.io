@@ -9,7 +9,7 @@ const nav_data = [
   "Document Understanding",
   "Layout Aware Language Models",
   "Tabular Data",
-  "Miscellaneous",
+  "Miscellaneous Studies",
 ];
 
 const papers_data = [
@@ -250,6 +250,13 @@ const papers_data = [
       description:
         "An autoregressive LLM trained on the Pile, and the largest dense model that had publicly available weights at the time of submission.",
     },
+    {
+      title: "Flamingo",
+      link: "https://ritvik19.medium.com/papers-explained-82-flamingo-8c124c394cdb",
+      date: "April 2022",
+      description:
+        "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
+    },    
     {
       title: "OPT",
       link: "https://ritvik19.medium.com/papers-explained-51-opt-dacd9406e2bd",
@@ -526,6 +533,12 @@ const papers_data = [
         "Uses a compound scaling method to scale the network's depth, width, and resolution to achieve a high accuracy with a relatively low computational cost.",
     },
     {
+      title: "NF Net",
+      link: "https://ritvik19.medium.com/papers-explained-84-nf-net-b8efa03d6b26",
+      date: "February 2021",
+      description: "An improved class of Normalizer-Free ResNets that implement batch-normalized networks, offer faster training times, and introduce an adaptive gradient clipping technique to overcome instabilities associated with deep ResNets.",
+    },
+    {
       title: "Conv Mixer",
       link: "https://ritvik19.medium.com/papers-explained-29-convmixer-f073f0356526",
       date: "January 2022",
@@ -737,13 +750,34 @@ const papers_data = [
     },
   ],
   [
-    // Miscellaneous
+    // Miscellaneous Studies
     {
       title: "ColD Fusion",
       link: "https://ritvik19.medium.com/papers-explained-32-cold-fusion-452f33101a91",
       date: "December 2022",
       description:
         "A method enabling the benefits of multitask learning through distributed computation without data sharing and improving model performance.",
+    },
+    {
+      title: "Are Emergent Abilities of Large Language Models a Mirage?",
+      link: "https://ritvik19.medium.com/papers-explained-are-emergent-abilities-of-large-language-models-a-mirage-4160cf0e44cb",
+      date: "April 2023",
+      description:
+        "Presents an alternative explanation for emergent abilities, i.e. emergent abilities are created by the researcher’s choice of metrics, not fundamental changes in model family behaviour on specific tasks with scale.",
+    },
+    {
+      title: "Scaling Data-Constrained Language Models",
+      link: "https://ritvik19.medium.com/papers-explained-85-scaling-data-constrained-language-models-2a4c18bcc7d3",
+      date: "May 2023",
+      description:
+        "This study investigates scaling language models in data-constrained regimes.",
+    },
+    {
+      title: "An In-depth Look at Gemini's Language Abilities",
+      link: "https://ritvik19.medium.com/papers-explained-81-an-in-depth-look-at-geminis-language-abilities-540ca9046d8e",
+      date: "December 2023",
+      description:
+        "A third-party, objective comparison of the abilities of the OpenAI GPT and Google Gemini models with reproducible code and fully transparent results.",
     },
   ],
 ];
