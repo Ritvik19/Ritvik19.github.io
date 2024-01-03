@@ -141,11 +141,11 @@ const models = [
     actions: [
       {
         title: "View Demo",
-        link: "https://huggingface.co/spaces/Ritvik19/SuDoKuNet",
+        link: "https://huggingface.co/spaces/Ritvik19/SudokuNetDemo",
       },
       {
         title: "Download Model",
-        link: "https://huggingface.co/Ritvik19/SuDoKu-Net",
+        link: "https://huggingface.co/Ritvik19/SudokuNet",
       },
       {
         title: "Download Dataset",
@@ -153,7 +153,7 @@ const models = [
       },
       {
         title: "View Code",
-        link: "https://github.com/Ritvik19/SuDoKuNet",
+        link: "https://github.com/Ritvik19/SudokuNet",
       },
     ],
   },
