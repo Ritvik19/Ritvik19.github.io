@@ -2,6 +2,7 @@ const nav_data = [
   "Language Models",
   "Encoder Only Transformers",
   "Decoder Only Transformers",
+  "Language Models for Retrieval",
   "Vision Transformers",
   "Convolutional Neural Networks",
   "Object Detection",
@@ -388,6 +389,9 @@ const papers_data = [
       description:
         "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
     },
+  ],
+  [
+    // Language Models for Retrieval
   ],
   [
     // Vision Transformers
