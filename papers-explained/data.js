@@ -392,6 +392,13 @@ const papers_data = [
   ],
   [
     // Language Models for Retrieval
+    {
+      title: "Dense Passage Retriever",
+      link: "https://ritvik19.medium.com/papers-explained-86-dense-passage-retriever-c4742fdf27ed",
+      date: "April 2020",
+      description:
+        "Shows that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual encoder framework.",
+    },
   ],
   [
     // Vision Transformers
@@ -817,6 +824,10 @@ const reading_list_data = [
   {
     title: "Decoder Only Language Transformers",
     link: "https://ritvik19.medium.com/list/decoderonly-language-transformers-5448110c6046",
+  },
+  {
+    title: "Language Models for Retrieval",
+    link: "https://ritvik19.medium.com/list/language-models-for-retrieval-3b6e14887105",
   },
   {
     title: "GPT Models",
