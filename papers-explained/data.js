@@ -656,6 +656,13 @@ const papers_data = [
       description:
         "Integrates text, image, and layout information through a Vision-Text-Layout Transformer, enabling unified representation.",
     },
+    {
+      title: "DocLLM",
+      link: "https://ritvik19.medium.com/papers-explained-87-docllm-93c188edfaef",
+      date: "January 2024",
+      description:
+        "A lightweight extension to traditional LLMs that focuses on reasoning over visual documents, by incorporating textual semantics and spatial layout without expensive image encoders.",
+    },
   ],
   [
     // Layout Aware Language Models
