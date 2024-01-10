@@ -399,6 +399,13 @@ const papers_data = [
       description:
         "Shows that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual encoder framework.",
     },
+    {
+      title: "ColBERT",
+      link: "https://medium.com/@ritvik19/papers-explained-88-colbert-fe2fd0509649",
+      date: "April 2020",
+      description:
+        "Introduces a late interaction architecture that adapts deep LMs (in particular, BERT) for efficient retrieval.",
+    },
   ],
   [
     // Vision Transformers
