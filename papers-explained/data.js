@@ -406,6 +406,13 @@ const papers_data = [
       description:
         "Introduces a late interaction architecture that adapts deep LMs (in particular, BERT) for efficient retrieval.",
     },
+    {
+      title: "ColBERTv2",
+      link: "https://ritvik19.medium.com/papers-explained-89-colbertv2-7d921ee6e0d9",
+      date: "December 2021",
+      description:
+        "Couples an aggressive residual compression mechanism with a denoised supervision strategy to simultaneously improve the quality and space footprint of late interaction.",
+    },
   ],
   [
     // Vision Transformers
