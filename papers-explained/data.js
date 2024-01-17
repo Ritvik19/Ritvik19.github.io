@@ -413,6 +413,20 @@ const papers_data = [
       description:
         "Couples an aggressive residual compression mechanism with a denoised supervision strategy to simultaneously improve the quality and space footprint of late interaction.",
     },
+     {
+      title: "E5",
+      link: "https://ritvik19.medium.com/papers-explained-90-e5-75ea1519efad",
+      date: "December 2022",
+      description:
+        "A family of text embeddings trained in a contrastive manner with weak supervision signals from a curated large-scale text pair dataset CCPairs.",
+    },
+     {
+      title: "E5 Mistral 7B",
+      link: "https://ritvik19.medium.com/papers-explained-91-e5-mistral-7b-23890f40f83a",
+      date: "December 2023",
+      description:
+        "Leverages proprietary LLMs to generate diverse synthetic data to fine tune open-source decoder-only LLMs for hundreds of thousands of text embedding tasks.",
+    },
   ],
   [
     // Vision Transformers
