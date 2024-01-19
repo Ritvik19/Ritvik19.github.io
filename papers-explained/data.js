@@ -584,6 +584,13 @@ const papers_data = [
       description:
         "Processes image patches using standard convolutions for mixing spatial and channel dimensions.",
     },
+    {
+      title: "ConvNeXt",
+      link: "https://ritvik19.medium.com/papers-explained-92-convnext-d13385d9177d",
+      date: "January 2022",
+      description:
+        "A pure ConvNet model, evolved from standard ResNet design, that competes well with Transformers in accuracy and scalability.",
+    },
   ],
   [
     // Object Detection
