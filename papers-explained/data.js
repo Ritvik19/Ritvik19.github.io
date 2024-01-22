@@ -389,6 +389,13 @@ const papers_data = [
       description:
         "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
     },
+    {
+      title: "TinyLlama",
+      link: "https://ritvik19.medium.com/papers-explained-93-tinyllama-6ef140170da9",
+      date: "January 2024",
+      description:
+        "A  1.1B language model built upon the architecture and tokenizer of Llama 2, pre-trained on around 1 trillion tokens for approximately 3 epochs, leveraging FlashAttention and Grouped Query Attention, to achieve better computational efficiency.",
+    },
   ],
   [
     // Language Models for Retrieval
