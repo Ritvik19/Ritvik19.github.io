@@ -598,6 +598,13 @@ const papers_data = [
       description:
         "A pure ConvNet model, evolved from standard ResNet design, that competes well with Transformers in accuracy and scalability.",
     },
+    {
+      title: "ConvNeXt V2",
+      link: "https://ritvik19.medium.com/papers-explained-94-convnext-v2-2ecdabf2081c",
+      date: "January 2023",
+      description:
+        "Incorporates a fully convolutional MAE framework and a Global Response Normalization (GRN) layer, boosting performance across multiple benchmarks.",
+    },
   ],
   [
     // Object Detection
