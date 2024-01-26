@@ -57,7 +57,7 @@ const papers_data = [
       link: "https://ritvik19.medium.com/papers-explained-09-bart-7f56138175bd",
       date: "October 2019",
       description:
-        "A Decoder pretrained to reconstruct the original text from corrupted versions of it.",
+        "An encoder-decoder network pretrained to reconstruct the original text from corrupted versions of it.",
     },
     {
       title: "T5",
