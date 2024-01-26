@@ -182,6 +182,22 @@ notebooks_data = [
     },
   ],
   [
+    // LLM Finetuning
+    {
+      Title: "Finetuning with LoRA",
+      Link: "https://www.kaggle.com/code/ritvik1909/finetuning-with-lora",
+    },
+    {
+      Title: "Finetuning TinyLlama 1.1B",
+      Link: "https://www.kaggle.com/code/ritvik1909/finetuning-tinyllama-1-1b",
+    },
+
+    {
+      Title: "Finetuning Mistral 7B",
+      Link: "https://www.kaggle.com/code/ritvik1909/finetuning-mistral-7b",
+    }
+  ],
+  [
     // Machine Learning
     {
       Title: "Active Learning",
@@ -394,6 +410,7 @@ notebook_categories = [
   "Deep Learning",
   "Document Information Processing",
   "Generative Adversarial Network",
+  "LLM Finetuning",
   "Machine Learning",
   "Natural Language Processing",
   "Object Detection",
