@@ -183,10 +183,10 @@ notebooks_data = [
   ],
   [
     // LLM Finetuning
-    {
-      Title: "Finetuning with LoRA",
-      Link: "https://www.kaggle.com/code/ritvik1909/finetuning-with-lora",
-    },
+    // {
+    //   Title: "Finetuning with LoRA",
+    //   Link: "https://www.kaggle.com/code/ritvik1909/finetuning-with-lora",
+    // },
     {
       Title: "Finetuning TinyLlama 1.1B",
       Link: "https://www.kaggle.com/code/ritvik1909/finetuning-tinyllama-1-1b",
