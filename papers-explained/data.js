@@ -777,7 +777,7 @@ const papers_data = [
     // Generative Adversarial Networks
     {
       title: "Generative Adversarial Networks",
-      link: "https://medium.com/@ritvik19/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#7041",
+      link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#7041",
       date: "June 2014",
       description: "Introduces a framework where, a generative and a discriminative model, are trained simultaneously in a minimax game.",
     },
