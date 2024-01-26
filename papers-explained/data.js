@@ -9,6 +9,7 @@ const nav_data = [
   "Region Based Convolutional Neural Networks",
   "Document Understanding",
   "Layout Aware Language Models",
+  "Generative Adversarial Networks",
   "Tabular Data",
   "Miscellaneous Studies",
 ];
@@ -50,6 +51,13 @@ const papers_data = [
       date: "June 2019",
       description:
         "Extension of the Transformer-XL, pre-trained using a new method that combines ideas from AR and AE objectives.",
+    },
+    {
+      title: "BART",
+      link: "https://ritvik19.medium.com/papers-explained-09-bart-7f56138175bd",
+      date: "October 2019",
+      description:
+        "A Decoder pretrained to reconstruct the original text from corrupted versions of it.",
     },
     {
       title: "T5",
@@ -188,13 +196,6 @@ const papers_data = [
       date: "February 2019",
       description:
         "Demonstrates that language models begin to learn various language processing tasks without any explicit supervision.",
-    },
-    {
-      title: "BART",
-      link: "https://ritvik19.medium.com/papers-explained-09-bart-7f56138175bd",
-      date: "October 2019",
-      description:
-        "A Decoder pretrained to reconstruct the original text from corrupted versions of it.",
     },
     {
       title: "GPT 3",
@@ -773,6 +774,45 @@ const papers_data = [
     },
   ],
   [
+    // Generative Adversarial Networks
+    {
+      title: "Generative Adversarial Networks",
+      link: "https://medium.com/@ritvik19/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#7041",
+      date: "June 2014",
+      description: "Introduces a framework where, a generative and a discriminative model, are trained simultaneously in a minimax game.",
+    },
+    {
+      title: "Conditional Generative Adversarial Networks",
+      link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#86aa",
+      date: "November 2014",
+      description: "A method for training GANs, enabling the generation based on specific conditions, by feeding them to both the generator and discriminator networks.",
+    },
+    {
+      title: "Deep Convolutional Generative Adversarial Networks",
+      link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#fe42",
+      date: "November 2015",
+      description: "Demonstrates the ability of CNNs for unsupervised learning using specific architectural constraints designed.",
+    },
+    {
+      title: "Improved GAN",
+      link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#9a55",
+      date: "June 2016",
+      description: "Presents a variety of new architectural features and training procedures that can be applied to the generative adversarial networks (GANs) framework.",
+    },
+    {
+      title: "Wasserstein Generative Adversarial Networks",
+      link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#6f8f",
+      date: "January 2017",
+      description: "An alternative GAN training algorithm that enhances learning stability, mitigates issues like mode collapse.",
+    },
+    {
+      title: "Cycle GAN",
+      link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#7f8b",
+      date: "March 2017",
+      description: "An approach for learning to translate an image from a source domain X to a target domain Y in the absence of paired examples by leveraging adversarial losses and cycle consistency constraints, using two GANs",
+    }
+  ],
+  [
     // Tabular Data
     {
       title: "Entity Embeddings",
@@ -865,6 +905,10 @@ const literature_review_data = [
   {
     title: "Tabular Deep Learning",
     link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b",
+  },
+  {
+    title: "Generative Adversarial Networks",
+    link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e",
   },
 ];
 
