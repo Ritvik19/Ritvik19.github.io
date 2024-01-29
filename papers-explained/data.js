@@ -397,6 +397,13 @@ const papers_data = [
       description:
         "A  1.1B language model built upon the architecture and tokenizer of Llama 2, pre-trained on around 1 trillion tokens for approximately 3 epochs, leveraging FlashAttention and Grouped Query Attention, to achieve better computational efficiency.",
     },
+    {
+      title: "Mixtral 8x7B",
+      link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745",
+      date: "January 2024",
+      description:
+        "A Sparse Mixture of Experts language model based on Mistral 7B trained with multilingual data using a context size of 32k tokens.",
+    },
   ],
   [
     // Language Models for Retrieval
