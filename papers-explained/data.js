@@ -3,6 +3,7 @@ const nav_data = [
   "Encoder Only Transformers",
   "Decoder Only Transformers",
   "Language Models for Retrieval",
+  "Representation Learning",
   "Vision Transformers",
   "Convolutional Neural Networks",
   "Object Detection",
@@ -441,6 +442,16 @@ const papers_data = [
       date: "December 2023",
       description:
         "Leverages proprietary LLMs to generate diverse synthetic data to fine tune open-source decoder-only LLMs for hundreds of thousands of text embedding tasks.",
+    },
+  ],
+  [
+    // Representation Learning
+    {
+      title: "Matryoshka Representation Learning",
+      link: "https://ritvik19.medium.com/papers-explained-matryoshka-representation-learning-e7a139f6ad27",
+      date: "May 2022",
+      description:
+        "Encodes information at different granularities and allows a flexible representation that can adapt to multiple downstream tasks with varying computational resources using a single embedding.",
     },
   ],
   [
@@ -953,12 +964,16 @@ const reading_list_data = [
     link: "https://ritvik19.medium.com/list/layout-transformers-1ce4f291a9f0",
   },
   {
-    title: "Multi Modal Transformers",
-    link: "https://ritvik19.medium.com/list/multi-modal-transformers-67453f215ecf",
+    title: "Representation Learning",
+    link: "https://ritvik19.medium.com/list/representation-learning-bd438198713c",
   },
   {
     title: "Vision Transformers",
     link: "https://ritvik19.medium.com/list/vision-transformers-61e6836230f1",
+  },
+  {
+    title: "Multi Modal Transformers",
+    link: "https://ritvik19.medium.com/list/multi-modal-transformers-67453f215ecf",
   },
   {
     title: "Convolutional Neural Networks",
