@@ -904,6 +904,13 @@ const papers_data = [
       description:
         "A third-party, objective comparison of the abilities of the OpenAI GPT and Google Gemini models with reproducible code and fully transparent results.",
     },
+    {
+      title: "Dolma",
+      link: "https://ritvik19.medium.com/papers-explained-97-dolma-a656169269cb",
+      date: "January 2024",
+      description:
+        "An open corpus of three trillion tokens designed to support language model pretraining research.",
+    },
   ],
 ];
 
