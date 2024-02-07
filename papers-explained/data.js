@@ -405,6 +405,13 @@ const papers_data = [
       description:
         "A Sparse Mixture of Experts language model based on Mistral 7B trained with multilingual data using a context size of 32k tokens.",
     },
+    {
+      title: "OLMo",
+      link: "https://ritvik19.medium.com/papers-explained-98-olmo-fdc358326f9b",
+      date: "February 2024",
+      description:
+        "A state-of-the-art, truly open language model and framework that includes training data, code, and tools for building, studying, and advancing language models.",
+    },
   ],
   [
     // Language Models for Retrieval
