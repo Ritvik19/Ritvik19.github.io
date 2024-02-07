@@ -82,6 +82,12 @@ const papers_data = [
         "Introduces a linearly scalable attention mechanism, allowing handling texts of exteded length.",
     },
     {
+      title: "T5 v1.1",
+      link: "https://ritvik19.medium.com/papers-explained-44-t5-9d974a3b7957#773b",
+      date: "July 2020",
+      description: "An enhanced version of the original T5 model, featuring improvements such as GEGLU activation, no dropout in pre-training, exclusive pre-training on C4, no parameter sharing between embedding and classifier layers.",
+    },
+    {
       title: "FLAN",
       link: "https://ritvik19.medium.com/papers-explained-46-flan-1c5e0d5db7c9",
       date: "September 2021",
