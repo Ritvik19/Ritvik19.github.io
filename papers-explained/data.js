@@ -108,6 +108,12 @@ const papers_data = [
       description: "Explores instruction fine tuning with a particular focus on scaling the number of tasks, scaling the model size, and fine tuning on chain-of-thought data.",
     },
     {
+      title: "BLOOMZ, mT0",
+      link: "https://ritvik19.medium.com/papers-explained-99-bloomz-mt0-8932577dcd1d",
+      date: "November 2022",
+      description: "Applies Multitask prompted fine tuning to the pretrained multilingual models on English tasks with English prompts to attain task generalization to non-English languages that appear only in the pretraining corpus.",
+    },
+    {
       title: "CodeFusion",
       link: "https://ritvik19.medium.com/papers-explained-70-codefusion-fee6aba0149a",
       date: "October 2023",
