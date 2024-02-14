@@ -466,6 +466,13 @@ const papers_data = [
   [
     // Representation Learning
     {
+      title: "CLIP",
+      link: "https://ritvik19.medium.com/papers-explained-100-clip-f9873c65134",
+      date: "February 2021",
+      description:
+        "A vision system that learns image representations from raw text-image pairs through pre-training, enabling zero-shot transfer to various downstream tasks.",
+    },
+    {
       title: "Matryoshka Representation Learning",
       link: "https://ritvik19.medium.com/papers-explained-matryoshka-representation-learning-e7a139f6ad27",
       date: "May 2022",
