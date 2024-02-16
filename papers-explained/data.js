@@ -322,6 +322,13 @@ const papers_data = [
         "A multimodal transformer model pre-trained to predict the next token in a document, which can accept image and text inputs and produce text outputs.",
     },
     {
+      title: "Vicuna",
+      link: "https://ritvik19.medium.com/papers-explained-101-vicuna-daed99725c7e",
+      date: "March 2023",
+      description:
+        "A 13B LLaMA chatbot fine tuned on user-shared conversations collected from ShareGPT, capable of generating more detailed and well-structured answers compared to Alpaca.",
+    },
+    {
       title: "PaLM 2",
       link: "https://ritvik19.medium.com/papers-explained-58-palm-2-1a9a23f20d6c",
       date: "May 2023",
