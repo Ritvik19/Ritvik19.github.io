@@ -2,6 +2,7 @@ const nav_data = [
   "Language Models",
   "Encoder Only Transformers",
   "Decoder Only Transformers",
+  "Multi Modal LMs",
   "LMs for Retrieval",
   "Representation Learning",
   "Vision Transformers",
@@ -264,14 +265,7 @@ const papers_data = [
       date: "April 2022",
       description:
         "An autoregressive LLM trained on the Pile, and the largest dense model that had publicly available weights at the time of submission.",
-    },
-    {
-      title: "Flamingo",
-      link: "https://ritvik19.medium.com/papers-explained-82-flamingo-8c124c394cdb",
-      date: "April 2022",
-      description:
-        "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
-    },    
+    },   
     {
       title: "OPT",
       link: "https://ritvik19.medium.com/papers-explained-51-opt-dacd9406e2bd",
@@ -369,13 +363,6 @@ const papers_data = [
       description: "LLaMA 2 based LLM for code.",
     },
     {
-      title: "GPT-4V",
-      link: "https://ritvik19.medium.com/papers-explained-68-gpt-4v-6e27c8a1d6ea",
-      date: "September 2023",
-      description:
-        "A multimodal model that combines text and vision capabilities, allowing users to instruct it to analyze image inputs.",
-    },
-    {
       title: "LLaMA 2 Long",
       link: "https://ritvik19.medium.com/papers-explained-63-llama-2-long-84d33c26d14a",
       date: "September 2023",
@@ -404,13 +391,6 @@ const papers_data = [
         "Utilizes dDPO and AI Feedback (AIF) preference data to achieve superior intent alignment in chat-based language modeling.",
     },
     {
-      title: "Gemini 1.0",
-      link: "https://ritvik19.medium.com/papers-explained-80-gemini-1-0-97308ef96fcd",
-      date: "December 2023",
-      description:
-        "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
-    },
-    {
       title: "TinyLlama",
       link: "https://ritvik19.medium.com/papers-explained-93-tinyllama-6ef140170da9",
       date: "January 2024",
@@ -430,6 +410,37 @@ const papers_data = [
       date: "February 2024",
       description:
         "A state-of-the-art, truly open language model and framework that includes training data, code, and tools for building, studying, and advancing language models.",
+    },
+  ],
+  [
+    // Multi Modal Language Models
+    {
+      title: "Flamingo",
+      link: "https://ritvik19.medium.com/papers-explained-82-flamingo-8c124c394cdb",
+      date: "April 2022",
+      description:
+        "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
+    }, 
+    {
+      title: "LLaVA1",
+      link: "https://ritvik19.medium.com/papers-explained-102-llava-1-eb0a3db7e43c",
+      date: "April 2023",
+      description:
+        "A large multimodal model connecting CLIP and Vicuna trained end-to-end on instruction-following data generated through GPT-4 from image-text pairs.",
+    },
+    {
+      title: "GPT-4V",
+      link: "https://ritvik19.medium.com/papers-explained-68-gpt-4v-6e27c8a1d6ea",
+      date: "September 2023",
+      description:
+        "A multimodal model that combines text and vision capabilities, allowing users to instruct it to analyze image inputs.",
+    },
+    {
+      title: "Gemini 1.0",
+      link: "https://ritvik19.medium.com/papers-explained-80-gemini-1-0-97308ef96fcd",
+      date: "December 2023",
+      description:
+        "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
     },
   ],
   [
