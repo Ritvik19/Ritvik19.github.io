@@ -422,7 +422,7 @@ const papers_data = [
         "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
     }, 
     {
-      title: "LLaVA1",
+      title: "LLaVA 1",
       link: "https://ritvik19.medium.com/papers-explained-102-llava-1-eb0a3db7e43c",
       date: "April 2023",
       description:
@@ -434,6 +434,13 @@ const papers_data = [
       date: "September 2023",
       description:
         "A multimodal model that combines text and vision capabilities, allowing users to instruct it to analyze image inputs.",
+    },
+    {
+      title: "LLaVA 1.5",
+      link: "https://ritvik19.medium.com/papers-explained-103-llava-1-5-ddcb2e7f95b4",
+      date: "October 2023",
+      description:
+        "An enhanced version of the LLaVA model that incorporates a CLIP-ViT-L-336px with an MLP projection and academic-task-oriented VQA data to set new benchmarks in large multimodal models (LMM) research.",
     },
     {
       title: "Gemini 1.0",
