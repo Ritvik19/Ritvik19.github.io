@@ -449,6 +449,13 @@ const papers_data = [
       description:
         "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
     },
+    {
+      title: "MoE-LLaVA",
+      link: "https://ritvik19.medium.com/papers-explained-104-moe-llava-cf14fda01e6f",
+      date: "January 2024",
+      description:
+        "A MoE-based sparse LVLM framework that activates only the top-k experts through routers during deployment, maintaining computational efficiency while achieving comparable performance to larger models.",
+    },
   ],
   [
     // Language Models for Retrieval
