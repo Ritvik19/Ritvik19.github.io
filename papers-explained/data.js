@@ -456,6 +456,14 @@ const papers_data = [
       description:
         "A MoE-based sparse LVLM framework that activates only the top-k experts through routers during deployment, maintaining computational efficiency while achieving comparable performance to larger models.",
     },
+    
+    {
+      title: "Gemini 1.5 Pro",
+      link: "https://ritvik19.medium.com/papers-explained-105-gemini-1-5-pro-029bbce3b067",
+      date: "February 2024",
+      description:
+        "A highly compute-efficient multimodal mixture-of-experts model that excels in long-context retrieval tasks and understanding across text, video, and audio modalities.",
+    },
   ],
   [
     // Language Models for Retrieval
