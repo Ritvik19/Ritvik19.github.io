@@ -411,6 +411,13 @@ const papers_data = [
       description:
         "A state-of-the-art, truly open language model and framework that includes training data, code, and tools for building, studying, and advancing language models.",
     },
+    {
+      title: "Gemma",
+      link: "https://ritvik19.medium.com/papers-explained-106-gemma-ca2b449321ac",
+      date: "February 2024",
+      description:
+        "A family of 2B and 7B, state-of-the-art language models based on Google's Gemini models, offering advancements in language understanding, reasoning, and safety.",
+    },
   ],
   [
     // Multi Modal Language Models
