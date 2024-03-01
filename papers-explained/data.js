@@ -463,7 +463,13 @@ const papers_data = [
       description:
         "A MoE-based sparse LVLM framework that activates only the top-k experts through routers during deployment, maintaining computational efficiency while achieving comparable performance to larger models.",
     },
-    
+    {
+      title: "LLaVA 1.6",
+      link: "https://ritvik19.medium.com/papers-explained-107-llava-1-6-a312efd496c5",
+      date: "January 2024",
+      description:
+        "An improved version of a LLaVA 1.5 with enhanced reasoning, OCR, and world knowledge capabilities, featuring increased image resolution",
+    },
     {
       title: "Gemini 1.5 Pro",
       link: "https://ritvik19.medium.com/papers-explained-105-gemini-1-5-pro-029bbce3b067",
