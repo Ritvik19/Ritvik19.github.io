@@ -990,6 +990,13 @@ const papers_data = [
       description:
         "An open corpus of three trillion tokens designed to support language model pretraining research.",
     },
+    {
+      title: "Aya Dataset",
+      link: "https://ritvik19.medium.com/papers-explained-108-aya-dataset-9e299ac74a19",
+      date: "February 2024",
+      description:
+        "A human-curated instruction-following dataset that spans 65 languages, created to bridge the language gap in datasets for natural language processing.",
+    },
   ],
 ];
 
