@@ -121,6 +121,13 @@ const papers_data = [
       description:
         "A diffusion code generation model that iteratively refines entire programs based on encoded natural language, overcoming the limitation of auto-regressive models in code generation by allowing reconsideration of earlier tokens.",
     },
+    {
+      title: "Aya 101",
+      link: "https://ritvik19.medium.com/papers-explained-aya-101-d813ba17b83a",
+      date: "February 2024",
+      description:
+        "A massively multilingual generative language model that follows instructions in 101 languages,trained by finetuning mT5.",
+    },
   ],
   [
     // Encoder Only Transformers
