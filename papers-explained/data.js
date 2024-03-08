@@ -539,6 +539,20 @@ const papers_data = [
       description:
         "Encodes information at different granularities and allows a flexible representation that can adapt to multiple downstream tasks with varying computational resources using a single embedding.",
     },
+    {
+      title: "Nomic Embed Text v1",
+      link: "https://ritvik19.medium.com/papers-explained-110-nomic-embed-8ccae819dac2",
+      date: "February 2024",
+      description:
+        "A 137M parameter, open-source English text embedding model with an 8192 context length that outperforms OpenAI's models on both short and long-context tasks.",
+    },
+    {
+      title: "Nomic Embed Text v1.5",
+      link: "https://ritvik19.medium.com/papers-explained-110-nomic-embed-8ccae819dac2#2119",
+      date: "February 2024",
+      description:
+        "An advanced text embedding model that utilizes Matryoshka Representation Learning to offer flexible embedding sizes with minimal performance trade-offs",
+    },
   ],
   [
     // Vision Transformers
