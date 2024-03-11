@@ -410,6 +410,13 @@ const papers_data = [
       date: "January 2024",
       description:
         "A Sparse Mixture of Experts language model based on Mistral 7B trained with multilingual data using a context size of 32k tokens.",
+    }, 
+    {
+      title: "H2O Danube 1.8B",
+      link: "https://ritvik19.medium.com/papers-explained-111-h2o-danube-1-8b-b790c073d257",
+      date: "January 2024",
+      description:
+        "A language model trained on 1T tokens following the core principles of LLama 2 and Mistral, leveraging and refining various techniques for pre-training large language models.",
     },
     {
       title: "OLMo",
