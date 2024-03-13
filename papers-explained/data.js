@@ -115,6 +115,12 @@ const papers_data = [
       description: "Applies Multitask prompted fine tuning to the pretrained multilingual models on English tasks with English prompts to attain task generalization to non-English languages that appear only in the pretraining corpus.",
     },
     {
+      title: "Self Instruct",
+      link: "https://ritvik19.medium.com/papers-explained-112-self-instruct-5c192580103a",
+      date: "December 2022",
+      description: "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
+    },
+    {
       title: "CodeFusion",
       link: "https://ritvik19.medium.com/papers-explained-70-codefusion-fee6aba0149a",
       date: "October 2023",
