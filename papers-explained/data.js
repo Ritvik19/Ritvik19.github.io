@@ -89,6 +89,12 @@ const papers_data = [
       description: "An enhanced version of the original T5 model, featuring improvements such as GEGLU activation, no dropout in pre-training, exclusive pre-training on C4, no parameter sharing between embedding and classifier layers.",
     },
     {
+      title: "mT5",
+      link: "https://ritvik19.medium.com/papers-explained-113-mt5-c61e03bc9218",
+      date: "October 2020",
+      description: "A multilingual variant of T5 based on T5 v1.1, pre-trained on a new Common Crawl-based dataset covering 101 languages (mC4).",
+    },
+    {
       title: "FLAN",
       link: "https://ritvik19.medium.com/papers-explained-46-flan-1c5e0d5db7c9",
       date: "September 2021",
