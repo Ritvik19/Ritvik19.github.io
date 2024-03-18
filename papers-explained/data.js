@@ -363,6 +363,13 @@ const papers_data = [
         "An Open Source LLM trained on properly filtered and deduplicated web data alone.",
     },
     {
+      title: "Phi-1",
+      link: "https://ritvik19.medium.com/papers-explained-114-phi-1-14a8dcc77ce5",
+      date: "June 2023",
+      description:
+        "An LLM for code, trained using a textbook quality data from the web and synthetically generated textbooks and exercises with GPT-3.5.",
+    },
+    {
       title: "LLaMA 2",
       link: "https://ritvik19.medium.com/papers-explained-60-llama-v2-3e415c5b9b17",
       date: "July 2023",
