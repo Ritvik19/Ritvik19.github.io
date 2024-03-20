@@ -396,6 +396,13 @@ const papers_data = [
         "A series of long context LLMs s that support effective context windows of up to 32,768 tokens.",
     },
     {
+      title: "Phi-1.5",
+      link: "https://ritvik19.medium.com/papers-explained-phi-1-5-2857e56dbd2a",
+      date: "September 2023",
+      description:
+        "Follows the phi-1 approach, focusing this time on common sense reasoning in natural language.",
+    },
+    {
       title: "Mistral 7B",
       link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580",
       date: "October 2023",
