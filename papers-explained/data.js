@@ -424,6 +424,13 @@ const papers_data = [
         "Utilizes dDPO and AI Feedback (AIF) preference data to achieve superior intent alignment in chat-based language modeling.",
     },
     {
+      title: "Phi-2",
+      link: "https://ritvik19.medium.com/papers-explained-phi-1-5-2857e56dbd2a",
+      date: "December 2023",
+      description:
+        "A 2.7B model, developed to explore whether emergent abilities achieved by large-scale language models can also be achieved at a smaller scale using strategic choices for training, such as data selection.",
+    },
+    {
       title: "TinyLlama",
       link: "https://ritvik19.medium.com/papers-explained-93-tinyllama-6ef140170da9",
       date: "January 2024",
