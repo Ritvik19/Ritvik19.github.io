@@ -182,11 +182,11 @@ notebooks_data = [
     },
   ],
   [
-    // LLM Finetuning
-    // {
-    //   Title: "Finetuning with LoRA",
-    //   Link: "https://www.kaggle.com/code/ritvik1909/finetuning-with-lora",
-    // },
+    // Parameter Efficient Finetuning
+    {
+      Title: "LoRA BERT",
+      Link: "https://www.kaggle.com/code/ritvik1909/lora-bert/",
+    },
     {
       Title: "Finetuning TinyLlama 1.1B",
       Link: "https://www.kaggle.com/code/ritvik1909/finetuning-tinyllama-1-1b",
@@ -410,7 +410,7 @@ notebook_categories = [
   "Deep Learning",
   "Document Information Processing",
   "Generative Adversarial Network",
-  "LLM Finetuning",
+  "Parameter Efficient Finetuning",
   "Machine Learning",
   "Natural Language Processing",
   "Object Detection",
