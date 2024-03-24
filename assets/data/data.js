@@ -15,6 +15,15 @@ const data = [
     ],
   },
   {
+    title: "Zeta",
+    description: "Agent Zeta is an AI assistant dedicated to enhancing your journey through machine learning research papers, offering insightful analysis and interactive discussions.",
+    actions: [
+      {
+        title: "View Zeta in Action",
+        link: "https://huggingface.co/spaces/Ritvik19/Zeta",
+      }]
+  },
+  {
     title: "Implemented Data Science",
     description:
       "A collection of various implementations of various data science techniques and research papers." +
