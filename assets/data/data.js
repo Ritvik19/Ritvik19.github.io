@@ -135,21 +135,9 @@ const models = [
       "Sudoku-Net is a neural network model that solves sudoku puzzles, developed to examine the performance of machine learning applications on solving sudokus.",
     actions: [
       {
-        title: "View Demo",
-        link: "https://huggingface.co/spaces/Ritvik19/SudokuNetDemo",
-      },
-      {
-        title: "Model Card",
-        link: "https://huggingface.co/Ritvik19/SudokuNet",
-      },
-      {
-        title: "Dataset Card",
-        link: "https://huggingface.co/datasets/Ritvik19/Sudoku-Dataset",
-      },
-      {
-        title: "Github",
-        link: "https://github.com/Ritvik19/SudokuNet",
-      },
+        title: "View",
+        link: "/sudoku-net",
+      }
     ],
   },
 ];
