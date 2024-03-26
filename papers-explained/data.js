@@ -524,6 +524,13 @@ const papers_data = [
       description:
         "A highly compute-efficient multimodal mixture-of-experts model that excels in long-context retrieval tasks and understanding across text, video, and audio modalities.",
     },
+    {
+      title: "MM1",
+      link: "https://ritvik19.medium.com/papers-explained-117-mm1-c579142bcdc0",
+      date: "March 2024",
+      description:
+        "A multimodal llm that combines a ViT-H image encoder with 378x378px resolution, pretrained on a data mix of image-text documents and text-only documents, scaled up to 3B, 7B, and 30B parameters for enhanced performance across various tasks",
+    },
   ],
   [
     // Language Models for Retrieval
