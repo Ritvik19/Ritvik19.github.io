@@ -140,6 +140,14 @@ const papers_data = [
       description:
         "A massively multilingual generative language model that follows instructions in 101 languages,trained by finetuning mT5.",
     },
+    
+    {
+      title: "WRAP",
+      link: "https://ritvik19.medium.com/papers-explained-118-wrap-e563e009fe56",
+      date: "March 2024",
+      description:
+        "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
+    },
   ],
   [
     // Encoder Only Transformers
