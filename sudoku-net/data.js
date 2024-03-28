@@ -26,7 +26,7 @@ let project_contents = {
         {"type": "text", "content": "Number of Difficult puzzles by source"},
         {"type": "table", "columns": ["Source", "# Puzzles"], "rows": [["1m", "0"], ["3m", "78"], ["4m", "15169"], ["9m", "67"], ["challenge", "7"]]},
         {"type": "text", "content": "Number of Empty cells in puzzles"},
-        {"type": "table", "columns": ["Split", "[1, 10]", "[11, 20]", "[21, 30]", "[31, 40]", "[41, 50]", "[51, 64]"], "rows": [["Training", "3.67", "3.85", "6.05", "19.31", "41.79", "25.29"], ["Evaluation", "4.96", "5.31", "8.15", "25.36", "52.77", "3.45"]]},
+        {"type": "table", "columns": ["% of the dataset", "Training", "Evaluation"], "rows": [["[1, 10]", "3.67", "4.96"], ["[11, 20]", "3.85", "5.31"], ["[21, 30]", "6.05", "8.15"], ["[31, 40]", "19.31", "25.36"], ["[41, 50]", "41.79", "52.77"], ["[51, 64]", "25.29", "3.45"]]},
     ],   
     "Method": [
         {"type": "heading", "content": "Model Architecture"},
