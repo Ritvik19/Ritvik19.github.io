@@ -1117,6 +1117,10 @@ const reading_list_data = [
     link: "https://ritvik19.medium.com/list/language-models-for-retrieval-3b6e14887105",
   },
   {
+    title: "Small LLMs",
+    link: "https://ritvik19.medium.com/list/small-llms-41124d5c7c80",
+  },
+  {
     title: "GPT Models",
     link: "https://ritvik19.medium.com/list/gpt-models-fa2cc801d840",
   },
