@@ -187,6 +187,10 @@ notebooks_data = [
       Title: "LoRA BERT",
       Link: "https://www.kaggle.com/code/ritvik1909/lora-bert/",
     },
+    {
+      Title: "LoRA BERT NER",
+      Link: "https://www.kaggle.com/code/ritvik1909/lora-bert-ner/",
+    },
      {
       Title: "LoRA T5",
       Link: "https://www.kaggle.com/code/ritvik1909/lora-t5/",
