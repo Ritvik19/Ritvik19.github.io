@@ -473,6 +473,13 @@ const papers_data = [
       description:
         "A family of 2B and 7B, state-of-the-art language models based on Google's Gemini models, offering advancements in language understanding, reasoning, and safety.",
     },
+    {
+      title: "DBRX",
+      link: "https://ritvik19.medium.com/papers-explained-119-dbrx-17c61739983c",
+      date: "March 2024",
+      description:
+        "A 132B open, general-purpose fine grained Sparse MoE LLM surpassing GPT-3.5 and competitive with Gemini 1.0 Pro.",
+    },
   ],
   [
     // Multi Modal Language Models
