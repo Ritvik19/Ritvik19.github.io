@@ -350,6 +350,13 @@ const papers_data = [
         "A 13B LLaMA chatbot fine tuned on user-shared conversations collected from ShareGPT, capable of generating more detailed and well-structured answers compared to Alpaca.",
     },
     {
+      title: "Bloomberg GPT",
+      link: "https://ritvik19.medium.com/papers-explained-120-bloomberggpt-4bedd52ef54b",
+      date: "March 2023",
+      description:
+        "A 50B language model train on general purpose and domain specific data to support a wide range of tasks within the financial industry.",
+    },
+    {
       title: "PaLM 2",
       link: "https://ritvik19.medium.com/papers-explained-58-palm-2-1a9a23f20d6c",
       date: "May 2023",
