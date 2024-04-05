@@ -357,6 +357,13 @@ const papers_data = [
         "A 50B language model train on general purpose and domain specific data to support a wide range of tasks within the financial industry.",
     },
     {
+      title: "Pythia",
+      link: "https://ritvik19.medium.com/papers-explained-121-pythia-708284c32964",
+      date: "April 2023",
+      description:
+        "A suite of 16 LLMs all trained on public data seen in the exact same order and ranging in size from 70M to 12B parameters.",
+    },
+    {
       title: "PaLM 2",
       link: "https://ritvik19.medium.com/papers-explained-58-palm-2-1a9a23f20d6c",
       date: "May 2023",
