@@ -41,6 +41,13 @@ const papers_data = [
         "Extends the original Transformer model to handle longer sequences of text by introducing recurrence into the self-attention mechanism.",
     },
     {
+      title: "Sparse Transformer",
+      link: "https://ritvik19.medium.com/papers-explained-122-sparse-transformer-906a0be1e4e7",
+      date: "April 2019",
+      description:
+        "Introduced sparse factorizations of the attention matrix to reduce the time and memory consumption to O(n√ n) in terms of sequence lengths.",
+    },
+    {
       title: "UniLM",
       link: "https://ritvik19.medium.com/papers-explained-72-unilm-672f0ecc6a4a",
       date: "May 2019",
