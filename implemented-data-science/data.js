@@ -196,13 +196,13 @@ notebooks_data = [
       Link: "https://www.kaggle.com/code/ritvik1909/lora-t5/",
     },
     {
-      Title: "Finetuning TinyLlama 1.1B",
-      Link: "https://www.kaggle.com/code/ritvik1909/finetuning-tinyllama-1-1b",
+      Title: "LoRA TinyLlama 1.1B",
+      Link: "https://www.kaggle.com/code/ritvik1909/lora-tinyllama-1-1b/",
     },
 
     {
-      Title: "Finetuning Mistral 7B",
-      Link: "https://www.kaggle.com/code/ritvik1909/finetuning-mistral-7b",
+      Title: "QLoRA TinyLlama 1.1B",
+      Link: "https://www.kaggle.com/code/ritvik1909/qlora-tinyllama-1-1b",
     }
   ],
   [
