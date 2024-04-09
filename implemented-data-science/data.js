@@ -202,7 +202,11 @@ notebooks_data = [
 
     {
       Title: "QLoRA TinyLlama 1.1B",
-      Link: "https://www.kaggle.com/code/ritvik1909/qlora-tinyllama-1-1b",
+      Link: "https://www.kaggle.com/code/ritvik1909/qlora-tinyllama-1-1b/",
+    },
+    {
+      Title: "QLoRA Mistral 7B",
+      Link: "https://www.kaggle.com/code/ritvik1909/qlora-mistral-7b/",
     }
   ],
   [
