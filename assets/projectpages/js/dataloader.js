@@ -56,6 +56,14 @@ function create_content_section(header, content_array, is_hero_light){
                                     </tbody>
                                 </table>`;
                             }
+                            if (content.type == "carousel"){
+                                return `<div class="carousel results-carousel">
+                                    ${content.images.map((image) => `<div class="item">
+                                        <img src="${image.src}" alt="${image.caption}">
+                                        <h2 class="subtitle has-text-centered">${image.caption}</h2>
+                                    </div>`).join("")}
+                                </div>`;
+                            }
                         }).join("")}
                     </div>
                 </div>
