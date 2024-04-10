@@ -1144,6 +1144,10 @@ const reading_list_data = [
     title: "Language Models for Retrieval",
     link: "https://ritvik19.medium.com/list/language-models-for-retrieval-3b6e14887105",
   },
+   {
+    title: "LLMs for Code",
+    link: "https://ritvik19.medium.com/list/llms-for-code-e5360a1b353a",
+  },
   {
     title: "Small LLMs",
     link: "https://ritvik19.medium.com/list/small-llms-41124d5c7c80",
@@ -1155,6 +1159,10 @@ const reading_list_data = [
   {
     title: "LLaMA Models",
     link: "https://ritvik19.medium.com/list/llama-models-5b8ea07308cb",
+  },
+  {
+    title: "Gemini / Gemma Models",
+    link: "https://ritvik19.medium.com/list/gemini-gemma-models-4cb7dfc50d42",
   },
   {
     title: "Multi Task Language Models",
