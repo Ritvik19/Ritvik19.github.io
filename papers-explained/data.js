@@ -260,6 +260,13 @@ const papers_data = [
         "A GPT language model finetuned on publicly available code from GitHub.",
     },
     {
+      title: "WebGPT",
+      link: "https://ritvik19.medium.com/papers-explained-123-webgpt-5bb0dd646b32",
+      date: "December 2021",
+      description:
+        "A fine-tuned GPT-3 model utilizing text-based web browsing, trained via imitation learning and human feedback, enhancing its ability to answer long-form questions with factual accuracy.",
+    },
+    {
       title: "Gopher",
       link: "https://ritvik19.medium.com/papers-explained-47-gopher-2e71bbef9e87",
       date: "December 2021",
