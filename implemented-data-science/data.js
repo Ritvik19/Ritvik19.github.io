@@ -251,7 +251,7 @@ notebooks_data = [
       Link: "https://www.kaggle.com/ritvik1909/debiasing-word-vectors",
     },
     {
-      Title: "DSPy - LnagChain",
+      Title: "DSPy - LangChain",
       Link: "https://www.kaggle.com/code/ritvik1909/dspy-langchain",
     },
     {
