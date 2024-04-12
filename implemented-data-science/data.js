@@ -251,6 +251,10 @@ notebooks_data = [
       Link: "https://www.kaggle.com/ritvik1909/debiasing-word-vectors",
     },
     {
+      Title: "DSPy - LnagChain",
+      Link: "https://www.kaggle.com/code/ritvik1909/dspy-langchain",
+    },
+    {
       Title: "Key Phase and Entity Extraction",
       Link: "https://www.kaggle.com/code/ritvik1909/keyphase-and-entity-extraction-sentiment-analysis",
     },
