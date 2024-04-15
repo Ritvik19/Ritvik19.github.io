@@ -508,6 +508,13 @@ const papers_data = [
       description:
         "A 132B open, general-purpose fine grained Sparse MoE LLM surpassing GPT-3.5 and competitive with Gemini 1.0 Pro.",
     },
+    {
+      title: "CodeGemma",
+      link: "https://ritvik19.medium.com/papers-explained-124-codegemma-85faa98af20d",
+      date: "April 2024",
+      description:
+        "Open code models based on Gemma models by further training on over 500 billion tokens of primarily code",
+    },
   ],
   [
     // Multi Modal Language Models
