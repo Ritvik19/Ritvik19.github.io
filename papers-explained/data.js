@@ -294,6 +294,13 @@ const papers_data = [
         "Investigated the optimal model size and number of tokens for training a transformer LLM within a given compute budget (Scaling Laws).",
     },
     {
+      title: "CodeGen",
+      link: "https://ritvik19.medium.com/papers-explained-125-codegen-a6bae5c1f7b5",
+      date: "March 2022",
+      description:
+        "An LLM trained for program synthesis using input-output examples and natural language descriptions.",
+    },
+    {
       title: "PaLM",
       link: "https://ritvik19.medium.com/papers-explained-50-palm-480e72fa3fd5",
       date: "April 2022",
