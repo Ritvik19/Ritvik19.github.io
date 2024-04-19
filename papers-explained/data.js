@@ -385,6 +385,13 @@ const papers_data = [
         "A suite of 16 LLMs all trained on public data seen in the exact same order and ranging in size from 70M to 12B parameters.",
     },
     {
+      title: "CodeGen 2",
+      link: "https://ritvik19.medium.com/papers-explained-codegen2-d2690d7eb831",
+      date: "May 2023",
+      description:
+        "Proposes an approach to make the training of LLMs for program synthesis more efficient by unifying key components of model architectures, learning methods, infill sampling, and data distributions",
+    },
+    {
       title: "PaLM 2",
       link: "https://ritvik19.medium.com/papers-explained-58-palm-2-1a9a23f20d6c",
       date: "May 2023",
