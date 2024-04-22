@@ -385,6 +385,13 @@ const papers_data = [
         "A suite of 16 LLMs all trained on public data seen in the exact same order and ranging in size from 70M to 12B parameters.",
     },
     {
+      title: "WizardLM",
+      link: "https://ritvik19.medium.com/papers-explained-127-wizardlm-65099705dfa3",
+      date: "April 2023",
+      description:
+        "Introduces Evol-Instruct, a method to generate large amounts of instruction data with varying levels of complexity using LLM instead of humans to fine tune a Llama model ",
+    },
+    {
       title: "CodeGen 2",
       link: "https://ritvik19.medium.com/papers-explained-codegen2-d2690d7eb831",
       date: "May 2023",
@@ -1191,6 +1198,10 @@ const reading_list_data = [
   {
     title: "Gemini / Gemma Models",
     link: "https://ritvik19.medium.com/list/gemini-gemma-models-4cb7dfc50d42",
+  },
+  {
+    title: "Wizard Models",
+    link: "https://ritvik19.medium.com/list/wizard-models-9b972e860683",
   },
   {
     title: "Multi Task Language Models",
