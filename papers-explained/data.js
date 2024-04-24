@@ -427,6 +427,13 @@ const papers_data = [
         "An LLM for code, trained using a textbook quality data from the web and synthetically generated textbooks and exercises with GPT-3.5.",
     },
     {
+      title: "WizardCoder",
+      link: "https://ritvik19.medium.com/papers-explained-wizardcoder-a12ecb5b93b6",
+      date: "June 2023",
+      description:
+        "Enhances the performance of the open-source Code LLM, StarCoder, through the application of Code Evol-Instruct.",
+    },
+    {
       title: "LLaMA 2",
       link: "https://ritvik19.medium.com/papers-explained-60-llama-v2-3e415c5b9b17",
       date: "July 2023",
