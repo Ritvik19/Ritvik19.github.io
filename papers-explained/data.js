@@ -453,6 +453,12 @@ const papers_data = [
       description: "LLaMA 2 based LLM for code.",
     },
     {
+      title: "WizardMath",
+      link: "https://ritvik19.medium.com/papers-explained-129-wizardmath-265e6e784341",
+      date: "August 2023",
+      description: "Proposes Reinforcement Learning from Evol-Instruct Feedback (RLEIF) method, applied to Llama-2 to enhance the mathematical reasoning abilities.",
+    },
+    {
       title: "LLaMA 2 Long",
       link: "https://ritvik19.medium.com/papers-explained-63-llama-2-long-84d33c26d14a",
       date: "September 2023",
