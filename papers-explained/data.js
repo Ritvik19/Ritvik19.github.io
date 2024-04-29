@@ -547,7 +547,14 @@ const papers_data = [
       link: "https://ritvik19.medium.com/papers-explained-124-codegemma-85faa98af20d",
       date: "April 2024",
       description:
-        "Open code models based on Gemma models by further training on over 500 billion tokens of primarily code",
+        "Open code models based on Gemma models by further training on over 500 billion tokens of primarily code.",
+    },
+    {
+      title: "Phi-3",
+      link: "https://ritvik19.medium.com/papers-explained-130-phi-3-0dfc951dc404",
+      date: "April 2024",
+      description:
+        "A series of language models trained on heavily filtered web and synthetic data set, achieving performance comparable to much larger models like Mixtral 8x7B and GPT-3.5.",
     },
   ],
   [
