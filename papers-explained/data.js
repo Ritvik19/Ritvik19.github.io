@@ -147,7 +147,13 @@ const papers_data = [
       description:
         "A massively multilingual generative language model that follows instructions in 101 languages,trained by finetuning mT5.",
     },
-    
+    {
+      title: "Hawk, Griffin",
+      link: "https://ritvik19.medium.com/papers-explained-131-hawk-griffin-dfc8c77f5dcd",
+      date: "February 2024",
+      description:
+        "Introduces Real Gated Linear Recurrent Unit Layer that forms the core of the new recurrent block, replacing Multi-Query Attention for better efficiency and scalability",
+    },
     {
       title: "WRAP",
       link: "https://ritvik19.medium.com/papers-explained-118-wrap-e563e009fe56",
