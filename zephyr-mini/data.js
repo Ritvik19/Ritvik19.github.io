@@ -108,6 +108,9 @@ let project_contents = {
         {"type": "text", "content": "Prompt Template:"},
         {"type": "code", "content": `<|user|>\\n{prompt}\\n<|assistant>\\n`},
     ],
+    "Results": [
+        {"type": "text", "content": "This section is under development..."},
+    ],
     "Usage": [
         {"type": "text", "content": "First, you need to install the required dependencies. You can install them using the following command:"},
         {"type": "code", "content": "!pip install torch transformers peft"},
@@ -122,9 +125,5 @@ let project_contents = {
         {"type": "text", "content": "Finally, you can generate responses to prompts by calling the above function and using the model specific prompt template:"},
         {"type": "code", "content": code_snippets['prompt']},
     ],
-    
-    // "Results": [
-    //     {"type": "text", "content": "WIP..."},
-    // ],
 }
 

@@ -149,4 +149,14 @@ const models = [
       }
     ],
   },
+  {
+    title: "Zephyr Mini",
+    description:
+      "Zephyr Mini is a project that aims to provide framework and recipies for aligning small language models.",
+    actions: [
+      {
+        title: "View",
+        link: "/zephyr-mini",
+      }],
+  }
 ];
