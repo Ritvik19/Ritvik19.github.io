@@ -63,7 +63,11 @@ def generate_response(prompt):
 `.trim(),
 
         "prompt": `
-prompt = prompt_template.format(prompt=user_query)
+chat = [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": "Hello, how are you?"},
+]
+prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
 response = generate_response(prompt)
 print(response)
 `.trim(),
@@ -76,7 +80,6 @@ function create_model_details_table(details) {
         ["Fine-Tuned Model", ...details['fine_tuned_models'].map((fine_tuned_model) => `<a href="https://huggingface.co/${fine_tuned_model}" target="_blank">${fine_tuned_model}</a>`)],
         ["Training Approach", ...details['training_approaches'].map((training_approach) => training_approach.replace(/_/g, " "))],
         ["Base Model", ...details['base_models'].map((base_model) => `<a href="https://huggingface.co/${base_model}" target="_blank">${base_model}</a>`)],
-        ["Tokenizer", ...details['tokenizers'].map((tokenizer) => `<a href="https://huggingface.co/${tokenizer}" target="_blank">${tokenizer}</a>`)],
         ["Training Config", ...details['training_configs'].map((training_config) => `<a href="${training_config}" target="_blank">View Config</a>`)],
         ["Model Revision", ...details['revisions']]
         
@@ -88,7 +91,6 @@ let model_details = {
         'titles': ['Zephyr TinyLLama SFT Qlora v0.1'],
         'training_approaches': ['sft'],
         'base_models': ['TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T'],
-        'tokenizers': ['Ritvik19/zephyr-tinyllama-sft-qlora'],
         'fine_tuned_models': ['Ritvik19/zephyr-tinyllama-sft-qlora'],
         'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-tinyllama/sft/config_qlora.yaml'],
         'revisions': ['002c335a34c5176e14c92875084764cee0f7be98']
@@ -97,7 +99,6 @@ let model_details = {
         'titles': ['Zephyr Gemma 2B SFT Qlora v0.1'],
         'training_approaches': ['sft'],
         'base_models': ['google/gemma-2b'],
-        'tokenizers': ['philschmid/gemma-tokenizer-chatml'],
         'fine_tuned_models': ['Ritvik19/zephyr-2b-gemma-sft-qlora'],
         'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-2b-gemma/sft/config_qlora.yaml'],
         'revisions': ['2a2c01f40945e4104a022f9edd0a764b70bb88a7']
@@ -113,13 +114,11 @@ let project_contents = {
     ],
     "TinyLLama": [
         {"type": "table", "columns": ["", ""], "rows": create_model_details_table(model_details['TinyLLama'])},
-        {"type": "text", "content": "Prompt Template:"},
-        {"type": "code", "content": `<|user|>\\n{prompt}\\n<|assistant>\\n`},
+        {"type": "heading", "content": "Example Prompt"},
+        {"type": "code", "content": '<|system|>\nYou are a helpful assistant. \n<|user|>\nHello, how are you? \n<|assistant|>\nI am fine, thank you. How are you?'},
     ],
     "Gemma 2B": [
         {"type": "table", "columns": ["", ""], "rows": create_model_details_table(model_details['Gemma 2B'])},
-        {"type": "text", "content": "Prompt Template:"},
-        {"type": "code", "content": `<bos><|im_start|>user\\n{prompt}<|im_end|>\\n<|im_start|>assistant\\n`},
     ],    
     "Usage": [
         {"type": "text", "content": "First, you need to install the required dependencies. You can install them using the following command:"},
