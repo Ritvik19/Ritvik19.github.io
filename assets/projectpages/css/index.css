@@ -133,5 +133,11 @@ body {
   font-size: smaller;
 }
 
+.is-light {
+  background-color: #ffffff;
+}
 
+.is-dark {
+  background-color: #f5f5f5;
+}
 

@@ -77,8 +77,8 @@ function create_content_section(header, content_array, is_hero_light){
 
 project_contents_div = document.getElementById("project-contents");
 
-let is_hero_light = "hero is-light";
+let is_hero_light = "is-dark";
 for (let key in project_contents){
     project_contents_div.innerHTML += create_content_section(key, project_contents[key], is_hero_light);
-    is_hero_light = is_hero_light == "hero is-light" ? "" : "hero is-light";
+    is_hero_light = is_hero_light == "is-light" ? "is-dark" : "is-light";
 }
