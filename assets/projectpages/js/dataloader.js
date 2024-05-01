@@ -64,6 +64,9 @@ function create_content_section(header, content_array, is_hero_light){
                                     </div>`).join("")}
                                 </div>`;
                             }
+                            if (content.type == "code"){
+                                return `<pre><code>${content.content}</code></pre>`;
+                            }
                         }).join("")}
                     </div>
                 </div>
