@@ -4,7 +4,7 @@ let links = {
     "paper": "",
     "demo": "",
     "code": "https://github.com/Ritvik19/alignment-handbook",
-    "model": "",
+    "model": "https://huggingface.co/collections/Ritvik19/zephyr-mini-66322633e39731d65a0567bd",
     "data": "",
 }
 let link2icon = {
