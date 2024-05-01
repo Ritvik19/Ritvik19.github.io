@@ -51,7 +51,6 @@ model = peft_model.merge_and_unload()
 
         "generate": `
 generation_config = GenerationConfig(
-    temperature=0.0,
     pad_token_id=tokenizer.eos_token_id,
     max_new_tokens=1024, 
 )
@@ -89,8 +88,8 @@ let model_details = {
         'titles': ['Zephyr TinyLLama SFT Qlora v0.1'],
         'training_approaches': ['sft'],
         'base_models': ['TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T'],
-        'tokenizers': ['Ritvik19/zephyr-tinylamma-sft-qlora'],
-        'fine_tuned_models': ['Ritvik19/zephyr-tinylamma-sft-qlora'],
+        'tokenizers': ['Ritvik19/zephyr-tinyllama-sft-qlora'],
+        'fine_tuned_models': ['Ritvik19/zephyr-tinyllama-sft-qlora'],
         'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-tinyllama/sft/config_qlora.yaml'],
         'revisions': ['002c335a34c5176e14c92875084764cee0f7be98']
     },
