@@ -65,7 +65,12 @@ function create_content_section(header, content_array, is_hero_light){
                                 </div>`;
                             }
                             if (content.type == "code"){
-                                return `<pre><code>${content.content}</code></pre>`;
+                                return `<pre class="is-code"><code>${content.content}</code></pre>`;
+                            }
+                            if (content.type == "bullet"){
+                                return `<div class="content">
+                                    <ul>${content.content.map((item) => `<li>${item}</li>`).join("")}</ul>
+                                </div>`;
                             }
                         }).join("")}
                     </div>
