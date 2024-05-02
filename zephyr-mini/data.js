@@ -131,7 +131,7 @@ let project_contents = {
         {"type": "code", "content": '<|system|>\nYou are a helpful assistant. \n<|user|>\nHello, how are you? \n<|assistant|>\nI am doing well, thank you for asking.'},
     ],
     "Gemma 2B": [
-        {"type": "text", "content": "Gemma is a 2B, state-of-the-art language models based on Google's Gemini models, offering advancements in language understanding, reasoning, and safety."},
+        {"type": "text", "content": "Gemma is a 2B language models based on Google's Gemini models, offering advancements in language understanding, reasoning, and safety."},
         {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-106-gemma-ca2b449321ac' target='_blank'>here</a>."},
         {"type": "table", "columns": ["Attribute", "Description"], "rows": create_model_details_table(model_details['Gemma 2B'])},
     ],    
