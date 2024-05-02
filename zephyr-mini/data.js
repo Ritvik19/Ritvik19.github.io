@@ -122,17 +122,23 @@ let project_contents = {
 
     ],
     "TinyLlama 1.1B": [
-        {"type": "table", "columns": ["", ""], "rows": create_model_details_table(model_details['TinyLlama 1.1B'])},
+        {"type": "text", "content": "TinyLlama is a 1.1B language model built upon the architecture and tokenizer of Llama 2, pre-trained on around 1 trillion tokens for approximately 3 epochs, leveraging FlashAttention and Grouped Query Attention, to achieve better computational efficiency."},
+        {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-93-tinyllama-6ef140170da9' target='_blank'>here</a>."},
+        {"type": "table", "columns": ["Attribute", "Description"], "rows": create_model_details_table(model_details['TinyLlama 1.1B'])},
         {"type": "heading", "content": "Example Prompt"},
         {"type": "code", "content": '<|system|>\nYou are a helpful assistant. \n<|user|>\nHello, how are you? \n<|assistant|>\nI am fine, thank you. How are you?'},
     ],
     "Danube 1.8B": [
-        {"type": "table", "columns": ["", ""], "rows": create_model_details_table(model_details['Danube 1.8B'])},
+        {"type": "text", "content": "Danube is 1 1.8B language model, by h20 ai, trained on 1T tokens following the core principles of LLama 2 and Mistral, leveraging and refining various techniques for pre-training large language models."},
+        {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-111-h2o-danube-1-8b-b790c073d257' target='_blank'>here</a>."},
+        {"type": "table", "columns": ["Attribute", "Description"], "rows": create_model_details_table(model_details['Danube 1.8B'])},
         {"type": "heading", "content": "Example Prompt"},
         {"type": "code", "content": '<|system|>\nYou are a helpful assistant. \n<|user|>\nHello, how are you? \n<|assistant|>\nI am doing well, thank you for asking.'},
     ],
     "Gemma 2B": [
-        {"type": "table", "columns": ["", ""], "rows": create_model_details_table(model_details['Gemma 2B'])},
+        {"type": "text", "content": "Gemma is a 2B, state-of-the-art language models based on Google's Gemini models, offering advancements in language understanding, reasoning, and safety."},
+        {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-106-gemma-ca2b449321ac' target='_blank'>here</a>."},
+        {"type": "table", "columns": ["Attribute", "Description"], "rows": create_model_details_table(model_details['Gemma 2B'])},
     ],    
     "Evaluation": [
         {"type": "text", "content": "We evaluate models on 6 key benchmarks using the Open LLM Leaderboard which utilises Eleuther AI Language Model Evaluation Harness, a unified framework to test generative language models on a large number of different evaluation tasks."},
