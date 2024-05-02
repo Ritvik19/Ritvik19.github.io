@@ -25,12 +25,11 @@ from peft import PeftModelForCausalLM
         "checkpoint": `
 base_model_id = "base_model_id"
 finetuned_model_id = "finetuned_model_id"
-tokenizer_id = "tokenizer_id"
 model_revison = "model_revision"
 `.trim(),
 
         "model": `
-tokenizer = AutoTokenizer.from_pretrained(tokenizer_id)
+tokenizer = AutoTokenizer.from_pretrained(finetuned_model_id)
 pretrained_model = AutoModelForCausalLM.from_pretrained(
     base_model_id,
     torch_dtype=torch.float16,
@@ -78,7 +77,6 @@ function create_model_details_table(details) {
     return table = [
         ["Model", ...details['titles'].map((title) => title.replace(/_/g, " "))],
         ["Fine-Tuned Model", ...details['fine_tuned_models'].map((fine_tuned_model) => `<a href="https://huggingface.co/${fine_tuned_model}" target="_blank">${fine_tuned_model}</a>`)],
-        ["Training Approach", ...details['training_approaches'].map((training_approach) => training_approach.replace(/_/g, " "))],
         ["Base Model", ...details['base_models'].map((base_model) => `<a href="https://huggingface.co/${base_model}" target="_blank">${base_model}</a>`)],
         ["Training Config", ...details['training_configs'].map((training_config) => `<a href="${training_config}" target="_blank">View Config</a>`)],
         ["Model Revision", ...details['revisions']]
@@ -89,7 +87,6 @@ function create_model_details_table(details) {
 let model_details = {
     'TinyLlama 1.1B': {
         'titles': ['Zephyr TinyLlama SFT Qlora v0.1'],
-        'training_approaches': ['sft'],
         'base_models': ['TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T'],
         'fine_tuned_models': ['Ritvik19/zephyr-tinyllama-sft-qlora'],
         'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-tinyllama/sft/config_qlora.yaml'],
@@ -97,7 +94,6 @@ let model_details = {
     },
     'Danube 1.8B': {
         'titles': ['Zephyr Danube SFT Qlora v0.1'],
-        'training_approaches': ['sft'],
         'base_models': ['h2oai/h2o-danube-1.8b-base'],
         'fine_tuned_models': ['Ritvik19/zephyr-danube-sft-qlora'],
         'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-danube/sft/config_qlora.yaml'],
@@ -105,7 +101,6 @@ let model_details = {
     },
     'Gemma 2B':{
         'titles': ['Zephyr Gemma 2B SFT Qlora v0.1'],
-        'training_approaches': ['sft'],
         'base_models': ['google/gemma-2b'],
         'fine_tuned_models': ['Ritvik19/zephyr-2b-gemma-sft-qlora'],
         'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-2b-gemma/sft/config_qlora.yaml'],
