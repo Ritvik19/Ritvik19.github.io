@@ -93,13 +93,15 @@ const papers_data = [
       title: "T5 v1.1",
       link: "https://ritvik19.medium.com/papers-explained-44-t5-9d974a3b7957#773b",
       date: "July 2020",
-      description: "An enhanced version of the original T5 model, featuring improvements such as GEGLU activation, no dropout in pre-training, exclusive pre-training on C4, no parameter sharing between embedding and classifier layers.",
+      description:
+        "An enhanced version of the original T5 model, featuring improvements such as GEGLU activation, no dropout in pre-training, exclusive pre-training on C4, no parameter sharing between embedding and classifier layers.",
     },
     {
       title: "mT5",
       link: "https://ritvik19.medium.com/papers-explained-113-mt5-c61e03bc9218",
       date: "October 2020",
-      description: "A multilingual variant of T5 based on T5 v1.1, pre-trained on a new Common Crawl-based dataset covering 101 languages (mC4).",
+      description:
+        "A multilingual variant of T5 based on T5 v1.1, pre-trained on a new Common Crawl-based dataset covering 101 languages (mC4).",
     },
     {
       title: "FLAN",
@@ -119,19 +121,22 @@ const papers_data = [
       title: "Flan T5, Flan PaLM",
       link: "https://ritvik19.medium.com/papers-explained-75-flan-t5-flan-palm-caf168b6f76",
       date: "October 2022",
-      description: "Explores instruction fine tuning with a particular focus on scaling the number of tasks, scaling the model size, and fine tuning on chain-of-thought data.",
+      description:
+        "Explores instruction fine tuning with a particular focus on scaling the number of tasks, scaling the model size, and fine tuning on chain-of-thought data.",
     },
     {
       title: "BLOOMZ, mT0",
       link: "https://ritvik19.medium.com/papers-explained-99-bloomz-mt0-8932577dcd1d",
       date: "November 2022",
-      description: "Applies Multitask prompted fine tuning to the pretrained multilingual models on English tasks with English prompts to attain task generalization to non-English languages that appear only in the pretraining corpus.",
+      description:
+        "Applies Multitask prompted fine tuning to the pretrained multilingual models on English tasks with English prompts to attain task generalization to non-English languages that appear only in the pretraining corpus.",
     },
     {
       title: "Self Instruct",
       link: "https://ritvik19.medium.com/papers-explained-112-self-instruct-5c192580103a",
       date: "December 2022",
-      description: "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
+      description:
+        "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
     },
     {
       title: "CodeFusion",
@@ -161,7 +166,7 @@ const papers_data = [
       description:
         "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
     },
-     {
+    {
       title: "RecurrentGemma",
       link: "https://ritvik19.medium.com/papers-explained-132-recurrentgemma-52732d0f4273",
       date: "April 2024",
@@ -290,7 +295,8 @@ const papers_data = [
       title: "LaMDA",
       link: "https://ritvik19.medium.com/papers-explained-76-lamda-a580ebba1ca2",
       date: "January 2022",
-      description: "Transformer based models specialized for dialog, which are pre-trained on public dialog data and web text."
+      description:
+        "Transformer based models specialized for dialog, which are pre-trained on public dialog data and web text.",
     },
     {
       title: "Instruct GPT",
@@ -326,7 +332,7 @@ const papers_data = [
       date: "April 2022",
       description:
         "An autoregressive LLM trained on the Pile, and the largest dense model that had publicly available weights at the time of submission.",
-    },   
+    },
     {
       title: "OPT",
       link: "https://ritvik19.medium.com/papers-explained-51-opt-dacd9406e2bd",
@@ -469,7 +475,8 @@ const papers_data = [
       title: "WizardMath",
       link: "https://ritvik19.medium.com/papers-explained-129-wizardmath-265e6e784341",
       date: "August 2023",
-      description: "Proposes Reinforcement Learning from Evol-Instruct Feedback (RLEIF) method, applied to Llama-2 to enhance the mathematical reasoning abilities.",
+      description:
+        "Proposes Reinforcement Learning from Evol-Instruct Feedback (RLEIF) method, applied to Llama-2 to enhance the mathematical reasoning abilities.",
     },
     {
       title: "LLaMA 2 Long",
@@ -526,7 +533,7 @@ const papers_data = [
       date: "January 2024",
       description:
         "A Sparse Mixture of Experts language model based on Mistral 7B trained with multilingual data using a context size of 32k tokens.",
-    }, 
+    },
     {
       title: "H2O Danube 1.8B",
       link: "https://ritvik19.medium.com/papers-explained-111-h2o-danube-1-8b-b790c073d257",
@@ -578,7 +585,7 @@ const papers_data = [
       date: "April 2022",
       description:
         "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
-    }, 
+    },
     {
       title: "LLaVA 1",
       link: "https://ritvik19.medium.com/papers-explained-102-llava-1-eb0a3db7e43c",
@@ -659,14 +666,14 @@ const papers_data = [
       description:
         "Couples an aggressive residual compression mechanism with a denoised supervision strategy to simultaneously improve the quality and space footprint of late interaction.",
     },
-     {
+    {
       title: "E5",
       link: "https://ritvik19.medium.com/papers-explained-90-e5-75ea1519efad",
       date: "December 2022",
       description:
         "A family of text embeddings trained in a contrastive manner with weak supervision signals from a curated large-scale text pair dataset CCPairs.",
     },
-     {
+    {
       title: "E5 Mistral 7B",
       link: "https://ritvik19.medium.com/papers-explained-91-e5-mistral-7b-23890f40f83a",
       date: "December 2023",
@@ -852,7 +859,8 @@ const papers_data = [
       title: "NF Net",
       link: "https://ritvik19.medium.com/papers-explained-84-nf-net-b8efa03d6b26",
       date: "February 2021",
-      description: "An improved class of Normalizer-Free ResNets that implement batch-normalized networks, offer faster training times, and introduce an adaptive gradient clipping technique to overcome instabilities associated with deep ResNets.",
+      description:
+        "An improved class of Normalizer-Free ResNets that implement batch-normalized networks, offer faster training times, and introduce an adaptive gradient clipping technique to overcome instabilities associated with deep ResNets.",
     },
     {
       title: "Conv Mixer",
@@ -905,7 +913,7 @@ const papers_data = [
       date: "May 2020",
       description:
         "A novel transformers based object detection model that treats object detection as a set prediction problem, eliminating the need for hand-designed components.",
-    }
+    },
   ],
   [
     // Region Based Convolutional Neural Networks
@@ -1048,38 +1056,44 @@ const papers_data = [
       title: "Generative Adversarial Networks",
       link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#7041",
       date: "June 2014",
-      description: "Introduces a framework where, a generative and a discriminative model, are trained simultaneously in a minimax game.",
+      description:
+        "Introduces a framework where, a generative and a discriminative model, are trained simultaneously in a minimax game.",
     },
     {
       title: "Conditional Generative Adversarial Networks",
       link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#86aa",
       date: "November 2014",
-      description: "A method for training GANs, enabling the generation based on specific conditions, by feeding them to both the generator and discriminator networks.",
+      description:
+        "A method for training GANs, enabling the generation based on specific conditions, by feeding them to both the generator and discriminator networks.",
     },
     {
       title: "Deep Convolutional Generative Adversarial Networks",
       link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#fe42",
       date: "November 2015",
-      description: "Demonstrates the ability of CNNs for unsupervised learning using specific architectural constraints designed.",
+      description:
+        "Demonstrates the ability of CNNs for unsupervised learning using specific architectural constraints designed.",
     },
     {
       title: "Improved GAN",
       link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#9a55",
       date: "June 2016",
-      description: "Presents a variety of new architectural features and training procedures that can be applied to the generative adversarial networks (GANs) framework.",
+      description:
+        "Presents a variety of new architectural features and training procedures that can be applied to the generative adversarial networks (GANs) framework.",
     },
     {
       title: "Wasserstein Generative Adversarial Networks",
       link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#6f8f",
       date: "January 2017",
-      description: "An alternative GAN training algorithm that enhances learning stability, mitigates issues like mode collapse.",
+      description:
+        "An alternative GAN training algorithm that enhances learning stability, mitigates issues like mode collapse.",
     },
     {
       title: "Cycle GAN",
       link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e#7f8b",
       date: "March 2017",
-      description: "An approach for learning to translate an image from a source domain X to a target domain Y in the absence of paired examples by leveraging adversarial losses and cycle consistency constraints, using two GANs",
-    }
+      description:
+        "An approach for learning to translate an image from a source domain X to a target domain Y in the absence of paired examples by leveraging adversarial losses and cycle consistency constraints, using two GANs",
+    },
   ],
   [
     // Tabular Data
@@ -1212,7 +1226,7 @@ const reading_list_data = [
     title: "Language Models for Retrieval",
     link: "https://ritvik19.medium.com/list/language-models-for-retrieval-3b6e14887105",
   },
-   {
+  {
     title: "LLMs for Code",
     link: "https://ritvik19.medium.com/list/llms-for-code-e5360a1b353a",
   },
