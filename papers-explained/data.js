@@ -161,6 +161,13 @@ const papers_data = [
       description:
         "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
     },
+     {
+      title: "RecurrentGemma",
+      link: "https://ritvik19.medium.com/papers-explained-132-recurrentgemma-52732d0f4273",
+      date: "April 2024",
+      description:
+        "Based on Griffin, uses a combination of linear recurrences and local attention instead of global attention to model long sequences efficiently.",
+    },
   ],
   [
     // Encoder Only Transformers
