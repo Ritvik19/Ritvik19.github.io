@@ -85,6 +85,13 @@ function create_model_details_table(details) {
 }
 
 let model_details = {
+    'OLMo 1B' : {
+        'titles': ['Zephyr OLMo 1B SFT Qlora v0.1'],
+        'base_models': ['allenai/OLMo-1B-hf'],
+        'fine_tuned_models': ['Ritvik19/zephyr-1b-olmo-sft-qlora'],
+        'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-1b-olmo/sft/config_qlora.yaml'],
+        'revisions': ['']
+    },
     'TinyLlama 1.1B': {
         'titles': ['Zephyr TinyLlama SFT Qlora v0.1'],
         'base_models': ['TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T'],
@@ -104,7 +111,7 @@ let model_details = {
         'base_models': ['google/gemma-2b'],
         'fine_tuned_models': ['Ritvik19/zephyr-2b-gemma-sft-qlora'],
         'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-2b-gemma/sft/config_qlora.yaml'],
-        'revisions': ['2a2c01f40945e4104a022f9edd0a764b70bb88a7']
+        'revisions': ['bd70703a95b854373446188b8033926913092470']
     }
     
 }
@@ -115,6 +122,13 @@ let project_contents = {
         {"type": "text", "content": "We aim to fine-tune smaller LLMs utilizing a combination of tried-and-true methods and novel approaches. Our project embraces the principles of open-source development, ensuring that all training recipes and aligned checkpoints are accessible to the broader community. This approach promotes collaboration, enabling a continuous cycle of improvement and knowledge sharing among researchers and developers."},
         {"type": "text", "content": "Through this work, we offer a flexible framework for aligning small LLMs, designed for easy integration with various applications. The project's overarching goal is to advance the conversation on AI alignment while setting a benchmark for community-driven AI development."},
 
+    ],
+    "OLMo 1B" : [
+        {"type": "text", "content": "OLMo is a 1B truly open language model and framework that includes training data, code, and tools for building, studying, and advancing language models."},
+        {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-98-olmo-fdc358326f9b' target='_blank'>here</a>."},
+        {"type": "table", "columns": ["Attribute", "Description"], "rows": create_model_details_table(model_details['OLMo 1B'])},
+        {"type": "heading", "content": "Example Prompt"},
+        {"type": "code", "content": ''},
     ],
     "TinyLlama 1.1B": [
         {"type": "text", "content": "TinyLlama is a 1.1B language model built upon the architecture and tokenizer of Llama 2, pre-trained on around 1 trillion tokens for approximately 3 epochs, leveraging FlashAttention and Grouped Query Attention, to achieve better computational efficiency."},
@@ -134,6 +148,8 @@ let project_contents = {
         {"type": "text", "content": "Gemma is a 2B language models based on Google's Gemini models, offering advancements in language understanding, reasoning, and safety."},
         {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-106-gemma-ca2b449321ac' target='_blank'>here</a>."},
         {"type": "table", "columns": ["Attribute", "Description"], "rows": create_model_details_table(model_details['Gemma 2B'])},
+        {"type": "heading", "content": "Example Prompt"},
+        {"type": "code", "content": '<|system|>\nYou are a helpful assistant.\n<|user|>\nHello, how are you?\n<|assistant|>\nI am doing well, thank you. How are you?'},
     ],    
     "Evaluation": [
         {"type": "text", "content": "We evaluate models on 6 key benchmarks using the Open LLM Leaderboard which utilises Eleuther AI Language Model Evaluation Harness, a unified framework to test generative language models on a large number of different evaluation tasks."},
@@ -149,12 +165,13 @@ let project_contents = {
         {"type": "text", "content": "For all these evaluations, a higher score is a better score. We chose these benchmarks as they test a variety of reasoning and general knowledge across a wide variety of fields in 0-shot and few-shot settings."},
         {"type": "heading", "content": "Results"},
         {"type": "table", "columns": ["Model",  "Average", "ARC", "HellaSwag", "MMLU", "TruthfulQA", "Winogrande", "GSM8k"], "rows": [
+            ["OLMo 1B", "36.73", "34.56", "63.6", "26.31", "32.92", "61.09", "1.9"],
             ["TinyLlama 1.1B 3T", "36.42", "33.87", "60.31", "26.04", "37.32", "59.51", "1.44"],
             ["Zephyr TinyLlama SFT Qlora v0.1", "36.64", "34.64", "59.84", "25.85", "36.57", "61.17", "1.74"],
             ["Danube 1.8B Base", "39.12", "39.42", "69.58", "25.94", "33.86", "64.48", "1.44",],
             ["Zephyr Danube SFT Qlora v0.1", "40.11", "40.44", "69.4", "27", "37.08", "64.72", "2.05"],
-            ["Gemma 2B", "46.37", "48.38", "71.77", "41.77", "33.08", "66.3", "16.91"],           
-            // ["Zephyr Gemma 2B SFT Qlora v0.1", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0"],
+            ["Gemma 2B", "46.37", "48.38", "71.77", "41.77", "33.08", "66.3", "16.91"],
+            ["Zephyr Gemma 2B SFT Qlora v0.1", "47.26", "49.15", "71.94", "41.88", "35.77", "66.61", "18.2"],
         ]},
     ],
     "Usage": [
