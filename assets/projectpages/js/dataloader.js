@@ -15,7 +15,6 @@ function create_link_element(link, icon, text){
     </span>`;
 }
 for (let key in links){
-    console.log(key);
     if (links[key] != ""){
         project_links.innerHTML += create_link_element(links[key], link2icon[key], key);
     }

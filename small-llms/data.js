@@ -1,4 +1,4 @@
-let title = "Zephyr Mini: Aligning Small LLMs";
+let title = "Aligning Small LLMs";
 let project_date = "May 2024"
 let links = {
     "paper": "",
@@ -66,7 +66,9 @@ chat = [
     {"role": "system", "content": "You are a helpful assistant."},
     {"role": "user", "content": "Hello, how are you?"},
 ]
-prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
+prompt = tokenizer.apply_chat_template(
+    chat, tokenize=False, add_generation_prompt=True
+)
 response = generate_response(prompt)
 print(response)
 `.trim(),
@@ -90,7 +92,7 @@ let model_details = {
         'base_models': ['allenai/OLMo-1B-hf'],
         'fine_tuned_models': ['Ritvik19/zephyr-1b-olmo-sft-qlora'],
         'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-1b-olmo/sft/config_qlora.yaml'],
-        'revisions': ['']
+        'revisions': ['b21cdb8d10251d5dc28156b5749ba2957ecfbe4d']
     },
     'TinyLlama 1.1B': {
         'titles': ['Zephyr TinyLlama SFT Qlora v0.1'],
@@ -98,6 +100,13 @@ let model_details = {
         'fine_tuned_models': ['Ritvik19/zephyr-tinyllama-sft-qlora'],
         'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-tinyllama/sft/config_qlora.yaml'],
         'revisions': ['002c335a34c5176e14c92875084764cee0f7be98']
+    },
+    'Phi-1.5 1.4B':{
+        'titles': ['Zephyr Phi-1.5 SFT Qlora v0.1'],
+        'base_models': ['microsoft/phi-1_5'],
+        'fine_tuned_models': ['Ritvik19/zephyr-phi-1_5-sft-qlora'],
+        'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-phi-1_5/sft/config_qlora.yaml'],
+        'revisions': ['a2d8bbc54949f5f580ac2e9f8c193bc8c3101304']
     },
     'Danube 1.8B': {
         'titles': ['Zephyr Danube SFT Qlora v0.1'],
@@ -128,7 +137,7 @@ let project_contents = {
         {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-98-olmo-fdc358326f9b' target='_blank'>here</a>."},
         {"type": "table", "columns": ["Attribute", "Description"], "rows": create_model_details_table(model_details['OLMo 1B'])},
         {"type": "heading", "content": "Example Prompt"},
-        {"type": "code", "content": ''},
+        {"type": "code", "content": '<|system|>\nYou are a helpful assistant.\n<|user|>\nHello, how are you?\n<|assistant|>\nI am well, thank you for asking. How are you doing?'},
     ],
     "TinyLlama 1.1B": [
         {"type": "text", "content": "TinyLlama is a 1.1B language model built upon the architecture and tokenizer of Llama 2, pre-trained on around 1 trillion tokens for approximately 3 epochs, leveraging FlashAttention and Grouped Query Attention, to achieve better computational efficiency."},
@@ -136,6 +145,13 @@ let project_contents = {
         {"type": "table", "columns": ["Attribute", "Description"], "rows": create_model_details_table(model_details['TinyLlama 1.1B'])},
         {"type": "heading", "content": "Example Prompt"},
         {"type": "code", "content": '<|system|>\nYou are a helpful assistant. \n<|user|>\nHello, how are you? \n<|assistant|>\nI am fine, thank you. How are you?'},
+    ],
+    "Phi-1.5 1.4B": [
+        {"type": "text", "content": "Phi-1.5 is a 1.4B language model by Microsoft, focusing on common sense reasoning in natural language, trained using a textbook quality data from the web and synthetically generated textbooks and exercises with GPT-3.5."},
+        {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-phi-1-5-2857e56dbd2a' target='_blank'>here</a>."},
+        {"type": "table", "columns": ["Attribute", "Description"], "rows": create_model_details_table(model_details['Phi-1.5 1.4B'])},
+        {"type": "heading", "content": "Example Prompt"},
+        {"type": "code", "content": '<|system|>\nYou are a helpful assistant.\n<|user|>\nHello, how are you?\n<|assistant|>\nI am doing well, thank you for asking. How can I assist you further?'},
     ],
     "Danube 1.8B": [
         {"type": "text", "content": "Danube is 1 1.8B language model, by h20 ai, trained on 1T tokens following the core principles of LLama 2 and Mistral, leveraging and refining various techniques for pre-training large language models."},
@@ -166,9 +182,12 @@ let project_contents = {
         {"type": "heading", "content": "Results"},
         {"type": "table", "columns": ["Model",  "Average", "ARC", "HellaSwag", "MMLU", "TruthfulQA", "Winogrande", "GSM8k"], "rows": [
             ["OLMo 1B", "36.73", "34.56", "63.6", "26.31", "32.92", "61.09", "1.9"],
+            ["Zephyr OLMo 1B SFT Qlora v0.1", "37.47", "36.26", "63.48", "27.28", "35.05", "60.14", "2.58"],
             ["TinyLlama 1.1B 3T", "36.42", "33.87", "60.31", "26.04", "37.32", "59.51", "1.44"],
             ["Zephyr TinyLlama SFT Qlora v0.1", "36.64", "34.64", "59.84", "25.85", "36.57", "61.17", "1.74"],
-            ["Danube 1.8B Base", "39.12", "39.42", "69.58", "25.94", "33.86", "64.48", "1.44",],
+            ["Phi-1.5", "47.69", "52.9", "63.79", "43.89", "40.89", "72.22", "12.43"],
+            ["Zephyr Phi-1.5 SFT Qlora v0.1", "50.14", "51.96", "62.22", "43.09", "42.87", "73.09", "27.6"],
+            ["Danube 1.8B Base", "39.12", "39.42", "69.58", "25.94", "33.86", "64.48", "1.44"],
             ["Zephyr Danube SFT Qlora v0.1", "40.11", "40.44", "69.4", "27", "37.08", "64.72", "2.05"],
             ["Gemma 2B", "46.37", "48.38", "71.77", "41.77", "33.08", "66.3", "16.91"],
             ["Zephyr Gemma 2B SFT Qlora v0.1", "47.26", "49.15", "71.94", "41.88", "35.77", "66.61", "18.2"],

@@ -150,13 +150,13 @@ const models = [
     ],
   },
   {
-    title: "Zephyr Mini",
+    title: "Small LLMs",
     description:
-      "Zephyr Mini is a project that aims to provide framework and recipies for aligning small language models.",
+      "A project that aims to provide framework and recipies for aligning small language models.",
     actions: [
       {
         title: "View",
-        link: "/zephyr-mini",
+        link: "/small-llms",
       }],
   }
 ];
