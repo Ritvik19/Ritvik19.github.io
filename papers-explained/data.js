@@ -569,6 +569,13 @@ const papers_data = [
       description:
         "Open code models based on Gemma models by further training on over 500 billion tokens of primarily code.",
     },
+     {
+      title: "Rho-1",
+      link: "https://ritvik19.medium.com/papers-explained-132-rho-1-788125e42241",
+      date: "April 2024",
+      description:
+        "Introduces Selective Language Modelling that optimizes the loss only on tokens that align with a desired distribution, utilizing a reference model to score and select tokens.",
+    },
     {
       title: "Phi-3",
       link: "https://ritvik19.medium.com/papers-explained-130-phi-3-0dfc951dc404",
