@@ -583,6 +583,13 @@ const papers_data = [
       description:
         "A series of language models trained on heavily filtered web and synthetic data set, achieving performance comparable to much larger models like Mixtral 8x7B and GPT-3.5.",
     },
+     {
+      title: "Open ELM",
+      link: "https://ritvik19.medium.com/papers-explained-133-open-elm-864f6b28a6ab",
+      date: "April 2024",
+      description:
+        "A fully open language model designed to enhance accuracy while using fewer parameters and pre-training tokens. Utilizes a layer-wise scaling strategy to allocate smaller dimensions in early layers, expanding in later layers.",
+    },
   ],
   [
     // Multi Modal Language Models
