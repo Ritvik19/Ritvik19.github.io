@@ -1177,6 +1177,13 @@ const papers_data = [
         "This study investigates scaling language models in data-constrained regimes.",
     },
     {
+      title: "DSPy",
+      link: "https://ritvik19.medium.com/papers-explained-135-dspy-fe8af7e35091",
+      date: "October 2023",
+      description:
+        "A programming model that abstracts LM pipelines as text transformation graphs, i.e. imperative computation graphs where LMs are invoked through declarative modules, optimizing their use through a structured framework of signatures, modules, and teleprompters to automate and enhance text transformation tasks.",
+    },
+    {
       title: "An In-depth Look at Gemini's Language Abilities",
       link: "https://ritvik19.medium.com/papers-explained-81-an-in-depth-look-at-geminis-language-abilities-540ca9046d8e",
       date: "December 2023",
