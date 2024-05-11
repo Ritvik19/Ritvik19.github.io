@@ -2,6 +2,7 @@ const nav_data = [
   "Language Models",
   "Encoder Only Transformers",
   "Decoder Only Transformers",
+  "Small LLMs",
   "Multi Modal LMs",
   "LMs for Retrieval",
   "Representation Learning",
@@ -439,13 +440,6 @@ const papers_data = [
         "An Open Source LLM trained on properly filtered and deduplicated web data alone.",
     },
     {
-      title: "Phi-1",
-      link: "https://ritvik19.medium.com/papers-explained-114-phi-1-14a8dcc77ce5",
-      date: "June 2023",
-      description:
-        "An LLM for code, trained using a textbook quality data from the web and synthetically generated textbooks and exercises with GPT-3.5.",
-    },
-    {
       title: "WizardCoder",
       link: "https://ritvik19.medium.com/papers-explained-wizardcoder-a12ecb5b93b6",
       date: "June 2023",
@@ -486,6 +480,44 @@ const papers_data = [
         "A series of long context LLMs s that support effective context windows of up to 32,768 tokens.",
     },
     {
+      title: "Llemma",
+      link: "https://ritvik19.medium.com/papers-explained-69-llemma-0a17287e890a",
+      date: "October 2023",
+      description:
+        "An LLM for mathematics, formed by continued pretraining of Code Llama on a mixture of scientific papers, web data containing mathematics, and mathematical code.",
+    },
+    {
+      title: "Mixtral 8x7B",
+      link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745",
+      date: "January 2024",
+      description:
+        "A Sparse Mixture of Experts language model based on Mistral 7B trained with multilingual data using a context size of 32k tokens.",
+    },
+    {
+      title: "DBRX",
+      link: "https://ritvik19.medium.com/papers-explained-119-dbrx-17c61739983c",
+      date: "March 2024",
+      description:
+        "A 132B open, general-purpose fine grained Sparse MoE LLM surpassing GPT-3.5 and competitive with Gemini 1.0 Pro.",
+    },
+    {
+      title: "Rho-1",
+      link: "https://ritvik19.medium.com/papers-explained-132-rho-1-788125e42241",
+      date: "April 2024",
+      description:
+        "Introduces Selective Language Modelling that optimizes the loss only on tokens that align with a desired distribution, utilizing a reference model to score and select tokens.",
+    },
+  ],
+  [
+    // Small LLMs
+    {
+      title: "Phi-1",
+      link: "https://ritvik19.medium.com/papers-explained-114-phi-1-14a8dcc77ce5",
+      date: "June 2023",
+      description:
+        "An LLM for code, trained using a textbook quality data from the web and synthetically generated textbooks and exercises with GPT-3.5.",
+    },
+    {
       title: "Phi-1.5",
       link: "https://ritvik19.medium.com/papers-explained-phi-1-5-2857e56dbd2a",
       date: "September 2023",
@@ -498,13 +530,6 @@ const papers_data = [
       date: "October 2023",
       description:
         "Leverages grouped-query attention for faster inference, coupled with sliding window attention to effectively handle sequences of arbitrary length with a reduced inference cost.",
-    },
-    {
-      title: "Llemma",
-      link: "https://ritvik19.medium.com/papers-explained-69-llemma-0a17287e890a",
-      date: "October 2023",
-      description:
-        "An LLM for mathematics, formed by continued pretraining of Code Llama on a mixture of scientific papers, web data containing mathematics, and mathematical code.",
     },
     {
       title: "Zephyr 7B",
@@ -528,13 +553,6 @@ const papers_data = [
         "A  1.1B language model built upon the architecture and tokenizer of Llama 2, pre-trained on around 1 trillion tokens for approximately 3 epochs, leveraging FlashAttention and Grouped Query Attention, to achieve better computational efficiency.",
     },
     {
-      title: "Mixtral 8x7B",
-      link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745",
-      date: "January 2024",
-      description:
-        "A Sparse Mixture of Experts language model based on Mistral 7B trained with multilingual data using a context size of 32k tokens.",
-    },
-    {
       title: "H2O Danube 1.8B",
       link: "https://ritvik19.medium.com/papers-explained-111-h2o-danube-1-8b-b790c073d257",
       date: "January 2024",
@@ -556,25 +574,11 @@ const papers_data = [
         "A family of 2B and 7B, state-of-the-art language models based on Google's Gemini models, offering advancements in language understanding, reasoning, and safety.",
     },
     {
-      title: "DBRX",
-      link: "https://ritvik19.medium.com/papers-explained-119-dbrx-17c61739983c",
-      date: "March 2024",
-      description:
-        "A 132B open, general-purpose fine grained Sparse MoE LLM surpassing GPT-3.5 and competitive with Gemini 1.0 Pro.",
-    },
-    {
       title: "CodeGemma",
       link: "https://ritvik19.medium.com/papers-explained-124-codegemma-85faa98af20d",
       date: "April 2024",
       description:
         "Open code models based on Gemma models by further training on over 500 billion tokens of primarily code.",
-    },
-     {
-      title: "Rho-1",
-      link: "https://ritvik19.medium.com/papers-explained-132-rho-1-788125e42241",
-      date: "April 2024",
-      description:
-        "Introduces Selective Language Modelling that optimizes the loss only on tokens that align with a desired distribution, utilizing a reference model to score and select tokens.",
     },
     {
       title: "Phi-3",
@@ -583,12 +587,19 @@ const papers_data = [
       description:
         "A series of language models trained on heavily filtered web and synthetic data set, achieving performance comparable to much larger models like Mixtral 8x7B and GPT-3.5.",
     },
-     {
+    {
       title: "Open ELM",
       link: "https://ritvik19.medium.com/papers-explained-133-open-elm-864f6b28a6ab",
       date: "April 2024",
       description:
         "A fully open language model designed to enhance accuracy while using fewer parameters and pre-training tokens. Utilizes a layer-wise scaling strategy to allocate smaller dimensions in early layers, expanding in later layers.",
+    },
+    {
+      title: "H2O Danube2 1.8B",
+      link: "https://ritvik19.medium.com/papers-explained-111-h2o-danube-1-8b-b790c073d257#00d8",
+      date: "April 2024",
+      description:
+        "An updated version of the original H2O-Danube model, with improvements including removal of sliding window attention, changes to the tokenizer, and adjustments to the training data, resulting in significant performance enhancements.",
     },
   ],
   [
