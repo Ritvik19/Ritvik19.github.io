@@ -6,6 +6,7 @@ const nav_data = [
   "Multi Modal LMs",
   "LMs for Retrieval",
   "Representation Learning",
+  "Compression, Pruning, Quantization",
   "Vision Transformers",
   "CNNs",
   "Object Detection",
@@ -736,6 +737,9 @@ const papers_data = [
       description:
         "An advanced text embedding model that utilizes Matryoshka Representation Learning to offer flexible embedding sizes with minimal performance trade-offs",
     },
+  ],
+  [
+    // Compression, Pruning, Quantization
   ],
   [
     // Vision Transformers
