@@ -1294,6 +1294,10 @@ const reading_list_data = [
     link: "https://ritvik19.medium.com/list/wizard-models-9b972e860683",
   },
   {
+    title: "LLM Lingua Series",
+    link: "https://ritvik19.medium.com/list/llm-lingua-series-2f61b47d0343",
+  },
+  {
     title: "Multi Task Language Models",
     link: "https://ritvik19.medium.com/list/multi-task-language-models-e6a2a1e517e6",
   },
