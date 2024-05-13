@@ -740,6 +740,13 @@ const papers_data = [
   ],
   [
     // Compression, Pruning, Quantization
+    {
+      title: "LLMLingua",
+      link: "https://ritvik19.medium.com/papers-explained-136-llmlingua-f9b2f53f5f9b",
+      date: "October 2023",
+      description:
+        "A novel coarse-to-fine prompt compression method, incorporating a budget controller, an iterative token-level compression algorithm, and distribution alignment, achieving up to 20x compression with minimal performance loss. ",
+    },
   ],
   [
     // Vision Transformers
