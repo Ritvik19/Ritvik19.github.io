@@ -88,11 +88,14 @@ function create_model_details_table(details) {
 
 let model_details = {
     'OLMo 1B' : {
-        'titles': ['Zephyr OLMo 1B v0.1'],
-        'base_models': ['allenai/OLMo-1B-hf'],
-        'fine_tuned_models': ['Ritvik19/zephyr-1b-olmo-sft-qlora'],
-        'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-1b-olmo/sft/config_qlora.yaml'],
-        'revisions': ['b21cdb8d10251d5dc28156b5749ba2957ecfbe4d']
+        'titles': ['Zephyr OLMo 1B v0.1', 'OpenHermes OLMo 1B v0.1'],
+        'base_models': ['allenai/OLMo-1B-hf', 'allenai/OLMo-1B-hf'],
+        'fine_tuned_models': ['Ritvik19/zephyr-1b-olmo-sft-qlora', 'Ritvik19/openhermes-1b-olmo-sft-qlora'],
+        'training_configs': [
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-1b-olmo/sft/config_qlora.yaml',
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/openhermes-1b-olmo/sft/config_qlora.yaml'
+    ],
+        'revisions': ['b21cdb8d10251d5dc28156b5749ba2957ecfbe4d', 'a8403864e6c15759e116bd8a0acc35be3169afb3']
     },
     'TinyLlama 1.1B': {
         'titles': ['Zephyr TinyLlama v0.1', 'OpenHermes TinyLlama v0.1'],
@@ -105,25 +108,36 @@ let model_details = {
         'revisions': ['002c335a34c5176e14c92875084764cee0f7be98', '078bd472c485667f13f833e6ea655984cf36d970']
     },
     'Phi-1.5 1.4B':{
-        'titles': ['Zephyr Phi-1.5 v0.1'],
-        'base_models': ['microsoft/phi-1_5'],
-        'fine_tuned_models': ['Ritvik19/zephyr-phi-1_5-sft-qlora'],
-        'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-phi-1_5/sft/config_qlora.yaml'],
-        'revisions': ['a2d8bbc54949f5f580ac2e9f8c193bc8c3101304']
+        'titles': ['Zephyr Phi-1.5 v0.1', 'OpenHermes Phi-1.5 v0.1'],
+        'base_models': ['microsoft/phi-1_5', 'microsoft/phi-1_5'],
+        'fine_tuned_models': ['Ritvik19/zephyr-phi-1_5-sft-qlora', 'Ritvik19/openhermes-phi-1_5-sft-qlora'],
+        'training_configs': [
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-phi-1_5/sft/config_qlora.yaml',
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/openhermes-phi-1_5/sft/config_qlora.yaml',
+        ],
+        'revisions': ['a2d8bbc54949f5f580ac2e9f8c193bc8c3101304', '7d7e60ec181cc7f287683258b937bbb630aea9c7']
     },
     'Danube 1.8B': {
-        'titles': ['Zephyr Danube v0.1'],
-        'base_models': ['h2oai/h2o-danube-1.8b-base'],
-        'fine_tuned_models': ['Ritvik19/zephyr-danube-sft-qlora'],
-        'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-danube/sft/config_qlora.yaml'],
-        'revisions': ['f89870505f24b92988e35543132bab68529ea1dd']
+        'titles': ['Zephyr Danube v0.1', 'OpenHermes Danube v0.1', 'Zephyr Danube v0.2', 'OpenHermes Danube v0.2'],
+        'base_models': ['h2oai/h2o-danube-1.8b-base', 'h2oai/h2o-danube-1.8b-base', 'h2oai/h2o-danube2-1.8b-base', 'h2oai/h2o-danube2-1.8b-base'],
+        'fine_tuned_models': ['Ritvik19/zephyr-danube-sft-qlora', 'Ritvik19/openhermes-danube-sft-qlora', 'Ritvik19/zephyr-danube2-sft-qlora', 'Ritvik19/openhermes-danube2-sft-qlora'],
+        'training_configs': [
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-danube/sft/config_qlora.yaml',
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/openhermes-danube/sft/config_qlora.yaml',
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-danube/sft/config_qlora.yaml',
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/openhermes-danube/sft/config_qlora.yaml',
+        ],
+        'revisions': ['f89870505f24b92988e35543132bab68529ea1dd', '4812426de6ba1a70edf23f207c955106982cf29c', '879fd07de6eeee108421b67bc431ad3cb6191b3c', 'bcec71aab0ec267d688a38dbb55751f27306bced']
     },
     'Gemma 2B':{
-        'titles': ['Zephyr Gemma 2B v0.1'],
-        'base_models': ['google/gemma-2b'],
-        'fine_tuned_models': ['Ritvik19/zephyr-2b-gemma-sft-qlora'],
-        'training_configs': ['https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-2b-gemma/sft/config_qlora.yaml'],
-        'revisions': ['bd70703a95b854373446188b8033926913092470']
+        'titles': ['Zephyr Gemma 2B v0.1', 'OpenHermes Gemma 2B v0.1'],
+        'base_models': ['google/gemma-2b', 'google/gemma-2b'],
+        'fine_tuned_models': ['Ritvik19/zephyr-2b-gemma-sft-qlora', 'Ritvik19/openhermes-2b-gemma-sft-qlora'],
+        'training_configs': [
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-2b-gemma/sft/config_qlora.yaml',
+            'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/openhermes-2b-gemma/sft/config_qlora.yaml'
+        ],
+        'revisions': ['bd70703a95b854373446188b8033926913092470', '57fe9f69c0187be481170d884d1ababe0d0901ba']
     }
     
 }
@@ -166,7 +180,8 @@ let project_contents = {
         {"type": "code", "content": '<|system|>\nYou are a helpful assistant.\n<|user|>\nHello, how are you?\n<|assistant|>\nI am doing well, thank you for asking. How can I assist you further?'},
     ],
     "Danube 1.8B": [
-        {"type": "text", "content": "Danube is 1 1.8B language model, by h20 ai, trained on 1T tokens following the core principles of LLama 2 and Mistral, leveraging and refining various techniques for pre-training large language models."},
+        {"type": "text", "content": "Danube is a 1.8B language model, by h20 ai, trained on 1T tokens following the core principles of LLama 2 and Mistral, leveraging and refining various techniques for pre-training large language models."},
+        {"type": "text", "content": "Danube 2 is an updated version of the Danube model, with improvements including removal of sliding window attention, changes to the tokenizer, and adjustments to the training data, resulting in significant performance enhancements."},
         {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-111-h2o-danube-1-8b-b790c073d257' target='_blank'>here</a>."},
         {"type": "table", "columns": model_details_tables["Danube 1.8B"][0], "rows": model_details_tables["Danube 1.8B"].slice(1)},
         {"type": "heading", "content": "Example Prompt"},
@@ -195,15 +210,20 @@ let project_contents = {
         {"type": "table", "columns": ["Model",  "Average", "ARC", "HellaSwag", "MMLU", "TruthfulQA", "Winogrande", "GSM8k"], "rows": [
             ["OLMo 1B", "36.73", "34.56", "63.6", "26.31", "32.92", "61.09", "1.9"],
             ["Zephyr OLMo 1B v0.1", "37.47", "36.26", "63.48", "27.28", "35.05", "60.14", "2.58"],
+            ["OpenHermes OLMo 1B v0.1", "37.15", "33.19", "63.9", "25.67", "39.19", "60.93", "0.00"],
             ["TinyLlama 1.1B 3T", "36.42", "33.87", "60.31", "26.04", "37.32", "59.51", "1.44"],
             ["Zephyr TinyLlama v0.1", "36.64", "34.64", "59.84", "25.85", "36.57", "61.17", "1.74"],
             ["OpenHermes TinyLlama v0.1", "36.72", "32.34", "60.45", "27.67", "38.29", "61.56", "0.00"],
             ["Phi-1.5", "47.69", "52.9", "63.79", "43.89", "40.89", "72.22", "12.43"],
             ["Zephyr Phi-1.5 v0.1", "50.14", "51.96", "62.22", "43.09", "42.87", "73.09", "27.6"],
+            ["OpenHermes Phi-1.5 v0.1", "49.49", "48.98", "62.14", "41.15", "42.36", "71.43", "30.86"],
             ["Danube 1.8B Base", "39.12", "39.42", "69.58", "25.94", "33.86", "64.48", "1.44"],
             ["Zephyr Danube v0.1", "40.11", "40.44", "69.4", "27", "37.08", "64.72", "2.05"],
+            ["OpenHermes Danube v0.1", "38.75", "37.37", "69.45", "25.08", "35.28", "65.35", "0.00"],
+            ["Danube 2 1.8B Base", "48.72", "43.34", "72.95", "40.2", "38.01", "68.03", "29.8"],
             ["Gemma 2B", "46.37", "48.38", "71.77", "41.77", "33.08", "66.3", "16.91"],
             ["Zephyr Gemma 2B v0.1", "47.26", "49.15", "71.94", "41.88", "35.77", "66.61", "18.2"],
+            ["OpenHermes Gemma 2B v0.1", "43.87", "44.37", "71.58", "39.64", "40.09", "67.56", "0.00"],
         ]},
     ],
     "Usage": [
