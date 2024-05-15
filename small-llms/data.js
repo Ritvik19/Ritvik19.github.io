@@ -118,16 +118,24 @@ let model_details = {
         'revisions': ['a2d8bbc54949f5f580ac2e9f8c193bc8c3101304', '7d7e60ec181cc7f287683258b937bbb630aea9c7']
     },
     'Danube 1.8B': {
-        'titles': ['Zephyr Danube v0.1', 'OpenHermes Danube v0.1', 'Zephyr Danube v0.2', 'OpenHermes Danube v0.2'],
-        'base_models': ['h2oai/h2o-danube-1.8b-base', 'h2oai/h2o-danube-1.8b-base', 'h2oai/h2o-danube2-1.8b-base', 'h2oai/h2o-danube2-1.8b-base'],
-        'fine_tuned_models': ['Ritvik19/zephyr-danube-sft-qlora', 'Ritvik19/openhermes-danube-sft-qlora', 'Ritvik19/zephyr-danube2-sft-qlora', 'Ritvik19/openhermes-danube2-sft-qlora'],
+        'titles': ['Zephyr Danube v0.1', 'OpenHermes Danube v0.1'],
+        'base_models': ['h2oai/h2o-danube-1.8b-base', 'h2oai/h2o-danube-1.8b-base'],
+        'fine_tuned_models': ['Ritvik19/zephyr-danube-sft-qlora', 'Ritvik19/openhermes-danube-sft-qlora'],
         'training_configs': [
             'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-danube/sft/config_qlora.yaml',
             'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/openhermes-danube/sft/config_qlora.yaml',
+        ],
+        'revisions': ['f89870505f24b92988e35543132bab68529ea1dd', '4812426de6ba1a70edf23f207c955106982cf29c']
+    },
+    'Danube2 1.8B': {
+        'titles': ['Zephyr Danube v0.2', 'OpenHermes Danube v0.2'],
+        'base_models': ['h2oai/h2o-danube2-1.8b-base', 'h2oai/h2o-danube2-1.8b-base'],
+        'fine_tuned_models': ['Ritvik19/zephyr-danube2-sft-qlora', 'Ritvik19/openhermes-danube2-sft-qlora'],
+        'training_configs': [
             'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/zephyr-danube/sft/config_qlora.yaml',
             'https://github.com/Ritvik19/alignment-handbook/blob/main/recipes/openhermes-danube/sft/config_qlora.yaml',
         ],
-        'revisions': ['f89870505f24b92988e35543132bab68529ea1dd', '4812426de6ba1a70edf23f207c955106982cf29c', '879fd07de6eeee108421b67bc431ad3cb6191b3c', 'bcec71aab0ec267d688a38dbb55751f27306bced']
+        'revisions': ['879fd07de6eeee108421b67bc431ad3cb6191b3c', 'bcec71aab0ec267d688a38dbb55751f27306bced']
     },
     'Gemma 2B':{
         'titles': ['Zephyr Gemma 2B v0.1', 'OpenHermes Gemma 2B v0.1'],
@@ -147,6 +155,7 @@ model_details_tables = {
     "TinyLlama 1.1B": create_model_details_table(model_details['TinyLlama 1.1B']),
     "Phi-1.5 1.4B": create_model_details_table(model_details['Phi-1.5 1.4B']),
     "Danube 1.8B": create_model_details_table(model_details['Danube 1.8B']),
+    "Danube2 1.8B": create_model_details_table(model_details['Danube2 1.8B']),
     "Gemma 2B": create_model_details_table(model_details['Gemma 2B']),
 
 }
@@ -184,6 +193,7 @@ let project_contents = {
         {"type": "text", "content": "Danube 2 is an updated version of the Danube model, with improvements including removal of sliding window attention, changes to the tokenizer, and adjustments to the training data, resulting in significant performance enhancements."},
         {"type": "text", "content": "Read more about the model in my article <a href='https://ritvik19.medium.com/papers-explained-111-h2o-danube-1-8b-b790c073d257' target='_blank'>here</a>."},
         {"type": "table", "columns": model_details_tables["Danube 1.8B"][0], "rows": model_details_tables["Danube 1.8B"].slice(1)},
+        {"type": "table", "columns": model_details_tables["Danube2 1.8B"][0], "rows": model_details_tables["Danube2 1.8B"].slice(1)},
         {"type": "heading", "content": "Example Prompt"},
         {"type": "code", "content": '<|system|>\nYou are a helpful assistant. \n<|user|>\nHello, how are you? \n<|assistant|>\nI am doing well, thank you for asking.'},
     ],
