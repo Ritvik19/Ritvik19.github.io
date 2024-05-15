@@ -745,7 +745,14 @@ const papers_data = [
       link: "https://ritvik19.medium.com/papers-explained-136-llmlingua-f9b2f53f5f9b",
       date: "October 2023",
       description:
-        "A novel coarse-to-fine prompt compression method, incorporating a budget controller, an iterative token-level compression algorithm, and distribution alignment, achieving up to 20x compression with minimal performance loss. ",
+        "A novel coarse-to-fine prompt compression method, incorporating a budget controller, an iterative token-level compression algorithm, and distribution alignment, achieving up to 20x compression with minimal performance loss.",
+    },
+    {
+      title: "LongLLMLingua",
+      link: "https://ritvik19.medium.com/papers-explained-137-longllmlingua-45961fa703dd",
+      date: "October 2023",
+      description:
+        "A novel approach for prompt compression to enhance performance in long context scenarios using question-aware compression and document reordering.",
     },
   ],
   [
