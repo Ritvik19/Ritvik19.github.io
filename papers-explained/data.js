@@ -754,6 +754,13 @@ const papers_data = [
       description:
         "A novel approach for prompt compression to enhance performance in long context scenarios using question-aware compression and document reordering.",
     },
+    {
+      title: "LLMLingua2",
+      link: "https://ritvik19.medium.com/papers-explained-138-llmlingua-2-510c752368a8",
+      date: "March 2024",
+      description:
+        "A novel approach to task-agnostic prompt compression, aiming to enhance generalizability, using  data distillation and leveraging a Transformer encoder for token classification.",
+    },
   ],
   [
     // Vision Transformers
