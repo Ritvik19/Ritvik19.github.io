@@ -434,6 +434,13 @@ const papers_data = [
         "A LLaMa model fine-tuned on only 1,000 carefully curated prompts and responses, without any reinforcement learning or human preference modeling.",
     },
     {
+      title: "Gorilla",
+      link: "https://ritvik19.medium.com/papers-explained-139-gorilla-79f4730913e9",
+      date: "May 2023",
+      description:
+        "A retrieve-aware finetuned LLaMA-7B model, specifically for API calls.",
+    },
+    {
       title: "Falcon",
       link: "https://ritvik19.medium.com/papers-explained-59-falcon-26831087247f",
       date: "June 2023",
