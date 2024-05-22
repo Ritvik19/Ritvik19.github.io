@@ -371,6 +371,13 @@ const papers_data = [
         "A collection of foundation LLMs by Meta ranging from 7B to 65B parameters, trained using publicly available datasets exclusively.",
     },
     {
+      title: "Toolformer",
+      link: "https://ritvik19.medium.com/papers-explained-140-toolformer-d21d496b6812",
+      date: "February 2023",
+      description:
+        "An LLM trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction.",
+    },
+    {
       title: "Alpaca",
       link: "https://ritvik19.medium.com/papers-explained-56-alpaca-933c4d9855e5",
       date: "March 2023",
