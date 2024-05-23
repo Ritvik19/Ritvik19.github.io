@@ -16,12 +16,14 @@ const data = [
   },
   {
     title: "Zeta",
-    description: "Agent Zeta is an AI assistant dedicated to enhancing your journey through machine learning research papers, offering insightful analysis and interactive discussions.",
+    description:
+      "Agent Zeta is an AI assistant dedicated to enhancing your journey through machine learning research papers, offering insightful analysis and interactive discussions.",
     actions: [
       {
         title: "View Zeta in Action",
         link: "https://huggingface.co/spaces/Ritvik19/Zeta",
-      }]
+      },
+    ],
   },
   {
     title: "Implemented Data Science",
@@ -55,6 +57,17 @@ const data = [
       {
         title: "View VidScripter in Action",
         link: "https://huggingface.co/spaces/Ritvik19/VidScripter",
+      },
+    ],
+  },
+  {
+    title: "Marker IO",
+    description:
+      "A tool that converts a PDF file to markdown, useing a combination of OCR and NLP to extract text and images from the PDF.",
+    actions: [
+      {
+        title: "View Marker IO in Action",
+        link: "https://huggingface.co/spaces/Ritvik19/marker-io",
       },
     ],
   },
@@ -146,7 +159,7 @@ const models = [
       {
         title: "View",
         link: "/sudoku-net",
-      }
+      },
     ],
   },
   {
@@ -157,6 +170,7 @@ const models = [
       {
         title: "View",
         link: "/small-llms",
-      }],
-  }
+      },
+    ],
+  },
 ];

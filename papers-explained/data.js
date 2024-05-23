@@ -371,6 +371,13 @@ const papers_data = [
         "A collection of foundation LLMs by Meta ranging from 7B to 65B parameters, trained using publicly available datasets exclusively.",
     },
     {
+      title: "Toolformer",
+      link: "https://ritvik19.medium.com/papers-explained-140-toolformer-d21d496b6812",
+      date: "February 2023",
+      description:
+        "An LLM trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction.",
+    },
+    {
       title: "Alpaca",
       link: "https://ritvik19.medium.com/papers-explained-56-alpaca-933c4d9855e5",
       date: "March 2023",
@@ -432,6 +439,13 @@ const papers_data = [
       date: "May 2023",
       description:
         "A LLaMa model fine-tuned on only 1,000 carefully curated prompts and responses, without any reinforcement learning or human preference modeling.",
+    },
+    {
+      title: "Gorilla",
+      link: "https://ritvik19.medium.com/papers-explained-139-gorilla-79f4730913e9",
+      date: "May 2023",
+      description:
+        "A retrieve-aware finetuned LLaMA-7B model, specifically for API calls.",
     },
     {
       title: "Falcon",
@@ -753,6 +767,13 @@ const papers_data = [
       date: "October 2023",
       description:
         "A novel approach for prompt compression to enhance performance in long context scenarios using question-aware compression and document reordering.",
+    },
+    {
+      title: "LLMLingua2",
+      link: "https://ritvik19.medium.com/papers-explained-138-llmlingua-2-510c752368a8",
+      date: "March 2024",
+      description:
+        "A novel approach to task-agnostic prompt compression, aiming to enhance generalizability, using  data distillation and leveraging a Transformer encoder for token classification.",
     },
   ],
   [
