@@ -469,6 +469,13 @@ const papers_data = [
         "Successor of LLaMA. LLaMA 2-Chat is optimized for dialogue use cases.",
     },
     {
+      title: "Tool LLM",
+      link: "https://ritvik19.medium.com/papers-explained-141-tool-llm-856f99e79f55",
+      date: "July 2023",
+      description:
+        "A LLaMA model finetuned on an instruction-tuning dataset for tool use, automatically created using ChatGPT.",
+    },
+    {
       title: "Humpback",
       link: "https://ritvik19.medium.com/papers-explained-61-humpback-46992374fc34",
       date: "August 2023",
