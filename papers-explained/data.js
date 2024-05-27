@@ -690,6 +690,13 @@ const papers_data = [
         "A multimodal llm that combines a ViT-H image encoder with 378x378px resolution, pretrained on a data mix of image-text documents and text-only documents, scaled up to 3B, 7B, and 30B parameters for enhanced performance across various tasks",
     },
     {
+      title: "Phi-3 Vision",
+      link: "https://ritvik19.medium.com/papers-explained-130-phi-3-0dfc951dc404#7ba6",
+      date: "May 2024",
+      description:
+        "First multimodal model in the Phi family, bringing the ability to reason over images and extract and reason over text from images.",
+    },
+    {
       title: "Gemini 1.5 Flash",
       link: "https://ritvik19.medium.com/papers-explained-142-gemini-1-5-flash-415e2dc6a989",
       date: "May 2024",
