@@ -689,6 +689,13 @@ const papers_data = [
       description:
         "A multimodal llm that combines a ViT-H image encoder with 378x378px resolution, pretrained on a data mix of image-text documents and text-only documents, scaled up to 3B, 7B, and 30B parameters for enhanced performance across various tasks",
     },
+    {
+      title: "Gemini 1.5 Flash",
+      link: "https://ritvik19.medium.com/papers-explained-142-gemini-1-5-flash-415e2dc6a989",
+      date: "May 2024",
+      description:
+        "A more lightweight variant of the Gemini 1.5 pro, designed for efficiency with minimal regression in quality, making it suitable for applications where compute resources are limited.",
+    },
   ],
   [
     // Language Models for Retrieval
