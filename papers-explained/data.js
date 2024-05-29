@@ -703,6 +703,13 @@ const papers_data = [
       description:
         "A more lightweight variant of the Gemini 1.5 pro, designed for efficiency with minimal regression in quality, making it suitable for applications where compute resources are limited.",
     },
+    {
+      title: "Chameleon",
+      link: "https://ritvik19.medium.com/papers-explained-143-chameleon-6cddfdbceaa8",
+      date: "May 2024",
+      description:
+        "A family of early-fusion token-based mixed-modal models capable of understanding and generating images and text in any arbitrary sequence.",
+    },
   ],
   [
     // Language Models for Retrieval
