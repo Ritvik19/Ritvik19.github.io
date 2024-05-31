@@ -623,6 +623,13 @@ const papers_data = [
       description:
         "An updated version of the original H2O-Danube model, with improvements including removal of sliding window attention, changes to the tokenizer, and adjustments to the training data, resulting in significant performance enhancements.",
     },
+    {
+      title: "Granite Code Models",
+      link: "https://ritvik19.medium.com/paper-explained-144-granite-code-models-e1a92678739b",
+      date: "May 2024",
+      description:
+        "A family of code models ranging from 3B to 34B trained on 3.5-4.5T tokens of code written in 116 programming languages.",
+    },
   ],
   [
     // Multi Modal Language Models
