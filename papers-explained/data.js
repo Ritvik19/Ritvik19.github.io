@@ -6,6 +6,7 @@ const nav_data = [
   "Multi Modal LMs",
   "LMs for Retrieval",
   "Representation Learning",
+  "Parameter Efficient Fine Tuning",
   "Compression, Pruning, Quantization",
   "Vision Transformers",
   "CNNs",
@@ -15,6 +16,7 @@ const nav_data = [
   "Layout Aware LMs",
   "GANs",
   "Tabular Data",
+  "Datasets",
   "Miscellaneous Studies",
 ];
 
@@ -788,6 +790,16 @@ const papers_data = [
     },
   ],
   [
+    // Parameter Efficient Fine Tuning
+    {
+      title: "LoRA",
+      link: "https://ritvik19.medium.com/papers-explained-lora-a48359cecbfa",
+      date: "July 2021",
+      description:
+        "Introduces trainable rank decomposition matrices into each layer of a pre-trained Transformer model, significantly reducing the number of trainable parameters for downstream tasks.",
+    },
+  ],
+  [
     // Compression, Pruning, Quantization
     {
       title: "LLMLingua",
@@ -1239,6 +1251,23 @@ const papers_data = [
     },
   ],
   [
+    // Datasets
+    {
+      title: "Dolma",
+      link: "https://ritvik19.medium.com/papers-explained-97-dolma-a656169269cb",
+      date: "January 2024",
+      description:
+        "An open corpus of three trillion tokens designed to support language model pretraining research.",
+    },
+    {
+      title: "Aya Dataset",
+      link: "https://ritvik19.medium.com/papers-explained-108-aya-dataset-9e299ac74a19",
+      date: "February 2024",
+      description:
+        "A human-curated instruction-following dataset that spans 65 languages, created to bridge the language gap in datasets for natural language processing.",
+    },
+  ],
+  [
     // Miscellaneous Studies
     {
       title: "ColD Fusion",
@@ -1274,20 +1303,6 @@ const papers_data = [
       date: "December 2023",
       description:
         "A third-party, objective comparison of the abilities of the OpenAI GPT and Google Gemini models with reproducible code and fully transparent results.",
-    },
-    {
-      title: "Dolma",
-      link: "https://ritvik19.medium.com/papers-explained-97-dolma-a656169269cb",
-      date: "January 2024",
-      description:
-        "An open corpus of three trillion tokens designed to support language model pretraining research.",
-    },
-    {
-      title: "Aya Dataset",
-      link: "https://ritvik19.medium.com/papers-explained-108-aya-dataset-9e299ac74a19",
-      date: "February 2024",
-      description:
-        "A human-curated instruction-following dataset that spans 65 languages, created to bridge the language gap in datasets for natural language processing.",
     },
   ],
 ];
