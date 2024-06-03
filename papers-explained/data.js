@@ -6,7 +6,7 @@ const nav_data = [
   "Multi Modal LMs",
   "LMs for Retrieval",
   "Representation Learning",
-  "Parameter Efficient Fine Tuning",
+  "PEFT",
   "Compression, Pruning, Quantization",
   "Vision Transformers",
   "CNNs",
