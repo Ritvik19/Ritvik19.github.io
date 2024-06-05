@@ -798,6 +798,13 @@ const papers_data = [
       description:
         "Introduces trainable rank decomposition matrices into each layer of a pre-trained Transformer model, significantly reducing the number of trainable parameters for downstream tasks.",
     },
+    {
+      title: "QLoRA",
+      link: "https://ritvik19.medium.com/papers-explained-146-qlora-a6e7273bc630",
+      date: "May 2023",
+      description:
+        "Allows efficient training of large models on limited GPU memory, through innovations like 4-bit NormalFloat (NF4), double quantization and paged optimisers.",
+    },
   ],
   [
     // Compression, Pruning, Quantization
