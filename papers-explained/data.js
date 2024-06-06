@@ -788,6 +788,13 @@ const papers_data = [
       description:
         "An advanced text embedding model that utilizes Matryoshka Representation Learning to offer flexible embedding sizes with minimal performance trade-offs",
     },
+    {
+      title: "Nomic Embed Vision v1 and v1.5",
+      link: "https://ritvik19.medium.com/papers-explained-110-nomic-embed-8ccae819dac2#486b",
+      date: "June 2024",
+      description:
+        "Aligns a Vision Encoder with the existing text encoders without destroying the downstream performance of the text encoder, to attain a unified multimodal latent space.",
+    },
   ],
   [
     // Parameter Efficient Fine Tuning
