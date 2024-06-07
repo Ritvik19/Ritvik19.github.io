@@ -812,6 +812,13 @@ const papers_data = [
       description:
         "Allows efficient training of large models on limited GPU memory, through innovations like 4-bit NormalFloat (NF4), double quantization and paged optimisers.",
     },
+    {
+      title: "LongLoRA",
+      link: "https://ritvik19.medium.com/papers-explained-147-longlora-24f095b93611",
+      date: "September 2023",
+      description:
+        "Enables context extension for large language models, achieving significant computation savings through sparse local attention and parameter-efficient fine-tuning.",
+    },
   ],
   [
     // Compression, Pruning, Quantization
