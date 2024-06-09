@@ -524,12 +524,26 @@ const papers_data = [
       description:
         "A 132B open, general-purpose fine grained Sparse MoE LLM surpassing GPT-3.5 and competitive with Gemini 1.0 Pro.",
     },
+      {
+      title: "Mixtral 8x22B",
+      link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745#20f3",
+      date: "April 2024",
+      description:
+        "A open-weight AI model optimised for performance and efficiency, with capabilities such as fluency in multiple languages, strong mathematics and coding abilities, and precise information recall from large documents.",
+    },
     {
       title: "Rho-1",
       link: "https://ritvik19.medium.com/papers-explained-132-rho-1-788125e42241",
       date: "April 2024",
       description:
         "Introduces Selective Language Modelling that optimizes the loss only on tokens that align with a desired distribution, utilizing a reference model to score and select tokens.",
+    },
+    {
+      title: "Codestral 22B",
+      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#057b",
+      date: "May 2024",
+      description:
+        "An open-weight model designed for code generation tasks, trained on over 80 programming languages, and licensed under the Mistral AI Non-Production License, allowing developers to use it for research and testing purposes.",
     },
   ],
   [
