@@ -1339,6 +1339,13 @@ const papers_data = [
       description:
         "A third-party, objective comparison of the abilities of the OpenAI GPT and Google Gemini models with reproducible code and fully transparent results.",
     },
+    {
+      title: "Direct Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-148-direct-preference-optimization-d3e031a41be1",
+      date: "December 2023",
+      description:
+        "A stable, performant, and computationally lightweight algorithm that fine-tunes llms to align with human preferences without the need for reinforcement learning, by directly optimizing for the policy best satisfying the preferences with a simple classification objective.",
+    },
   ],
 ];
 
