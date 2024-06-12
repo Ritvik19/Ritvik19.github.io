@@ -1346,6 +1346,13 @@ const papers_data = [
       description:
         "A stable, performant, and computationally lightweight algorithm that fine-tunes llms to align with human preferences without the need for reinforcement learning, by directly optimizing for the policy best satisfying the preferences with a simple classification objective.",
     },
+    {
+      title: "RLHF Workflow",
+      link: "https://ritvik19.medium.com/papers-explained-149-rlhf-workflow-56b4e00019ed",
+      date: "May 2024",
+      description:
+        "Provides a detailed recipe for  online iterative RLHF and achieves state-of-the-art performance on various benchmarks using fully open-source datasets.",
+    },
   ],
 ];
 
