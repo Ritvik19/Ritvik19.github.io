@@ -38,6 +38,13 @@ const papers_data = [
         "Deep contextualized word representations that captures both intricate aspects of word usage and contextual variations across language contexts.",
     },
     {
+      title: "Marian MT",
+      link: "https://ritvik19.medium.com/papers-explained-150-marianmt-1b44479b0fd9",
+      date: "April 2018",
+      description:
+        "A Neural Machine Translation framework written entirely in C++ with minimal dependencies, designed for high training and translation speed.",
+    },
+    {
       title: "Transformer XL",
       link: "https://ritvik19.medium.com/papers-explained-34-transformerxl-2e407e780e8",
       date: "January 2019",
