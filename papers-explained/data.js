@@ -552,6 +552,13 @@ const papers_data = [
       description:
         "An open-weight model designed for code generation tasks, trained on over 80 programming languages, and licensed under the Mistral AI Non-Production License, allowing developers to use it for research and testing purposes.",
     },
+    {
+      title: "Aya 23",
+      link: "https://ritvik19.medium.com/papers-explained-151-aya-23-d01605c3ee80",
+      date: "May 2024",
+      description:
+        "A family of multilingual language models supporting 23 languages, designed to balance breadth and depth by allocating more capacity to fewer languages during pre-training.",
+    },
   ],
   [
     // Small LLMs
