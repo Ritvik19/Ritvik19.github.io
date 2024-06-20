@@ -803,6 +803,13 @@ const papers_data = [
         "Encodes information at different granularities and allows a flexible representation that can adapt to multiple downstream tasks with varying computational resources using a single embedding.",
     },
     {
+      title: "SigLip",
+      link: "https://ritvik19.medium.com/papers-explained-152-siglip-011c48f9d448",
+      date: "March 2023",
+      description:
+        "A simple pairwise Sigmoid loss function for Language-Image Pre-training that operates solely on image-text pairs, allowing for larger batch sizes and better performance at smaller batch sizes.",
+    },
+    {
       title: "Nomic Embed Text v1",
       link: "https://ritvik19.medium.com/papers-explained-110-nomic-embed-8ccae819dac2",
       date: "February 2024",
