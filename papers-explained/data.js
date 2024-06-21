@@ -73,6 +73,13 @@ const papers_data = [
         "Extension of the Transformer-XL, pre-trained using a new method that combines ideas from AR and AE objectives.",
     },
     {
+      title: "CTRL",
+      link: "https://ritvik19.medium.com/papers-explained-153-ctrl-146fcd18a566",
+      date: "September 2019",
+      description:
+        "A 1.63B language model that can generate text conditioned on control codes that govern style, content, and task-specific behavior, allowing for more explicit control over text generation.",
+    },
+    {
       title: "BART",
       link: "https://ritvik19.medium.com/papers-explained-09-bart-7f56138175bd",
       date: "October 2019",
