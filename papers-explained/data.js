@@ -671,6 +671,13 @@ const papers_data = [
   [
     // Multi Modal Language Models
     {
+      title: "BLIP",
+      link: "https://ritvik19.medium.com/papers-explained-154-blip-6d85c80a744d",
+      date: "February 2022",
+      description:
+        "A Vision-Language Pre-training (VLP) framework that introduces Multimodal mixture of Encoder-Decoder (MED) and Captioning and Filtering (CapFilt), a new dataset bootstrapping method for learning from noisy image-text pairs.",
+    },
+    {
       title: "Flamingo",
       link: "https://ritvik19.medium.com/papers-explained-82-flamingo-8c124c394cdb",
       date: "April 2022",
