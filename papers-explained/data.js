@@ -685,6 +685,13 @@ const papers_data = [
         "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
     },
     {
+      title: "BLIP 2",
+      link: "https://ritvik19.medium.com/papers-explained-155-blip-2-135fff70bf65",
+      date: "January 2023",
+      description:
+        "A Vision-Language Pre-training (VLP) framework that proposes Q-Former, a trainable module to bridge the gap between a frozen image encoder and a frozen LLM to bootstrap vision-language pre-training.",
+    },
+    {
       title: "LLaVA 1",
       link: "https://ritvik19.medium.com/papers-explained-102-llava-1-eb0a3db7e43c",
       date: "April 2023",
