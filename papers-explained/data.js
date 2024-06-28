@@ -699,6 +699,13 @@ const papers_data = [
         "A large multimodal model connecting CLIP and Vicuna trained end-to-end on instruction-following data generated through GPT-4 from image-text pairs.",
     },
     {
+      title: "InstructBLIP",
+      link: "https://ritvik19.medium.com/papers-explained-156-instructblip-c3cf3291a823",
+      date: "May 2023",
+      description:
+        "Introduces instruction-aware Query Transformer to extract informative features tailored to the given instruction to study vision-language instruction tuning based on the pretrained BLIP-2 models.",
+    },
+    {
       title: "GPT-4V",
       link: "https://ritvik19.medium.com/papers-explained-68-gpt-4v-6e27c8a1d6ea",
       date: "September 2023",
