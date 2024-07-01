@@ -667,6 +667,13 @@ const papers_data = [
       description:
         "A family of code models ranging from 3B to 34B trained on 3.5-4.5T tokens of code written in 116 programming languages.",
     },
+    {
+      title: "Gemma 2",
+      link: "https://ritvik19.medium.com/papers-explained-157-gemma-2-f1b75b56b9f2",
+      date: "June 2024",
+      description:
+        "Utilizes interleaving local-global attentions and group-query attention, trained with knowledge distillation instead of next token prediction to achieve competitive performance comparable with larger models.",
+    },
   ],
   [
     // Multi Modal Language Models
