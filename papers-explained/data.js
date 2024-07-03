@@ -52,6 +52,13 @@ const papers_data = [
         "Extends the original Transformer model to handle longer sequences of text by introducing recurrence into the self-attention mechanism.",
     },
     {
+      title: "XLM",
+      link: "https://ritvik19.medium.com/papers-explained-158-xlm-42a175e93caf",
+      date: "January 2019",
+      description:
+        "Proposes two methods to learn cross-lingual language models (XLMs): one unsupervised that only relies on monolingual data, and one supervised that leverages parallel data with a new cross-lingual language model objective.",
+    },
+    {
       title: "Sparse Transformer",
       link: "https://ritvik19.medium.com/papers-explained-122-sparse-transformer-906a0be1e4e7",
       date: "April 2019",
