@@ -101,6 +101,13 @@ const papers_data = [
         "A unified encoder-decoder framework that converts all text-based language problems into a text-to-text format.",
     },
     {
+      title: "XLM-Roberta",
+      link: "https://ritvik19.medium.com/papers-explained-159-xlm-roberta-2da91fc24059",
+      date: "November 2019",
+      description:
+        "A multilingual masked language model pre-trained on text in 100 languages, shows that pretraining multilingual language models at scale leads to significant performance gains for a wide range of crosslingual transfer tasks.",
+    },
+    {
       title: "UniLMv2",
       link: "https://ritvik19.medium.com/papers-explained-unilmv2-5a044ca7c525",
       date: "February 2020",
