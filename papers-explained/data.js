@@ -478,6 +478,13 @@ const papers_data = [
         "A retrieve-aware finetuned LLaMA-7B model, specifically for API calls.",
     },
     {
+      title: "Orca",
+      link: "https://ritvik19.medium.com/papers-explained-160-orca-928eff06e7f9",
+      date: "June 2023",
+      description:
+        "Presents a novel approach that addresses the limitations of instruction tuning by leveraging richer imitation signals, scaling tasks and instructions, and utilizing a teacher assistant to help with progressive learning.",
+    },
+    {
       title: "Falcon",
       link: "https://ritvik19.medium.com/papers-explained-59-falcon-26831087247f",
       date: "June 2023",
