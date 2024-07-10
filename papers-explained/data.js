@@ -478,13 +478,6 @@ const papers_data = [
         "A retrieve-aware finetuned LLaMA-7B model, specifically for API calls.",
     },
     {
-      title: "Orca",
-      link: "https://ritvik19.medium.com/papers-explained-160-orca-928eff06e7f9",
-      date: "June 2023",
-      description:
-        "Presents a novel approach that addresses the limitations of instruction tuning by leveraging richer imitation signals, scaling tasks and instructions, and utilizing a teacher assistant to help with progressive learning.",
-    },
-    {
       title: "Falcon",
       link: "https://ritvik19.medium.com/papers-explained-59-falcon-26831087247f",
       date: "June 2023",
@@ -598,6 +591,13 @@ const papers_data = [
         "An LLM for code, trained using a textbook quality data from the web and synthetically generated textbooks and exercises with GPT-3.5.",
     },
     {
+      title: "Orca",
+      link: "https://ritvik19.medium.com/papers-explained-160-orca-928eff06e7f9",
+      date: "June 2023",
+      description:
+        "Presents a novel approach that addresses the limitations of instruction tuning by leveraging richer imitation signals, scaling tasks and instructions, and utilizing a teacher assistant to help with progressive learning.",
+    },
+    {
       title: "Phi-1.5",
       link: "https://ritvik19.medium.com/papers-explained-phi-1-5-2857e56dbd2a",
       date: "September 2023",
@@ -617,6 +617,13 @@ const papers_data = [
       date: "October 2023",
       description:
         "Utilizes dDPO and AI Feedback (AIF) preference data to achieve superior intent alignment in chat-based language modeling.",
+    },
+    {
+      title: "Orca 2",
+      link: "https://ritvik19.medium.com/papers-explained-161-orca-2-b6ffbccd1eef",
+      date: "November 2023",
+      description:
+        "Introduces Cautious Reasoning for training smaller models to select the most effective solution strategy based on the problem at hand, by crafting data with task-specific system instruction(s) corresponding to the chosen strategy in order to obtain teacher responses for each task and replacing the student’s system instruction with a generic one vacated of details of how to approach the task.",
     },
     {
       title: "Phi-2",
@@ -1496,6 +1503,10 @@ const reading_list_data = [
   {
     title: "Wizard Models",
     link: "https://ritvik19.medium.com/list/wizard-models-9b972e860683",
+  },
+  {
+    title: "Orca Series",
+    link: "https://ritvik19.medium.com/list/orca-series-1c87367458fe",
   },
   {
     title: "LLM Lingua Series",
