@@ -108,6 +108,13 @@ const papers_data = [
         "A multilingual masked language model pre-trained on text in 100 languages, shows that pretraining multilingual language models at scale leads to significant performance gains for a wide range of crosslingual transfer tasks.",
     },
     {
+      title: "Pegasus",
+      link: "https://ritvik19.medium.com/papers-explained-162-pegasus-1cb16f572553",
+      date: "December 2019",
+      description:
+        "A self-supervised pre-training objective for abstractive text summarization, proposes removing/masking important sentences from an input document and generating them together as one output sequence.",
+    },
+    {
       title: "UniLMv2",
       link: "https://ritvik19.medium.com/papers-explained-unilmv2-5a044ca7c525",
       date: "February 2020",
