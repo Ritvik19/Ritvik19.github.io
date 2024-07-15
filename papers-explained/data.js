@@ -4,8 +4,7 @@ const nav_data = [
   "Decoder Only Transformers",
   "Small LLMs",
   "Multi Modal LMs",
-  "LMs for Retrieval",
-  "Representation Learning",
+  "Retrieval and Representation Learning",
   "PEFT",
   "Compression, Pruning, Quantization",
   "Vision Transformers",
@@ -826,7 +825,7 @@ const papers_data = [
     },
   ],
   [
-    // Language Models for Retrieval
+    // Retrieval and Representation Learning
     {
       title: "Dense Passage Retriever",
       link: "https://ritvik19.medium.com/papers-explained-86-dense-passage-retriever-c4742fdf27ed",
@@ -840,6 +839,13 @@ const papers_data = [
       date: "April 2020",
       description:
         "Introduces a late interaction architecture that adapts deep LMs (in particular, BERT) for efficient retrieval.",
+    }, 
+    {
+      title: "CLIP",
+      link: "https://ritvik19.medium.com/papers-explained-100-clip-f9873c65134",
+      date: "February 2021",
+      description:
+        "A vision system that learns image representations from raw text-image pairs through pre-training, enabling zero-shot transfer to various downstream tasks.",
     },
     {
       title: "ColBERTv2",
@@ -849,30 +855,6 @@ const papers_data = [
         "Couples an aggressive residual compression mechanism with a denoised supervision strategy to simultaneously improve the quality and space footprint of late interaction.",
     },
     {
-      title: "E5",
-      link: "https://ritvik19.medium.com/papers-explained-90-e5-75ea1519efad",
-      date: "December 2022",
-      description:
-        "A family of text embeddings trained in a contrastive manner with weak supervision signals from a curated large-scale text pair dataset CCPairs.",
-    },
-    {
-      title: "E5 Mistral 7B",
-      link: "https://ritvik19.medium.com/papers-explained-91-e5-mistral-7b-23890f40f83a",
-      date: "December 2023",
-      description:
-        "Leverages proprietary LLMs to generate diverse synthetic data to fine tune open-source decoder-only LLMs for hundreds of thousands of text embedding tasks.",
-    },
-  ],
-  [
-    // Representation Learning
-    {
-      title: "CLIP",
-      link: "https://ritvik19.medium.com/papers-explained-100-clip-f9873c65134",
-      date: "February 2021",
-      description:
-        "A vision system that learns image representations from raw text-image pairs through pre-training, enabling zero-shot transfer to various downstream tasks.",
-    },
-    {
       title: "Matryoshka Representation Learning",
       link: "https://ritvik19.medium.com/papers-explained-matryoshka-representation-learning-e7a139f6ad27",
       date: "May 2022",
@@ -880,11 +862,25 @@ const papers_data = [
         "Encodes information at different granularities and allows a flexible representation that can adapt to multiple downstream tasks with varying computational resources using a single embedding.",
     },
     {
+      title: "E5",
+      link: "https://ritvik19.medium.com/papers-explained-90-e5-75ea1519efad",
+      date: "December 2022",
+      description:
+        "A family of text embeddings trained in a contrastive manner with weak supervision signals from a curated large-scale text pair dataset CCPairs.",
+    },
+    {
       title: "SigLip",
       link: "https://ritvik19.medium.com/papers-explained-152-siglip-011c48f9d448",
       date: "March 2023",
       description:
         "A simple pairwise Sigmoid loss function for Language-Image Pre-training that operates solely on image-text pairs, allowing for larger batch sizes and better performance at smaller batch sizes.",
+    },
+    {
+      title: "E5 Mistral 7B",
+      link: "https://ritvik19.medium.com/papers-explained-91-e5-mistral-7b-23890f40f83a",
+      date: "December 2023",
+      description:
+        "Leverages proprietary LLMs to generate diverse synthetic data to fine tune open-source decoder-only LLMs for hundreds of thousands of text embedding tasks.",
     },
     {
       title: "Nomic Embed Text v1",
