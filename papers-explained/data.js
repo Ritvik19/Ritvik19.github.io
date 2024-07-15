@@ -1487,10 +1487,6 @@ const reading_list_data = [
     link: "https://ritvik19.medium.com/list/decoderonly-language-transformers-5448110c6046",
   },
   {
-    title: "Language Models for Retrieval",
-    link: "https://ritvik19.medium.com/list/language-models-for-retrieval-3b6e14887105",
-  },
-  {
     title: "LLMs for Code",
     link: "https://ritvik19.medium.com/list/llms-for-code-e5360a1b353a",
   },
@@ -1531,8 +1527,8 @@ const reading_list_data = [
     link: "https://ritvik19.medium.com/list/layout-transformers-1ce4f291a9f0",
   },
   {
-    title: "Representation Learning",
-    link: "https://ritvik19.medium.com/list/representation-learning-bd438198713c",
+    title: "Retrieval and Representation Learning",
+    link: "https://ritvik19.medium.com/list/retrieval-and-representation-learning-bcd23de0bd8e",
   },
   {
     title: "Vision Transformers",
