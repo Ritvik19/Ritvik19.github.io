@@ -661,6 +661,13 @@ const papers_data = [
         "A state-of-the-art, truly open language model and framework that includes training data, code, and tools for building, studying, and advancing language models.",
     },
     {
+      title: "Orca Math",
+      link: "https://ritvik19.medium.com/papers-explained-163-orca-math-ae6a157ce48d",
+      date: "February 2024",
+      description:
+        "A fine tuned Mistral-7B that excels at math problems without external tools, utilizing a high-quality synthetic dataset of 200K problems created through multi-agent collaboration and an iterative learning process that involves practicing problem-solving, receiving feedback, and learning from preference pairs incorporating the model's solutions and feedback.",
+    },
+    {
       title: "Gemma",
       link: "https://ritvik19.medium.com/papers-explained-106-gemma-ca2b449321ac",
       date: "February 2024",
