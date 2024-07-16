@@ -715,6 +715,13 @@ const papers_data = [
       description:
         "Utilizes interleaving local-global attentions and group-query attention, trained with knowledge distillation instead of next token prediction to achieve competitive performance comparable with larger models.",
     },
+    {
+      title: "Mathstral",
+      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#0fbe",
+      date: "July 2024",
+      description:
+        "A 7B model designed for math reasoning and scientific discovery based on Mistral 7B specializing in STEM subjects.",
+    },
   ],
   [
     // Multi Modal Language Models
