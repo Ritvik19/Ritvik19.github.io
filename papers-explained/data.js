@@ -716,6 +716,13 @@ const papers_data = [
         "Utilizes interleaving local-global attentions and group-query attention, trained with knowledge distillation instead of next token prediction to achieve competitive performance comparable with larger models.",
     },
     {
+      title: "Orca 3 (Agent Instruct)",
+      link: "https://ritvik19.medium.com/papers-explained-164-orca-3-agent-instruct-41340505af36",
+      date: "July 2024",
+      description:
+        "A fine tuned Mistral-7B through Generative Teaching via synthetic data generated through the proposed AgentInstruct framework, which generates both the prompts and responses, using only raw data sources like text documents and code files as seeds.",
+    },
+    {
       title: "Mathstral",
       link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#0fbe",
       date: "July 2024",
