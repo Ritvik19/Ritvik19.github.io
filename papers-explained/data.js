@@ -114,6 +114,13 @@ const papers_data = [
         "A self-supervised pre-training objective for abstractive text summarization, proposes removing/masking important sentences from an input document and generating them together as one output sequence.",
     },
     {
+      title: "Reformer",
+      link: "https://ritvik19.medium.com/papers-explained-165-reformer-4445ad305191",
+      date: "January 2020",
+      description:
+        "Improves the efficiency of Transformers by replacing dot-product attention with locality-sensitive hashing (O(Llog L) complexity), using reversible residual layers to store activations only once, and splitting feed-forward layer activations into chunks, allowing it to perform on par with Transformer models while being much more memory-efficient and faster on long sequences.",
+    },
+    {
       title: "UniLMv2",
       link: "https://ritvik19.medium.com/papers-explained-unilmv2-5a044ca7c525",
       date: "February 2020",
