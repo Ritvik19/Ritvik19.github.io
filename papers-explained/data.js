@@ -831,6 +831,13 @@ const papers_data = [
         "First multimodal model in the Phi family, bringing the ability to reason over images and extract and reason over text from images.",
     },
     {
+      title: "GPT-4o",
+      link: "https://ritvik19.medium.com/papers-explained-67-gpt-4-fc77069b613e#49a8",
+      date: "May 2024",
+      description:
+        "An omni model accepting and generating various types of inputs and outputs, including text, audio, images, and video.",
+    },    
+    {
       title: "Gemini 1.5 Flash",
       link: "https://ritvik19.medium.com/papers-explained-142-gemini-1-5-flash-415e2dc6a989",
       date: "May 2024",
@@ -843,6 +850,13 @@ const papers_data = [
       date: "May 2024",
       description:
         "A family of early-fusion token-based mixed-modal models capable of understanding and generating images and text in any arbitrary sequence.",
+    },
+    {
+      title: "GPT-4o mini",
+      link: "https://ritvik19.medium.com/papers-explained-67-gpt-4-fc77069b613e#17c9",
+      date: "July 2024",
+      description:
+        "A cost-efficient small model that outperforms GPT-4 on chat preferences, enabling a broad range of tasks with low latency and supporting text, vision, and multimodal inputs and outputs.",
     },
   ],
   [
