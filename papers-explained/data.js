@@ -565,12 +565,26 @@ const papers_data = [
       description:
         "A 132B open, general-purpose fine grained Sparse MoE LLM surpassing GPT-3.5 and competitive with Gemini 1.0 Pro.",
     },
+    {
+      title: "Command R",
+      link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b",
+      date: "March 2024",
+      description:
+        "An LLM optimized for retrieval-augmented generation and tool use, across multiple languages.",
+    },
       {
       title: "Mixtral 8x22B",
       link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745#20f3",
       date: "April 2024",
       description:
         "A open-weight AI model optimised for performance and efficiency, with capabilities such as fluency in multiple languages, strong mathematics and coding abilities, and precise information recall from large documents.",
+    },
+    {
+      title: "Command R+",
+      link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b#c2b5",
+      date: "April 2024",
+      description:
+        "Successor of Command R+ with improved performance for retrieval-augmented generation and tool use, across multiple languages.",
     },
     {
       title: "Rho-1",
