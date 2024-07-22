@@ -1496,6 +1496,13 @@ const papers_data = [
       description:
         "Provides a detailed recipe for  online iterative RLHF and achieves state-of-the-art performance on various benchmarks using fully open-source datasets.",
     },
+    {
+      title: "Monte Carlo Tree Self-refine",
+      link: "https://ritvik19.medium.com/papers-explained-167-monte-carlo-tree-self-refine-79bffb070c1a",
+      date: "June 2024",
+      description:
+        "Integrates LLMs with Monte Carlo Tree Search to enhance performance in complex mathematical reasoning tasks, leveraging systematic exploration and heuristic self-refine mechanisms to improve decision-making frameworks.",
+    },
   ],
 ];
 
