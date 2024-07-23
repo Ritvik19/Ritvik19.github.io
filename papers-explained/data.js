@@ -750,6 +750,13 @@ const papers_data = [
       description:
         "A 7B model designed for math reasoning and scientific discovery based on Mistral 7B specializing in STEM subjects.",
     },
+    {
+      title: "Mistral Nemo",
+      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#37cd",
+      date: "July 2024",
+      description:
+        "A 12B Language Model built in collaboration between Mistral and NVIDIA, featuring a context window of 128K, an efficient tokenizer and trained with quantization awareness, enabling FP8 inference without any performance loss.",
+    },
   ],
   [
     // Multi Modal Language Models
