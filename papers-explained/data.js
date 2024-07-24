@@ -953,6 +953,13 @@ const papers_data = [
         "An advanced text embedding model that utilizes Matryoshka Representation Learning to offer flexible embedding sizes with minimal performance trade-offs",
     },
     {
+      title: "NV Embed",
+      link: "https://ritvik19.medium.com/papers-explained-168-nv-embed-48bd25d83258",
+      date: "May 2024",
+      description:
+        "Introduces architectural innovations and training recipe to significantly enhance LLMs performance in general-purpose text embedding tasks.",
+    },
+    {
       title: "Nomic Embed Vision v1 and v1.5",
       link: "https://ritvik19.medium.com/papers-explained-110-nomic-embed-8ccae819dac2#486b",
       date: "June 2024",
