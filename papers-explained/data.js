@@ -607,6 +607,13 @@ const papers_data = [
       description:
         "A family of multilingual language models supporting 23 languages, designed to balance breadth and depth by allocating more capacity to fewer languages during pre-training.",
     },
+    {
+      title: "Mistral Large 2",
+      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#301d",
+      date: "July 2024",
+      description:
+        "A 123B model, offers significant improvements in code generation, mathematics, and reasoning capabilities, advanced function calling, a 128k context window, and supports dozens of languages and over 80 coding languages.",
+    },
   ],
   [
     // Small LLMs
