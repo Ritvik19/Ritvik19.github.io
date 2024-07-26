@@ -121,6 +121,13 @@ const papers_data = [
         "Improves the efficiency of Transformers by replacing dot-product attention with locality-sensitive hashing (O(Llog L) complexity), using reversible residual layers to store activations only once, and splitting feed-forward layer activations into chunks, allowing it to perform on par with Transformer models while being much more memory-efficient and faster on long sequences.",
     },
     {
+      title: "mBART",
+      link: "https://ritvik19.medium.com/papers-explained-169-mbart-98432ef6fec",
+      date: "January 2020",
+      description:
+        "A multilingual sequence-to-sequence denoising auto-encoder that pre-trains a complete autoregressive model on large-scale monolingual corpora across many languages using the BART objective, achieving significant performance gains in machine translation tasks.",
+    },
+    {
       title: "UniLMv2",
       link: "https://ritvik19.medium.com/papers-explained-unilmv2-5a044ca7c525",
       date: "February 2020",
