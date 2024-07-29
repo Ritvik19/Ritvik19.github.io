@@ -1634,6 +1634,10 @@ const reading_list_data = [
     link: "https://ritvik19.medium.com/list/multi-modal-transformers-67453f215ecf",
   },
   {
+    title: "LLM Evaluation",
+    link: "https://ritvik19.medium.com/list/llm-evaluation-a011ddd1a546",
+  }
+  {
     title: "Convolutional Neural Networks",
     link: "https://ritvik19.medium.com/list/convolutional-neural-networks-5b875ce3b689",
   },
