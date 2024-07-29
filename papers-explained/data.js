@@ -6,6 +6,7 @@ const nav_data = [
   "Multi Modal LMs",
   "Retrieval and Representation Learning",
   "PEFT",
+  "LLM Evaluation",
   "Compression, Pruning, Quantization",
   "Vision Transformers",
   "CNNs",
@@ -1003,6 +1004,16 @@ const papers_data = [
       date: "September 2023",
       description:
         "Enables context extension for large language models, achieving significant computation savings through sparse local attention and parameter-efficient fine-tuning.",
+    },
+  ],
+  [
+    // LLM Evaluation
+    {
+      title: "Prometheus",
+      link: "https://ritvik19.medium.com/papers-explained-170-prometheus-5e72b8054729",
+      date: "October 2023",
+      description:
+        "A 13B fully open source evaluation LLM trained on Feedback Collection curated using GPT-4 (in this work).",
     },
   ],
   [
