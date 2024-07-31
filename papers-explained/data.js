@@ -1015,6 +1015,13 @@ const papers_data = [
       description:
         "A 13B fully open source evaluation LLM trained on Feedback Collection curated using GPT-4 (in this work).",
     },
+    {
+      title: "Prometheus 2",
+      link: "https://ritvik19.medium.com/papers-explained-171-prometheus-2-324e9c162e18",
+      date: "May 2024",
+      description:
+        "7B & 8x7B evaluation LLMs that score high correlations with both human evaluators and proprietary LM-based judges on both direct assessment and pairwise ranking, obtained by merging Mistral models trained on Feedback Collection and Preference Collection (curated in this work.",
+    },
   ],
   [
     // Compression, Pruning, Quantization
