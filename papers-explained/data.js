@@ -981,6 +981,13 @@ const papers_data = [
       description:
         "Aligns a Vision Encoder with the existing text encoders without destroying the downstream performance of the text encoder, to attain a unified multimodal latent space.",
     },
+    {
+      title: "E5-V",
+      link: "https://ritvik19.medium.com/papers-explained-172-e5-v-9947d3925802",
+      date: "July 2024",
+      description:
+        "A framework that adapts Multimodal Large Language Models for achieving universal multimodal embeddings by leveraging prompts and single modality training on text pairs, which demonstrates strong performance in multimodal embeddings without fine-tuning and eliminates the need for costly multimodal training data collection.",
+    },
   ],
   [
     // Parameter Efficient Fine Tuning
