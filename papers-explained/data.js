@@ -136,6 +136,13 @@ const papers_data = [
         "Utilizes a pseudo-masked language model (PMLM) for both autoencoding and partially autoregressive language modeling tasks,significantly advancing the capabilities of language models in diverse NLP tasks.",
     },
     {
+      title: "ELECTRA",
+      link: "https://ritvik19.medium.com/papers-explained-173-electra-501c175ae9d8",
+      date: "March 2020",
+      description:
+        "Proposes a sample-efficient pre-training task called replaced token detection, which corrupts input by replacing some tokens with plausible alternatives and trains a discriminative model to predict whether each token was replaced or no.",
+    },
+    {
       title: "Longformer",
       link: "https://ritvik19.medium.com/papers-explained-38-longformer-9a08416c532e",
       date: "April 2020",
