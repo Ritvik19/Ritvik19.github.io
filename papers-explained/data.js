@@ -1504,6 +1504,13 @@ const papers_data = [
       description:
         "A human-curated instruction-following dataset that spans 65 languages, created to bridge the language gap in datasets for natural language processing.",
     },
+    {
+      title: "Fine Web",
+      link: "https://ritvik19.medium.com/papers-explained-174-fineweb-280bbc08068b",
+      date: "May 2024",
+      description:
+        "A large-scale dataset for pretraining LLMs, consisting of 15T tokens, shown to produce better-performing models than other open pretraining datasets.",
+    },
   ],
   [
     // Miscellaneous Studies
