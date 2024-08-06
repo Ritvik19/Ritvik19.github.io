@@ -773,6 +773,13 @@ const papers_data = [
         "A 7B model designed for math reasoning and scientific discovery based on Mistral 7B specializing in STEM subjects.",
     },
     {
+      title: "Smol LM",
+      link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc",
+      date: "July 2024",
+      description:
+        "A family of small models with 135M, 360M, and 1.7B parameters, utilizes Grouped-Query Attention (GQA), embedding tying, and a context length of 2048 tokens, trained on a new open source high-quality dataset.",
+    },
+    {
       title: "Mistral Nemo",
       link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#37cd",
       date: "July 2024",
