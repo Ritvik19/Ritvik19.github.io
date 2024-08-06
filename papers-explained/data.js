@@ -1512,6 +1512,13 @@ const papers_data = [
         "A human-curated instruction-following dataset that spans 65 languages, created to bridge the language gap in datasets for natural language processing.",
     },
     {
+      title: "WebSight",
+      link: "https://ritvik19.medium.com/papers-explained-177-websight-2905d0e14233",
+      date: "March 2024",
+      description:
+        "A synthetic dataset consisting of 2M pairs of HTML codes and their corresponding screenshots, generated through LLMs, aimed to accelerate research for converting a screenshot into a corresponding HTML. ",
+    },
+    {
       title: "Cosmopedia",
       link: "https://ritvik19.medium.com/papers-explained-175-cosmopedia-5f7e81c76d14",
       date: "March 2024",
