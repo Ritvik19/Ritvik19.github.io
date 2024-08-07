@@ -825,6 +825,13 @@ const papers_data = [
         "Introduces instruction-aware Query Transformer to extract informative features tailored to the given instruction to study vision-language instruction tuning based on the pretrained BLIP-2 models.",
     },
     {
+      title: "Idefics",
+      link: "https://ritvik19.medium.com/papers-explained-179-obelics-idefics-a581f8d909b6",
+      date: "June 2023",
+      description:
+        "9B and 80B multimodal models trained on Obelics, an open web-scale dataset of interleaved image-text documents, curated in this work.",
+    },
+    {
       title: "GPT-4V",
       link: "https://ritvik19.medium.com/papers-explained-68-gpt-4v-6e27c8a1d6ea",
       date: "September 2023",
@@ -1497,6 +1504,13 @@ const papers_data = [
   ],
   [
     // Datasets
+    {
+      title: "Obelics",
+      link: "https://ritvik19.medium.com/papers-explained-179-obelics-idefics-a581f8d909b6",
+      date: "June 2023",
+      description:
+        "An open web-scale filtered dataset of interleaved image-text documents comprising 141M web pages, 353M associated images, and 115B text tokens, extracted from CommonCrawl",
+    },
     {
       title: "Dolma",
       link: "https://ritvik19.medium.com/papers-explained-97-dolma-a656169269cb",
