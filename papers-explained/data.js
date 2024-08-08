@@ -878,7 +878,14 @@ const papers_data = [
       link: "https://ritvik19.medium.com/papers-explained-117-mm1-c579142bcdc0",
       date: "March 2024",
       description:
-        "A multimodal llm that combines a ViT-H image encoder with 378x378px resolution, pretrained on a data mix of image-text documents and text-only documents, scaled up to 3B, 7B, and 30B parameters for enhanced performance across various tasks",
+        "A multimodal llm that combines a ViT-H image encoder with 378x378px resolution, pretrained on a data mix of image-text documents and text-only documents, scaled up to 3B, 7B, and 30B parameters for enhanced performance across various tasks.",
+    },
+    {
+      title: "Idefics2",
+      link: "https://ritvik19.medium.com/papers-explained-180-idefics-2-0adf35cef4ee",
+      date: "April 2024",
+      description:
+        "Improvement upon Idefics1 with enhanced OCR capabilities, simplified architecture, and better pre-trained backbones, trained on a mixture of openly available datasets and fine-tuned on task-oriented data.",
     },
     {
       title: "Phi-3 Vision",
@@ -1509,7 +1516,7 @@ const papers_data = [
       link: "https://ritvik19.medium.com/papers-explained-179-obelics-idefics-a581f8d909b6",
       date: "June 2023",
       description:
-        "An open web-scale filtered dataset of interleaved image-text documents comprising 141M web pages, 353M associated images, and 115B text tokens, extracted from CommonCrawl",
+        "An open web-scale filtered dataset of interleaved image-text documents comprising 141M web pages, 353M associated images, and 115B text tokens, extracted from CommonCrawl.",
     },
     {
       title: "Dolma",
