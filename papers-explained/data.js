@@ -874,6 +874,13 @@ const papers_data = [
         "A highly compute-efficient multimodal mixture-of-experts model that excels in long-context retrieval tasks and understanding across text, video, and audio modalities.",
     },
     {
+      title: "Claude 3",
+      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92",
+      date: "March 2024",
+      description:
+        "A family of VLMs consisting of Haiku, Sonnet, and Opus models, sets new industry standards for cognitive tasks, offering varying levels of intelligence, speed, and cost-efficiency.",
+    },
+    {
       title: "MM1",
       link: "https://ritvik19.medium.com/papers-explained-117-mm1-c579142bcdc0",
       date: "March 2024",
@@ -914,6 +921,13 @@ const papers_data = [
       date: "May 2024",
       description:
         "A family of early-fusion token-based mixed-modal models capable of understanding and generating images and text in any arbitrary sequence.",
+    },
+    {
+      title: "Claude 3.5 Sonnet",
+      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#2a14",
+      date: "June 2024",
+      description:
+        "Surpasses previous versions and competitors in intelligence, speed, and cost-efficiency, excelling in graduate-level reasoning, undergraduate-level knowledge, coding proficiency, and visual reasoning.",
     },
     {
       title: "GPT-4o mini",
