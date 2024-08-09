@@ -306,6 +306,13 @@ const papers_data = [
       description:
         "Enhanced version of the DeBERTa featuring a new vocabulary, nGiE integration, optimized attention mechanisms, additional model sizes, and improved tokenization.",
     },
+    {
+      title: "DeBERTa v3",
+      link: "https://ritvik19.medium.com/papers-explained-182-deberta-v3-65347208ce03",
+      date: "November 2021",
+      description:
+        "Enhances the DeBERTa architecture by introducing replaced token detection (RTD) instead of mask language modeling (MLM), along with a novel gradient-disentangled embedding sharing method, exhibiting superior performance across various natural language understanding tasks.",
+    },
   ],
   [
     // Decoder Only Transformers
