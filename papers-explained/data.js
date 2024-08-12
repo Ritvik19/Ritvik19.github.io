@@ -1647,6 +1647,13 @@ const papers_data = [
       description:
         "Integrates LLMs with Monte Carlo Tree Search to enhance performance in complex mathematical reasoning tasks, leveraging systematic exploration and heuristic self-refine mechanisms to improve decision-making frameworks.",
     },
+     {
+      title: "Magpie",
+      link: "https://ritvik19.medium.com/papers-explained-183-magpie-0603cbdc69c3",
+      date: "June 2024",
+      description:
+        "A self-synthesis method that extracts high-quality instruction data at scale by prompting an aligned LLM with left-side templates, generating 4M instructions and their corresponding responses.",
+    },
   ],
 ];
 
