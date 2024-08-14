@@ -910,7 +910,7 @@ const papers_data = [
     },
     {
       title: "GPT-4o",
-      link: "https://ritvik19.medium.com/papers-explained-67-gpt-4-fc77069b613e#49a8",
+      link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662",
       date: "May 2024",
       description:
         "An omni model accepting and generating various types of inputs and outputs, including text, audio, images, and video.",
@@ -938,7 +938,7 @@ const papers_data = [
     },
     {
       title: "GPT-4o mini",
-      link: "https://ritvik19.medium.com/papers-explained-67-gpt-4-fc77069b613e#17c9",
+      link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662#08b9",
       date: "July 2024",
       description:
         "A cost-efficient small model that outperforms GPT-4 on chat preferences, enabling a broad range of tasks with low latency and supporting text, vision, and multimodal inputs and outputs.",
