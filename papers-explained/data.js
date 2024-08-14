@@ -574,6 +574,13 @@ const papers_data = [
         "An LLM for mathematics, formed by continued pretraining of Code Llama on a mixture of scientific papers, web data containing mathematics, and mathematical code.",
     },
     {
+      title: "Grok 1",
+      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
+      date: "November 2023",
+      description:
+        "A 314B Mixture-of-Experts model, modeled after the Hitchhiker's Guide to the Galaxy, designed to be witty.",
+    },
+    {
       title: "Mixtral 8x7B",
       link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745",
       date: "January 2024",
@@ -594,7 +601,14 @@ const papers_data = [
       description:
         "An LLM optimized for retrieval-augmented generation and tool use, across multiple languages.",
     },
-      {
+    {
+      title: "Grok 1.5",
+      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
+      date: "March 2024",
+      description:
+        "An advancement over grok, capable of long context understanding up to 128k tokens and advanced reasoning.",
+    },
+    {
       title: "Mixtral 8x22B",
       link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745#20f3",
       date: "April 2024",
@@ -895,6 +909,13 @@ const papers_data = [
         "A multimodal llm that combines a ViT-H image encoder with 378x378px resolution, pretrained on a data mix of image-text documents and text-only documents, scaled up to 3B, 7B, and 30B parameters for enhanced performance across various tasks.",
     },
     {
+      title: "Grok 1.5 V",
+      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
+      date: "April 2024",
+      description:
+        "The first multimodal model in the grok series.",
+    },
+    {
       title: "Idefics2",
       link: "https://ritvik19.medium.com/papers-explained-180-idefics-2-0adf35cef4ee",
       date: "April 2024",
@@ -942,6 +963,13 @@ const papers_data = [
       date: "July 2024",
       description:
         "A cost-efficient small model that outperforms GPT-4 on chat preferences, enabling a broad range of tasks with low latency and supporting text, vision, and multimodal inputs and outputs.",
+    },
+    {
+      title: "Grok 2",
+      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
+      date: "August 2024",
+      description:
+        "A frontier language model with state-of-the-art capabilities in chat, coding, and reasoning on par with Claude 3.5 Sonnet and GPT-4-Turbo.",
     },
   ],
   [
