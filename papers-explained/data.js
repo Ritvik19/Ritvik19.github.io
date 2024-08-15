@@ -616,6 +616,13 @@ const papers_data = [
         "A open-weight AI model optimised for performance and efficiency, with capabilities such as fluency in multiple languages, strong mathematics and coding abilities, and precise information recall from large documents.",
     },
     {
+      title: "Llama 3",
+      link: "https://ritvik19.medium.com/papers-explained-187a-llama-3-51e2b90f63bb",
+      date: "April 2024",
+      description:
+        "A family of 8B and 70B parameter models trained on 15T tokens with a focus on data quality, demonstrating state-of-the-art performance on various benchmarks, improved reasoning capabilities.",
+    },
+    {
       title: "Command R+",
       link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b#c2b5",
       date: "April 2024",
