@@ -658,6 +658,13 @@ const papers_data = [
         "A family of multilingual language models ranging from 8B to 405B parameters, trained on a massive dataset of 15T tokens and achieving comparable performance to leading models like GPT-4 on various tasks.",
     },
     {
+      title: "LLama 3.1 - Multimodal Experiments",
+      link: "https://ritvik19.medium.com/papers-explained-187c-llama-3-1-multimodal-experiments-a1940dd45575",
+      date: "July 2024",
+      description:
+        "Additional experiments of adding multimodal capabilities to Llama3.",
+    },
+    {
       title: "Mistral Large 2",
       link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#301d",
       date: "July 2024",
