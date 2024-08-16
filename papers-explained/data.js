@@ -638,7 +638,7 @@ const papers_data = [
     },
     {
       title: "Codestral 22B",
-      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#057b",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#057b",
       date: "May 2024",
       description:
         "An open-weight model designed for code generation tasks, trained on over 80 programming languages, and licensed under the Mistral AI Non-Production License, allowing developers to use it for research and testing purposes.",
@@ -651,8 +651,15 @@ const papers_data = [
         "A family of multilingual language models supporting 23 languages, designed to balance breadth and depth by allocating more capacity to fewer languages during pre-training.",
     },
     {
+      title: "LLama 3.1",
+      link: "https://ritvik19.medium.com/papers-explained-187b-llama-3-1-f0fb06898c59",
+      date: "July 2024",
+      description:
+        "A family of multilingual language models ranging from 8B to 405B parameters, trained on a massive dataset of 15T tokens and achieving comparable performance to leading models like GPT-4 on various tasks.",
+    },
+    {
       title: "Mistral Large 2",
-      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#301d",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#301d",
       date: "July 2024",
       description:
         "A 123B model, offers significant improvements in code generation, mathematics, and reasoning capabilities, advanced function calling, a 128k context window, and supports dozens of languages and over 80 coding languages.",
@@ -795,7 +802,7 @@ const papers_data = [
     },
     {
       title: "Mathstral",
-      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#0fbe",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#0fbe",
       date: "July 2024",
       description:
         "A 7B model designed for math reasoning and scientific discovery based on Mistral 7B specializing in STEM subjects.",
@@ -809,7 +816,7 @@ const papers_data = [
     },
     {
       title: "Mistral Nemo",
-      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#37cd",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#37cd",
       date: "July 2024",
       description:
         "A 12B Language Model built in collaboration between Mistral and NVIDIA, featuring a context window of 128K, an efficient tokenizer and trained with quantization awareness, enabling FP8 inference without any performance loss.",
