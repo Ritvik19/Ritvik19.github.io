@@ -671,6 +671,13 @@ const papers_data = [
       description:
         "A 123B model, offers significant improvements in code generation, mathematics, and reasoning capabilities, advanced function calling, a 128k context window, and supports dozens of languages and over 80 coding languages.",
     },
+    {
+      title: "Hermes 3",
+      link: "https://ritvik19.medium.com/papers-explained-188-hermes-3-67d36cfe07d8",
+      date: "August 2024",
+      description:
+        "Neutrally generalist instruct and tool use models, created by fine-tuning Llama 3.1 models with strong reasoning and creative abilities, and are designed to follow prompts neutrally without moral judgment or personal opinions.",
+    },
   ],
   [
     // Small LLMs
@@ -828,6 +835,7 @@ const papers_data = [
       description:
         "A 12B Language Model built in collaboration between Mistral and NVIDIA, featuring a context window of 128K, an efficient tokenizer and trained with quantization awareness, enabling FP8 inference without any performance loss.",
     },
+    
   ],
   [
     // Multi Modal Language Models
