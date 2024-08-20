@@ -1711,12 +1711,19 @@ const papers_data = [
       description:
         "A self-synthesis method that extracts high-quality instruction data at scale by prompting an aligned LLM with left-side templates, generating 4M instructions and their corresponding responses.",
     },
-     {
+    {
       title: "Instruction Pre-Training",
       link: "https://ritvik19.medium.com/papers-explained-184-instruction-pretraining-ee0466f0fd33",
       date: "June 2024",
       description:
         "A framework to augment massive raw corpora with instruction-response pairs enabling supervised multitask pretraining of LMs.",
+    },
+    {
+      title: "Proofread",
+      link: "https://ritvik19.medium.com/papers-explained-189-proofread-4e1fe4eccf01",
+      date: "June 2024",
+      description:
+        "A Gboard feature powered by a server-side LLM, enabling seamless sentence-level and paragraph-level corrections with a single tap.",
     },
   ],
 ];
