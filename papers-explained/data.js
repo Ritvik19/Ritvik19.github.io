@@ -1000,6 +1000,13 @@ const papers_data = [
       description:
         "A frontier language model with state-of-the-art capabilities in chat, coding, and reasoning on par with Claude 3.5 Sonnet and GPT-4-Turbo.",
     },
+    {
+      title: "BLIP-3 (xGen-MM)",
+      link: "https://ritvik19.medium.com/papers-explained-190-blip-3-xgen-mm-6a9c04a3892d",
+      date: "August 2024",
+      description:
+        "A comprehensive system for developing Large Multimodal Models, comprising curated datasets, training recipes, model architectures, and pre-trained models that demonstrate strong in-context learning capabilities and competitive performance on various tasks.",
+    },
   ],
   [
     // Retrieval and Representation Learning
@@ -1791,6 +1798,10 @@ const reading_list_data = [
   {
     title: "Orca Series",
     link: "https://ritvik19.medium.com/list/orca-series-1c87367458fe",
+  },
+  {
+    title: "BLIP Series",
+    link: "https://ritvik19.medium.com/list/blip-series-4b0831017c5b",
   },
   {
     title: "LLM Lingua Series",
