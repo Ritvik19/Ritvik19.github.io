@@ -835,7 +835,13 @@ const papers_data = [
       description:
         "A 12B Language Model built in collaboration between Mistral and NVIDIA, featuring a context window of 128K, an efficient tokenizer and trained with quantization awareness, enabling FP8 inference without any performance loss.",
     },
-    
+    {
+      title: "Smol LM v0.2",
+      link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#fdb2",
+      date: "August 2024",
+      description:
+        "An advancement over SmolLM, better at staying on topic and responding appropriately to standard prompts, such as greetings and questions about their role as AI assistants.",
+    },
   ],
   [
     // Multi Modal Language Models
