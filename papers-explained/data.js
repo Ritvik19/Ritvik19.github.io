@@ -959,6 +959,13 @@ const papers_data = [
         "First multimodal model in the Phi family, bringing the ability to reason over images and extract and reason over text from images.",
     },
     {
+      title: "An Introduction to Vision-Language Modeling",
+      link: "https://ritvik19.medium.com/papers-explained-an-introduction-to-vision-language-modeling-89e7697da6e3",
+      date: "May 2024",
+      description:
+        "Provides a comprehensive introduction to VLMs, covering their definition, functionality, training methods, and evaluation approaches, aiming to help researchers and practitioners enter the field and advance the development of VLMs for various applications.",
+    },
+    {
       title: "GPT-4o",
       link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662",
       date: "May 2024",
