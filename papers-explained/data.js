@@ -725,7 +725,7 @@ const papers_data = [
     },
     {
       title: "Phi-2",
-      link: "https://ritvik19.medium.com/papers-explained-phi-1-5-2857e56dbd2a",
+      link: "https://ritvik19.medium.com/papers-explained-phi-1-5-2857e56dbd2a#8230",
       date: "December 2023",
       description:
         "A 2.7B model, developed to explore whether emergent abilities achieved by large-scale language models can also be achieved at a smaller scale using strategic choices for training, such as data selection.",
