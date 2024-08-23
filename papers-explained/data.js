@@ -842,6 +842,13 @@ const papers_data = [
       description:
         "An advancement over SmolLM, better at staying on topic and responding appropriately to standard prompts, such as greetings and questions about their role as AI assistants.",
     },
+    {
+      title: "Phi-3.5",
+      link: "https://ritvik19.medium.com/papers-explained-192-phi-3-5-a95429ea26c9",
+      date: "August 2024",
+      description:
+        "A family of models consisting of three variants - MoE (16x3.8B), mini (3.8B), and vision (4.2B) - which are lightweight, multilingual, and trained on synthetic and filtered publicly available documents - with a focus on very high-quality, reasoning dense data.",
+    },
   ],
   [
     // Multi Modal Language Models
