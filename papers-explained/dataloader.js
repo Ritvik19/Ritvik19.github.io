@@ -30,6 +30,7 @@ function create_table(contents) {
   <th>Title</th>
   <th>Date</th>
   <th>Description</th>
+  <th>Article</th>
   </tr>
   </thead>
   <tbody>
@@ -42,7 +43,7 @@ function create_table(contents) {
 function create_table_contents(data) {
   console.log(data);
   let contents = "";
-  for (var i = 0; i < data.length; i++) {
+  for (var i = data.length-1; i >= 0; i--) {
     console.log(data[i]);
     contents += create_table_row(
       data[i].title,
@@ -58,11 +59,13 @@ function create_table_row(title, link, date, description) {
   console.log(title, link, date, description);
   return `
   <tr>
-  <td><a target="_blank" href="${link}">${title}</a></td>
+  <td style="color:#337ab7">${title}</td>
   <td>${date}</td>
   <td>${description}</td>
-  </tr>
-  `;
+  <td><a target="_blank" href=${link}>
+  <img src="https://img.shields.io/badge/Open_in-Medium-3a3a3a?style=flat" alt="Open in Medium">
+  </a></td>
+  </tr>`;
 }
 
 function create_literature_review_section_contents(
@@ -71,7 +74,12 @@ function create_literature_review_section_contents(
 ) {
   let contents = `<h4>${header}</h4><table class="table table-striped table-bordered">`;
   for (var i = 0; i < literature_review_data.length; i++) {
-    contents += `<tr><td><a target="_blank" href="${literature_review_data[i].link}">${literature_review_data[i].title}</a></td></tr>`;
+    contents += `<tr>
+    <td style="color:#337ab7">${literature_review_data[i].title}</td>
+    <td><a target="_blank" href=${literature_review_data[i].link}>
+    <img src="https://img.shields.io/badge/Open_in-Medium-3a3a3a?style=flat" alt="Open in Medium">
+    </a></td>
+    </tr>`;
   }
   contents += "</table>";
   return contents;
