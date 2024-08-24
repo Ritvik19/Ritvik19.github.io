@@ -63,7 +63,7 @@ function create_table_row(title, link, date, description) {
   <td>${date}</td>
   <td>${description}</td>
   <td><a target="_blank" href=${link}>
-  <img src="https://img.shields.io/badge/Read_on-Medium-3a3a3a?style=flat" alt="Open in Medium">
+  <img src="https://img.shields.io/badge/Read_on-Medium-337ab7?style=flat" alt="Read on Medium">
   </a></td>
   </tr>`;
 }
@@ -77,7 +77,7 @@ function create_literature_review_section_contents(
     contents += `<tr>
     <td style="color:#337ab7">${literature_review_data[i].title}</td>
     <td><a target="_blank" href=${literature_review_data[i].link}>
-    <img src="https://img.shields.io/badge/Read_on-Medium-3a3a3a?style=flat" alt="Open in Medium">
+    <img src="https://img.shields.io/badge/Read_on-Medium-337ab7?style=flat" alt="Read on Medium">
     </a></td>
     </tr>`;
   }
