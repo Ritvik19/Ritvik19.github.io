@@ -178,6 +178,13 @@ const papers_data = [
         "A fine tuned encoder-decoder model on a multitask mixture covering a wide variety of tasks, attaining strong zero-shot performance on several standard datasets.",
     },
     {
+      title: "BERTopic",
+      link: "https://ritvik19.medium.com/papers-explained-193-bertopic-f9aec10cd5a6",
+      date: "March 2022",
+      description:
+        "Utilizes Sentence-BERT for document embeddings, UMAP, HDBSCAN (soft-clustering), and an adjusted class-based TF-IDF, addressing multiple topics per document and dynamic topics' linear evolution.",
+    },
+    {
       title: "Flan T5, Flan PaLM",
       link: "https://ritvik19.medium.com/papers-explained-75-flan-t5-flan-palm-caf168b6f76",
       date: "October 2022",
