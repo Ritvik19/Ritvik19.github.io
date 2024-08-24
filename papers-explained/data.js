@@ -954,8 +954,7 @@ const papers_data = [
       title: "Grok 1.5 V",
       link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
       date: "April 2024",
-      description:
-        "The first multimodal model in the grok series.",
+      description: "The first multimodal model in the grok series.",
     },
     {
       title: "Idefics2",
@@ -984,7 +983,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "An omni model accepting and generating various types of inputs and outputs, including text, audio, images, and video.",
-    },    
+    },
     {
       title: "Gemini 1.5 Flash",
       link: "https://ritvik19.medium.com/papers-explained-142-gemini-1-5-flash-415e2dc6a989",
@@ -1043,7 +1042,7 @@ const papers_data = [
       date: "April 2020",
       description:
         "Introduces a late interaction architecture that adapts deep LMs (in particular, BERT) for efficient retrieval.",
-    }, 
+    },
     {
       title: "CLIP",
       link: "https://ritvik19.medium.com/papers-explained-100-clip-f9873c65134",
@@ -1731,7 +1730,7 @@ const papers_data = [
       description:
         "Integrates LLMs with Monte Carlo Tree Search to enhance performance in complex mathematical reasoning tasks, leveraging systematic exploration and heuristic self-refine mechanisms to improve decision-making frameworks.",
     },
-     {
+    {
       title: "Magpie",
       link: "https://ritvik19.medium.com/papers-explained-183-magpie-0603cbdc69c3",
       date: "June 2024",
