@@ -1,16 +1,16 @@
 const data = [
   {
-    title: "Papers Explained",
+    title: "mcts-langchain",
     description:
-      " A series of articles on Medium Explaining various Research Papers",
+      "Langchain implmentation of the paper 'Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B' by Zhang, et al.",
     actions: [
       {
-        title: "View Papers Explained Documentation",
-        link: "/papers-explained",
+        title: "View GitHub Repository",
+        link: "https://github.com/Ritvik19/mcts-langchain",
       },
       {
-        title: "View Papers Explained on Medium",
-        link: "https://ritvik19.medium.com/",
+        title: "View the Original Paper",
+        link: "https://arxiv.org/abs/2406.07394/",
       },
     ],
   },
