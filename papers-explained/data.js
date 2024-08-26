@@ -874,6 +874,13 @@ const papers_data = [
         "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
     },
     {
+      title: "PaLI",
+      link: "https://ritvik19.medium.com/papers-explained-194-pali-c1fffc14068c",
+      date: "September 2022",
+      description:
+        "A joint language-vision model that generates multilingual text based on visual and textual inputs, trained using large pre-trained encoder-decoder language models and Vision Transformers, specifically mT5 and ViT-e.",
+    },
+    {
       title: "BLIP 2",
       link: "https://ritvik19.medium.com/papers-explained-155-blip-2-135fff70bf65",
       date: "January 2023",
