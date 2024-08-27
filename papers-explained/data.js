@@ -895,6 +895,12 @@ const papers_data = [
         "A large multimodal model connecting CLIP and Vicuna trained end-to-end on instruction-following data generated through GPT-4 from image-text pairs.",
     },
     {
+      title: "PaLI-X",
+      link: "https://ritvik19.medium.com/papers-explained-195-pali-x-f9859e73fd97",
+      date: "May 2023",
+      description: "A multilingual vision and language model with scaled-up components, specifically ViT-22 B and UL2 32B, exhibits emergent properties such as complex counting and multilingual object detection, and demonstrates improved performance across various tasks."
+    },
+    {
       title: "InstructBLIP",
       link: "https://ritvik19.medium.com/papers-explained-156-instructblip-c3cf3291a823",
       date: "May 2023",
