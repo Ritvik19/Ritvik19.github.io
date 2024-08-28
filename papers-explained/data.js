@@ -922,6 +922,13 @@ const papers_data = [
         "A multimodal model that combines text and vision capabilities, allowing users to instruct it to analyze image inputs.",
     },
     {
+      title: "PaLI-3",
+      link: "https://ritvik19.medium.com/papers-explained-196-pali-3-2f5cf92f60a8",
+      date: "October 2023",
+      description:
+        "A 5B vision language model, built upon a 2B SigLIP Vision Model and UL2 3B Language Model outperforms larger models on various benchmarks and achieves SOTA on several video QA benchmarks despite not being pretrained on any video data.",
+    },
+    {
       title: "LLaVA 1.5",
       link: "https://ritvik19.medium.com/papers-explained-103-llava-1-5-ddcb2e7f95b4",
       date: "October 2023",
