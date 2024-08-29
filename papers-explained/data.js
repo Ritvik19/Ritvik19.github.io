@@ -1033,6 +1033,13 @@ const papers_data = [
         "Surpasses previous versions and competitors in intelligence, speed, and cost-efficiency, excelling in graduate-level reasoning, undergraduate-level knowledge, coding proficiency, and visual reasoning.",
     },
     {
+      title: "Pali Gemma",
+      link: "https://ritvik19.medium.com/papers-explained-197-pali-gemma-6899e871998e",
+      date: "July 2024",
+      description:
+        "Combines SigLIP vision model and the Gemma language model and follows the PaLI-3 training recipe to achieve strong performance on various vision-language tasks.",
+    },
+    {
       title: "GPT-4o mini",
       link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662#08b9",
       date: "July 2024",
