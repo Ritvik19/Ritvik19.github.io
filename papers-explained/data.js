@@ -1148,6 +1148,13 @@ const papers_data = [
         "Aligns a Vision Encoder with the existing text encoders without destroying the downstream performance of the text encoder, to attain a unified multimodal latent space.",
     },
     {
+      title: "ColPali",
+      link: "https://ritvik19.medium.com/papers-explained-198-colpali-b3be70cbe252",
+      date: "June 2024",
+      description:
+        "A retrieval model based on PaliGemma to produce high-quality contextualized embeddings solely from images of document pages, and employees late interaction allowing for efficient and effective visually rich document retrieval.",
+    },
+    {
       title: "E5-V",
       link: "https://ritvik19.medium.com/papers-explained-172-e5-v-9947d3925802",
       date: "July 2024",
