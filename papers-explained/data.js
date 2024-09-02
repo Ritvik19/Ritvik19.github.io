@@ -1064,6 +1064,13 @@ const papers_data = [
   [
     // Retrieval and Representation Learning
     {
+      title: "SimCLR",
+      link: "https://ritvik19.medium.com/papers-explained-200-simclr-191ecf19d2fc",
+      date: "February 2020",
+      description: 
+        "A simplified framework for contrastive learning that optimizes data augmentation composition, introduces learnable nonlinear transformations, and leverages larger batch sizes and more training steps.",
+    },
+    {
       title: "Dense Passage Retriever",
       link: "https://ritvik19.medium.com/papers-explained-86-dense-passage-retriever-c4742fdf27ed",
       date: "April 2020",
