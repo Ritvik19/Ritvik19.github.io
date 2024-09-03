@@ -1085,6 +1085,13 @@ const papers_data = [
         "Introduces a late interaction architecture that adapts deep LMs (in particular, BERT) for efficient retrieval.",
     },
     {
+      title: "SimCLRv2",
+      link: "https://ritvik19.medium.com/papers-explained-201-simclrv2-bc3fe72b8b48",
+      date: "June 2020",
+      description: 
+        "A Semi-supervised learning framework which uses unsupervised pre training followed by supervised fine-tuning and distillation with unlabeled examples.",
+    },
+    {
       title: "CLIP",
       link: "https://ritvik19.medium.com/papers-explained-100-clip-f9873c65134",
       date: "February 2021",
