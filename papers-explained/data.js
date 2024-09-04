@@ -1125,6 +1125,13 @@ const papers_data = [
       date: "March 2023",
       description:
         "A simple pairwise Sigmoid loss function for Language-Image Pre-training that operates solely on image-text pairs, allowing for larger batch sizes and better performance at smaller batch sizes.",
+    }, 
+    {
+      title: "SynCLR",
+      link: "https://ritvik19.medium.com/papers-explained-202-synclr-85b50ef0081b",
+      date: "December 2023",
+      description:
+        "A visual representation learning method that leverages generative models to synthesize large-scale curated datasets without relying on any real data.",
     },
     {
       title: "E5 Mistral 7B",
