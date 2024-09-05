@@ -1155,6 +1155,13 @@ const papers_data = [
         "An advanced text embedding model that utilizes Matryoshka Representation Learning to offer flexible embedding sizes with minimal performance trade-offs",
     },
     {
+      title: "Gecko",
+      link: "https://ritvik19.medium.com/papers-explained-203-gecko-8889158b17e6",
+      date: "March 2024",
+      description:
+        "A 1.2B versatile text embedding model achieving strong retrieval performance by distilling knowledge from LLMs into a retriever.",
+    },
+    {
       title: "NV Embed",
       link: "https://ritvik19.medium.com/papers-explained-168-nv-embed-48bd25d83258",
       date: "May 2024",
