@@ -874,6 +874,13 @@ const papers_data = [
         "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
     },
     {
+      title: "PaLI",
+      link: "https://ritvik19.medium.com/papers-explained-194-pali-c1fffc14068c",
+      date: "September 2022",
+      description:
+        "A joint language-vision model that generates multilingual text based on visual and textual inputs, trained using large pre-trained encoder-decoder language models and Vision Transformers, specifically mT5 and ViT-e.",
+    },
+    {
       title: "BLIP 2",
       link: "https://ritvik19.medium.com/papers-explained-155-blip-2-135fff70bf65",
       date: "January 2023",
@@ -886,6 +893,12 @@ const papers_data = [
       date: "April 2023",
       description:
         "A large multimodal model connecting CLIP and Vicuna trained end-to-end on instruction-following data generated through GPT-4 from image-text pairs.",
+    },
+    {
+      title: "PaLI-X",
+      link: "https://ritvik19.medium.com/papers-explained-195-pali-x-f9859e73fd97",
+      date: "May 2023",
+      description: "A multilingual vision and language model with scaled-up components, specifically ViT-22 B and UL2 32B, exhibits emergent properties such as complex counting and multilingual object detection, and demonstrates improved performance across various tasks."
     },
     {
       title: "InstructBLIP",
@@ -907,6 +920,13 @@ const papers_data = [
       date: "September 2023",
       description:
         "A multimodal model that combines text and vision capabilities, allowing users to instruct it to analyze image inputs.",
+    },
+    {
+      title: "PaLI-3",
+      link: "https://ritvik19.medium.com/papers-explained-196-pali-3-2f5cf92f60a8",
+      date: "October 2023",
+      description:
+        "A 5B vision language model, built upon a 2B SigLIP Vision Model and UL2 3B Language Model outperforms larger models on various benchmarks and achieves SOTA on several video QA benchmarks despite not being pretrained on any video data.",
     },
     {
       title: "LLaVA 1.5",
@@ -1013,6 +1033,13 @@ const papers_data = [
         "Surpasses previous versions and competitors in intelligence, speed, and cost-efficiency, excelling in graduate-level reasoning, undergraduate-level knowledge, coding proficiency, and visual reasoning.",
     },
     {
+      title: "Pali Gemma",
+      link: "https://ritvik19.medium.com/papers-explained-197-pali-gemma-6899e871998e",
+      date: "July 2024",
+      description:
+        "Combines SigLIP vision model and the Gemma language model and follows the PaLI-3 training recipe to achieve strong performance on various vision-language tasks.",
+    },
+    {
       title: "GPT-4o mini",
       link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662#08b9",
       date: "July 2024",
@@ -1037,6 +1064,13 @@ const papers_data = [
   [
     // Retrieval and Representation Learning
     {
+      title: "SimCLR",
+      link: "https://ritvik19.medium.com/papers-explained-200-simclr-191ecf19d2fc",
+      date: "February 2020",
+      description: 
+        "A simplified framework for contrastive learning that optimizes data augmentation composition, introduces learnable nonlinear transformations, and leverages larger batch sizes and more training steps.",
+    },
+    {
       title: "Dense Passage Retriever",
       link: "https://ritvik19.medium.com/papers-explained-86-dense-passage-retriever-c4742fdf27ed",
       date: "April 2020",
@@ -1049,6 +1083,13 @@ const papers_data = [
       date: "April 2020",
       description:
         "Introduces a late interaction architecture that adapts deep LMs (in particular, BERT) for efficient retrieval.",
+    },
+    {
+      title: "SimCLRv2",
+      link: "https://ritvik19.medium.com/papers-explained-201-simclrv2-bc3fe72b8b48",
+      date: "June 2020",
+      description: 
+        "A Semi-supervised learning framework which uses unsupervised pre training followed by supervised fine-tuning and distillation with unlabeled examples.",
     },
     {
       title: "CLIP",
@@ -1084,6 +1125,13 @@ const papers_data = [
       date: "March 2023",
       description:
         "A simple pairwise Sigmoid loss function for Language-Image Pre-training that operates solely on image-text pairs, allowing for larger batch sizes and better performance at smaller batch sizes.",
+    }, 
+    {
+      title: "SynCLR",
+      link: "https://ritvik19.medium.com/papers-explained-202-synclr-85b50ef0081b",
+      date: "December 2023",
+      description:
+        "A visual representation learning method that leverages generative models to synthesize large-scale curated datasets without relying on any real data.",
     },
     {
       title: "E5 Mistral 7B",
@@ -1107,6 +1155,13 @@ const papers_data = [
         "An advanced text embedding model that utilizes Matryoshka Representation Learning to offer flexible embedding sizes with minimal performance trade-offs",
     },
     {
+      title: "Gecko",
+      link: "https://ritvik19.medium.com/papers-explained-203-gecko-8889158b17e6",
+      date: "March 2024",
+      description:
+        "A 1.2B versatile text embedding model achieving strong retrieval performance by distilling knowledge from LLMs into a retriever.",
+    },
+    {
       title: "NV Embed",
       link: "https://ritvik19.medium.com/papers-explained-168-nv-embed-48bd25d83258",
       date: "May 2024",
@@ -1121,11 +1176,25 @@ const papers_data = [
         "Aligns a Vision Encoder with the existing text encoders without destroying the downstream performance of the text encoder, to attain a unified multimodal latent space.",
     },
     {
+      title: "ColPali",
+      link: "https://ritvik19.medium.com/papers-explained-198-colpali-b3be70cbe252",
+      date: "June 2024",
+      description:
+        "A retrieval model based on PaliGemma to produce high-quality contextualized embeddings solely from images of document pages, and employees late interaction allowing for efficient and effective visually rich document retrieval.",
+    },
+    {
       title: "E5-V",
       link: "https://ritvik19.medium.com/papers-explained-172-e5-v-9947d3925802",
       date: "July 2024",
       description:
         "A framework that adapts Multimodal Large Language Models for achieving universal multimodal embeddings by leveraging prompts and single modality training on text pairs, which demonstrates strong performance in multimodal embeddings without fine-tuning and eliminates the need for costly multimodal training data collection.",
+    },
+    {
+      title: "Matryoshka Adaptor",
+      link: "https://ritvik19.medium.com/papers-explained-204-matryoshka-adaptor-c22f76488959",
+      date: "July 2024",
+      description:
+        "A framework designed for the customization of LLM embeddings, facilitating substantial dimensionality reduction while maintaining comparable performance levels.",
     },
   ],
   [
@@ -1215,6 +1284,13 @@ const papers_data = [
       date: "March 2021",
       description:
         "A hierarchical vision transformer that uses shifted windows to addresses the challenges of adapting the transformer model to computer vision.",
+    },
+    {
+      title: "Convolutional vision Transformer",
+      link: "https://ritvik19.medium.com/papers-explained-199-cvt-fb4a5c05882e",
+      date: "March 2021",
+      description:
+        "Improves Vision Transformer (ViT) in performance and efficiency by introducing convolutions, to yield the best of both designs.",
     },
     {
       title: "BEiT",
