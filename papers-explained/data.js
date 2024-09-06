@@ -1189,6 +1189,13 @@ const papers_data = [
       description:
         "A framework that adapts Multimodal Large Language Models for achieving universal multimodal embeddings by leveraging prompts and single modality training on text pairs, which demonstrates strong performance in multimodal embeddings without fine-tuning and eliminates the need for costly multimodal training data collection.",
     },
+    {
+      title: "Matryoshka Adaptor",
+      link: "https://ritvik19.medium.com/papers-explained-204-matryoshka-adaptor-c22f76488959",
+      date: "July 2024",
+      description:
+        "A framework designed for the customization of LLM embeddings, facilitating substantial dimensionality reduction while maintaining comparable performance levels.",
+    },
   ],
   [
     // Parameter Efficient Fine Tuning
