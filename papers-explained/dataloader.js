@@ -1,7 +1,3 @@
-function create_nav_item(idx, content) {
-  return `<li><a href="#line_${idx}">${content}</a></li>`;
-}
-
 function create_section(id, title, contents) {
   return `
     <section id="${id}" class="section">
@@ -22,30 +18,20 @@ function create_section(id, title, contents) {
     </section>`;
 }
 
-function create_table(contents) {
+function create_cards_container(contents) {
   return `
-  <table class="table table-striped table-bordered">
-  <thead>
-  <tr>
-  <th>Title</th>
-  <th>Date</th>
-  <th>Description</th>
-  <th>Article</th>
-  </tr>
-  </thead>
-  <tbody>
+  <div class="card-columns">
   ${contents}
-  </tbody>
-  </table>
+  </div>
   `;
 }
 
-function create_table_contents(data) {
+function create_container_contents(data) {
   console.log(data);
   let contents = "";
-  for (var i = data.length-1; i >= 0; i--) {
+  for (var i = data.length - 1; i >= 0; i--) {
     console.log(data[i]);
-    contents += create_table_row(
+    contents += create_cards(
       data[i].title,
       data[i].link,
       data[i].date,
@@ -55,51 +41,54 @@ function create_table_contents(data) {
   return contents;
 }
 
-function create_table_row(title, link, date, description) {
+function create_cards(title, link, date, description) {
   console.log(title, link, date, description);
   return `
-  <tr>
-  <td style="color:#337ab7">${title}</td>
-  <td>${date}</td>
-  <td>${description}</td>
-  <td><a target="_blank" href=${link}>
-  <img src="https://img.shields.io/badge/Read_on-Medium-337ab7?style=flat" alt="Read on Medium">
-  </a></td>
-  </tr>`;
+  <div class="card">
+    <div class="card-body">
+      <h3 class="card-title">${title}</h3>
+      <p class="card-text">${date}<br>${description}</p>
+    </div>
+    <div class="card-footer">
+      <a target="_blank" href=${link}>
+        <img src="https://img.shields.io/badge/Read_on-Medium-337ab7?style=flat" alt="Read on Medium">
+      </a>
+    </div>
+  </div>
+  `;
 }
 
 function create_literature_review_section_contents(
   header,
   literature_review_data
 ) {
-  let contents = `<h4>${header}</h4><table class="table table-striped table-bordered">`;
+  let contents = `<h4>${header}</h4><div class="card-columns">`;
   for (var i = 0; i < literature_review_data.length; i++) {
-    contents += `<tr>
-    <td style="color:#337ab7">${literature_review_data[i].title}</td>
-    <td><a target="_blank" href=${literature_review_data[i].link}>
-    <img src="https://img.shields.io/badge/Read_on-Medium-337ab7?style=flat" alt="Read on Medium">
-    </a></td>
-    </tr>`;
+    contents += `
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">${literature_review_data[i].title}</h3>
+      </div>
+      <div class="card-footer">
+        <a target="_blank" href=${literature_review_data[i].link}>
+          <img src="https://img.shields.io/badge/Read_on-Medium-337ab7?style=flat" alt="Read on Medium">
+        </a>
+      </div>
+    </div>`; 
   }
-  contents += "</table>";
+  contents += "</div>";
   return contents;
 }
 
-let nav = document.getElementById("nav");
 let container = document.getElementById("container");
 for (var i = 0; i < nav_data.length; i++) {
-  nav.innerHTML += create_nav_item(i + 1, nav_data[i]);
   container.innerHTML += create_section(
     `line_${i + 1}`,
     nav_data[i],
-    create_table(create_table_contents(papers_data[i]))
+    create_cards_container(create_container_contents(papers_data[i]))
   );
 }
 
-nav.innerHTML += create_nav_item(
-  nav_data.length + 1,
-  "Literature Review and Reading Lists"
-);
 container.innerHTML += create_section(
   `line_${nav_data.length + 1}`,
   "Literature Reviews and Reading Lists",
