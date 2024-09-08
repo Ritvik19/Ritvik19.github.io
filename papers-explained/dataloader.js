@@ -21,6 +21,7 @@ function createContainerContents(data) {
 }
 
 function createTags(tags) {
+  if (!tags) return '';
   return `<div class='tags'>${tags.map(tag => `<span class="badge">${tag}</span>`).join('')}</div>`;
 }
 
@@ -29,7 +30,7 @@ function createCard({ title, link, date, description, tags }) {
     <div class="card">
       <div class="card-body">
         <h3 class="card-title">${title}</h3>
-        <p class="card-text">${date}<br>${description}</p>
+        ${date && description? `<p class="card-text">${date}<br>${description} </p>` : ''}
         ${createTags(tags)}
       </div>
       <div class="card-footer">
@@ -40,9 +41,8 @@ function createCard({ title, link, date, description, tags }) {
     </div>`;
 }
 
-function createSectionWithCards(header, data) {
+function createSectionWithCards(data) {
   return `
-    <h4>${header}</h4>
     <div class="card-columns">
       ${data.map(item => createCard(item)).join('')}
     </div>`;
@@ -65,9 +65,8 @@ function createLiteratureReviewCard({ title, link, papers }) {
     </div>`;
 }
 
-function createLiteratureReviewSection(header, data) {
+function createLiteratureReviewSection(data) {
   return `
-    <h4>${header}</h4>
     <div class="card-columns">
       ${data.map(item => createLiteratureReviewCard(item)).join('')}
     </div>`;
@@ -87,13 +86,13 @@ function populateContainer() {
   container.innerHTML += createSection(
     `line_${nav_data.length + 1}`,
     "Literature Reviews",
-    createLiteratureReviewSection("Literature Reviews", literature_review_data)
+    createLiteratureReviewSection(literature_review_data)
   );
 
   container.innerHTML += createSection(
     `line_${nav_data.length + 2}`,
     "Reading Lists",
-    createSectionWithCards("Reading List", reading_list_data)
+    createSectionWithCards(reading_list_data)
   );
 }
 
@@ -119,4 +118,14 @@ function hideEmptySections() {
   });
 }
 
+function populateNav() {
+  nav = document.getElementById("nav");
+  nav_data.forEach((navItem, index) => {
+    nav.innerHTML += `<li><a href="#line_${index + 1}" class="nav-link">${navItem}</a></li>`;
+  });
+  nav.innerHTML += `<li><a href="#line_${nav_data.length + 1}" class="nav-link">Literature Reviews</a></li>`;
+  nav.innerHTML += `<li><a href="#line_${nav_data.length + 2}" class="nav-link">Reading Lists</a></li>`;
+}
+
 populateContainer();
+populateNav();

@@ -6,8 +6,6 @@ const nav_data = [
   "Multi Modal LMs",
   "Retrieval and Representation Learning",
   "PEFT",
-  "LLM Evaluation",
-  "Compression, Pruning, Quantization",
   "Vision Transformers",
   "CNNs",
   "Object Detection",
@@ -1391,52 +1389,6 @@ const papers_data = [
     },
   ],
   [
-    // LLM Evaluation
-    {
-      title: "Prometheus",
-      link: "https://ritvik19.medium.com/papers-explained-170-prometheus-5e72b8054729",
-      date: "October 2023",
-      description:
-        "A 13B fully open source evaluation LLM trained on Feedback Collection curated using GPT-4 (in this work).",
-        tags: ["LLM Evaluation"],
-    },
-    {
-      title: "Prometheus 2",
-      link: "https://ritvik19.medium.com/papers-explained-171-prometheus-2-324e9c162e18",
-      date: "May 2024",
-      description:
-        "7B & 8x7B evaluation LLMs that score high correlations with both human evaluators and proprietary LM-based judges on both direct assessment and pairwise ranking, obtained by merging Mistral models trained on Feedback Collection and Preference Collection (curated in this work.",
-        tags: ["LLM Evaluation"],
-    },
-  ],
-  [
-    // Compression, Pruning, Quantization
-    {
-      title: "LLMLingua",
-      link: "https://ritvik19.medium.com/papers-explained-136-llmlingua-f9b2f53f5f9b",
-      date: "October 2023",
-      description:
-        "A novel coarse-to-fine prompt compression method, incorporating a budget controller, an iterative token-level compression algorithm, and distribution alignment, achieving up to 20x compression with minimal performance loss.",
-        tags: ["Prompt Compression"],
-    },
-    {
-      title: "LongLLMLingua",
-      link: "https://ritvik19.medium.com/papers-explained-137-longllmlingua-45961fa703dd",
-      date: "October 2023",
-      description:
-        "A novel approach for prompt compression to enhance performance in long context scenarios using question-aware compression and document reordering.",
-        tags: ["Prompt Compression"],
-    },
-    {
-      title: "LLMLingua2",
-      link: "https://ritvik19.medium.com/papers-explained-138-llmlingua-2-510c752368a8",
-      date: "March 2024",
-      description:
-        "A novel approach to task-agnostic prompt compression, aiming to enhance generalizability, using  data distillation and leveraging a Transformer encoder for token classification.",
-        tags: ["Prompt Compression"],
-    },
-  ],
-  [
     // Vision Transformers
     {
       title: "Vision Transformer",
@@ -2040,6 +1992,30 @@ const papers_data = [
       tags: [],
     },
     {
+      title: "LLMLingua",
+      link: "https://ritvik19.medium.com/papers-explained-136-llmlingua-f9b2f53f5f9b",
+      date: "October 2023",
+      description:
+        "A novel coarse-to-fine prompt compression method, incorporating a budget controller, an iterative token-level compression algorithm, and distribution alignment, achieving up to 20x compression with minimal performance loss.",
+        tags: ["Prompt Compression"],
+    },
+    {
+      title: "LongLLMLingua",
+      link: "https://ritvik19.medium.com/papers-explained-137-longllmlingua-45961fa703dd",
+      date: "October 2023",
+      description:
+        "A novel approach for prompt compression to enhance performance in long context scenarios using question-aware compression and document reordering.",
+        tags: ["Prompt Compression"],
+    },
+    {
+      title: "Prometheus",
+      link: "https://ritvik19.medium.com/papers-explained-170-prometheus-5e72b8054729",
+      date: "October 2023",
+      description:
+        "A 13B fully open source evaluation LLM trained on Feedback Collection curated using GPT-4 (in this work).",
+        tags: ["LLM Evaluation"],
+    },
+    {
       title: "An In-depth Look at Gemini's Language Abilities",
       link: "https://ritvik19.medium.com/papers-explained-81-an-in-depth-look-at-geminis-language-abilities-540ca9046d8e",
       date: "December 2023",
@@ -2056,12 +2032,28 @@ const papers_data = [
       tags: [],
     },
     {
+      title: "LLMLingua2",
+      link: "https://ritvik19.medium.com/papers-explained-138-llmlingua-2-510c752368a8",
+      date: "March 2024",
+      description:
+        "A novel approach to task-agnostic prompt compression, aiming to enhance generalizability, using  data distillation and leveraging a Transformer encoder for token classification.",
+        tags: ["Prompt Compression"],
+    },
+    {
       title: "RLHF Workflow",
       link: "https://ritvik19.medium.com/papers-explained-149-rlhf-workflow-56b4e00019ed",
       date: "May 2024",
       description:
         "Provides a detailed recipe for  online iterative RLHF and achieves state-of-the-art performance on various benchmarks using fully open-source datasets.",
       tags: [],
+    },
+    {
+      title: "Prometheus 2",
+      link: "https://ritvik19.medium.com/papers-explained-171-prometheus-2-324e9c162e18",
+      date: "May 2024",
+      description:
+        "7B & 8x7B evaluation LLMs that score high correlations with both human evaluators and proprietary LM-based judges on both direct assessment and pairwise ranking, obtained by merging Mistral models trained on Feedback Collection and Preference Collection (curated in this work.",
+        tags: ["LLM Evaluation"],
     },
     {
       title: "Monte Carlo Tree Self-refine",
