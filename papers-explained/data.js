@@ -29,6 +29,7 @@ const papers_data = [
       date: "June 2017",
       description:
         "An Encoder Decoder model, that introduced multihead attention mechanism for language translation task.",
+      tags: ["Language Models"],
     },
     {
       title: "Elmo",
@@ -36,6 +37,7 @@ const papers_data = [
       date: "February 2018",
       description:
         "Deep contextualized word representations that captures both intricate aspects of word usage and contextual variations across language contexts.",
+      tags: ["Language Models"],
     },
     {
       title: "Marian MT",
@@ -43,6 +45,7 @@ const papers_data = [
       date: "April 2018",
       description:
         "A Neural Machine Translation framework written entirely in C++ with minimal dependencies, designed for high training and translation speed.",
+      tags: ["Language Models"],
     },
     {
       title: "Transformer XL",
@@ -50,6 +53,7 @@ const papers_data = [
       date: "January 2019",
       description:
         "Extends the original Transformer model to handle longer sequences of text by introducing recurrence into the self-attention mechanism.",
+      tags: ["Language Models"],
     },
     {
       title: "XLM",
@@ -57,6 +61,7 @@ const papers_data = [
       date: "January 2019",
       description:
         "Proposes two methods to learn cross-lingual language models (XLMs): one unsupervised that only relies on monolingual data, and one supervised that leverages parallel data with a new cross-lingual language model objective.",
+      tags: ["Language Models"],
     },
     {
       title: "Sparse Transformer",
@@ -64,6 +69,7 @@ const papers_data = [
       date: "April 2019",
       description:
         "Introduced sparse factorizations of the attention matrix to reduce the time and memory consumption to O(n√ n) in terms of sequence lengths.",
+      tags: ["Language Models"],
     },
     {
       title: "UniLM",
@@ -71,6 +77,7 @@ const papers_data = [
       date: "May 2019",
       description:
         "Utilizes a shared Transformer network and specific self-attention masks to excel in both language understanding and generation tasks.",
+      tags: ["Language Models"],
     },
     {
       title: "XLNet",
@@ -78,6 +85,7 @@ const papers_data = [
       date: "June 2019",
       description:
         "Extension of the Transformer-XL, pre-trained using a new method that combines ideas from AR and AE objectives.",
+      tags: ["Language Models"],
     },
     {
       title: "CTRL",
@@ -85,6 +93,7 @@ const papers_data = [
       date: "September 2019",
       description:
         "A 1.63B language model that can generate text conditioned on control codes that govern style, content, and task-specific behavior, allowing for more explicit control over text generation.",
+      tags: ["Language Models"],
     },
     {
       title: "BART",
@@ -92,6 +101,7 @@ const papers_data = [
       date: "October 2019",
       description:
         "An encoder-decoder network pretrained to reconstruct the original text from corrupted versions of it.",
+      tags: ["Language Models"],
     },
     {
       title: "T5",
@@ -99,6 +109,7 @@ const papers_data = [
       date: "October 2019",
       description:
         "A unified encoder-decoder framework that converts all text-based language problems into a text-to-text format.",
+      tags: ["Language Models"],
     },
     {
       title: "XLM-Roberta",
@@ -106,6 +117,7 @@ const papers_data = [
       date: "November 2019",
       description:
         "A multilingual masked language model pre-trained on text in 100 languages, shows that pretraining multilingual language models at scale leads to significant performance gains for a wide range of crosslingual transfer tasks.",
+      tags: ["Language Models"],
     },
     {
       title: "Pegasus",
@@ -113,6 +125,7 @@ const papers_data = [
       date: "December 2019",
       description:
         "A self-supervised pre-training objective for abstractive text summarization, proposes removing/masking important sentences from an input document and generating them together as one output sequence.",
+      tags: ["Language Models"],
     },
     {
       title: "Reformer",
@@ -120,6 +133,7 @@ const papers_data = [
       date: "January 2020",
       description:
         "Improves the efficiency of Transformers by replacing dot-product attention with locality-sensitive hashing (O(Llog L) complexity), using reversible residual layers to store activations only once, and splitting feed-forward layer activations into chunks, allowing it to perform on par with Transformer models while being much more memory-efficient and faster on long sequences.",
+      tags: ["Language Models"],
     },
     {
       title: "mBART",
@@ -127,6 +141,7 @@ const papers_data = [
       date: "January 2020",
       description:
         "A multilingual sequence-to-sequence denoising auto-encoder that pre-trains a complete autoregressive model on large-scale monolingual corpora across many languages using the BART objective, achieving significant performance gains in machine translation tasks.",
+      tags: ["Language Models"],
     },
     {
       title: "UniLMv2",
@@ -134,6 +149,7 @@ const papers_data = [
       date: "February 2020",
       description:
         "Utilizes a pseudo-masked language model (PMLM) for both autoencoding and partially autoregressive language modeling tasks,significantly advancing the capabilities of language models in diverse NLP tasks.",
+      tags: ["Language Models"],
     },
     {
       title: "ELECTRA",
@@ -141,6 +157,7 @@ const papers_data = [
       date: "March 2020",
       description:
         "Proposes a sample-efficient pre-training task called replaced token detection, which corrupts input by replacing some tokens with plausible alternatives and trains a discriminative model to predict whether each token was replaced or no.",
+      tags: ["Language Models"],
     },
     {
       title: "Longformer",
@@ -148,6 +165,7 @@ const papers_data = [
       date: "April 2020",
       description:
         "Introduces a linearly scalable attention mechanism, allowing handling texts of exteded length.",
+      tags: ["Language Models"],
     },
     {
       title: "T5 v1.1",
@@ -155,6 +173,7 @@ const papers_data = [
       date: "July 2020",
       description:
         "An enhanced version of the original T5 model, featuring improvements such as GEGLU activation, no dropout in pre-training, exclusive pre-training on C4, no parameter sharing between embedding and classifier layers.",
+      tags: ["Language Models"],
     },
     {
       title: "mT5",
@@ -162,6 +181,7 @@ const papers_data = [
       date: "October 2020",
       description:
         "A multilingual variant of T5 based on T5 v1.1, pre-trained on a new Common Crawl-based dataset covering 101 languages (mC4).",
+      tags: ["Language Models"],
     },
     {
       title: "FLAN",
@@ -169,6 +189,7 @@ const papers_data = [
       date: "September 2021",
       description:
         "An instruction-tuned language model developed through finetuning on various NLP datasets described by natural language instructions.",
+      tags: ["Language Models"],
     },
     {
       title: "T0",
@@ -176,6 +197,7 @@ const papers_data = [
       date: "October 2021",
       description:
         "A fine tuned encoder-decoder model on a multitask mixture covering a wide variety of tasks, attaining strong zero-shot performance on several standard datasets.",
+      tags: ["Language Models"],
     },
     {
       title: "BERTopic",
@@ -183,6 +205,7 @@ const papers_data = [
       date: "March 2022",
       description:
         "Utilizes Sentence-BERT for document embeddings, UMAP, HDBSCAN (soft-clustering), and an adjusted class-based TF-IDF, addressing multiple topics per document and dynamic topics' linear evolution.",
+      tags: ["Language Models"],
     },
     {
       title: "Flan T5, Flan PaLM",
@@ -190,6 +213,7 @@ const papers_data = [
       date: "October 2022",
       description:
         "Explores instruction fine tuning with a particular focus on scaling the number of tasks, scaling the model size, and fine tuning on chain-of-thought data.",
+      tags: ["Language Models"],
     },
     {
       title: "BLOOMZ, mT0",
@@ -197,6 +221,7 @@ const papers_data = [
       date: "November 2022",
       description:
         "Applies Multitask prompted fine tuning to the pretrained multilingual models on English tasks with English prompts to attain task generalization to non-English languages that appear only in the pretraining corpus.",
+      tags: ["Language Models"],
     },
     {
       title: "Self Instruct",
@@ -204,6 +229,7 @@ const papers_data = [
       date: "December 2022",
       description:
         "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
+      tags: ["Language Models", "Synthetic Data"],
     },
     {
       title: "CodeFusion",
@@ -211,6 +237,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "A diffusion code generation model that iteratively refines entire programs based on encoded natural language, overcoming the limitation of auto-regressive models in code generation by allowing reconsideration of earlier tokens.",
+      tags: ["Language Models", "Code Generation", "Diffusion Models"],
     },
     {
       title: "Aya 101",
@@ -218,6 +245,7 @@ const papers_data = [
       date: "February 2024",
       description:
         "A massively multilingual generative language model that follows instructions in 101 languages,trained by finetuning mT5.",
+      tags: ["Language Models", "Multilingual Models"],
     },
     {
       title: "Hawk, Griffin",
@@ -225,6 +253,7 @@ const papers_data = [
       date: "February 2024",
       description:
         "Introduces Real Gated Linear Recurrent Unit Layer that forms the core of the new recurrent block, replacing Multi-Query Attention for better efficiency and scalability",
+      tags: ["Language Models"],  
     },
     {
       title: "WRAP",
@@ -232,6 +261,7 @@ const papers_data = [
       date: "March 2024",
       description:
         "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
+      tags: ["Language Models", "Synthetic Data"],
     },
     {
       title: "RecurrentGemma",
@@ -239,6 +269,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "Based on Griffin, uses a combination of linear recurrences and local attention instead of global attention to model long sequences efficiently.",
+      tags: ["Language Models"],
     },
   ],
   [
@@ -249,6 +280,7 @@ const papers_data = [
       date: "October 2018",
       description:
         "Introduced pre-training for Encoder Transformers. Uses unified architecture across different tasks.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "RoBERTa",
@@ -256,6 +288,7 @@ const papers_data = [
       date: "July 2019",
       description:
         "Built upon BERT, by carefully optimizing hyperparameters and training data size to improve performance on various language tasks .",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "Sentence BERT",
@@ -263,6 +296,7 @@ const papers_data = [
       date: "August 2019",
       description:
         "A modification of BERT that uses siamese and triplet network structures to derive sentence embeddings that can be compared using cosine-similarity.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "Tiny BERT",
@@ -270,6 +304,7 @@ const papers_data = [
       date: "September 2019",
       description:
         "Uses attention transfer, and task specific distillation for distilling BERT.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "ALBERT",
@@ -277,6 +312,7 @@ const papers_data = [
       date: "September 2019",
       description:
         "Presents certain parameter reduction techniques to lower memory consumption and increase the training speed of BERT.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "Distil BERT",
@@ -284,6 +320,7 @@ const papers_data = [
       date: "October 2019",
       description:
         "Distills BERT on very large batches leveraging gradient accumulation, using dynamic masking and without the next sentence prediction objective.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "FastBERT",
@@ -291,6 +328,7 @@ const papers_data = [
       date: "April 2020",
       description:
         "A speed-tunable encoder with adaptive inference time having branches at each transformer output to enable early outputs.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "MobileBERT",
@@ -298,6 +336,7 @@ const papers_data = [
       date: "April 2020",
       description:
         "Compressed and faster version of the BERT, featuring bottleneck structures, optimized attention mechanisms, and knowledge transfer.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "DeBERTa",
@@ -305,6 +344,7 @@ const papers_data = [
       date: "June 2020",
       description:
         "Enhances BERT and RoBERTa through disentangled attention mechanisms, an enhanced mask decoder, and virtual adversarial training.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "DeBERTa v2",
@@ -312,6 +352,7 @@ const papers_data = [
       date: "June 2020",
       description:
         "Enhanced version of the DeBERTa featuring a new vocabulary, nGiE integration, optimized attention mechanisms, additional model sizes, and improved tokenization.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
     {
       title: "DeBERTa v3",
@@ -319,6 +360,7 @@ const papers_data = [
       date: "November 2021",
       description:
         "Enhances the DeBERTa architecture by introducing replaced token detection (RTD) instead of mask language modeling (MLM), along with a novel gradient-disentangled embedding sharing method, exhibiting superior performance across various natural language understanding tasks.",
+      tags: ["Language Models", "Transformer Encoder"],
     },
   ],
   [
@@ -329,6 +371,7 @@ const papers_data = [
       date: "June 2018",
       description:
         "A Decoder only transformer which is autoregressively pretrained and then finetuned for specific downstream tasks using task-aware input transformations.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "GPT 2",
@@ -336,6 +379,7 @@ const papers_data = [
       date: "February 2019",
       description:
         "Demonstrates that language models begin to learn various language processing tasks without any explicit supervision.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "GPT 3",
@@ -343,6 +387,7 @@ const papers_data = [
       date: "May 2020",
       description:
         "Demonstrates that scaling up language models greatly improves task-agnostic, few-shot performance.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Codex",
@@ -350,6 +395,7 @@ const papers_data = [
       date: "July 2021",
       description:
         "A GPT language model finetuned on publicly available code from GitHub.",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
     },
     {
       title: "WebGPT",
@@ -357,6 +403,7 @@ const papers_data = [
       date: "December 2021",
       description:
         "A fine-tuned GPT-3 model utilizing text-based web browsing, trained via imitation learning and human feedback, enhancing its ability to answer long-form questions with factual accuracy.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Gopher",
@@ -364,6 +411,7 @@ const papers_data = [
       date: "December 2021",
       description:
         "Provides a comprehensive analysis of the performance of various Transformer models across different scales upto 280B on 152 tasks.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "LaMDA",
@@ -371,6 +419,7 @@ const papers_data = [
       date: "January 2022",
       description:
         "Transformer based models specialized for dialog, which are pre-trained on public dialog data and web text.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Instruct GPT",
@@ -378,6 +427,7 @@ const papers_data = [
       date: "March 2022",
       description:
         "Fine-tuned GPT using supervised learning (instruction tuning) and reinforcement learning from human feedback to align with user intent.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Chinchilla",
@@ -385,6 +435,7 @@ const papers_data = [
       date: "March 2022",
       description:
         "Investigated the optimal model size and number of tokens for training a transformer LLM within a given compute budget (Scaling Laws).",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "CodeGen",
@@ -392,6 +443,7 @@ const papers_data = [
       date: "March 2022",
       description:
         "An LLM trained for program synthesis using input-output examples and natural language descriptions.",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
     },
     {
       title: "PaLM",
@@ -399,6 +451,7 @@ const papers_data = [
       date: "April 2022",
       description:
         "A 540-B parameter, densely activated, Transformer, trained using Pathways, (ML system that enables highly efficient training across multiple TPU Pods).",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "GPT-NeoX-20B",
@@ -406,6 +459,7 @@ const papers_data = [
       date: "April 2022",
       description:
         "An autoregressive LLM trained on the Pile, and the largest dense model that had publicly available weights at the time of submission.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "OPT",
@@ -413,6 +467,7 @@ const papers_data = [
       date: "May 2022",
       description:
         "A suite of decoder-only pre-trained transformers with parameter ranges from 125M to 175B. OPT-175B being comparable to GPT-3.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "BLOOM",
@@ -420,6 +475,7 @@ const papers_data = [
       date: "November 2022",
       description:
         "A 176B-parameter open-access decoder-only transformer, collaboratively developed by hundreds of researchers, aiming to democratize LLM technology.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Galactica",
@@ -427,6 +483,7 @@ const papers_data = [
       date: "November 2022",
       description:
         "An LLM trained on scientific data thus specializing in scientific knowledge.",
+      tags: ["Language Models", "Transformer Decoder", "Scientific Data"],
     },
     {
       title: "ChatGPT",
@@ -434,6 +491,7 @@ const papers_data = [
       date: "November 2022",
       description:
         "An interactive model designed to engage in conversations, built on top of GPT 3.5.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "LLaMA",
@@ -441,6 +499,7 @@ const papers_data = [
       date: "February 2023",
       description:
         "A collection of foundation LLMs by Meta ranging from 7B to 65B parameters, trained using publicly available datasets exclusively.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Toolformer",
@@ -448,6 +507,7 @@ const papers_data = [
       date: "February 2023",
       description:
         "An LLM trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Alpaca",
@@ -455,6 +515,7 @@ const papers_data = [
       date: "March 2023",
       description:
         "A fine-tuned LLaMA 7B model, trained on instruction-following demonstrations generated in the style of self-instruct using text-davinci-003.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "GPT 4",
@@ -462,6 +523,7 @@ const papers_data = [
       date: "March 2023",
       description:
         "A multimodal transformer model pre-trained to predict the next token in a document, which can accept image and text inputs and produce text outputs.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Vicuna",
@@ -469,6 +531,7 @@ const papers_data = [
       date: "March 2023",
       description:
         "A 13B LLaMA chatbot fine tuned on user-shared conversations collected from ShareGPT, capable of generating more detailed and well-structured answers compared to Alpaca.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Bloomberg GPT",
@@ -476,6 +539,7 @@ const papers_data = [
       date: "March 2023",
       description:
         "A 50B language model train on general purpose and domain specific data to support a wide range of tasks within the financial industry.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Pythia",
@@ -483,6 +547,7 @@ const papers_data = [
       date: "April 2023",
       description:
         "A suite of 16 LLMs all trained on public data seen in the exact same order and ranging in size from 70M to 12B parameters.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "WizardLM",
@@ -490,6 +555,7 @@ const papers_data = [
       date: "April 2023",
       description:
         "Introduces Evol-Instruct, a method to generate large amounts of instruction data with varying levels of complexity using LLM instead of humans to fine tune a Llama model ",
+      tags: ["Language Models", "Transformer Decoder", "Synthetic Data"],
     },
     {
       title: "CodeGen 2",
@@ -497,6 +563,7 @@ const papers_data = [
       date: "May 2023",
       description:
         "Proposes an approach to make the training of LLMs for program synthesis more efficient by unifying key components of model architectures, learning methods, infill sampling, and data distributions",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
     },
     {
       title: "PaLM 2",
@@ -504,6 +571,7 @@ const papers_data = [
       date: "May 2023",
       description:
         "Successor of PALM, trained on a mixture of different pre-training objectives in order to understand different aspects of language.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "LIMA",
@@ -511,6 +579,7 @@ const papers_data = [
       date: "May 2023",
       description:
         "A LLaMa model fine-tuned on only 1,000 carefully curated prompts and responses, without any reinforcement learning or human preference modeling.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Gorilla",
@@ -518,6 +587,7 @@ const papers_data = [
       date: "May 2023",
       description:
         "A retrieve-aware finetuned LLaMA-7B model, specifically for API calls.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Falcon",
@@ -525,6 +595,7 @@ const papers_data = [
       date: "June 2023",
       description:
         "An Open Source LLM trained on properly filtered and deduplicated web data alone.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "WizardCoder",
@@ -532,6 +603,7 @@ const papers_data = [
       date: "June 2023",
       description:
         "Enhances the performance of the open-source Code LLM, StarCoder, through the application of Code Evol-Instruct.",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation", "Synthetic Data"],
     },
     {
       title: "LLaMA 2",
@@ -539,6 +611,7 @@ const papers_data = [
       date: "July 2023",
       description:
         "Successor of LLaMA. LLaMA 2-Chat is optimized for dialogue use cases.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Tool LLM",
@@ -546,18 +619,21 @@ const papers_data = [
       date: "July 2023",
       description:
         "A LLaMA model finetuned on an instruction-tuning dataset for tool use, automatically created using ChatGPT.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Humpback",
       link: "https://ritvik19.medium.com/papers-explained-61-humpback-46992374fc34",
       date: "August 2023",
       description: "LLaMA finetuned using Instruction backtranslation.",
+      tags: ["Language Models", "Transformer Decoder", "Synthetic Data"],
     },
     {
       title: "Code LLaMA",
       link: "https://ritvik19.medium.com/papers-explained-62-code-llama-ee266bfa495f",
       date: "August 2023",
       description: "LLaMA 2 based LLM for code.",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
     },
     {
       title: "WizardMath",
@@ -565,6 +641,7 @@ const papers_data = [
       date: "August 2023",
       description:
         "Proposes Reinforcement Learning from Evol-Instruct Feedback (RLEIF) method, applied to Llama-2 to enhance the mathematical reasoning abilities.",
+      tags: ["Language Models", "Transformer Decoder", "Scientific Data"],
     },
     {
       title: "LLaMA 2 Long",
@@ -572,6 +649,7 @@ const papers_data = [
       date: "September 2023",
       description:
         "A series of long context LLMs s that support effective context windows of up to 32,768 tokens.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Llemma",
@@ -579,6 +657,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "An LLM for mathematics, formed by continued pretraining of Code Llama on a mixture of scientific papers, web data containing mathematics, and mathematical code.",
+      tags: ["Language Models", "Transformer Decoder", "Scientific Data"],
     },
     {
       title: "Grok 1",
@@ -586,6 +665,7 @@ const papers_data = [
       date: "November 2023",
       description:
         "A 314B Mixture-of-Experts model, modeled after the Hitchhiker's Guide to the Galaxy, designed to be witty.",
+      tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
     },
     {
       title: "Mixtral 8x7B",
@@ -593,6 +673,7 @@ const papers_data = [
       date: "January 2024",
       description:
         "A Sparse Mixture of Experts language model based on Mistral 7B trained with multilingual data using a context size of 32k tokens.",
+      tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
     },
     {
       title: "DBRX",
@@ -600,6 +681,7 @@ const papers_data = [
       date: "March 2024",
       description:
         "A 132B open, general-purpose fine grained Sparse MoE LLM surpassing GPT-3.5 and competitive with Gemini 1.0 Pro.",
+      tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
     },
     {
       title: "Command R",
@@ -607,6 +689,7 @@ const papers_data = [
       date: "March 2024",
       description:
         "An LLM optimized for retrieval-augmented generation and tool use, across multiple languages.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Grok 1.5",
@@ -614,6 +697,7 @@ const papers_data = [
       date: "March 2024",
       description:
         "An advancement over grok, capable of long context understanding up to 128k tokens and advanced reasoning.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Mixtral 8x22B",
@@ -621,6 +705,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "A open-weight AI model optimised for performance and efficiency, with capabilities such as fluency in multiple languages, strong mathematics and coding abilities, and precise information recall from large documents.",
+      tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
     },
     {
       title: "Llama 3",
@@ -628,6 +713,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "A family of 8B and 70B parameter models trained on 15T tokens with a focus on data quality, demonstrating state-of-the-art performance on various benchmarks, improved reasoning capabilities.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Command R+",
@@ -635,6 +721,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "Successor of Command R+ with improved performance for retrieval-augmented generation and tool use, across multiple languages.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Rho-1",
@@ -642,6 +729,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "Introduces Selective Language Modelling that optimizes the loss only on tokens that align with a desired distribution, utilizing a reference model to score and select tokens.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Codestral 22B",
@@ -649,6 +737,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "An open-weight model designed for code generation tasks, trained on over 80 programming languages, and licensed under the Mistral AI Non-Production License, allowing developers to use it for research and testing purposes.",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
     },
     {
       title: "Aya 23",
@@ -656,6 +745,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "A family of multilingual language models supporting 23 languages, designed to balance breadth and depth by allocating more capacity to fewer languages during pre-training.",
+      tags: ["Language Models", "Transformer Decoder", "Multilingual Models"],
     },
     {
       title: "LLama 3.1",
@@ -663,6 +753,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A family of multilingual language models ranging from 8B to 405B parameters, trained on a massive dataset of 15T tokens and achieving comparable performance to leading models like GPT-4 on various tasks.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "LLama 3.1 - Multimodal Experiments",
@@ -670,6 +761,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "Additional experiments of adding multimodal capabilities to Llama3.",
+      tags: ["Language Models", "Transformer Decoder", "Multimodal Models"],
     },
     {
       title: "Mistral Large 2",
@@ -677,6 +769,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A 123B model, offers significant improvements in code generation, mathematics, and reasoning capabilities, advanced function calling, a 128k context window, and supports dozens of languages and over 80 coding languages.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
     {
       title: "Hermes 3",
@@ -684,6 +777,7 @@ const papers_data = [
       date: "August 2024",
       description:
         "Neutrally generalist instruct and tool use models, created by fine-tuning Llama 3.1 models with strong reasoning and creative abilities, and are designed to follow prompts neutrally without moral judgment or personal opinions.",
+      tags: ["Language Models", "Transformer Decoder"],
     },
   ],
   [
@@ -694,6 +788,7 @@ const papers_data = [
       date: "June 2023",
       description:
         "An LLM for code, trained using a textbook quality data from the web and synthetically generated textbooks and exercises with GPT-3.5.",
+        tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data"],
     },
     {
       title: "Orca",
@@ -701,6 +796,7 @@ const papers_data = [
       date: "June 2023",
       description:
         "Presents a novel approach that addresses the limitations of instruction tuning by leveraging richer imitation signals, scaling tasks and instructions, and utilizing a teacher assistant to help with progressive learning.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data"],
     },
     {
       title: "Phi-1.5",
@@ -708,6 +804,7 @@ const papers_data = [
       date: "September 2023",
       description:
         "Follows the phi-1 approach, focusing this time on common sense reasoning in natural language.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data"],
     },
     {
       title: "Mistral 7B",
@@ -715,6 +812,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "Leverages grouped-query attention for faster inference, coupled with sliding window attention to effectively handle sequences of arbitrary length with a reduced inference cost.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "Zephyr 7B",
@@ -722,6 +820,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "Utilizes dDPO and AI Feedback (AIF) preference data to achieve superior intent alignment in chat-based language modeling.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "Orca 2",
@@ -729,6 +828,7 @@ const papers_data = [
       date: "November 2023",
       description:
         "Introduces Cautious Reasoning for training smaller models to select the most effective solution strategy based on the problem at hand, by crafting data with task-specific system instruction(s) corresponding to the chosen strategy in order to obtain teacher responses for each task and replacing the student’s system instruction with a generic one vacated of details of how to approach the task.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data"],
     },
     {
       title: "Phi-2",
@@ -736,6 +836,7 @@ const papers_data = [
       date: "December 2023",
       description:
         "A 2.7B model, developed to explore whether emergent abilities achieved by large-scale language models can also be achieved at a smaller scale using strategic choices for training, such as data selection.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data"],
     },
     {
       title: "TinyLlama",
@@ -743,6 +844,7 @@ const papers_data = [
       date: "January 2024",
       description:
         "A  1.1B language model built upon the architecture and tokenizer of Llama 2, pre-trained on around 1 trillion tokens for approximately 3 epochs, leveraging FlashAttention and Grouped Query Attention, to achieve better computational efficiency.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "H2O Danube 1.8B",
@@ -750,6 +852,7 @@ const papers_data = [
       date: "January 2024",
       description:
         "A language model trained on 1T tokens following the core principles of LLama 2 and Mistral, leveraging and refining various techniques for pre-training large language models.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "OLMo",
@@ -757,6 +860,7 @@ const papers_data = [
       date: "February 2024",
       description:
         "A state-of-the-art, truly open language model and framework that includes training data, code, and tools for building, studying, and advancing language models.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "Orca Math",
@@ -764,6 +868,7 @@ const papers_data = [
       date: "February 2024",
       description:
         "A fine tuned Mistral-7B that excels at math problems without external tools, utilizing a high-quality synthetic dataset of 200K problems created through multi-agent collaboration and an iterative learning process that involves practicing problem-solving, receiving feedback, and learning from preference pairs incorporating the model's solutions and feedback.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data", "Scientific Data"],
     },
     {
       title: "Gemma",
@@ -771,6 +876,7 @@ const papers_data = [
       date: "February 2024",
       description:
         "A family of 2B and 7B, state-of-the-art language models based on Google's Gemini models, offering advancements in language understanding, reasoning, and safety.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "CodeGemma",
@@ -778,6 +884,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "Open code models based on Gemma models by further training on over 500 billion tokens of primarily code.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Code Generation"],
     },
     {
       title: "Phi-3",
@@ -785,6 +892,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "A series of language models trained on heavily filtered web and synthetic data set, achieving performance comparable to much larger models like Mixtral 8x7B and GPT-3.5.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data"],
     },
     {
       title: "Open ELM",
@@ -792,6 +900,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "A fully open language model designed to enhance accuracy while using fewer parameters and pre-training tokens. Utilizes a layer-wise scaling strategy to allocate smaller dimensions in early layers, expanding in later layers.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "H2O Danube2 1.8B",
@@ -799,6 +908,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "An updated version of the original H2O-Danube model, with improvements including removal of sliding window attention, changes to the tokenizer, and adjustments to the training data, resulting in significant performance enhancements.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "Granite Code Models",
@@ -806,6 +916,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "A family of code models ranging from 3B to 34B trained on 3.5-4.5T tokens of code written in 116 programming languages.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Code Generation"],
     },
     {
       title: "Gemma 2",
@@ -813,6 +924,7 @@ const papers_data = [
       date: "June 2024",
       description:
         "Utilizes interleaving local-global attentions and group-query attention, trained with knowledge distillation instead of next token prediction to achieve competitive performance comparable with larger models.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "Orca 3 (Agent Instruct)",
@@ -820,6 +932,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A fine tuned Mistral-7B through Generative Teaching via synthetic data generated through the proposed AgentInstruct framework, which generates both the prompts and responses, using only raw data sources like text documents and code files as seeds.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data"],
     },
     {
       title: "Mathstral",
@@ -827,6 +940,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A 7B model designed for math reasoning and scientific discovery based on Mistral 7B specializing in STEM subjects.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Scientific Data"],
     },
     {
       title: "Smol LM",
@@ -834,6 +948,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A family of small models with 135M, 360M, and 1.7B parameters, utilizes Grouped-Query Attention (GQA), embedding tying, and a context length of 2048 tokens, trained on a new open source high-quality dataset.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "Mistral Nemo",
@@ -841,6 +956,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A 12B Language Model built in collaboration between Mistral and NVIDIA, featuring a context window of 128K, an efficient tokenizer and trained with quantization awareness, enabling FP8 inference without any performance loss.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "Smol LM v0.2",
@@ -848,6 +964,7 @@ const papers_data = [
       date: "August 2024",
       description:
         "An advancement over SmolLM, better at staying on topic and responding appropriately to standard prompts, such as greetings and questions about their role as AI assistants.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "Phi-3.5",
@@ -855,6 +972,7 @@ const papers_data = [
       date: "August 2024",
       description:
         "A family of models consisting of three variants - MoE (16x3.8B), mini (3.8B), and vision (4.2B) - which are lightweight, multilingual, and trained on synthetic and filtered publicly available documents - with a focus on very high-quality, reasoning dense data.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data"],
     },
   ],
   [
@@ -865,6 +983,7 @@ const papers_data = [
       date: "February 2022",
       description:
         "A Vision-Language Pre-training (VLP) framework that introduces Multimodal mixture of Encoder-Decoder (MED) and Captioning and Filtering (CapFilt), a new dataset bootstrapping method for learning from noisy image-text pairs.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Flamingo",
@@ -872,6 +991,7 @@ const papers_data = [
       date: "April 2022",
       description:
         "Visual Language Models enabling seamless handling of interleaved visual and textual data, and facilitating few-shot learning on large-scale web corpora.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "PaLI",
@@ -879,6 +999,7 @@ const papers_data = [
       date: "September 2022",
       description:
         "A joint language-vision model that generates multilingual text based on visual and textual inputs, trained using large pre-trained encoder-decoder language models and Vision Transformers, specifically mT5 and ViT-e.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "BLIP 2",
@@ -886,6 +1007,7 @@ const papers_data = [
       date: "January 2023",
       description:
         "A Vision-Language Pre-training (VLP) framework that proposes Q-Former, a trainable module to bridge the gap between a frozen image encoder and a frozen LLM to bootstrap vision-language pre-training.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "LLaVA 1",
@@ -893,12 +1015,14 @@ const papers_data = [
       date: "April 2023",
       description:
         "A large multimodal model connecting CLIP and Vicuna trained end-to-end on instruction-following data generated through GPT-4 from image-text pairs.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "PaLI-X",
       link: "https://ritvik19.medium.com/papers-explained-195-pali-x-f9859e73fd97",
       date: "May 2023",
-      description: "A multilingual vision and language model with scaled-up components, specifically ViT-22 B and UL2 32B, exhibits emergent properties such as complex counting and multilingual object detection, and demonstrates improved performance across various tasks."
+      description: "A multilingual vision and language model with scaled-up components, specifically ViT-22 B and UL2 32B, exhibits emergent properties such as complex counting and multilingual object detection, and demonstrates improved performance across various tasks.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "InstructBLIP",
@@ -906,6 +1030,7 @@ const papers_data = [
       date: "May 2023",
       description:
         "Introduces instruction-aware Query Transformer to extract informative features tailored to the given instruction to study vision-language instruction tuning based on the pretrained BLIP-2 models.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Idefics",
@@ -913,6 +1038,7 @@ const papers_data = [
       date: "June 2023",
       description:
         "9B and 80B multimodal models trained on Obelics, an open web-scale dataset of interleaved image-text documents, curated in this work.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "GPT-4V",
@@ -920,6 +1046,7 @@ const papers_data = [
       date: "September 2023",
       description:
         "A multimodal model that combines text and vision capabilities, allowing users to instruct it to analyze image inputs.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "PaLI-3",
@@ -927,6 +1054,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "A 5B vision language model, built upon a 2B SigLIP Vision Model and UL2 3B Language Model outperforms larger models on various benchmarks and achieves SOTA on several video QA benchmarks despite not being pretrained on any video data.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "LLaVA 1.5",
@@ -934,6 +1062,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "An enhanced version of the LLaVA model that incorporates a CLIP-ViT-L-336px with an MLP projection and academic-task-oriented VQA data to set new benchmarks in large multimodal models (LMM) research.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Gemini 1.0",
@@ -941,6 +1070,7 @@ const papers_data = [
       date: "December 2023",
       description:
         "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "MoE-LLaVA",
@@ -948,6 +1078,7 @@ const papers_data = [
       date: "January 2024",
       description:
         "A MoE-based sparse LVLM framework that activates only the top-k experts through routers during deployment, maintaining computational efficiency while achieving comparable performance to larger models.",
+      tags: ["Multimodal Models", "Mixtures of Experts"],
     },
     {
       title: "LLaVA 1.6",
@@ -955,6 +1086,7 @@ const papers_data = [
       date: "January 2024",
       description:
         "An improved version of a LLaVA 1.5 with enhanced reasoning, OCR, and world knowledge capabilities, featuring increased image resolution",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Gemini 1.5 Pro",
@@ -962,6 +1094,7 @@ const papers_data = [
       date: "February 2024",
       description:
         "A highly compute-efficient multimodal mixture-of-experts model that excels in long-context retrieval tasks and understanding across text, video, and audio modalities.",
+      tags: ["Multimodal Models", "Mixtures of Experts"],
     },
     {
       title: "Claude 3",
@@ -969,6 +1102,7 @@ const papers_data = [
       date: "March 2024",
       description:
         "A family of VLMs consisting of Haiku, Sonnet, and Opus models, sets new industry standards for cognitive tasks, offering varying levels of intelligence, speed, and cost-efficiency.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "MM1",
@@ -976,12 +1110,14 @@ const papers_data = [
       date: "March 2024",
       description:
         "A multimodal llm that combines a ViT-H image encoder with 378x378px resolution, pretrained on a data mix of image-text documents and text-only documents, scaled up to 3B, 7B, and 30B parameters for enhanced performance across various tasks.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Grok 1.5 V",
       link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
       date: "April 2024",
       description: "The first multimodal model in the grok series.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Idefics2",
@@ -989,6 +1125,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "Improvement upon Idefics1 with enhanced OCR capabilities, simplified architecture, and better pre-trained backbones, trained on a mixture of openly available datasets and fine-tuned on task-oriented data.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Phi-3 Vision",
@@ -996,6 +1133,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "First multimodal model in the Phi family, bringing the ability to reason over images and extract and reason over text from images.",
+      tags: ["Multimodal Models", "Synthetic Data"],
     },
     {
       title: "An Introduction to Vision-Language Modeling",
@@ -1003,6 +1141,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "Provides a comprehensive introduction to VLMs, covering their definition, functionality, training methods, and evaluation approaches, aiming to help researchers and practitioners enter the field and advance the development of VLMs for various applications.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "GPT-4o",
@@ -1010,6 +1149,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "An omni model accepting and generating various types of inputs and outputs, including text, audio, images, and video.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Gemini 1.5 Flash",
@@ -1017,6 +1157,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "A more lightweight variant of the Gemini 1.5 pro, designed for efficiency with minimal regression in quality, making it suitable for applications where compute resources are limited.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Chameleon",
@@ -1024,6 +1165,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "A family of early-fusion token-based mixed-modal models capable of understanding and generating images and text in any arbitrary sequence.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Claude 3.5 Sonnet",
@@ -1031,6 +1173,7 @@ const papers_data = [
       date: "June 2024",
       description:
         "Surpasses previous versions and competitors in intelligence, speed, and cost-efficiency, excelling in graduate-level reasoning, undergraduate-level knowledge, coding proficiency, and visual reasoning.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Pali Gemma",
@@ -1038,6 +1181,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "Combines SigLIP vision model and the Gemma language model and follows the PaLI-3 training recipe to achieve strong performance on various vision-language tasks.",
+        tags: ["Multimodal Models"],
     },
     {
       title: "GPT-4o mini",
@@ -1045,6 +1189,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A cost-efficient small model that outperforms GPT-4 on chat preferences, enabling a broad range of tasks with low latency and supporting text, vision, and multimodal inputs and outputs.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "Grok 2",
@@ -1052,6 +1197,7 @@ const papers_data = [
       date: "August 2024",
       description:
         "A frontier language model with state-of-the-art capabilities in chat, coding, and reasoning on par with Claude 3.5 Sonnet and GPT-4-Turbo.",
+      tags: ["Multimodal Models"],
     },
     {
       title: "BLIP-3 (xGen-MM)",
@@ -1059,6 +1205,7 @@ const papers_data = [
       date: "August 2024",
       description:
         "A comprehensive system for developing Large Multimodal Models, comprising curated datasets, training recipes, model architectures, and pre-trained models that demonstrate strong in-context learning capabilities and competitive performance on various tasks.",
+      tags: ["Multimodal Models"],
     },
   ],
   [
@@ -1069,6 +1216,7 @@ const papers_data = [
       date: "February 2020",
       description: 
         "A simplified framework for contrastive learning that optimizes data augmentation composition, introduces learnable nonlinear transformations, and leverages larger batch sizes and more training steps.",
+        tags: ["Representation Learning"],
     },
     {
       title: "Dense Passage Retriever",
@@ -1076,6 +1224,7 @@ const papers_data = [
       date: "April 2020",
       description:
         "Shows that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual encoder framework.",
+        tags: ["Retrieval"],
     },
     {
       title: "ColBERT",
@@ -1083,6 +1232,7 @@ const papers_data = [
       date: "April 2020",
       description:
         "Introduces a late interaction architecture that adapts deep LMs (in particular, BERT) for efficient retrieval.",
+        tags: ["Retrieval"],
     },
     {
       title: "SimCLRv2",
@@ -1090,6 +1240,7 @@ const papers_data = [
       date: "June 2020",
       description: 
         "A Semi-supervised learning framework which uses unsupervised pre training followed by supervised fine-tuning and distillation with unlabeled examples.",
+        tags: ["Representation Learning"],
     },
     {
       title: "CLIP",
@@ -1097,6 +1248,7 @@ const papers_data = [
       date: "February 2021",
       description:
         "A vision system that learns image representations from raw text-image pairs through pre-training, enabling zero-shot transfer to various downstream tasks.",
+        tags: ["Representation Learning"],
     },
     {
       title: "ColBERTv2",
@@ -1104,6 +1256,7 @@ const papers_data = [
       date: "December 2021",
       description:
         "Couples an aggressive residual compression mechanism with a denoised supervision strategy to simultaneously improve the quality and space footprint of late interaction.",
+        tags: ["Retrieval"],
     },
     {
       title: "Matryoshka Representation Learning",
@@ -1111,6 +1264,7 @@ const papers_data = [
       date: "May 2022",
       description:
         "Encodes information at different granularities and allows a flexible representation that can adapt to multiple downstream tasks with varying computational resources using a single embedding.",
+        tags: ["Representation Learning"],
     },
     {
       title: "E5",
@@ -1118,6 +1272,7 @@ const papers_data = [
       date: "December 2022",
       description:
         "A family of text embeddings trained in a contrastive manner with weak supervision signals from a curated large-scale text pair dataset CCPairs.",
+        tags: ["Representation Learning"],
     },
     {
       title: "SigLip",
@@ -1125,6 +1280,7 @@ const papers_data = [
       date: "March 2023",
       description:
         "A simple pairwise Sigmoid loss function for Language-Image Pre-training that operates solely on image-text pairs, allowing for larger batch sizes and better performance at smaller batch sizes.",
+        tags: ["Representation Learning"],
     }, 
     {
       title: "SynCLR",
@@ -1132,6 +1288,7 @@ const papers_data = [
       date: "December 2023",
       description:
         "A visual representation learning method that leverages generative models to synthesize large-scale curated datasets without relying on any real data.",
+        tags: ["Representation Learning"],
     },
     {
       title: "E5 Mistral 7B",
@@ -1139,6 +1296,7 @@ const papers_data = [
       date: "December 2023",
       description:
         "Leverages proprietary LLMs to generate diverse synthetic data to fine tune open-source decoder-only LLMs for hundreds of thousands of text embedding tasks.",
+        tags: ["Representation Learning"],
     },
     {
       title: "Nomic Embed Text v1",
@@ -1146,6 +1304,7 @@ const papers_data = [
       date: "February 2024",
       description:
         "A 137M parameter, open-source English text embedding model with an 8192 context length that outperforms OpenAI's models on both short and long-context tasks.",
+        tags: ["Representation Learning"],
     },
     {
       title: "Nomic Embed Text v1.5",
@@ -1153,6 +1312,7 @@ const papers_data = [
       date: "February 2024",
       description:
         "An advanced text embedding model that utilizes Matryoshka Representation Learning to offer flexible embedding sizes with minimal performance trade-offs",
+        tags: ["Representation Learning"],
     },
     {
       title: "Gecko",
@@ -1160,6 +1320,7 @@ const papers_data = [
       date: "March 2024",
       description:
         "A 1.2B versatile text embedding model achieving strong retrieval performance by distilling knowledge from LLMs into a retriever.",
+        tags: ["Representation Learning", "Retrieval"],
     },
     {
       title: "NV Embed",
@@ -1167,6 +1328,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "Introduces architectural innovations and training recipe to significantly enhance LLMs performance in general-purpose text embedding tasks.",
+        tags: ["Representation Learning"],
     },
     {
       title: "Nomic Embed Vision v1 and v1.5",
@@ -1174,6 +1336,7 @@ const papers_data = [
       date: "June 2024",
       description:
         "Aligns a Vision Encoder with the existing text encoders without destroying the downstream performance of the text encoder, to attain a unified multimodal latent space.",
+        tags: ["Representation Learning"],
     },
     {
       title: "ColPali",
@@ -1181,6 +1344,7 @@ const papers_data = [
       date: "June 2024",
       description:
         "A retrieval model based on PaliGemma to produce high-quality contextualized embeddings solely from images of document pages, and employees late interaction allowing for efficient and effective visually rich document retrieval.",
+        tags: ["Retrieval"],
     },
     {
       title: "E5-V",
@@ -1188,6 +1352,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A framework that adapts Multimodal Large Language Models for achieving universal multimodal embeddings by leveraging prompts and single modality training on text pairs, which demonstrates strong performance in multimodal embeddings without fine-tuning and eliminates the need for costly multimodal training data collection.",
+        tags: ["Representation Learning"],
     },
     {
       title: "Matryoshka Adaptor",
@@ -1195,6 +1360,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A framework designed for the customization of LLM embeddings, facilitating substantial dimensionality reduction while maintaining comparable performance levels.",
+        tags: ["Representation Learning"],
     },
   ],
   [
@@ -1205,6 +1371,7 @@ const papers_data = [
       date: "July 2021",
       description:
         "Introduces trainable rank decomposition matrices into each layer of a pre-trained Transformer model, significantly reducing the number of trainable parameters for downstream tasks.",
+        tags: ["Parameter Efficient Fine Tuning"],
     },
     {
       title: "QLoRA",
@@ -1212,6 +1379,7 @@ const papers_data = [
       date: "May 2023",
       description:
         "Allows efficient training of large models on limited GPU memory, through innovations like 4-bit NormalFloat (NF4), double quantization and paged optimisers.",
+        tags: ["Parameter Efficient Fine Tuning"],
     },
     {
       title: "LongLoRA",
@@ -1219,6 +1387,7 @@ const papers_data = [
       date: "September 2023",
       description:
         "Enables context extension for large language models, achieving significant computation savings through sparse local attention and parameter-efficient fine-tuning.",
+        tags: ["Parameter Efficient Fine Tuning"],
     },
   ],
   [
@@ -1229,6 +1398,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "A 13B fully open source evaluation LLM trained on Feedback Collection curated using GPT-4 (in this work).",
+        tags: ["LLM Evaluation"],
     },
     {
       title: "Prometheus 2",
@@ -1236,6 +1406,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "7B & 8x7B evaluation LLMs that score high correlations with both human evaluators and proprietary LM-based judges on both direct assessment and pairwise ranking, obtained by merging Mistral models trained on Feedback Collection and Preference Collection (curated in this work.",
+        tags: ["LLM Evaluation"],
     },
   ],
   [
@@ -1246,6 +1417,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "A novel coarse-to-fine prompt compression method, incorporating a budget controller, an iterative token-level compression algorithm, and distribution alignment, achieving up to 20x compression with minimal performance loss.",
+        tags: ["Prompt Compression"],
     },
     {
       title: "LongLLMLingua",
@@ -1253,6 +1425,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "A novel approach for prompt compression to enhance performance in long context scenarios using question-aware compression and document reordering.",
+        tags: ["Prompt Compression"],
     },
     {
       title: "LLMLingua2",
@@ -1260,6 +1433,7 @@ const papers_data = [
       date: "March 2024",
       description:
         "A novel approach to task-agnostic prompt compression, aiming to enhance generalizability, using  data distillation and leveraging a Transformer encoder for token classification.",
+        tags: ["Prompt Compression"],
     },
   ],
   [
@@ -1270,6 +1444,7 @@ const papers_data = [
       date: "October 2020",
       description:
         "Images are segmented into patches, which are treated as tokens and a sequence of linear embeddings of these patches are input to a Transformer",
+      tags: ["Vision Transformers"],
     },
     {
       title: "DeiT",
@@ -1277,6 +1452,7 @@ const papers_data = [
       date: "December 2020",
       description:
         "A convolution-free vision transformer that uses a teacher-student strategy with attention-based distillation tokens.",
+      tags: ["Vision Transformers"],
     },
     {
       title: "Swin Transformer",
@@ -1284,6 +1460,7 @@ const papers_data = [
       date: "March 2021",
       description:
         "A hierarchical vision transformer that uses shifted windows to addresses the challenges of adapting the transformer model to computer vision.",
+      tags: ["Vision Transformers"],
     },
     {
       title: "Convolutional Vision Transformer",
@@ -1291,6 +1468,7 @@ const papers_data = [
       date: "March 2021",
       description:
         "Improves Vision Transformer (ViT) in performance and efficiency by introducing convolutions, to yield the best of both designs.",
+      tags: ["Vision Transformers"],
     },
     {
       title: "LeViT",
@@ -1298,6 +1476,7 @@ const papers_data = [
       date: "April 2021",
       description:
         "A hybrid neural network built upon the ViT architecture and DeiT training method, for fast inference image classification.",
+      tags: ["Vision Transformers"],
     },
     {
       title: "BEiT",
@@ -1305,6 +1484,7 @@ const papers_data = [
       date: "June 2021",
       description:
         "Utilizes a masked image modeling task inspired by BERT in, involving image patches and visual tokens to pretrain vision Transformers.",
+      tags: ["Vision Transformers"],
     },
     {
       title: "MobileViT",
@@ -1312,6 +1492,7 @@ const papers_data = [
       date: "October 2021",
       description:
         "A lightweight vision transformer designed for mobile devices, effectively combining the strengths of CNNs and ViTs.",
+      tags: ["Vision Transformers"],
     },
     {
       title: "Masked AutoEncoder",
@@ -1319,6 +1500,7 @@ const papers_data = [
       date: "November 2021",
       description:
         "An encoder-decoder architecture that reconstructs input images by masking random patches and leveraging a high proportion of masking for self-supervision.",
+      tags: ["Vision Transformers"],
     },
   ],
   [
@@ -1328,6 +1510,7 @@ const papers_data = [
       link: "https://ritvik19.medium.com/papers-explained-review-01-convolutional-neural-networks-78aeff61dcb3#4f26",
       date: "December 1998",
       description: "Introduced Convolutions.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Alex Net",
@@ -1335,6 +1518,7 @@ const papers_data = [
       date: "September 2012",
       description:
         "Introduced ReLU activation and Dropout to CNNs. Winner ILSVRC 2012.",
+        tags: ["Convolutional Neural Networks"],
     },
     {
       title: "VGG",
@@ -1342,6 +1526,7 @@ const papers_data = [
       date: "September 2014",
       description:
         "Used large number of filters of small size in each layer to learn complex features. Achieved SOTA in ILSVRC 2014.",
+        tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Inception Net",
@@ -1349,6 +1534,7 @@ const papers_data = [
       date: "September 2014",
       description:
         "Introduced Inception Modules consisting of multiple parallel convolutional layers, designed to recognize different features at multiple scales.",
+        tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Inception Net v2 / Inception Net v3",
@@ -1356,6 +1542,7 @@ const papers_data = [
       date: "December 2015",
       description:
         "Design Optimizations of the Inception Modules which improved performance and accuracy.",
+        tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Res Net",
@@ -1363,12 +1550,14 @@ const papers_data = [
       date: "December 2015",
       description:
         "Introduced residual connections, which are shortcuts that bypass one or more layers in the network. Winner ILSVRC 2015.",
+        tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Inception Net v4 / Inception ResNet",
       link: "https://ritvik19.medium.com/papers-explained-review-01-convolutional-neural-networks-78aeff61dcb3#83ad",
       date: "February 2016",
       description: "Hybrid approach combining Inception Net and ResNet.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Dense Net",
@@ -1376,6 +1565,7 @@ const papers_data = [
       date: "August 2016",
       description:
         "Each layer receives input from all the previous layers, creating a dense network of connections between the layers, allowing to learn more diverse features.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Xception",
@@ -1383,6 +1573,7 @@ const papers_data = [
       date: "October 2016",
       description:
         "Based on InceptionV3 but uses depthwise separable convolutions instead on inception modules.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Res Next",
@@ -1390,6 +1581,7 @@ const papers_data = [
       date: "November 2016",
       description:
         "Built over ResNet, introduces the concept of grouped convolutions, where the filters in a convolutional layer are divided into multiple groups.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Mobile Net V1",
@@ -1397,6 +1589,7 @@ const papers_data = [
       date: "April 2017",
       description:
         "Uses depthwise separable convolutions to reduce the number of parameters and computation required.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Mobile Net V2",
@@ -1404,6 +1597,7 @@ const papers_data = [
       date: "January 2018",
       description:
         "Built upon the MobileNetv1 architecture, uses inverted residuals and linear bottlenecks.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Mobile Net V3",
@@ -1411,6 +1605,7 @@ const papers_data = [
       date: "May 2019",
       description:
         "Uses AutoML to find the best possible neural network architecture for a given problem.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Efficient Net",
@@ -1418,6 +1613,7 @@ const papers_data = [
       date: "May 2019",
       description:
         "Uses a compound scaling method to scale the network's depth, width, and resolution to achieve a high accuracy with a relatively low computational cost.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "NF Net",
@@ -1425,6 +1621,7 @@ const papers_data = [
       date: "February 2021",
       description:
         "An improved class of Normalizer-Free ResNets that implement batch-normalized networks, offer faster training times, and introduce an adaptive gradient clipping technique to overcome instabilities associated with deep ResNets.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "Conv Mixer",
@@ -1432,6 +1629,7 @@ const papers_data = [
       date: "January 2022",
       description:
         "Processes image patches using standard convolutions for mixing spatial and channel dimensions.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "ConvNeXt",
@@ -1439,6 +1637,7 @@ const papers_data = [
       date: "January 2022",
       description:
         "A pure ConvNet model, evolved from standard ResNet design, that competes well with Transformers in accuracy and scalability.",
+      tags: ["Convolutional Neural Networks"],
     },
     {
       title: "ConvNeXt V2",
@@ -1446,6 +1645,7 @@ const papers_data = [
       date: "January 2023",
       description:
         "Incorporates a fully convolutional MAE framework and a Global Response Normalization (GRN) layer, boosting performance across multiple benchmarks.",
+      tags: ["Convolutional Neural Networks"],
     },
   ],
   [
@@ -1456,6 +1656,7 @@ const papers_data = [
       date: "December 2015",
       description:
         "Discretizes bounding box outputs over a span of various scales and aspect ratios per feature map.",
+      tags: ["Object Detection"],
     },
     {
       title: "Feature Pyramid Network",
@@ -1463,6 +1664,7 @@ const papers_data = [
       date: "December 2016",
       description:
         "Leverages the inherent multi-scale hierarchy of deep convolutional networks to efficiently construct feature pyramids.",
+      tags: ["Object Detection"],
     },
     {
       title: "Focal Loss",
@@ -1470,6 +1672,7 @@ const papers_data = [
       date: "August 2017",
       description:
         "Addresses class imbalance in dense object detectors by down-weighting the loss assigned to well-classified examples.",
+      tags: ["Object Detection"],
     },
     {
       title: "DETR",
@@ -1477,6 +1680,7 @@ const papers_data = [
       date: "May 2020",
       description:
         "A novel transformers based object detection model that treats object detection as a set prediction problem, eliminating the need for hand-designed components.",
+      tags: ["Object Detection", "Vision Transformers"],
     },
   ],
   [
@@ -1487,6 +1691,7 @@ const papers_data = [
       date: "November 2013",
       description:
         "Uses selective search for region proposals, CNNs for feature extraction, SVM for classification followed by box offset regression.",
+      tags: ["Object Detection", "Convolutional Neural Networks"],
     },
     {
       title: "Fast RCNN",
@@ -1494,6 +1699,7 @@ const papers_data = [
       date: "April 2015",
       description:
         "Processes entire image through CNN, employs RoI Pooling to extract feature vectors from ROIs, followed by classification and BBox regression.",
+      tags: ["Object Detection", "Convolutional Neural Networks"],
     },
     {
       title: "Faster RCNN",
@@ -1501,6 +1707,7 @@ const papers_data = [
       date: "June 2015",
       description:
         "A region proposal network (RPN) and a Fast R-CNN detector, collaboratively predict object regions by sharing convolutional features.",
+      tags: ["Object Detection", "Convolutional Neural Networks"],
     },
     {
       title: "Mask RCNN",
@@ -1508,6 +1715,7 @@ const papers_data = [
       date: "March 2017",
       description:
         "Extends Faster R-CNN to solve instance segmentation tasks, by adding a branch for predicting an object mask in parallel with the existing branch.",
+      tags: ["Object Detection", "Convolutional Neural Networks"],
     },
     {
       title: "Cascade RCNN",
@@ -1515,6 +1723,7 @@ const papers_data = [
       date: "December 2017",
       description:
         "Proposes a multi-stage approach where detectors are trained with progressively higher IoU thresholds, improving selectivity against false positives.",
+      tags: ["Object Detection", "Convolutional Neural Networks"],
     },
   ],
   [
@@ -1525,6 +1734,7 @@ const papers_data = [
       date: "January 2020",
       description:
         "An end-to-end deep learning model designed for both table detection and structure recognition.",
+      tags: ["Document Understanding"],
     },
     {
       title: "Donut",
@@ -1532,6 +1742,7 @@ const papers_data = [
       date: "November 2021",
       description:
         "An OCR-free Encoder-Decoder Transformer model. The encoder takes in images, decoder takes in prompts & encoded images to generate the required text.",
+      tags: ["Document Understanding", "Multimodal Models"],
     },
     {
       title: "DiT",
@@ -1539,6 +1750,7 @@ const papers_data = [
       date: "March 2022",
       description:
         "An Image Transformer pre-trained (self-supervised) on document images",
+      tags: ["Document Understanding", "Vision Transformers"],
     },
     {
       title: "UDoP",
@@ -1546,6 +1758,7 @@ const papers_data = [
       date: "December 2022",
       description:
         "Integrates text, image, and layout information through a Vision-Text-Layout Transformer, enabling unified representation.",
+      tags: ["Document Understanding", "Multimodal Models"],
     },
     {
       title: "DocLLM",
@@ -1553,6 +1766,7 @@ const papers_data = [
       date: "January 2024",
       description:
         "A lightweight extension to traditional LLMs that focuses on reasoning over visual documents, by incorporating textual semantics and spatial layout without expensive image encoders.",
+      tags: ["Document Understanding", "Transformer Decoder"],
     },
   ],
   [
@@ -1563,6 +1777,7 @@ const papers_data = [
       date: "December 2019",
       description:
         "Utilises BERT as the backbone, adds two new input embeddings: 2-D position embedding and image embedding (Only for downstream tasks).",
+      tags: ["Layout Aware Language Models"],
     },
     {
       title: "LamBERT",
@@ -1570,6 +1785,7 @@ const papers_data = [
       date: "February 2020",
       description:
         "Utilises RoBERTa as the backbone and adds Layout embeddings along with relative bias.",
+        tags: ["Layout Aware Language Models"],
     },
     {
       title: "Layout LM v2",
@@ -1577,6 +1793,7 @@ const papers_data = [
       date: "December 2020",
       description:
         "Uses a multi-modal Transformer model, to integrate text, layout, and image in the pre-training stage, to learn end-to-end cross-modal interaction.",
+        tags: ["Layout Aware Language Models"],
     },
     {
       title: "Structural LM",
@@ -1584,6 +1801,7 @@ const papers_data = [
       date: "May 2021",
       description:
         "Utilises BERT as the backbone and feeds text, 1D and (2D cell level) embeddings to the transformer model.",
+        tags: ["Layout Aware Language Models"],
     },
     {
       title: "Doc Former",
@@ -1591,6 +1809,7 @@ const papers_data = [
       date: "June 2021",
       description:
         "Encoder-only transformer with a CNN backbone for visual feature extraction, combines text, vision, and spatial features through a multi-modal self-attention layer.",
+        tags: ["Layout Aware Language Models"],
     },
     {
       title: "LiLT",
@@ -1598,6 +1817,7 @@ const papers_data = [
       date: "February 2022",
       description:
         "Introduced Bi-directional attention complementation mechanism (BiACM) to accomplish the cross-modal interaction of text and layout.",
+        tags: ["Layout Aware Language Models"],
     },
     {
       title: "Layout LM V3",
@@ -1605,6 +1825,7 @@ const papers_data = [
       date: "April 2022",
       description:
         "A unified text-image multimodal Transformer to learn cross-modal representations, that imputs concatenation of text embedding and image embedding.",
+        tags: ["Layout Aware Language Models"],
     },
     {
       title: "ERNIE Layout",
@@ -1612,6 +1833,7 @@ const papers_data = [
       date: "October 2022",
       description:
         "Reorganizes tokens using layout information, combines text and visual embeddings, utilizes multi-modal transformers with spatial aware disentangled attention.",
+        tags: ["Layout Aware Language Models"],
     },
   ],
   [
@@ -1622,6 +1844,8 @@ const papers_data = [
       date: "June 2014",
       description:
         "Introduces a framework where, a generative and a discriminative model, are trained simultaneously in a minimax game.",
+      tags: ["Generative Adversarial Networks"],
+
     },
     {
       title: "Conditional Generative Adversarial Networks",
@@ -1629,6 +1853,7 @@ const papers_data = [
       date: "November 2014",
       description:
         "A method for training GANs, enabling the generation based on specific conditions, by feeding them to both the generator and discriminator networks.",
+      tags: ["Generative Adversarial Networks"],
     },
     {
       title: "Deep Convolutional Generative Adversarial Networks",
@@ -1636,6 +1861,7 @@ const papers_data = [
       date: "November 2015",
       description:
         "Demonstrates the ability of CNNs for unsupervised learning using specific architectural constraints designed.",
+      tags: ["Generative Adversarial Networks"],
     },
     {
       title: "Improved GAN",
@@ -1643,6 +1869,7 @@ const papers_data = [
       date: "June 2016",
       description:
         "Presents a variety of new architectural features and training procedures that can be applied to the generative adversarial networks (GANs) framework.",
+      tags: ["Generative Adversarial Networks"],
     },
     {
       title: "Wasserstein Generative Adversarial Networks",
@@ -1650,6 +1877,7 @@ const papers_data = [
       date: "January 2017",
       description:
         "An alternative GAN training algorithm that enhances learning stability, mitigates issues like mode collapse.",
+      tags: ["Generative Adversarial Networks"],
     },
     {
       title: "Cycle GAN",
@@ -1657,6 +1885,7 @@ const papers_data = [
       date: "March 2017",
       description:
         "An approach for learning to translate an image from a source domain X to a target domain Y in the absence of paired examples by leveraging adversarial losses and cycle consistency constraints, using two GANs",
+      tags: ["Generative Adversarial Networks"],
     },
   ],
   [
@@ -1667,6 +1896,7 @@ const papers_data = [
       date: "April 2016",
       description:
         "Maps categorical variables into continuous vector spaces through neural network learning, revealing intrinsic properties.",
+      tags: ["Tabular Data"],
     },
     {
       title: "Wide and Deep Learning",
@@ -1674,6 +1904,7 @@ const papers_data = [
       date: "June 2016",
       description:
         "Combines memorization of specific patterns with generalization of similarities.",
+      tags: ["Tabular Data"],
     },
     {
       title: "Deep and Cross Network",
@@ -1681,6 +1912,7 @@ const papers_data = [
       date: "August 2017",
       description:
         "Combines the  a novel cross network with deep neural networks (DNNs) to efficiently learn feature interactions without manual feature engineering.",
+      tags: ["Tabular Data"],
     },
     {
       title: "Tab Transformer",
@@ -1688,12 +1920,14 @@ const papers_data = [
       date: "December 2020",
       description:
         "Employs multi-head attention-based Transformer layers to convert categorical feature embeddings into robust contextual embeddings.",
+      tags: ["Tabular Data"],
     },
     {
       title: "Tabular ResNet",
       link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#46af",
       date: "June 2021",
       description: "An MLP with skip connections.",
+      tags: ["Tabular Data"],
     },
     {
       title: "Feature Tokenizer Transformer",
@@ -1701,6 +1935,7 @@ const papers_data = [
       date: "June 2021",
       description:
         "Transforms all features (categorical and numerical) to embeddings and applies a stack of Transformer layers to the embeddings.",
+      tags: ["Tabular Data"],
     },
   ],
   [
@@ -1711,6 +1946,7 @@ const papers_data = [
       date: "June 2023",
       description:
         "An open web-scale filtered dataset of interleaved image-text documents comprising 141M web pages, 353M associated images, and 115B text tokens, extracted from CommonCrawl.",
+      tags: ["Datasets", "Multimodal Datasets"],
     },
     {
       title: "Dolma",
@@ -1718,6 +1954,7 @@ const papers_data = [
       date: "January 2024",
       description:
         "An open corpus of three trillion tokens designed to support language model pretraining research.",
+      tags : ["Datasets", "Language Model Datasets"],
     },
     {
       title: "Aya Dataset",
@@ -1725,6 +1962,7 @@ const papers_data = [
       date: "February 2024",
       description:
         "A human-curated instruction-following dataset that spans 65 languages, created to bridge the language gap in datasets for natural language processing.",
+      tags: ["Datasets", "Multilingual Datasets"],
     },
     {
       title: "WebSight",
@@ -1732,6 +1970,7 @@ const papers_data = [
       date: "March 2024",
       description:
         "A synthetic dataset consisting of 2M pairs of HTML codes and their corresponding screenshots, generated through LLMs, aimed to accelerate research for converting a screenshot into a corresponding HTML. ",
+      tags: ["Datasets", "Multimodal Datasets"],
     },
     {
       title: "Cosmopedia",
@@ -1739,6 +1978,7 @@ const papers_data = [
       date: "March 2024",
       description:
         "Synthetic Data containing over 30M files and 25B tokens, generated by Mixtral-8x7B-Instruct-v0., aimed to reproduce the training data for Phi-1.5.",
+      tags: ["Datasets", "Language Model Datasets"],
     },
     {
       title: "Fine Web",
@@ -1746,6 +1986,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "A large-scale dataset for pretraining LLMs, consisting of 15T tokens, shown to produce better-performing models than other open pretraining datasets.",
+      tags: ["Datasets", "Language Model Datasets"],
     },
     {
       title: "Cosmopedia v2",
@@ -1753,6 +1994,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "An enhanced version of Cosmopedia, with a lot of emphasis on prompt optimization.",
+      tags: ["Datasets", "Language Model Datasets"],
     },
     {
       title: "Docmatix",
@@ -1760,6 +2002,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A massive dataset for DocVQA containing 2.4M images, 9.5M question-answer pairs, and 1.3M PDF documents, generated by taking transcriptions from the PDFA OCR dataset and using a Phi-3-small model to generate Q/A pairs. ",
+      tags: ["Datasets", "Document Understanding"],
     },
   ],
   [
@@ -1770,6 +2013,7 @@ const papers_data = [
       date: "December 2022",
       description:
         "A method enabling the benefits of multitask learning through distributed computation without data sharing and improving model performance.",
+      tags: [],
     },
     {
       title: "Are Emergent Abilities of Large Language Models a Mirage?",
@@ -1777,6 +2021,7 @@ const papers_data = [
       date: "April 2023",
       description:
         "Presents an alternative explanation for emergent abilities, i.e. emergent abilities are created by the researcher’s choice of metrics, not fundamental changes in model family behaviour on specific tasks with scale.",
+      tags: [],
     },
     {
       title: "Scaling Data-Constrained Language Models",
@@ -1784,6 +2029,7 @@ const papers_data = [
       date: "May 2023",
       description:
         "This study investigates scaling language models in data-constrained regimes.",
+      tags: [],
     },
     {
       title: "DSPy",
@@ -1791,6 +2037,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "A programming model that abstracts LM pipelines as text transformation graphs, i.e. imperative computation graphs where LMs are invoked through declarative modules, optimizing their use through a structured framework of signatures, modules, and teleprompters to automate and enhance text transformation tasks.",
+      tags: [],
     },
     {
       title: "An In-depth Look at Gemini's Language Abilities",
@@ -1798,6 +2045,7 @@ const papers_data = [
       date: "December 2023",
       description:
         "A third-party, objective comparison of the abilities of the OpenAI GPT and Google Gemini models with reproducible code and fully transparent results.",
+      tags: [],
     },
     {
       title: "Direct Preference Optimization",
@@ -1805,6 +2053,7 @@ const papers_data = [
       date: "December 2023",
       description:
         "A stable, performant, and computationally lightweight algorithm that fine-tunes llms to align with human preferences without the need for reinforcement learning, by directly optimizing for the policy best satisfying the preferences with a simple classification objective.",
+      tags: [],
     },
     {
       title: "RLHF Workflow",
@@ -1812,6 +2061,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "Provides a detailed recipe for  online iterative RLHF and achieves state-of-the-art performance on various benchmarks using fully open-source datasets.",
+      tags: [],
     },
     {
       title: "Monte Carlo Tree Self-refine",
@@ -1819,6 +2069,7 @@ const papers_data = [
       date: "June 2024",
       description:
         "Integrates LLMs with Monte Carlo Tree Search to enhance performance in complex mathematical reasoning tasks, leveraging systematic exploration and heuristic self-refine mechanisms to improve decision-making frameworks.",
+      tags: ["Scientific Data"],
     },
     {
       title: "Magpie",
@@ -1826,6 +2077,7 @@ const papers_data = [
       date: "June 2024",
       description:
         "A self-synthesis method that extracts high-quality instruction data at scale by prompting an aligned LLM with left-side templates, generating 4M instructions and their corresponding responses.",
+      tags: ["Synthetic Data"],
     },
     {
       title: "Instruction Pre-Training",
@@ -1833,6 +2085,7 @@ const papers_data = [
       date: "June 2024",
       description:
         "A framework to augment massive raw corpora with instruction-response pairs enabling supervised multitask pretraining of LMs.",
+      tags: ["Synthetic Data"],
     },
     {
       title: "Proofread",
@@ -1840,6 +2093,7 @@ const papers_data = [
       date: "June 2024",
       description:
         "A Gboard feature powered by a server-side LLM, enabling seamless sentence-level and paragraph-level corrections with a single tap.",
+      tags: ["Language Models"],
     },
   ],
 ];

@@ -35,19 +35,30 @@ function create_container_contents(data) {
       data[i].title,
       data[i].link,
       data[i].date,
-      data[i].description
+      data[i].description,
+      data[i].tags
     );
   }
   return contents;
 }
 
-function create_cards(title, link, date, description) {
-  console.log(title, link, date, description);
+function create_tags(tags) {
+  content = "<div class='tags'>";
+  for (var i = 0; i < tags.length; i++) {
+    content += `<span class="badge">${tags[i]}</span>`;
+  }
+  content += "</div>";
+  return content;
+}
+
+function create_cards(title, link, date, description, tags) {
+  console.log(title, link, date, description, tags);
   return `
   <div class="card">
     <div class="card-body">
       <h3 class="card-title">${title}</h3>
       <p class="card-text">${date}<br>${description}</p>
+      ${create_tags(tags)}
     </div>
     <div class="card-footer">
       <a target="_blank" href=${link}>
