@@ -101,3 +101,18 @@ container.innerHTML += create_section(
       reading_list_data
     )
 );
+
+
+function search() {
+  var input, filter, cards;
+  input = document.getElementById('search_input');
+  filter = input.value.toUpperCase();
+  cards = document.getElementsByClassName("card");
+  for (i = 0; i < cards.length; i++) {
+    if (cards[i].textContent.toUpperCase().indexOf(filter) > -1) {
+      cards[i].style.display = "";
+    } else {
+      cards[i].style.display = "none";
+    }
+  }
+}
