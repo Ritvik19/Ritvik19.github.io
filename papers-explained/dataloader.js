@@ -115,4 +115,25 @@ function search() {
       cards[i].style.display = "none";
     }
   }
+  hide_empty_sections();
+}
+
+// if call tha card in a section are hidden, hide the section
+function hide_empty_sections() {
+  var sections = document.getElementsByClassName("section");
+  for (i = 0; i < sections.length; i++) {
+    var cards = sections[i].getElementsByClassName("card");
+    var visible = false;
+    for (j = 0; j < cards.length; j++) {
+      if (cards[j].style.display != "none") {
+        visible = true;
+        break;
+      }
+    }
+    if (!visible) {
+      sections[i].style.display = "none";
+    } else {
+      sections[i].style.display = "";
+    }
+  }
 }
