@@ -1286,11 +1286,18 @@ const papers_data = [
         "A hierarchical vision transformer that uses shifted windows to addresses the challenges of adapting the transformer model to computer vision.",
     },
     {
-      title: "Convolutional vision Transformer",
+      title: "Convolutional Vision Transformer",
       link: "https://ritvik19.medium.com/papers-explained-199-cvt-fb4a5c05882e",
       date: "March 2021",
       description:
         "Improves Vision Transformer (ViT) in performance and efficiency by introducing convolutions, to yield the best of both designs.",
+    },
+    {
+      title: "LeViT",
+      link: "https://ritvik19.medium.com/papers-explained-205-levit-89a2defc2d18",
+      date: "April 2021",
+      description:
+        "A hybrid neural network built upon the ViT architecture and DeiT training method, for fast inference image classification.",
     },
     {
       title: "BEiT",
