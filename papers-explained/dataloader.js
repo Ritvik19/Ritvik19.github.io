@@ -58,7 +58,7 @@ function create_cards(title, link, date, description) {
   `;
 }
 
-function create_literature_review_section_contents(
+function create_reading_list_section_contents(
   header,
   literature_review_data
 ) {
@@ -80,6 +80,43 @@ function create_literature_review_section_contents(
   return contents;
 }
 
+function create_literature_review_section_contents(
+  header,
+  literature_review_data
+) {
+  let contents = `<h4>${header}</h4><div class="card-columns">`;
+  for (var i = 0; i < literature_review_data.length; i++) {
+    contents += `
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">${literature_review_data[i].title}</h3>
+      </div>
+      <ul class="list-group list-group-flush">
+        ${create_literature_review_list_items(literature_review_data[i].papers)}
+      </ul>
+      <div class="card-footer">
+        <a target="_blank" href=${literature_review_data[i].link}>
+          <img src="https://img.shields.io/badge/Read_on-Medium-337ab7?style=flat" alt="Read on Medium">
+        </a>
+      </div>
+    </div>`; 
+  }
+  contents += "</div>";
+  return contents;
+}
+
+function create_literature_review_list_items(data) {
+  let contents = "";
+  for (var i = 0; i < data.length; i++) {
+    contents += `
+    <li class="list-group-item">
+        ${data[i]}
+    </li>
+    `;
+  }
+  return contents;
+}
+
 let container = document.getElementById("container");
 for (var i = 0; i < nav_data.length; i++) {
   container.innerHTML += create_section(
@@ -91,15 +128,17 @@ for (var i = 0; i < nav_data.length; i++) {
 
 container.innerHTML += create_section(
   `line_${nav_data.length + 1}`,
-  "Literature Reviews and Reading Lists",
+  "Literature Reviews",
   create_literature_review_section_contents(
     "Literature Reviews",
     literature_review_data
-  ) +
-    create_literature_review_section_contents(
-      "Reading Lists",
-      reading_list_data
-    )
+  )
+);
+
+container.innerHTML += create_section(
+  `line_${nav_data.length + 2}`,
+  "Reading Lists",
+  create_reading_list_section_contents("Reading List", reading_list_data)
 );
 
 
@@ -118,7 +157,6 @@ function search() {
   hide_empty_sections();
 }
 
-// if call tha card in a section are hidden, hide the section
 function hide_empty_sections() {
   var sections = document.getElementsByClassName("section");
   for (i = 0; i < sections.length; i++) {

@@ -1848,22 +1848,37 @@ const literature_review_data = [
   {
     title: "Convolutional Neural Networks",
     link: "https://ritvik19.medium.com/papers-explained-review-01-convolutional-neural-networks-78aeff61dcb3",
+    papers: [
+      "LeNet", "AlexNet", "VGG", "Inception Net", "ResNet", "Inception Net v2 / v3", "ResNext", "DenseNet", "Xception", "MobileNet V1", "MobileNet V2", "MobileNet V3", "EfficientNet"
+    ]
   },
   {
     title: "Layout Transformers",
     link: "https://ritvik19.medium.com/papers-explained-review-02-layout-transformers-b2d165c94ad5",
+    papers: [
+      "Layout LM", "LamBERT", "Layout LM v2", "Structural LM", "Doc Former",  "BROS", "LiLT", "Layout LM V3", "ERNIE Layout"
+    ]
   },
   {
     title: "Region Based Convolutional Neural Networks",
     link: "https://ritvik19.medium.com/papers-explained-review-03-rcnns-42c0a3974493",
+    papers: [
+      "RCNN", "Fast RCNN", "Faster RCNN", "Mask RCNN", "Cascade RCNN"
+    ]
   },
   {
     title: "Tabular Deep Learning",
     link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b",
+    papers: [
+      "Entity Embeddings", "Wide and Deep Learning", "Deep and Cross Network", "Tab Transformer", "Tabular ResNet", "Feature Tokenizer Transformer"
+    ]
   },
   {
     title: "Generative Adversarial Networks",
     link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e",
+    papers: [
+      "GAN", "Conditional GAN", "Deep Convolutional GAN", "Improved GAN", "Wasserstein GAN", "Cycle GAN"
+    ]
   },
 ];
 
