@@ -222,14 +222,6 @@ const papers_data = [
       tags: ["Language Models"],
     },
     {
-      title: "Self Instruct",
-      link: "https://ritvik19.medium.com/papers-explained-112-self-instruct-5c192580103a",
-      date: "December 2022",
-      description:
-        "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
-      tags: ["Language Models", "Synthetic Data"],
-    },
-    {
       title: "CodeFusion",
       link: "https://ritvik19.medium.com/papers-explained-70-codefusion-fee6aba0149a",
       date: "October 2023",
@@ -252,14 +244,6 @@ const papers_data = [
       description:
         "Introduces Real Gated Linear Recurrent Unit Layer that forms the core of the new recurrent block, replacing Multi-Query Attention for better efficiency and scalability",
       tags: ["Language Models"],  
-    },
-    {
-      title: "WRAP",
-      link: "https://ritvik19.medium.com/papers-explained-118-wrap-e563e009fe56",
-      date: "March 2024",
-      description:
-        "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
-      tags: ["Language Models", "Synthetic Data"],
     },
     {
       title: "RecurrentGemma",
@@ -1976,6 +1960,14 @@ const papers_data = [
       tags: [],
     },
     {
+      title: "Self Instruct",
+      link: "https://ritvik19.medium.com/papers-explained-112-self-instruct-5c192580103a",
+      date: "December 2022",
+      description:
+        "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
+      tags: ["Synthetic Data"],
+    },
+    {
       title: "Are Emergent Abilities of Large Language Models a Mirage?",
       link: "https://ritvik19.medium.com/papers-explained-are-emergent-abilities-of-large-language-models-a-mirage-4160cf0e44cb",
       date: "April 2023",
@@ -2038,6 +2030,14 @@ const papers_data = [
       description:
         "A stable, performant, and computationally lightweight algorithm that fine-tunes llms to align with human preferences without the need for reinforcement learning, by directly optimizing for the policy best satisfying the preferences with a simple classification objective.",
       tags: [],
+    },
+    {
+      title: "WRAP",
+      link: "https://ritvik19.medium.com/papers-explained-118-wrap-e563e009fe56",
+      date: "March 2024",
+      description:
+        "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
+      tags: ["Language Models", "Synthetic Data"],
     },
     {
       title: "LLMLingua2",
