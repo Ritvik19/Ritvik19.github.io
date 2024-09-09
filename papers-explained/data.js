@@ -674,6 +674,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
     },
     {
+      title: "Nemotron-4 15B",
+      link: "https://ritvik19.medium.com/papers-explained-206-nemotron-4-15b-7d895fb56134",
+      date: "February 2024",
+      description:
+        "A 15B multilingual language model trained on 8T text tokens by Nvidia.",
+      tags: ["Language Models", "Transformer Decoder"],
+    },
+    {
       title: "DBRX",
       link: "https://ritvik19.medium.com/papers-explained-119-dbrx-17c61739983c",
       date: "March 2024",
