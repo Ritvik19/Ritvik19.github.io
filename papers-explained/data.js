@@ -738,6 +738,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Multilingual Models"],
     },
     {
+      title: "Nemotron-4 340B",
+      link: "https://ritvik19.medium.com/papers-explained-207-nemotron-4-340b-4cfe268439f8",
+      date: "June 2024",
+      description:
+        "340B models, along with a reward model by Nvidia, suitable for generating synthetic data to train smaller language models, with over 98% of the data used in model alignment being synthetically generated.",
+      tags: ["Language Models", "Transformer Decoder"],
+    },
+    {
       title: "LLama 3.1",
       link: "https://ritvik19.medium.com/papers-explained-187b-llama-3-1-f0fb06898c59",
       date: "July 2024",
