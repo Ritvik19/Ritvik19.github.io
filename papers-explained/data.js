@@ -957,6 +957,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
+      title: "Minitron",
+      link: "https://ritvik19.medium.com/papers-explained-208-minitron-e55ea374d9dd",
+      date: "July 2024",
+      description:
+        "Prunes an existing Nemotron model and re-trains it with a fraction of the original training data, achieving compression factors of 2-4×, compute cost savings of up to 40×, and improved performance on various language modeling tasks.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Pruning", "Knowledge Distillation"],
+    },
+    {
       title: "Smol LM v0.2",
       link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#fdb2",
       date: "August 2024",
