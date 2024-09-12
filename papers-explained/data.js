@@ -980,6 +980,14 @@ const papers_data = [
         "A family of models consisting of three variants - MoE (16x3.8B), mini (3.8B), and vision (4.2B) - which are lightweight, multilingual, and trained on synthetic and filtered publicly available documents - with a focus on very high-quality, reasoning dense data.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data"],
     },
+    {
+      title: "Minitron Approach in Practice",
+      link: "https://ritvik19.medium.com/papers-explained-209-minitron-approach-in-practice-6b473f67328d",
+      date: "August 2024",
+      description:
+        "Applies the minitron approach to Llama 3.1 8B and Mistral-Nemo 12B, additionally applies teacher correction to align with the new data distribution.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Pruning", "Knowledge Distillation"],
+    },
   ],
   [
     // Multi Modal Language Models
