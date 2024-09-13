@@ -1470,6 +1470,14 @@ const papers_data = [
         "An encoder-decoder architecture that reconstructs input images by masking random patches and leveraging a high proportion of masking for self-supervision.",
       tags: ["Vision Transformers"],
     },
+    {
+      title: "MaxViT",
+      link: "https://ritvik19.medium.com/papers-explained-210-maxvit-6c68cc515413",
+      date: "April 2022",
+      description:
+        "Introduces multi-axis attention, allowing global-local spatial interactions on arbitrary input resolutions with only linear complexity.",
+      tags: ["Vision Transformers"],
+    },
   ],
   [
     // Convolutional Neural Networks
