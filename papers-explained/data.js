@@ -777,6 +777,23 @@ const papers_data = [
         "Neutrally generalist instruct and tool use models, created by fine-tuning Llama 3.1 models with strong reasoning and creative abilities, and are designed to follow prompts neutrally without moral judgment or personal opinions.",
       tags: ["Language Models", "Transformer Decoder"],
     },
+    {
+      title: "o1",
+      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e",
+      date: "September 2024",
+      description:
+        "A large language model trained with reinforcement learning to think before answering, producing a long internal chain of thought before responding.",
+      tags: ["Language Models", "Transformer Decoder"],
+    },
+    {
+      title: "o1-mini",
+      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308ee#f16a",
+      date: "September 2024",
+      description:
+        "A cost-efficient reasoning model, excelling at STEM, especially math and coding ,  nearly matching the performance of OpenAI o1 on evaluation benchmarks.",
+      tags: ["Language Models", "Transformer Decoder"],
+    },
+    
   ],
   [
     // Small LLMs
