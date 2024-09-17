@@ -1005,6 +1005,14 @@ const papers_data = [
         "Applies the minitron approach to Llama 3.1 8B and Mistral-Nemo 12B, additionally applies teacher correction to align with the new data distribution.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Pruning", "Knowledge Distillation"],
     },
+    {
+      title: "DataGemma",
+      link: "https://ritvik19.medium.com/papers-explained-212-datagemma-cf0d2f40d867",
+      date: "September 2024",
+      description:
+        "A set of models that aims to reduce hallucinations in LLMs by grounding them in the factual data of Google's Data Commons, allowing users to ask questions in natural language and receive responses based on verified information from trusted sources.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
+    },
   ],
   [
     // Multi Modal Language Models
