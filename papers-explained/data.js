@@ -1017,6 +1017,14 @@ const papers_data = [
   [
     // Multi Modal Language Models
     {
+      title: "Florence",
+      link: "https://ritvik19.medium.com/papers-explained-213-florence-f93a3a7d9ef0",
+      date: "November 2021",
+      description:
+        "A computer vision foundation model that can be adapted to various tasks by expanding representations from coarse (scene) to fine (object), static (images) to dynamic (videos), and RGB to multiple modalities.",
+      tags: ["Multimodal Models"],
+    },
+    {
       title: "BLIP",
       link: "https://ritvik19.medium.com/papers-explained-154-blip-6d85c80a744d",
       date: "February 2022",
