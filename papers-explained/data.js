@@ -2171,6 +2171,17 @@ const papers_data = [
   ],
 ];
 
+const surveys_data = [
+  {
+    title: "What is the Role of Small Models in the LLM Era",
+    link: "data/Mind-Map_2409.06857.pdf",
+    date: "September 2024",
+    description:
+      "Systematically examines the relationship between LLMs and SMs from two key perspectives: Collaboration and Competition.",
+    tags: ["Survey", "Small Models"],
+  }
+]
+
 const literature_review_data = [
   {
     title: "Convolutional Neural Networks",
