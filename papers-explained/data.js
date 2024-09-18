@@ -1013,6 +1013,14 @@ const papers_data = [
         "A set of models that aims to reduce hallucinations in LLMs by grounding them in the factual data of Google's Data Commons, allowing users to ask questions in natural language and receive responses based on verified information from trusted sources.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
+    {
+      title: "Mistral Small",
+      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#5662",
+      date: "September 2024",
+      description:
+        "A 22B model with significant improvements in human alignment, reasoning capabilities, and code over the previous model.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
+    },
   ],
   [
     // Multi Modal Language Models
