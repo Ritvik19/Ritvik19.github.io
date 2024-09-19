@@ -51,7 +51,7 @@ function createSurveyCard({title, link, date, description, tags}) {
       </div>
       <div class="card-footer">
         <a target="_blank" href="/papers-explained/mind-map/?id=${link}">
-          <img src="https://img.shields.io/badge/View-Mind_Map-337ab7?style=flat" alt="View-Mind_Map">
+          <img src="https://img.shields.io/badge/View_as-Mind_Map-337ab7?style=flat" alt="View-Mind_Map">
         </a>
       </div>
     </div>`;
