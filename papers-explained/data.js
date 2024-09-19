@@ -1120,6 +1120,14 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
+      title: "Florence-2",
+      link: "https://ritvik19.medium.com/papers-explained-214-florence-2-c4e17246d14b",
+      date: "November 2023",
+      description:
+        "A vision foundation model with a unified, prompt-based representation for a variety of computer vision and vision-language tasks.",
+      tags: ["Multimodal Models"],
+    },
+    {
       title: "Gemini 1.0",
       link: "https://ritvik19.medium.com/papers-explained-80-gemini-1-0-97308ef96fcd",
       date: "December 2023",
