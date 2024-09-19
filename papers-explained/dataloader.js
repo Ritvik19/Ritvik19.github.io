@@ -50,8 +50,8 @@ function createSurveyCard({title, link, date, description, tags}) {
         ${createTags(tags)}
       </div>
       <div class="card-footer">
-        <a target="_blank" href=${link}>
-          <img src="https://img.shields.io/badge/Download-pdf-337ab7?style=flat" alt="Download-pdf" download>
+        <a target="_blank" href="/papers-explained/mind-map/?id=${link}">
+          <img src="https://img.shields.io/badge/View-Mind_Map-337ab7?style=flat" alt="View-Mind_Map">
         </a>
       </div>
     </div>`;
