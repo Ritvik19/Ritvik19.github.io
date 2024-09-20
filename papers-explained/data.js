@@ -787,7 +787,7 @@ const papers_data = [
     },
     {
       title: "o1-mini",
-      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308ee#f16a",
+      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e#f16a",
       date: "September 2024",
       description:
         "A cost-efficient reasoning model, excelling at STEM, especially math and coding ,  nearly matching the performance of OpenAI o1 on evaluation benchmarks.",
