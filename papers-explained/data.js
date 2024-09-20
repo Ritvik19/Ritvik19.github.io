@@ -1527,6 +1527,14 @@ const papers_data = [
         "Introduces multi-axis attention, allowing global-local spatial interactions on arbitrary input resolutions with only linear complexity.",
       tags: ["Vision Transformers"],
     },
+    {
+      title: "Swin Transformer V2",
+      link: "https://ritvik19.medium.com/papers-explained-215-swin-transformer-v2-53bee16ab668",
+      date: "April 2022",
+      description:
+        "A successor to Swin Transformer, addressing challenges like training stability, resolution gaps, and labeled data scarcity.",
+      tags: ["Vision Transformers"],
+    },
   ],
   [
     // Convolutional Neural Networks
