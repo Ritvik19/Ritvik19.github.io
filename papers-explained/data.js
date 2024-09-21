@@ -787,7 +787,7 @@ const papers_data = [
     },
     {
       title: "o1-mini",
-      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308ee#f16a",
+      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e#f16a",
       date: "September 2024",
       description:
         "A cost-efficient reasoning model, excelling at STEM, especially math and coding ,  nearly matching the performance of OpenAI o1 on evaluation benchmarks.",
@@ -1525,6 +1525,14 @@ const papers_data = [
       date: "April 2022",
       description:
         "Introduces multi-axis attention, allowing global-local spatial interactions on arbitrary input resolutions with only linear complexity.",
+      tags: ["Vision Transformers"],
+    },
+    {
+      title: "Swin Transformer V2",
+      link: "https://ritvik19.medium.com/papers-explained-215-swin-transformer-v2-53bee16ab668",
+      date: "April 2022",
+      description:
+        "A successor to Swin Transformer, addressing challenges like training stability, resolution gaps, and labeled data scarcity.",
       tags: ["Vision Transformers"],
     },
   ],
