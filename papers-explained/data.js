@@ -2187,6 +2187,13 @@ const surveys_data = [
     description:
       "Systematically examines the relationship between LLMs and SMs from two key perspectives: Collaboration and Competition.",
     tags: ["Survey", "Small Models"],
+  },
+  {
+    title: "Best Practices and Lessons Learned on Synthetic Data",
+    link: "2404.07503",
+    date: "April 2024",
+    description: "Provides an overview of synthetic data research, discussing its applications, challenges, and future directions.",
+    tags: ["Survey", "Synthetic Data"],
   }
 ]
 
