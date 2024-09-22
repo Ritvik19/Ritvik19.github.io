@@ -487,106 +487,112 @@
         content: "Synthetic Data in Evaluation",
         children: [
           {
-            content: "Factuality",
+            content: ".",
             children: [
               {
-                content:
-                  'Early statistical-based hallucination evaluation methods used n-grams to calculate vocabulary overlap between input and output but failed to account for semantics (<a href="">Handling divergent reference texts when evaluating table-to-text generation</a>, <a href="">Towards faithful neural table-to-text generation with content-matching constraints</a>).',
-                children: [],
-                payload: { lines: "102,103" },
+                content: "Factuality",
+                children: [
+                  {
+                    content:
+                      'Early statistical-based hallucination evaluation methods used n-grams to calculate vocabulary overlap between input and output but failed to account for semantics (<a href="">Handling divergent reference texts when evaluating table-to-text generation</a>, <a href="">Towards faithful neural table-to-text generation with content-matching constraints</a>).',
+                    children: [],
+                    payload: { lines: "102,103" },
+                  },
+                  {
+                    content:
+                      'Statistical methods were limited as they only considered lexical overlap and couldn\'t evaluate complex hallucinations (<a href=""> Survey of hallucination in natural language generation</a>).',
+                    children: [],
+                    payload: { lines: "103,104" },
+                  },
+                  {
+                    content:
+                      'Model-based methods replaced statistical approaches, providing more robustness than token-difference-based methods (<a href="">Evaluating factual consistency in knowledge-grounded dialogues via question generation and question answering</a>).',
+                    children: [],
+                    payload: { lines: "104,105" },
+                  },
+                  {
+                    content:
+                      'Model-based methods can measure hallucination severity but struggle to identify specific factual errors (<a href="">Ranking generated summaries by correctness</a>).',
+                    children: [],
+                    payload: { lines: "105,106" },
+                  },
+                  {
+                    content:
+                      'Combining LLM generation with random walks on knowledge graphs helps generate synthetic evaluation data by focusing on entities and relations (<a href="">FactKB</a>).',
+                    children: [],
+                    payload: { lines: "106,107" },
+                  },
+                  {
+                    content:
+                      'The <a href="">LongFact</a> dataset has been created created for long-form factuality evaluation, using Google Search as grounding and LLM for automated judgement, achieving human-level accuracy at a lower cost ().',
+                    children: [],
+                    payload: { lines: "107,109" },
+                  },
+                ],
+                payload: { lines: "101,102" },
               },
               {
-                content:
-                  'Statistical methods were limited as they only considered lexical overlap and couldn\'t evaluate complex hallucinations (<a href=""> Survey of hallucination in natural language generation</a>).',
-                children: [],
-                payload: { lines: "103,104" },
+                content: "Safety",
+                children: [
+                  {
+                    content:
+                      '<strong>Red teaming</strong> generates diverse, realistic scenarios to identify unaligned or harmful outputs in AI models (<a href=""> Explore, establish, exploit</a>).',
+                    children: [],
+                    payload: { lines: "110,111" },
+                  },
+                  {
+                    content:
+                      '<strong><a href="">Red teaming language models with language models</a></strong> used LMs to create 154 high-quality datasets to evaluate other LMs, discovering new inverse scaling issues.',
+                    children: [],
+                    payload: { lines: "111,112" },
+                  },
+                  {
+                    content:
+                      '<strong><a href=""> Sleeper agents</a></strong> leveraged synthetic data to trigger backdoor attacks, revealing deceptive behavior in LMs and limitations of standard safety training.',
+                    children: [],
+                    payload: { lines: "112,113" },
+                  },
+                  {
+                    content:
+                      '<strong>AI assistance</strong> can help scale human oversight in addressing complex and unseen domains (<a href="">Measuring progress on scalable oversight for large language models</a>).',
+                    children: [],
+                    payload: { lines: "113,115" },
+                  },
+                ],
+                payload: { lines: "109,110" },
               },
               {
-                content:
-                  'Model-based methods replaced statistical approaches, providing more robustness than token-difference-based methods (<a href="">Evaluating factual consistency in knowledge-grounded dialogues via question generation and question answering</a>).',
-                children: [],
-                payload: { lines: "104,105" },
-              },
-              {
-                content:
-                  'Model-based methods can measure hallucination severity but struggle to identify specific factual errors (<a href="">Ranking generated summaries by correctness</a>).',
-                children: [],
-                payload: { lines: "105,106" },
-              },
-              {
-                content:
-                  'Combining LLM generation with random walks on knowledge graphs helps generate synthetic evaluation data by focusing on entities and relations (<a href="">FactKB</a>).',
-                children: [],
-                payload: { lines: "106,107" },
-              },
-              {
-                content:
-                  'The <a href="">LongFact</a> dataset has been created created for long-form factuality evaluation, using Google Search as grounding and LLM for automated judgement, achieving human-level accuracy at a lower cost ().',
-                children: [],
-                payload: { lines: "107,109" },
+                content: "Assisting human evaluation",
+                children: [
+                  {
+                    content:
+                      '<strong><a href="">Alpaca Eval</a>:</strong> A benchmark that uses GPT-4 as a judge to assess the comprehensive abilities of LM-based chatbots.',
+                    children: [],
+                    payload: { lines: "116,117" },
+                  },
+                  {
+                    content:
+                      '<strong><a href="">MT Bench</a>:</strong> Another benchmark using GPT-4 to evaluate the capabilities of LM-based chatbots, focusing on various aspects of performance.',
+                    children: [],
+                    payload: { lines: "117,118" },
+                  },
+                  {
+                    content:
+                      '<strong><a href="">CRUXEval</a>:</strong> A code execution reasoning benchmark with 800 Python functions generated by CodeLLaMA-34B to evaluate coding task performance.',
+                    children: [],
+                    payload: { lines: "118,119" },
+                  },
+                  {
+                    content:
+                      '<strong><a href="">CodeMind</a>:</strong> A framework that evaluates LLMs on code reasoning abilities across Independent Execution Reasoning (IER), Dependent Execution Reasoning (DER), and Specification Reasoning (SR).',
+                    children: [],
+                    payload: { lines: "119,122" },
+                  },
+                ],
+                payload: { lines: "115,116" },
               },
             ],
-            payload: { lines: "101,102" },
-          },
-          {
-            content: "Safety",
-            children: [
-              {
-                content:
-                  '<strong>Red teaming</strong> generates diverse, realistic scenarios to identify unaligned or harmful outputs in AI models (<a href=""> Explore, establish, exploit</a>).',
-                children: [],
-                payload: { lines: "110,111" },
-              },
-              {
-                content:
-                  '<strong><a href="">Red teaming language models with language models</a></strong> used LMs to create 154 high-quality datasets to evaluate other LMs, discovering new inverse scaling issues.',
-                children: [],
-                payload: { lines: "111,112" },
-              },
-              {
-                content:
-                  '<strong><a href=""> Sleeper agents</a></strong> leveraged synthetic data to trigger backdoor attacks, revealing deceptive behavior in LMs and limitations of standard safety training.',
-                children: [],
-                payload: { lines: "112,113" },
-              },
-              {
-                content:
-                  '<strong>AI assistance</strong> can help scale human oversight in addressing complex and unseen domains (<a href="">Measuring progress on scalable oversight for large language models</a>).',
-                children: [],
-                payload: { lines: "113,115" },
-              },
-            ],
-            payload: { lines: "109,110" },
-          },
-          {
-            content: "Assisting human evaluation",
-            children: [
-              {
-                content:
-                  '<strong><a href="">Alpaca Eval</a>:</strong> A benchmark that uses GPT-4 as a judge to assess the comprehensive abilities of LM-based chatbots.',
-                children: [],
-                payload: { lines: "116,117" },
-              },
-              {
-                content:
-                  '<strong><a href="">MT Bench</a>:</strong> Another benchmark using GPT-4 to evaluate the capabilities of LM-based chatbots, focusing on various aspects of performance.',
-                children: [],
-                payload: { lines: "117,118" },
-              },
-              {
-                content:
-                  '<strong><a href="">CRUXEval</a>:</strong> A code execution reasoning benchmark with 800 Python functions generated by CodeLLaMA-34B to evaluate coding task performance.',
-                children: [],
-                payload: { lines: "118,119" },
-              },
-              {
-                content:
-                  '<strong><a href="">CodeMind</a>:</strong> A framework that evaluates LLMs on code reasoning abilities across Independent Execution Reasoning (IER), Dependent Execution Reasoning (DER), and Specification Reasoning (SR).',
-                children: [],
-                payload: { lines: "119,122" },
-              },
-            ],
-            payload: { lines: "115,116" },
+            payload: { lines: "100,101" },
           },
         ],
         payload: { lines: "99,100" },
@@ -595,120 +601,126 @@
         content: "Challenges and Limitations of Synthetic Data",
         children: [
           {
-            content:
-              "Misuse of synthetic data might proliferate misinformation",
+            content: ".",
             children: [
               {
                 content:
-                  "<strong>AI systems' capability to generate human-like data</strong>: Models can now produce text, images, songs, and videos, raising concerns about their misuse.",
-                children: [],
-                payload: { lines: "125,126" },
+                  "Misuse of synthetic data might proliferate misinformation",
+                children: [
+                  {
+                    content:
+                      "<strong>AI systems' capability to generate human-like data</strong>: Models can now produce text, images, songs, and videos, raising concerns about their misuse.",
+                    children: [],
+                    payload: { lines: "125,126" },
+                  },
+                  {
+                    content:
+                      "<strong>Risks of synthetic data impersonating real people</strong>: Synthetic data could be exploited for malicious purposes, such as impersonation, public opinion manipulation, and political interference.",
+                    children: [],
+                    payload: { lines: "126,127" },
+                  },
+                  {
+                    content:
+                      "<strong>Erosion of trust through synthetic data-driven misinformation</strong>: The spread of misinformation generated by synthetic data threatens the credibility of legitimate information sources.",
+                    children: [],
+                    payload: { lines: "127,128" },
+                  },
+                  {
+                    content:
+                      "<strong>Need for ethical guidelines and detection mechanisms</strong>: Researchers, developers, and policymakers must implement clear ethical guidelines and technologies to detect and combat synthetic misinformation .",
+                    children: [],
+                    payload: { lines: "128,130" },
+                  },
+                ],
+                payload: { lines: "124,125" },
+              },
+              {
+                content: "Synthetic data might cause ambiguity in AI alignment",
+                children: [
+                  {
+                    content:
+                      "<strong>Constitutional AI</strong>: The use of synthetic data, like in Constitutional AI, may introduce ambiguity and uncertainty, affecting the model's ability to align with human values.",
+                    children: [],
+                    payload: { lines: "131,132" },
+                  },
+                  {
+                    content:
+                      "<strong>Representation of Human Values</strong>: Synthetic data may fail to accurately represent human values and preferences, potentially leading to misaligned AI behaviors.",
+                    children: [],
+                    payload: { lines: "132,133" },
+                  },
+                  {
+                    content:
+                      "<strong>Bias in Synthetic Data</strong>: Models trained on synthetic data may learn biased information, resulting in misrepresentations of real-world scenarios.",
+                    children: [],
+                    payload: { lines: "133,134" },
+                  },
+                  {
+                    content:
+                      "<strong>Ungrounded Learning</strong>: AI models might be trained on ungrounded data, leading to a lack of real-world applicability.",
+                    children: [],
+                    payload: { lines: "134,135" },
+                  },
+                  {
+                    content:
+                      "<strong>Misrepresentation of Real-World Scenarios</strong>: Synthetic data can misrepresent complex real-world situations, causing AI models to exhibit behaviors that diverge from human expectations.",
+                    children: [],
+                    payload: { lines: "135,136" },
+                  },
+                  {
+                    content:
+                      "<strong>Unintended Consequences</strong>: Misalignment due to synthetic data can lead to unintended or harmful behaviors in AI systems.",
+                    children: [],
+                    payload: { lines: "136,137" },
+                  },
+                  {
+                    content:
+                      "<strong>Interpretability Challenges</strong>: The ambiguity introduced by synthetic data complicates the interpretation of AI decision-making processes, making alignment more difficult.",
+                    children: [],
+                    payload: { lines: "137,139" },
+                  },
+                ],
+                payload: { lines: "130,131" },
               },
               {
                 content:
-                  "<strong>Risks of synthetic data impersonating real people</strong>: Synthetic data could be exploited for malicious purposes, such as impersonation, public opinion manipulation, and political interference.",
-                children: [],
-                payload: { lines: "126,127" },
-              },
-              {
-                content:
-                  "<strong>Erosion of trust through synthetic data-driven misinformation</strong>: The spread of misinformation generated by synthetic data threatens the credibility of legitimate information sources.",
-                children: [],
-                payload: { lines: "127,128" },
-              },
-              {
-                content:
-                  "<strong>Need for ethical guidelines and detection mechanisms</strong>: Researchers, developers, and policymakers must implement clear ethical guidelines and technologies to detect and combat synthetic misinformation .",
-                children: [],
-                payload: { lines: "128,130" },
+                  "Training with synthetic data makes evaluation decontamination harder",
+                children: [
+                  {
+                    content:
+                      "Synthetic data complicates fair evaluation in model training due to potential overlap with public benchmark test cases.",
+                    children: [],
+                    payload: { lines: "140,141" },
+                  },
+                  {
+                    content:
+                      "Publicly available benchmarks, often sourced from online platforms, risk being included in pre-training data, affecting evaluation fairness.",
+                    children: [],
+                    payload: { lines: "141,142" },
+                  },
+                  {
+                    content:
+                      "Synthetic data use worsens evaluation contamination rather than reducing it, particularly when it rephrases existing benchmark data.",
+                    children: [],
+                    payload: { lines: "142,143" },
+                  },
+                  {
+                    content:
+                      "Token-level decontamination methods, such as min-k% prob, are insufficient for models trained with synthetic data.",
+                    children: [],
+                    payload: { lines: "143,144" },
+                  },
+                  {
+                    content:
+                      "More advanced techniques for evaluation contamination detection are necessary, alongside the creation of protected, proprietary benchmarks for reliable evaluation.",
+                    children: [],
+                    payload: { lines: "144,146" },
+                  },
+                ],
+                payload: { lines: "139,140" },
               },
             ],
-            payload: { lines: "124,125" },
-          },
-          {
-            content: "Synthetic data might cause ambiguity in AI alignment",
-            children: [
-              {
-                content:
-                  "<strong>Constitutional AI</strong>: The use of synthetic data, like in Constitutional AI, may introduce ambiguity and uncertainty, affecting the model's ability to align with human values.",
-                children: [],
-                payload: { lines: "131,132" },
-              },
-              {
-                content:
-                  "<strong>Representation of Human Values</strong>: Synthetic data may fail to accurately represent human values and preferences, potentially leading to misaligned AI behaviors.",
-                children: [],
-                payload: { lines: "132,133" },
-              },
-              {
-                content:
-                  "<strong>Bias in Synthetic Data</strong>: Models trained on synthetic data may learn biased information, resulting in misrepresentations of real-world scenarios.",
-                children: [],
-                payload: { lines: "133,134" },
-              },
-              {
-                content:
-                  "<strong>Ungrounded Learning</strong>: AI models might be trained on ungrounded data, leading to a lack of real-world applicability.",
-                children: [],
-                payload: { lines: "134,135" },
-              },
-              {
-                content:
-                  "<strong>Misrepresentation of Real-World Scenarios</strong>: Synthetic data can misrepresent complex real-world situations, causing AI models to exhibit behaviors that diverge from human expectations.",
-                children: [],
-                payload: { lines: "135,136" },
-              },
-              {
-                content:
-                  "<strong>Unintended Consequences</strong>: Misalignment due to synthetic data can lead to unintended or harmful behaviors in AI systems.",
-                children: [],
-                payload: { lines: "136,137" },
-              },
-              {
-                content:
-                  "<strong>Interpretability Challenges</strong>: The ambiguity introduced by synthetic data complicates the interpretation of AI decision-making processes, making alignment more difficult.",
-                children: [],
-                payload: { lines: "137,139" },
-              },
-            ],
-            payload: { lines: "130,131" },
-          },
-          {
-            content:
-              "Training with synthetic data makes evaluation decontamination harder",
-            children: [
-              {
-                content:
-                  "Synthetic data complicates fair evaluation in model training due to potential overlap with public benchmark test cases.",
-                children: [],
-                payload: { lines: "140,141" },
-              },
-              {
-                content:
-                  "Publicly available benchmarks, often sourced from online platforms, risk being included in pre-training data, affecting evaluation fairness.",
-                children: [],
-                payload: { lines: "141,142" },
-              },
-              {
-                content:
-                  "Synthetic data use worsens evaluation contamination rather than reducing it, particularly when it rephrases existing benchmark data.",
-                children: [],
-                payload: { lines: "142,143" },
-              },
-              {
-                content:
-                  "Token-level decontamination methods, such as min-k% prob, are insufficient for models trained with synthetic data.",
-                children: [],
-                payload: { lines: "143,144" },
-              },
-              {
-                content:
-                  "More advanced techniques for evaluation contamination detection are necessary, alongside the creation of protected, proprietary benchmarks for reliable evaluation.",
-                children: [],
-                payload: { lines: "144,146" },
-              },
-            ],
-            payload: { lines: "139,140" },
+            payload: { lines: "123,124" },
           },
         ],
         payload: { lines: "122,123" },
@@ -717,132 +729,138 @@
         content: "Directions for Future Work",
         children: [
           {
-            content: "Synthetic data scaling",
+            content: ".",
             children: [
               {
-                content:
-                  "<strong>Over-trained small language models:</strong> The performance of models like the Mistral and Gemma series demonstrates that training on large amounts of data, even exceeding the compute-optimal Chinchilla law, leads to impressive results.",
-                children: [],
-                payload: { lines: "149,150" },
+                content: "Synthetic data scaling",
+                children: [
+                  {
+                    content:
+                      "<strong>Over-trained small language models:</strong> The performance of models like the Mistral and Gemma series demonstrates that training on large amounts of data, even exceeding the compute-optimal Chinchilla law, leads to impressive results.",
+                    children: [],
+                    payload: { lines: "149,150" },
+                  },
+                  {
+                    content:
+                      "<strong>Synthetic data in training:</strong> It remains an open question whether training with synthetic data can yield similar conclusions, as its quality is often inconsistent compared to real-world data.",
+                    children: [],
+                    payload: { lines: "150,151" },
+                  },
+                  {
+                    content:
+                      "<strong>Scaling laws for synthetic data:</strong> Future research should investigate the optimal balance between the quantity and quality of synthetic data for large-scale language model training.",
+                    children: [],
+                    payload: { lines: "151,152" },
+                  },
+                  {
+                    content:
+                      "<strong>Cost-efficient strategies with synthetic data:</strong> Exploring effective strategies for using synthetic data could lead to more efficient and cost-effective training approaches for large language models.",
+                    children: [],
+                    payload: { lines: "152,154" },
+                  },
+                ],
+                payload: { lines: "148,149" },
               },
               {
                 content:
-                  "<strong>Synthetic data in training:</strong> It remains an open question whether training with synthetic data can yield similar conclusions, as its quality is often inconsistent compared to real-world data.",
-                children: [],
-                payload: { lines: "150,151" },
+                  "Further improving quality and diversity of synthetic data",
+                children: [
+                  {
+                    content:
+                      "<strong>Generative Adversarial Networks (GANs):</strong> Focus on using GANs to improve the quality of synthetic data by closely mimicking real-world data, with emphasis on controlling specific attributes.",
+                    children: [],
+                    payload: { lines: "155,156" },
+                  },
+                  {
+                    content:
+                      "<strong>Diffusion Models:</strong> Investigate the use of Diffusion Models to generate high-quality synthetic data with more granular control over data attributes.",
+                    children: [],
+                    payload: { lines: "156,157" },
+                  },
+                  {
+                    content:
+                      "<strong>Retrieval Augmented Generation (RAG):</strong> Explore incorporating domain-specific knowledge into synthetic data generation through methods like RAG, ensuring that the data adheres to domain constraints while maintaining quality.",
+                    children: [],
+                    payload: { lines: "157,158" },
+                  },
+                  {
+                    content:
+                      "<strong>Privacy-Preserving Analysis:</strong> Improve synthetic data techniques to support privacy-preserving analysis across fields like healthcare and finance.",
+                    children: [],
+                    payload: { lines: "158,161" },
+                  },
+                ],
+                payload: { lines: "154,155" },
               },
               {
                 content:
-                  "<strong>Scaling laws for synthetic data:</strong> Future research should investigate the optimal balance between the quantity and quality of synthetic data for large-scale language model training.",
-                children: [],
-                payload: { lines: "151,152" },
+                  "Towards high-fidelity and more efficient scalable oversight",
+                children: [
+                  {
+                    content:
+                      '<strong><a href="">Debate</a>:</strong> Simulates social iterations by having AI models engage in a structured debate to expose and correct errors.',
+                    children: [],
+                    payload: { lines: "162,163" },
+                  },
+                  {
+                    content:
+                      '<strong><a href="">Reflection</a>:</strong> Uses AI models\' introspection and self-evaluation to generate synthetic data for oversight by reflecting on their decisions.',
+                    children: [],
+                    payload: { lines: "163,164" },
+                  },
+                  {
+                    content:
+                      '<strong><a href="">Revisions</a>:</strong> Focuses on iterative correction of AI model outputs to improve oversight using synthetic data.',
+                    children: [],
+                    payload: { lines: "164,165" },
+                  },
+                  {
+                    content:
+                      '<strong><a href="">Comprehensive Scenarios and Modalities</a>:</strong> Proposes exploring a broader range of scenarios and modalities in synthetic data generation for better oversight.',
+                    children: [],
+                    payload: { lines: "165,166" },
+                  },
+                  {
+                    content:
+                      '<strong><a href="">Narrowed-down Issues</a>:</strong> Highlights problems arising from simulation of overly specific and narrow scenarios.',
+                    children: [],
+                    payload: { lines: "166,167" },
+                  },
+                  {
+                    content:
+                      '<strong><a href="">Over-simplified Scenes</a>:</strong> Identifies issues with simulations that are too simplistic to provide meaningful oversight.',
+                    children: [],
+                    payload: { lines: "167,169" },
+                  },
+                ],
+                payload: { lines: "161,162" },
               },
               {
-                content:
-                  "<strong>Cost-efficient strategies with synthetic data:</strong> Exploring effective strategies for using synthetic data could lead to more efficient and cost-effective training approaches for large language models.",
-                children: [],
-                payload: { lines: "152,154" },
+                content: "The emergent self-improvement capability",
+                children: [
+                  {
+                    content:
+                      "<strong>Synthetic Data Quality</strong>: Using the most capable model to generate synthetic data can lead to higher quality outputs compared to less advanced models.",
+                    children: [],
+                    payload: { lines: "170,171" },
+                  },
+                  {
+                    content:
+                      "<strong>Self-Improvement Potential</strong>: Investigating whether models can generate synthetic data superior to their training data, potentially enabling self-improvement.",
+                    children: [],
+                    payload: { lines: "171,172" },
+                  },
+                  {
+                    content:
+                      "<strong>Iterative Learning</strong>: A model could iteratively improve by learning from enhanced synthetic data, leading to continuous performance gains.",
+                    children: [],
+                    payload: { lines: "172,173" },
+                  },
+                ],
+                payload: { lines: "169,170" },
               },
             ],
-            payload: { lines: "148,149" },
-          },
-          {
-            content:
-              "Further improving quality and diversity of synthetic data",
-            children: [
-              {
-                content:
-                  "<strong>Generative Adversarial Networks (GANs):</strong> Focus on using GANs to improve the quality of synthetic data by closely mimicking real-world data, with emphasis on controlling specific attributes.",
-                children: [],
-                payload: { lines: "155,156" },
-              },
-              {
-                content:
-                  "<strong>Diffusion Models:</strong> Investigate the use of Diffusion Models to generate high-quality synthetic data with more granular control over data attributes.",
-                children: [],
-                payload: { lines: "156,157" },
-              },
-              {
-                content:
-                  "<strong>Retrieval Augmented Generation (RAG):</strong> Explore incorporating domain-specific knowledge into synthetic data generation through methods like RAG, ensuring that the data adheres to domain constraints while maintaining quality.",
-                children: [],
-                payload: { lines: "157,158" },
-              },
-              {
-                content:
-                  "<strong>Privacy-Preserving Analysis:</strong> Improve synthetic data techniques to support privacy-preserving analysis across fields like healthcare and finance.",
-                children: [],
-                payload: { lines: "158,161" },
-              },
-            ],
-            payload: { lines: "154,155" },
-          },
-          {
-            content:
-              "Towards high-fidelity and more efficient scalable oversight",
-            children: [
-              {
-                content:
-                  '<strong><a href="">Debate</a>:</strong> Simulates social iterations by having AI models engage in a structured debate to expose and correct errors.',
-                children: [],
-                payload: { lines: "162,163" },
-              },
-              {
-                content:
-                  '<strong><a href="">Reflection</a>:</strong> Uses AI models\' introspection and self-evaluation to generate synthetic data for oversight by reflecting on their decisions.',
-                children: [],
-                payload: { lines: "163,164" },
-              },
-              {
-                content:
-                  '<strong><a href="">Revisions</a>:</strong> Focuses on iterative correction of AI model outputs to improve oversight using synthetic data.',
-                children: [],
-                payload: { lines: "164,165" },
-              },
-              {
-                content:
-                  '<strong><a href="">Comprehensive Scenarios and Modalities</a>:</strong> Proposes exploring a broader range of scenarios and modalities in synthetic data generation for better oversight.',
-                children: [],
-                payload: { lines: "165,166" },
-              },
-              {
-                content:
-                  '<strong><a href="">Narrowed-down Issues</a>:</strong> Highlights problems arising from simulation of overly specific and narrow scenarios.',
-                children: [],
-                payload: { lines: "166,167" },
-              },
-              {
-                content:
-                  '<strong><a href="">Over-simplified Scenes</a>:</strong> Identifies issues with simulations that are too simplistic to provide meaningful oversight.',
-                children: [],
-                payload: { lines: "167,169" },
-              },
-            ],
-            payload: { lines: "161,162" },
-          },
-          {
-            content: "The emergent self-improvement capability",
-            children: [
-              {
-                content:
-                  "<strong>Synthetic Data Quality</strong>: Using the most capable model to generate synthetic data can lead to higher quality outputs compared to less advanced models.",
-                children: [],
-                payload: { lines: "170,171" },
-              },
-              {
-                content:
-                  "<strong>Self-Improvement Potential</strong>: Investigating whether models can generate synthetic data superior to their training data, potentially enabling self-improvement.",
-                children: [],
-                payload: { lines: "171,172" },
-              },
-              {
-                content:
-                  "<strong>Iterative Learning</strong>: A model could iteratively improve by learning from enhanced synthetic data, leading to continuous performance gains.",
-                children: [],
-                payload: { lines: "172,173" },
-              },
-            ],
-            payload: { lines: "169,170" },
+            payload: { lines: "147,148" },
           },
         ],
         payload: { lines: "146,147" },
@@ -850,5 +868,5 @@
     ],
     payload: { lines: "1,2" },
   },
-  { color: ["#2980b9"], maxWidth: 1600, initialExpandLevel: 1 }
+  { color: ["#2980b9"], maxWidth: 1600, initialExpandLevel: 4 }
 );

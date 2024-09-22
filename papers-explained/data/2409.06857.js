@@ -214,52 +214,58 @@
         content: "Competition",
         children: [
           {
-            content: "Computation-constrained Environment",
+            content: ".",
             children: [
               {
-                content:
-                  "Small models are increasingly valuable in scenarios where computational resources are limited.",
-                children: [],
+                content: "Computation-constrained Environment",
+                children: [
+                  {
+                    content:
+                      "Small models are increasingly valuable in scenarios where computational resources are limited.",
+                    children: [],
+                    payload: { lines: "53,54" },
+                  },
+                ],
                 payload: { lines: "52,53" },
               },
-            ],
-            payload: { lines: "51,52" },
-          },
-          {
-            content: "Task-specific Environment",
-            children: [
               {
-                content:
-                  "Small tree-based models can achieve competitive performance compared to large deep learning models for tabular data.",
-                children: [],
+                content: "Task-specific Environment",
+                children: [
+                  {
+                    content:
+                      "Small tree-based models can achieve competitive performance compared to large deep learning models for tabular data.",
+                    children: [],
+                    payload: { lines: "55,56" },
+                  },
+                  {
+                    content:
+                      "Fine-tuning SMs on domain-specific datasets can outperform general LLMs.",
+                    children: [],
+                    payload: { lines: "56,57" },
+                  },
+                  {
+                    content:
+                      "SMs can be particularly effective for tasks such as text classification, phrase representation, and entity retrieval.",
+                    children: [],
+                    payload: { lines: "57,58" },
+                  },
+                ],
                 payload: { lines: "54,55" },
               },
               {
-                content:
-                  "Fine-tuning SMs on domain-specific datasets can outperform general LLMs.",
-                children: [],
-                payload: { lines: "55,56" },
-              },
-              {
-                content:
-                  "SMs can be particularly effective for tasks such as text classification, phrase representation, and entity retrieval.",
-                children: [],
-                payload: { lines: "56,57" },
-              },
-            ],
-            payload: { lines: "53,54" },
-          },
-          {
-            content: "Interpretability-required Environment",
-            children: [
-              {
-                content:
-                  "Generally, smaller and simpler models offer better interpretability compared to larger, more complex models.",
-                children: [],
+                content: "Interpretability-required Environment",
+                children: [
+                  {
+                    content:
+                      "Generally, smaller and simpler models offer better interpretability compared to larger, more complex models.",
+                    children: [],
+                    payload: { lines: "59,60" },
+                  },
+                ],
                 payload: { lines: "58,59" },
               },
             ],
-            payload: { lines: "57,58" },
+            payload: { lines: "51,52" },
           },
         ],
         payload: { lines: "50,51" },
@@ -267,10 +273,5 @@
     ],
     payload: { lines: "1,2" },
   },
-  {
-    color: ["#2980b9"],
-    maxWidth: 800,
-    embedAssets: true,
-    initialExpandLevel: 1,
-  }
+  { color: ["#2980b9"], initialExpandLevel: 4 }
 );
