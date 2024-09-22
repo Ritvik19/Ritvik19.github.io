@@ -1,3 +1,5 @@
+document.getElementById("title").innerHTML = "Best Practices and Lessons Learned on Synthetic Data";
+
 ((f, d, h, u) => {
   const g = f();
   window.mm = g.Markmap.create("svg#mindmap", (d || g.deriveOptions)(u), h);
@@ -487,7 +489,7 @@
         content: "Synthetic Data in Evaluation",
         children: [
           {
-            content: ".",
+            content: "&nbsp;",
             children: [
               {
                 content: "Factuality",
@@ -601,7 +603,7 @@
         content: "Challenges and Limitations of Synthetic Data",
         children: [
           {
-            content: ".",
+            content: "&nbsp;",
             children: [
               {
                 content:
@@ -729,7 +731,7 @@
         content: "Directions for Future Work",
         children: [
           {
-            content: ".",
+            content: "&nbsp;",
             children: [
               {
                 content: "Synthetic data scaling",

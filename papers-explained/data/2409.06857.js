@@ -1,3 +1,5 @@
+document.getElementById("title").innerHTML = "Role of Small Models in the LLM Era";
+
 ((f, d, h, u) => {
   const g = f();
   window.mm = g.Markmap.create("svg#mindmap", (d || g.deriveOptions)(u), h);
@@ -214,7 +216,7 @@
         content: "Competition",
         children: [
           {
-            content: ".",
+            content: "&nbsp;",
             children: [
               {
                 content: "Computation-constrained Environment",
