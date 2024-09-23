@@ -878,6 +878,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
+      title: "Mobile LLM",
+      link: "https://ritvik19.medium.com/papers-explained-216-mobilellm-2d7fdd5acd86",
+      date: "February 2024",
+      description:
+        "Leverages various architectures and attention mechanisms to achieve a strong baseline network, which is then improved upon by introducing an immediate block-wise weight-sharing approach, resulting in a further accuracy boost.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
+    },
+    {
       title: "Orca Math",
       link: "https://ritvik19.medium.com/papers-explained-163-orca-math-ae6a157ce48d",
       date: "February 2024",
