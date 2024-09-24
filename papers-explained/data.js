@@ -990,8 +990,8 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Pruning", "Knowledge Distillation"],
     },
     {
-      title: "Minitron",
-      link: "Danube 3",
+      title: "Danube 3",
+      link: "https://ritvik19.medium.com/papers-explained-217-h2o-danube-3-917a7b40a79f",
       date: "July 2024",
       description:
         "A series of 4B and 500M language models, trained on high-quality Web data in three stages with different data mixes before being fine-tuned for chat version.",
