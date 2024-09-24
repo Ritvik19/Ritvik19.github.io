@@ -862,7 +862,7 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
-      title: "H2O Danube 1.8B",
+      title: "Danube",
       link: "https://ritvik19.medium.com/papers-explained-111-h2o-danube-1-8b-b790c073d257",
       date: "January 2024",
       description:
@@ -875,6 +875,14 @@ const papers_data = [
       date: "February 2024",
       description:
         "A state-of-the-art, truly open language model and framework that includes training data, code, and tools for building, studying, and advancing language models.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
+    },
+    {
+      title: "Mobile LLM",
+      link: "https://ritvik19.medium.com/papers-explained-216-mobilellm-2d7fdd5acd86",
+      date: "February 2024",
+      description:
+        "Leverages various architectures and attention mechanisms to achieve a strong baseline network, which is then improved upon by introducing an immediate block-wise weight-sharing approach, resulting in a further accuracy boost.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
@@ -918,7 +926,7 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
-      title: "H2O Danube2 1.8B",
+      title: "Danube 2",
       link: "https://ritvik19.medium.com/papers-explained-111-h2o-danube-1-8b-b790c073d257#00d8",
       date: "April 2024",
       description:
@@ -980,6 +988,14 @@ const papers_data = [
       description:
         "Prunes an existing Nemotron model and re-trains it with a fraction of the original training data, achieving compression factors of 2-4×, compute cost savings of up to 40×, and improved performance on various language modeling tasks.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Pruning", "Knowledge Distillation"],
+    },
+    {
+      title: "Danube 3",
+      link: "https://ritvik19.medium.com/papers-explained-217-h2o-danube-3-917a7b40a79f",
+      date: "July 2024",
+      description:
+        "A series of 4B and 500M language models, trained on high-quality Web data in three stages with different data mixes before being fine-tuned for chat version.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
     },
     {
       title: "Smol LM v0.2",
