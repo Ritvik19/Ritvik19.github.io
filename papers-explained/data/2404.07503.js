@@ -870,5 +870,5 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
     ],
     payload: { lines: "1,2" },
   },
-  { color: ["#2980b9"], maxWidth: 1600, initialExpandLevel: 4, , "maxWidth":300  }
+  { color: ["#2980b9"], maxWidth: 400, initialExpandLevel: 4,}
 );

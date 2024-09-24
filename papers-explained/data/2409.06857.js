@@ -275,5 +275,5 @@ document.getElementById("title").innerHTML = "Role of Small Models in the LLM Er
     ],
     payload: { lines: "1,2" },
   },
-  { color: ["#2980b9"], initialExpandLevel: 4, "maxWidth":300 }
+  { color: ["#2980b9"], initialExpandLevel: 4, maxWidth:300 }
 );
