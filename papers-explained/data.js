@@ -1286,6 +1286,14 @@ const papers_data = [
         "A comprehensive system for developing Large Multimodal Models, comprising curated datasets, training recipes, model architectures, and pre-trained models that demonstrate strong in-context learning capabilities and competitive performance on various tasks.",
       tags: ["Multimodal Models"],
     },
+    {
+      title: "Idefics 3",
+      link: "https://ritvik19.medium.com/papers-explained-218-idefics-3-81791c4cde3f",
+      date: "August 2024",
+      description:
+        "A VLM based on Llama 3.1 and SigLIP-SO400M trained efficiently, using only open datasets and a straightforward pipeline, significantly outperforming in document understanding tasks.",
+      tags: ["Multimodal Models"],
+    },
   ],
   [
     // Retrieval and Representation Learning
