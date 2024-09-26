@@ -21,43 +21,43 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong>Math-targeted pre-training</strong>: Models like <a href="">Minerva</a>, <a href="">Llemma</a>, and <a href="">DeepSeekMath</a> are pre-trained on datasets specifically curated for mathematical tasks.',
+                      '<strong>Math-targeted pre-training</strong>: Models like <a href="https://arxiv.org/abs/2206.14858">Minerva</a>, <a href="https://arxiv.org/abs/2310.10631">Llemma</a> <a href="https://ritvik19.medium.com/papers-explained-69-llemma-0a17287e890a">📑</a>, and <a href="https://arxiv.org/abs/2402.03300">DeepSeekMath</a> are pre-trained on datasets specifically curated for mathematical tasks.',
                     children: [],
                     payload: { lines: "8,9" },
                   },
                   {
                     content:
-                      '<strong>Synthetic question generation</strong>: <a href="">WizardMath</a> increases complexity in questions and answers using GPT-3.5 to imitate target benchmarks.',
+                      '<strong>Synthetic question generation</strong>: <a href="https://arxiv.org/abs/2308.09583">WizardMath</a> <a href="https://ritvik19.medium.com/papers-explained-129-wizardmath-265e6e784341">📑</a> increases complexity in questions and answers using GPT-3.5 to imitate target benchmarks.',
                     children: [],
                     payload: { lines: "9,10" },
                   },
                   {
                     content:
-                      '<strong>Bootstrapping via question rephrasing</strong>: <a href="">MetaMath</a> rewrites questions using techniques like semantic rephrasing, self-verification, and backward reasoning to improve performance.',
+                      '<strong>Bootstrapping via question rephrasing</strong>: <a href="https://arxiv.org/abs/2309.12284">MetaMath</a> rewrites questions using techniques like semantic rephrasing, self-verification, and backward reasoning to improve performance.',
                     children: [],
                     payload: { lines: "10,11" },
                   },
                   {
                     content:
-                      '<strong>Answer format optimization</strong>: <a href="">GAIR-Abel</a> shows that paraphrasing the question followed by step-by-step solutions outperforms vanilla answer formats.',
+                      '<strong>Answer format optimization</strong>: <a href="https://github.com/GAIR-NLP/abel">GAIR-Abel</a> shows that paraphrasing the question followed by step-by-step solutions outperforms vanilla answer formats.',
                     children: [],
                     payload: { lines: "11,12" },
                   },
                   {
                     content:
-                      '<strong>Data scaling</strong>: <a href="">Xwin-Math</a> demonstrates that scaling synthetic data up to one million examples benefits models like LLaMA-2 7B.',
+                      '<strong>Data scaling</strong>: <a href="https://arxiv.org/abs/2403.04706v1">Xwin-Math</a> demonstrates that scaling synthetic data up to one million examples benefits models like LLaMA-2 7B.',
                     children: [],
                     payload: { lines: "12,13" },
                   },
                   {
                     content:
-                      '<strong>Dataset bundling</strong>: <a href="">MMIQC</a> combines SFT-style data (rephrased from MetaMath or taken directly) with high-quality pre-training data like OpenWebMath for better performance.',
+                      '<strong>Dataset bundling</strong>: <a href="https://arxiv.org/abs/2401.09003">MMIQC</a> combines SFT-style data (rephrased from MetaMath or taken directly) with high-quality pre-training data like OpenWebMath for better performance.',
                     children: [],
                     payload: { lines: "13,14" },
                   },
                   {
                     content:
-                      '<strong>Verification of synthetic data</strong>: <a href="">AlphaGeometry</a> employs a symbolic deduction engine and 100 million synthetic data points for complex geometry problem-solving, achieving results comparable to Olympiad-level performance.',
+                      '<strong>Verification of synthetic data</strong>: <a href="https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/">AlphaGeometry</a> employs a symbolic deduction engine and 100 million synthetic data points for complex geometry problem-solving, achieving results comparable to Olympiad-level performance.',
                     children: [],
                     payload: { lines: "14,16" },
                   },
@@ -69,49 +69,49 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong><a href="">CodeRL</a>:</strong> An actor-critic approach that improves pretrained language models by using feedback signals on synthetic code samples for better code reasoning.',
+                      '<strong><a href="https://arxiv.org/abs/2207.01780">CodeRL</a>:</strong> An actor-critic approach that improves pretrained language models by using feedback signals on synthetic code samples for better code reasoning.',
                     children: [],
                     payload: { lines: "17,18" },
                   },
                   {
                     content:
-                      '<strong><a href="">Language Models Can Teach Themselves to Program Better</a>:</strong> A self-improvement strategy where models generate synthetic puzzle-solution pairs, verified by a real interpreter before being used for fine-tuning.',
+                      '<strong><a href="https://arxiv.org/abs/2207.14502">Language Models Can Teach Themselves to Program Better</a>:</strong> A self-improvement strategy where models generate synthetic puzzle-solution pairs, verified by a real interpreter before being used for fine-tuning.',
                     children: [],
                     payload: { lines: "18,19" },
                   },
                   {
                     content:
-                      '<strong><a href="">Learning Performance-Improving Code Edits</a>:</strong> A framework leveraging simulated environments and adaptation strategies like self-improvement synthetic data generation and CoT prompting for code optimization.',
+                      '<strong><a href="https://arxiv.org/abs/2302.07867">Learning Performance-Improving Code Edits</a>:</strong> A framework leveraging simulated environments and adaptation strategies like self-improvement synthetic data generation and CoT prompting for code optimization.',
                     children: [],
                     payload: { lines: "19,20" },
                   },
                   {
                     content:
-                      '<strong><a href="">InterCode</a>:</strong> A framework designed to enhance interactive code generation using reinforcement learning, where code acts as actions and execution feedback as observations.',
+                      '<strong><a href="https://arxiv.org/abs/2306.14898">InterCode</a>:</strong> A framework designed to enhance interactive code generation using reinforcement learning, where code acts as actions and execution feedback as observations.',
                     children: [],
                     payload: { lines: "20,21" },
                   },
                   {
                     content:
-                      '<strong><a href="">Reflexion</a>:</strong> Employs external or simulated linguistic feedback signals to improve code reasoning capabilities of language models.',
+                      '<strong><a href="https://arxiv.org/abs/2303.11366">Reflexion</a>:</strong> Employs external or simulated linguistic feedback signals to improve code reasoning capabilities of language models.',
                     children: [],
                     payload: { lines: "21,22" },
                   },
                   {
                     content:
-                      '<strong><a href="">Code Alpaca</a>:</strong> A synthetic dataset of 20K code instructions generated via SELF-INSTRUCT applied to ChatGPT across 21 seed tasks.',
+                      '<strong>Code Alpaca:</strong> A synthetic dataset of 20K code instructions generated via SELF-INSTRUCT applied to ChatGPT across 21 seed tasks.',
                     children: [],
                     payload: { lines: "22,23" },
                   },
                   {
                     content:
-                      '<strong><a href="">WizardCoder</a>:</strong> Introduces Code Evol-Instruct, using heuristic prompts to guide ChatGPT in creating more complex and diverse synthetic data.',
+                      '<strong><a href="https://arxiv.org/abs/2306.08568">WizardCoder</a> <a href="https://ritvik19.medium.com/papers-explained-wizardcoder-a12ecb5b93b6">📑</a> :</strong> Introduces Code Evol-Instruct, using heuristic prompts to guide ChatGPT in creating more complex and diverse synthetic data.',
                     children: [],
                     payload: { lines: "23,24" },
                   },
                   {
                     content:
-                      '<strong><a href="">Magicoder</a>:</strong> Developed OSS-INSTRUCT, which generates 75K diverse synthetic instruction samples from open-source code snippets.',
+                      '<strong><a href="https://arxiv.org/abs/2312.02120">Magicoder</a>:</strong> Developed OSS-INSTRUCT, which generates 75K diverse synthetic instruction samples from open-source code snippets.',
                     children: [],
                     payload: { lines: "24,26" },
                   },
@@ -123,19 +123,19 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong><a href="">Symbol tuning</a></strong>: Augmented natural language datasets by replacing labels with arbitrary symbols, generating 500k+ synthetic examples, improving model performance on unseen in-context learning and algorithmic reasoning tasks.',
+                      '<strong><a href="https://arxiv.org/abs/2305.08298">Symbol tuning</a></strong>: Augmented natural language datasets by replacing labels with arbitrary symbols, generating 500k+ synthetic examples, improving model performance on unseen in-context learning and algorithmic reasoning tasks.',
                     children: [],
                     payload: { lines: "27,28" },
                   },
                   {
                     content:
-                      '<strong><a href="">STaR</a></strong>: Generated synthetic chain-of-thought rationales and filtered out incorrect rationales for finetuning language models to enhance reasoning capabilities.',
+                      '<strong><a href="https://arxiv.org/abs/2203.14465">STaR</a></strong>: Generated synthetic chain-of-thought rationales and filtered out incorrect rationales for finetuning language models to enhance reasoning capabilities.',
                     children: [],
                     payload: { lines: "28,29" },
                   },
                   {
                     content:
-                      '<strong><a href="">Mind’s Eye</a></strong>: Trained a text-to-code model with synthetic "text-description → rendering code" data, using a physical engine (MuJoCo) to boost reasoning performance in physics, achieving results comparable to models 100x larger.',
+                      '<strong><a href="https://arxiv.org/abs/2210.05359">Mind’s Eye</a></strong>: Trained a text-to-code model with synthetic "text-description → rendering code" data, using a physical engine (MuJoCo) to boost reasoning performance in physics, achieving results comparable to models 100x larger.',
                     children: [],
                     payload: { lines: "29,31" },
                   },
@@ -153,25 +153,25 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong><a href="">LaMDA</a></strong>: Trained on both web documents and synthetic interaction data between crowdworkers and the model, annotated with tool calls, allowing it to learn calculator, search engine, and machine translator usage.',
+                      '<strong><a href="https://arxiv.org/abs/2201.08239">LaMDA</a> <a href="https://ritvik19.medium.com/papers-explained-76-lamda-a580ebba1ca2">📑</a></strong>: Trained on both web documents and synthetic interaction data between crowdworkers and the model, annotated with tool calls, allowing it to learn calculator, search engine, and machine translator usage.',
                     children: [],
                     payload: { lines: "34,35" },
                   },
                   {
                     content:
-                      '<strong><a href="">Toolformer</a></strong>: Learns to decide which APIs to call and what arguments to pass through training on template-generated synthetic data.',
+                      '<strong><a href="https://arxiv.org/abs/2302.04761">Toolformer</a> <a href="https://ritvik19.medium.com/papers-explained-140-toolformer-d21d496b6812">📑</a> </strong>: Learns to decide which APIs to call and what arguments to pass through training on template-generated synthetic data.',
                     children: [],
                     payload: { lines: "35,36" },
                   },
                   {
                     content:
-                      '<strong><a href="">Galactica</a></strong>: Integrates API-calling data into its pre-training mixture, enhancing tool-use capabilities during pre-training.',
+                      '<strong><a href="https://arxiv.org/abs/2211.09085">Galactica</a> <a href="https://ritvik19.medium.com/papers-explained-53-galactica-1308dbd318dc">📑</a></strong>: Integrates API-calling data into its pre-training mixture, enhancing tool-use capabilities during pre-training.',
                     children: [],
                     payload: { lines: "36,37" },
                   },
                   {
                     content:
-                      '<strong><a href="">ToolAlpaca</a></strong>: Generates a diverse tool-use corpus by simulating a multi-agent environment where agents iteratively select and use tools.',
+                      '<strong><a href="https://arxiv.org/abs/2306.05301">ToolAlpaca</a></strong>: Generates a diverse tool-use corpus by simulating a multi-agent environment where agents iteratively select and use tools.',
                     children: [],
                     payload: { lines: "37,39" },
                   },
@@ -183,37 +183,37 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong><a href="">Planning in Autonomous Machine Intelligence</a></strong>: The agent decomposes complex tasks into subtasks and completes them in a reward-optimal manner.',
+                      '<strong><a href="https://openreview.net/pdf?id=BZ5a1r-kVsf">Planning in Autonomous Machine Intelligence</a></strong>: The agent decomposes complex tasks into subtasks and completes them in a reward-optimal manner.',
                     children: [],
                     payload: { lines: "40,41" },
                   },
                   {
                     content:
-                      '<strong><a href="">Synthetic Data as Feedback</a></strong>: Synthetic data, collected from simulators, serves as feedback to aid the agent in planning tasks.',
+                      '<strong><a href="https://arxiv.org/abs/2304.03442">Synthetic Data as Feedback</a></strong>: Synthetic data, collected from simulators, serves as feedback to aid the agent in planning tasks.',
                     children: [],
                     payload: { lines: "41,42" },
                   },
                   {
                     content:
-                      '<strong><a href="">Affordance Awareness</a></strong>: Learning from synthetic data helps agents become aware of affordances, enhancing their ability to act in environments.',
+                      '<strong><a href="https://arxiv.org/abs/2204.01691">Affordance Awareness</a></strong>: Learning from synthetic data helps agents become aware of affordances, enhancing their ability to act in environments.',
                     children: [],
                     payload: { lines: "42,43" },
                   },
                   {
                     content:
-                      '<strong><a href="">Inner Monologue</a></strong>: Uses natural language feedback from simulated environments to teach LLM-based robots planning, improving instruction completion in both simulated and real-world tasks.',
+                      '<strong><a href="https://arxiv.org/abs/2207.05608">Inner Monologue</a></strong>: Uses natural language feedback from simulated environments to teach LLM-based robots planning, improving instruction completion in both simulated and real-world tasks.',
                     children: [],
                     payload: { lines: "43,44" },
                   },
                   {
                     content:
-                      '<strong><a href="">VIMA</a></strong>: Develops a multi-modality simulated environment, VIMA-Bench, to generate realistic planning tasks like object rearrangement, supporting a variety of objects and textures.',
+                      '<strong><a href="https://arxiv.org/abs/2210.03094">VIMA</a></strong>: Develops a multi-modality simulated environment, VIMA-Bench, to generate realistic planning tasks like object rearrangement, supporting a variety of objects and textures.',
                     children: [],
                     payload: { lines: "44,45" },
                   },
                   {
                     content:
-                      '<strong><a href="">Voyager</a></strong>: Deploys GPT-4 based agents in Minecraft, finding that synthetic feedback helps unlock new skills faster and makes planning more efficient.',
+                      '<strong><a href="https://arxiv.org/abs/2305.16291">Voyager</a></strong>: Deploys GPT-4 based agents in Minecraft, finding that synthetic feedback helps unlock new skills faster and makes planning more efficient.',
                     children: [],
                     payload: { lines: "45,47" },
                   },
@@ -237,25 +237,25 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                   },
                   {
                     content:
-                      '<strong><a href="">Pix2Struct</a></strong>: Utilizes web servers to render HTML into website screenshots, training the model to derender masked screenshots back into full HTML code.',
+                      '<strong><a href="https://arxiv.org/abs/2210.03347">Pix2Struct</a></strong>: Utilizes web servers to render HTML into website screenshots, training the model to derender masked screenshots back into full HTML code.',
                     children: [],
                     payload: { lines: "51,52" },
                   },
                   {
                     content:
-                      '<strong><a href="">MatCha</a> and <a href="">DePlot</a></strong>: Render tabular data into charts using Python libraries, pretraining models by pairing rendered images with corresponding code or tabular data.',
+                      '<strong><a href="https://arxiv.org/abs/2212.09662">MatCha</a> and <a href="https://arxiv.org/abs/2212.10505">DePlot</a></strong>: Render tabular data into charts using Python libraries, pretraining models by pairing rendered images with corresponding code or tabular data.',
                     children: [],
                     payload: { lines: "52,53" },
                   },
                   {
                     content:
-                      '<strong><a href="">Design2Code</a> and <a href="">WebSight</a></strong>: Train on synthetically generated HTML and CSS files to convert webpage screenshots into code implementations, achieving good generalization on real-world data.',
+                      '<strong><a href="https://arxiv.org/abs/2403.03163">Design2Code</a> and <a href="https://arxiv.org/abs/2403.09029">WebSight</a></strong>: Train on synthetically generated HTML and CSS files to convert webpage screenshots into code implementations, achieving good generalization on real-world data.',
                     children: [],
                     payload: { lines: "53,54" },
                   },
                   {
                     content:
-                      '<strong><a href="">Unity Perception</a></strong>: Proposes using physics or game engines (e.g., Unity) as synthetic data generators to enhance computer vision research.',
+                      '<strong><a href="https://arxiv.org/abs/2107.04259">Unity Perception</a></strong>: Proposes using physics or game engines (e.g., Unity) as synthetic data generators to enhance computer vision research.',
                     children: [],
                     payload: { lines: "54,56" },
                   },
@@ -267,25 +267,25 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong><a href="">LLaVA</a></strong>: Uses existing image captions to prompt GPT-4 in text-only mode for generating diverse long-form question-response pairs, which can be used in multimodal LLM training.',
+                      '<strong><a href="https://arxiv.org/abs/2304.08485">LLaVA</a></strong>: Uses existing image captions to prompt GPT-4 in text-only mode for generating diverse long-form question-response pairs, which can be used in multimodal LLM training.',
                     children: [],
                     payload: { lines: "57,58" },
                   },
                   {
                     content:
-                      '<strong><a href="">Svit</a></strong>: Incorporates object bounding box data as image attribute input for multimodal LLMs, fitting into the synthetic data pipeline for image attributes + text.',
+                      '<strong><a href="https://arxiv.org/abs/2307.04087">Svit</a></strong>: Incorporates object bounding box data as image attribute input for multimodal LLMs, fitting into the synthetic data pipeline for image attributes + text.',
                     children: [],
                     payload: { lines: "58,59" },
                   },
                   {
                     content:
-                      '<strong><a href="">Llavar</a></strong>: Leverages Optical Character Recognition (OCR) data from images as another source of image attribute information for multimodal LLM training.',
+                      '<strong><a href="https://arxiv.org/abs/2306.17107">Llavar</a></strong>: Leverages Optical Character Recognition (OCR) data from images as another source of image attribute information for multimodal LLM training.',
                     children: [],
                     payload: { lines: "59,60" },
                   },
                   {
                     content:
-                      '<strong><a href="">UniChart</a></strong>: Integrates data from derendered charts into the multimodal LLM pipeline, using chart attributes and text as inputs for training synthetic data.',
+                      '<strong><a href="https://arxiv.org/abs/2305.14761">UniChart</a></strong>: Integrates data from derendered charts into the multimodal LLM pipeline, using chart attributes and text as inputs for training synthetic data.',
                     children: [],
                     payload: { lines: "60,62" },
                   },
@@ -303,25 +303,25 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong>Backtranslation for Data Augmentation</strong>: Many multilingual models utilize backtranslation to generate synthetic parallel training data from monolingual sources, enhancing translation performance (<a href="">Improving Neural Machine Translation Models with Monolingual Data</a>, <a href="">Improving Neural Machine Translation Models with Monolingual Data</a>, <a href="">Tagged Back-Translation</a>, <a href="">Tagged Back-translation Revisited</a>, <a href="">Data Augmentation for Text Generation Without Any Augmented Data</a> <a href="">Back-translation for Large-Scale Multilingual Machine Translation</a> <a href="">Meta Back-Translation</a>, <a href="">On Synthetic Data for Back Translation</a>).',
+                      '<strong>Backtranslation for Data Augmentation</strong>: Many multilingual models utilize backtranslation to generate synthetic parallel training data from monolingual sources, enhancing translation performance (<a href="https://arxiv.org/abs/1511.06709">Improving Neural Machine Translation Models with Monolingual Data</a>, <a href="https://arxiv.org/abs/1906.06442">Tagged Back-Translation</a>, <a href="https://aclanthology.org/2020.acl-main.532/">Tagged Back-translation Revisited</a>, <a href="https://arxiv.org/abs/2105.13650">Data Augmentation for Text Generation Without Any Augmented Data</a> <a href="https://arxiv.org/abs/2109.08712">Back-translation for Large-Scale Multilingual Machine Translation</a> <a href="https://arxiv.org/abs/2102.07847">Meta Back-Translation</a>, <a href="https://arxiv.org/abs/2310.13675">On Synthetic Data for Back Translation</a>).',
                     children: [],
                     payload: { lines: "64,65" },
                   },
                   {
                     content:
-                      '<strong>Sampling Methods Exploration</strong>: Researchers have investigated various sampling methods for backtranslation (beam search, constrained sampling, unconstrained sampling) to assess their comparative effectiveness in generating high-quality synthetic data (<a href="">Improving Neural Machine Translation Models with Monolingual Data</a>, <a href="">Understanding Back-Translation at Scale</a>, <a href="">Generalizing Back-Translation in Neural Machine Translation</a>, <a href="">Paraphrasing with Bilingual Parallel Corpora</a>).',
+                      '<strong>Sampling Methods Exploration</strong>: Researchers have investigated various sampling methods for backtranslation (beam search, constrained sampling, unconstrained sampling) to assess their comparative effectiveness in generating high-quality synthetic data (<a href="https://arxiv.org/abs/1511.06709">Improving Neural Machine Translation Models with Monolingual Data</a>, <a href="https://arxiv.org/abs/1808.09381">Understanding Back-Translation at Scale</a>, <a href="https://arxiv.org/abs/1906.07286">Generalizing Back-Translation in Neural Machine Translation</a>, <a href="https://aclanthology.org/P05-1074/">Paraphrasing with Bilingual Parallel Corpora</a>).',
                     children: [],
                     payload: { lines: "65,66" },
                   },
                   {
                     content:
-                      '<strong>Optimization of Synthetic Data Quality</strong>: <a href="">On Synthetic Data for Back Translation</a> highlighted the importance of balancing the weight and quality of synthetic data for optimal neural machine translation (NMT) performance, proposing a method to optimize the ratio of search methods alongside a gamma score for improved effectiveness.',
+                      '<strong>Optimization of Synthetic Data Quality</strong>: <a href="https://arxiv.org/abs/2310.13675">On Synthetic Data for Back Translation</a> highlighted the importance of balancing the weight and quality of synthetic data for optimal neural machine translation (NMT) performance, proposing a method to optimize the ratio of search methods alongside a gamma score for improved effectiveness.',
                     children: [],
                     payload: { lines: "66,67" },
                   },
                   {
                     content:
-                      '<strong>Limitations of Backtranslation</strong>: Backtranslation\'s effectiveness can be limited by the quality and diversity of the synthetic data, as poor performance in backtranslation may lead to noisy or insufficiently diverse data, ultimately restricting performance gains (<a href="">Improving backtranslation with iterative filtering and data selection for sinhala-english nmt.</a>, <a href="">Improved unsupervised neural machine translation with semantically weighted back translation for morphologically rich and low resource languages.</a>)',
+                      '<strong>Limitations of Backtranslation</strong>: Backtranslation\'s effectiveness can be limited by the quality and diversity of the synthetic data, as poor performance in backtranslation may lead to noisy or insufficiently diverse data, ultimately restricting performance gains (<a href="https://ieeexplore.ieee.org/document/9525800">Improving backtranslation with iterative filtering and data selection for sinhala-english nmt</a>, <a href="https://link.springer.com/article/10.1007/s11063-021-10702-8">Improved unsupervised neural machine translation with semantically weighted back translation for morphologically rich and low resource languages</a>)',
                     children: [],
                     payload: { lines: "67,69" },
                   },
@@ -334,25 +334,25 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong>Translation of Monolingual QA</strong>: Translating existing monolingual questions and/or answers into other languages to enhance multilingual capabilities (<a href="">One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval</a>).',
+                      '<strong>Translation of Monolingual QA</strong>: Translating existing monolingual questions and/or answers into other languages to enhance multilingual capabilities (<a href="https://arxiv.org/abs/2107.11976">One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval</a>).',
                     children: [],
                     payload: { lines: "70,71" },
                   },
                   {
                     content:
-                      '<strong>Cross-lingual Question Generation</strong>: Using Question Generation models to generate synthetic questions in a cross-lingual manner based on provided answers and/or source texts (<a href="">Cross-Lingual Training for Automatic Question Generation</a>, <a href="">Cross-Lingual Natural Language Generation via Pre-Training</a>, <a href="">Synthetic Data Augmentation for Zero-Shot Cross-Lingual Question Answering</a>).',
+                      '<strong>Cross-lingual Question Generation</strong>: Using Question Generation models to generate synthetic questions in a cross-lingual manner based on provided answers and/or source texts (<a href="https://arxiv.org/abs/1906.02525">Cross-Lingual Training for Automatic Question Generation</a>, <a href="https://arxiv.org/abs/1909.10481">Cross-Lingual Natural Language Generation via Pre-Training</a>, <a href="https://arxiv.org/abs/2010.12643">Synthetic Data Augmentation for Zero-Shot Cross-Lingual Question Answering</a>).',
                     children: [],
                     payload: { lines: "71,72" },
                   },
                   {
                     content:
-                      '<strong>Joint Generation of Multilingual QA</strong>: Focusing on the simultaneous generation of questions and answers across multiple languages for improved flexibility in language model training (<a href="">Towards Zero-Shot Multilingual Synthetic Question and Answer Generation for Cross-Lingual Reading Comprehension</a>, <a href="">PAXQA</a>).',
+                      '<strong>Joint Generation of Multilingual QA</strong>: Focusing on the simultaneous generation of questions and answers across multiple languages for improved flexibility in language model training (<a href="https://arxiv.org/abs/2010.12008">Towards Zero-Shot Multilingual Synthetic Question and Answer Generation for Cross-Lingual Reading Comprehension</a>, <a href="https://arxiv.org/abs/2304.12206">PAXQA</a>).',
                     children: [],
                     payload: { lines: "72,73" },
                   },
                   {
                     content:
-                      '<strong>Fine-tuning Multilingual Models</strong>: Fine-tuning a pretrained multilingual T5 model on a combination of QA generation tasks and multilingual masked language modeling to create synthetic QA pairs in various languages (<a href="">Towards Zero-Shot Multilingual Synthetic Question and Answer Generation for Cross-Lingual Reading Comprehension</a>).',
+                      '<strong>Fine-tuning Multilingual Models</strong>: Fine-tuning a pretrained multilingual T5 model on a combination of QA generation tasks and multilingual masked language modeling to create synthetic QA pairs in various languages (<a href="https://arxiv.org/abs/2010.12008">Towards Zero-Shot Multilingual Synthetic Question and Answer Generation for Cross-Lingual Reading Comprehension</a>).',
                     children: [],
                     payload: { lines: "73,75" },
                   },
@@ -370,37 +370,37 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong><a href="">Self-Instruct</a></strong>: Utilizes LLMs to generate instruction-following data by imitating a small set of seed samples, expanding the variety of training scenarios.',
+                      '<strong><a href="https://arxiv.org/abs/2212.10560">Self-Instruct</a></strong>: Utilizes LLMs to generate instruction-following data by imitating a small set of seed samples, expanding the variety of training scenarios.',
                     children: [],
                     payload: { lines: "78,79" },
                   },
                   {
                     content:
-                      '<strong><a href="">Stanford Alpaca</a></strong>: Similar to Self-Instruct, this approach generates additional instruction-following examples using LLMs based on initial seed data to enhance training coverage.',
+                      '<strong><a href="https://crfm.stanford.edu/2023/03/13/alpaca.html">Stanford Alpaca</a></strong>: Similar to Self-Instruct, this approach generates additional instruction-following examples using LLMs based on initial seed data to enhance training coverage.',
                     children: [],
                     payload: { lines: "79,80" },
                   },
                   {
                     content:
-                      '<strong><a href="">Evol-Instruct</a></strong>: Introduces complexity to simple instructions through advanced prompting techniques, aiming to enrich the quality of generated data.',
+                      '<strong><a href="https://arxiv.org/abs/2304.12244">Evol-Instruct</a></strong>: Introduces complexity to simple instructions through advanced prompting techniques, aiming to enrich the quality of generated data.',
                     children: [],
                     payload: { lines: "80,81" },
                   },
                   {
                     content:
-                      '<strong><a href="">FLAN Dataset Revision</a></strong>: Implements an iterative revision process using LLMs to enhance instructions and responses, resulting in improved model performance across various NLP tasks.',
+                      '<strong><a href="https://arxiv.org/abs/2306.02707">FLAN Dataset Revision</a></strong>: Implements an iterative revision process using LLMs to enhance instructions and responses, resulting in improved model performance across various NLP tasks.',
                     children: [],
                     payload: { lines: "81,82" },
                   },
                   {
                     content:
-                      '<strong><a href="">UltraChat</a></strong>: Creates a large-scale synthetic dialogue dataset by employing two ChatGPT Turbo API models, simulating user behavior through carefully crafted prompts.',
+                      '<strong><a href="https://arxiv.org/abs/2305.14233">UltraChat</a></strong>: Creates a large-scale synthetic dialogue dataset by employing two ChatGPT Turbo API models, simulating user behavior through carefully crafted prompts.',
                     children: [],
                     payload: { lines: "82,83" },
                   },
                   {
                     content:
-                      '<strong><a href="">Synthetic Data for Robustness</a></strong>: Generates synthetic data to mitigate sycophantic tendencies in models, incorporating this data in a finetuning step to promote balanced responses regardless of user opinions.',
+                      '<strong><a href="https://arxiv.org/abs/2308.03958">Simple synthetic data reduces sycophancy in large language models</a></strong>: Generates synthetic data to mitigate sycophantic tendencies in models, incorporating this data in a finetuning step to promote balanced responses regardless of user opinions.',
                     children: [],
                     payload: { lines: "83,85" },
                   },
@@ -418,13 +418,13 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                   },
                   {
                     content:
-                      '<strong><a href="">Synthetic Task Design</a></strong>: Created a task for evaluating hallucinations, optimizing outputs by learning a continuous postfix via prefixtuning.',
+                      '<strong><a href="https://arxiv.org/abs/2310.06827">Teaching Language Models to Hallucinate Less with Synthetic Tasks</a></strong>: Created a task for evaluating hallucinations, optimizing outputs by learning a continuous postfix via prefixtuning.',
                     children: [],
                     payload: { lines: "87,88" },
                   },
                   {
                     content:
-                      '<strong><a href="">Automated Fact-Checking</a></strong>: Utilized confidence scores to rank factuality of model responses, finetuning with DPO to enhance factual accuracy.',
+                      '<strong><a href="https://arxiv.org/abs/2311.08401">Fine-tuning language models for factuality</a></strong>: Utilized confidence scores to rank factuality of model responses, finetuning with DPO to enhance factual accuracy.',
                     children: [],
                     payload: { lines: "88,90" },
                   },
@@ -448,31 +448,31 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                   },
                   {
                     content:
-                      '<strong>Mixture of Synthetic and Real Human Data</strong>: Combines synthetic data with real human data to enhance the robustness of reward models, providing a more diverse training set (<a href="">Scaling laws for reward model overoptimization</a>).',
+                      '<strong>Mixture of Synthetic and Real Human Data</strong>: Combines synthetic data with real human data to enhance the robustness of reward models, providing a more diverse training set (<a href="https://arxiv.org/abs/2210.10760">Scaling laws for reward model overoptimization</a>).',
                     children: [],
                     payload: { lines: "93,94" },
                   },
                   {
                     content:
-                      '<strong><a href="">Constitutional AI</a></strong>: Utilizes a small set of guiding principles to generate critiques and feedback, allowing for synthetic data to replace real human data in RLHF pipelines, achieving strong performance similar to RLHF baselines.',
+                      '<strong><a href="https://arxiv.org/abs/2212.08073">Constitutional AI</a></strong>: Utilizes a small set of guiding principles to generate critiques and feedback, allowing for synthetic data to replace real human data in RLHF pipelines, achieving strong performance similar to RLHF baselines.',
                     children: [],
                     payload: { lines: "94,95" },
                   },
                   {
                     content:
-                      '<strong>Synthetic Data for Value Alignment</strong>: Offers a cost-effective way to generate large, diverse datasets that simulate various ethical dilemmas, social interactions, and cultural norms, aiding in comprehensive testing of AI models\' alignment with human values (<a href="">Ultrafeedback</a>, <a href="">Red teaming language models to reduce harms</a>, <a href="">Red Teaming Language Models with Language Models</a>, <a href="">Training Socially Aligned Language Models on Simulated Social Interactions</a>, <a href="">NormBank</a>).',
+                      '<strong>Synthetic Data for Value Alignment</strong>: Offers a cost-effective way to generate large, diverse datasets that simulate various ethical dilemmas, social interactions, and cultural norms, aiding in comprehensive testing of AI models\' alignment with human values (<a href="https://arxiv.org/abs/2310.01377">Ultrafeedback</a>, <a href="https://arxiv.org/abs/2209.07858">Red teaming language models to reduce harms</a>, <a href="https://arxiv.org/abs/2202.03286">Red Teaming Language Models with Language Models</a>, <a href="https://arxiv.org/abs/2305.16960">Training Socially Aligned Language Models on Simulated Social Interactions</a>, <a href="https://arxiv.org/abs/2305.17008">NormBank</a>).',
                     children: [],
                     payload: { lines: "95,96" },
                   },
                   {
                     content:
-                      '<strong>Identification and Mitigation of Bias and Fairness Issues</strong>: Enables systematic testing to identify biases and fairness issues before real-world deployment, helping to prevent unintended consequences (<a href="">Mitigating Political Bias in Language Models through Reinforced Calibration</a>, <a href="">Bias in data-driven artificial intelligence systems</a>, <a href="">Gender Bias in Coreference Resolution</a>, <a href="">Auditing the ai auditors</a>, <a href="">ToolSword</a>).',
+                      '<strong>Identification and Mitigation of Bias and Fairness Issues</strong>: Enables systematic testing to identify biases and fairness issues before real-world deployment, helping to prevent unintended consequences (<a href="https://arxiv.org/abs/2104.14795">Mitigating Political Bias in Language Models through Reinforced Calibration</a>, <a href="https://arxiv.org/abs/2001.09762">Bias in data-driven artificial intelligence systems</a>, <a href="https://arxiv.org/abs/1804.09301">Gender Bias in Coreference Resolution</a>, <a href="https://www.researchgate.net/publication/358608994_Auditing_the_AI_auditors_A_framework_for_evaluating_fairness_and_bias_in_high_stakes_AI_predictive_models">Auditing the ai auditors</a>, <a href="https://arxiv.org/abs/2402.10753">ToolSword</a>).',
                     children: [],
                     payload: { lines: "96,97" },
                   },
                   {
                     content:
-                      '<strong>Risks of Low-Fidelity Synthetic Data</strong>: Acknowledges limitations in accurately reflecting nuanced human judgment, which may lead to vulnerabilities under specific attacks and deceptive behaviors (<a href="">Out of one, many</a>, <a href="">Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech</a>, <a href="">Toxicity in ChatGPT</a>, <a href="">The Effects of Reward Misspecification</a>, <a href="">ML Systems Will Have Weird Failure Modes</a>, <a href="">Reward tampering problems and solutions in reinforcement learning</a>).',
+                      '<strong>Risks of Low-Fidelity Synthetic Data</strong>: Acknowledges limitations in accurately reflecting nuanced human judgment, which may lead to vulnerabilities under specific attacks and deceptive behaviors (<a href="https://arxiv.org/abs/2209.06899">Out of one, many</a>, <a href="https://arxiv.org/abs/2302.07736">Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech</a>, <a href="">Toxicity in ChatGPT</a>, <a href="https://arxiv.org/abs/2201.03544">The Effects of Reward Misspecification</a>, <a href="https://bounded-regret.ghost.io/ml-systems-will-have-weird-failure-modes-2/">ML Systems Will Have Weird Failure Modes</a>, <a href="https://arxiv.org/abs/1908.04734">Reward tampering problems and solutions in reinforcement learning</a>).',
                     children: [],
                     payload: { lines: "97,99" },
                   },
@@ -496,37 +496,37 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      'Early statistical-based hallucination evaluation methods used n-grams to calculate vocabulary overlap between input and output but failed to account for semantics (<a href="">Handling divergent reference texts when evaluating table-to-text generation</a>, <a href="">Towards faithful neural table-to-text generation with content-matching constraints</a>).',
+                      'Early statistical-based hallucination evaluation methods used n-grams to calculate vocabulary overlap between input and output but failed to account for semantics (<a href="https://arxiv.org/abs/1906.01081">Handling divergent reference texts when evaluating table-to-text generation</a>, <a href="https://arxiv.org/abs/2005.00969">Towards faithful neural table-to-text generation with content-matching constraints</a>).',
                     children: [],
                     payload: { lines: "102,103" },
                   },
                   {
                     content:
-                      'Statistical methods were limited as they only considered lexical overlap and couldn\'t evaluate complex hallucinations (<a href=""> Survey of hallucination in natural language generation</a>).',
+                      'Statistical methods were limited as they only considered lexical overlap and couldn\'t evaluate complex hallucinations (<a href="https://arxiv.org/abs/2202.03629">Survey of hallucination in natural language generation</a>).',
                     children: [],
                     payload: { lines: "103,104" },
                   },
                   {
                     content:
-                      'Model-based methods replaced statistical approaches, providing more robustness than token-difference-based methods (<a href="">Evaluating factual consistency in knowledge-grounded dialogues via question generation and question answering</a>).',
+                      'Model-based methods replaced statistical approaches, providing more robustness than token-difference-based methods (<a href="https://arxiv.org/abs/2104.08202">Evaluating factual consistency in knowledge-grounded dialogues via question generation and question answering</a>).',
                     children: [],
                     payload: { lines: "104,105" },
                   },
                   {
                     content:
-                      'Model-based methods can measure hallucination severity but struggle to identify specific factual errors (<a href="">Ranking generated summaries by correctness</a>).',
+                      'Model-based methods can measure hallucination severity but struggle to identify specific factual errors (<a href="https://aclanthology.org/P19-1213/">Ranking generated summaries by correctness</a>).',
                     children: [],
                     payload: { lines: "105,106" },
                   },
                   {
                     content:
-                      'Combining LLM generation with random walks on knowledge graphs helps generate synthetic evaluation data by focusing on entities and relations (<a href="">FactKB</a>).',
+                      'Combining LLM generation with random walks on knowledge graphs helps generate synthetic evaluation data by focusing on entities and relations (<a href="https://arxiv.org/abs/2305.08281">FactKB</a>).',
                     children: [],
                     payload: { lines: "106,107" },
                   },
                   {
                     content:
-                      'The <a href="">LongFact</a> dataset has been created created for long-form factuality evaluation, using Google Search as grounding and LLM for automated judgement, achieving human-level accuracy at a lower cost ().',
+                      'The <a href="https://arxiv.org/abs/2403.18802">LongFact</a> dataset has been created created for long-form factuality evaluation, using Google Search as grounding and LLM for automated judgement, achieving human-level accuracy at a lower cost ().',
                     children: [],
                     payload: { lines: "107,109" },
                   },
@@ -538,25 +538,25 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong>Red teaming</strong> generates diverse, realistic scenarios to identify unaligned or harmful outputs in AI models (<a href=""> Explore, establish, exploit</a>).',
+                      '<strong>Red teaming</strong> generates diverse, realistic scenarios to identify unaligned or harmful outputs in AI models (<a href="https://arxiv.org/abs/2306.09442"> Explore, establish, exploit</a>).',
                     children: [],
                     payload: { lines: "110,111" },
                   },
                   {
                     content:
-                      '<strong><a href="">Red teaming language models with language models</a></strong> used LMs to create 154 high-quality datasets to evaluate other LMs, discovering new inverse scaling issues.',
+                      '<strong><a href="https://arxiv.org/abs/2202.03286">Red teaming language models with language models</a></strong> used LMs to create 154 high-quality datasets to evaluate other LMs, discovering new inverse scaling issues.',
                     children: [],
                     payload: { lines: "111,112" },
                   },
                   {
                     content:
-                      '<strong><a href=""> Sleeper agents</a></strong> leveraged synthetic data to trigger backdoor attacks, revealing deceptive behavior in LMs and limitations of standard safety training.',
+                      '<strong><a href="https://arxiv.org/abs/2401.05566">Sleeper agents</a></strong> leveraged synthetic data to trigger backdoor attacks, revealing deceptive behavior in LMs and limitations of standard safety training.',
                     children: [],
                     payload: { lines: "112,113" },
                   },
                   {
                     content:
-                      '<strong>AI assistance</strong> can help scale human oversight in addressing complex and unseen domains (<a href="">Measuring progress on scalable oversight for large language models</a>).',
+                      '<strong>AI assistance</strong> can help scale human oversight in addressing complex and unseen domains (<a href="https://arxiv.org/abs/2211.03540">Measuring progress on scalable oversight for large language models</a>).',
                     children: [],
                     payload: { lines: "113,115" },
                   },
@@ -568,25 +568,25 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong><a href="">Alpaca Eval</a>:</strong> A benchmark that uses GPT-4 as a judge to assess the comprehensive abilities of LM-based chatbots.',
+                      '<strong><a href="https://github.com/tatsu-lab/alpaca_eval">Alpaca Eval</a>:</strong> A benchmark that uses GPT-4 as a judge to assess the comprehensive abilities of LM-based chatbots.',
                     children: [],
                     payload: { lines: "116,117" },
                   },
                   {
                     content:
-                      '<strong><a href="">MT Bench</a>:</strong> Another benchmark using GPT-4 to evaluate the capabilities of LM-based chatbots, focusing on various aspects of performance.',
+                      '<strong><a href="https://arxiv.org/abs/2306.05685">MT Bench</a>:</strong> Another benchmark using GPT-4 to evaluate the capabilities of LM-based chatbots, focusing on various aspects of performance.',
                     children: [],
                     payload: { lines: "117,118" },
                   },
                   {
                     content:
-                      '<strong><a href="">CRUXEval</a>:</strong> A code execution reasoning benchmark with 800 Python functions generated by CodeLLaMA-34B to evaluate coding task performance.',
+                      '<strong><a href="https://arxiv.org/abs/2401.03065">CRUXEval</a>:</strong> A code execution reasoning benchmark with 800 Python functions generated by CodeLLaMA-34B to evaluate coding task performance.',
                     children: [],
                     payload: { lines: "118,119" },
                   },
                   {
                     content:
-                      '<strong><a href="">CodeMind</a>:</strong> A framework that evaluates LLMs on code reasoning abilities across Independent Execution Reasoning (IER), Dependent Execution Reasoning (DER), and Specification Reasoning (SR).',
+                      '<strong><a href="https://arxiv.org/abs/2402.09664">CodeMind</a>:</strong> A framework that evaluates LLMs on code reasoning abilities across Independent Execution Reasoning (IER), Dependent Execution Reasoning (DER), and Specification Reasoning (SR).',
                     children: [],
                     payload: { lines: "119,122" },
                   },
@@ -800,37 +800,37 @@ document.getElementById("title").innerHTML = "Best Practices and Lessons Learned
                 children: [
                   {
                     content:
-                      '<strong><a href="">Debate</a>:</strong> Simulates social iterations by having AI models engage in a structured debate to expose and correct errors.',
+                      '<strong><a href="https://arxiv.org/abs/1811.07871">Debate</a>:</strong> Simulates social iterations by having AI models engage in a structured debate to expose and correct errors.',
                     children: [],
                     payload: { lines: "162,163" },
                   },
                   {
                     content:
-                      '<strong><a href="">Reflection</a>:</strong> Uses AI models\' introspection and self-evaluation to generate synthetic data for oversight by reflecting on their decisions.',
+                      '<strong><a href="https://arxiv.org/abs/2310.02124">Reflection</a>:</strong> Uses AI models\' introspection and self-evaluation to generate synthetic data for oversight by reflecting on their decisions.',
                     children: [],
                     payload: { lines: "163,164" },
                   },
                   {
                     content:
-                      '<strong><a href="">Revisions</a>:</strong> Focuses on iterative correction of AI model outputs to improve oversight using synthetic data.',
+                      '<strong><a href="https://arxiv.org/abs/2305.16960">Revisions</a>:</strong> Focuses on iterative correction of AI model outputs to improve oversight using synthetic data.',
                     children: [],
                     payload: { lines: "164,165" },
                   },
                   {
                     content:
-                      '<strong><a href="">Comprehensive Scenarios and Modalities</a>:</strong> Proposes exploring a broader range of scenarios and modalities in synthetic data generation for better oversight.',
+                      '<strong><a href="https://arxiv.org/abs/2309.14525">Comprehensive Scenarios and Modalities</a>:</strong> Proposes exploring a broader range of scenarios and modalities in synthetic data generation for better oversight.',
                     children: [],
                     payload: { lines: "165,166" },
                   },
                   {
                     content:
-                      '<strong><a href="">Narrowed-down Issues</a>:</strong> Highlights problems arising from simulation of overly specific and narrow scenarios.',
+                      '<strong><a href="https://aclanthology.org/2023.emnlp-main.669/">Narrowed-down Issues</a>:</strong> Highlights problems arising from simulation of overly specific and narrow scenarios.',
                     children: [],
                     payload: { lines: "166,167" },
                   },
                   {
                     content:
-                      '<strong><a href="">Over-simplified Scenes</a>:</strong> Identifies issues with simulations that are too simplistic to provide meaningful oversight.',
+                      '<strong><a href="https://openreview.net/forum?id=HkxQRTNYPH">Over-simplified Scenes</a>:</strong> Identifies issues with simulations that are too simplistic to provide meaningful oversight.',
                     children: [],
                     payload: { lines: "167,169" },
                   },
