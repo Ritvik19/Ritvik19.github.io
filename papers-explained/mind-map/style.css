@@ -7,6 +7,13 @@
     width: 100vw;
     height: 90vh;
   }
+  #mindmap a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  #mindmap a:hover {
+    text-decoration: underline;
+  }
 
   .mm-toolbar:hover {--un-border-opacity:1;border-color:rgb(161 161 170 / var(--un-border-opacity));
   }
