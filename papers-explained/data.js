@@ -1567,6 +1567,14 @@ const papers_data = [
         "A successor to Swin Transformer, addressing challenges like training stability, resolution gaps, and labeled data scarcity.",
       tags: ["Vision Transformers"],
     },
+    {
+      title: "EfficientFormer",
+      link: "https://ritvik19.medium.com/papers-explained-220-efficientformer-97c91540af19",
+      date: "June 2022",
+      description:
+        "Revisits the design principles of ViT and its variants through latency analysis and identifies inefficient designs and operators in ViT to propose a new dimension consistent design paradigm for vision transformers and a simple yet effective latency-driven slimming method to optimize for inference speed.",
+      tags: ["Vision Transformers"],
+    },
   ],
   [
     // Convolutional Neural Networks
