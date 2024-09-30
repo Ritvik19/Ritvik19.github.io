@@ -2224,6 +2224,14 @@ const papers_data = [
         "A Gboard feature powered by a server-side LLM, enabling seamless sentence-level and paragraph-level corrections with a single tap.",
       tags: ["Language Models"],
     },
+    {
+      title: "Reader-LM",
+      link: "https://ritvik19.medium.com/papers-explained-221-reader-lm-7382b9eb6ed9",
+      date: "September 2024",
+      description:
+        "Small multilingual models specifically trained to generate clean markdown directly from noisy raw HTML, with a context length of up to 256K tokens.",
+      tags: ["Language Models"],
+    },
   ],
 ];
 
