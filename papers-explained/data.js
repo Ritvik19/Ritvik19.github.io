@@ -770,6 +770,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder"],
     },
     {
+      title: "Apple Intelligence Foundation Language Models",
+      link: "https://ritvik19.medium.com/papers-explained-222-apple-intelligence-foundation-language-models-2b8a41371a42",
+      date: "July 2024",
+      description:
+        "Two foundation language models, AFM-on-device (a ~3 B parameter model) and AFM-server (a larger server-based model), designed to power Apple Intelligence features efficiently, accurately, and responsibly, with a focus on Responsible AI principles that prioritize user empowerment, representation, design care, and privacy protection.",
+      tags: ["Language Models", "Transformer Decoder"],
+    },
+    {
       title: "Hermes 3",
       link: "https://ritvik19.medium.com/papers-explained-188-hermes-3-67d36cfe07d8",
       date: "August 2024",
