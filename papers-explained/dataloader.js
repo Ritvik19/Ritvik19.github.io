@@ -67,7 +67,7 @@ function createSectionWithCards(data) {
 function createSurveySection(data) {
   return `
     <div class="card-columns">
-      ${data.map(item => createSurveyCard(item)).join('')}
+      ${data.reverse().map(item => createSurveyCard(item)).join('')}
     </div>`;
 }
 
@@ -126,6 +126,12 @@ function populateContainer() {
 }
 
 function search() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const search_query = urlParams.get('search');
+  if (search_query) {
+    document.getElementById('search_input').value = search_query;
+  }
   const input = document.getElementById('search_input').value.toUpperCase();
   const cards = document.getElementsByClassName("card");
 
@@ -136,10 +142,30 @@ function search() {
   hideEmptySections();
 }
 
+function filter() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const filter_query = urlParams.get('tags');
+  const filters = filter_query ? filter_query.split(',') : [];
+  const cards = document.getElementsByClassName("card");
+
+  Array.from(cards).forEach(card => {
+    const card_tags = Array.from(card.getElementsByClassName("badge")).map(tag => tag.textContent);
+    card.style.display = filters.every(filter => card_tags.includes(filter)) ? "" : "none";
+  });
+
+  hideEmptySections();
+}
+
 function hideEmptySections() {
   const sections = document.getElementsByClassName("section");
 
-  Array.from(sections).forEach(section => {
+  Array.from(sections).forEach((section, index) => {
+    if (index === 0) {
+      section.style.display = "";
+      return;
+    }
+
     const visible = Array.from(section.getElementsByClassName("card"))
       .some(card => card.style.display !== "none");
 
@@ -159,3 +185,5 @@ function populateNav() {
 
 populateContainer();
 populateNav();
+search();
+filter();
