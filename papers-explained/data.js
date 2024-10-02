@@ -770,6 +770,22 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder"],
     },
     {
+      title: "LLM Compiler",
+      link: "https://ritvik19.medium.com/papers-explained-223-llm-compiler-15b1ddb9a1b0",
+      date: "July 2024",
+      description:
+        "A suite of pre-trained models designed for code optimization tasks, built upon Code Llama, with two sizes (7B and 13B), trained on LLVM-IR and assembly code to optimize compiler intermediate representations, assemble/disassemble, and achieve high accuracy in optimizing code size and disassembling from x86_64 and ARM assembly back into LLVM-IR.",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
+    },
+    {
+      title: "Apple Intelligence Foundation Language Models",
+      link: "https://ritvik19.medium.com/papers-explained-222-apple-intelligence-foundation-language-models-2b8a41371a42",
+      date: "July 2024",
+      description:
+        "Two foundation language models, AFM-on-device (a ~3 B parameter model) and AFM-server (a larger server-based model), designed to power Apple Intelligence features efficiently, accurately, and responsibly, with a focus on Responsible AI principles that prioritize user empowerment, representation, design care, and privacy protection.",
+      tags: ["Language Models", "Transformer Decoder"],
+    },
+    {
       title: "Hermes 3",
       link: "https://ritvik19.medium.com/papers-explained-188-hermes-3-67d36cfe07d8",
       date: "August 2024",
@@ -1567,6 +1583,14 @@ const papers_data = [
         "A successor to Swin Transformer, addressing challenges like training stability, resolution gaps, and labeled data scarcity.",
       tags: ["Vision Transformers"],
     },
+    {
+      title: "EfficientFormer",
+      link: "https://ritvik19.medium.com/papers-explained-220-efficientformer-97c91540af19",
+      date: "June 2022",
+      description:
+        "Revisits the design principles of ViT and its variants through latency analysis and identifies inefficient designs and operators in ViT to propose a new dimension consistent design paradigm for vision transformers and a simple yet effective latency-driven slimming method to optimize for inference speed.",
+      tags: ["Vision Transformers"],
+    },
   ],
   [
     // Convolutional Neural Networks
@@ -2214,6 +2238,14 @@ const papers_data = [
       date: "June 2024",
       description:
         "A Gboard feature powered by a server-side LLM, enabling seamless sentence-level and paragraph-level corrections with a single tap.",
+      tags: ["Language Models"],
+    },
+    {
+      title: "Reader-LM",
+      link: "https://ritvik19.medium.com/papers-explained-221-reader-lm-7382b9eb6ed9",
+      date: "September 2024",
+      description:
+        "Small multilingual models specifically trained to generate clean markdown directly from noisy raw HTML, with a context length of up to 256K tokens.",
       tags: ["Language Models"],
     },
   ],
