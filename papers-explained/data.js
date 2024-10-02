@@ -2221,6 +2221,13 @@ const papers_data = [
 
 const surveys_data = [
   {
+    title: "Best Practices and Lessons Learned on Synthetic Data",
+    link: "2404.07503",
+    date: "April 2024",
+    description: "Provides an overview of synthetic data research, discussing its applications, challenges, and future directions.",
+    tags: ["Survey", "Synthetic Data"],
+  },
+  {
     title: "What is the Role of Small Models in the LLM Era",
     link: "2409.06857",
     date: "September 2024",
@@ -2229,12 +2236,13 @@ const surveys_data = [
     tags: ["Survey", "Small Models"],
   },
   {
-    title: "Best Practices and Lessons Learned on Synthetic Data",
-    link: "2404.07503",
-    date: "April 2024",
-    description: "Provides an overview of synthetic data research, discussing its applications, challenges, and future directions.",
-    tags: ["Survey", "Synthetic Data"],
-  }
+    title: "Small Language Models: Survey, Measurements, and Insights",
+    link: "2409.15790",
+    date: "September 2024",
+    description:
+      "Survey 59 SoTA open-source SLMs, analyzing their technical innovations across three axes: architectures, training datasets, and training algorithms, evaluate their capabilities, and benchmark their inference latency and memory footprints.",
+    tags: ["Survey", "Small Models"],
+  },
 ]
 
 const literature_review_data = [
