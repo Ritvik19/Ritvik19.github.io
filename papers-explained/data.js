@@ -770,6 +770,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder"],
     },
     {
+      title: "LLM Compiler",
+      link: "https://ritvik19.medium.com/papers-explained-223-llm-compiler-15b1ddb9a1b0",
+      date: "July 2024",
+      description:
+        "A suite of pre-trained models designed for code optimization tasks, built upon Code Llama, with two sizes (7B and 13B), trained on LLVM-IR and assembly code to optimize compiler intermediate representations, assemble/disassemble, and achieve high accuracy in optimizing code size and disassembling from x86_64 and ARM assembly back into LLVM-IR.",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
+    },
+    {
       title: "Apple Intelligence Foundation Language Models",
       link: "https://ritvik19.medium.com/papers-explained-222-apple-intelligence-foundation-language-models-2b8a41371a42",
       date: "July 2024",
