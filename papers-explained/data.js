@@ -2134,7 +2134,7 @@ const papers_data = [
       date: "October 2023",
       description:
         "A programming model that abstracts LM pipelines as text transformation graphs, i.e. imperative computation graphs where LMs are invoked through declarative modules, optimizing their use through a structured framework of signatures, modules, and teleprompters to automate and enhance text transformation tasks.",
-      tags: [],
+      tags: ["Prompt Optimization"],
     },
     {
       title: "LLMLingua",
