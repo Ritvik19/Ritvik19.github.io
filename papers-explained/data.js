@@ -2246,7 +2246,7 @@ const papers_data = [
       date: "June 2024",
       description:
         "A model based on GPT-4 trained with RLHF to catch errors in ChatGPT's code output, accepts a question-answer pair as input and outputs a structured critique that highlights potential problems in the answer.",
-      tags: ["Language Models"],
+      tags: ["Language Models", "OpenAI", "GPT"],
     },
     {
       title: "Reader-LM",
