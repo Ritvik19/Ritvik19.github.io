@@ -2241,6 +2241,14 @@ const papers_data = [
       tags: ["Language Models"],
     },
     {
+      title: "CriticGPT",
+      link: "https://ritvik19.medium.com/papers-explained-224-criticgpt-6d9af57451fa",
+      date: "June 2024",
+      description:
+        "A model based on GPT-4 trained with RLHF to catch errors in ChatGPT's code output, accepts a question-answer pair as input and outputs a structured critique that highlights potential problems in the answer.",
+      tags: ["Language Models"],
+    },
+    {
       title: "Reader-LM",
       link: "https://ritvik19.medium.com/papers-explained-221-reader-lm-7382b9eb6ed9",
       date: "September 2024",
