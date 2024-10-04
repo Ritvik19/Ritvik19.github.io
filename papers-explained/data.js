@@ -1207,11 +1207,11 @@ const papers_data = [
       tags: ["Multimodal Models", "Anthropic", "Claude"],
     },
     {
-      title: "MM1",
+      title: "MM-1",
       link: "https://ritvik19.medium.com/papers-explained-117-mm1-c579142bcdc0",
       date: "March 2024",
       description:
-        "A multimodal llm that combines a ViT-H image encoder with 378x378px resolution, pretrained on a data mix of image-text documents and text-only documents, scaled up to 3B, 7B, and 30B parameters for enhanced performance across various tasks.",
+        "Studies the importance of various architecture components and data choices. Through comprehensive ablations of the image encoder, the vision language connector, and various pre-training data choices, and identifies several crucial design lessons.",
       tags: ["Multimodal Models"],
     },
     {
