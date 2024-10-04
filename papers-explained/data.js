@@ -1591,6 +1591,14 @@ const papers_data = [
         "Revisits the design principles of ViT and its variants through latency analysis and identifies inefficient designs and operators in ViT to propose a new dimension consistent design paradigm for vision transformers and a simple yet effective latency-driven slimming method to optimize for inference speed.",
       tags: ["Vision Transformers"],
     },
+    {
+      title: "FastVit",
+      link: "https://ritvik19.medium.com/papers-explained-225-fastvit-f1568536ed34",
+      date: "March 2023",
+      description:
+        "A hybrid vision transformer architecture featuring a novel token mixing operator called RepMixer, which significantly improves model efficiency.",
+      tags: ["Vision Transformers"],
+    },
   ],
   [
     // Convolutional Neural Networks
