@@ -2280,7 +2280,7 @@ const surveys_data = [
     link: "2409.15790",
     date: "September 2024",
     description:
-      "Survey 59 SoTA open-source SLMs, analyzing their technical innovations across three axes: architectures, training datasets, and training algorithms, evaluate their capabilities, and benchmark their inference latency and memory footprints.",
+      "Surveys 59 SoTA open-source SLMs, analyzing their technical innovations across three axes: architectures, training datasets, and training algorithms, evaluate their capabilities, and benchmark their inference latency and memory footprints.",
     tags: ["Survey", "Small Models"],
   },
 ]
