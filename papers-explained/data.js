@@ -817,6 +817,14 @@ const papers_data = [
         "Uses knowledge distillation and NAS to optimize various constraints, resulting in a model that achieves 2.2x faster inference compared to the reference model while maintaining nearly the same accuracy, with an irregular block structure that reduces or prunes attention and FFN layers for better utilization of H100 and improved LLMs for inference.",
       tags: ["Language Models", "Transformer Decoder", "Pruning", "Knowledge Distillation", "Nvidia"],
     },
+    {
+      title: "LLama 3.2",
+      link: "https://ritvik19.medium.com/papers-explained-187d-llama-3-2-e517fa1f2528",
+      date: "September 2024",
+      description:
+        "Small and medium-sized vision LLMs (11B and 90B), and lightweight, text-only models (1B and 3B).",
+      tags: ["Language Models", "Transformer Decoder", "Llama", "Small LLMs", "Multimodal Models"],
+    }
   ],
   [
     // Small LLMs
