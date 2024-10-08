@@ -2093,6 +2093,14 @@ const papers_data = [
       tags: ["Datasets", "Language Model Datasets", "HuggingFace", "Synthetic Data"],
     },
     {
+      title: "RewardBench",
+      link: "A benchmark dataset and code-base designed to evaluate reward models used in RLHF",
+      date: "March 2024",
+      description:
+        "A benchmark dataset and code-base designed to evaluate reward models used in RLHF.",
+      tags: ["Datasets", "LLM Evaluation"],
+    },
+    {
       title: "Fine Web",
       link: "https://ritvik19.medium.com/papers-explained-174-fineweb-280bbc08068b",
       date: "May 2024",
