@@ -1722,5 +1722,5 @@ document.getElementById("title").innerHTML = "The Prompt Report: A Systematic Su
     ],
     payload: { lines: "1,2" },
   },
-  { color: ["#2980b9"], initialExpandLevel: 3 }
+  { color: ["#2980b9"], initialExpandLevel: 3, maxWidth:400 }
 );
