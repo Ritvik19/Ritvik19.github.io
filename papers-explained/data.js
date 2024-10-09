@@ -2307,6 +2307,14 @@ const surveys_data = [
     tags: ["Survey", "Synthetic Data"],
   },
   {
+    title: "The Prompt Report: A Systematic Survey of Prompting Techniques",
+    link: "2406.06608",
+    date: "June 2024",
+    description: 
+      "It establishes a structured understanding of prompts, by assembling a taxonomy of prompting techniques and analyzing their use.",
+    tags: ["Survey", "Prompt Optimization"],
+  },
+  {
     title: "What is the Role of Small Models in the LLM Era",
     link: "2409.06857",
     date: "September 2024",
