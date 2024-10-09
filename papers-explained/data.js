@@ -2311,7 +2311,7 @@ const surveys_data = [
     link: "2406.06608",
     date: "June 2024",
     description: 
-      "It establishes a structured understanding of prompts, by assembling a taxonomy of prompting techniques and analyzing their use.",
+      "Establishes a structured understanding of prompts, by assembling a taxonomy of prompting techniques and analyzing their use.",
     tags: ["Survey", "Prompt Optimization"],
   },
   {
