@@ -2160,6 +2160,14 @@ const papers_data = [
       tags: [],
     },
     {
+      title: "RAGAS",
+      link: "https://ritvik19.medium.com/papers-explained-227-ragas-4594fc4d96b9",
+      date: "September 2023",
+      description:
+        "A framework for reference-free evaluation of RAG systems, assessing the retrieval system's ability to find relevant context, the LLM's faithfulness in using that context, and the overall quality of the generated response.",
+      tags: ["LLM Evaluation"],
+    },
+    {
       title: "DSPy",
       link: "https://ritvik19.medium.com/papers-explained-135-dspy-fe8af7e35091",
       date: "October 2023",
