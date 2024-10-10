@@ -2295,6 +2295,14 @@ const papers_data = [
         "Small multilingual models specifically trained to generate clean markdown directly from noisy raw HTML, with a context length of up to 256K tokens.",
       tags: ["Language Models"],
     },
+    {
+      title: "Direct Judgement Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-228-direct-judgement-preference-optimization-6915425402bf",
+      date: "September 2024",
+      description:
+        "Proposes learning through preference optimization to enhance the evaluation capabilities of LLM judges which are trained on three approaches: Chain-of-Thought Critique, Standard Judgement, and Response Deduction across various use cases, including single rating, pairwise comparison, and classification.",
+      tags: ["LLM Evaluation"],
+    }
   ],
 ];
 
