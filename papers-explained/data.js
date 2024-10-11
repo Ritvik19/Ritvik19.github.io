@@ -1614,6 +1614,14 @@ const papers_data = [
         "A hybrid vision transformer architecture featuring a novel token mixing operator called RepMixer, which significantly improves model efficiency.",
       tags: ["Vision Transformers"],
     },
+    {
+      title: "Efficient ViT",
+      link: "https://ritvik19.medium.com/papers-explained-229-efficient-vit-cc87fbefbe49",
+      date: "May 2023",
+      description:
+        "Employs a single memory-bound MHSA between efficient FFN layers, improves memory efficiency while enhancing channel communication.",
+      tags: ["Vision Transformers"],
+    },
   ],
   [
     // Convolutional Neural Networks
