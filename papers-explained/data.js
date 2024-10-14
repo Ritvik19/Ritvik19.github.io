@@ -640,7 +640,7 @@ const papers_data = [
       description: 
         "A series of LLMs specifically designed for general math problem-solving, trained on MathInstruct, a dataset compiled from 13 math datasets with intermediate rationales that combines chain-of-thought and program-of-thought approaches to accommodate different thought processes for various math problems.",
       tags: ["Language Models", "Transformer Decoder", "Scientific Data"],
-    }
+    },
     {
       title: "Llemma",
       link: "https://ritvik19.medium.com/papers-explained-69-llemma-0a17287e890a",
