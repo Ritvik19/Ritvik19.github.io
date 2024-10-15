@@ -730,6 +730,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder"],
     },
     {
+      title: "MAmmoTH 2",
+      link: "https://ritvik19.medium.com/papers-explained-231-mammoth2-e9c0e6fb9795",
+      date: "May 2024",
+      description: 
+        "LLMs fine tuned on a dataset curated through the proposed paradigm that efficiently harvest 10M naturally existing instruction data from the pre-training web corpus to enhance LLM reasoning. It involves recalling relevant documents, extracting instruction-response pairs, and refining the extracted pairs using open-source LLMs.",
+      tags: ["Language Models", "Transformer Decoder", "Scientific Data"],
+    },
+    {
       title: "Codestral 22B",
       link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#057b",
       date: "May 2024",
