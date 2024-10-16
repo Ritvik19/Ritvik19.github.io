@@ -1783,6 +1783,14 @@ const papers_data = [
         "Incorporates a fully convolutional MAE framework and a Global Response Normalization (GRN) layer, boosting performance across multiple benchmarks.",
       tags: ["Convolutional Neural Networks"],
     },
+    {
+      title: "Mobile Net V4",
+      link: "https://ritvik19.medium.com/papers-explained-232-mobilenetv4-83a526887c30",
+      date: "April 2024",
+      description: 
+        "Features a universally efficient architecture design, including the Universal Inverted Bottleneck (UIB) search block, Mobile MQA attention block, and an optimized neural architecture search recipe, which enables it to achieve high accuracy and efficiency on various mobile devices and accelerators.",
+      tags: ["Convolutional Neural Networks"],
+    },
   ],
   [
     // Object Detection
