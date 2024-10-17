@@ -1784,6 +1784,13 @@ const papers_data = [
       tags: ["Convolutional Neural Networks"],
     },
     {
+      title: "Efficient Net V2",
+      link: "https://ritvik19.medium.com/papers-explained-efficientnetv2-a7a1e4113b89",
+      date: "April 2024",
+      description:
+        "A new family of convolutional networks, achieves faster training speed and better parameter efficiency than previous models through neural architecture search and scaling, with progressive learning allowing for improved accuracy on various datasets while training up to 11x faster.",
+    },
+    {
       title: "Mobile Net V4",
       link: "https://ritvik19.medium.com/papers-explained-232-mobilenetv4-83a526887c30",
       date: "April 2024",
