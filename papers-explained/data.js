@@ -1638,6 +1638,14 @@ const papers_data = [
         "Employs a single memory-bound MHSA between efficient FFN layers, improves memory efficiency while enhancing channel communication.",
       tags: ["Vision Transformers"],
     },
+    {
+      title: "SoViT",
+      link: "https://ritvik19.medium.com/papers-explained-234-sovit-a0ce3c7ef480",
+      date: "May 2023",
+      description:
+        "A shape-optimized vision transformer that achieves competitive results with models twice its size, while being pre-trained with an equivalent amount of compute.",
+      tags: ["Vision Transformers"],
+    }
   ],
   [
     // Convolutional Neural Networks
