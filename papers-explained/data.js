@@ -1551,7 +1551,7 @@ const papers_data = [
       tags: ["Vision Transformers"],
     },
     {
-      title: "DeiT",
+      title: "Data Efficient Image Transformer (DeiT)",
       link: "https://ritvik19.medium.com/papers-explained-39-deit-3d78dd98c8ec",
       date: "December 2020",
       description:
@@ -1567,7 +1567,7 @@ const papers_data = [
       tags: ["Vision Transformers"],
     },
     {
-      title: "Convolutional Vision Transformer",
+      title: "Convolutional Vision Transformer (CvT)",
       link: "https://ritvik19.medium.com/papers-explained-199-cvt-fb4a5c05882e",
       date: "March 2021",
       description:
@@ -1607,7 +1607,7 @@ const papers_data = [
       tags: ["Vision Transformers"],
     },
     {
-      title: "MaxViT",
+      title: "Multi-Axis Vision Transformer (MaxViT)",
       link: "https://ritvik19.medium.com/papers-explained-210-maxvit-6c68cc515413",
       date: "April 2022",
       description:
@@ -1647,7 +1647,7 @@ const papers_data = [
       tags: ["Vision Transformers"],
     },
     {
-      title: "SoViT",
+      title: "Shape-Optimized Vision Transformer (SoViT)",
       link: "https://ritvik19.medium.com/papers-explained-234-sovit-a0ce3c7ef480",
       date: "May 2023",
       description:
@@ -2393,6 +2393,27 @@ const surveys_data = [
       "Surveys 59 SoTA open-source SLMs, analyzing their technical innovations across three axes: architectures, training datasets, and training algorithms, evaluate their capabilities, and benchmark their inference latency and memory footprints.",
     tags: ["Survey", "Small Models"],
   },
+]
+
+const journeys_data = [
+  {
+    title: "Encoder Only Transformers",
+    link: "transformer-encoders",
+    papers: [
+      "BERT", "RoBERTa", "Sentence BERT", "Tiny BERT", "ALBERT", "Distil BERT", "Distil RoBERTa", "FastBERT", "MobileBERT", 
+      "ColBERT", "DeBERTa", "DeBERTa v2", "DeBERTa v3", "ColBERT v2"
+    ],
+  },
+  {
+    title: "Vision Transformers",
+    link: "vision-transformers",
+    papers: [
+      "Vision Transformer", "What do Vision Transformers Learn?", "CNNs Match ViTs at Scale",
+      "DeiT", "Swin Transformer", "CvT", "LeViT", "BEiT", 
+      "MobileViT", "Masked AutoEncoder", "Max ViT", "Swin Transformer v2", "EfficientFormer",
+      "FastVit", "Efficient ViT", "SoViT"
+    ],
+  }
 ]
 
 const literature_review_data = [

@@ -41,13 +41,14 @@ function createCard({ title, link, date, description, tags }) {
     </div>`;
 }
 
-function createSurveyCard({title, link, date, description, tags}) {
+function createSurveyCard({title, link, date, description, tags, papers}) {
   return `
     <div class="card">
       <div class="card-body">
         <h3 class="card-title">${title}</h3>
         ${date && description? `<p class="card-text">${date}<br>${description} </p>` : ''}
-        ${createTags(tags)}
+        ${papers ? createTags(papers) : ''}
+        ${tags ? createTags(tags): ''}
       </div>
       <div class="card-footer">
         <a target="_blank" href="/papers-explained/mind-map/?id=${link}">
@@ -76,10 +77,9 @@ function createLiteratureReviewCard({ title, link, papers }) {
     <div class="card">
       <div class="card-body">
         <h3 class="card-title">${title}</h3>
+        ${createTags(papers)}
       </div>
-      <ul class="list-group list-group-flush">
-        ${papers.map(paper => `<li class="list-group-item">${paper}</li>`).join('')}
-      </ul>
+        
       <div class="card-footer">
         <a target="_blank" href=${link}>
           <img src="https://img.shields.io/badge/Read_on-Medium-337ab7?style=flat" alt="Read on Medium">
@@ -114,12 +114,18 @@ function populateContainer() {
 
   container.innerHTML += createSection(
     `line_${nav_data.length + 2}`,
+    "Journeys",
+    createSurveySection(journeys_data)
+  );
+
+  container.innerHTML += createSection(
+    `line_${nav_data.length + 3}`,
     "Literature Reviews",
     createLiteratureReviewSection(literature_review_data)
   );
 
   container.innerHTML += createSection(
-    `line_${nav_data.length + 3}`,
+    `line_${nav_data.length + 4}`,
     "Reading Lists",
     createSectionWithCards(reading_list_data)
   );
@@ -179,8 +185,9 @@ function populateNav() {
     nav.innerHTML += `<li><a href="#line_${index + 1}" class="nav-link">${navItem}</a></li>`;
   });
   nav.innerHTML += `<li><a href="#line_${nav_data.length + 1}" class="nav-link">Surveys</a></li>`;
-  nav.innerHTML += `<li><a href="#line_${nav_data.length + 2}" class="nav-link">Literature Reviews</a></li>`;
-  nav.innerHTML += `<li><a href="#line_${nav_data.length + 3}" class="nav-link">Reading Lists</a></li>`;
+  nav.innerHTML += `<li><a href="#line_${nav_data.length + 2}" class="nav-link">Journeys</a></li>`;
+  nav.innerHTML += `<li><a href="#line_${nav_data.length + 3}" class="nav-link">Literature Reviews</a></li>`;
+  nav.innerHTML += `<li><a href="#line_${nav_data.length + 4}" class="nav-link">Reading Lists</a></li>`;
 }
 
 populateContainer();
