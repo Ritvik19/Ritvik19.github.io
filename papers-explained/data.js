@@ -305,6 +305,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Encoder"],
     },
     {
+      title: "Distil RoBERTa",
+      link: "https://medium.com/dair-ai/papers-explained-06-distil-bert-6f138849f871#a260",
+      date: "October 2019",
+      description: 
+        "Distillation of RoBERTa, using the same techniques as Distil BERT.",
+      tags: ["Language Models", "Transformer Encoder"],
+    },
+    {
       title: "FastBERT",
       link: "https://ritvik19.medium.com/papers-explained-37-fastbert-5bd246c1b432",
       date: "April 2020",
