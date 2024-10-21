@@ -1199,6 +1199,14 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
+      title: "CogVLM",
+      link: "https://ritvik19.medium.com/papers-explained-235-cogvlm-9f3aa657f9b1",
+      date: "November 2023",
+      description:
+        "Bridges the gap between the frozen pretrained language model and image encoder by a trainable visual expert module in the attention and FFN layers.",
+      tags: ["Multimodal Models"],
+    },
+    {
       title: "Gemini 1.0",
       link: "https://ritvik19.medium.com/papers-explained-80-gemini-1-0-97308ef96fcd",
       date: "December 2023",
