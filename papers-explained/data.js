@@ -1358,6 +1358,14 @@ const papers_data = [
       tags: ["Multimodal Models", "HuggingFace"],
     },
     {
+      title: "CogVLM2",
+      link: "https://ritvik19.medium.com/papers-explained-236-cogvlm2-db0261745cf5",
+      date: "August 2024",
+      description:
+        "A family of visual language models that enables image and video understanding with improved training recipes, exploring enhanced vision-language fusion, higher input resolution, and broader modalities and applications.",
+      tags: ["Multimodal Models"],
+    },
+    {
       title: "Pixtral",
       link: "https://ritvik19.medium.com/papers-explained-219-pixtral-a714f94e59ac",
       date: "September 2024",
