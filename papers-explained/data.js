@@ -1421,6 +1421,15 @@ const papers_data = [
         "A collection of small, efficient, open-source vision-language models built on top of Danube, trained on 37 million image-text pairs, specifically designed to perform well on document analysis and OCR tasks while maintaining strong performance on general vision-language benchmarks.",
       tags: ["Multimodal Models", "Danube", "H2O"],
     },
+    {
+      title: "Claude 3.5 Haiku",
+      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#9637",
+      date: "October 2024",
+      description:
+        "A fast and affordable language model that excels in tasks such as coding, reasoning, and content creation.",
+      tags: ["Multimodal Models", "Anthropic", "Claude"],
+
+    }
   ],
   [
     // Retrieval and Representation Learning
