@@ -251,7 +251,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "Based on Griffin, uses a combination of linear recurrences and local attention instead of global attention to model long sequences efficiently.",
-      tags: ["Language Models"],
+      tags: ["Language Models", "Gemma"],
     },
   ],
   [
@@ -818,6 +818,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder"],
     },
     {
+      title: "OLMoE",
+      link: "https://medium.com/@ritvik19/papers-explained-olmoe-38832ff4f9bd",
+      date: "September 2024",
+      description:
+        "An open source language model based on sparse Mixture-of-Experts architecture with 7B parameters, out of which only 1B parameters are active per input token. Conducted extensive experiments on MoE training, analyzing routing strategies, expert specialization, and the impact of design choices like routing algorithms and expert size.",
+      tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
+    },
+    {
       title: "o1",
       link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e",
       date: "September 2024",
@@ -922,7 +930,7 @@ const papers_data = [
       date: "January 2024",
       description:
         "A language model trained on 1T tokens following the core principles of LLama 2 and Mistral, leveraging and refining various techniques for pre-training large language models.",
-      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Danube"],
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Danube", "H2O"],
     },
     {
       title: "OLMo",
@@ -986,7 +994,7 @@ const papers_data = [
       date: "April 2024",
       description:
         "An updated version of the original H2O-Danube model, with improvements including removal of sliding window attention, changes to the tokenizer, and adjustments to the training data, resulting in significant performance enhancements.",
-      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Danube"],
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Danube", "H2O"],
     },
     {
       title: "Granite Code Models",
@@ -1050,7 +1058,7 @@ const papers_data = [
       date: "July 2024",
       description:
         "A series of 4B and 500M language models, trained on high-quality Web data in three stages with different data mixes before being fine-tuned for chat version.",
-      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Danube"],
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Danube", "H2O"],
     },
     {
       title: "Smol LM v0.2",
@@ -1366,12 +1374,52 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
+      title: "Eagle",
+      link: "https://medium.com/@ritvik19/papers-explained-eagle-09c21e549395",
+      date: "August 2024",
+      description:
+        "Provides an extensive exploration of the design space for MLLMs using a mixture of vision encoders and resolutions, and reveals several underlying principles common to various existing strategies, leading to a streamlined yet effective design approach.",
+      tags: ["Multimodal Models", "Nvidia"],
+    },
+    {
       title: "Pixtral",
       link: "https://ritvik19.medium.com/papers-explained-219-pixtral-a714f94e59ac",
       date: "September 2024",
       description:
         "A 12B parameter natively multimodal vision-language model, trained with interleaved image and text data demonstrating strong performance on multimodal tasks, and excels in instruction following.",
       tags: ["Multimodal Models", "Mistral"],
+    },
+    {
+      title: "NLVM",
+      link: "https://medium.com/@ritvik19/papers-explained-nvlm-7ad201bfbfc2",
+      date: "September 2024",
+      description:
+        "A family of multimodal large language models, provides a comparison between decoder-only multimodal LLMs and cross-attention based models and proposes a hybrid architecture, it further introduces a 1-D title-tagging design for tile-based dynamic high resolution images.",
+      tags: ["Multimodal Models", "Nvidia"],
+    },
+    {
+      title: "Molmo",
+      link: "https://medium.com/@ritvik19/papers-explained-pixmo-and-molmo-239d70abebff",
+      date: "September 2024",
+      description:
+        "A family of open-weight vision-language models that achieve state-of-the-art performance by leveraging a novel, human-annotated image caption dataset called PixMo.",
+      tags: ["Multimodal Models"],
+    },
+    {
+      title: "MM-1.5",
+      link: "https://medium.com/@ritvik19/papers-explained-mm-1-5-d0dd01a9b68b",
+      date: "September 2024",
+      description:
+        "A family of multimodal large language models designed to enhance capabilities in text-rich image understanding, visual referring and grounding, and multi-image reasoning, achieved through a data-centric approach involving diverse data mixtures, And specialized variants for video and mobile UI understanding.",
+      tags: ["Multimodal Models"],
+    },
+    {
+      title: "Mississippi",
+      link: "https://medium.com/@ritvik19/papers-explained-h2ovl-mississippi-1508e9c8e862",
+      date: "October 2024",
+      description:
+        "A collection of small, efficient, open-source vision-language models built on top of Danube, trained on 37 million image-text pairs, specifically designed to perform well on document analysis and OCR tasks while maintaining strong performance on general vision-language benchmarks.",
+      tags: ["Multimodal Models", "Danube", "H2O"],
     },
   ],
   [
@@ -1449,6 +1497,22 @@ const papers_data = [
         tags: ["Representation Learning", "Multimodal Models"],
     }, 
     {
+      title: "Jina Embeddings v1",
+      link: "https://medium.com/@ritvik19/papers-explained-jina-embeddings-v1-33336e9efb0f",
+      date: "July 2023",
+      description:
+        "Contrastively fine tuned T5 encoder on curated high quality pairwise and triplet data specifically to sensitize the models to distinguish negations of statements from confirming statements.",
+      tags: ["Representation Learning"],
+    },
+    {
+      title: "Jina Embeddings v2",
+      link: "https://medium.com/@ritvik19/papers-explained-jina-embeddings-v2-c5d540a9154f",
+      date: "October 2023",
+      description:
+        "An open-source text embedding model capable of accommodating up to 8192 tokens, trained by pre-training a modified BERT from scratch before fine tuning for embeddings objectives.",
+      tags: ["Representation Learning"],
+    },
+    {
       title: "SynCLR",
       link: "https://ritvik19.medium.com/papers-explained-202-synclr-85b50ef0081b",
       date: "December 2023",
@@ -1479,6 +1543,22 @@ const papers_data = [
       description:
         "An advanced text embedding model that utilizes Matryoshka Representation Learning to offer flexible embedding sizes with minimal performance trade-offs",
         tags: ["Representation Learning"],
+    },
+    {
+      title: "Jina Bilingual Embeddings",
+      link: "https://medium.com/@ritvik19/papers-explained-jina-bilingual-embeddings-39960d6f7a7c",
+      date: "February 2024",
+      description:
+        "A suite of bilingual text embedding models that support up to 8192 tokens, trained by pre-training a modified bilingual BERT from scratch before fine tuning for embeddings objectives.",
+      tags: ["Representation Learning"],
+    },
+    {
+      title: "Jina Reranker",
+      link: "https://medium.com/@ritvik19/papers-explained-jina-reranker-daf6fdf8b2a6",
+      date: "February 2024",
+      description: 
+        "A neural reranking model that enhances search and RAG systems by reordering retrieved documents for better alignment with search query terms.",
+      tags: ["Retrieval", "Reranking"],
     },
     {
       title: "Gecko",
@@ -1513,12 +1593,20 @@ const papers_data = [
         tags: ["Retrieval", "Multimodal Models"],
     },
     {
+      title: "Jina Reranker v2",
+      link: "https://medium.com/@ritvik19/papers-explained-jina-reranker-daf6fdf8b2a6",
+      date: "June 2024",
+      description: 
+        "Builds upon Jina Reranker v1 by adding multilingual support, function-calling capabilities, structured data querying, code retrieval, and ultra-fast inference.",
+      tags: ["Retrieval", "Reranking"],
+    },
+    {
       title: "E5-V",
       link: "https://ritvik19.medium.com/papers-explained-172-e5-v-9947d3925802",
       date: "July 2024",
       description:
         "A framework that adapts Multimodal Large Language Models for achieving universal multimodal embeddings by leveraging prompts and single modality training on text pairs, which demonstrates strong performance in multimodal embeddings without fine-tuning and eliminates the need for costly multimodal training data collection.",
-        tags: ["Representation Learning", "Multimodal Models"],
+      tags: ["Representation Learning", "Multimodal Models"],
     },
     {
       title: "Matryoshka Adaptor",
@@ -1526,8 +1614,16 @@ const papers_data = [
       date: "July 2024",
       description:
         "A framework designed for the customization of LLM embeddings, facilitating substantial dimensionality reduction while maintaining comparable performance levels.",
-        tags: ["Representation Learning"],
+      tags: ["Representation Learning"],
     },
+    {
+      title: "Jina Embeddings v3",
+      link: "https://medium.com/@ritvik19/papers-explained-jina-embeddings-v3-9c38c9f69766",
+      date: "September 2024",
+      description: 
+        "A text embedding model with 570 million parameters that supports long-context retrieval tasks up to 8192 tokens, includes LoRA adapters for various NLP tasks, and allows flexible output dimension reduction from 1024 down to 32 using Matryoshka Representation Learning.",
+      tags: ["Representation Learning"],
+    }
   ],
   [
     // Parameter Efficient Fine Tuning
@@ -1865,6 +1961,30 @@ const papers_data = [
         "A novel transformers based object detection model that treats object detection as a set prediction problem, eliminating the need for hand-designed components.",
       tags: ["Object Detection", "Vision Transformers"],
     },
+    {
+      title: "OWL ViT",
+      link: "https://medium.com/@ritvik19/papers-explained-237-owl-vit-ea58a142de68",
+      date: "May 2022",
+      description:
+        "Employs Vision Transformers, CLIP-based contrastive pre-training, and bipartite matching loss for open-vocabulary detection, utilizing image-level pre-training, multihead attention pooling, and mosaic image augmentation.",
+      tags: ["Object Detection", "Vision Transformers"],
+    },
+    {
+      title: "Segment Anything Model (SAM)",
+      link: "https://medium.com/@ritvik19/papers-explained-238-segment-anything-model-b3960b569fce",
+      date: "April 2023",
+      description:
+        "Introduces a novel image segmentation task, model, and dataset, aiming to enable prompt-able, zero-shot transfer learning in computer vision.",
+      tags: ["Object Detection", "Segmentation"],
+    },
+    {
+      title: "Segment Anything Model (SAM) 2",
+      link: "https://medium.com/@ritvik19/papers-explained-239-sam-2-6ffb7f187281",
+      date: "July 2024",
+      description:
+        "A foundation model towards solving promptable visual segmentation in images and videos based on a simple transformer architecture with streaming memory for real-time video processing.",
+      tags: ["Object Detection", "Segmentation"],
+    }
   ],
   [
     // Region Based Convolutional Neural Networks
@@ -1951,6 +2071,14 @@ const papers_data = [
         "A lightweight extension to traditional LLMs that focuses on reasoning over visual documents, by incorporating textual semantics and spatial layout without expensive image encoders.",
       tags: ["Document Understanding", "Transformer Decoder"],
     },
+    {
+      title: "Spreadsheet LLM",
+      link: "https://medium.com/@ritvik19/papers-explained-spreadsheet-llm-25b9d70f06e3",
+      date: "July 2024",
+      description:
+        "An efficient encoding method that utilizes SheetCompressor, a framework comprising structural anchor based compression, inverse index translation, and data format aware aggregation, to effectively compress spreadsheets for LLMs, and Chain of Spreadsheet for spreadsheet understanding and spreadsheet QA task.",
+      tags: ["Document Understanding", "Transformer Decoder"],
+    }
   ],
   [
     // Layout Aware Language Models
@@ -2195,6 +2323,14 @@ const papers_data = [
         "A massive dataset for DocVQA containing 2.4M images, 9.5M question-answer pairs, and 1.3M PDF documents, generated by taking transcriptions from the PDFA OCR dataset and using a Phi-3-small model to generate Q/A pairs. ",
       tags: ["Datasets", "Document Understanding", "HuggingFace"],
     },
+    {
+      title: "PixMo",
+      link: "https://medium.com/@ritvik19/papers-explained-pixmo-and-molmo-239d70abebff",
+      date: "September 2024",
+      description:
+        "A high-quality dataset of detailed image descriptions collected through speech-based annotations, enabling the creation of more robust and accurate VLMs.",
+      tags: ["Datasets", "Multimodal Datasets"],
+    }
   ],
   [
     // Miscellaneous Studies
@@ -2287,6 +2423,14 @@ const papers_data = [
       tags: [],
     },
     {
+      title: "STORM",
+      link: "https://medium.com/@ritvik19/papers-explained-storm-2c55270d3150",
+      date: "February 2024",
+      description:
+        "A writing system that addresses the prewriting stage of long-form article generation by researching diverse perspectives, simulating multi-perspective question-asking, and curating information to create an outline, ultimately leading to more organized and comprehensive articles compared to baseline methods.",
+      tags: ["Agentic Systems"],
+    },
+    {
       title: "WRAP",
       link: "https://ritvik19.medium.com/papers-explained-118-wrap-e563e009fe56",
       date: "March 2024",
@@ -2317,6 +2461,14 @@ const papers_data = [
       description:
         "7B & 8x7B evaluation LLMs that score high correlations with both human evaluators and proprietary LM-based judges on both direct assessment and pairwise ranking, obtained by merging Mistral models trained on Feedback Collection and Preference Collection (curated in this work.",
         tags: ["LLM Evaluation"],
+    },
+    {
+      title: "PromptWizard",
+      link: "https://medium.com/@ritvik19/papers-explained-promptwizard-228568783085",
+      date: "May 2024",
+      description: 
+        "A  framework that leverages LLMs to iteratively synthesize and refine prompts tailored to specific tasks by optimizing both prompt instructions and in-context examples, maximizing model performance.",
+      tags: ["Prompt Optimization"],
     },
     {
       title: "Monte Carlo Tree Self-refine",
@@ -2359,6 +2511,14 @@ const papers_data = [
       tags: ["Language Models", "OpenAI", "GPT"],
     },
     {
+      title: "Shield Gemma",
+      link: "https://medium.com/@ritvik19/papers-explained-shieldgemma-d779fd66ee3e",
+      date: "July 2024",
+      description:
+        "A comprehensive suite of LLM-based safety content moderation models ranging from 2B to 27B parameters built upon Gemma2 that provide predictions of safety risks across key harm types (sexually explicit, dangerous content, harassment, hate speech) in both user input and LLM-generated output.",
+      tags: ["Language Models", "Gemma", "LLM Safety"],
+    },
+    {
       title: "Reader-LM",
       link: "https://ritvik19.medium.com/papers-explained-221-reader-lm-7382b9eb6ed9",
       date: "September 2024",
@@ -2373,7 +2533,31 @@ const papers_data = [
       description:
         "Proposes learning through preference optimization to enhance the evaluation capabilities of LLM judges which are trained on three approaches: Chain-of-Thought Critique, Standard Judgement, and Response Deduction across various use cases, including single rating, pairwise comparison, and classification.",
       tags: ["LLM Evaluation"],
-    }
+    },
+    {
+      title: "Gemma APS",
+      link: "https://medium.com/@ritvik19/papers-explained-gemma-aps-8fac1838b9ef",
+      date: "June 2024",
+      description:
+        "Proposes a scalable, yet accurate, proposition segmentation model by modeling Proposition segmentation as a supervised task by training LLMs on existing annotated datasets.",
+      tags: ["Language Models", "Gemma"],
+    },
+    {
+      title: "LongCite",
+      link: "https://medium.com/@ritvik19/papers-explained-longcite-4800340e51d7",
+      date: "October 2024",
+      description:
+        "A system comprising LongBench-Cite benchmark, CoF pipeline for generating cited QA instances, LongCite-45k dataset, and LongCite-8B/9B models trained on this dataset to improve the trustworthiness of long-context LLMs by enabling them to generate responses with fine-grained sentence-level citations.",
+      tags: ["Language Models"],
+    },
+    {
+      title: "GSM-Symbolic",
+      link: "https://medium.com/@ritvik19/papers-explained-gsm-symbolic-759d379052c7",
+      date: "October 2024",
+      description:
+        "Investigates the true mathematical reasoning capabilities of LLMs by introducing GSM-Symbolic, a new benchmark based on symbolic templates, revealing that LLMs exhibit inconsistent performance, struggle with complex questions, and appear to rely on pattern recognition rather than genuine logical reasoning.",
+      tags: ["Scientific Data"],  
+    },
   ],
 ];
 
