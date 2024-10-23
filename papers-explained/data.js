@@ -1972,7 +1972,7 @@ const papers_data = [
     },
     {
       title: "OWL ViT",
-      link: "https://medium.com/@ritvik19/papers-explained-237-owl-vit-ea58a142de68",
+      link: "https://ritvik19.medium.com/papers-explained-237-owl-vit-ea58a142de68",
       date: "May 2022",
       description:
         "Employs Vision Transformers, CLIP-based contrastive pre-training, and bipartite matching loss for open-vocabulary detection, utilizing image-level pre-training, multihead attention pooling, and mosaic image augmentation.",
