@@ -1980,7 +1980,7 @@ const papers_data = [
     },
     {
       title: "Segment Anything Model (SAM)",
-      link: "https://medium.com/@ritvik19/papers-explained-238-segment-anything-model-b3960b569fce",
+      link: "https://ritvik19.medium.com/papers-explained-238-segment-anything-model-b3960b569fce",
       date: "April 2023",
       description:
         "Introduces a novel image segmentation task, model, and dataset, aiming to enable prompt-able, zero-shot transfer learning in computer vision.",
