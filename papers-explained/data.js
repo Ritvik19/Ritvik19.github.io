@@ -1988,7 +1988,7 @@ const papers_data = [
     },
     {
       title: "Segment Anything Model (SAM) 2",
-      link: "https://medium.com/@ritvik19/papers-explained-239-sam-2-6ffb7f187281",
+      link: "https://ritvik19.medium.com/papers-explained-239-sam-2-6ffb7f187281",
       date: "July 2024",
       description:
         "A foundation model towards solving promptable visual segmentation in images and videos based on a simple transformer architecture with streaming memory for real-time video processing.",
