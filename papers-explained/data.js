@@ -1390,8 +1390,8 @@ const papers_data = [
       tags: ["Multimodal Models", "Mistral"],
     },
     {
-      title: "NLVM",
-      link: "https://medium.com/@ritvik19/papers-explained-nvlm-7ad201bfbfc2",
+      title: "NVLM",
+      link: "https://ritvik19.medium.com/papers-explained-240-nvlm-7ad201bfbfc2",
       date: "September 2024",
       description:
         "A family of multimodal large language models, provides a comparison between decoder-only multimodal LLMs and cross-attention based models and proposes a hybrid architecture, it further introduces a 1-D title-tagging design for tile-based dynamic high resolution images.",
