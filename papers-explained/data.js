@@ -1399,7 +1399,7 @@ const papers_data = [
     },
     {
       title: "Molmo",
-      link: "https://medium.com/@ritvik19/papers-explained-pixmo-and-molmo-239d70abebff",
+      link: "https://ritvik19.medium.com/papers-explained-241-pixmo-and-molmo-239d70abebff",
       date: "September 2024",
       description:
         "A family of open-weight vision-language models that achieve state-of-the-art performance by leveraging a novel, human-annotated image caption dataset called PixMo.",
@@ -2334,7 +2334,7 @@ const papers_data = [
     },
     {
       title: "PixMo",
-      link: "https://medium.com/@ritvik19/papers-explained-pixmo-and-molmo-239d70abebff",
+      link: "https://ritvik19.medium.com/papers-explained-241-pixmo-and-molmo-239d70abebff",
       date: "September 2024",
       description:
         "A high-quality dataset of detailed image descriptions collected through speech-based annotations, enabling the creation of more robust and accurate VLMs.",
