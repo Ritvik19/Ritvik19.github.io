@@ -2433,7 +2433,7 @@ const papers_data = [
     },
     {
       title: "STORM",
-      link: "https://medium.com/@ritvik19/papers-explained-storm-2c55270d3150",
+      link: "https://ritvik19.medium.com/papers-explained-242-storm-2c55270d3150",
       date: "February 2024",
       description:
         "A writing system that addresses the prewriting stage of long-form article generation by researching diverse perspectives, simulating multi-perspective question-asking, and curating information to create an outline, ultimately leading to more organized and comprehensive articles compared to baseline methods.",
