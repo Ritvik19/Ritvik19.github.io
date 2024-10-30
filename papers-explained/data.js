@@ -2602,6 +2602,14 @@ const surveys_data = [
       "Surveys 59 SoTA open-source SLMs, analyzing their technical innovations across three axes: architectures, training datasets, and training algorithms, evaluate their capabilities, and benchmark their inference latency and memory footprints.",
     tags: ["Survey", "Small Models"],
   },
+  {
+    title: "A Survey of Small Language Models",
+    link: "2410.20011",
+    date: "October 2024",
+    description:
+      "A comprehensive survey on SLMs, focusing on their architectures, training techniques, and model compression techniques",
+    tags: ["Survey", "Small Models"],
+  }
 ]
 
 const journeys_data = [
