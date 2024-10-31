@@ -1100,6 +1100,15 @@ const papers_data = [
         "A 22B model with significant improvements in human alignment, reasoning capabilities, and code over the previous model.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
     },
+    {
+      title: "Nemotron-Mini-Hindi",
+      link: "https://medium.com/@ritvik19/papers-explained-nemotron-mini-hindi-c7adc3b2f759",
+      date: "October 2024",
+      description:
+        "A bilingual language model based on Nemotron-Mini 4B, specifically trained to improve Hindi and English performance using continuous pre-training on 400B real and synthetic tokens.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Nvidia", "Multilingual Models"],
+
+    }
   ],
   [
     // Multi Modal Language Models
@@ -2521,7 +2530,7 @@ const papers_data = [
     },
     {
       title: "Shield Gemma",
-      link: "https://medium.com/@ritvik19/papers-explained-shieldgemma-d779fd66ee3e",
+      link: "https://ritvik19.medium.com/papers-explained-243-shieldgemma-d779fd66ee3e",
       date: "July 2024",
       description:
         "A comprehensive suite of LLM-based safety content moderation models ranging from 2B to 27B parameters built upon Gemma2 that provide predictions of safety risks across key harm types (sexually explicit, dangerous content, harassment, hate speech) in both user input and LLM-generated output.",
