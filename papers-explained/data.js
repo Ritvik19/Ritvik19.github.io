@@ -856,6 +856,14 @@ const papers_data = [
       description:
         "Small and medium-sized vision LLMs (11B and 90B), and lightweight, text-only models (1B and 3B).",
       tags: ["Language Models", "Transformer Decoder", "Llama", "Small LLMs", "Multimodal Models"],
+    },
+    {
+      title: "Aya Expanse",
+      link: "https://ritvik19.medium.com/papers-explained-151-aya-23-d01605c3ee80#c4a1",
+      date: "October 2024",
+      description:
+        "A family of 8B and 32B highly performant multilingual models that excel across 23 languages.",
+      tags: ["Language Models", "Transformer Decoder", "Multilingual Models", "Cohere"],
     }
   ],
   [
@@ -1107,7 +1115,14 @@ const papers_data = [
       description:
         "A bilingual language model based on Nemotron-Mini 4B, specifically trained to improve Hindi and English performance using continuous pre-training on 400B real and synthetic tokens.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Nvidia", "Multilingual Models"],
-
+    },
+    {
+      title: "Quantized Llama 3.2",
+      link: "https://medium.com/@ritvik19/papers-explained-187e-quantized-llama-3-2-cc6965f61370",
+      date: "October 2024",
+      description:
+        "Optimized versions of the Llama, using techniques like Quantization-Aware Training with LoRA Adapters and SpinQuant, to reduce model size and memory usage while maintaining accuracy and performance, enabling deployment on resource-constrained devices like mobile phones.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Quantization"],
     }
   ],
   [
@@ -1437,7 +1452,6 @@ const papers_data = [
       description:
         "A fast and affordable language model that excels in tasks such as coding, reasoning, and content creation.",
       tags: ["Multimodal Models", "Anthropic", "Claude"],
-
     }
   ],
   [
