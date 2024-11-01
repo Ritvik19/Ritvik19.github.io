@@ -1093,14 +1093,6 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Pruning", "Knowledge Distillation", "Nvidia"],
     },
     {
-      title: "DataGemma",
-      link: "https://ritvik19.medium.com/papers-explained-212-datagemma-cf0d2f40d867",
-      date: "September 2024",
-      description:
-        "A set of models that aims to reduce hallucinations in LLMs by grounding them in the factual data of Google's Data Commons, allowing users to ask questions in natural language and receive responses based on verified information from trusted sources.",
-      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Gemma"],
-    },
-    {
       title: "Mistral Small",
       link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#5662",
       date: "September 2024",
@@ -2543,6 +2535,14 @@ const papers_data = [
       tags: ["Language Models", "OpenAI", "GPT"],
     },
     {
+      title: "Gemma APS",
+      link: "https://ritvik19.medium.com/papers-explained-244-gemma-aps-8fac1838b9ef",
+      date: "June 2024",
+      description:
+        "Proposes a scalable, yet accurate, proposition segmentation model by modeling Proposition segmentation as a supervised task by training LLMs on existing annotated datasets.",
+      tags: ["Language Models", "Gemma"],
+    },
+    {
       title: "Shield Gemma",
       link: "https://ritvik19.medium.com/papers-explained-243-shieldgemma-d779fd66ee3e",
       date: "July 2024",
@@ -2567,12 +2567,12 @@ const papers_data = [
       tags: ["LLM Evaluation"],
     },
     {
-      title: "Gemma APS",
-      link: "https://medium.com/@ritvik19/papers-explained-gemma-aps-8fac1838b9ef",
-      date: "June 2024",
+      title: "DataGemma",
+      link: "https://ritvik19.medium.com/papers-explained-212-datagemma-cf0d2f40d867",
+      date: "September 2024",
       description:
-        "Proposes a scalable, yet accurate, proposition segmentation model by modeling Proposition segmentation as a supervised task by training LLMs on existing annotated datasets.",
-      tags: ["Language Models", "Gemma"],
+        "A set of models that aims to reduce hallucinations in LLMs by grounding them in the factual data of Google's Data Commons, allowing users to ask questions in natural language and receive responses based on verified information from trusted sources.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Gemma"],
     },
     {
       title: "LongCite",
