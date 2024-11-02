@@ -1110,7 +1110,7 @@ const papers_data = [
     },
     {
       title: "Quantized Llama 3.2",
-      link: "https://medium.com/@ritvik19/papers-explained-187e-quantized-llama-3-2-cc6965f61370",
+      link: "https://ritvik19.medium.com/papers-explained-187e-quantized-llama-3-2-cc6965f61370",
       date: "October 2024",
       description:
         "Optimized versions of the Llama, using techniques like Quantization-Aware Training with LoRA Adapters and SpinQuant, to reduce model size and memory usage while maintaining accuracy and performance, enabling deployment on resource-constrained devices like mobile phones.",
