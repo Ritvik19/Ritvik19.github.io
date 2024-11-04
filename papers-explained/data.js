@@ -1660,11 +1660,43 @@ const papers_data = [
         tags: ["Parameter Efficient Fine Tuning"],
     },
     {
+      title: "DyLoRA",
+      link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5#7fb6",
+      date: "October 2022",
+      description:
+        "Allows for flexible rank size by randomly truncating low-rank matrices during training, enabling adaptation to different rank values without retraining.",
+        tags: ["Parameter Efficient Fine Tuning"],
+    },
+    {
+      title: "AdaLoRA",
+      link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5#620f",
+      date: "March 2023",
+      description:
+        "Dynamically allocates a parameter budget based on an importance metric to prune less important singular values during training.",
+        tags: ["Parameter Efficient Fine Tuning"],
+    },
+    {
       title: "QLoRA",
       link: "https://ritvik19.medium.com/papers-explained-146-qlora-a6e7273bc630",
       date: "May 2023",
       description:
         "Allows efficient training of large models on limited GPU memory, through innovations like 4-bit NormalFloat (NF4), double quantization and paged optimisers.",
+        tags: ["Parameter Efficient Fine Tuning"],
+    },
+    {
+      title: "LoRA-FA",
+      link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5#c229",
+      date: "August 2023",
+      description:
+        "Freezes one of the low-rank matrices and only trains a scaling vector for the other, further reducing the number of trainable parameters compared to standard LoRA.",
+        tags: ["Parameter Efficient Fine Tuning"],
+    },
+    {
+      title: "Delta-LoRA",
+      link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5#a4ec",
+      date: "September 2023",
+      description:
+        "Utilizes the delta of the low-rank matrix updates to refine the pre-trained weights directly, removing the Dropout layer for accurate backpropagation.",
         tags: ["Parameter Efficient Fine Tuning"],
     },
     {
@@ -1675,6 +1707,38 @@ const papers_data = [
         "Enables context extension for large language models, achieving significant computation savings through sparse local attention and parameter-efficient fine-tuning.",
         tags: ["Parameter Efficient Fine Tuning"],
     },
+    {
+      title: "VeRA",
+      link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5#5bb3",
+      date: "October 2023",
+      description:
+        "Utilizes frozen, shared random matrices across all layers and trains scaling vectors to adapt those matrices for each layer, reducing the number of trainable parameters compared to LoRA.",
+        tags: ["Parameter Efficient Fine Tuning"],
+    },
+    {
+      title: "LoRA+",
+      link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5#fd31",
+      date: "February 2024",
+      description:
+        "Enhances LoRA by setting different learning rates for the A and B matrices based on a fixed ratio, promoting better feature learning and improved performance.",
+        tags: ["Parameter Efficient Fine Tuning"],
+    }, 
+    {
+      title: "MoRA",
+      link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5#21a4",
+      date: "May 2024",
+      description:
+        "Introduces a square matrix and non-parameterized operators to achieve high-rank updating with the same number of trainable parameters as LoRA, improving knowledge memorization capabilities.",
+        tags: ["Parameter Efficient Fine Tuning"],
+    },
+    {
+      title: "DoRA",
+      link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5#028e",
+      date: "May 2024",
+      description:
+        "Decomposes the high-rank LoRA matrix into multiple single-rank components, allowing dynamic pruning of less important components during training for a more efficient parameter budget allocation.",
+        tags: ["Parameter Efficient Fine Tuning"],
+    }
   ],
   [
     // Vision Transformers
@@ -2551,6 +2615,14 @@ const papers_data = [
       tags: ["Language Models", "Gemma", "LLM Safety"],
     },
     {
+      title: "OmniParser",
+      link: "https://medium.com/@ritvik19/papers-explained-omniparser-2e895f6f2c15",
+      date: "August 2024",
+      description:
+        "A method for parsing user interface screenshots into structured elements, enhancing the ability of GPT-4V to generate actions grounded in the interface by accurately identifying interactable icons and understanding element semantics.",
+      tags: ["Language Models", "Multimodal Models", "BLIP"],
+    },
+    {
       title: "Reader-LM",
       link: "https://ritvik19.medium.com/papers-explained-221-reader-lm-7382b9eb6ed9",
       date: "September 2024",
@@ -2653,6 +2725,13 @@ const journeys_data = [
       "MobileViT", "Masked AutoEncoder", "Max ViT", "Swin Transformer v2", "EfficientFormer",
       "FastVit", "Efficient ViT", "SoViT"
     ],
+  },
+  {
+    title: "Low Rank Adaptors",
+    link: "low-rank-adaptors",
+    papers: [
+      "LoRA", "DyLoRA", "AdaLoRA", "QLoRA", "LoRA-FA", "Delta-LoRA", "LongLoRA", "VeRA", "LoRA+", "MoRA", "DoRA"
+    ],
   }
 ]
 
@@ -2692,6 +2771,13 @@ const literature_review_data = [
       "GAN", "Conditional GAN", "Deep Convolutional GAN", "Improved GAN", "Wasserstein GAN", "Cycle GAN"
     ]
   },
+  {
+    title: "Parameter Efficient FineTuning",
+    link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5",
+    papers: [
+      "LoRA", "DyLoRA", "AdaLoRA", "QLoRA", "LoRA-FA", "Delta-LoRA", "LongLoRA", "VeRA", "LoRA+", "MoRA", "DoRA"
+    ]
+  }
 ];
 
 const reading_list_data = [
