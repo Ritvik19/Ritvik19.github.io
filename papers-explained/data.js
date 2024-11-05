@@ -2128,6 +2128,14 @@ const papers_data = [
       tags: ["Document Understanding"],
     },
     {
+      title: "Layout Parser",
+      link: "https://ritvik19.medium.com/papers-explained-245-layout-parser-d29bb291890c",
+      date: "March 2021",
+      description:
+        "A library integrating Detectron2, CNN-RNN OCR, layout structures, TensorFlow/PyTorch, and a Model Zoo. The toolkit features Tesseract, Google Cloud Vision for OCR, active learning tools and community platform ensures efficiency and adaptability.",
+      tags: ["Document Understanding", "Object Detection"],
+    },
+    {
       title: "Donut",
       link: "https://ritvik19.medium.com/papers-explained-20-donut-cb1523bf3281",
       date: "November 2021",
