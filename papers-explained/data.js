@@ -2219,6 +2219,14 @@ const papers_data = [
         tags: ["Layout Aware Language Models"],
     },
     {
+      title: "BROS",
+      link: "https://ritvik19.medium.com/papers-explained-246-bros-1f1127476f73",
+      date: "August 2021",
+      description:
+        "Built upon BERT, encodes relative positions of texts in 2D space and learns from unlabeled documents with area masking strategy.",
+      tags: ["Layout Aware Language Models"],
+    },
+    {
       title: "LiLT",
       link: "https://ritvik19.medium.com/papers-explained-12-lilt-701057ec6d9e",
       date: "February 2022",
