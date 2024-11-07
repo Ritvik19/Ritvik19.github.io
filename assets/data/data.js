@@ -26,22 +26,14 @@ const data = [
     ],
   },
   {
-    title: "Implemented Data Science",
+    title: "Data Science from Scratch",
     description:
       "A collection of various implementations of various data science techniques and research papers." +
       "This project garnered attention from Elvis Saravia, (ex Cofounder of paperswithcode.com) and he added some of my implementations to his project ML-Notebooks",
     actions: [
       {
-        title: "View Implemented Data Science Documentation",
-        link: "/implemented-data-science",
-      },
-      {
-        title: "",
-        link: "",
-      },
-      {
-        title: "View Implemented Data Science on GitHub",
-        link: "https://github.com/Ritvik19/Implemented-Data-Science",
+        title: "View Data Science from Scratch Documentation",
+        link: "/data-science-from-scratch",
       },
       {
         title: "View ML Notebooks",
