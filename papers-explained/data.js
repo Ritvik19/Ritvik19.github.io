@@ -2136,6 +2136,14 @@ const papers_data = [
       tags: ["Document Understanding", "Object Detection"],
     },
     {
+      title: "Layout Reader",
+      link: "https://ritvik19.medium.com/papers-explained-247-layout-reader-248b27db1234",
+      date: "August 2021",
+      description:
+        "A seq2seq model that accurately predicts reading order, text, and layout information from document images.",
+      tags: ["Document Understanding"],
+    },
+    {
       title: "Donut",
       link: "https://ritvik19.medium.com/papers-explained-20-donut-cb1523bf3281",
       date: "November 2021",
