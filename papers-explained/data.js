@@ -2168,6 +2168,14 @@ const papers_data = [
       tags: ["Document Understanding", "Multimodal Models"],
     },
     {
+      title: "LMDX",
+      link: "https://ritvik19.medium.com/papers-explained-248-lmdx-854c0bc771f0",
+      date: "September 2023",
+      description:
+        "A methodology to adapt arbitrary LLMs for document information extraction.",
+      tags: ["Document Understanding", "Language Models"],
+    },
+    {
       title: "DocLLM",
       link: "https://ritvik19.medium.com/papers-explained-87-docllm-93c188edfaef",
       date: "January 2024",
