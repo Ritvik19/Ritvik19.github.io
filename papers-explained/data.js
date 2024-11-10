@@ -1109,6 +1109,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Nvidia", "Multilingual Models"],
     },
     {
+      title: "Ministral",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#1f34",
+      date: "October 2024",
+      description:
+        "3B and 8B models with support up to 128k context length having a special interleaved sliding-window attention pattern for faster and memory-efficient inference.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
+    },
+    {
       title: "Quantized Llama 3.2",
       link: "https://ritvik19.medium.com/papers-explained-187e-quantized-llama-3-2-cc6965f61370",
       date: "October 2024",
