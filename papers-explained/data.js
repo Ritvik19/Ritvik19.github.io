@@ -1791,6 +1791,14 @@ const papers_data = [
       tags: ["Vision Transformers"],
     },
     {
+      title: "DINO",
+      link: "https://ritvik19.medium.com/papers-explained-249-dino-f7e2c7f438ab",
+      date: "April 2021",
+      description:
+        "Investigates whether self-supervised learning provides new properties to Vision Transformer that stand out compared to convolutional networks and finds that self-supervised ViT features contain explicit information about the semantic segmentation of an image, and are also excellent k-NN classifiers.",
+      tags: ["Vision Transformers"],
+    },
+    {
       title: "BEiT",
       link: "https://ritvik19.medium.com/papers-explained-27-beit-b8c225496c01",
       date: "June 2021",
