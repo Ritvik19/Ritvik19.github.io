@@ -1823,6 +1823,14 @@ const papers_data = [
       tags: ["Vision Transformers"],
     },
     {
+      title: "DINOv2",
+      link: "https://ritvik19.medium.com/papers-explained-250-dino-v2-e1e6d12a5c85",
+      date: "April 2022",
+      description:
+        "Demonstrates that existing self-supervised pre-training methods can produce general-purpose visual features by training on curated data from diverse sources, and proposes a new approach that combines techniques to scale pre-training with larger models and datasets.",
+      tags: ["Vision Transformers"],
+    },
+    {
       title: "Multi-Axis Vision Transformer (MaxViT)",
       link: "https://ritvik19.medium.com/papers-explained-210-maxvit-6c68cc515413",
       date: "April 2022",
