@@ -1439,7 +1439,7 @@ const papers_data = [
     },
     {
       title: "Mississippi",
-      link: "https://medium.com/@ritvik19/papers-explained-h2ovl-mississippi-1508e9c8e862",
+      link: "https://ritvik19.medium.com/papers-explained-251-h2ovl-mississippi-1508e9c8e862",
       date: "October 2024",
       description:
         "A collection of small, efficient, open-source vision-language models built on top of Danube, trained on 37 million image-text pairs, specifically designed to perform well on document analysis and OCR tasks while maintaining strong performance on general vision-language benchmarks.",
