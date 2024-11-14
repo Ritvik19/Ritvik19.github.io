@@ -1102,7 +1102,7 @@ const papers_data = [
     },
     {
       title: "Nemotron-Mini-Hindi",
-      link: "https://medium.com/@ritvik19/papers-explained-nemotron-mini-hindi-c7adc3b2f759",
+      link: "https://ritvik19.medium.com/papers-explained-252-nemotron-mini-hindi-c7adc3b2f759",
       date: "October 2024",
       description:
         "A bilingual language model based on Nemotron-Mini 4B, specifically trained to improve Hindi and English performance using continuous pre-training on 400B real and synthetic tokens.",
