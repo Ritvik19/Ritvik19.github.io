@@ -2152,6 +2152,14 @@ const papers_data = [
       tags: ["Document Understanding"],
     },
     {
+      title: "SPADE",
+      link: "https://ritvik19.medium.com/f564ce612501",
+      date: "May 2020",
+      description:
+        "Formulates Information Extraction (IE) as a spatial dependency parsing problem.",
+      tags: ["Document Understanding"],
+    },
+    {
       title: "Layout Parser",
       link: "https://ritvik19.medium.com/papers-explained-245-layout-parser-d29bb291890c",
       date: "March 2021",
