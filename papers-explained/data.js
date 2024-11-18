@@ -2192,6 +2192,14 @@ const papers_data = [
       tags: ["Document Understanding", "Vision Transformers"],
     },
     {
+      title: "Pix2Struct",
+      link: "https://ritvik19.medium.com/papers-explained-254-pix2struct-6adc95a01586",
+      date: "October 2022",
+      description:
+        "A pretrained image-to-text model designed for visual language understanding, particularly in tasks involving visually-situated language.",
+      tags: ["Document Understanding", "Vision Transformers", "Multimodal Models"],
+    },
+    {
       title: "UDoP",
       link: "https://ritvik19.medium.com/papers-explained-42-udop-719732358ab4",
       date: "December 2022",
