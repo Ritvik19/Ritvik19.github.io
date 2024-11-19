@@ -2200,6 +2200,14 @@ const papers_data = [
       tags: ["Document Understanding", "Vision Transformers", "Multimodal Models"],
     },
     {
+      title: "Matcha",
+      link: "https://ritvik19.medium.com/papers-explained-255-matcha-d5d5fe66b039",
+      date: "December 2022",
+      description:
+        "Leverages Pix2Struct, and introduces pretraining tasks focused on math reasoning and chart derendering to improve chart and plot comprehension, enhancing understanding in diverse visual language tasks.",
+      tags: ["Document Understanding", "Vision Transformers", "Multimodal Models"],
+    },
+    {
       title: "UDoP",
       link: "https://ritvik19.medium.com/papers-explained-42-udop-719732358ab4",
       date: "December 2022",
