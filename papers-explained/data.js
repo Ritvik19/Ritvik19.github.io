@@ -2208,6 +2208,14 @@ const papers_data = [
       tags: ["Document Understanding", "Vision Transformers", "Multimodal Models"],
     },
     {
+      title: "DePlot",
+      link: "https://ritvik19.medium.com/papers-explained-256-deplot-3e8a02eefc94",
+      date: "December 2022",
+      description: 
+        "Built upon MatCha, standardises plot to table task, translating plots into linearized tables (markdown) for processing by LLMs.",
+      tags: ["Document Understanding", "Vision Transformers", "Multimodal Models"],
+    },
+    {
       title: "UDoP",
       link: "https://ritvik19.medium.com/papers-explained-42-udop-719732358ab4",
       date: "December 2022",
