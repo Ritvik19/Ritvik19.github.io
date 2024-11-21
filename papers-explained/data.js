@@ -2224,6 +2224,14 @@ const papers_data = [
       tags: ["Document Understanding", "Multimodal Models"],
     },
     {
+      title: "Nougat",
+      link: "https://ritvik19.medium.com/papers-explained-257-nougat-bb304f7af0a3",
+      date: "August 2023",
+      description:
+        "A Visual Transformer model that performs an Optical Character Recognition (OCR) task for processing scientific documents into a markup language.",
+      tags: ["Document Understanding", "Vision Transformers", "Multimodal Models"],
+    },
+    {
       title: "LMDX",
       link: "https://ritvik19.medium.com/papers-explained-248-lmdx-854c0bc771f0",
       date: "September 2023",
