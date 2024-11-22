@@ -2224,6 +2224,14 @@ const papers_data = [
       tags: ["Document Understanding", "Multimodal Models"],
     },
     {
+      title: "GeoLayoutLM",
+      link: "https://ritvik19.medium.com/papers-explained-258-geolayoutlm-f581eec8c8a2",
+      date: "April 2023",
+      description:
+        "Explicitly models geometric relations in pre-training and enhances feature representation.",
+      tags: ["Document Understanding", "Language Models"],
+    },
+    {
       title: "Nougat",
       link: "https://ritvik19.medium.com/papers-explained-257-nougat-bb304f7af0a3",
       date: "August 2023",
