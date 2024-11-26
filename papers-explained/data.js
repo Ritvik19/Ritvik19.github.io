@@ -2720,7 +2720,7 @@ const papers_data = [
     },
     {
       title: "OmniParser",
-      link: "https://medium.com/@ritvik19/papers-explained-omniparser-2e895f6f2c15",
+      link: "https://ritvik19.medium.com/papers-explained-259-omniparser-2e895f6f2c15",
       date: "August 2024",
       description:
         "A method for parsing user interface screenshots into structured elements, enhancing the ability of GPT-4V to generate actions grounded in the interface by accurately identifying interactable icons and understanding element semantics.",
