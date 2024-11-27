@@ -2760,7 +2760,7 @@ const papers_data = [
     },
     {
       title: "GSM-Symbolic",
-      link: "https://medium.com/@ritvik19/papers-explained-gsm-symbolic-759d379052c7",
+      link: "https://ritvik19.medium.com/papers-explained-260-gsm-symbolic-759d379052c7",
       date: "October 2024",
       description:
         "Investigates the true mathematical reasoning capabilities of LLMs by introducing GSM-Symbolic, a new benchmark based on symbolic templates, revealing that LLMs exhibit inconsistent performance, struggle with complex questions, and appear to rely on pattern recognition rather than genuine logical reasoning.",
