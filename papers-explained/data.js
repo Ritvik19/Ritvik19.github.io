@@ -1431,7 +1431,7 @@ const papers_data = [
     },
     {
       title: "MM-1.5",
-      link: "https://medium.com/@ritvik19/papers-explained-mm-1-5-d0dd01a9b68b",
+      link: "https://ritvik19.medium.com/papers-explained-261-mm-1-5-d0dd01a9b68b",
       date: "September 2024",
       description:
         "A family of multimodal large language models designed to enhance capabilities in text-rich image understanding, visual referring and grounding, and multi-image reasoning, achieved through a data-centric approach involving diverse data mixtures, And specialized variants for video and mobile UI understanding.",
