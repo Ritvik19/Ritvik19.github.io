@@ -1123,6 +1123,14 @@ const papers_data = [
       description:
         "Optimized versions of the Llama, using techniques like Quantization-Aware Training with LoRA Adapters and SpinQuant, to reduce model size and memory usage while maintaining accuracy and performance, enabling deployment on resource-constrained devices like mobile phones.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Quantization"],
+    },
+    {
+      title: "Smol LM v2",
+      link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#aa17",
+      date: "November 2024",
+      description:
+        "A family of language models (135M, 360M, and 1.7B parameters), trained on 2T, 4T, and 11T tokens respectively from datasets including FineWeb-Edu, DCLM, The Stack, and curated math and coding datasets, with instruction-tuned versions created using Smol Talk dataset and DPO using UltraFeedback.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "HuggingFace"],
     }
   ],
   [
@@ -1452,6 +1460,14 @@ const papers_data = [
       description:
         "A fast and affordable language model that excels in tasks such as coding, reasoning, and content creation.",
       tags: ["Multimodal Models", "Anthropic", "Claude"],
+    },
+    {
+      title: "Smol VLM",
+      link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#6245",
+      date: "November 2024",
+      description:
+        "A 2B vision-language model, built using a modified Idefics3 architecture with a smaller language backbone (SmolLM2 1.7B), aggressive pixel shuffle compression, 384x384 image patches, and a shape-optimized SigLIP vision backbone, featuring a 16k token context window.",
+      tags: ["Multimodal Models", "HuggingFace"],
     }
   ],
   [
@@ -2522,6 +2538,14 @@ const papers_data = [
       description:
         "A high-quality dataset of detailed image descriptions collected through speech-based annotations, enabling the creation of more robust and accurate VLMs.",
       tags: ["Datasets", "Multimodal Datasets"],
+    },
+    {
+      title: "Smol Talk",
+      link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#b5e3",
+      date: "November 2024",
+      description:
+        "A synthetic instruction-following dataset comprising 1 million samples, built using a fine-tuned LLM on a diverse range of instruction-following datasets and then generating synthetic conversations using various prompts and instructions to improve instruction following, chat, and reasoning capabilities.",
+      tags: ["Datasets", "Synthetic Data", "HuggingFace"],
     }
   ],
   [
@@ -2656,7 +2680,7 @@ const papers_data = [
     },
     {
       title: "PromptWizard",
-      link: "https://medium.com/@ritvik19/papers-explained-promptwizard-228568783085",
+      link: "https://ritvik19.medium.com/papers-explained-262-promptwizard-228568783085",
       date: "May 2024",
       description: 
         "A  framework that leverages LLMs to iteratively synthesize and refine prompts tailored to specific tasks by optimizing both prompt instructions and in-context examples, maximizing model performance.",
