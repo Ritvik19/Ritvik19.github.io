@@ -1546,7 +1546,7 @@ const papers_data = [
     }, 
     {
       title: "Jina Embeddings v1",
-      link: "https://medium.com/@ritvik19/papers-explained-jina-embeddings-v1-33336e9efb0f",
+      link: "https://ritvik19.medium.com/papers-explained-263-jina-embeddings-v1-33336e9efb0f",
       date: "July 2023",
       description:
         "Contrastively fine tuned T5 encoder on curated high quality pairwise and triplet data specifically to sensitize the models to distinguish negations of statements from confirming statements.",
