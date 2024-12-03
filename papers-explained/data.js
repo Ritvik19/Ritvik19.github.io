@@ -1554,7 +1554,7 @@ const papers_data = [
     },
     {
       title: "Jina Embeddings v2",
-      link: "https://medium.com/@ritvik19/papers-explained-jina-embeddings-v2-c5d540a9154f",
+      link: "https://ritvik19.medium.com/papers-explained-264-jina-embeddings-v2-c5d540a9154f",
       date: "October 2023",
       description:
         "An open-source text embedding model capable of accommodating up to 8192 tokens, trained by pre-training a modified BERT from scratch before fine tuning for embeddings objectives.",
