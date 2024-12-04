@@ -1594,7 +1594,7 @@ const papers_data = [
     },
     {
       title: "Jina Bilingual Embeddings",
-      link: "https://medium.com/@ritvik19/papers-explained-jina-bilingual-embeddings-39960d6f7a7c",
+      link: "https://ritvik19.medium.com/papers-explained-265-jina-bilingual-embeddings-39960d6f7a7c",
       date: "February 2024",
       description:
         "A suite of bilingual text embedding models that support up to 8192 tokens, trained by pre-training a modified bilingual BERT from scratch before fine tuning for embeddings objectives.",
