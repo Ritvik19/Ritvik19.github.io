@@ -1666,7 +1666,7 @@ const papers_data = [
     },
     {
       title: "Jina Embeddings v3",
-      link: "https://medium.com/@ritvik19/papers-explained-jina-embeddings-v3-9c38c9f69766",
+      link: "https://ritvik19.medium.com/papers-explained-266-jina-embeddings-v3-9c38c9f69766",
       date: "September 2024",
       description: 
         "A text embedding model with 570 million parameters that supports long-context retrieval tasks up to 8192 tokens, includes LoRA adapters for various NLP tasks, and allows flexible output dimension reduction from 1024 down to 32 using Matryoshka Representation Learning.",
