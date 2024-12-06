@@ -1602,7 +1602,7 @@ const papers_data = [
     },
     {
       title: "Jina Reranker",
-      link: "https://medium.com/@ritvik19/papers-explained-jina-reranker-daf6fdf8b2a6",
+      link: "https://ritvik19.medium.com/papers-explained-267-jina-reranker-daf6fdf8b2a6",
       date: "February 2024",
       description: 
         "A neural reranking model that enhances search and RAG systems by reordering retrieved documents for better alignment with search query terms.",
@@ -1642,7 +1642,7 @@ const papers_data = [
     },
     {
       title: "Jina Reranker v2",
-      link: "https://medium.com/@ritvik19/papers-explained-jina-reranker-daf6fdf8b2a6",
+      link: "https://ritvik19.medium.com/papers-explained-267-jina-reranker-daf6fdf8b2a6#4405",
       date: "June 2024",
       description: 
         "Builds upon Jina Reranker v1 by adding multilingual support, function-calling capabilities, structured data querying, code retrieval, and ultra-fast inference.",
