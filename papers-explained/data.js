@@ -1407,7 +1407,7 @@ const papers_data = [
     },
     {
       title: "Eagle",
-      link: "https://medium.com/@ritvik19/papers-explained-eagle-09c21e549395",
+      link: "https://ritvik19.medium.com/papers-explained-269-eagle-09c21e549395",
       date: "August 2024",
       description:
         "Provides an extensive exploration of the design space for MLLMs using a mixture of vision encoders and resolutions, and reveals several underlying principles common to various existing strategies, leading to a streamlined yet effective design approach.",
