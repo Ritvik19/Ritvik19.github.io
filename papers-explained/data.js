@@ -819,7 +819,7 @@ const papers_data = [
     },
     {
       title: "OLMoE",
-      link: "https://medium.com/@ritvik19/papers-explained-olmoe-38832ff4f9bd",
+      link: "https://ritvik19.medium.com/papers-explained-270-olmoe-38832ff4f9bd",
       date: "September 2024",
       description:
         "An open source language model based on sparse Mixture-of-Experts architecture with 7B parameters, out of which only 1B parameters are active per input token. Conducted extensive experiments on MoE training, analyzing routing strategies, expert specialization, and the impact of design choices like routing algorithms and expert size.",
