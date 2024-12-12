@@ -2273,7 +2273,7 @@ const papers_data = [
     },
     {
       title: "Spreadsheet LLM",
-      link: "https://medium.com/@ritvik19/papers-explained-spreadsheet-llm-25b9d70f06e3",
+      link: "https://ritvik19.medium.com/papers-explained-271-spreadsheet-llm-25b9d70f06e3",
       date: "July 2024",
       description:
         "An efficient encoding method that utilizes SheetCompressor, a framework comprising structural anchor based compression, inverse index translation, and data format aware aggregation, to effectively compress spreadsheets for LLMs, and Chain of Spreadsheet for spreadsheet understanding and spreadsheet QA task.",
