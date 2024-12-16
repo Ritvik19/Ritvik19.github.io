@@ -1132,6 +1132,14 @@ const papers_data = [
       description:
         "A family of language models (135M, 360M, and 1.7B parameters), trained on 2T, 4T, and 11T tokens respectively from datasets including FineWeb-Edu, DCLM, The Stack, and curated math and coding datasets, with instruction-tuned versions created using Smol Talk dataset and DPO using UltraFeedback.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "HuggingFace"],
+    },
+    {
+      title: "Command R 7B",
+      link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b#0836",
+      date: "December 2024",
+      description:
+        "The smallest, fastest, and final model in the R series of enterprise-focused LLMs. It offers a context length of 128k and delivers a powerful combination of multilingual support, citation verified retrieval-augmented generation (RAG), reasoning, tool use, and agentic behavior.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Cohere"],
     }
   ],
   [
