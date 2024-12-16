@@ -15,6 +15,7 @@ const nav_data = [
   "GANs",
   "Tabular Data",
   "Datasets",
+  "LLM Training",
   "Miscellaneous Studies",
 ];
 
@@ -2549,6 +2550,81 @@ const papers_data = [
     }
   ],
   [
+    // LLM Training
+    {
+      title: "Self Instruct",
+      link: "https://ritvik19.medium.com/papers-explained-112-self-instruct-5c192580103a",
+      date: "December 2022",
+      description:
+        "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
+      tags: ["Synthetic Data"],
+    },
+    {
+      title: "Direct Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-148-direct-preference-optimization-d3e031a41be1",
+      date: "December 2023",
+      description:
+        "A stable, performant, and computationally lightweight algorithm that fine-tunes llms to align with human preferences without the need for reinforcement learning, by directly optimizing for the policy best satisfying the preferences with a simple classification objective.",
+      tags: [],
+    },
+    {
+      title: "RAFT",
+      link: "https://ritvik19.medium.com/papers-explained-272-raft-5049520bcc26",
+      date: "March 2024",
+      description:
+        "A training method that enhances the performance of LLMs for open-book in-domain question answering by training them to ignore irrelevant documents, cite verbatim relevant passages, and promote logical reasoning.",
+      tags: [],
+    },
+    {
+      title: "WRAP",
+      link: "https://ritvik19.medium.com/papers-explained-118-wrap-e563e009fe56",
+      date: "March 2024",
+      description:
+        "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
+      tags: ["Synthetic Data"],
+    },
+    {
+      title: "RLHF Workflow",
+      link: "https://ritvik19.medium.com/papers-explained-149-rlhf-workflow-56b4e00019ed",
+      date: "May 2024",
+      description:
+        "Provides a detailed recipe for  online iterative RLHF and achieves state-of-the-art performance on various benchmarks using fully open-source datasets.",
+      tags: [],
+    },
+    {
+      title: "Magpie",
+      link: "https://ritvik19.medium.com/papers-explained-183-magpie-0603cbdc69c3",
+      date: "June 2024",
+      description:
+        "A self-synthesis method that extracts high-quality instruction data at scale by prompting an aligned LLM with left-side templates, generating 4M instructions and their corresponding responses.",
+      tags: ["Synthetic Data"],
+    },
+    {
+      title: "Instruction Pre-Training",
+      link: "https://ritvik19.medium.com/papers-explained-184-instruction-pretraining-ee0466f0fd33",
+      date: "June 2024",
+      description:
+        "A framework to augment massive raw corpora with instruction-response pairs enabling supervised multitask pretraining of LMs.",
+      tags: ["Synthetic Data"],
+    },
+    {
+      title: "Direct Judgement Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-228-direct-judgement-preference-optimization-6915425402bf",
+      date: "September 2024",
+      description:
+        "Proposes learning through preference optimization to enhance the evaluation capabilities of LLM judges which are trained on three approaches: Chain-of-Thought Critique, Standard Judgement, and Response Deduction across various use cases, including single rating, pairwise comparison, and classification.",
+      tags: ["LLM Evaluation"],
+    },
+    {
+      title: "LongCite",
+      link: "https://medium.com/@ritvik19/papers-explained-longcite-4800340e51d7",
+      date: "October 2024",
+      description:
+        "A system comprising LongBench-Cite benchmark, CoF pipeline for generating cited QA instances, LongCite-45k dataset, and LongCite-8B/9B models trained on this dataset to improve the trustworthiness of long-context LLMs by enabling them to generate responses with fine-grained sentence-level citations.",
+      tags: [],
+    },
+  ],
+  [
     // Miscellaneous Studies
     {
       title: "ColD Fusion",
@@ -2558,14 +2634,7 @@ const papers_data = [
         "A method enabling the benefits of multitask learning through distributed computation without data sharing and improving model performance.",
       tags: [],
     },
-    {
-      title: "Self Instruct",
-      link: "https://ritvik19.medium.com/papers-explained-112-self-instruct-5c192580103a",
-      date: "December 2022",
-      description:
-        "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
-      tags: ["Synthetic Data"],
-    },
+    
     {
       title: "Are Emergent Abilities of Large Language Models a Mirage?",
       link: "https://ritvik19.medium.com/papers-explained-are-emergent-abilities-of-large-language-models-a-mirage-4160cf0e44cb",
@@ -2631,14 +2700,6 @@ const papers_data = [
       tags: [],
     },
     {
-      title: "Direct Preference Optimization",
-      link: "https://ritvik19.medium.com/papers-explained-148-direct-preference-optimization-d3e031a41be1",
-      date: "December 2023",
-      description:
-        "A stable, performant, and computationally lightweight algorithm that fine-tunes llms to align with human preferences without the need for reinforcement learning, by directly optimizing for the policy best satisfying the preferences with a simple classification objective.",
-      tags: [],
-    },
-    {
       title: "STORM",
       link: "https://ritvik19.medium.com/papers-explained-242-storm-2c55270d3150",
       date: "February 2024",
@@ -2647,28 +2708,12 @@ const papers_data = [
       tags: ["Agentic Systems"],
     },
     {
-      title: "WRAP",
-      link: "https://ritvik19.medium.com/papers-explained-118-wrap-e563e009fe56",
-      date: "March 2024",
-      description:
-        "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
-      tags: ["Language Models", "Synthetic Data"],
-    },
-    {
       title: "LLMLingua2",
       link: "https://ritvik19.medium.com/papers-explained-138-llmlingua-2-510c752368a8",
       date: "March 2024",
       description:
         "A novel approach to task-agnostic prompt compression, aiming to enhance generalizability, using  data distillation and leveraging a Transformer encoder for token classification.",
         tags: ["Prompt Compression"],
-    },
-    {
-      title: "RLHF Workflow",
-      link: "https://ritvik19.medium.com/papers-explained-149-rlhf-workflow-56b4e00019ed",
-      date: "May 2024",
-      description:
-        "Provides a detailed recipe for  online iterative RLHF and achieves state-of-the-art performance on various benchmarks using fully open-source datasets.",
-      tags: [],
     },
     {
       title: "Prometheus 2",
@@ -2693,22 +2738,6 @@ const papers_data = [
       description:
         "Integrates LLMs with Monte Carlo Tree Search to enhance performance in complex mathematical reasoning tasks, leveraging systematic exploration and heuristic self-refine mechanisms to improve decision-making frameworks.",
       tags: ["Scientific Data"],
-    },
-    {
-      title: "Magpie",
-      link: "https://ritvik19.medium.com/papers-explained-183-magpie-0603cbdc69c3",
-      date: "June 2024",
-      description:
-        "A self-synthesis method that extracts high-quality instruction data at scale by prompting an aligned LLM with left-side templates, generating 4M instructions and their corresponding responses.",
-      tags: ["Synthetic Data"],
-    },
-    {
-      title: "Instruction Pre-Training",
-      link: "https://ritvik19.medium.com/papers-explained-184-instruction-pretraining-ee0466f0fd33",
-      date: "June 2024",
-      description:
-        "A framework to augment massive raw corpora with instruction-response pairs enabling supervised multitask pretraining of LMs.",
-      tags: ["Synthetic Data"],
     },
     {
       title: "Proofread",
@@ -2759,28 +2788,12 @@ const papers_data = [
       tags: ["Language Models"],
     },
     {
-      title: "Direct Judgement Preference Optimization",
-      link: "https://ritvik19.medium.com/papers-explained-228-direct-judgement-preference-optimization-6915425402bf",
-      date: "September 2024",
-      description:
-        "Proposes learning through preference optimization to enhance the evaluation capabilities of LLM judges which are trained on three approaches: Chain-of-Thought Critique, Standard Judgement, and Response Deduction across various use cases, including single rating, pairwise comparison, and classification.",
-      tags: ["LLM Evaluation"],
-    },
-    {
       title: "DataGemma",
       link: "https://ritvik19.medium.com/papers-explained-212-datagemma-cf0d2f40d867",
       date: "September 2024",
       description:
         "A set of models that aims to reduce hallucinations in LLMs by grounding them in the factual data of Google's Data Commons, allowing users to ask questions in natural language and receive responses based on verified information from trusted sources.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Gemma"],
-    },
-    {
-      title: "LongCite",
-      link: "https://medium.com/@ritvik19/papers-explained-longcite-4800340e51d7",
-      date: "October 2024",
-      description:
-        "A system comprising LongBench-Cite benchmark, CoF pipeline for generating cited QA instances, LongCite-45k dataset, and LongCite-8B/9B models trained on this dataset to improve the trustworthiness of long-context LLMs by enabling them to generate responses with fine-grained sentence-level citations.",
-      tags: ["Language Models"],
     },
     {
       title: "GSM-Symbolic",
