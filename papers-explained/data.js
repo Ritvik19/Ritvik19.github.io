@@ -2625,12 +2625,20 @@ const papers_data = [
     },
     {
       title: "LongCite",
-      link: "https://medium.com/@ritvik19/papers-explained-longcite-4800340e51d7",
+      link: "https://ritvik19.medium.com/papers-explained-273-longcite-4800340e51d7",
       date: "October 2024",
       description:
         "A system comprising LongBench-Cite benchmark, CoF pipeline for generating cited QA instances, LongCite-45k dataset, and LongCite-8B/9B models trained on this dataset to improve the trustworthiness of long-context LLMs by enabling them to generate responses with fine-grained sentence-level citations.",
       tags: [],
     },
+    {
+      title: "Thought Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-274-thought-preference-optimization-4f365380ae74",
+      date: "October 2024",
+      description:
+        "Iteratively trains LLMs to generate useful 'thoughts' that improve response quality by prompting the model to produce thought-response pairs, scoring the responses with a judge model, creating preference pairs from the highest and lowest-scoring responses and their associated thoughts, and then using these pairs with DPO or IRPO loss to optimize the thought generation process while mitigating judge model length bias through score normalization.",
+      tags: [],
+    }
   ],
   [
     // Miscellaneous Studies
