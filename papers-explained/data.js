@@ -2638,7 +2638,16 @@ const papers_data = [
       description:
         "Iteratively trains LLMs to generate useful 'thoughts' that improve response quality by prompting the model to produce thought-response pairs, scoring the responses with a judge model, creating preference pairs from the highest and lowest-scoring responses and their associated thoughts, and then using these pairs with DPO or IRPO loss to optimize the thought generation process while mitigating judge model length bias through score normalization.",
       tags: [],
+    },
+    {
+      title: "Self-Consistency Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-275-self-consistency-preference-optimization-ccd08f5acafb",
+      date: "November 2024",
+      description:
+        "An unsupervised iterative training method for LLMs that leverages the concept of self-consistency to create preference pairs by selecting the most consistent response as the chosen response and the least consistent one as the rejected response, and then optimizes a weighted loss function that prioritizes pairs with larger vote margins, reflecting the model's confidence in the preference.",
+      tags: [],
     }
+
   ],
   [
     // Miscellaneous Studies
