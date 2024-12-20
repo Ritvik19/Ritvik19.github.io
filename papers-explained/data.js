@@ -2616,6 +2616,14 @@ const papers_data = [
       tags: ["Synthetic Data"],
     },
     {
+      title: "Self-Taught Evaluators",
+      link: "https://ritvik19.medium.com/papers-explained-276-self-taught-evaluators-8270905392ed",
+      date: "August 2024",
+      description:
+        "An iterative training scheme that uses only synthetically generated preference data, without human annotations, to improve an LLM's ability to judge the quality of model responses by iteratively generating contrasting model outputs, training an LLM-as-a-Judge to produce reasoning traces and judgments, and using the improved predictions in subsequent iterations.",
+      tags: [],
+    },
+    {
       title: "Direct Judgement Preference Optimization",
       link: "https://ritvik19.medium.com/papers-explained-228-direct-judgement-preference-optimization-6915425402bf",
       date: "September 2024",
