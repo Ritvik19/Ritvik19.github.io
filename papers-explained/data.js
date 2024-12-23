@@ -5,6 +5,7 @@ const nav_data = [
   "Small LLMs",
   "Multi Modal LMs",
   "Retrieval and Representation Learning",
+  "LLM Training",
   "PEFT",
   "Vision Transformers",
   "CNNs",
@@ -15,8 +16,8 @@ const nav_data = [
   "GANs",
   "Tabular Data",
   "Datasets",
-  "LLM Training",
   "Miscellaneous Studies",
+  "Neural Network Layers",
 ];
 
 const papers_data = [
@@ -353,6 +354,14 @@ const papers_data = [
         "Enhances the DeBERTa architecture by introducing replaced token detection (RTD) instead of mask language modeling (MLM), along with a novel gradient-disentangled embedding sharing method, exhibiting superior performance across various natural language understanding tasks.",
       tags: ["Language Models", "Transformer Encoder"],
     },
+    {
+      title: "ModernBERT",
+      link: "https://ritvik19.medium.com/papers-explained-277-modernbert-59f25989f685",
+      date: "December 2024",
+      description:
+        "Modernized encoder-only transformer model trained on 2 trillion tokens with a native 8192 sequence length, incorporating architectural improvements like GeGLU activations, RoPE embeddings, alternating attention, and unpadding, resulting in state-of-the-art performance across diverse classification and retrieval tasks (including code) and superior inference speed and memory efficiency compared to existing encoder models.",
+      tags: ["Language Models", "Transformer Encoder", "HuggingFace", "Nvidia"],
+    }
   ],
   [
     // Decoder Only Transformers
@@ -1683,6 +1692,105 @@ const papers_data = [
     }
   ],
   [
+    // LLM Training
+    {
+      title: "Self Instruct",
+      link: "https://ritvik19.medium.com/papers-explained-112-self-instruct-5c192580103a",
+      date: "December 2022",
+      description:
+        "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
+      tags: ["Synthetic Data"],
+    },
+    {
+      title: "Direct Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-148-direct-preference-optimization-d3e031a41be1",
+      date: "December 2023",
+      description:
+        "A stable, performant, and computationally lightweight algorithm that fine-tunes llms to align with human preferences without the need for reinforcement learning, by directly optimizing for the policy best satisfying the preferences with a simple classification objective.",
+      tags: [],
+    },
+    {
+      title: "RAFT",
+      link: "https://ritvik19.medium.com/papers-explained-272-raft-5049520bcc26",
+      date: "March 2024",
+      description:
+        "A training method that enhances the performance of LLMs for open-book in-domain question answering by training them to ignore irrelevant documents, cite verbatim relevant passages, and promote logical reasoning.",
+      tags: [],
+    },
+    {
+      title: "WRAP",
+      link: "https://ritvik19.medium.com/papers-explained-118-wrap-e563e009fe56",
+      date: "March 2024",
+      description:
+        "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
+      tags: ["Synthetic Data"],
+    },
+    {
+      title: "RLHF Workflow",
+      link: "https://ritvik19.medium.com/papers-explained-149-rlhf-workflow-56b4e00019ed",
+      date: "May 2024",
+      description:
+        "Provides a detailed recipe for  online iterative RLHF and achieves state-of-the-art performance on various benchmarks using fully open-source datasets.",
+      tags: [],
+    },
+    {
+      title: "Magpie",
+      link: "https://ritvik19.medium.com/papers-explained-183-magpie-0603cbdc69c3",
+      date: "June 2024",
+      description:
+        "A self-synthesis method that extracts high-quality instruction data at scale by prompting an aligned LLM with left-side templates, generating 4M instructions and their corresponding responses.",
+      tags: ["Synthetic Data"],
+    },
+    {
+      title: "Instruction Pre-Training",
+      link: "https://ritvik19.medium.com/papers-explained-184-instruction-pretraining-ee0466f0fd33",
+      date: "June 2024",
+      description:
+        "A framework to augment massive raw corpora with instruction-response pairs enabling supervised multitask pretraining of LMs.",
+      tags: ["Synthetic Data"],
+    },
+    {
+      title: "Self-Taught Evaluators",
+      link: "https://ritvik19.medium.com/papers-explained-276-self-taught-evaluators-8270905392ed",
+      date: "August 2024",
+      description:
+        "An iterative training scheme that uses only synthetically generated preference data, without human annotations, to improve an LLM's ability to judge the quality of model responses by iteratively generating contrasting model outputs, training an LLM-as-a-Judge to produce reasoning traces and judgments, and using the improved predictions in subsequent iterations.",
+      tags: [],
+    },
+    {
+      title: "Direct Judgement Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-228-direct-judgement-preference-optimization-6915425402bf",
+      date: "September 2024",
+      description:
+        "Proposes learning through preference optimization to enhance the evaluation capabilities of LLM judges which are trained on three approaches: Chain-of-Thought Critique, Standard Judgement, and Response Deduction across various use cases, including single rating, pairwise comparison, and classification.",
+      tags: ["LLM Evaluation"],
+    },
+    {
+      title: "LongCite",
+      link: "https://ritvik19.medium.com/papers-explained-273-longcite-4800340e51d7",
+      date: "October 2024",
+      description:
+        "A system comprising LongBench-Cite benchmark, CoF pipeline for generating cited QA instances, LongCite-45k dataset, and LongCite-8B/9B models trained on this dataset to improve the trustworthiness of long-context LLMs by enabling them to generate responses with fine-grained sentence-level citations.",
+      tags: [],
+    },
+    {
+      title: "Thought Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-274-thought-preference-optimization-4f365380ae74",
+      date: "October 2024",
+      description:
+        "Iteratively trains LLMs to generate useful 'thoughts' that improve response quality by prompting the model to produce thought-response pairs, scoring the responses with a judge model, creating preference pairs from the highest and lowest-scoring responses and their associated thoughts, and then using these pairs with DPO or IRPO loss to optimize the thought generation process while mitigating judge model length bias through score normalization.",
+      tags: [],
+    },
+    {
+      title: "Self-Consistency Preference Optimization",
+      link: "https://ritvik19.medium.com/papers-explained-275-self-consistency-preference-optimization-ccd08f5acafb",
+      date: "November 2024",
+      description:
+        "An unsupervised iterative training method for LLMs that leverages the concept of self-consistency to create preference pairs by selecting the most consistent response as the chosen response and the least consistent one as the rejected response, and then optimizes a weighted loss function that prioritizes pairs with larger vote margins, reflecting the model's confidence in the preference.",
+      tags: [],
+    }
+  ],
+  [
     // Parameter Efficient Fine Tuning
     {
       title: "LoRA",
@@ -2558,106 +2666,6 @@ const papers_data = [
     }
   ],
   [
-    // LLM Training
-    {
-      title: "Self Instruct",
-      link: "https://ritvik19.medium.com/papers-explained-112-self-instruct-5c192580103a",
-      date: "December 2022",
-      description:
-        "A framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations.",
-      tags: ["Synthetic Data"],
-    },
-    {
-      title: "Direct Preference Optimization",
-      link: "https://ritvik19.medium.com/papers-explained-148-direct-preference-optimization-d3e031a41be1",
-      date: "December 2023",
-      description:
-        "A stable, performant, and computationally lightweight algorithm that fine-tunes llms to align with human preferences without the need for reinforcement learning, by directly optimizing for the policy best satisfying the preferences with a simple classification objective.",
-      tags: [],
-    },
-    {
-      title: "RAFT",
-      link: "https://ritvik19.medium.com/papers-explained-272-raft-5049520bcc26",
-      date: "March 2024",
-      description:
-        "A training method that enhances the performance of LLMs for open-book in-domain question answering by training them to ignore irrelevant documents, cite verbatim relevant passages, and promote logical reasoning.",
-      tags: [],
-    },
-    {
-      title: "WRAP",
-      link: "https://ritvik19.medium.com/papers-explained-118-wrap-e563e009fe56",
-      date: "March 2024",
-      description:
-        "Uses an off-the-shelf instruction-tuned model prompted to paraphrase documents on the web in specific styles to jointly pre-train LLMs on real and synthetic rephrases.",
-      tags: ["Synthetic Data"],
-    },
-    {
-      title: "RLHF Workflow",
-      link: "https://ritvik19.medium.com/papers-explained-149-rlhf-workflow-56b4e00019ed",
-      date: "May 2024",
-      description:
-        "Provides a detailed recipe for  online iterative RLHF and achieves state-of-the-art performance on various benchmarks using fully open-source datasets.",
-      tags: [],
-    },
-    {
-      title: "Magpie",
-      link: "https://ritvik19.medium.com/papers-explained-183-magpie-0603cbdc69c3",
-      date: "June 2024",
-      description:
-        "A self-synthesis method that extracts high-quality instruction data at scale by prompting an aligned LLM with left-side templates, generating 4M instructions and their corresponding responses.",
-      tags: ["Synthetic Data"],
-    },
-    {
-      title: "Instruction Pre-Training",
-      link: "https://ritvik19.medium.com/papers-explained-184-instruction-pretraining-ee0466f0fd33",
-      date: "June 2024",
-      description:
-        "A framework to augment massive raw corpora with instruction-response pairs enabling supervised multitask pretraining of LMs.",
-      tags: ["Synthetic Data"],
-    },
-    {
-      title: "Self-Taught Evaluators",
-      link: "https://ritvik19.medium.com/papers-explained-276-self-taught-evaluators-8270905392ed",
-      date: "August 2024",
-      description:
-        "An iterative training scheme that uses only synthetically generated preference data, without human annotations, to improve an LLM's ability to judge the quality of model responses by iteratively generating contrasting model outputs, training an LLM-as-a-Judge to produce reasoning traces and judgments, and using the improved predictions in subsequent iterations.",
-      tags: [],
-    },
-    {
-      title: "Direct Judgement Preference Optimization",
-      link: "https://ritvik19.medium.com/papers-explained-228-direct-judgement-preference-optimization-6915425402bf",
-      date: "September 2024",
-      description:
-        "Proposes learning through preference optimization to enhance the evaluation capabilities of LLM judges which are trained on three approaches: Chain-of-Thought Critique, Standard Judgement, and Response Deduction across various use cases, including single rating, pairwise comparison, and classification.",
-      tags: ["LLM Evaluation"],
-    },
-    {
-      title: "LongCite",
-      link: "https://ritvik19.medium.com/papers-explained-273-longcite-4800340e51d7",
-      date: "October 2024",
-      description:
-        "A system comprising LongBench-Cite benchmark, CoF pipeline for generating cited QA instances, LongCite-45k dataset, and LongCite-8B/9B models trained on this dataset to improve the trustworthiness of long-context LLMs by enabling them to generate responses with fine-grained sentence-level citations.",
-      tags: [],
-    },
-    {
-      title: "Thought Preference Optimization",
-      link: "https://ritvik19.medium.com/papers-explained-274-thought-preference-optimization-4f365380ae74",
-      date: "October 2024",
-      description:
-        "Iteratively trains LLMs to generate useful 'thoughts' that improve response quality by prompting the model to produce thought-response pairs, scoring the responses with a judge model, creating preference pairs from the highest and lowest-scoring responses and their associated thoughts, and then using these pairs with DPO or IRPO loss to optimize the thought generation process while mitigating judge model length bias through score normalization.",
-      tags: [],
-    },
-    {
-      title: "Self-Consistency Preference Optimization",
-      link: "https://ritvik19.medium.com/papers-explained-275-self-consistency-preference-optimization-ccd08f5acafb",
-      date: "November 2024",
-      description:
-        "An unsupervised iterative training method for LLMs that leverages the concept of self-consistency to create preference pairs by selecting the most consistent response as the chosen response and the least consistent one as the rejected response, and then optimizes a weighted loss function that prioritizes pairs with larger vote margins, reflecting the model's confidence in the preference.",
-      tags: [],
-    }
-
-  ],
-  [
     // Miscellaneous Studies
     {
       title: "ColD Fusion",
@@ -2837,6 +2845,156 @@ const papers_data = [
       tags: ["Scientific Data"],  
     },
   ],
+  [
+    // Neural Network Layers
+    {
+      title: "Convolution Layer",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Separable Convolution",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Pointwise Convolution",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Depthwise Convolution",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Convolution Transpose",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Simple Recurrent",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Recurrent"],
+    },
+    {
+      title: "LSTM",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Recurrent"],
+    },
+    {
+      title: "GRU",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Recurrent"],
+    },
+    {
+      title: "Scaled Dot Product Attention",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Multi Head Attention",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Cross Attention",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Causal Attention",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Sliding Window Attention",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Multi Query Attention",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Grouped Query Attention",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Batch Normalisation",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Layer Normalisation",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Instance Normalisation",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Group Normalisation",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Weight Standardisation",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Batch Channel Normalisation",
+      link: "",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    }
+  ]
 ];
 
 const surveys_data = [
@@ -2950,6 +3108,34 @@ const literature_review_data = [
     link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5",
     papers: [
       "LoRA", "DyLoRA", "AdaLoRA", "QLoRA", "LoRA-FA", "Delta-LoRA", "LongLoRA", "VeRA", "LoRA+", "MoRA", "DoRA"
+    ]
+  },
+  {
+    title: "Convolution Layers",
+    link: "",
+    papers: [
+      "Convolution Layer", "Separable Convolution", "Pointwise Convolution", "Depthwise Convolution", "Convolution Transpose"
+    ]
+  },
+  {
+    title: "Recurrent Layers",
+    link: "",
+    papers: [
+      "Simple Recurrent", "LSTM", "GRU"
+    ]
+  },
+  {
+    title: "Attention Layers",
+    link: "",
+    papers: [
+      "Scaled Dot Product Attention", "Multi Head Attention", "Cross Attention", "Causal Attention", "Sliding Window Attention", "Multi Query Attention", "Grouped Query Attention"
+    ]
+  },
+  {
+    title: "Normalization Layers",
+    link: "",
+    papers: [
+      "Batch Normalisation", "Layer Normalisation", "Instance Normalisation", "Group Normalisation", "Weight Standardisation", "Batch Channel Normalisation"
     ]
   }
 ];
