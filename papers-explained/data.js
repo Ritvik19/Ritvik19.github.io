@@ -1149,6 +1149,14 @@ const papers_data = [
       description:
         "The smallest, fastest, and final model in the R series of enterprise-focused LLMs. It offers a context length of 128k and delivers a powerful combination of multilingual support, citation verified retrieval-augmented generation (RAG), reasoning, tool use, and agentic behavior.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Cohere"],
+    },
+    {
+      title: "Phi-4",
+      link: "https://ritvik19.medium.com/papers-explained-278-phi-4-ea59220f3f88",
+      date: "December 2024",
+      description:
+        "A 14B language model prioritizing data quality through a training process incorporating synthetic data for pretraining and midtraining, curated organic data seeds, and innovative post-training techniques like pivotal token search for DPO, resulting in strong performance on reasoning-focused benchmarks, especially in STEM, comparable to much larger models, while also addressing overfitting and data contamination concerns.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data", "Phi"],
     }
   ],
   [
