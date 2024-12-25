@@ -2857,35 +2857,35 @@ const papers_data = [
     // Neural Network Layers
     {
       title: "Convolution Layer",
-      link: "",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Convolution"],
-    },
-    {
-      title: "Separable Convolution",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#4176",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Convolution"],
     },
     {
       title: "Pointwise Convolution",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#8f24",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Convolution"],
     },
     {
       title: "Depthwise Convolution",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#20e4",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Separable Convolution",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#539f",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Convolution"],
     },
     {
       title: "Convolution Transpose",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#a302",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Convolution"],
@@ -3120,7 +3120,7 @@ const literature_review_data = [
   },
   {
     title: "Convolution Layers",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3",
     papers: [
       "Convolution Layer", "Separable Convolution", "Pointwise Convolution", "Depthwise Convolution", "Convolution Transpose"
     ]
