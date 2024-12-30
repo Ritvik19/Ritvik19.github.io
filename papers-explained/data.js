@@ -4,6 +4,7 @@ const nav_data = [
   "Decoder Only Transformers",
   "Small LLMs",
   "Multi Modal LMs",
+  "LLM for Math",
   "Retrieval and Representation Learning",
   "LLM Training",
   "PEFT",
@@ -16,8 +17,9 @@ const nav_data = [
   "GANs",
   "Tabular Data",
   "Datasets",
-  "Miscellaneous Studies",
   "Neural Network Layers",
+  "Autoencoders",
+  "Miscellaneous Studies",
 ];
 
 const papers_data = [
@@ -1505,6 +1507,177 @@ const papers_data = [
     }
   ],
   [
+    // LLMS for Math
+    {
+      title: "Wizard Math",
+      link: "#ecf7",
+      date: "August 2023",
+      description:
+        "Proposes Reinforcement Learning from Evol-Instruct Feedback (RLEIF) method, applied to Llama-2 to enhance the mathematical reasoning abilities.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "MAmmoTH",
+      link: "#8cd9",
+      date: "September 2023",
+      description:
+        "A series of LLMs specifically designed for general math problem-solving, trained on MathInstruct, a dataset compiled from 13 math datasets with intermediate rationales that combines chain-of-thought and program-of-thought approaches to accommodate different thought processes for various math problems.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "MetaMath",
+      link: "#bd74",
+      date: "September 2023",
+      description:
+        "A fine-tuned language model that specializes in mathematical reasoning, achieved by bootstrapping mathematical questions from multiple perspectives without extra knowledge and then fine-tuning an LLaMA-2 model on the resulting dataset.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "ToRA",
+      link: "#feb4",
+      date: "September 2023",
+      description:
+        "A series of large language models that seamlessly integrate natural language reasoning with external tools to solve complex mathematical problems.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Math Coder",
+      link: "#102e",
+      date: "October 2023",
+      description:
+        "The first systematic study that explicitly integrates natural language reasoning, code generation, and feedback from execution results into open-source pre-trained large language models.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "MuggleMath",
+      link: "#c53e",
+      date: "October 2023",
+      description:
+        "GSM8K and MATH datasets are augmented using query augmentation and response augmentation to fine tune Llama 2 models.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Llemma",
+      link: "#1b38",
+      date: "October 2023",
+      description:
+        "An LLM for mathematics, formed by continued pretraining of Code Llama on a mixture of scientific papers, web data containing mathematics, and mathematical code.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "MuMath",
+      link: "#25c2",
+      date: "December 2023",
+      description:
+        "A multi-perspective augmentation dataset for mathematics that combines strengths from tool-free methods, broadening the scope of augmentation techniques to enhance mathematical reasoning capabilities.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "MMIQC",
+      link: "#3a88",
+      date: "January 2024",
+      description:
+        "Curates a data set by sampling Meta Math, Iterative Question Composition, Utilizing Stack Exchange, Augmenting Similar Problems, Answer Augmentation and Question Bootstrapping to finetune Mistral, Llemma, DeepSeek and Qwen.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "DeepSeek Math",
+      link: "#7760",
+      date: "February 2024",
+      description:
+        "A language model for mathematics leveraging  a variant of Proximal Policy Optimization (PPO) called Group Relative Policy Optimization (GRPO), without relying on external toolkits or voting techniques.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Open Math Instruct 1",
+      link: "#8709",
+      date: "February 2024",
+      description:
+        "A math instruction tuning dataset containing 1.8M code interpreter styled problem-solution pairs for GSM8K and MATH dataset, generated using Mixtral.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Math Orca",
+      link: "#80d0",
+      date: "February 2024",
+      description:
+        "A fine tuned Mistral-7B that excels at math problems without external tools, utilizing a high-quality synthetic dataset of 200K problems created through multi-agent collaboration and an iterative learning process that involves practicing problem-solving, receiving feedback, and learning from preference pairs incorporating the model's solutions and feedback.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Math Genie",
+      link: "#8894",
+      date: "February 2024",
+      description:
+        "A framework that generates diverse and reliable math problems by iteratively augmenting small-scale problem-solution datasets and back-translating, followed by generating and verifying code-integrated solutions",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Xwin-Math",
+      link: "#f71c",
+      date: "March 2024",
+      description:
+        "Scales up GSM 8K and MATH dataset to 1.44M questions using data synthesis and then Llama 2, Mistral, Llemma are finetuned on the curated datasets.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "MuMath Code",
+      link: "#9fb8",
+      date: "May 2024",
+      description:
+        "Integrates tool use and data augmentation by finetuning Llama-2 on a dataset of math questions with code-nested solutions.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Numina Math",
+      link: "#b743",
+      date: "July 2024",
+      description:
+        "Winner of the 1st AIMO Progress Prize, based on DeepSeek Math, finetuned in two stages: CoT and ToRA.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Qwen 2 Math",
+      link: "#e37a",
+      date: "August 2024",
+      description:
+        "A model series focused on mathematical capabilities, built upon the Qwen2, outperforming proprietary models such as GPT-4o and Claude 3.5 in math-related tasks.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Qwen 2.5 Math",
+      link: "#eb40",
+      date: "September 2024",
+      description:
+        "An upgrade of Qwen 2 Math series with improved performance and expanded support to Tool Integrated Reasoning.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Open Math Instruct 2",
+      link: "#ff3a",
+      date: "October 2024",
+      description:
+        "A math instruction tuning dataset containing 14M question-solution pairs (≈ 600K unique questions) augmented from GSM8K and MATH dataset, generated using Llama 3.2 405B.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Math Coder 2",
+      link: "#97c9",
+      date: "October 2024",
+      description:
+        "Creates Math Code Pile by filtering web data and then extracting and translating mathematical data from it to create a corpus of interleaved reasoning and code data.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "AceMath",
+      link: "#65b1",
+      date: "December 2024",
+      description:
+        "A suite of math instruction-following models, trained through a two-stage SFT process focusing on general and math-specific reasoning, utilizing high-quality synthetic data and a specialized reward model (AceMath-RM) trained with diverse responses.",
+      tags: ["LLM for Math"],
+    }
+  ],
+  [
     // Retrieval and Representation Learning
     {
       title: "SimCLR",
@@ -2682,6 +2855,222 @@ const papers_data = [
     }
   ],
   [
+    // Neural Network Layers
+    {
+      title: "Convolution Layer",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#4176",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Pointwise Convolution",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#8f24",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Depthwise Convolution",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#20e4",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Separable Convolution",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#539f",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Convolution Transpose",
+      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#a302",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Convolution"],
+    },
+    {
+      title: "Simple Recurrent",
+      link: "https://ritvik19.medium.com/papers-explained-review-08-recurrent-layers-ff2f224af059#e405",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Recurrent"],
+    },
+    {
+      title: "LSTM",
+      link: "https://ritvik19.medium.com/papers-explained-review-08-recurrent-layers-ff2f224af059#0947",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Recurrent"],
+    },
+    {
+      title: "GRU",
+      link: "https://ritvik19.medium.com/papers-explained-review-08-recurrent-layers-ff2f224af059#4571",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Recurrent"],
+    },
+    {
+      title: "Scaled Dot Product Attention",
+      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#c18c",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Multi Head Attention",
+      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#be63",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Cross Attention",
+      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#0f28",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Causal Attention",
+      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#14c7",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Sliding Window Attention",
+      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#324c",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Multi Query Attention",
+      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#0bfd",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Grouped Query Attention",
+      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#d5fb",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Attention"],
+    },
+    {
+      title: "Batch Normalisation",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#00ea",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Layer Normalisation",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#9439",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Instance Normalisation",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#7783",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Group Normalisation",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#cd7f",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Weight Standardisation",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#3944",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    },
+    {
+      title: "Batch Channel Normalisation",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#3944",
+      date: "",
+      description: "",
+      tags: ["Neural Network Layers", "Normalization"],
+    }
+  ],
+  [
+    // Autoencoders
+    {
+      title: "Auto Encoders",
+      link: "#b8a0",
+      date: "",
+      description: "",
+      tags: ["Autoencoders"],
+    },
+    {
+      title: "Sparse Auto Encoders",
+      link: "#f605",
+      date: "",
+      description: "",
+      tags: ["Autoencoders"],
+    },
+    {
+      title: "K Sparse Auto Encoders",
+      link: "#23b0",
+      date: "",
+      description: "",
+      tags: ["Autoencoders"],
+    },
+    {
+      title: "Contractive Auto Encoders",
+      link: "#23b3",
+      date: "",
+      description: "",
+      tags: ["Autoencoders"],
+    },
+    {
+      title: "Convolutional Auto Encoders",
+      link: "#59a1",
+      date: "",
+      description: "",
+      tags: ["Autoencoders"],
+    },
+    {
+      title: "Sequence to Sequence Auto Encoders",
+      link: "#73e0",
+      date: "",
+      description: "",
+      tags: ["Autoencoders"],
+    },
+    {
+      title: "Denoising Auto Encoders",
+      link: "#1829",
+      date: "",
+      description: "",
+      tags: ["Autoencoders"],
+    },
+    {
+      title: "Variational Auto Encoders",
+      link: "#a626",
+      date: "",
+      description: "",
+      tags: ["Autoencoders"],
+    },
+    {
+      title: "Masked Auto Encoders",
+      link: "#2247",
+      date: "",
+      description: "",
+      tags: ["Autoencoders"],
+    }
+  ],
+  [
     // Miscellaneous Studies
     {
       title: "ColD Fusion",
@@ -2861,156 +3250,6 @@ const papers_data = [
       tags: ["Scientific Data"],  
     },
   ],
-  [
-    // Neural Network Layers
-    {
-      title: "Convolution Layer",
-      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#4176",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Convolution"],
-    },
-    {
-      title: "Pointwise Convolution",
-      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#8f24",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Convolution"],
-    },
-    {
-      title: "Depthwise Convolution",
-      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#20e4",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Convolution"],
-    },
-    {
-      title: "Separable Convolution",
-      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#539f",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Convolution"],
-    },
-    {
-      title: "Convolution Transpose",
-      link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3#a302",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Convolution"],
-    },
-    {
-      title: "Simple Recurrent",
-      link: "https://ritvik19.medium.com/papers-explained-review-08-recurrent-layers-ff2f224af059#e405",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Recurrent"],
-    },
-    {
-      title: "LSTM",
-      link: "https://ritvik19.medium.com/papers-explained-review-08-recurrent-layers-ff2f224af059#0947",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Recurrent"],
-    },
-    {
-      title: "GRU",
-      link: "https://ritvik19.medium.com/papers-explained-review-08-recurrent-layers-ff2f224af059#4571",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Recurrent"],
-    },
-    {
-      title: "Scaled Dot Product Attention",
-      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#c18c",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Attention"],
-    },
-    {
-      title: "Multi Head Attention",
-      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#be63",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Attention"],
-    },
-    {
-      title: "Cross Attention",
-      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#0f28",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Attention"],
-    },
-    {
-      title: "Causal Attention",
-      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#14c7",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Attention"],
-    },
-    {
-      title: "Sliding Window Attention",
-      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#324c",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Attention"],
-    },
-    {
-      title: "Multi Query Attention",
-      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#0bfd",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Attention"],
-    },
-    {
-      title: "Grouped Query Attention",
-      link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5#d5fb",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Attention"],
-    },
-    {
-      title: "Batch Normalisation",
-      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#00ea",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Normalization"],
-    },
-    {
-      title: "Layer Normalisation",
-      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#9439",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Normalization"],
-    },
-    {
-      title: "Instance Normalisation",
-      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#7783",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Normalization"],
-    },
-    {
-      title: "Group Normalisation",
-      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#cd7f",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Normalization"],
-    },
-    {
-      title: "Weight Standardisation",
-      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#3944",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Normalization"],
-    },
-    {
-      title: "Batch Channel Normalisation",
-      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#3944",
-      date: "",
-      description: "",
-      tags: ["Neural Network Layers", "Normalization"],
-    }
-  ]
 ];
 
 const surveys_data = [
