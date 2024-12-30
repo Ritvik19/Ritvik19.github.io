@@ -874,6 +874,14 @@ const papers_data = [
       description:
         "A family of 8B and 32B highly performant multilingual models that excel across 23 languages.",
       tags: ["Language Models", "Transformer Decoder", "Multilingual Models", "Cohere"],
+    },
+    {
+      title: "Llama 3.3",
+      link: "https://ritvik19.medium.com/papers-explained-187e-quantized-llama-3-2-cc6965f61370#bd2c",
+      date: "December 2024",
+      description:
+        "A multilingual, instruction-tuned generative language model with 70B parameters, optimized for dialogue use cases and trained on 15 trillion tokens of public data, incorporating both human-generated and synthetic data for safety and quality control.",
+      tags: ["Language Models", "Transformer Decoder", "Llama"],
     }
   ],
   [
@@ -2962,42 +2970,42 @@ const papers_data = [
     },
     {
       title: "Batch Normalisation",
-      link: "#00ea",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#00ea",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Normalization"],
     },
     {
       title: "Layer Normalisation",
-      link: "#9439",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#9439",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Normalization"],
     },
     {
       title: "Instance Normalisation",
-      link: "#7783",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#7783",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Normalization"],
     },
     {
       title: "Group Normalisation",
-      link: "#cd7f",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#cd7f",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Normalization"],
     },
     {
       title: "Weight Standardisation",
-      link: "#3944",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#3944",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Normalization"],
     },
     {
       title: "Batch Channel Normalisation",
-      link: "#3944",
+      link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e#3944",
       date: "",
       description: "",
       tags: ["Neural Network Layers", "Normalization"],
@@ -3134,14 +3142,14 @@ const literature_review_data = [
   },
   {
     title: "Attention Layers",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5",
     papers: [
       "Scaled Dot Product Attention", "Multi Head Attention", "Cross Attention", "Causal Attention", "Sliding Window Attention", "Multi Query Attention", "Grouped Query Attention"
     ]
   },
   {
     title: "Normalization Layers",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e",
     papers: [
       "Batch Normalisation", "Layer Normalisation", "Instance Normalisation", "Group Normalisation", "Weight Standardisation", "Batch Channel Normalisation"
     ]
