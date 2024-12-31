@@ -3392,6 +3392,13 @@ const literature_review_data = [
     papers: [
       "Batch Normalisation", "Layer Normalisation", "Instance Normalisation", "Group Normalisation", "Weight Standardisation", "Batch Channel Normalisation"
     ]
+  },
+  {
+    title: "Auto Encoders",
+    link: "https://ritvik19.medium.com/papers-explained-review-11-auto-encoders-3b8f08b4eac0",
+    papers: [
+      "Auto Encoders", "Sparse Auto Encoders", "K Sparse Auto Encoders", "Contractive Auto Encoders", "Convolutional Auto Encoders", "Sequence to Sequence Auto Encoders", "Denoising Auto Encoders", "Variational Auto Encoders", "Masked Auto Encoders"
+    ]
   }
 ];
 
