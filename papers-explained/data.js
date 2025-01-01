@@ -1510,7 +1510,7 @@ const papers_data = [
     // LLMS for Math
     {
       title: "Wizard Math",
-      link: "#ecf7",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#ecf7",
       date: "August 2023",
       description:
         "Proposes Reinforcement Learning from Evol-Instruct Feedback (RLEIF) method, applied to Llama-2 to enhance the mathematical reasoning abilities.",
@@ -1518,7 +1518,7 @@ const papers_data = [
     },
     {
       title: "MAmmoTH",
-      link: "#8cd9",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#8cd9",
       date: "September 2023",
       description:
         "A series of LLMs specifically designed for general math problem-solving, trained on MathInstruct, a dataset compiled from 13 math datasets with intermediate rationales that combines chain-of-thought and program-of-thought approaches to accommodate different thought processes for various math problems.",
@@ -1526,7 +1526,7 @@ const papers_data = [
     },
     {
       title: "MetaMath",
-      link: "#bd74",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#bd74",
       date: "September 2023",
       description:
         "A fine-tuned language model that specializes in mathematical reasoning, achieved by bootstrapping mathematical questions from multiple perspectives without extra knowledge and then fine-tuning an LLaMA-2 model on the resulting dataset.",
@@ -1534,7 +1534,7 @@ const papers_data = [
     },
     {
       title: "ToRA",
-      link: "#feb4",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#feb4",
       date: "September 2023",
       description:
         "A series of large language models that seamlessly integrate natural language reasoning with external tools to solve complex mathematical problems.",
@@ -1542,7 +1542,7 @@ const papers_data = [
     },
     {
       title: "Math Coder",
-      link: "#102e",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#102e",
       date: "October 2023",
       description:
         "The first systematic study that explicitly integrates natural language reasoning, code generation, and feedback from execution results into open-source pre-trained large language models.",
@@ -1550,7 +1550,7 @@ const papers_data = [
     },
     {
       title: "MuggleMath",
-      link: "#c53e",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#c53e",
       date: "October 2023",
       description:
         "GSM8K and MATH datasets are augmented using query augmentation and response augmentation to fine tune Llama 2 models.",
@@ -1558,7 +1558,7 @@ const papers_data = [
     },
     {
       title: "Llemma",
-      link: "#1b38",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#1b38",
       date: "October 2023",
       description:
         "An LLM for mathematics, formed by continued pretraining of Code Llama on a mixture of scientific papers, web data containing mathematics, and mathematical code.",
@@ -1566,7 +1566,7 @@ const papers_data = [
     },
     {
       title: "MuMath",
-      link: "#25c2",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#25c2",
       date: "December 2023",
       description:
         "A multi-perspective augmentation dataset for mathematics that combines strengths from tool-free methods, broadening the scope of augmentation techniques to enhance mathematical reasoning capabilities.",
@@ -1574,7 +1574,7 @@ const papers_data = [
     },
     {
       title: "MMIQC",
-      link: "#3a88",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#3a88",
       date: "January 2024",
       description:
         "Curates a data set by sampling Meta Math, Iterative Question Composition, Utilizing Stack Exchange, Augmenting Similar Problems, Answer Augmentation and Question Bootstrapping to finetune Mistral, Llemma, DeepSeek and Qwen.",
@@ -1582,7 +1582,7 @@ const papers_data = [
     },
     {
       title: "DeepSeek Math",
-      link: "#7760",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#7760",
       date: "February 2024",
       description:
         "A language model for mathematics leveraging  a variant of Proximal Policy Optimization (PPO) called Group Relative Policy Optimization (GRPO), without relying on external toolkits or voting techniques.",
@@ -1590,7 +1590,7 @@ const papers_data = [
     },
     {
       title: "Open Math Instruct 1",
-      link: "#8709",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#8709",
       date: "February 2024",
       description:
         "A math instruction tuning dataset containing 1.8M code interpreter styled problem-solution pairs for GSM8K and MATH dataset, generated using Mixtral.",
@@ -1598,7 +1598,7 @@ const papers_data = [
     },
     {
       title: "Math Orca",
-      link: "#80d0",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#80d0",
       date: "February 2024",
       description:
         "A fine tuned Mistral-7B that excels at math problems without external tools, utilizing a high-quality synthetic dataset of 200K problems created through multi-agent collaboration and an iterative learning process that involves practicing problem-solving, receiving feedback, and learning from preference pairs incorporating the model's solutions and feedback.",
@@ -1606,7 +1606,7 @@ const papers_data = [
     },
     {
       title: "Math Genie",
-      link: "#8894",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#8894",
       date: "February 2024",
       description:
         "A framework that generates diverse and reliable math problems by iteratively augmenting small-scale problem-solution datasets and back-translating, followed by generating and verifying code-integrated solutions",
@@ -1614,7 +1614,7 @@ const papers_data = [
     },
     {
       title: "Xwin-Math",
-      link: "#f71c",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#f71c",
       date: "March 2024",
       description:
         "Scales up GSM 8K and MATH dataset to 1.44M questions using data synthesis and then Llama 2, Mistral, Llemma are finetuned on the curated datasets.",
@@ -1622,7 +1622,7 @@ const papers_data = [
     },
     {
       title: "MuMath Code",
-      link: "#9fb8",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#9fb8",
       date: "May 2024",
       description:
         "Integrates tool use and data augmentation by finetuning Llama-2 on a dataset of math questions with code-nested solutions.",
@@ -1630,7 +1630,7 @@ const papers_data = [
     },
     {
       title: "Numina Math",
-      link: "#b743",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#b743",
       date: "July 2024",
       description:
         "Winner of the 1st AIMO Progress Prize, based on DeepSeek Math, finetuned in two stages: CoT and ToRA.",
@@ -1638,7 +1638,7 @@ const papers_data = [
     },
     {
       title: "Qwen 2 Math",
-      link: "#e37a",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#e37a",
       date: "August 2024",
       description:
         "A model series focused on mathematical capabilities, built upon the Qwen2, outperforming proprietary models such as GPT-4o and Claude 3.5 in math-related tasks.",
@@ -1646,7 +1646,7 @@ const papers_data = [
     },
     {
       title: "Qwen 2.5 Math",
-      link: "#eb40",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#eb40",
       date: "September 2024",
       description:
         "An upgrade of Qwen 2 Math series with improved performance and expanded support to Tool Integrated Reasoning.",
@@ -1654,7 +1654,7 @@ const papers_data = [
     },
     {
       title: "Open Math Instruct 2",
-      link: "#ff3a",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#ff3a",
       date: "October 2024",
       description:
         "A math instruction tuning dataset containing 14M question-solution pairs (≈ 600K unique questions) augmented from GSM8K and MATH dataset, generated using Llama 3.2 405B.",
@@ -1662,7 +1662,7 @@ const papers_data = [
     },
     {
       title: "Math Coder 2",
-      link: "#97c9",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#97c9",
       date: "October 2024",
       description:
         "Creates Math Code Pile by filtering web data and then extracting and translating mathematical data from it to create a corpus of interleaved reasoning and code data.",
@@ -1670,7 +1670,7 @@ const papers_data = [
     },
     {
       title: "AceMath",
-      link: "#65b1",
+      link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#65b1",
       date: "December 2024",
       description:
         "A suite of math instruction-following models, trained through a two-stage SFT process focusing on general and math-specific reasoning, utilizing high-quality synthetic data and a specialized reward model (AceMath-RM) trained with diverse responses.",
@@ -3398,6 +3398,13 @@ const literature_review_data = [
     link: "https://ritvik19.medium.com/papers-explained-review-11-auto-encoders-3b8f08b4eac0",
     papers: [
       "Auto Encoders", "Sparse Auto Encoders", "K Sparse Auto Encoders", "Contractive Auto Encoders", "Convolutional Auto Encoders", "Sequence to Sequence Auto Encoders", "Denoising Auto Encoders", "Variational Auto Encoders", "Masked Auto Encoders"
+    ]
+  },
+  {
+    title: "LLMs for Maths",
+    link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c",
+    papers: [
+      "Wizard Math", "MAmmoTH", "MetaMath", "ToRA", "Math Coder", "MuggleMath", "Llemma", "MuMath", "MMIQC", "DeepSeek Math", "Open Math Instruct 1", "Math Orca", "Math Genie", "Xwin-Math", "MuMath Code", "Numina Math", "Qwen 2 Math", "Qwen 2.5 Math", "Open Math Instruct 2", "Math Coder 2", "AceMath"
     ]
   }
 ];
