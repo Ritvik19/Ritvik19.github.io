@@ -3178,6 +3178,14 @@ const papers_data = [
       tags: ["Prompt Optimization"],
     },
     {
+      title: "LearnLM Tutor",
+      link: "https://ritvik19.medium.com/papers-explained-279-learnlm-tutor-77503db05415",
+      date: "May 2024",
+      description:
+        "A text-based gen AI tutor based on Gemini 1.0, further fine- tuned for 1:1 conversational tutoring with improved education-related capabilities over a prompt tuned Gemini 1.0.",
+      tags: [],
+    },
+    {
       title: "Monte Carlo Tree Self-refine",
       link: "https://ritvik19.medium.com/papers-explained-167-monte-carlo-tree-self-refine-79bffb070c1a",
       date: "June 2024",
