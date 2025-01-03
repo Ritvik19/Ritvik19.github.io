@@ -3183,7 +3183,7 @@ const papers_data = [
       date: "May 2024",
       description:
         "A text-based gen AI tutor based on Gemini 1.0, further fine- tuned for 1:1 conversational tutoring with improved education-related capabilities over a prompt tuned Gemini 1.0.",
-      tags: [],
+      tags: ["Language Models", "Gemini"],
     },
     {
       title: "Monte Carlo Tree Self-refine",
@@ -3257,6 +3257,14 @@ const papers_data = [
         "Investigates the true mathematical reasoning capabilities of LLMs by introducing GSM-Symbolic, a new benchmark based on symbolic templates, revealing that LLMs exhibit inconsistent performance, struggle with complex questions, and appear to rely on pattern recognition rather than genuine logical reasoning.",
       tags: ["Scientific Data"],  
     },
+    {
+      title: "LearnLM",
+      link: "https://ritvik19.medium.com/papers-explained-280-learnlm-df8cdc2fed45",
+      date: "December 2024",
+      description:
+        "Combines Supervised Fine-Tuning (SFT) with Reinforcement Learning from Human Feedback (RLHF) to enhance pedagogical instruction in conversational AI, co-trained with Gemini's SFT, Reward Model (RM), and RL stages.",
+      tags: ["Language Models", "Gemini"],
+    }
   ],
 ];
 
