@@ -608,6 +608,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Code Generation", "Synthetic Data", "WizardLM"],
     },
     {
+      title: "Tulu",
+      link: "https://ritvik19.medium.com/papers-explained-181-tulu-ee85648cbf1b",
+      date: "June 2023",
+      description:
+        "Explores instruction-tuning of language models ranging from 6.7B to 65B parameters on 12 different instruction datasets.",
+      tags: ["Language Models", "Transformer Decoder"],
+    },
+    {
       title: "LLaMA 2",
       link: "https://ritvik19.medium.com/papers-explained-60-llama-v2-3e415c5b9b17",
       date: "July 2023",
