@@ -1514,6 +1514,14 @@ const papers_data = [
       tags: ["Multimodal Models", "Anthropic", "Claude"],
     },
     {
+      title: "Pixtral Large",
+      link: "https://ritvik19.medium.com/papers-explained-219-pixtral-a714f94e59ac#6123",
+      date: "November 2024",
+      description: 
+        "A 124 billion parameter open-weight multimodal model built upon Mistral Large 2 and a 1B parameter vision encoder, excelling in understanding documents, charts and natural images. It supports a Context Window of 128K tokens, accommodating at least 30 high-resolution images.",
+      tags: ["Multimodal Models", "Mistral"],  
+    },
+    {
       title: "Smol VLM",
       link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#6245",
       date: "November 2024",
