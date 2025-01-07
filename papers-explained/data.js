@@ -686,6 +686,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Grok"],
     },
     {
+      title: "Tulu v2",
+      link: "https://ritvik19.medium.com/papers-explained-182-tulu-v2-ff38ab1f37f2",
+      date: "November 2023",
+      description:
+        "An updated version of Tulu covering the open resources for instruction tuning om better base models to new finetuning techniques.",
+      tags: ["Language Models", "Transformer Decoder"],
+    },
+    {
       title: "Mixtral 8x7B",
       link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745",
       date: "January 2024",
