@@ -894,6 +894,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Multilingual Models", "Cohere"],
     },
     {
+      title: "Tulu v3",
+      link: "https://ritvik19.medium.com/papers-explained-183-tulu-v3-fc7758b18724",
+      date: "November 2024",
+      description:
+        "A family of post-trained models based on Llama 3.1 that outperform instruct versions of other models, including closed models like GPT-4o-mini and Claude 3.5-Haiku, using training methods like supervised finetuning, Direct Preference Optimization, and Reinforcement Learning with Verifiable Rewards.",
+      tags: ["Language Models", "Transformer Decoder"],
+    },
+    {
       title: "Llama 3.3",
       link: "https://ritvik19.medium.com/papers-explained-187e-quantized-llama-3-2-cc6965f61370#bd2c",
       date: "December 2024",
