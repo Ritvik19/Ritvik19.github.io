@@ -908,6 +908,13 @@ const papers_data = [
       description:
         "A multilingual, instruction-tuned generative language model with 70B parameters, optimized for dialogue use cases and trained on 15 trillion tokens of public data, incorporating both human-generated and synthetic data for safety and quality control.",
       tags: ["Language Models", "Transformer Decoder", "Llama"],
+    },
+    {
+      title: "OLMo 2",
+      link: "https://ritvik19.medium.com/papers-explained-olmo-2-f4d34e886503",
+      date: "January 2025",
+      description: "A family of open-source language models featuring improved architecture, training recipes, and pre-training data mixtures. It incorporates a new specialized data mix (Dolmino Mix 1124) introduced via late-stage curriculum training, and best practices from Tülu 3 are incorporated to develop OLMo 2-Instruct.",
+      tags: ["Language Models", "Transformer Decoder"],
     }
   ],
   [
