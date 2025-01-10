@@ -3303,6 +3303,14 @@ const papers_data = [
       description:
         "Combines Supervised Fine-Tuning (SFT) with Reinforcement Learning from Human Feedback (RLHF) to enhance pedagogical instruction in conversational AI, co-trained with Gemini's SFT, Reward Model (RM), and RL stages.",
       tags: ["Language Models", "Gemini"],
+    },
+    {
+      title: "Open Scholar",
+      link: "https://ritvik19.medium.com/papers-explained-185-openscholar-76b1b2df7b99",
+      date: "December 2024",
+      description:
+        "A retrieval-augmented large language model specializing in scientific literature synthesis. It uses a large datastore of 45 million open-access papers, specialized retrievers, an open-source 8B model trained on synthetically generated data and iterative self-feedback generation to answer scientific queries with accurate citations.",
+      tags: ["Scientific Data", "Agentic Systems"],
     }
   ],
 ];
