@@ -3193,6 +3193,14 @@ const papers_data = [
       tags: ["Agentic Systems"],
     },
     {
+      title: "NuNER",
+      link: "https://ritvik19.medium.com/papers-explained-186-nuner-03e092dfb6ff",
+      date: "February 2024",
+      description: 
+        "A foundation model for Named Entity Recognition (NER) created by further pre-training RoBERTa, using contrastive training on a large dataset annotated by GPT-3.5, derived from a subset of C4.",
+      tags: ["Language Models","Named Entity Recognition", "Synthetic Data"],
+    },
+    {
       title: "LLMLingua2",
       link: "https://ritvik19.medium.com/papers-explained-138-llmlingua-2-510c752368a8",
       date: "March 2024",
