@@ -3241,6 +3241,14 @@ const papers_data = [
       tags: ["Scientific Data"],
     },
     {
+      title: "NuExtract",
+      link: "https://ritvik19.medium.com/papers-explained-287-nuextract-f722082999b5",
+      date: "June 2024",
+      description:
+        "Small language models fine-tuned on a synthetic dataset of C4 text passages and LLM-generated structured extraction templates and outputs, achieving comparable or superior performance to much larger LLMs like GPT-4 on complex extraction tasks while being significantly smaller and offering zero-shot, hybrid few-shot (using output examples), and fine-tuning capabilities.",
+      tags: ["Language Models", "Named Entity Recognition", "Synthetic Data"],
+    },
+    {
       title: "Proofread",
       link: "https://ritvik19.medium.com/papers-explained-189-proofread-4e1fe4eccf01",
       date: "June 2024",
@@ -3303,6 +3311,14 @@ const papers_data = [
       description:
         "Investigates the true mathematical reasoning capabilities of LLMs by introducing GSM-Symbolic, a new benchmark based on symbolic templates, revealing that LLMs exhibit inconsistent performance, struggle with complex questions, and appear to rely on pattern recognition rather than genuine logical reasoning.",
       tags: ["Scientific Data"],  
+    },
+    {
+      title: "NuExtract 1.5",
+      link: "https://ritvik19.medium.com/papers-explained-287-nuextract-f722082999b5#83ce",
+      date: "October 2024",
+      description:
+        "An upgrade of NuExtract trained on a multilingual synthetic dataset derived from C4 documents and LLM-generated structured extraction templates and outputs, incorporating longer documents and a 'continuation' training methodology for handling documents exceeding typical context windows, resulting in a model capable of multilingual, long-document structured extraction with performance comparable or superior to much larger LLMs.",
+      tags: ["Language Models", "Named Entity Recognition", "Synthetic Data"],
     },
     {
       title: "LearnLM",
