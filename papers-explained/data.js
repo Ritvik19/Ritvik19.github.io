@@ -1922,6 +1922,14 @@ const papers_data = [
   [
     // LLM Training
     {
+      title: "Self-Taught Reasoner (STaR)",
+      link: "https://ritvik19.medium.com/papers-explained-288-star-cf485a5b117e",
+      date: "May 2022",
+      description:
+        "A bootstrapping method that iteratively improves a language model's reasoning abilities by generating rationales for a dataset, filtering for rationales that lead to correct answers, fine-tuning the model on these successful rationales, and repeating this process, optionally augmented by 'rationalization' where the model generates rationales given the correct answer as a hint.",
+      tags: [],
+    },
+    {
       title: "Self Instruct",
       link: "https://ritvik19.medium.com/papers-explained-112-self-instruct-5c192580103a",
       date: "December 2022",
