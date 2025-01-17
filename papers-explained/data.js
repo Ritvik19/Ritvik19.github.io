@@ -2032,6 +2032,14 @@ const papers_data = [
       description:
         "An unsupervised iterative training method for LLMs that leverages the concept of self-consistency to create preference pairs by selecting the most consistent response as the chosen response and the least consistent one as the rejected response, and then optimizes a weighted loss function that prioritizes pairs with larger vote margins, reflecting the model's confidence in the preference.",
       tags: [],
+    },
+    {
+      title: "rStar-Math",
+      link: "https://ritvik19.medium.com/papers-explained-290-rstar-math-4b3317a2c2c6",
+      date: "January 2025",
+      description:
+        "Uses a deep thinking approach with Monte Carlo Tree Search and smaller language models to achieve state-of-the-art math reasoning, rivaling or surpassing larger models like OpenAI's. It employs a novel code-augmented CoT data synthesis, a process preference model (PPM) trained with pairwise ranking, and a self-evolution recipe to iteratively improve SLM performance on complex math problems, including Olympiad-level questions.",
+      tags: ["LLM for Math"],
     }
   ],
   [
