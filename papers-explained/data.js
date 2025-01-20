@@ -3161,6 +3161,14 @@ const papers_data = [
       tags: [],
     },
     {
+      title: "Multiagent Debate",
+      link: "https://ritvik19.medium.com/papers-explained-291-multiagent-debate-1a1693d5fa5e",
+      date: "May 2023",
+      description:
+        "Involves multiple language model instances independently generating answers to a query, then iteratively critiquing and updating their responses based on others' answers over multiple rounds, ultimately converging on a single, refined answer. This process mimics multi-threaded reasoning and multi-source fact-checking, leveraging the collective intelligence of the models to improve factual accuracy and reasoning capabilities.",
+      tags: [],
+    },
+    {
       title: "RAGAS",
       link: "https://ritvik19.medium.com/papers-explained-227-ragas-4594fc4d96b9",
       date: "September 2023",
