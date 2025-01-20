@@ -1543,6 +1543,22 @@ const papers_data = [
       description:
         "A 2B vision-language model, built using a modified Idefics3 architecture with a smaller language backbone (SmolLM2 1.7B), aggressive pixel shuffle compression, 384x384 image patches, and a shape-optimized SigLIP vision backbone, featuring a 16k token context window.",
       tags: ["Multimodal Models", "HuggingFace"],
+    },
+    {
+      title: "MAmmoTH-VL",
+      link: "",
+      date: "December 2024",
+      description:
+        "Curated a large-scale, multimodal instruction-tuning dataset with 12M instruction-response pairs using a cost-effective method involving open-source data collection and categorization, task-specific data augmentation and rewriting using open models (Llama-3-70B-Instruct for caption-based data and InternVL2-Llama3-76B for other data types), and self-filtering with InternVL2-Llama3-76B to remove hallucinations and ensure data quality.",
+      tags: ["Multimodal Models", "Synthetic Data"],
+    },
+    {
+      title: "Maya",
+      link: "",
+      date: "December 2024",
+      description:
+        "An open-source multilingual multimodal model designed to improve vision-language understanding in eight languages (English, Chinese, French, Spanish, Russian, Hindi, Japanese, and Arabic). It leverages a newly created, toxicity-filtered multilingual image-text dataset based on LLaVA, incorporating a SigLIP vision encoder and the Aya-23 8B language model, and is fine-tuned on the PALO 150K instruction-tuning dataset.",
+      tags: ["Multimodal Models", "Multilingual Models"],
     }
   ],
   [
@@ -1938,6 +1954,22 @@ const papers_data = [
       tags: ["Synthetic Data"],
     },
     {
+      title: "ReST",
+      link: "",
+      date: "April 2023",
+      description:
+        "Iteratively improves a language model by generating a dataset of samples from the current policy (Grow step), filtering those samples based on a reward model derived from human preferences (Improve step), and then fine-tuning the model on the filtered data using an offline RL objective, repeating this process with increasing filtering thresholds to continually refine the model's output quality.",
+      tags: [],
+    },
+    {
+      title: "ReST^EM",
+      link: "",
+      date: "December 2023",
+      description:
+        "A self-training method based on expectation-maximization for reinforcement learning with language models. It iteratively generates samples from the model, filters them using binary feedback (E-step), and fine-tunes the base pretrained model on these filtered samples (M-step). Unlike the original ReST, ReST^EM doesn't augment with human data and fine-tunes the base model each iteration, improving transfer performance.",
+      tags: [],
+    },
+    {
       title: "Direct Preference Optimization",
       link: "https://ritvik19.medium.com/papers-explained-148-direct-preference-optimization-d3e031a41be1",
       date: "December 2023",
@@ -2040,6 +2072,14 @@ const papers_data = [
       description:
         "Uses a deep thinking approach with Monte Carlo Tree Search and smaller language models to achieve state-of-the-art math reasoning, rivaling or surpassing larger models like OpenAI's. It employs a novel code-augmented CoT data synthesis, a process preference model (PPM) trained with pairwise ranking, and a self-evolution recipe to iteratively improve SLM performance on complex math problems, including Olympiad-level questions.",
       tags: ["LLM for Math"],
+    },
+    {
+      title: "Multiagent Finetuning",
+      link: "",
+      date: "January 2025",
+      description:
+        "Improves large language models by training a 'society' of specialized models (generation and critic agents) on data generated through multiagent debate. Generation agents are fine-tuned on their own correct initial responses, while critic agents are fine-tuned on debate sequences showing both initial incorrect and final corrected answers, fostering diversity and enabling iterative self-improvement over multiple rounds.",
+      tags: [],
     }
   ],
   [
@@ -2915,6 +2955,22 @@ const papers_data = [
       description:
         "A synthetic instruction-following dataset comprising 1 million samples, built using a fine-tuned LLM on a diverse range of instruction-following datasets and then generating synthetic conversations using various prompts and instructions to improve instruction following, chat, and reasoning capabilities.",
       tags: ["Datasets", "Synthetic Data", "HuggingFace"],
+    },
+    {
+      title: "Red Pajama V1",
+      link: "",
+      date: "November 2024",
+      description:
+        "A reproduction of the LLaMA training dataset, built from seven sources (CommonCrawl, C4, GitHub, Wikipedia, Books, ArXiv, and Stack Exchange) totaling 1.2 trillion tokens. The reproduction process involved addressing gaps and ambiguities in the original LLaMA documentation, with some differences in data processing choices.",
+      tags: ["Datasets"],
+    },
+    {
+      title: "Red Pajama V2",
+      link: "",
+      date: "November 2024",
+      description:
+        "A massive, unfiltered web-based dataset derived from CommonCrawl, comprising over 100 trillion tokens in multiple languages. It includes various quality signals (natural language metrics, repetitiveness, content flags, ML heuristics, and deduplication data) as metadata, enabling flexible filtering and dataset creation for diverse downstream tasks.",
+      tags: ["Datasets"],
     }
   ],
   [
@@ -3135,6 +3191,14 @@ const papers_data = [
   ],
   [
     // Miscellaneous Studies
+    {
+      title: "TLDR",
+      link: "",
+      date: "April 2020",
+      description:
+        "Extreme summarization for scientific papers, creating concise, single-sentence summaries of key contributions.",
+      tags: [],
+    },
     {
       title: "ColD Fusion",
       link: "https://ritvik19.medium.com/papers-explained-32-cold-fusion-452f33101a91",
@@ -3367,6 +3431,30 @@ const papers_data = [
       description:
         "A retrieval-augmented large language model specializing in scientific literature synthesis. It uses a large datastore of 45 million open-access papers, specialized retrievers, an open-source 8B model trained on synthetically generated data and iterative self-feedback generation to answer scientific queries with accurate citations.",
       tags: ["Scientific Data", "Agentic Systems"],
+    },
+    {
+      title: "Shiksha",
+      link: "",
+      date: "December 2024",
+      description:
+        "Addresses the challenge of training machine translation models to effectively handle scientific and technical language, particularly for low-resource Indian languages, by creating a multilingual parallel corpus containing over 2.8 million translation pairs across eight Indian languages by mining human-translated transcriptions of NPTEL video lectures.",
+      tags: ["Language Models", "Multilingual Models"],
+    },
+    {
+      title: "Multi-LLM Text Summarization",
+      link: "",
+      date: "December 2024",
+      description:
+        "Introduces a novel multi-LLM summarization framework with centralized and decentralized approaches. Multiple LLMs generate diverse summaries, and either a single LLM (centralized) or all LLMs (decentralized) evaluate them iteratively.",
+      tags: ["Language Models", "Agentic Systems"],
+    },
+    {
+      title: "Reader LM v2",
+      link: "",
+      date: "December 2024",
+      description:
+        "A 1.5B parameter language model specializing in converting raw HTML to markdown or JSON, handling up to 512K tokens and supporting 29 languages. Trained with a new paradigm and higher-quality data, it treats HTML-to-markdown as translation, and addresses the degeneration issues of its predecessor through contrastive loss.",
+      tags: ["Language Models"],
     }
   ],
 ];
