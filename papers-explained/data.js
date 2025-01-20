@@ -2066,6 +2066,14 @@ const papers_data = [
       tags: [],
     },
     {
+      title: "Hyperfitting",
+      link: "",
+      date: "December 2024",
+      description:
+        "Involves fine-tuning a pre-trained LLM on a small dataset until near-zero training loss, significantly improving greedy decoding generation quality despite worsening validation loss. This counter-intuitive process sharpens the model's prediction space, often favoring single tokens, and enhances long-sequence generation even with citation blocking, suggesting the improvement isn't simply memorization.",
+      tags: [],
+    },
+    {
       title: "rStar-Math",
       link: "https://ritvik19.medium.com/papers-explained-290-rstar-math-4b3317a2c2c6",
       date: "January 2025",
