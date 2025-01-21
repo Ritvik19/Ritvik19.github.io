@@ -2083,7 +2083,7 @@ const papers_data = [
     },
     {
       title: "Multiagent Finetuning",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-292-multiagent-finetuning-a199fc4d8446",
       date: "January 2025",
       description:
         "Improves large language models by training a 'society' of specialized models (generation and critic agents) on data generated through multiagent debate. Generation agents are fine-tuned on their own correct initial responses, while critic agents are fine-tuned on debate sequences showing both initial incorrect and final corrected answers, fostering diversity and enabling iterative self-improvement over multiple rounds.",
