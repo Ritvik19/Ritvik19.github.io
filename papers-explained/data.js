@@ -1962,6 +1962,14 @@ const papers_data = [
       tags: [],
     },
     {
+      title: "Reward rAnked FineTuning (RAFT)",
+      link: "",
+      date: "April 2023",
+      description:
+        "Generative foundation models are susceptible to implicit biases that can arise from extensive unsupervised training data. Such biases can produce suboptimal samples, skewed outcomes, and unfairness, with potentially serious consequences. Consequently, aligning these models with human ethics and preferences is an essential step toward ensuring their responsible and effective deployment in real-world applications. Prior research has primarily employed Reinforcement Learning from Human Feedback (RLHF) to address this problem, where generative models are fine-tuned with RL algorithms guided by a human-feedback-informed reward model. However, the inefficiencies and instabilities associated with RL algorithms frequently present substantial obstacles to the successful alignment, necessitating the development of a more robust and streamlined approach. To this end, we introduce a new framework, Reward rAnked FineTuning (RAFT), designed to align generative models effectively. Utilizing a reward model and a sufficient number of samples, our approach selects the high-quality samples, discarding those that exhibit undesired behavior, and subsequently enhancing the model by fine-tuning on these filtered samples. Our studies show that RAFT can effectively improve the model performance in both reward learning and other automated metrics in both large language models and diffusion models.",
+      tags: [],
+    },
+    {
       title: "ReST^EM",
       link: "",
       date: "December 2023",
@@ -2040,6 +2048,14 @@ const papers_data = [
       description:
         "Proposes learning through preference optimization to enhance the evaluation capabilities of LLM judges which are trained on three approaches: Chain-of-Thought Critique, Standard Judgement, and Response Deduction across various use cases, including single rating, pairwise comparison, and classification.",
       tags: ["LLM Evaluation"],
+    },
+    {
+      title: "Constrained Generative Policy Optimization (Mixture of Judges)",
+      link: "",
+      date: "September 2024",
+      description:
+        "An LLM post-training paradigm using a Mixture of Judges (MoJ) and cost-efficient constrained policy optimization with stratification to address reward hacking and multi-objective optimization challenges in RLHF. It achieves this by employing rule-based and LLM-based judges to identify and constrain undesirable generation patterns while maximizing calibrated rewards, using tailored optimization strategies for each task in a multi-task setting to avoid conflicting objectives and improve the Pareto frontier.",
+      tags: [],
     },
     {
       title: "LongCite",
@@ -3201,7 +3217,7 @@ const papers_data = [
     // Miscellaneous Studies
     {
       title: "TLDR",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-293-tldr-a31d787cd365",
       date: "April 2020",
       description:
         "Extreme summarization for scientific papers, creating concise, single-sentence summaries of key contributions.",
