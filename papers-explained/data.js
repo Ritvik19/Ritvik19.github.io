@@ -3254,7 +3254,7 @@ const papers_data = [
       date: "May 2023",
       description:
         "Involves multiple language model instances independently generating answers to a query, then iteratively critiquing and updating their responses based on others' answers over multiple rounds, ultimately converging on a single, refined answer. This process mimics multi-threaded reasoning and multi-source fact-checking, leveraging the collective intelligence of the models to improve factual accuracy and reasoning capabilities.",
-      tags: [],
+      tags: ["Agentic Systems"],
     },
     {
       title: "RAGAS",
@@ -3466,7 +3466,7 @@ const papers_data = [
     },
     {
       title: "Multi-LLM Text Summarization",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-294-multi-llm-text-summarization-6141d1276772",
       date: "December 2024",
       description:
         "Introduces a novel multi-LLM summarization framework with centralized and decentralized approaches. Multiple LLMs generate diverse summaries, and either a single LLM (centralized) or all LLMs (decentralized) evaluate them iteratively.",
