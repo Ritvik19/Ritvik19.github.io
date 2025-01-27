@@ -1546,7 +1546,7 @@ const papers_data = [
     },
     {
       title: "MAmmoTH-VL",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-296-mammoth-vl-6abec7a58831",
       date: "December 2024",
       description:
         "Curated a large-scale, multimodal instruction-tuning dataset with 12M instruction-response pairs using a cost-effective method involving open-source data collection and categorization, task-specific data augmentation and rewriting using open models (Llama-3-70B-Instruct for caption-based data and InternVL2-Llama3-76B for other data types), and self-filtering with InternVL2-Llama3-76B to remove hallucinations and ensure data quality.",
@@ -1559,6 +1559,14 @@ const papers_data = [
       description:
         "An open-source multilingual multimodal model designed to improve vision-language understanding in eight languages (English, Chinese, French, Spanish, Russian, Hindi, Japanese, and Arabic). It leverages a newly created, toxicity-filtered multilingual image-text dataset based on LLaVA, incorporating a SigLIP vision encoder and the Aya-23 8B language model, and is fine-tuned on the PALO 150K instruction-tuning dataset.",
       tags: ["Multimodal Models", "Multilingual Models"],
+    },
+    {
+      title: "Llava-Mini",
+      link: "",
+      date: "January 2025",
+      description:
+        "An efficient large multimodal model that minimizes vision tokens by pre-fusing visual information from a CLIP vision encoder into text tokens before feeding them, along with a small number of compressed vision tokens (achieved via query-based compression), to an LLM backbone, allowing for efficient processing of standard and high-resolution images, as well as videos, by significantly reducing the number of tokens the LLM needs to handle while preserving visual understanding.",
+      tags: ["Multimodal Models"],
     }
   ],
   [
