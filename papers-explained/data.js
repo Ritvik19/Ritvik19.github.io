@@ -1554,7 +1554,7 @@ const papers_data = [
     },
     {
       title: "Maya",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-297-maya-0a38799daa43",
       date: "December 2024",
       description:
         "An open-source multilingual multimodal model designed to improve vision-language understanding in eight languages (English, Chinese, French, Spanish, Russian, Hindi, Japanese, and Arabic). It leverages a newly created, toxicity-filtered multilingual image-text dataset based on LLaVA, incorporating a SigLIP vision encoder and the Aya-23 8B language model, and is fine-tuned on the PALO 150K instruction-tuning dataset.",
