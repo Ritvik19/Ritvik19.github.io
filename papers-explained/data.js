@@ -1562,7 +1562,7 @@ const papers_data = [
     },
     {
       title: "Llava-Mini",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-298-llava-mini-fe3a25b9e747",
       date: "January 2025",
       description:
         "An efficient large multimodal model that minimizes vision tokens by pre-fusing visual information from a CLIP vision encoder into text tokens before feeding them, along with a small number of compressed vision tokens (achieved via query-based compression), to an LLM backbone, allowing for efficient processing of standard and high-resolution images, as well as videos, by significantly reducing the number of tokens the LLM needs to handle while preserving visual understanding.",
@@ -1901,6 +1901,14 @@ const papers_data = [
       description:
         "Aligns a Vision Encoder with the existing text encoders without destroying the downstream performance of the text encoder, to attain a unified multimodal latent space.",
         tags: ["Representation Learning", "Multimodal Models"],
+    },
+    {
+      title: "Document Screenshot Embedding",
+      link: "",
+      date: "June 2024",
+      description:
+        "A novel retrieval method that uses large vision-language models (like the fine-tuned Phi-3-vision) to encode document screenshots directly into dense vectors, bypassing the need for content extraction and preserving all information (text, images, layout), allowing unified retrieval across diverse document formats and modalities.",
+      tags: ["Retrieval", "Multimodal Models"],
     },
     {
       title: "ColPali",
