@@ -1949,6 +1949,14 @@ const papers_data = [
       description: 
         "A text embedding model with 570 million parameters that supports long-context retrieval tasks up to 8192 tokens, includes LoRA adapters for various NLP tasks, and allows flexible output dimension reduction from 1024 down to 32 using Matryoshka Representation Learning.",
       tags: ["Representation Learning"],
+    },
+    {
+      title: "vdr embeddings",
+      link: "",
+      date: "January 2025",
+      description:
+        "Embedding models designed for visual document retrieval. Trained on a large synthetic dataset using a DSE approach, improving retrieval quality, in cross-lingual scenarios and for visual-heavy documents, and support Matryoshka Representation Learning for reduced vector size with minimal performance impact.",
+      tags: ["Retrieval", "Representation Learning", "Multimodal Models", "Multilingual Models"],
     }
   ],
   [
@@ -2998,7 +3006,7 @@ const papers_data = [
     },
     {
       title: "Red Pajama V1",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-299-red-pajama-4aced4a3ff72",
       date: "November 2024",
       description:
         "A reproduction of the LLaMA training dataset, built from seven sources (CommonCrawl, C4, GitHub, Wikipedia, Books, ArXiv, and Stack Exchange) totaling 1.2 trillion tokens. The reproduction process involved addressing gaps and ambiguities in the original LLaMA documentation, with some differences in data processing choices.",
@@ -3006,7 +3014,7 @@ const papers_data = [
     },
     {
       title: "Red Pajama V2",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-299-red-pajama-4aced4a3ff72#9376",
       date: "November 2024",
       description:
         "A massive, unfiltered web-based dataset derived from CommonCrawl, comprising over 100 trillion tokens in multiple languages. It includes various quality signals (natural language metrics, repetitiveness, content flags, ML heuristics, and deduplication data) as metadata, enabling flexible filtering and dataset creation for diverse downstream tasks.",
