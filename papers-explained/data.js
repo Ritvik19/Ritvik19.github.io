@@ -1198,6 +1198,14 @@ const papers_data = [
       description:
         "A 14B language model prioritizing data quality through a training process incorporating synthetic data for pretraining and midtraining, curated organic data seeds, and innovative post-training techniques like pivotal token search for DPO, resulting in strong performance on reasoning-focused benchmarks, especially in STEM, comparable to much larger models, while also addressing overfitting and data contamination concerns.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data", "Phi"],
+    },
+    {
+      title: "Mistral Small 3",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#9c9b",
+      date: "January 2025",
+      description:
+        "A latency-optimized, 24B parameter language model, designed for efficient handling of common generative AI tasks requiring strong language understanding and instruction following.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
     }
   ],
   [
@@ -3482,7 +3490,7 @@ const papers_data = [
     },
     {
       title: "Shiksha",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-300-shiksha-ad09f6db7f38",
       date: "December 2024",
       description:
         "Addresses the challenge of training machine translation models to effectively handle scientific and technical language, particularly for low-resource Indian languages, by creating a multilingual parallel corpus containing over 2.8 million translation pairs across eight Indian languages by mining human-translated transcriptions of NPTEL video lectures.",
