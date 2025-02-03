@@ -1987,7 +1987,7 @@ const papers_data = [
     },
     {
       title: "ReST",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-301-rest-6389371a68ac",
       date: "April 2023",
       description:
         "Iteratively improves a language model by generating a dataset of samples from the current policy (Grow step), filtering those samples based on a reward model derived from human preferences (Improve step), and then fine-tuning the model on the filtered data using an offline RL objective, repeating this process with increasing filtering thresholds to continually refine the model's output quality.",
@@ -2135,6 +2135,22 @@ const papers_data = [
       date: "January 2025",
       description:
         "Improves large language models by training a 'society' of specialized models (generation and critic agents) on data generated through multiagent debate. Generation agents are fine-tuned on their own correct initial responses, while critic agents are fine-tuned on debate sequences showing both initial incorrect and final corrected answers, fostering diversity and enabling iterative self-improvement over multiple rounds.",
+      tags: [],
+    },
+    {
+      title: "Critique Fine-Tuning",
+      link: "",
+      date: "January 2025",
+      description:
+        "Trains language models to critique noisy responses to questions, rather than simply imitating correct answers, leading to deeper understanding and improved reasoning.",
+      tags: [],
+    },
+    {
+      title: "Diverse Preference Optimization",
+      link: "",
+      date: "January 2025",
+      description:
+        "Enhances response diversity in language models by selecting preference pairs based on both reward and a diversity criterion. Instead of contrasting the highest and lowest rewarded responses, DivPO contrasts the most diverse response above a reward threshold with the least diverse response below the threshold, promoting a wider range of high-quality outputs.",
       tags: [],
     }
   ],
