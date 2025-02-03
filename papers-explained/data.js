@@ -915,6 +915,14 @@ const papers_data = [
       date: "January 2025",
       description: "A family of open-source language models featuring improved architecture, training recipes, and pre-training data mixtures. It incorporates a new specialized data mix (Dolmino Mix 1124) introduced via late-stage curriculum training, and best practices from Tülu 3 are incorporated to develop OLMo 2-Instruct.",
       tags: ["Language Models", "Transformer Decoder"],
+    },
+    {
+      title: "o3-mini",
+      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e#9875",
+      date: "January 2025",
+      description:
+        "A cost-efficient reasoning model, excelling in STEM fields, while maintaining low latency. It supports features like function calling, structured outputs, and developer messages, and offers adjustable reasoning effort levels (low, medium, high) for optimized performance.",
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
     }
   ],
   [
@@ -1986,7 +1994,7 @@ const papers_data = [
       tags: ["Synthetic Data"],
     },
     {
-      title: "ReST",
+      title: "Reinforced Self-Training (ReST)",
       link: "https://ritvik19.medium.com/papers-explained-301-rest-6389371a68ac",
       date: "April 2023",
       description:
