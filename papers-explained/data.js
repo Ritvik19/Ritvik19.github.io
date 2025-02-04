@@ -2011,7 +2011,7 @@ const papers_data = [
     },
     {
       title: "ReST^EM",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-302-rest-em-9abe7c76936e",
       date: "December 2023",
       description:
         "A self-training method based on expectation-maximization for reinforcement learning with language models. It iteratively generates samples from the model, filters them using binary feedback (E-step), and fine-tunes the base pretrained model on these filtered samples (M-step). Unlike the original ReST, ReST^EM doesn't augment with human data and fine-tunes the base model each iteration, improving transfer performance.",
