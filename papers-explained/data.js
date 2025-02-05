@@ -2003,7 +2003,7 @@ const papers_data = [
     },
     {
       title: "Reward rAnked FineTuning (RAFT)",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-303-reward-ranked-finetuning-raft-791154585908",
       date: "April 2023",
       description:
         "Generative foundation models are susceptible to implicit biases that can arise from extensive unsupervised training data. Such biases can produce suboptimal samples, skewed outcomes, and unfairness, with potentially serious consequences. Consequently, aligning these models with human ethics and preferences is an essential step toward ensuring their responsible and effective deployment in real-world applications. Prior research has primarily employed Reinforcement Learning from Human Feedback (RLHF) to address this problem, where generative models are fine-tuned with RL algorithms guided by a human-feedback-informed reward model. However, the inefficiencies and instabilities associated with RL algorithms frequently present substantial obstacles to the successful alignment, necessitating the development of a more robust and streamlined approach. To this end, we introduce a new framework, Reward rAnked FineTuning (RAFT), designed to align generative models effectively. Utilizing a reward model and a sufficient number of samples, our approach selects the high-quality samples, discarding those that exhibit undesired behavior, and subsequently enhancing the model by fine-tuning on these filtered samples. Our studies show that RAFT can effectively improve the model performance in both reward learning and other automated metrics in both large language models and diffusion models.",
@@ -2159,6 +2159,14 @@ const papers_data = [
       date: "January 2025",
       description:
         "Enhances response diversity in language models by selecting preference pairs based on both reward and a diversity criterion. Instead of contrasting the highest and lowest rewarded responses, DivPO contrasts the most diverse response above a reward threshold with the least diverse response below the threshold, promoting a wider range of high-quality outputs.",
+      tags: [],
+    }, 
+    {
+      title: "SFT Memorizes, RL Generalizes",
+      link: "",
+      date: "January 2025",
+      description:
+        "Investigates the comparative effects of SFT and RL on foundation model generalization and memorization in text and visual tasks (GeneralPoints and V-IRL), finding that RL significantly improves generalization in both rule-based and visual out-of-distribution scenarios while SFT primarily memorizes training data; SFT stabilizes output format for subsequent RL gains, and scaling inference-time compute (verification steps) further improves RL generalization.",
       tags: [],
     }
   ],
