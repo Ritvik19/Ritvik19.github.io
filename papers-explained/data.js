@@ -2034,7 +2034,7 @@ const papers_data = [
       tags: [],
     },
     {
-      title: "RAFT",
+      title: "Retrieval Augmented Fine Tuning (RAFT)",
       link: "https://ritvik19.medium.com/papers-explained-272-raft-5049520bcc26",
       date: "March 2024",
       description:
@@ -2091,7 +2091,7 @@ const papers_data = [
     },
     {
       title: "Constrained Generative Policy Optimization (Mixture of Judges)",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-304-constrained-generative-policy-optimization-mixture-of-judges-71ae4b508b74",
       date: "September 2024",
       description:
         "An LLM post-training paradigm using a Mixture of Judges (MoJ) and cost-efficient constrained policy optimization with stratification to address reward hacking and multi-objective optimization challenges in RLHF. It achieves this by employing rule-based and LLM-based judges to identify and constrain undesirable generation patterns while maximizing calibrated rewards, using tailored optimization strategies for each task in a multi-task setting to avoid conflicting objectives and improve the Pareto frontier.",
@@ -2390,6 +2390,22 @@ const papers_data = [
       description:
         "A shape-optimized vision transformer that achieves competitive results with models twice its size, while being pre-trained with an equivalent amount of compute.",
       tags: ["Vision Transformers"],
+    },
+    {
+      title: "Autoregressive Image Models (AIM)",
+      link: "",
+      date: "January 2024",
+      description:
+        "8B Vision models pre-trained using an autoregressive objective, similar to Large Language Models, on 2B images, demonstrating scaling properties utilizing architectural modifications like prefix attention and a parameterized prediction head.",
+      tags: ["Vision Transformers", "Autoregressive Image Models"],
+    },
+    {
+      title: "Autoregressive Image Models V2",
+      link: "",
+      date: "November 2024",
+      description:
+        "A family of open vision encoders, ranging from 300M to 3B parameters, extending the AIM framework to images and text, pre-trained with a multimodal autoregressive approach, generating both image patches and text tokens using a causal decoder.",
+      tags: ["Vision Transformers", "Multimodal Models", "Autoregressive Image Models"],  
     }
   ],
   [
