@@ -2123,7 +2123,7 @@ const papers_data = [
     },
     {
       title: "Hyperfitting",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-305-hyperfitting-8d9ad63797cd",
       date: "December 2024",
       description:
         "Involves fine-tuning a pre-trained LLM on a small dataset until near-zero training loss, significantly improving greedy decoding generation quality despite worsening validation loss. This counter-intuitive process sharpens the model's prediction space, often favoring single tokens, and enhances long-sequence generation even with citation blocking, suggesting the improvement isn't simply memorization.",
@@ -2168,6 +2168,14 @@ const papers_data = [
       description:
         "Investigates the comparative effects of SFT and RL on foundation model generalization and memorization in text and visual tasks (GeneralPoints and V-IRL), finding that RL significantly improves generalization in both rule-based and visual out-of-distribution scenarios while SFT primarily memorizes training data; SFT stabilizes output format for subsequent RL gains, and scaling inference-time compute (verification steps) further improves RL generalization.",
       tags: [],
+    },
+    {
+      title: "AceCoder",
+      link: "",
+      date: "February 2025",
+      description:
+        "Leverages automated large-scale test-case synthesis to enhance code model training via reinforcement learning. It creates a dataset (AceCode-89K) of questions and test cases, trains reward models (AceCode-RM) using pass rates, and then uses these reward models and test-case pass rewards for reinforcement learning, significantly improving code generation performance across various benchmarks.",
+      tags: ["Code Generation"],
     }
   ],
   [
