@@ -2147,7 +2147,7 @@ const papers_data = [
     },
     {
       title: "Critique Fine-Tuning",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-306-critique-fine-tuning-738b25d1b51c",
       date: "January 2025",
       description:
         "Trains language models to critique noisy responses to questions, rather than simply imitating correct answers, leading to deeper understanding and improved reasoning.",
@@ -2155,7 +2155,7 @@ const papers_data = [
     },
     {
       title: "Diverse Preference Optimization",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-307-diverse-preference-optimization-7f99326e264c",
       date: "January 2025",
       description:
         "Enhances response diversity in language models by selecting preference pairs based on both reward and a diversity criterion. Instead of contrasting the highest and lowest rewarded responses, DivPO contrasts the most diverse response above a reward threshold with the least diverse response below the threshold, promoting a wider range of high-quality outputs.",
