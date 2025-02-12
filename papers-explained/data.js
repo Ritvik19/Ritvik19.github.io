@@ -363,6 +363,14 @@ const papers_data = [
       description:
         "Modernized encoder-only transformer model trained on 2 trillion tokens with a native 8192 sequence length, incorporating architectural improvements like GeGLU activations, RoPE embeddings, alternating attention, and unpadding, resulting in state-of-the-art performance across diverse classification and retrieval tasks (including code) and superior inference speed and memory efficiency compared to existing encoder models.",
       tags: ["Language Models", "Transformer Encoder", "HuggingFace", "Nvidia"],
+    },
+    {
+      title: "It’s All in The [MASK]",
+      link: "",
+      date: "February 2025",
+      description:
+        "Introduces ModernBERT-Large-Instruct, a 0.4B parameter encoder-only model using its masked language modeling (MLM) head for generative classification, achieving strong zero-shot performance on classification and knowledge tasks, rivaling larger LLMs.",
+      tags: ["Language Models", "Transformer Encoder"],
     }
   ],
   [
@@ -2163,7 +2171,7 @@ const papers_data = [
     }, 
     {
       title: "SFT Memorizes, RL Generalizes",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-308-sft-memorizes-rl-generalizes-f51c5c66ea05",
       date: "January 2025",
       description:
         "Investigates the comparative effects of SFT and RL on foundation model generalization and memorization in text and visual tasks (GeneralPoints and V-IRL), finding that RL significantly improves generalization in both rule-based and visual out-of-distribution scenarios while SFT primarily memorizes training data; SFT stabilizes output format for subsequent RL gains, and scaling inference-time compute (verification steps) further improves RL generalization.",
