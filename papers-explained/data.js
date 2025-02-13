@@ -931,6 +931,14 @@ const papers_data = [
       description:
         "A cost-efficient reasoning model, excelling in STEM fields, while maintaining low latency. It supports features like function calling, structured outputs, and developer messages, and offers adjustable reasoning effort levels (low, medium, high) for optimized performance.",
       tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    },
+    {
+      title: "AceCoder",
+      link: "https://ritvik19.medium.com/papers-explained-acecoder-2611b3feef6c",
+      date: "February 2025",
+      description:
+        "Leverages automated large-scale test-case synthesis to enhance code model training via reinforcement learning. It creates a dataset (AceCode-89K) of questions and test cases, trains reward models (AceCode-RM) using pass rates, and then uses these reward models and test-case pass rewards for reinforcement learning, significantly improving code generation performance across various benchmarks.",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
     }
   ],
   [
@@ -2176,14 +2184,6 @@ const papers_data = [
       description:
         "Investigates the comparative effects of SFT and RL on foundation model generalization and memorization in text and visual tasks (GeneralPoints and V-IRL), finding that RL significantly improves generalization in both rule-based and visual out-of-distribution scenarios while SFT primarily memorizes training data; SFT stabilizes output format for subsequent RL gains, and scaling inference-time compute (verification steps) further improves RL generalization.",
       tags: [],
-    },
-    {
-      title: "AceCoder",
-      link: "",
-      date: "February 2025",
-      description:
-        "Leverages automated large-scale test-case synthesis to enhance code model training via reinforcement learning. It creates a dataset (AceCode-89K) of questions and test cases, trains reward models (AceCode-RM) using pass rates, and then uses these reward models and test-case pass rewards for reinforcement learning, significantly improving code generation performance across various benchmarks.",
-      tags: ["Code Generation"],
     }
   ],
   [
