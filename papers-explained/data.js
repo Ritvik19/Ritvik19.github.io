@@ -1201,7 +1201,7 @@ const papers_data = [
     },
     {
       title: "Smol LM v2",
-      link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#aa17",
+      link: "https://ritvik19.medium.com/papers-explained-310-smollm2-53991a485d7b",
       date: "November 2024",
       description:
         "A family of language models (135M, 360M, and 1.7B parameters), trained on 2T, 4T, and 11T tokens respectively from datasets including FineWeb-Edu, DCLM, The Stack, and curated math and coding datasets, with instruction-tuned versions created using Smol Talk dataset and DPO using UltraFeedback.",
