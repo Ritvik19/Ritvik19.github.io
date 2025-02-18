@@ -366,7 +366,7 @@ const papers_data = [
     },
     {
       title: "It’s All in The [MASK]",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-312-its-all-in-the-mask-8c010744924e",
       date: "February 2025",
       description:
         "Introduces ModernBERT-Large-Instruct, a 0.4B parameter encoder-only model using its masked language modeling (MLM) head for generative classification, achieving strong zero-shot performance on classification and knowledge tasks, rivaling larger LLMs.",
@@ -1230,6 +1230,14 @@ const papers_data = [
       description:
         "A latency-optimized, 24B parameter language model, designed for efficient handling of common generative AI tasks requiring strong language understanding and instruction following.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
+    },
+    {
+      title: "Mistral Saba",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#9420",
+      date: "February 2025",
+      description:
+        "A 24B parameter regional language model specializing in Middle Eastern and South Asian languages, particularly Arabic and South Indian languages like Tamil. It outperforms much larger models in regional accuracy and relevance while offering lower latency.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models" ,"Mistral"],
     }
   ],
   [
