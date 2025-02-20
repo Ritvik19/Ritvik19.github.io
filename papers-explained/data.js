@@ -1992,7 +1992,7 @@ const papers_data = [
     },
     {
       title: "vdr embeddings",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-314-vdr-embeddings-1482b79e12a4",
       date: "January 2025",
       description:
         "Embedding models designed for visual document retrieval. Trained on a large synthetic dataset using a DSE approach, improving retrieval quality, in cross-lingual scenarios and for visual-heavy documents, and support Matryoshka Representation Learning for reduced vector size with minimal performance impact.",
@@ -2103,6 +2103,14 @@ const papers_data = [
       date: "June 2024",
       description:
         "A framework to augment massive raw corpora with instruction-response pairs enabling supervised multitask pretraining of LMs.",
+      tags: ["Synthetic Data"],
+    },
+    {
+      title: "Persona Hub",
+      link: "",
+      date: "June 2024",
+      description:
+        "A persona-driven method for creating diverse synthetic data using LLMs, introducing Persona Hub, a collection of 1 billion automatically curated personas from web data. These personas act as diverse knowledge carriers, enabling the LLM to generate varied synthetic data (e.g., math problems, text, game NPCs) at scale.",
       tags: ["Synthetic Data"],
     },
     {
