@@ -939,6 +939,14 @@ const papers_data = [
       description:
         "Leverages automated large-scale test-case synthesis to enhance code model training via reinforcement learning. It creates a dataset (AceCode-89K) of questions and test cases, trains reward models (AceCode-RM) using pass rates, and then uses these reward models and test-case pass rewards for reinforcement learning, significantly improving code generation performance across various benchmarks.",
       tags: ["Language Models", "Transformer Decoder", "Code Generation"],
+    },
+    {
+      title: "Grok 3 Beta",
+      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be#2fe9",
+      date: "February 2025",
+      description:
+        "Trained on a massive scale with 10x the compute of previous models, exhibiting advanced reasoning, and a 1 million token context window, with a Think mode and is available in a cost-efficient mini version for STEM tasks. Grok agents like DeepSearch further enhance its capabilities by combining reasoning with tool use like internet access and code interpreters.",
+      tags: ["Language Models", "Transformer Decoder", "Grok"],
     }
   ],
   [
@@ -2223,6 +2231,22 @@ const papers_data = [
       date: "February 2025",
       description:
         "Improves upon standard SFT by leveraging the existence of multiple valid responses to a given input. It selectively fine-tunes an LLM on its own correct predictions when they align with the gold response, and on gold responses (or paraphrased versions) otherwise, mitigating overfitting and improving generalization performance.",
+      tags: [],
+    },
+    {
+      title: "SysGen",
+      link: "",
+      date: "February 2025",
+      description:
+        "A pipeline for generating system messages and corresponding aligned assistant responses for existing SFT datasets that lack system messages. It annotates phrases within system messages with eight key functionalities, filters erroneous tags, verifies functionality appropriateness using an LLM-as-a-judge approach, and then generates new, better-aligned assistant responses based on the refined system messages and original user instructions.",
+      tags: [],
+    },
+    {
+      title: "Thinking Preference Optimization (ThinkPO)",
+      link: "",
+      date: "February 2025",
+      description:
+        "A post SFT method that improves long CoT reasoning in LLMs by leveraging existing SFT data and readily available short chain-of-thought responses using DPO, treating long reasoning responses as preferred, encouraging the model to generate longer, more reasoned outputs without needing new, costly long CoT data.",
       tags: [],
     }
   ],
