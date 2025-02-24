@@ -3109,6 +3109,14 @@ const papers_data = [
       tags: ["Datasets", "Language Model Datasets", "HuggingFace"],
     },
     {
+      title: "Numina Math",
+      link: "https://ritvik19.medium.com/paper-explained-316-numinamath-40501ae9baac",
+      date: "July 2024",
+      description:
+        "A public AI4Maths dataset, comprising 860,000 competition math problems and solutions, ranging from high-school to advanced competition levels, annotated with chain-of-thought traces. It aims to improve mathematical reasoning in LLMs and is instrumental in developing a model that won the 1st AIMO Progress Prize, demonstrating its effectiveness in advancing state-of-the-art mathematical reasoning models.",
+      tags: ["Datasets", "Scientific Data"],
+    },
+    {
       title: "Cosmopedia v2",
       link: "https://ritvik19.medium.com/papers-explained-175-cosmopedia-5f7e81c76d14#5bab",
       date: "July 2024",
@@ -3155,7 +3163,15 @@ const papers_data = [
       description:
         "A massive, unfiltered web-based dataset derived from CommonCrawl, comprising over 100 trillion tokens in multiple languages. It includes various quality signals (natural language metrics, repetitiveness, content flags, ML heuristics, and deduplication data) as metadata, enabling flexible filtering and dataset creation for diverse downstream tasks.",
       tags: ["Datasets"],
-    }
+    },
+    {
+      title: "Numina Math 1.5",
+      link: "https://ritvik19.medium.com/paper-explained-316-numinamath-40501ae9baac#e825",
+      date: "July 2024",
+      description:
+        "An update over NuminaMath dataset containing approximately 900k competition-level math problems with Chain of Thought (CoT) solutions, sourced from Chinese high school exercises to international mathematics olympiads. It includes metadata like answer, problem_type, and question_type for each problem, and features manually curated data from olympiads, contests, and specific mathematical domains, while removing the synthetic dataset synthetic_amc.",
+      tags: ["Datasets", "Scientific Data"],
+    },
   ],
   [
     // Neural Network Layers
