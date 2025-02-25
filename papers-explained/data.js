@@ -1047,7 +1047,7 @@ const papers_data = [
         "A hybrid reasoning model offering both fast responses and detailed, user-visible step-by-step thinking controllable by a token budget, featuring integration with GitHub and a new coding tool (Claude Code).",
       tags: ["Multimodal Models", "Anthropic", "Claude"],
     }
-  ]
+  ],
   [
     // Small LLMs
     {
