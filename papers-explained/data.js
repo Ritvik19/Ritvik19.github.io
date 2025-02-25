@@ -3664,6 +3664,14 @@ const papers_data = [
         "Improves upon OmniParser with higher accuracy on smaller elements, faster inference, achieved through training with larger datasets and a smaller icon caption model.",
       tags: ["Language Models", "Multimodal Models", "BLIP"],
     },
+    {
+      title: "Competitive Programming with Large Reasoning Models",
+      link: "https://ritvik19.medium.com/papers-explained-317-competitive-programming-with-large-reasoning-models-51836dbf584e",
+      date: "February 2025",
+      description:
+        "Explores how reinforcement learning significantly improves large language model performance on competitive programming and software engineering tasks, comparing OpenAI models o1, o1-ioi, and o3.",
+      tags: ["Language Models", "OpenAI", "GPT"],
+    }
   ],
 ];
 
