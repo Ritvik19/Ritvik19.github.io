@@ -2,6 +2,7 @@ const nav_data = [
   "Language Models",
   "Encoder Only Transformers",
   "Decoder Only Transformers",
+  "Frontier Models",
   "Small LLMs",
   "Multi Modal LMs",
   "LLM for Math",
@@ -496,14 +497,6 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Scientific Data"],
     },
     {
-      title: "ChatGPT",
-      link: "https://ritvik19.medium.com/papers-explained-54-chatgpt-78387333268f",
-      date: "November 2022",
-      description:
-        "An interactive model designed to engage in conversations, built on top of GPT 3.5.",
-      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
-    },
-    {
       title: "LLaMA",
       link: "https://ritvik19.medium.com/papers-explained-55-llama-c4f302809d6b",
       date: "February 2023",
@@ -526,14 +519,6 @@ const papers_data = [
       description:
         "A fine-tuned LLaMA 7B model, trained on instruction-following demonstrations generated in the style of self-instruct using text-davinci-003.",
       tags: ["Language Models", "Transformer Decoder"],
-    },
-    {
-      title: "GPT 4",
-      link: "https://ritvik19.medium.com/papers-explained-67-gpt-4-fc77069b613e",
-      date: "March 2023",
-      description:
-        "A multimodal transformer model pre-trained to predict the next token in a document, which can accept image and text inputs and produce text outputs.",
-      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
     },
     {
       title: "Vicuna",
@@ -686,14 +671,6 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Scientific Data"],
     },
     {
-      title: "Grok 1",
-      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
-      date: "November 2023",
-      description:
-        "A 314B Mixture-of-Experts model, modeled after the Hitchhiker's Guide to the Galaxy, designed to be witty.",
-      tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Grok"],
-    },
-    {
       title: "Tulu v2",
       link: "https://ritvik19.medium.com/papers-explained-182-tulu-v2-ff38ab1f37f2",
       date: "November 2023",
@@ -732,14 +709,6 @@ const papers_data = [
       description:
         "An LLM optimized for retrieval-augmented generation and tool use, across multiple languages.",
       tags: ["Language Models", "Transformer Decoder", "Cohere"],
-    },
-    {
-      title: "Grok 1.5",
-      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
-      date: "March 2024",
-      description:
-        "An advancement over grok, capable of long context understanding up to 128k tokens and advanced reasoning.",
-      tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Grok"],
     },
     {
       title: "Mixtral 8x22B",
@@ -862,22 +831,6 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
     },
     {
-      title: "o1",
-      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e",
-      date: "September 2024",
-      description:
-        "A large language model trained with reinforcement learning to think before answering, producing a long internal chain of thought before responding.",
-      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
-    },
-    {
-      title: "o1-mini",
-      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e#f16a",
-      date: "September 2024",
-      description:
-        "A cost-efficient reasoning model, excelling at STEM, especially math and coding, nearly matching the performance of OpenAI o1 on evaluation benchmarks.",
-      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
-    },
-    {
       title: "Llama 3.1-Nemotron-51B",
       link: "https://ritvik19.medium.com/papers-explained-209-minitron-approach-in-practice-6b473f67328d#5df9",
       date: "September 2024",
@@ -925,6 +878,152 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder"],
     },
     {
+      title: "AceCoder",
+      link: "https://ritvik19.medium.com/papers-explained-acecoder-2611b3feef6c",
+      date: "February 2025",
+      description:
+        "Leverages automated large-scale test-case synthesis to enhance code model training via reinforcement learning. It creates a dataset (AceCode-89K) of questions and test cases, trains reward models (AceCode-RM) using pass rates, and then uses these reward models and test-case pass rewards for reinforcement learning, significantly improving code generation performance across various benchmarks.",
+      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
+    },
+  ],
+  [
+    // Frontier Models
+    {
+      title: "ChatGPT",
+      link: "https://ritvik19.medium.com/papers-explained-54-chatgpt-78387333268f",
+      date: "November 2022",
+      description:
+        "An interactive model designed to engage in conversations, built on top of GPT 3.5.",
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    },
+    {
+      title: "GPT 4",
+      link: "https://ritvik19.medium.com/papers-explained-67-gpt-4-fc77069b613e",
+      date: "March 2023",
+      description:
+        "A multimodal transformer model pre-trained to predict the next token in a document, which can accept image and text inputs and produce text outputs.",
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    },
+    {
+      title: "GPT-4V",
+      link: "https://ritvik19.medium.com/papers-explained-68-gpt-4v-6e27c8a1d6ea",
+      date: "September 2023",
+      description:
+        "A multimodal model that combines text and vision capabilities, allowing users to instruct it to analyze image inputs.",
+      tags: ["Multimodal Models", "OpenAI", "GPT"],
+    },
+    {
+      title: "Grok 1",
+      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
+      date: "November 2023",
+      description:
+        "A 314B Mixture-of-Experts model, modeled after the Hitchhiker's Guide to the Galaxy, designed to be witty.",
+      tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Grok"],
+    },
+    {
+      title: "Gemini 1.0",
+      link: "https://ritvik19.medium.com/papers-explained-80-gemini-1-0-97308ef96fcd",
+      date: "December 2023",
+      description:
+        "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
+      tags: ["Multimodal Models", "Gemini"],
+    },
+    {
+      title: "Gemini 1.5 Pro",
+      link: "https://ritvik19.medium.com/papers-explained-105-gemini-1-5-pro-029bbce3b067",
+      date: "February 2024",
+      description:
+        "A highly compute-efficient multimodal mixture-of-experts model that excels in long-context retrieval tasks and understanding across text, video, and audio modalities.",
+      tags: ["Multimodal Models", "Mixtures of Experts", "Gemini"],
+    },
+    {
+      title: "Claude 3",
+      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92",
+      date: "March 2024",
+      description:
+        "A family of VLMs consisting of Haiku, Sonnet, and Opus models, sets new industry standards for cognitive tasks, offering varying levels of intelligence, speed, and cost-efficiency.",
+      tags: ["Multimodal Models", "Anthropic", "Claude"],
+    },
+    {
+      title: "Grok 1.5",
+      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
+      date: "March 2024",
+      description:
+        "An advancement over grok, capable of long context understanding up to 128k tokens and advanced reasoning.",
+      tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Grok"],
+    },
+    {
+      title: "Grok 1.5 V",
+      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
+      date: "April 2024",
+      description: "The first multimodal model in the grok series.",
+      tags: ["Multimodal Models", "Grok"],
+    },
+    {
+      title: "GPT-4o",
+      link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662",
+      date: "May 2024",
+      description:
+        "An omni model accepting and generating various types of inputs and outputs, including text, audio, images, and video.",
+      tags: ["Multimodal Models", "OpenAI", "GPT"],
+    },
+    {
+      title: "Gemini 1.5 Flash",
+      link: "https://ritvik19.medium.com/papers-explained-142-gemini-1-5-flash-415e2dc6a989",
+      date: "May 2024",
+      description:
+        "A more lightweight variant of the Gemini 1.5 pro, designed for efficiency with minimal regression in quality, making it suitable for applications where compute resources are limited.",
+      tags: ["Multimodal Models", "Gemini"],
+    },
+    {
+      title: "Claude 3.5 Sonnet",
+      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#2a14",
+      date: "June 2024",
+      description:
+        "Surpasses previous versions and competitors in intelligence, speed, and cost-efficiency, excelling in graduate-level reasoning, undergraduate-level knowledge, coding proficiency, and visual reasoning.",
+      tags: ["Multimodal Models", "Anthropic", "Claude"],
+    },
+    {
+      title: "GPT-4o mini",
+      link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662#08b9",
+      date: "July 2024",
+      description:
+        "A cost-efficient small model that outperforms GPT-4 on chat preferences, enabling a broad range of tasks with low latency and supporting text, vision, and multimodal inputs and outputs.",
+      tags: ["Multimodal Models", "OpenAI", "GPT"],
+    },
+    {
+      title: "Grok 2",
+      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
+      date: "August 2024",
+      description:
+        "A frontier language model with state-of-the-art capabilities in chat, coding, and reasoning on par with Claude 3.5 Sonnet and GPT-4-Turbo.",
+      tags: ["Multimodal Models", "Grok"],
+    },
+    {
+      title: "o1",
+      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e",
+      date: "September 2024",
+      description:
+        "A large language model trained with reinforcement learning to think before answering, producing a long internal chain of thought before responding.",
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    },
+    {
+      title: "o1-mini",
+      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e#f16a",
+      date: "September 2024",
+      description:
+        "A cost-efficient reasoning model, excelling at STEM, especially math and coding, nearly matching the performance of OpenAI o1 on evaluation benchmarks.",
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    },
+    {
+      title: "Claude 3.5 Haiku",
+      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#9637",
+      date: "October 2024",
+      description:
+        "A fast and affordable language model that excels in tasks such as coding, reasoning, and content creation.",
+      tags: ["Multimodal Models", "Anthropic", "Claude"],
+    },
+    {
       title: "o3-mini",
       link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e#9875",
       date: "January 2025",
@@ -933,22 +1032,22 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
     },
     {
-      title: "AceCoder",
-      link: "https://ritvik19.medium.com/papers-explained-acecoder-2611b3feef6c",
-      date: "February 2025",
-      description:
-        "Leverages automated large-scale test-case synthesis to enhance code model training via reinforcement learning. It creates a dataset (AceCode-89K) of questions and test cases, trains reward models (AceCode-RM) using pass rates, and then uses these reward models and test-case pass rewards for reinforcement learning, significantly improving code generation performance across various benchmarks.",
-      tags: ["Language Models", "Transformer Decoder", "Code Generation"],
-    },
-    {
       title: "Grok 3 Beta",
       link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be#2fe9",
       date: "February 2025",
       description:
         "Trained on a massive scale with 10x the compute of previous models, exhibiting advanced reasoning, and a 1 million token context window, with a Think mode and is available in a cost-efficient mini version for STEM tasks. Grok agents like DeepSearch further enhance its capabilities by combining reasoning with tool use like internet access and code interpreters.",
       tags: ["Language Models", "Transformer Decoder", "Grok"],
+    },
+    {
+      title: "Claude 3.7 Sonnet",
+      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#a30f",
+      date: "February 2025",
+      description:
+        "A hybrid reasoning model offering both fast responses and detailed, user-visible step-by-step thinking controllable by a token budget, featuring integration with GitHub and a new coding tool (Claude Code).",
+      tags: ["Multimodal Models", "Anthropic", "Claude"],
     }
-  ],
+  ]
   [
     // Small LLMs
     {
@@ -1322,14 +1421,6 @@ const papers_data = [
       tags: ["Multimodal Models", "HuggingFace"],
     },
     {
-      title: "GPT-4V",
-      link: "https://ritvik19.medium.com/papers-explained-68-gpt-4v-6e27c8a1d6ea",
-      date: "September 2023",
-      description:
-        "A multimodal model that combines text and vision capabilities, allowing users to instruct it to analyze image inputs.",
-      tags: ["Multimodal Models", "OpenAI", "GPT"],
-    },
-    {
       title: "PaLI-3",
       link: "https://ritvik19.medium.com/papers-explained-196-pali-3-2f5cf92f60a8",
       date: "October 2023",
@@ -1362,14 +1453,6 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
-      title: "Gemini 1.0",
-      link: "https://ritvik19.medium.com/papers-explained-80-gemini-1-0-97308ef96fcd",
-      date: "December 2023",
-      description:
-        "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
-      tags: ["Multimodal Models", "Gemini"],
-    },
-    {
       title: "MoE-LLaVA",
       link: "https://ritvik19.medium.com/papers-explained-104-moe-llava-cf14fda01e6f",
       date: "January 2024",
@@ -1386,35 +1469,12 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
-      title: "Gemini 1.5 Pro",
-      link: "https://ritvik19.medium.com/papers-explained-105-gemini-1-5-pro-029bbce3b067",
-      date: "February 2024",
-      description:
-        "A highly compute-efficient multimodal mixture-of-experts model that excels in long-context retrieval tasks and understanding across text, video, and audio modalities.",
-      tags: ["Multimodal Models", "Mixtures of Experts", "Gemini"],
-    },
-    {
-      title: "Claude 3",
-      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92",
-      date: "March 2024",
-      description:
-        "A family of VLMs consisting of Haiku, Sonnet, and Opus models, sets new industry standards for cognitive tasks, offering varying levels of intelligence, speed, and cost-efficiency.",
-      tags: ["Multimodal Models", "Anthropic", "Claude"],
-    },
-    {
       title: "MM-1",
       link: "https://ritvik19.medium.com/papers-explained-117-mm1-c579142bcdc0",
       date: "March 2024",
       description:
         "Studies the importance of various architecture components and data choices. Through comprehensive ablations of the image encoder, the vision language connector, and various pre-training data choices, and identifies several crucial design lessons.",
       tags: ["Multimodal Models"],
-    },
-    {
-      title: "Grok 1.5 V",
-      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
-      date: "April 2024",
-      description: "The first multimodal model in the grok series.",
-      tags: ["Multimodal Models", "Grok"],
     },
     {
       title: "Idefics2",
@@ -1441,22 +1501,6 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
-      title: "GPT-4o",
-      link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662",
-      date: "May 2024",
-      description:
-        "An omni model accepting and generating various types of inputs and outputs, including text, audio, images, and video.",
-      tags: ["Multimodal Models", "OpenAI", "GPT"],
-    },
-    {
-      title: "Gemini 1.5 Flash",
-      link: "https://ritvik19.medium.com/papers-explained-142-gemini-1-5-flash-415e2dc6a989",
-      date: "May 2024",
-      description:
-        "A more lightweight variant of the Gemini 1.5 pro, designed for efficiency with minimal regression in quality, making it suitable for applications where compute resources are limited.",
-      tags: ["Multimodal Models", "Gemini"],
-    },
-    {
       title: "Chameleon",
       link: "https://ritvik19.medium.com/papers-explained-143-chameleon-6cddfdbceaa8",
       date: "May 2024",
@@ -1465,36 +1509,12 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
-      title: "Claude 3.5 Sonnet",
-      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#2a14",
-      date: "June 2024",
-      description:
-        "Surpasses previous versions and competitors in intelligence, speed, and cost-efficiency, excelling in graduate-level reasoning, undergraduate-level knowledge, coding proficiency, and visual reasoning.",
-      tags: ["Multimodal Models", "Anthropic", "Claude"],
-    },
-    {
       title: "Pali Gemma",
       link: "https://ritvik19.medium.com/papers-explained-197-pali-gemma-6899e871998e",
       date: "July 2024",
       description:
         "Combines SigLIP vision model and the Gemma language model and follows the PaLI-3 training recipe to achieve strong performance on various vision-language tasks.",
         tags: ["Multimodal Models", "Gemma"],
-    },
-    {
-      title: "GPT-4o mini",
-      link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662#08b9",
-      date: "July 2024",
-      description:
-        "A cost-efficient small model that outperforms GPT-4 on chat preferences, enabling a broad range of tasks with low latency and supporting text, vision, and multimodal inputs and outputs.",
-      tags: ["Multimodal Models", "OpenAI", "GPT"],
-    },
-    {
-      title: "Grok 2",
-      link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
-      date: "August 2024",
-      description:
-        "A frontier language model with state-of-the-art capabilities in chat, coding, and reasoning on par with Claude 3.5 Sonnet and GPT-4-Turbo.",
-      tags: ["Multimodal Models", "Grok"],
     },
     {
       title: "BLIP-3 (xGen-MM)",
@@ -1567,14 +1587,6 @@ const papers_data = [
       description:
         "A collection of small, efficient, open-source vision-language models built on top of Danube, trained on 37 million image-text pairs, specifically designed to perform well on document analysis and OCR tasks while maintaining strong performance on general vision-language benchmarks.",
       tags: ["Multimodal Models", "Danube", "H2O"],
-    },
-    {
-      title: "Claude 3.5 Haiku",
-      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#9637",
-      date: "October 2024",
-      description:
-        "A fast and affordable language model that excels in tasks such as coding, reasoning, and content creation.",
-      tags: ["Multimodal Models", "Anthropic", "Claude"],
     },
     {
       title: "Pixtral Large",
