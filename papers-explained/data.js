@@ -2485,7 +2485,7 @@ const papers_data = [
     },
     {
       title: "Autoregressive Image Models (AIM)",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-318-autoregressive-image-models-aim-d6a90f93876f",
       date: "January 2024",
       description:
         "8B Vision models pre-trained using an autoregressive objective, similar to Large Language Models, on 2B images, demonstrating scaling properties utilizing architectural modifications like prefix attention and a parameterized prediction head.",
