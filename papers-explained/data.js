@@ -2028,7 +2028,7 @@ const papers_data = [
     },
     {
       title: "SigLIP 2",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-320-siglip-2-dba08ff09559",
       date: "February 2025",
       description:
         "A family of multilingual vision-language encoders improving upon the original SigLIP by incorporating captioning-based pretraining, self-supervised losses (self-distillation, masked prediction), and online data curation, offering various sizes (ViT-B/32, B/16, L, So400m, g), native aspect ratio preservation (NaFlex variant).",
