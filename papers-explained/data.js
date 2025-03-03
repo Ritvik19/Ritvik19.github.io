@@ -2135,7 +2135,7 @@ const papers_data = [
     },
     {
       title: "Persona Hub",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-321-persona-hub-a1b496192a4c",
       date: "June 2024",
       description:
         "A persona-driven method for creating diverse synthetic data using LLMs, introducing Persona Hub, a collection of 1 billion automatically curated personas from web data. These personas act as diverse knowledge carriers, enabling the LLM to generate varied synthetic data (e.g., math problems, text, game NPCs) at scale.",
