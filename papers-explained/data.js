@@ -372,6 +372,14 @@ const papers_data = [
       description:
         "Introduces ModernBERT-Large-Instruct, a 0.4B parameter encoder-only model using its masked language modeling (MLM) head for generative classification, achieving strong zero-shot performance on classification and knowledge tasks, rivaling larger LLMs.",
       tags: ["Language Models", "Transformer Encoder"],
+    },
+    {
+      title: "NeoBERT",
+      link: "",
+      date: "February 2025",
+      description:
+        "A next-generation encoder model incorporating advancements in architecture, data, and pre-training strategies. It features an optimal depth-to-width ratio, an extended context length of 4,096 tokens, and a compact 250M parameter footprint, while also being fully open-source with released code, data, training scripts, and model checkpoints.",
+      tags: ["Language Models", "Transformer Encoder"],
     }
   ],
   [
@@ -1345,6 +1353,14 @@ const papers_data = [
       description:
         "A 24B parameter regional language model specializing in Middle Eastern and South Asian languages, particularly Arabic and South Indian languages like Tamil. It outperforms much larger models in regional accuracy and relevance while offering lower latency.",
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models" ,"Mistral"],
+    },
+    {
+      title: "Phi 4 Mini",
+      link: "https://ritvik19.medium.com/papers-explained-322-phi-4-mini-phi-4-multimodal-2be1a69be78c",
+      date: "February 2025",
+      description:
+        "A 3.8B parameter language model excelling in math and coding, utilizing high-quality web and synthetic data, and featuring a 200K token vocabulary and group query attention.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Synthetic Data", "Phi"],
     }
   ],
   [
@@ -1627,6 +1643,14 @@ const papers_data = [
       description:
         "An efficient large multimodal model that minimizes vision tokens by pre-fusing visual information from a CLIP vision encoder into text tokens before feeding them, along with a small number of compressed vision tokens (achieved via query-based compression), to an LLM backbone, allowing for efficient processing of standard and high-resolution images, as well as videos, by significantly reducing the number of tokens the LLM needs to handle while preserving visual understanding.",
       tags: ["Multimodal Models"],
+    },
+    {
+      title: "Phi 4 Multimodal",
+      link: "https://ritvik19.medium.com/papers-explained-322-phi-4-mini-phi-4-multimodal-2be1a69be78c",
+      date: "February 2025",
+      description:
+        "Extends Phi-4-Mini with vision and speech/audio modalities via a novel mixture of LoRAs approach, enabling combined modality inference without interference and achieving state-of-the-art performance in various multimodal tasks while maintaining the base language model's capabilities.",
+      tags: ["Multimodal Models", "Synthetic Data", "Phi"],
     }
   ],
   [
@@ -2268,6 +2292,14 @@ const papers_data = [
       description:
         "A post SFT method that improves long CoT reasoning in LLMs by leveraging existing SFT data and readily available short chain-of-thought responses using DPO, treating long reasoning responses as preferred, encouraging the model to generate longer, more reasoned outputs without needing new, costly long CoT data.",
       tags: [],
+    },
+    {
+      title: "Code Guided Synthetic data generation system (CoSyn)",
+      link: "",
+      date: "February 2025",
+      description:
+        "A framework leveraging LLMs to generate synthetic text-rich multimodal data for training (VLMs. It uses LLMs to create code in various languages (Python, HTML, LaTeX, etc.) that renders synthetic images, and then uses the code as context to generate corresponding textual instructions, including questions, answers, and explanations, forming a comprehensive instruction-tuning dataset.",
+      tags: ["Synthetic Data"],
     }
   ],
   [
@@ -3691,6 +3723,14 @@ const papers_data = [
       description:
         "Explores how reinforcement learning significantly improves large language model performance on competitive programming and software engineering tasks, comparing OpenAI models o1, o1-ioi, and o3.",
       tags: ["Language Models", "OpenAI", "GPT"],
+    },
+    {
+      title: "olmOCR",
+      link: "",
+      date: "February 2025",
+      description:
+        "An open-source Python toolkit that converts PDFs into linearized plain text while preserving structured content (sections, tables, lists, equations, etc.). It uses a document-anchoring approach, leveraging a fine-tuned 7B VLM.",
+      tags: ["Language Models", "Multimodal Models"],
     }
   ],
 ];
