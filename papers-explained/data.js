@@ -1355,7 +1355,7 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models" ,"Mistral"],
     },
     {
-      title: "Phi 4 Mini",
+      title: "Phi-4 Mini",
       link: "https://ritvik19.medium.com/papers-explained-322-phi-4-mini-phi-4-multimodal-2be1a69be78c",
       date: "February 2025",
       description:
@@ -1645,12 +1645,20 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
-      title: "Phi 4 Multimodal",
+      title: "Phi-4 Multimodal",
       link: "https://ritvik19.medium.com/papers-explained-322-phi-4-mini-phi-4-multimodal-2be1a69be78c",
       date: "February 2025",
       description:
         "Extends Phi-4-Mini with vision and speech/audio modalities via a novel mixture of LoRAs approach, enabling combined modality inference without interference and achieving state-of-the-art performance in various multimodal tasks while maintaining the base language model's capabilities.",
       tags: ["Multimodal Models", "Synthetic Data", "Phi"],
+    },
+    {
+      title: "Aya Vision",
+      link: "",
+      date: "March 2025",
+      description:
+        "A family of open-weight 8B and 32B parameter multilingual vision-language models (VLMs) supporting 23 languages, built upon Aya Expanse and incorporating techniques like synthetic annotations, data translation/rephrasing, and multimodal model merging.",
+      tags: ["Multimodal Models", "Multilingual Models"],
     }
   ],
   [
@@ -2279,7 +2287,7 @@ const papers_data = [
     },
     {
       title: "SysGen",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-323-sysgen-e0826a205925",
       date: "February 2025",
       description:
         "A pipeline for generating system messages and corresponding aligned assistant responses for existing SFT datasets that lack system messages. It annotates phrases within system messages with eight key functionalities, filters erroneous tags, verifies functionality appropriateness using an LLM-as-a-judge approach, and then generates new, better-aligned assistant responses based on the refined system messages and original user instructions.",
@@ -3731,6 +3739,14 @@ const papers_data = [
       description:
         "An open-source Python toolkit that converts PDFs into linearized plain text while preserving structured content (sections, tables, lists, equations, etc.). It uses a document-anchoring approach, leveraging a fine-tuned 7B VLM.",
       tags: ["Language Models", "Multimodal Models"],
+    },
+    {
+      title: "Rethinking Compute-Optimal Test-Time Scaling",
+      link: "",
+      date: "February 2025",
+      description:
+        "Investigates compute-optimal Test-Time Scaling (TTS) for Large Language Models (LLMs), focusing on the influence of policy models, Process Reward Models (PRMs), and problem difficulty. Through experiments on MATH-500 and AIME24.",
+      tags: ["Language Models"], 
     }
   ],
 ];
