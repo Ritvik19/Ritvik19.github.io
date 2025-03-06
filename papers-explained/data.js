@@ -1830,6 +1830,14 @@ const papers_data = [
       description:
         "A suite of math instruction-following models, trained through a two-stage SFT process focusing on general and math-specific reasoning, utilizing high-quality synthetic data and a specialized reward model (AceMath-RM) trained with diverse responses.",
       tags: ["LLM for Math"],
+    },
+    {
+      title: "LIMO",
+      link: "",
+      date: "February 2025",
+      description:
+        "Challenges the notion that complex reasoning requires massive datasets by achieving state-of-the-art performance on mathematical reasoning benchmarks using only 817 curated training examples and emphasizing high-quality reasoning chains.",
+      tags: ["LLM for Math"],
     }
   ],
   [
@@ -2295,7 +2303,7 @@ const papers_data = [
     },
     {
       title: "Thinking Preference Optimization (ThinkPO)",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-324-thinking-preference-optimization-d3ab029c77b5",
       date: "February 2025",
       description:
         "A post SFT method that improves long CoT reasoning in LLMs by leveraging existing SFT data and readily available short chain-of-thought responses using DPO, treating long reasoning responses as preferred, encouraging the model to generate longer, more reasoned outputs without needing new, costly long CoT data.",
