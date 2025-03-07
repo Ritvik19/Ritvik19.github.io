@@ -2287,7 +2287,7 @@ const papers_data = [
     },
     {
       title: "Selective Self-to-Supervised Fine-Tuning (S3FT)",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-325-selective-self-to-supervised-fine-tuning-s3ft-b2602400d938",
       date: "February 2025",
       description:
         "Improves upon standard SFT by leveraging the existence of multiple valid responses to a given input. It selectively fine-tunes an LLM on its own correct predictions when they align with the gold response, and on gold responses (or paraphrased versions) otherwise, mitigating overfitting and improving generalization performance.",
@@ -2316,6 +2316,14 @@ const papers_data = [
       description:
         "A framework leveraging LLMs to generate synthetic text-rich multimodal data for training (VLMs. It uses LLMs to create code in various languages (Python, HTML, LaTeX, etc.) that renders synthetic images, and then uses the code as context to generate corresponding textual instructions, including questions, answers, and explanations, forming a comprehensive instruction-tuning dataset.",
       tags: ["Synthetic Data"],
+    },
+    {
+      title: "Logic-RL",
+      link: "",
+      date: "February 2025",
+      description:
+        "A rule-based reinforcement learning framework trained on procedurally generated Knights and Knaves logic puzzles to enhance reasoning skills in large language models. It utilizes a modified REINFORCE++ algorithm with a strict format and answer-based reward system, enabling the model to develop advanced reasoning capabilities like reflection and verification, and generalize to challenging math benchmarks like AIME and AMC after training on a small dataset.",
+      tags: [],
     }
   ],
   [
