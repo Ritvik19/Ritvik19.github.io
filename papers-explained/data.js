@@ -2324,6 +2324,14 @@ const papers_data = [
       description:
         "A rule-based reinforcement learning framework trained on procedurally generated Knights and Knaves logic puzzles to enhance reasoning skills in large language models. It utilizes a modified REINFORCE++ algorithm with a strict format and answer-based reward system, enabling the model to develop advanced reasoning capabilities like reflection and verification, and generalize to challenging math benchmarks like AIME and AMC after training on a small dataset.",
       tags: [],
+    },
+    {
+      title: "CHASE",
+      link: "",
+      date: "February 2025",
+      description:
+        "A framework for generating challenging LLM evaluation benchmarks synthetically, using a bottom-up approach, building complex problems from simpler components and hiding solution elements within the context, while decomposing the generation process into verifiable sub-tasks to ensure correctness.",
+      tags: ["Synthetic Data", "LLM Evaluation"],
     }
   ],
   [
@@ -3750,7 +3758,7 @@ const papers_data = [
     },
     {
       title: "olmOCR",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-326-olmocr-bc9158752901",
       date: "February 2025",
       description:
         "An open-source Python toolkit that converts PDFs into linearized plain text while preserving structured content (sections, tables, lists, equations, etc.). It uses a document-anchoring approach, leveraging a fine-tuned 7B VLM.",
