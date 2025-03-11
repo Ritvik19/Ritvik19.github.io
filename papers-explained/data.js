@@ -375,7 +375,7 @@ const papers_data = [
     },
     {
       title: "NeoBERT",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-327-neobert-b209f06dfc73",
       date: "February 2025",
       description:
         "A next-generation encoder model incorporating advancements in architecture, data, and pre-training strategies. It features an optimal depth-to-width ratio, an extended context length of 4,096 tokens, and a compact 250M parameter footprint, while also being fully open-source with released code, data, training scripts, and model checkpoints.",
