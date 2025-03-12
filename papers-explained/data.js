@@ -1833,7 +1833,7 @@ const papers_data = [
     },
     {
       title: "LIMO",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-328-limo-261765a5616c",
       date: "February 2025",
       description:
         "Challenges the notion that complex reasoning requires massive datasets by achieving state-of-the-art performance on mathematical reasoning benchmarks using only 817 curated training examples and emphasizing high-quality reasoning chains.",
