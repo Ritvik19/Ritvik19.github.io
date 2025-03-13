@@ -1659,6 +1659,14 @@ const papers_data = [
       description:
         "A family of open-weight 8B and 32B parameter multilingual vision-language models (VLMs) supporting 23 languages, built upon Aya Expanse and incorporating techniques like synthetic annotations, data translation/rephrasing, and multimodal model merging.",
       tags: ["Multimodal Models", "Multilingual Models"],
+    },
+    {
+      title: "Gemma 3",
+      link: "https://ritvik19.medium.com/papers-explained-329-gemma-3-153803a2c591",
+      date: "March 2025",
+      description:
+        "A multimodal language model with vision understanding, wider language coverage, and a longer context (128k tokens) than its predecessors. It utilizes a modified architecture with increased local attention to reduce KV-cache memory demands, is trained with distillation, and employs a novel post-training recipe improving performance in areas like math, chat, and multilingual tasks.",
+      tags: ["Multimodal Models", "Gemma"],
     }
   ],
   [
