@@ -893,6 +893,14 @@ const papers_data = [
         "Leverages automated large-scale test-case synthesis to enhance code model training via reinforcement learning. It creates a dataset (AceCode-89K) of questions and test cases, trains reward models (AceCode-RM) using pass rates, and then uses these reward models and test-case pass rewards for reinforcement learning, significantly improving code generation performance across various benchmarks.",
       tags: ["Language Models", "Transformer Decoder", "Code Generation"],
     },
+    {
+      title: "Command A",
+      link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b#ce70",
+      date: "March 2025",
+      description: 
+        "A 111 billion parameter open-weights research release model optimized for business-critical agentic and multilingual tasks. It features a 256K context length, is trained on 23 languages, and is specifically designed for RAG and tool use,offering verifiable citations for both.",
+      tags: ["Language Models", "Transformer Decoder", "Cohere"],
+    }
   ],
   [
     // Frontier Models
@@ -2081,6 +2089,14 @@ const papers_data = [
       description:
         "A family of multilingual vision-language encoders improving upon the original SigLIP by incorporating captioning-based pretraining, self-supervised losses (self-distillation, masked prediction), and online data curation, offering various sizes (ViT-B/32, B/16, L, So400m, g), native aspect ratio preservation (NaFlex variant).",
       tags: ["Representation Learning", "Multimodal Models", "Multilingual Models"],
+    },
+    {
+      title: "Gemini Embeddings",
+      link: "",
+      date: "March 2025",
+      description:
+        "Initialized from Google's Gemini LLM, generates generalizable embeddings for multilingual text and code by leveraging Gemini's knowledge and a curated training dataset enhanced with Gemini-generated synthetic data and filtering.",
+      tags: ["Representation Learning", "Multilingual Models"],
     }
   ],
   [
