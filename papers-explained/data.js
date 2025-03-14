@@ -2092,7 +2092,7 @@ const papers_data = [
     },
     {
       title: "Gemini Embeddings",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-330-gemini-embedding-324982aeb756",
       date: "March 2025",
       description:
         "Initialized from Google's Gemini LLM, generates generalizable embeddings for multilingual text and code by leveraging Gemini's knowledge and a curated training dataset enhanced with Gemini-generated synthetic data and filtering.",
