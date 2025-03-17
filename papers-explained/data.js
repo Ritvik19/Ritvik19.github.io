@@ -257,7 +257,7 @@ const papers_data = [
       description:
         "Based on Griffin, uses a combination of linear recurrences and local attention instead of global attention to model long sequences efficiently.",
       tags: ["Language Models", "Gemma"],
-    },
+    }
   ],
   [
     // Encoder Only Transformers
@@ -1675,6 +1675,14 @@ const papers_data = [
       description:
         "A multimodal language model with vision understanding, wider language coverage, and a longer context (128k tokens) than its predecessors. It utilizes a modified architecture with increased local attention to reduce KV-cache memory demands, is trained with distillation, and employs a novel post-training recipe improving performance in areas like math, chat, and multilingual tasks.",
       tags: ["Multimodal Models", "Gemma"],
+    },
+    {
+      title: "MAmmoTH-VL 2",
+      link: "https://ritvik19.medium.com/papers-explained-331-mammoth-vl-2-108ac94dc3b3",
+      date: "March 2025",
+      description:
+        "Introduces VisualWebInstruct, a novel approach leveraging Google Image Search and LLMs (Gemini and GPT-4) to create a large-scale, diverse multimodal instruction dataset of ~900K question-answer pairs (40% visual) focused on complex reasoning across various scientific disciplines. Fine-tuning existing VLMs on this dataset leads to significant performance gains on reasoning benchmarks.",
+      tags: ["Multimodal Models", "Synthetic Data"],
     }
   ],
   [
@@ -2091,7 +2099,7 @@ const papers_data = [
       tags: ["Representation Learning", "Multimodal Models", "Multilingual Models"],
     },
     {
-      title: "Gemini Embeddings",
+      title: "Gemini Embedding",
       link: "https://ritvik19.medium.com/papers-explained-330-gemini-embedding-324982aeb756",
       date: "March 2025",
       description:
@@ -3795,6 +3803,14 @@ const papers_data = [
       description:
         "Investigates compute-optimal Test-Time Scaling (TTS) for Large Language Models (LLMs), focusing on the influence of policy models, Process Reward Models (PRMs), and problem difficulty. Through experiments on MATH-500 and AIME24.",
       tags: ["Language Models"], 
+    },
+    {
+      title: "Transformers without Normalization",
+      link: "",
+      date: "March 2025",
+      description:
+        "Introduces Dynamic Tanh (DyT), a simple element-wise operation replacing normalization layers in Transformers, achieving comparable or better performance across various tasks in vision, language, and speech by emulating Layer Normalization's tanh-like activation mapping and scaling without statistical computation, challenging the perceived indispensability of normalization and potentially improving efficiency.",
+      tags: ["Transformers"],
     }
   ],
 ];
