@@ -1662,7 +1662,7 @@ const papers_data = [
     },
     {
       title: "Aya Vision",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-332-aya-vision-5aec8dce396e",
       date: "March 2025",
       description:
         "A family of open-weight 8B and 32B parameter multilingual vision-language models (VLMs) supporting 23 languages, built upon Aya Expanse and incorporating techniques like synthetic annotations, data translation/rephrasing, and multimodal model merging.",
