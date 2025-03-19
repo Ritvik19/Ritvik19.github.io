@@ -1653,6 +1653,14 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
+      title: "Kimi k1.5",
+      link: "",
+      date: "January 2025",
+      description:
+        "A multimodal LLM trained with reinforcement learning (RL) focused on long context scaling and improved policy optimization, achieving state-of-the-art reasoning performance in various benchmarks and modalities, matching OpenAI's o1 in long-context tasks and significantly outperforming short-context models like GPT-4o and Claude Sonnet 3.5 through effective long2short context compression methods.",
+      tags: ["Multimodal Models"],
+    },
+    {
       title: "Phi-4 Multimodal",
       link: "https://ritvik19.medium.com/papers-explained-322-phi-4-mini-phi-4-multimodal-2be1a69be78c",
       date: "February 2025",
@@ -3811,6 +3819,14 @@ const papers_data = [
       description:
         "Introduces Dynamic Tanh (DyT), a simple element-wise operation replacing normalization layers in Transformers, achieving comparable or better performance across various tasks in vision, language, and speech by emulating Layer Normalization's tanh-like activation mapping and scaling without statistical computation, challenging the perceived indispensability of normalization and potentially improving efficiency.",
       tags: ["Transformers"],
+    },
+    {
+      title: "SmolDocling",
+      link: "https://ritvik19.medium.com/papers-explained-333-smoldocling-a788ac739b92",
+      date: "March 2025",
+      description:
+        "A compact 256M parameter vision-language model designed for end-to-end document conversion into a novel universal markup format called DocTags, which captures content, structure, and spatial location of all page elements. It leverages a curriculum learning approach trained on augmented existing and novel datasets for comprehensive document understanding, achieving performance comparable to much larger models while minimizing computational requirements.",
+      tags: ["Multimodal Models"],
     }
   ],
 ];
