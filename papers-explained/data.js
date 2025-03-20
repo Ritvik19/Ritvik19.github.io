@@ -1654,7 +1654,7 @@ const papers_data = [
     },
     {
       title: "Kimi k1.5",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-334-kimi-k1-5-c41e914cae7b",
       date: "January 2025",
       description:
         "A multimodal LLM trained with reinforcement learning (RL) focused on long context scaling and improved policy optimization, achieving state-of-the-art reasoning performance in various benchmarks and modalities, matching OpenAI's o1 in long-context tasks and significantly outperforming short-context models like GPT-4o and Claude Sonnet 3.5 through effective long2short context compression methods.",
@@ -1691,6 +1691,14 @@ const papers_data = [
       description:
         "Introduces VisualWebInstruct, a novel approach leveraging Google Image Search and LLMs (Gemini and GPT-4) to create a large-scale, diverse multimodal instruction dataset of ~900K question-answer pairs (40% visual) focused on complex reasoning across various scientific disciplines. Fine-tuning existing VLMs on this dataset leads to significant performance gains on reasoning benchmarks.",
       tags: ["Multimodal Models", "Synthetic Data"],
+    }, 
+    {
+      title: "Mistral Small 3.1",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#1065",
+      date: "March 2025",
+      description:
+        "A multimodal language model built upon Mistral Small 3 with improved text performance and an expanded context window of up to 128k tokens.",
+      tags: ["Multimodal Models", "Mistral"],
     }
   ],
   [
