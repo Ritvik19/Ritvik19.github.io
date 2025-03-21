@@ -3822,7 +3822,7 @@ const papers_data = [
     },
     {
       title: "Transformers without Normalization",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-335-transformers-without-normalization-a1cec27c2c4f",
       date: "March 2025",
       description:
         "Introduces Dynamic Tanh (DyT), a simple element-wise operation replacing normalization layers in Transformers, achieving comparable or better performance across various tasks in vision, language, and speech by emulating Layer Normalization's tanh-like activation mapping and scaling without statistical computation, challenging the perceived indispensability of normalization and potentially improving efficiency.",
