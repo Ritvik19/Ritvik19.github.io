@@ -2118,6 +2118,14 @@ const papers_data = [
         "Challenges the notion that complex reasoning requires massive datasets by achieving state-of-the-art performance on mathematical reasoning benchmarks using only 817 curated training examples and emphasizing high-quality reasoning chains.",
       tags: ["LLM for Math"],
     },
+    {
+      title: "MathFusion",
+      link: "",
+      date: "March 2025",
+      description:
+        "MathFusion is a novel framework that improves mathematical reasoning in LLMs by synthesizing new problems from existing ones using three fusion strategies: sequential, parallel, and conditional, to capture relational structures in mathematical knowledge.",
+      tags: ["LLM for Math", "Synthetic Data"],
+    },
   ],
   [
     // Retrieval and Representation Learning
@@ -2406,7 +2414,7 @@ const papers_data = [
       link: "https://ritvik19.medium.com/papers-explained-303-reward-ranked-finetuning-raft-791154585908",
       date: "April 2023",
       description:
-        "Generative foundation models are susceptible to implicit biases that can arise from extensive unsupervised training data. Such biases can produce suboptimal samples, skewed outcomes, and unfairness, with potentially serious consequences. Consequently, aligning these models with human ethics and preferences is an essential step toward ensuring their responsible and effective deployment in real-world applications. Prior research has primarily employed Reinforcement Learning from Human Feedback (RLHF) to address this problem, where generative models are fine-tuned with RL algorithms guided by a human-feedback-informed reward model. However, the inefficiencies and instabilities associated with RL algorithms frequently present substantial obstacles to the successful alignment, necessitating the development of a more robust and streamlined approach. To this end, we introduce a new framework, Reward rAnked FineTuning (RAFT), designed to align generative models effectively. Utilizing a reward model and a sufficient number of samples, our approach selects the high-quality samples, discarding those that exhibit undesired behavior, and subsequently enhancing the model by fine-tuning on these filtered samples. Our studies show that RAFT can effectively improve the model performance in both reward learning and other automated metrics in both large language models and diffusion models.",
+        "An alignment framework for generative foundation models that iteratively refines the model by sampling outputs, ranking them based on a reward function, and then fine-tuning the model on the highest-ranked samples. This approach offers improved stability and efficiency compared to RLHF methods like PPO, reduces memory burden by decoupling data generation and fine-tuning, and is flexible across both LLMs and diffusion models.",
       tags: [],
     },
     {
@@ -2619,7 +2627,7 @@ const papers_data = [
     },
     {
       title: "Logic-RL",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-337-logic-rl-6f1ae1ffaf09",
       date: "February 2025",
       description:
         "A rule-based reinforcement learning framework trained on procedurally generated Knights and Knaves logic puzzles to enhance reasoning skills in large language models. It utilizes a modified REINFORCE++ algorithm with a strict format and answer-based reward system, enabling the model to develop advanced reasoning capabilities like reflection and verification, and generalize to challenging math benchmarks like AIME and AMC after training on a small dataset.",
@@ -4125,14 +4133,15 @@ const surveys_data = [
     title: "Best Practices and Lessons Learned on Synthetic Data",
     link: "2404.07503",
     date: "April 2024",
-    description: "Provides an overview of synthetic data research, discussing its applications, challenges, and future directions.",
+    description:
+      "Provides an overview of synthetic data research, discussing its applications, challenges, and future directions.",
     tags: ["Survey", "Synthetic Data"],
   },
   {
     title: "The Prompt Report: A Systematic Survey of Prompting Techniques",
     link: "2406.06608",
     date: "June 2024",
-    description: 
+    description:
       "Establishes a structured understanding of prompts, by assembling a taxonomy of prompting techniques and analyzing their use.",
     tags: ["Survey", "Prompt Optimization"],
   },
@@ -4159,122 +4168,235 @@ const surveys_data = [
     description:
       "A comprehensive survey on SLMs, focusing on their architectures, training techniques, and model compression techniques",
     tags: ["Survey", "Small Models"],
-  }
-]
+  },
+];
 
 const journeys_data = [
   {
     title: "Encoder Only Transformers",
     link: "transformer-encoders",
     papers: [
-      "BERT", "RoBERTa", "Sentence BERT", "Tiny BERT", "ALBERT", "Distil BERT", "Distil RoBERTa", "FastBERT", "MobileBERT", 
-      "ColBERT", "DeBERTa", "DeBERTa v2", "DeBERTa v3", "ColBERT v2"
+      "BERT",
+      "RoBERTa",
+      "Sentence BERT",
+      "Tiny BERT",
+      "ALBERT",
+      "Distil BERT",
+      "Distil RoBERTa",
+      "FastBERT",
+      "MobileBERT",
+      "ColBERT",
+      "DeBERTa",
+      "DeBERTa v2",
+      "DeBERTa v3",
+      "ColBERT v2",
     ],
   },
   {
     title: "Vision Transformers",
     link: "vision-transformers",
     papers: [
-      "Vision Transformer", "What do Vision Transformers Learn?", "CNNs Match ViTs at Scale",
-      "DeiT", "Swin Transformer", "CvT", "LeViT", "BEiT", 
-      "MobileViT", "Masked AutoEncoder", "Max ViT", "Swin Transformer v2", "EfficientFormer",
-      "FastVit", "Efficient ViT", "SoViT"
+      "Vision Transformer",
+      "What do Vision Transformers Learn?",
+      "CNNs Match ViTs at Scale",
+      "DeiT",
+      "Swin Transformer",
+      "CvT",
+      "LeViT",
+      "BEiT",
+      "MobileViT",
+      "Masked AutoEncoder",
+      "Max ViT",
+      "Swin Transformer v2",
+      "EfficientFormer",
+      "FastVit",
+      "Efficient ViT",
+      "SoViT",
     ],
   },
   {
     title: "Low Rank Adaptors",
     link: "low-rank-adaptors",
     papers: [
-      "LoRA", "DyLoRA", "AdaLoRA", "QLoRA", "LoRA-FA", "Delta-LoRA", "LongLoRA", "VeRA", "LoRA+", "MoRA", "DoRA"
+      "LoRA",
+      "DyLoRA",
+      "AdaLoRA",
+      "QLoRA",
+      "LoRA-FA",
+      "Delta-LoRA",
+      "LongLoRA",
+      "VeRA",
+      "LoRA+",
+      "MoRA",
+      "DoRA",
     ],
-  }
-]
+  },
+];
 
 const literature_review_data = [
   {
     title: "Convolutional Neural Networks",
     link: "https://ritvik19.medium.com/papers-explained-review-01-convolutional-neural-networks-78aeff61dcb3",
     papers: [
-      "LeNet", "AlexNet", "VGG", "Inception Net", "ResNet", "Inception Net v2 / v3", "ResNext", "DenseNet", "Xception", "MobileNet V1", "MobileNet V2", "MobileNet V3", "EfficientNet"
-    ]
+      "LeNet",
+      "AlexNet",
+      "VGG",
+      "Inception Net",
+      "ResNet",
+      "Inception Net v2 / v3",
+      "ResNext",
+      "DenseNet",
+      "Xception",
+      "MobileNet V1",
+      "MobileNet V2",
+      "MobileNet V3",
+      "EfficientNet",
+    ],
   },
   {
     title: "Layout Transformers",
     link: "https://ritvik19.medium.com/papers-explained-review-02-layout-transformers-b2d165c94ad5",
     papers: [
-      "Layout LM", "LamBERT", "Layout LM v2", "Structural LM", "Doc Former",  "BROS", "LiLT", "Layout LM V3", "ERNIE Layout"
-    ]
+      "Layout LM",
+      "LamBERT",
+      "Layout LM v2",
+      "Structural LM",
+      "Doc Former",
+      "BROS",
+      "LiLT",
+      "Layout LM V3",
+      "ERNIE Layout",
+    ],
   },
   {
     title: "Region Based Convolutional Neural Networks",
     link: "https://ritvik19.medium.com/papers-explained-review-03-rcnns-42c0a3974493",
-    papers: [
-      "RCNN", "Fast RCNN", "Faster RCNN", "Mask RCNN", "Cascade RCNN"
-    ]
+    papers: ["RCNN", "Fast RCNN", "Faster RCNN", "Mask RCNN", "Cascade RCNN"],
   },
   {
     title: "Tabular Deep Learning",
     link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b",
     papers: [
-      "Entity Embeddings", "Wide and Deep Learning", "Deep and Cross Network", "Tab Transformer", "Tabular ResNet", "Feature Tokenizer Transformer"
-    ]
+      "Entity Embeddings",
+      "Wide and Deep Learning",
+      "Deep and Cross Network",
+      "Tab Transformer",
+      "Tabular ResNet",
+      "Feature Tokenizer Transformer",
+    ],
   },
   {
     title: "Generative Adversarial Networks",
     link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e",
     papers: [
-      "GAN", "Conditional GAN", "Deep Convolutional GAN", "Improved GAN", "Wasserstein GAN", "Cycle GAN"
-    ]
+      "GAN",
+      "Conditional GAN",
+      "Deep Convolutional GAN",
+      "Improved GAN",
+      "Wasserstein GAN",
+      "Cycle GAN",
+    ],
   },
   {
     title: "Parameter Efficient FineTuning",
     link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5",
     papers: [
-      "LoRA", "DyLoRA", "AdaLoRA", "QLoRA", "LoRA-FA", "Delta-LoRA", "LongLoRA", "VeRA", "LoRA+", "MoRA", "DoRA"
-    ]
+      "LoRA",
+      "DyLoRA",
+      "AdaLoRA",
+      "QLoRA",
+      "LoRA-FA",
+      "Delta-LoRA",
+      "LongLoRA",
+      "VeRA",
+      "LoRA+",
+      "MoRA",
+      "DoRA",
+    ],
   },
   {
     title: "Convolution Layers",
     link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3",
     papers: [
-      "Convolution Layer", "Separable Convolution", "Pointwise Convolution", "Depthwise Convolution", "Convolution Transpose"
-    ]
+      "Convolution Layer",
+      "Separable Convolution",
+      "Pointwise Convolution",
+      "Depthwise Convolution",
+      "Convolution Transpose",
+    ],
   },
   {
     title: "Recurrent Layers",
     link: "https://ritvik19.medium.com/papers-explained-review-08-recurrent-layers-ff2f224af059",
-    papers: [
-      "Simple Recurrent", "LSTM", "GRU"
-    ]
+    papers: ["Simple Recurrent", "LSTM", "GRU"],
   },
   {
     title: "Attention Layers",
     link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5",
     papers: [
-      "Scaled Dot Product Attention", "Multi Head Attention", "Cross Attention", "Causal Attention", "Sliding Window Attention", "Multi Query Attention", "Grouped Query Attention"
-    ]
+      "Scaled Dot Product Attention",
+      "Multi Head Attention",
+      "Cross Attention",
+      "Causal Attention",
+      "Sliding Window Attention",
+      "Multi Query Attention",
+      "Grouped Query Attention",
+    ],
   },
   {
     title: "Normalization Layers",
     link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e",
     papers: [
-      "Batch Normalisation", "Layer Normalisation", "Instance Normalisation", "Group Normalisation", "Weight Standardisation", "Batch Channel Normalisation"
-    ]
+      "Batch Normalisation",
+      "Layer Normalisation",
+      "Instance Normalisation",
+      "Group Normalisation",
+      "Weight Standardisation",
+      "Batch Channel Normalisation",
+    ],
   },
   {
     title: "Auto Encoders",
     link: "https://ritvik19.medium.com/papers-explained-review-11-auto-encoders-3b8f08b4eac0",
     papers: [
-      "Auto Encoders", "Sparse Auto Encoders", "K Sparse Auto Encoders", "Contractive Auto Encoders", "Convolutional Auto Encoders", "Sequence to Sequence Auto Encoders", "Denoising Auto Encoders", "Variational Auto Encoders", "Masked Auto Encoders"
-    ]
+      "Auto Encoders",
+      "Sparse Auto Encoders",
+      "K Sparse Auto Encoders",
+      "Contractive Auto Encoders",
+      "Convolutional Auto Encoders",
+      "Sequence to Sequence Auto Encoders",
+      "Denoising Auto Encoders",
+      "Variational Auto Encoders",
+      "Masked Auto Encoders",
+    ],
   },
   {
     title: "LLMs for Maths",
     link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c",
     papers: [
-      "Wizard Math", "MAmmoTH", "MetaMath", "ToRA", "Math Coder", "MuggleMath", "Llemma", "MuMath", "MMIQC", "DeepSeek Math", "Open Math Instruct 1", "Math Orca", "Math Genie", "Xwin-Math", "MuMath Code", "Numina Math", "Qwen 2 Math", "Qwen 2.5 Math", "Open Math Instruct 2", "Math Coder 2", "AceMath"
-    ]
-  }
+      "Wizard Math",
+      "MAmmoTH",
+      "MetaMath",
+      "ToRA",
+      "Math Coder",
+      "MuggleMath",
+      "Llemma",
+      "MuMath",
+      "MMIQC",
+      "DeepSeek Math",
+      "Open Math Instruct 1",
+      "Math Orca",
+      "Math Genie",
+      "Xwin-Math",
+      "MuMath Code",
+      "Numina Math",
+      "Qwen 2 Math",
+      "Qwen 2.5 Math",
+      "Open Math Instruct 2",
+      "Math Coder 2",
+      "AceMath",
+    ],
+  },
 ];
 
 const reading_list_data = [
