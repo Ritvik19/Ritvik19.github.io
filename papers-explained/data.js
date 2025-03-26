@@ -4110,6 +4110,14 @@ const papers_data = [
       tags: ["Language Models"],
     },
     {
+      title: "Large-Scale Data Selection for Instruction Tuning",
+      link: "https://ritvik19.medium.com/papers-explained-338-large-scale-data-selection-for-instruction-tuning-72ef9f8221aa",
+      date: "March 2025",
+      description:
+        "Investigates the effectiveness and scalability of automated data selection methods for instruction-tuning LLMs, finding that many existing methods underperform random selection at larger scales. A variant of representation-based data selection (RDS+), using weighted mean pooling of pre-trained LM hidden states, consistently outperforms other methods, including in multi-task settings.",
+      tags: [],
+    },
+    {
       title: "Transformers without Normalization",
       link: "https://ritvik19.medium.com/papers-explained-335-transformers-without-normalization-a1cec27c2c4f",
       date: "March 2025",
