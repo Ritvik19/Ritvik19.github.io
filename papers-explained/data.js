@@ -2619,7 +2619,7 @@ const papers_data = [
     },
     {
       title: "Code Guided Synthetic data generation system (CoSyn)",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-339-code-guided-synthetic-data-generation-system-cosyn-22b7f371906b",
       date: "February 2025",
       description:
         "A framework leveraging LLMs to generate synthetic text-rich multimodal data for training (VLMs. It uses LLMs to create code in various languages (Python, HTML, LaTeX, etc.) that renders synthetic images, and then uses the code as context to generate corresponding textual instructions, including questions, answers, and explanations, forming a comprehensive instruction-tuning dataset.",
