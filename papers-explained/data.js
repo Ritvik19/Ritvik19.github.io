@@ -2634,8 +2634,8 @@ const papers_data = [
       tags: [],
     },
     {
-      title: "CHASE",
-      link: "",
+      title: "CHallenging AI with Synthetic Evaluations (CHASE)",
+      link: "https://ritvik19.medium.com/papers-explained-340-chase-84857503f39c",
       date: "February 2025",
       description:
         "A framework for generating challenging LLM evaluation benchmarks synthetically, using a bottom-up approach, building complex problems from simpler components and hiding solution elements within the context, while decomposing the generation process into verifiable sub-tasks to ensure correctness.",
