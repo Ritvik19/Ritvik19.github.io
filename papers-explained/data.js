@@ -2633,14 +2633,6 @@ const papers_data = [
         "A rule-based reinforcement learning framework trained on procedurally generated Knights and Knaves logic puzzles to enhance reasoning skills in large language models. It utilizes a modified REINFORCE++ algorithm with a strict format and answer-based reward system, enabling the model to develop advanced reasoning capabilities like reflection and verification, and generalize to challenging math benchmarks like AIME and AMC after training on a small dataset.",
       tags: [],
     },
-    {
-      title: "CHallenging AI with Synthetic Evaluations (CHASE)",
-      link: "https://ritvik19.medium.com/papers-explained-340-chase-84857503f39c",
-      date: "February 2025",
-      description:
-        "A framework for generating challenging LLM evaluation benchmarks synthetically, using a bottom-up approach, building complex problems from simpler components and hiding solution elements within the context, while decomposing the generation process into verifiable sub-tasks to ensure correctness.",
-      tags: ["Synthetic Data", "LLM Evaluation"],
-    },
   ],
   [
     // Parameter Efficient Fine Tuning
@@ -4108,6 +4100,14 @@ const papers_data = [
       description:
         "Investigates compute-optimal Test-Time Scaling (TTS) for Large Language Models (LLMs), focusing on the influence of policy models, Process Reward Models (PRMs), and problem difficulty. Through experiments on MATH-500 and AIME24.",
       tags: ["Language Models"],
+    },
+    {
+      title: "CHallenging AI with Synthetic Evaluations (CHASE)",
+      link: "https://ritvik19.medium.com/papers-explained-340-chase-84857503f39c",
+      date: "February 2025",
+      description:
+        "A framework for generating challenging LLM evaluation benchmarks synthetically, using a bottom-up approach, building complex problems from simpler components and hiding solution elements within the context, while decomposing the generation process into verifiable sub-tasks to ensure correctness.",
+      tags: ["Synthetic Data", "LLM Evaluation"],
     },
     {
       title: "Large-Scale Data Selection for Instruction Tuning",
