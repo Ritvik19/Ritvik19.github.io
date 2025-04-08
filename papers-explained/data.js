@@ -3036,6 +3036,14 @@ const papers_data = [
         "Features a universally efficient architecture design, including the Universal Inverted Bottleneck (UIB) search block, Mobile MQA attention block, and an optimized neural architecture search recipe, which enables it to achieve high accuracy and efficiency on various mobile devices and accelerators.",
       tags: ["Convolutional Neural Networks"],
     },
+    {
+      title: "LS Net",
+      link: "",
+      date: "April 2025",
+      description:
+        "Mimics the human vision system's 'See Large, Focus Small' strategy by using a novel Large-Small (LS) convolution that combines large-kernel static convolution for broad contextual perception and small-kernel dynamic convolution with a group mechanism for precise, adaptive feature aggregation within a small visual field.",
+      tags: ["Convolutional Neural Networks"],
+    }
   ],
   [
     // Object Detection
@@ -3157,7 +3165,7 @@ const papers_data = [
         "A ViT-based architecture for image generation with diffusion models, characterized by treating all inputs including the time, condition and noisy image patches as tokens.",
       tags: ["Image Generation", "Vision Transformers"],
     },
-  ]
+  ],
   [
     // Document Understanding
     {
