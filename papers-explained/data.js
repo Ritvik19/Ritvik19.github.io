@@ -3038,8 +3038,8 @@ const papers_data = [
     },
     {
       title: "LS Net",
-      link: "",
-      date: "April 2025",
+      link: "https://ritvik19.medium.com/papers-explained-343-lsnet-22fc08fec1ae",
+      date: "March 2025",
       description:
         "Mimics the human vision system's 'See Large, Focus Small' strategy by using a novel Large-Small (LS) convolution that combines large-kernel static convolution for broad contextual perception and small-kernel dynamic convolution with a group mechanism for precise, adaptive feature aggregation within a small visual field.",
       tags: ["Convolutional Neural Networks"],
