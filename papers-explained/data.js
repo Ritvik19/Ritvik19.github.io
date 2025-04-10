@@ -2112,6 +2112,14 @@ const papers_data = [
       tags: ["LLM for Math"],
     },
     {
+      title: "s1",
+      link: "",
+      date: "January 2025",
+      description:
+        "Proposes a new test-time scaling approach that achieves strong reasoning performance after supervised finetuning on a small, curated 1,000-sample dataset (s1K) of diverse, difficult questions with reasoning traces, and employs 'budget forcing' to control test-time compute by limiting or extending the model's thinking process.",
+      tags: ["LLM for Math"],
+    },
+    {
       title: "LIMO",
       link: "https://ritvik19.medium.com/papers-explained-328-limo-261765a5616c",
       date: "February 2025",
@@ -3848,7 +3856,14 @@ const papers_data = [
         "A method enabling the benefits of multitask learning through distributed computation without data sharing and improving model performance.",
       tags: [],
     },
-
+    {
+      title: "What do Vision Transformers Learn",
+      link: "https://ritvik19.medium.com/papers-explained-344-what-do-vision-transformers-learn-ef4a80da46d8",
+      date: "January 2022",
+      description:
+        "Provides insights into the working mechanisms of vision transformers and their similarities and differences from convolutional neural networks.",
+      tags: ["Vision Transformers"],
+    },
     {
       title: "Are Emergent Abilities of Large Language Models a Mirage?",
       link: "https://ritvik19.medium.com/papers-explained-are-emergent-abilities-of-large-language-models-a-mirage-4160cf0e44cb",
