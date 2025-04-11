@@ -3897,6 +3897,14 @@ const papers_data = [
       tags: ["LLM Evaluation"],
     },
     {
+      title: "ConvNets Match Vision Transformers at Scale",
+      link: "https://ritvik19.medium.com/papers-explained-345-convnets-match-vision-transformers-at-scale-496690f604c7",
+      date: "October 2023",
+      description:
+        "Challenges the belief that Vision Transformers outperform ConvNets on large datasets by demonstrating that ConvNets, specifically NFNets, achieve comparable performance when pre-trained on a large dataset and fine-tuned on ImageNet.",
+      tags: ["Vision Transformers", "Convolutional Neural Networks"],
+    },
+    {
       title: "DSPy",
       link: "https://ritvik19.medium.com/papers-explained-135-dspy-fe8af7e35091",
       date: "October 2023",
