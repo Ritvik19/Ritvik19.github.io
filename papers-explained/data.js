@@ -1862,7 +1862,7 @@ const papers_data = [
     },
     {
       title: "Smol VLM",
-      link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#6245",
+      link: "https://ritvik19.medium.com/papers-explained-346-smolvlm-9b4e208fa66b",
       date: "November 2024",
       description:
         "A 2B vision-language model, built using a modified Idefics3 architecture with a smaller language backbone (SmolLM2 1.7B), aggressive pixel shuffle compression, 384x384 image patches, and a shape-optimized SigLIP vision backbone, featuring a 16k token context window.",
@@ -2061,6 +2061,14 @@ const papers_data = [
       date: "May 2024",
       description:
         "Integrates tool use and data augmentation by finetuning Llama-2 on a dataset of math questions with code-nested solutions.",
+      tags: ["LLM for Math"],
+    },
+    {
+      title: "Skywork-Math",
+      link: "",
+      date: "Juny 2024",
+      description:
+        "A series of 7B parameter LLMs, fine-tuned solely on a new 2.5M instance dataset called Skywork-MathQA generated through a novel two-stage pipeline employing diverse seed problems and augmentation of hard problems.",
       tags: ["LLM for Math"],
     },
     {
@@ -2642,6 +2650,14 @@ const papers_data = [
         "A rule-based reinforcement learning framework trained on procedurally generated Knights and Knaves logic puzzles to enhance reasoning skills in large language models. It utilizes a modified REINFORCE++ algorithm with a strict format and answer-based reward system, enabling the model to develop advanced reasoning capabilities like reflection and verification, and generalize to challenging math benchmarks like AIME and AMC after training on a small dataset.",
       tags: [],
     },
+    {
+      title: "ReSearch",
+      link: "",
+      date: "March 2025",
+      description:
+        "A framework that trains LLMs to reason with search via reinforcement learning, treating search operations as integral components of the reasoning chain, leveraging GRPO to optimize LLMs for generating reasoning chains containing text-based thinking, search queries, and retrieval results.",
+      tags: [],
+    }
   ],
   [
     // Parameter Efficient Fine Tuning
