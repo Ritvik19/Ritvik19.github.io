@@ -971,7 +971,7 @@ const papers_data = [
     },
     {
       title: "Command A",
-      link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b#ce70",
+      link: "https://ritvik19.medium.com/papers-explained-347-command-a-4e0512baee56",
       date: "March 2025",
       description:
         "A 111 billion parameter open-weights research release model optimized for business-critical agentic and multilingual tasks. It features a 256K context length, is trained on 23 languages, and is specifically designed for RAG and tool use,offering verifiable citations for both.",
@@ -2008,6 +2008,14 @@ const papers_data = [
       tags: ["LLM for Math"],
     },
     {
+      title: "Math Shepherd",
+      link: "",
+      date: "December 2023",
+      description:
+        "A process reward model that automatically scores the correctness of each step in a math problem solution, using this to rerank LLM outputs and to reinforce LLMs via step-by-step PPO, without human annotations or external tools. It leverages a Monte Carlo Tree Search inspired approach where an LLM decodes multiple subsequent paths from each step and the step's score reflects how many lead to the correct final answer.",
+      tags: ["LLM for Math", "Process Reward Model"],
+    },
+    {
       title: "MMIQC",
       link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c#3a88",
       date: "January 2024",
@@ -2649,6 +2657,14 @@ const papers_data = [
       description:
         "A rule-based reinforcement learning framework trained on procedurally generated Knights and Knaves logic puzzles to enhance reasoning skills in large language models. It utilizes a modified REINFORCE++ algorithm with a strict format and answer-based reward system, enabling the model to develop advanced reasoning capabilities like reflection and verification, and generalize to challenging math benchmarks like AIME and AMC after training on a small dataset.",
       tags: [],
+    },
+    {
+      title: "SPHERE",
+      link: "",
+      date: "March 2025",
+      description:
+        "A self-evolving data generation pipeline that enhances mathematical reasoning in SLMs by iteratively generating, correcting, and diversifying reasoning chains through three stages: self-generation of initial reasoning paths, self-correction of errors in those paths, and diversity generation by introducing varied incorrect reasoning using a smaller model; this data is then used to fine-tune the SLM with Direct Preference Optimization.",
+      tags: ["LLM for Math"],
     },
     {
       title: "ReSearch",
