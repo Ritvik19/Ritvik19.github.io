@@ -4146,7 +4146,7 @@ const papers_data = [
     },
     {
       title: "Reader LM v2",
-      link: "https://ritvik19.medium.com/papers-explained-295-readerlm-v2-7103e9b25a10",
+      link: "https://ritvik19.medium.com/papers-explained-348-readerlm-v2-b5bed3f57fbe",
       date: "December 2024",
       description:
         "A 1.5B parameter language model specializing in converting raw HTML to markdown or JSON, handling up to 512K tokens and supporting 29 languages. Trained with a new paradigm and higher-quality data, it treats HTML-to-markdown as translation, and addresses the degeneration issues of its predecessor through contrastive loss.",
