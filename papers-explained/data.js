@@ -2668,7 +2668,7 @@ const papers_data = [
     },
     {
       title: "ReSearch",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-349-research-80c79cb22fed",
       date: "March 2025",
       description:
         "A framework that trains LLMs to reason with search via reinforcement learning, treating search operations as integral components of the reasoning chain, leveraging GRPO to optimize LLMs for generating reasoning chains containing text-based thinking, search queries, and retrieval results.",
