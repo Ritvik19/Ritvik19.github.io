@@ -1107,7 +1107,7 @@ const papers_data = [
       date: "September 2024",
       description:
         "A large language model trained with reinforcement learning to think before answering, producing a long internal chain of thought before responding.",
-      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT", "Reasoning"],
     },
     {
       title: "o1-mini",
@@ -1115,7 +1115,7 @@ const papers_data = [
       date: "September 2024",
       description:
         "A cost-efficient reasoning model, excelling at STEM, especially math and coding, nearly matching the performance of OpenAI o1 on evaluation benchmarks.",
-      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT", "Reasoning"],
     },
     {
       title: "Claude 3.5 Haiku",
@@ -1131,7 +1131,7 @@ const papers_data = [
       date: "January 2025",
       description:
         "A cost-efficient reasoning model, excelling in STEM fields, while maintaining low latency. It supports features like function calling, structured outputs, and developer messages, and offers adjustable reasoning effort levels (low, medium, high) for optimized performance.",
-      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT", "Reasoning"],
     },
     {
       title: "Grok 3 Beta",
@@ -1149,6 +1149,38 @@ const papers_data = [
         "A hybrid reasoning model offering both fast responses and detailed, user-visible step-by-step thinking controllable by a token budget, featuring integration with GitHub and a new coding tool (Claude Code).",
       tags: ["Multimodal Models", "Anthropic", "Claude"],
     },
+    {
+      title: "GPT-4.5",
+      link: "https://ritvik19.medium.com/papers-explained-350-gpt-4-5-dc1d4b097ad1",
+      date: "February 2025",
+      description:
+        "A research preview model representing an advancement in scaling unsupervised learning through increased compute, data, architecture, and optimization innovations, resulting in broader knowledge, deeper understanding, reduced hallucinations, and increased reliability. It excels in tasks requiring natural conversation, creativity, and understanding human intent due to new scalable training techniques derived from smaller models.",
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    },
+    {
+      title: "GPT-4.1",
+      link: "https://ritvik19.medium.com/papers-explained-350-gpt-4-5-dc1d4b097ad1#a605",
+      date: "April 2025",
+      description:
+        "Advanced language models offering superior coding, instruction following, and long-context comprehension (up to 1 million tokens) compared to predecessors, with lower cost and latency, excelling in real-world tasks and boast enhanced vision capabilities",
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    },
+    {
+      title: "o3",
+      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e#4cfa",
+      date: "April 2025",
+      description:
+        "Reasoning model, excelling in complex tasks requiring multi-faceted analysis, especially those involving visual data like images and charts. It leverages tools like web search, code execution, and image generation to provide comprehensive answers and demonstrates significantly improved performance across various benchmarks and real-world tasks.",
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT", "Reasoning", "Multimodal"],
+    },
+    {
+      title: "o4-mini",
+      link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e#4cfa",
+      date: "April 2025",
+      description:
+        "A smaller, faster, and more cost-effective reasoning model optimized for speed and efficiency. While powerful in math, coding, and visual tasks, it maintains strong performance in other areas and supports higher usage limits due to its efficiency, making it suitable for high-volume applications.",
+      tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT", "Reasoning", "Multimodal"],
+    }
   ],
   [
     // Small LLMs
@@ -3921,6 +3953,14 @@ const papers_data = [
       tags: ["Agentic Systems"],
     },
     {
+      title: "GGUF",
+      link: "",
+      date: "August 2023",
+      description:
+        "A binary file format designed for storing and loading large language models (LLMs), specifically for inference, primarily within the GGML ecosystem and its derivatives like llama.cpp.",
+      tags: ["File Formats"],
+    },
+    {
       title: "RAGAS",
       link: "https://ritvik19.medium.com/papers-explained-227-ragas-4594fc4d96b9",
       date: "September 2023",
@@ -4216,6 +4256,14 @@ const papers_data = [
         "A compact 256M parameter vision-language model designed for end-to-end document conversion into a novel universal markup format called DocTags, which captures content, structure, and spatial location of all page elements. It leverages a curriculum learning approach trained on augmented existing and novel datasets for comprehensive document understanding, achieving performance comparable to much larger models while minimizing computational requirements.",
       tags: ["Multimodal Models"],
     },
+    {
+      title: "QALIGN",
+      link: "",
+      date: "April 2025",
+      description:
+        "A test-time alignment method that uses Markov Chain Monte Carlo (MCMC) sampling to generate a sequence of increasingly aligned text samples, guided by a reward model. It then selects the final output using Minimum Bayes Risk (MBR) over the generated samples.",
+      tags: ["Language Models"],
+    }
   ],
 ];
 
