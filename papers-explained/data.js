@@ -977,6 +977,14 @@ const papers_data = [
         "A 111 billion parameter open-weights research release model optimized for business-critical agentic and multilingual tasks. It features a 256K context length, is trained on 23 languages, and is specifically designed for RAG and tool use,offering verifiable citations for both.",
       tags: ["Language Models", "Transformer Decoder", "Cohere"],
     },
+    {
+      title: "UltraLong",
+      link: "",
+      date: "April 2025",
+      description:
+        "Introduces a training method for developing ultra-long context LLMs with context windows extending up to 4 million tokens, achieved through efficient continued pretraining with YaRN-based scaling, followed by instruction tuning.",
+      tags: ["Language Models", "Transformer Decoder", "Nvidia"],
+    }
   ],
   [
     // Frontier Models
@@ -1126,12 +1134,28 @@ const papers_data = [
       tags: ["Multimodal Models", "Anthropic", "Claude"],
     },
     {
+      title: "Gemini 2.0 Flash",
+      link: "",
+      date: "December 2024",
+      description:  
+        "A faster, more powerful large language model than its predecessor, boasting enhanced multimodal input/output (including native image generation and steerable multilingual audio), native tool use (like Google Search and code execution), and enabling a new class of agentic experiences through improved reasoning and complex instruction following.",
+      tags: ["Multimodal Models", "Gemini"],
+    },
+    {
       title: "o3-mini",
       link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e#9875",
       date: "January 2025",
       description:
         "A cost-efficient reasoning model, excelling in STEM fields, while maintaining low latency. It supports features like function calling, structured outputs, and developer messages, and offers adjustable reasoning effort levels (low, medium, high) for optimized performance.",
       tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT", "Reasoning"],
+    },
+    {
+      title: "Gemini 2.0 Flash Lite",
+      link: "",
+      date: "February 2025",
+      description:
+        "A production-ready language model offering enhanced performance over its predecessor (1.5 Flash) in reasoning, multimodal tasks, math, and factual accuracy, along with cost-effective pricing, making it ideal for applications requiring long context windows.",
+      tags: ["Multimodal Models", "Gemini"],
     },
     {
       title: "Grok 3 Beta",
@@ -1158,12 +1182,28 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
     },
     {
+      title: "Gemini 2.5 Pro",
+      link: "",
+      date: "March 2025",
+      description:
+        "Google's most advanced experimental AI model, excelling in complex tasks due to its enhanced reasoning and coding capabilities, achieving state-of-the-art performance on various benchmarks, and building upon Gemini's strengths of native multimodality and a long context window.",
+      tags: ["Multimodal Models", "Gemini", "Reasoning"],
+    },
+    {
       title: "GPT-4.1",
       link: "https://ritvik19.medium.com/papers-explained-350-gpt-4-5-dc1d4b097ad1#a605",
       date: "April 2025",
       description:
         "Advanced language models offering superior coding, instruction following, and long-context comprehension (up to 1 million tokens) compared to predecessors, with lower cost and latency, excelling in real-world tasks and boast enhanced vision capabilities",
       tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    },
+    {
+      title: "Gemini 2.5 Flash",
+      link: "",
+      date: "April 2025",
+      description:
+        "A hybrid reasoning model that allows developers to control a 'thinking' process for improved accuracy on complex tasks, offering a customizable thinking budget to balance quality, cost, and speed.",
+      tags: ["Multimodal Models", "Gemini", "Reasoning"],
     },
     {
       title: "o3",
@@ -2105,7 +2145,7 @@ const papers_data = [
     },
     {
       title: "Skywork-Math",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-352-skywork-math-d8f2aa59ddcf",
       date: "Juny 2024",
       description:
         "A series of 7B parameter LLMs, fine-tuned solely on a new 2.5M instance dataset called Skywork-MathQA generated through a novel two-stage pipeline employing diverse seed problems and augmentation of hard problems.",
@@ -2177,7 +2217,7 @@ const papers_data = [
     },
     {
       title: "MathFusion",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-351-mathfusion-f612d91667c4",
       date: "March 2025",
       description:
         "MathFusion is a novel framework that improves mathematical reasoning in LLMs by synthesizing new problems from existing ones using three fusion strategies: sequential, parallel, and conditional, to capture relational structures in mathematical knowledge.",
