@@ -2146,7 +2146,7 @@ const papers_data = [
     {
       title: "Skywork-Math",
       link: "https://ritvik19.medium.com/papers-explained-352-skywork-math-d8f2aa59ddcf",
-      date: "Juny 2024",
+      date: "July 2024",
       description:
         "A series of 7B parameter LLMs, fine-tuned solely on a new 2.5M instance dataset called Skywork-MathQA generated through a novel two-stage pipeline employing diverse seed problems and augmentation of hard problems.",
       tags: ["LLM for Math"],
