@@ -2201,7 +2201,7 @@ const papers_data = [
     },
     {
       title: "s1",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-353-s1-f071ec558fa0",
       date: "January 2025",
       description:
         "Proposes a new test-time scaling approach that achieves strong reasoning performance after supervised finetuning on a small, curated 1,000-sample dataset (s1K) of diverse, difficult questions with reasoning traces, and employs 'budget forcing' to control test-time compute by limiting or extending the model's thinking process.",
