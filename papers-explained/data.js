@@ -2223,6 +2223,14 @@ const papers_data = [
         "MathFusion is a novel framework that improves mathematical reasoning in LLMs by synthesizing new problems from existing ones using three fusion strategies: sequential, parallel, and conditional, to capture relational structures in mathematical knowledge.",
       tags: ["LLM for Math", "Synthetic Data"],
     },
+    {
+      title: "Nemotron CrossThink",
+      link: "",
+      date: "April 2025",
+      description:
+        "A framework that uses reinforcement learning to improve large language models' reasoning abilities across beyond math to diverse tasks by incorporating multi-domain data (STEM, humanities, social sciences, etc.) with varied formats (multiple-choice, open-ended) and verifiable answers, optimizing data blending strategies for effective training.",
+      tags: ["LLM for Math"],
+    }
   ],
   [
     // Retrieval and Representation Learning
@@ -3694,6 +3702,14 @@ const papers_data = [
       tags: ["Datasets", "Multimodal Datasets"],
     },
     {
+      title: "OmniMath",
+      link: "",
+      date: "October 2024",
+      description:
+        "A comprehensive benchmark dataset designed to evaluate the mathematical reasoning abilities of LLMs at the Olympiad level, comprising 4428 competition-level problems across 33 sub-domains and 10 difficulty levels, with a rigorous evaluation process utilizing GPT-4o and an open-source verifier, OmniJudge, to address the limitations of existing benchmarks that are now easily solved by advanced LLMs.",
+      tags: ["Datasets", "Scientific Data"],
+    },
+    {
       title: "Smol Talk",
       link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#b5e3",
       date: "November 2024",
@@ -3720,11 +3736,19 @@ const papers_data = [
     {
       title: "Numina Math 1.5",
       link: "https://ritvik19.medium.com/paper-explained-316-numinamath-40501ae9baac#e825",
-      date: "July 2024",
+      date: "February 2025",
       description:
         "An update over NuminaMath dataset containing approximately 900k competition-level math problems with Chain of Thought (CoT) solutions, sourced from Chinese high school exercises to international mathematics olympiads. It includes metadata like answer, problem_type, and question_type for each problem, and features manually curated data from olympiads, contests, and specific mathematical domains, while removing the synthetic dataset synthetic_amc.",
       tags: ["Datasets", "Scientific Data"],
     },
+    {
+      title: "DeepMath",
+      link: "",
+      date: "April 2025",
+      description:
+        "A large-scale dataset of ~103K challenging math problems designed for training reasoning models via reinforcement learning or supervised finetuning. It features verifiable answers for rule-based RL, three distinct AI-generated solutions per problem for diverse training approaches, and rigorous decontamination against existing benchmarks to ensure evaluation integrity and promote generalizable reasoning.",
+      tags: ["Datasets", "Scientific Data"],
+    }
   ],
   [
     // Neural Network Layers
@@ -4297,11 +4321,27 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
+      title: "MDocAgent",
+      link: "",
+      date: "March 2025",
+      description:
+        "A multi-modal, multi-agent framework for document understanding that leverages RAG with 5 specialized (general, critical, text, image, and summarizing) agents to improve complex question answering on documents with rich textual and visual information.",
+      tags: ["Agentic Systems"],
+    },
+    {
       title: "QALIGN",
       link: "",
       date: "April 2025",
       description:
         "A test-time alignment method that uses Markov Chain Monte Carlo (MCMC) sampling to generate a sequence of increasingly aligned text samples, guided by a reward model. It then selects the final output using Minimum Bayes Risk (MBR) over the generated samples.",
+      tags: ["Language Models"],
+    },
+    {
+      title: "Does RL Incentivize Reasoning Capacity in LLMs Beyond the Base Model",
+      link: "https://ritvik19.medium.com/papers-explained-354-does-rl-incentivize-reasoning-capacity-in-llms-beyond-the-base-model-77ae394a5054",
+      date: "April 2025",
+      description:
+        "Challenges the prevailing belief that RLVR significantly improves LLMs' reasoning abilities, finding instead that while RLVR increases sampling efficiency for correct answers at low k values in pass@k, it actually restricts the overall reasoning capacity boundary at high k values compared to base models due to reduced exploration of potentially successful reasoning paths already present in the base model.",
       tags: ["Language Models"],
     }
   ],
