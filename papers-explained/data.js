@@ -2230,6 +2230,14 @@ const papers_data = [
       description:
         "A framework that uses reinforcement learning to improve large language models' reasoning abilities across beyond math to diverse tasks by incorporating multi-domain data (STEM, humanities, social sciences, etc.) with varied formats (multiple-choice, open-ended) and verifiable answers, optimizing data blending strategies for effective training.",
       tags: ["LLM for Math"],
+    },
+    {
+      title: "OpenMath Nemotron",
+      link: "https://ritvik19.medium.com/papers-explained-355-openmath-nemotron-d73c6000148a",
+      date: "April 2025",
+      description:
+        "A series of mathematical reasoning models (1.5B, 7B, 14B, and 32B parameters), including a winning submission to the AI Mathematical Olympiad - Progress Prize 2 (AIMO-2) competition, trained on a massive dataset of 540K unique math problems and 3.2M solutions (OpenMathReasoning dataset) capable of CoT and TIR with Python code execution.",
+      tags: ["LLM for Math"],
     }
   ],
   [
