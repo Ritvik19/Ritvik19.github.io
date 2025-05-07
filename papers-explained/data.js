@@ -2264,7 +2264,7 @@ const papers_data = [
     },
     {
       title: "Nemotron CrossThink",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-360-nemotron-crossthink-3e804e878541",
       date: "April 2025",
       description:
         "A framework that uses reinforcement learning to improve large language models' reasoning abilities across beyond math to diverse tasks by incorporating multi-domain data (STEM, humanities, social sciences, etc.) with varied formats (multiple-choice, open-ended) and verifiable answers, optimizing data blending strategies for effective training.",
@@ -2542,6 +2542,14 @@ const papers_data = [
         "Initialized from Google's Gemini LLM, generates generalizable embeddings for multilingual text and code by leveraging Gemini's knowledge and a curated training dataset enhanced with Gemini-generated synthetic data and filtering.",
       tags: ["Representation Learning", "Multilingual Models"],
     },
+    {
+      title: "ReasonIR",
+      link: "",
+      date: "April 2025",
+      description:
+        "A novel bi-encoder retriever specifically trained for reasoning-intensive tasks using a synthetic data generation pipeline, to create challenging queries paired with relevant documents and plausibly related but unhelpful hard negatives. It is trained on this synthetic data and existing public datasets.",
+      tags: ["Retrieval", "Representation Learning", "Reasoning"],
+    }
   ],
   [
     // LLM Training
