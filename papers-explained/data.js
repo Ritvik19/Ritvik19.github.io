@@ -853,14 +853,6 @@ const papers_data = [
       ],
     },
     {
-      title: "Mistral Large 2",
-      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#301d",
-      date: "July 2024",
-      description:
-        "A 123B model, offers significant improvements in code generation, mathematics, and reasoning capabilities, advanced function calling, a 128k context window, and supports dozens of languages and over 80 coding languages.",
-      tags: ["Language Models", "Transformer Decoder", "Mistral"],
-    },
-    {
       title: "LLM Compiler",
       link: "https://ritvik19.medium.com/papers-explained-223-llm-compiler-15b1ddb9a1b0",
       date: "July 2024",
@@ -1103,6 +1095,14 @@ const papers_data = [
       tags: ["Multimodal Models", "Anthropic", "Claude"],
     },
     {
+      title: "Mistral Large 2",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#301d",
+      date: "July 2024",
+      description:
+        "A 123B model, offers significant improvements in code generation, mathematics, and reasoning capabilities, advanced function calling, a 128k context window, and supports dozens of languages and over 80 coding languages.",
+      tags: ["Language Models", "Transformer Decoder", "Mistral"],
+    },
+    {
       title: "GPT-4o mini",
       link: "https://ritvik19.medium.com/papers-explained-185-gpt-4o-a234bccfd662#08b9",
       date: "July 2024",
@@ -1117,6 +1117,14 @@ const papers_data = [
       description:
         "A frontier language model with state-of-the-art capabilities in chat, coding, and reasoning on par with Claude 3.5 Sonnet and GPT-4-Turbo.",
       tags: ["Multimodal Models", "Grok"],
+    },
+    {
+      title: "Mistral Small",
+      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#5662",
+      date: "September 2024",
+      description:
+        "A 22B model with significant improvements in human alignment, reasoning capabilities, and code over the previous model.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
     },
     {
       title: "o1",
@@ -1191,6 +1199,14 @@ const papers_data = [
       tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
     },
     {
+      title: "Mistral Small 3.1",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#1065",
+      date: "March 2025",
+      description:
+        "A multimodal language model built upon Mistral Small 3 with improved text performance and an expanded context window of up to 128k tokens.",
+      tags: ["Multimodal Models", "Mistral"],
+    },
+    {
       title: "Gemini 2.5 Pro",
       link: "",
       date: "March 2025",
@@ -1229,7 +1245,15 @@ const papers_data = [
       description:
         "A smaller, faster, and more cost-effective reasoning model optimized for speed and efficiency. While powerful in math, coding, and visual tasks, it maintains strong performance in other areas and supports higher usage limits due to its efficiency, making it suitable for high-volume applications.",
       tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT", "Reasoning", "Multimodal"],
-    }
+    },
+    {
+      title: "Mistral Medium 3",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#0ea6",
+      date: "May 2025",
+      description:
+        "A cost-effective, high-performing language model designed for enterprise use, offering SOTA performance comparable to Claude Sonnet 3.7 at 8x lower cost, excelling in professional tasks like coding and STEM.",
+      tags: ["Language Models", "Transformer Decoder", "Mistral"],
+    },
   ],
   [
     // Small LLMs
@@ -1575,14 +1599,6 @@ const papers_data = [
         "Knowledge Distillation",
         "Nvidia",
       ],
-    },
-    {
-      title: "Mistral Small",
-      link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#5662",
-      date: "September 2024",
-      description:
-        "A 22B model with significant improvements in human alignment, reasoning capabilities, and code over the previous model.",
-      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
     },
     {
       title: "Nemotron-Mini-Hindi",
@@ -2042,14 +2058,6 @@ const papers_data = [
       description:
         "Introduces VisualWebInstruct, a novel approach leveraging Google Image Search and LLMs (Gemini and GPT-4) to create a large-scale, diverse multimodal instruction dataset of ~900K question-answer pairs (40% visual) focused on complex reasoning across various scientific disciplines. Fine-tuning existing VLMs on this dataset leads to significant performance gains on reasoning benchmarks.",
       tags: ["Multimodal Models", "Synthetic Data"],
-    },
-    {
-      title: "Mistral Small 3.1",
-      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#1065",
-      date: "March 2025",
-      description:
-        "A multimodal language model built upon Mistral Small 3 with improved text performance and an expanded context window of up to 128k tokens.",
-      tags: ["Multimodal Models", "Mistral"],
     },
   ],
   [
@@ -3830,7 +3838,7 @@ const papers_data = [
     },
     {
       title: "OpenCodeReasoning",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-361-opencodereasoning-0e0b4439324a",
       date: "April 2025",
       description:
         "A publicly available dataset containing 736,712 Python code solutions with accompanying reasoning traces, spanning 28,904 unique competitive programming questions generated by DeepSeek-R1, designed to enhance the reasoning capabilities of LLMs in coding tasks through SFT.",
