@@ -980,7 +980,7 @@ const papers_data = [
     },
     {
       title: "Llama-Nemotron",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-362-llama-nemotron-d6b64f407e28",
       date: "May 2025",
       description:
         "An open-source family of heterogeneous reasoning models (Nano (8B), Super (49B), and Ultra (253B)) designed for exceptional reasoning, and efficient inference. Trained using neural architecture search, knowledge distillation, continued pretraining, supervised fine-tuning, and reinforcement learning, these models offer a dynamic reasoning toggle for switching between standard chat and detailed reasoning modes, achieving state-of-the-art performance, especially LN-Ultra which surpasses DeepSeek-R1 in scientific reasoning.",
@@ -2293,6 +2293,14 @@ const papers_data = [
       description:  
         "A generative PRM that verifies step-by-step solutions using a long CoT reasoning process. Trained on a small amount of synthetic data, it outperforms both discriminative PRMs trained on significantly more data and LLM-as-a-Judge baselines in various reasoning tasks and verification scenarios.",
       tags: ["LLM for Math", "Process Reward Model"],
+    },
+    {
+      title: "RM-R1",
+      link: "", 
+      date: "May 2025",
+      description:
+        "A family Generative Reward Models, called as Reasoning Reward Models that formulates reward modeling as a reasoning task, enhancing interpretability and performance. Trained via a reasoning-oriented pipeline involving structured reasoning distillation and reinforcement learning with verifiable rewards, RM-R1 generates reasoning traces or chat-specific rubrics to evaluate candidate responses.",
+      tags: ["LLM for Math", "Outcome Reward Model"],
     }
   ],
   [
