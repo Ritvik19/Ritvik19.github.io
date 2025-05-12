@@ -972,7 +972,7 @@ const papers_data = [
     },
     {
       title: "UltraLong",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-363-ultralong-981e997e4e19",
       date: "April 2025",
       description:
         "Introduces a training method for developing ultra-long context LLMs with context windows extending up to 4 million tokens, achieved through efficient continued pretraining with YaRN-based scaling, followed by instruction tuning.",
@@ -2826,6 +2826,14 @@ const papers_data = [
       tags: ["LLM for Math"],
     },
     {
+      title: "AdaptiVocab",
+      link: "",
+      date: "March 2025",
+      description:
+        "An end-to-end approach for vocabulary adaptation designed to enhance LLM efficiency in low-resource domains by adapting the vocabulary to focused domains of interest. It modifies the vocabulary by replacing tokens with domain-specific n-gram-based tokens, reducing the number of tokens required for input processing and output generation, and initializes new n-token embeddings using an exponentially weighted combination of existing embeddings, followed by a lightweight fine-tuning phase.",
+      tags: [],
+    },
+    {
       title: "ReSearch",
       link: "https://ritvik19.medium.com/papers-explained-349-research-80c79cb22fed",
       date: "March 2025",
@@ -4553,6 +4561,15 @@ const papers_data = [
       description:
         "Challenges the prevailing belief that RLVR significantly improves LLMs' reasoning abilities, finding instead that while RLVR increases sampling efficiency for correct answers at low k values in pass@k, it actually restricts the overall reasoning capacity boundary at high k values compared to base models due to reduced exploration of potentially successful reasoning paths already present in the base model.",
       tags: ["Language Models"],
+    },
+    {
+      title: "Crosslingual Reasoning through Test-Time Scaling",
+      link: "",
+      date: "May 2025",
+      description:
+        "Investigates the crosslingual generalization capabilities of English-centric Reasoning Language Models (RLMs) through test-time scaling. It demonstrates that scaling up inference compute for these models improves multilingual mathematical reasoning, reveals a quote-and-think language-mixing pattern, discovers a strategy to control reasoning language (with better performance in high-resource languages), and observes poor out-of-domain reasoning generalization.",
+      tags: ["Language Models"],
+
     }
   ],
 ];
