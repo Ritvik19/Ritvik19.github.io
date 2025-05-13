@@ -3814,7 +3814,7 @@ const papers_data = [
     },
     {
       title: "OmniMath",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-364-omnimath-bd2687c23e81",
       date: "October 2024",
       description:
         "A comprehensive benchmark dataset designed to evaluate the mathematical reasoning abilities of LLMs at the Olympiad level, comprising 4428 competition-level problems across 33 sub-domains and 10 difficulty levels, with a rigorous evaluation process utilizing GPT-4o and an open-source verifier, OmniJudge, to address the limitations of existing benchmarks that are now easily solved by advanced LLMs.",
