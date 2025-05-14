@@ -3862,7 +3862,7 @@ const papers_data = [
     },
     {
       title: "DeepMath",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-365-deepmath-496109878202",
       date: "April 2025",
       description:
         "A large-scale dataset of ~103K challenging math problems designed for training reasoning models via reinforcement learning or supervised finetuning. It features verifiable answers for rule-based RL, three distinct AI-generated solutions per problem for diverse training approaches, and rigorous decontamination against existing benchmarks to ensure evaluation integrity and promote generalizable reasoning.",
