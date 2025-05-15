@@ -2128,7 +2128,7 @@ const papers_data = [
     },
     {
       title: "Math Shepherd",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-366-math-shepherd-234b1bdfbcae",
       date: "December 2023",
       description:
         "A process reward model that automatically scores the correctness of each step in a math problem solution, using this to rerank LLM outputs and to reinforce LLMs via step-by-step PPO, without human annotations or external tools. It leverages a Monte Carlo Tree Search inspired approach where an LLM decodes multiple subsequent paths from each step and the step's score reflects how many lead to the correct final answer.",
