@@ -1152,7 +1152,7 @@ const papers_data = [
     },
     {
       title: "Gemini 2.0 Flash",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-367-gemini-models-97b6b71e0054#3a09",
       date: "December 2024",
       description:  
         "A faster, more powerful large language model than its predecessor, boasting enhanced multimodal input/output (including native image generation and steerable multilingual audio), native tool use (like Google Search and code execution), and enabling a new class of agentic experiences through improved reasoning and complex instruction following.",
@@ -1168,7 +1168,7 @@ const papers_data = [
     },
     {
       title: "Gemini 2.0 Flash Lite",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-367-gemini-models-97b6b71e0054#d87a",
       date: "February 2025",
       description:
         "A production-ready language model offering enhanced performance over its predecessor (1.5 Flash) in reasoning, multimodal tasks, math, and factual accuracy, along with cost-effective pricing, making it ideal for applications requiring long context windows.",
@@ -1208,7 +1208,7 @@ const papers_data = [
     },
     {
       title: "Gemini 2.5 Pro",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-367-gemini-models-97b6b71e0054#5485",
       date: "March 2025",
       description:
         "Google's most advanced experimental AI model, excelling in complex tasks due to its enhanced reasoning and coding capabilities, achieving state-of-the-art performance on various benchmarks, and building upon Gemini's strengths of native multimodality and a long context window.",
@@ -1224,7 +1224,7 @@ const papers_data = [
     },
     {
       title: "Gemini 2.5 Flash",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-367-gemini-models-97b6b71e0054#b40c",
       date: "April 2025",
       description:
         "A hybrid reasoning model that allows developers to control a 'thinking' process for improved accuracy on complex tasks, offering a customizable thinking budget to balance quality, cost, and speed.",
@@ -2028,6 +2028,14 @@ const papers_data = [
       tags: ["Multimodal Models"],
     },
     {
+      title: "Eagle 2",
+      link: "",
+      date: "January 2025",
+      description:
+        "A family of performant vision-language models (VLMs) developed by building a post-training data strategy from scratch, focusing on data collection, filtering, selection, and augmentation, alongside a vision-centric architecture design with tiled mixture of vision encoders and a three-stage training recipe.",
+      tags: ["Multimodal Models", "Nvidia"],
+    },
+    {
       title: "Phi-4 Multimodal",
       link: "https://ritvik19.medium.com/papers-explained-322-phi-4-mini-phi-4-multimodal-2be1a69be78c",
       date: "February 2025",
@@ -2058,6 +2066,14 @@ const papers_data = [
       description:
         "Introduces VisualWebInstruct, a novel approach leveraging Google Image Search and LLMs (Gemini and GPT-4) to create a large-scale, diverse multimodal instruction dataset of ~900K question-answer pairs (40% visual) focused on complex reasoning across various scientific disciplines. Fine-tuning existing VLMs on this dataset leads to significant performance gains on reasoning benchmarks.",
       tags: ["Multimodal Models", "Synthetic Data"],
+    },
+    {
+      title: "Eagle 2.5",
+      link: "",
+      date: "April 2025",
+      description:
+        "A family of vision-language models designed for long-context multimodal learning, addressing challenges in long video comprehension and high-resolution image understanding through a generalist framework. It incorporates Automatic Degrade Sampling, Image Area Preservation, efficiency optimizations, and the Eagle-Video-110K dataset, achieving substantial improvements on long-context multimodal benchmarks.",
+      tags: ["Multimodal Models", "Nvidia"],
     },
   ],
   [
@@ -2288,7 +2304,7 @@ const papers_data = [
     },
     {
       title: "ThinkPRM",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-368-thinkprm-0f530cc98ca4",
       date: "April 2025",
       description:  
         "A generative PRM that verifies step-by-step solutions using a long CoT reasoning process. Trained on a small amount of synthetic data, it outperforms both discriminative PRMs trained on significantly more data and LLM-as-a-Judge baselines in various reasoning tasks and verification scenarios.",
@@ -2296,7 +2312,7 @@ const papers_data = [
     },
     {
       title: "RM-R1",
-      link: "", 
+      link: "https://ritvik19.medium.com/papers-explained-369-rm-r1-5a1b5f7ff27a", 
       date: "May 2025",
       description:
         "A family Generative Reward Models, called as Reasoning Reward Models that formulates reward modeling as a reasoning task, enhancing interpretability and performance. Trained via a reasoning-oriented pipeline involving structured reasoning distillation and reinforcement learning with verifiable rewards, RM-R1 generates reasoning traces or chat-specific rubrics to evaluate candidate responses.",
@@ -2864,6 +2880,14 @@ const papers_data = [
       description:
         "Trains an LLM using reinforcement learning with a verifiable reward (e.g., a binary correct/incorrect signal) on only a single training example, surprisingly achieving comparable performance to training on much larger datasets in mathematical reasoning tasks.",
       tags: ["LLM for Math"],
+    },
+    {
+      title: "Absolute Zero",
+      link: "",
+      date: "May 2025",
+      description:
+        "A new reinforcement learning paradigm that trains reasoning models without any human-curated data. It involves a single model learning to propose tasks that maximize its own learning progress and improving reasoning by solving them, using a code executor to validate tasks and verify answers, enabling continuous self-improvement without human intervention.",
+      tags: [],
     }
   ],
   [
@@ -3107,6 +3131,14 @@ const papers_data = [
         "Autoregressive Image Models",
       ],
     },
+    {
+      title: "Perception Encoder",
+      link: "",
+      date: "April 2025",
+      description:
+        "A vision encoder trained via vision-language learning that achieves state-of-the-art results on various tasks, including zero-shot image and video classification/retrieval, document/image/video Q&A, and spatial tasks like detection and depth estimation. It leverages contrastive vision-language training, language alignment, and spatial alignment to produce strong, general embeddings from intermediate layers, outperforming existing models.",
+      tags: ["Vision Transformers"],
+    }
   ],
   [
     // Convolutional Neural Networks
@@ -4569,7 +4601,14 @@ const papers_data = [
       description:
         "Investigates the crosslingual generalization capabilities of English-centric Reasoning Language Models (RLMs) through test-time scaling. It demonstrates that scaling up inference compute for these models improves multilingual mathematical reasoning, reveals a quote-and-think language-mixing pattern, discovers a strategy to control reasoning language (with better performance in high-resource languages), and observes poor out-of-domain reasoning generalization.",
       tags: ["Language Models"],
-
+    },
+    {
+      title: "Examining Citation Relationships using LLMs",
+      link: "",
+      date: "May 2025",
+      description:
+        "Addresses interpretability of LLMs in document-based tasks through attribution, which involves tracing generated outputs back to their source documents, through two techniques: a zero-shot approach framing attribution as textual entailment (using flan-ul2) and an attention-based binary classification technique (using flan-t5-small)",
+      tags: ["Language Models"],
     }
   ],
 ];
