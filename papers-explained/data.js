@@ -2584,7 +2584,7 @@ const papers_data = [
     },
     {
       title: "ReasonIR",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-371-reasonir-7ae7a6ceb54b",
       date: "April 2025",
       description:
         "A novel bi-encoder retriever specifically trained for reasoning-intensive tasks using a synthetic data generation pipeline, to create challenging queries paired with relevant documents and plausibly related but unhelpful hard negatives. It is trained on this synthetic data and existing public datasets.",
@@ -2904,6 +2904,14 @@ const papers_data = [
       description:
         "A semi-automated framework designed to generate high-quality instruction-input-output triplets for new tasks, using Reinforcement Learning from Automated Feedback. It utilizes a small seed set of manually written tasks to generate instructions, employs reinforcement learning to improve the quality of input-output pairs, and constructs an Instruction Fine Tuning dataset for refining base models through supervised fine-tuning.",
       tags: ["Synthetic Data"],
+    },
+    {
+      title: "J1",
+      link: "",
+      date: "May 2025",
+      description:
+        "A reinforcement learning approach for training LLM-as-a-Judge models that converts both verifiable and non-verifiable prompts into judgment tasks with verifiable rewards to incentivize thinking and mitigate judgment bias.",
+      tags: ["Outcome Reward Model"],
     }
   ],
   [
