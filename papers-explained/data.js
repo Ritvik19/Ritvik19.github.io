@@ -985,7 +985,15 @@ const papers_data = [
       description:
         "An open-source family of heterogeneous reasoning models (Nano (8B), Super (49B), and Ultra (253B)) designed for exceptional reasoning, and efficient inference. Trained using neural architecture search, knowledge distillation, continued pretraining, supervised fine-tuning, and reinforcement learning, these models offer a dynamic reasoning toggle for switching between standard chat and detailed reasoning modes, achieving state-of-the-art performance, especially LN-Ultra which surpasses DeepSeek-R1 in scientific reasoning.",
       tags: ["Language Models", "Transformer Decoder", "Nvidia", "Reasoning"],
-    }
+    },
+    {
+      title: "Devstral",
+      link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#d26b",
+      date: "May 2025",
+      description:
+        "An agentic LLM for software engineering tasks developed through a collaboration between Mistral AI and All Hands AI. It is finetuned from Mistral-Small-3.1",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
+    },
   ],
   [
     // Frontier Models
@@ -1254,6 +1262,15 @@ const papers_data = [
         "A cost-effective, high-performing language model designed for enterprise use, offering SOTA performance comparable to Claude Sonnet 3.7 at 8x lower cost, excelling in professional tasks like coding and STEM.",
       tags: ["Language Models", "Transformer Decoder", "Mistral"],
     },
+    {
+      title: "Claude 4",
+      link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#90f2",
+      date: "May 2025",
+      description:
+        "Hybrid models offering two modes: near-instant responses and extended thinking for deeper reasoning, setting new standards for coding, advanced reasoning, and AI agents.",
+      tags: ["Multimodal Models", "Anthropic", "Claude"],
+    }
+    
   ],
   [
     // Small LLMs
@@ -1735,7 +1752,16 @@ const papers_data = [
         "Phi",
         "Reasoning",
       ],
+    },
+    {
+      title: "Gemma 3n",
+      link: "https://ritvik19.medium.com/papers-explained-329-gemma-3-153803a2c591#f2b2",
+      date: "May 2025",
+      description:
+        "model optimized for on-device use, featuring innovations like PLE caching and MatFormer architecture for efficient performance.",
+      tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Gemma"],
     }
+
   ],
   [
     // Multi Modal Language Models
@@ -1978,6 +2004,14 @@ const papers_data = [
       description:
         "A collection of small, efficient, open-source vision-language models built on top of Danube, trained on 37 million image-text pairs, specifically designed to perform well on document analysis and OCR tasks while maintaining strong performance on general vision-language benchmarks.",
       tags: ["Multimodal Models", "Danube", "H2O"],
+    },
+    {
+      title: "Pangea",
+      link: "",
+      date: "October 2024",
+      description:
+        "An open-source multilingual multimodal LLM designed to bridge linguistic and cultural gaps in visual understanding tasks, trained on PangeaIns, a 6 million sample instruction dataset spanning 39 languages, and evaluated using PangeaBench, a holistic evaluation suite encompassing 14 datasets covering 47 languages.",
+      tags: ["Multimodal Models", "Multilingual Models"],
     },
     {
       title: "Pixtral Large",
@@ -4604,7 +4638,7 @@ const papers_data = [
     },
     {
       title: "QALIGN",
-      link: "",
+      link: "https://ritvik19.medium.com/papers-explained-372-qalign-977600e913fb",
       date: "April 2025",
       description:
         "A test-time alignment method that uses Markov Chain Monte Carlo (MCMC) sampling to generate a sequence of increasingly aligned text samples, guided by a reward model. It then selects the final output using Minimum Bayes Risk (MBR) over the generated samples.",
