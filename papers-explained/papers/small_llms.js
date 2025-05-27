@@ -488,7 +488,7 @@ const small_llms = [
   },
   {
     title: "Sarvam - M",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-374-sarvam-m-594e1bfb6b6c",
     date: "May 2025",
     description:
       "A large language model built on top of Mistral Small, enhanced through supervised finetuning (SFT), reinforcement learning with verifiable rewards (RLVR), and inference optimization, with a focus on Indian languages and reasoning tasks like math and programming.",
