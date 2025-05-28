@@ -239,4 +239,18 @@ const llm_for_math = [
       "A family Generative Reward Models, called as Reasoning Reward Models that formulates reward modeling as a reasoning task, enhancing interpretability and performance. Trained via a reasoning-oriented pipeline involving structured reasoning distillation and reinforcement learning with verifiable rewards, RM-R1 generates reasoning traces or chat-specific rubrics to evaluate candidate responses.",
     tags: ["LLM for Math", "Outcome Reward Model"],
   },
+  {
+    title: "Fathom R1",
+    link: "",
+    description: 
+      "A 14B parameter reasoning language model, derived from Deepseek-R1-Distilled-Qwen-14B, trained using supervised fine-tuning (SFT) on curated datasets and model merging, and the models, post-training recipes, and datasets are open-sourced.",
+    tags: ["LLM for Math"],
+  },
+  {
+    title: "AceReason-Nemotron",
+    link: "",
+    description:
+      "Demonstrates that large-scale reinforcement learning can significantly enhance the reasoning capabilities of strong small- and mid-sized models by first training on math-only prompts, then on code-only prompts.",
+    tags: ["LLM for Math", "Reinforcement Learning"],
+  }
 ];

@@ -297,7 +297,7 @@ const llm_training = [
   },
   {
     title: "Absolute Zero",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-375-absolute-zero-dc2e175488c3",
     date: "May 2025",
     description:
       "A new reinforcement learning paradigm that trains reasoning models without any human-curated data. It involves a single model learning to propose tasks that maximize its own learning progress and improving reasoning by solving them, using a code executor to validate tasks and verify answers, enabling continuous self-improvement without human intervention.",
