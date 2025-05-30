@@ -305,7 +305,7 @@ const llm_training = [
   },
   {
     title: "REFINE-AF",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-376-refine-af-7879070779b2",
     date: "May 2025",
     description:
       "A semi-automated framework designed to generate high-quality instruction-input-output triplets for new tasks, using Reinforcement Learning from Automated Feedback. It utilizes a small seed set of manually written tasks to generate instructions, employs reinforcement learning to improve the quality of input-output pairs, and constructs an Instruction Fine Tuning dataset for refining base models through supervised fine-tuning.",

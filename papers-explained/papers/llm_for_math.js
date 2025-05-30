@@ -241,7 +241,7 @@ const llm_for_math = [
   },
   {
     title: "Fathom R1",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explainedv377-fathom-r1-ba93dd040cbf",
     description: 
       "A 14B parameter reasoning language model, derived from Deepseek-R1-Distilled-Qwen-14B, trained using supervised fine-tuning (SFT) on curated datasets and model merging, and the models, post-training recipes, and datasets are open-sourced.",
     tags: ["LLM for Math"],
