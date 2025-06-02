@@ -319,4 +319,28 @@ const llm_training = [
       "A reinforcement learning approach for training LLM-as-a-Judge models that converts both verifiable and non-verifiable prompts into judgment tasks with verifiable rewards to incentivize thinking and mitigate judgment bias.",
     tags: ["Outcome Reward Model"],
   },
+  {
+    title: "Perplexity-based Importance Refinement (PIR)",
+    link: "",
+    date: "May 2025",
+    description:
+      "A framework that optimizes chain-of-thought data by identifying and pruning low-importance functional steps in reasoning chains, while preserving the core progressive reasoning. Fine-tuning models on PIR-optimized data results in improved accuracy and reduced token usage across challenging reasoning benchmarks.",
+    tags: ["Language Models", "LLM for Math"],
+  },
+  {
+    title: "Adaptive Reasoning Model",
+    link: "",
+    date: "May 2025",
+    description:
+      "A reasoning model that adaptively selects appropriate reasoning formats (Direct Answer, Short CoT, Code, and Long CoT) based on task difficulty to balance performance and computational efficiency. It is trained using Ada-GRPO, an adaptation of GRPO, to address format collapse and improve training speed.",
+    tags: ["Language Models", "LLM for Math"],
+  },
+  {
+    title: "rStar-Coder",
+    link: "",
+    date: "May 2025",
+    description:
+      "A novel approach for improving code reasoning in LLMs by constructing a large-scale, verified dataset of 418K competition-level code problems with 580K long-reasoning solutions and rich test cases. It curates competitive programming problems, synthesizes new solvable problems, generates reliable input-output test cases using a three-step input generation method and mutual verification mechanism, and augments problems with test-case-verified long-reasoning solutions.",
+    tags: ["LLM for Code"],
+  }
 ];

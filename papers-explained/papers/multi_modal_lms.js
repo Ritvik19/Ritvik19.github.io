@@ -297,7 +297,7 @@ const multi_modal_lms = [
   },
   {
     title: "Eagle 2",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-378-eagle-2-cda1e612c0b4",
     date: "January 2025",
     description:
       "A family of performant vision-language models (VLMs) developed by building a post-training data strategy from scratch, focusing on data collection, filtering, selection, and augmentation, alongside a vision-centric architecture design with tiled mixture of vision encoders and a three-stage training recipe.",

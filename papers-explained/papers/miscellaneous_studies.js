@@ -392,4 +392,12 @@ const miscellaneous_studies = [
       "Addresses interpretability of LLMs in document-based tasks through attribution, which involves tracing generated outputs back to their source documents, through two techniques: a zero-shot approach framing attribution as textual entailment (using flan-ul2) and an attention-based binary classification technique (using flan-t5-small)",
     tags: ["Language Models"],
   },
+  {
+    title: "short-m@k",
+    link: "",
+    date: "May 2025",
+    description:
+      "Challenges the assumption that longer reasoning chains in LLMs lead to better reasoning, demonstrating that shorter chains are often more accurate and propose a new inference method, short-m@k, which executes parallel generations and halts after m chains, using majority voting for the final answer, achieving similar or superior performance with reduced computational costs and inference time.",
+    tags: ["Language Models", "LLM for Math"],
+  },
 ];
