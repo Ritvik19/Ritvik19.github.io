@@ -400,4 +400,12 @@ const miscellaneous_studies = [
       "Challenges the assumption that longer reasoning chains in LLMs lead to better reasoning, demonstrating that shorter chains are often more accurate and propose a new inference method, short-m@k, which executes parallel generations and halts after m chains, using majority voting for the final answer, achieving similar or superior performance with reduced computational costs and inference time.",
     tags: ["Language Models", "LLM for Math"],
   },
+  {
+    title: "Paper2Poster",
+    link: "",
+    date: "May 2025",
+    description:
+      "A multi-agent pipeline that distills papers into structured assets, plans layouts, and refines panels with visual feedback.",
+    tags: ["Agentic Systems"],
+  }
 ];

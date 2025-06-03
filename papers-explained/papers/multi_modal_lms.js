@@ -337,7 +337,7 @@ const multi_modal_lms = [
   },
   {
     title: "Eagle 2.5",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-379-eagle-2-5-73ffe73dc009",
     date: "April 2025",
     description:
       "A family of vision-language models designed for long-context multimodal learning, addressing challenges in long video comprehension and high-resolution image understanding through a generalist framework. It incorporates Automatic Degrade Sampling, Image Area Preservation, efficiency optimizations, and the Eagle-Video-110K dataset, achieving substantial improvements on long-context multimodal benchmarks.",
