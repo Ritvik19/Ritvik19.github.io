@@ -249,7 +249,7 @@ const llm_for_math = [
   },
   {
     title: "AceReason-Nemotron",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-381-acereason-nemotron-0b3bd6495890",
     date: "May 2025",
     description:
       "Demonstrates that large-scale reinforcement learning can significantly enhance the reasoning capabilities of strong small- and mid-sized models by first training on math-only prompts, then on code-only prompts.",

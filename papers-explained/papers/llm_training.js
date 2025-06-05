@@ -249,7 +249,7 @@ const llm_training = [
   },
   {
     title: "SPHERE",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-380-self-evolved-preference-optimization-sphere-f256c1a7bb0f",
     date: "March 2025",
     description:
       "A self-evolving data generation pipeline that enhances mathematical reasoning in SLMs by iteratively generating, correcting, and diversifying reasoning chains through three stages: self-generation of initial reasoning paths, self-correction of errors in those paths, and diversity generation by introducing varied incorrect reasoning using a smaller model; this data is then used to fine-tune the SLM with Direct Preference Optimization.",
