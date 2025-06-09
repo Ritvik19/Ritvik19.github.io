@@ -149,7 +149,7 @@ const vision_transformers = [
   },
   {
     title: "Perception Encoder",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-383-perception-encoder-86dda5791ddf",
     date: "April 2025",
     description:
       "A vision encoder trained via vision-language learning that achieves state-of-the-art results on various tasks, including zero-shot image and video classification/retrieval, document/image/video Q&A, and spatial tasks like detection and depth estimation. It leverages contrastive vision-language training, language alignment, and spatial alignment to produce strong, general embeddings from intermediate layers, outperforming existing models.",
