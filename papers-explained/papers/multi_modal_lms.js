@@ -345,7 +345,7 @@ const multi_modal_lms = [
   },
   {
     title: "PerceptionLM",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-384-perceptionlm-15787f8950f6",
     date: "April 2025",
     description:
       "An open and reproducible framework for image and video understanding research, addressing the limitations of closed-source VLMs and the issues with distillation from proprietary models.",

@@ -494,4 +494,12 @@ const small_llms = [
       "A large language model built on top of Mistral Small, enhanced through supervised finetuning (SFT), reinforcement learning with verifiable rewards (RLVR), and inference optimization, with a focus on Indian languages and reasoning tasks like math and programming.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
   },
+  {
+    title: "Sarvam - Translate",
+    link: "",
+    date: "June",
+    description:
+      "A translation model trained by fine-tuning Gemma3–4B-IT. It supports 22 Indian languages - Hindi, Bengali, Marathi, Telugu, Tamil, Gujarati, Urdu, Kannada, Odia, Malayalam, Punjabi, Assamese, Maithili, Santali, Kashmiri, Nepali, Sindhi, Dogri, Konkani, Manipuri (Meitei), Bodo, Sanskrit.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models"],
+  }
 ];
