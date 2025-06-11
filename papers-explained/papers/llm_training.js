@@ -313,7 +313,7 @@ const llm_training = [
   },
   {
     title: "J1",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-385-j1-8245b6ee64df",
     date: "May 2025",
     description:
       "A reinforcement learning approach for training LLM-as-a-Judge models that converts both verifiable and non-verifiable prompts into judgment tasks with verifiable rewards to incentivize thinking and mitigate judgment bias.",
@@ -342,5 +342,13 @@ const llm_training = [
     description:
       "A novel approach for improving code reasoning in LLMs by constructing a large-scale, verified dataset of 418K competition-level code problems with 580K long-reasoning solutions and rich test cases. It curates competitive programming problems, synthesizes new solvable problems, generates reliable input-output test cases using a three-step input generation method and mutual verification mechanism, and augments problems with test-case-verified long-reasoning solutions.",
     tags: ["LLM for Code"],
+  },
+  {
+    title: "ProRL",
+    link: "",
+    date: "May 2025",
+    description:
+      "Challenges the idea that RL only amplifies existing outputs and demonstrates that prolonged RL training can uncover novel reasoning strategies not accessible to base models. ProRL is designed to enable extended reinforcement learning training periods, facilitating deeper exploration of reasoning strategies by incorporating KL divergence control, reference policy resetting, and a diverse suite of tasks.",
+    tags: ["Language Models", "LLM for Math"],
   }
 ];

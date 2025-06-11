@@ -343,6 +343,14 @@ const small_llms = [
     ],
   },
   {
+    title: "Mistral Small",
+    link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#5662",
+    date: "September 2024",
+    description:
+      "A 22B model with significant improvements in human alignment, reasoning capabilities, and code over the previous model.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
+  },
+  {
     title: "Nemotron-Mini-Hindi",
     link: "https://ritvik19.medium.com/papers-explained-252-nemotron-mini-hindi-c7adc3b2f759",
     date: "October 2024",
@@ -449,6 +457,14 @@ const small_llms = [
     ],
   },
   {
+    title: "Mistral Small 3.1",
+    link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#1065",
+    date: "March 2025",
+    description:
+      "A multimodal language model built upon Mistral Small 3 with improved text performance and an expanded context window of up to 128k tokens.",
+    tags: ["Multimodal Models", "Mistral"],
+  },
+  {
     title: "Phi-4-Reasoning",
     link: "https://ritvik19.medium.com/papers-explained-358-phi-4-reasoning-98c1d3b5e52d",
     date: "April 2025",
@@ -497,9 +513,17 @@ const small_llms = [
   {
     title: "Sarvam - Translate",
     link: "",
-    date: "June",
+    date: "June 2025",
     description:
       "A translation model trained by fine-tuning Gemma3–4B-IT. It supports 22 Indian languages - Hindi, Bengali, Marathi, Telugu, Tamil, Gujarati, Urdu, Kannada, Odia, Malayalam, Punjabi, Assamese, Maithili, Santali, Kashmiri, Nepali, Sindhi, Dogri, Konkani, Manipuri (Meitei), Bodo, Sanskrit.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models"],
+  },
+  {
+    title: "Magistral",
+    link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#da9d",
+    date: "June 2025",
+    description:
+      "Mistral AI's first reasoning model, available in both open-source (Magistral Small, 24B parameters) and enterprise (Magistral Medium) versions, designed for domain-specific, transparent, and multilingual reasoning across various applications like business strategy, regulated industries, and software engineering.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
   }
 ];

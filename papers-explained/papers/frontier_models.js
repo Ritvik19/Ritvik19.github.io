@@ -128,14 +128,7 @@ const frontier_models = [
       "A frontier language model with state-of-the-art capabilities in chat, coding, and reasoning on par with Claude 3.5 Sonnet and GPT-4-Turbo.",
     tags: ["Multimodal Models", "Grok"],
   },
-  {
-    title: "Mistral Small",
-    link: "https://medium.com/dair-ai/papers-explained-mistral-7b-b9632dedf580#5662",
-    date: "September 2024",
-    description:
-      "A 22B model with significant improvements in human alignment, reasoning capabilities, and code over the previous model.",
-    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
-  },
+
   {
     title: "o1",
     link: "https://ritvik19.medium.com/papers-explained-211-o1-163fd9c7308e",
@@ -225,14 +218,6 @@ const frontier_models = [
     description:
       "A research preview model representing an advancement in scaling unsupervised learning through increased compute, data, architecture, and optimization innovations, resulting in broader knowledge, deeper understanding, reduced hallucinations, and increased reliability. It excels in tasks requiring natural conversation, creativity, and understanding human intent due to new scalable training techniques derived from smaller models.",
     tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
-  },
-  {
-    title: "Mistral Small 3.1",
-    link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#1065",
-    date: "March 2025",
-    description:
-      "A multimodal language model built upon Mistral Small 3 with improved text performance and an expanded context window of up to 128k tokens.",
-    tags: ["Multimodal Models", "Mistral"],
   },
   {
     title: "Gemini 2.5 Pro",
