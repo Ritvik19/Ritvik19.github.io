@@ -345,7 +345,7 @@ const llm_training = [
   },
   {
     title: "ProRL",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-386-prorl-261c9ac00bc7",
     date: "May 2025",
     description:
       "Challenges the idea that RL only amplifies existing outputs and demonstrates that prolonged RL training can uncover novel reasoning strategies not accessible to base models. ProRL is designed to enable extended reinforcement learning training periods, facilitating deeper exploration of reasoning strategies by incorporating KL divergence control, reference policy resetting, and a diverse suite of tasks.",
