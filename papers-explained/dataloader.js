@@ -98,7 +98,7 @@ function createLiteratureReviewSection(data) {
 function populateContainer() {
   let container = document.getElementById("container");
 
-  nav_data.forEach((navItem, index) => {
+  all_classes.forEach((navItem, index) => {
     container.innerHTML += createSection(
       `line_${index + 1}`,
       navItem,
@@ -107,27 +107,21 @@ function populateContainer() {
   });
 
   container.innerHTML += createSection(
-    `line_${nav_data.length + 1}`,
+    `line_${all_classes.length + 1}`,
     "Surveys",
     createSurveySection(surveys_data)
   )
 
   container.innerHTML += createSection(
-    `line_${nav_data.length + 2}`,
+    `line_${all_classes.length + 2}`,
     "Journeys",
     createSurveySection(journeys_data)
   );
 
   container.innerHTML += createSection(
-    `line_${nav_data.length + 3}`,
+    `line_${all_classes.length + 3}`,
     "Literature Reviews",
     createLiteratureReviewSection(literature_review_data)
-  );
-
-  container.innerHTML += createSection(
-    `line_${nav_data.length + 4}`,
-    "Reading Lists",
-    createSectionWithCards(reading_list_data)
   );
 }
 
@@ -179,15 +173,34 @@ function hideEmptySections() {
   });
 }
 
-function populateNav() {
-  nav = document.getElementById("nav");
-  nav_data.forEach((navItem, index) => {
-    nav.innerHTML += `<li><a href="#line_${index + 1}" class="nav-link">${navItem}</a></li>`;
-  });
-  nav.innerHTML += `<li><a href="#line_${nav_data.length + 1}" class="nav-link">Surveys</a></li>`;
-  nav.innerHTML += `<li><a href="#line_${nav_data.length + 2}" class="nav-link">Journeys</a></li>`;
-  nav.innerHTML += `<li><a href="#line_${nav_data.length + 3}" class="nav-link">Literature Reviews</a></li>`;
-  nav.innerHTML += `<li><a href="#line_${nav_data.length + 4}" class="nav-link">Reading Lists</a></li>`;
+// function populateNav() {
+//   nav = document.getElementById("nav");
+//   all_classes.forEach((navItem, index) => {
+//     nav.innerHTML += `<li><a href="#line_${index + 1}" class="nav-link">${navItem}</a></li>`;
+//   });
+//   nav.innerHTML += `<li><a href="#line_${all_classes.length + 1}" class="nav-link">Surveys</a></li>`;
+//   nav.innerHTML += `<li><a href="#line_${all_classes.length + 2}" class="nav-link">Journeys</a></li>`;
+//   nav.innerHTML += `<li><a href="#line_${all_classes.length + 3}" class="nav-link">Literature Reviews</a></li>`;
+//   nav.innerHTML += `<li><a href="#line_${all_classes.length + 4}" class="nav-link">Reading Lists</a></li>`;
+// }
+
+function populateNav(){
+  const nav = document.getElementById("nav");
+  count = 1;
+  for (const [category, sub_categories] of Object.entries(nav_data)) {
+    console.log(category, sub_categories);
+    nav_item = `<li><a href="#line_${count}">${category}</a><ul class="nav">`;
+    nav_item += sub_categories.map((sub_category, index) => {
+      item = `<li><a href="#line_${count}" class="nav-link">${sub_category}</a></li>`
+      count++;
+      return item;
+    }).join('');
+    nav_item += `</ul></li>`;
+    nav.innerHTML += nav_item;
+  }
+  nav.innerHTML += `<li><a href="#line_${count}" class="nav-link">Surveys</a></li>`;
+  nav.innerHTML += `<li><a href="#line_${count + 1}" class="nav-link">Journeys</a></li>`;
+  nav.innerHTML += `<li><a href="#line_${count + 2}" class="nav-link">Literature Reviews</a></li>`;
 }
 
 populateContainer();
