@@ -415,5 +415,13 @@ const miscellaneous_studies = [
     description:
       "A multi-agent pipeline that distills papers into structured assets, plans layouts, and refines panels with visual feedback.",
     tags: ["Agentic Systems"],
+  },
+  {
+    title: "Evaluation is All You Need",
+    link: "",
+    date: "June 2025",
+    description:
+      "The study reveals that the benchmark evaluation results of reasoning models are subject to significant fluctuations caused by various factors. Subtle differences in evaluation conditions can lead to substantial variations in results, making their claimed performance improvements difficult to reproduce reliably.",
+    tags: ["LLM Evaluation"],
   }
 ];

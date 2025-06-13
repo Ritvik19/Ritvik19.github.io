@@ -512,7 +512,7 @@ const small_llms = [
   },
   {
     title: "Sarvam - Translate",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-387-sarvam-translate-fb96bd865054",
     date: "June 2025",
     description:
       "A translation model trained by fine-tuning Gemma3–4B-IT. It supports 22 Indian languages - Hindi, Bengali, Marathi, Telugu, Tamil, Gujarati, Urdu, Kannada, Odia, Malayalam, Punjabi, Assamese, Maithili, Santali, Kashmiri, Nepali, Sindhi, Dogri, Konkani, Manipuri (Meitei), Bodo, Sanskrit.",
