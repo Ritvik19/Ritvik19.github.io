@@ -260,4 +260,12 @@ const retrieval_and_representation_learning = [
       "A novel bi-encoder retriever specifically trained for reasoning-intensive tasks using a synthetic data generation pipeline, to create challenging queries paired with relevant documents and plausibly related but unhelpful hard negatives. It is trained on this synthetic data and existing public datasets.",
     tags: ["Retrieval", "Representation Learning", "Reasoning"],
   },
+  {
+    title: "Hard Negative Mining for Domain-Specific Retrieval",
+    link: "",
+    date: "May 2025",
+    description:
+      "Addresses the challenge of retrieving accurate, domain-specific information in enterprise search systems, by dynamically selecting semantically challenging but contextually irrelevant documents to improve re-ranking models. The method integrates diverse embedding models, performs dimensionality reduction, and employs a unique hard negative selection process to ensure computational efficiency and semantic precision.",
+    tags: ["Retrieval"],
+  }
 ];

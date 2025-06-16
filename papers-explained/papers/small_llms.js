@@ -520,7 +520,7 @@ const small_llms = [
   },
   {
     title: "Magistral",
-    link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#da9d",
+    link: "https://ritvik19.medium.com/papers-explained-388-magistral-d79523e0df6b",
     date: "June 2025",
     description:
       "Mistral AI's first reasoning model, available in both open-source (Magistral Small, 24B parameters) and enterprise (Magistral Medium) versions, designed for domain-specific, transparent, and multilingual reasoning across various applications like business strategy, regulated industries, and software engineering.",
