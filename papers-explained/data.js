@@ -1,7 +1,7 @@
 const nav_data = {
   "Language Models": ["Language Models"],
   "Transformer Based Language Models": [
-    "Encoder Only Transformers", "Decoder Only Transformers", "Frontier Models", "Small LLMs", "Multi Modal LMs", "LLM for Math", "LLM Training"],
+    "Encoder Only Transformers", "Decoder Only Transformers", "Frontier Models", "Small LLMs", "Multi Modal LMs", "LLM for Math", "LLM Training", "Reasoning Models", "Reward Models", ],
   "Retrieval and Representation Learning": ["Retrieval and Representation Learning"],
   "Parameter Efficient Fine Tuning": ["PEFT"],
   "Image Models": ["Vision Transformers", "CNNs", "Object Detection", "RCNNs"],
@@ -23,6 +23,8 @@ const all_classes = [
   "Multi Modal LMs",
   "LLM for Math",
   "LLM Training",
+  "Reasoning Models",
+  "Reward Models",
   "Retrieval and Representation Learning",
   "PEFT",
   "Vision Transformers",
@@ -50,6 +52,8 @@ const papers_data = [
     multi_modal_lms,
     llm_for_math,
     llm_training,
+    reasoning_models,
+    reward_models,
     retrieval_and_representation_learning,
     peft,
     vision_transformers,
