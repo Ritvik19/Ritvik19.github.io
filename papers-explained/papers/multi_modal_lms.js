@@ -288,14 +288,6 @@ const multi_modal_lms = [
     tags: ["Multimodal Models"],
   },
   {
-    title: "Kimi k1.5",
-    link: "https://ritvik19.medium.com/papers-explained-334-kimi-k1-5-c41e914cae7b",
-    date: "January 2025",
-    description:
-      "A multimodal LLM trained with reinforcement learning (RL) focused on long context scaling and improved policy optimization, achieving state-of-the-art reasoning performance in various benchmarks and modalities, matching OpenAI's o1 in long-context tasks and significantly outperforming short-context models like GPT-4o and Claude Sonnet 3.5 through effective long2short context compression methods.",
-    tags: ["Multimodal Models"],
-  },
-  {
     title: "Eagle 2",
     link: "https://ritvik19.medium.com/papers-explained-378-eagle-2-cda1e612c0b4",
     date: "January 2025",

@@ -153,4 +153,12 @@ const datasets = [
       "A large-scale dataset of ~103K challenging math problems designed for training reasoning models via reinforcement learning or supervised finetuning. It features verifiable answers for rule-based RL, three distinct AI-generated solutions per problem for diverse training approaches, and rigorous decontamination against existing benchmarks to ensure evaluation integrity and promote generalizable reasoning.",
     tags: ["Datasets", "Scientific Data"],
   },
+  {
+    title: "OpenThoughts",
+    link: "",
+    date: "June 2025",
+    description:
+      "The OpenThoughts project aims to create open-source datasets for training reasoning models, leading to the development of OpenThinker models.",
+    tags: ["Datasets", "Scientific Data", "Open Source"],
+  }
 ];

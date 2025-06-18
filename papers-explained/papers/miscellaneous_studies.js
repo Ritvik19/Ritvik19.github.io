@@ -402,7 +402,7 @@ const miscellaneous_studies = [
   },
   {
     title: "short-m@k",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-389-short-m-k-e0b516dbb7c0",
     date: "May 2025",
     description:
       "Challenges the assumption that longer reasoning chains in LLMs lead to better reasoning, demonstrating that shorter chains are often more accurate and propose a new inference method, short-m@k, which executes parallel generations and halts after m chains, using majority voting for the final answer, achieving similar or superior performance with reduced computational costs and inference time.",

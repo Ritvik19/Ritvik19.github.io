@@ -223,36 +223,4 @@ const llm_for_math = [
       "A series of mathematical reasoning models (1.5B, 7B, 14B, and 32B parameters), including a winning submission to the AI Mathematical Olympiad - Progress Prize 2 (AIMO-2) competition, trained on a massive dataset of 540K unique math problems and 3.2M solutions (OpenMathReasoning dataset) capable of CoT and TIR with Python code execution.",
     tags: ["LLM for Math"],
   },
-  {
-    title: "ThinkPRM",
-    link: "https://ritvik19.medium.com/papers-explained-368-thinkprm-0f530cc98ca4",
-    date: "April 2025",
-    description:
-      "A generative PRM that verifies step-by-step solutions using a long CoT reasoning process. Trained on a small amount of synthetic data, it outperforms both discriminative PRMs trained on significantly more data and LLM-as-a-Judge baselines in various reasoning tasks and verification scenarios.",
-    tags: ["LLM for Math", "Process Reward Model"],
-  },
-  {
-    title: "RM-R1",
-    link: "https://ritvik19.medium.com/papers-explained-369-rm-r1-5a1b5f7ff27a",
-    date: "May 2025",
-    description:
-      "A family Generative Reward Models, called as Reasoning Reward Models that formulates reward modeling as a reasoning task, enhancing interpretability and performance. Trained via a reasoning-oriented pipeline involving structured reasoning distillation and reinforcement learning with verifiable rewards, RM-R1 generates reasoning traces or chat-specific rubrics to evaluate candidate responses.",
-    tags: ["LLM for Math", "Outcome Reward Model"],
-  },
-  {
-    title: "Fathom R1",
-    link: "https://ritvik19.medium.com/papers-explainedv377-fathom-r1-ba93dd040cbf",
-    date: "May 2025",
-    description: 
-      "A 14B parameter reasoning language model, derived from Deepseek-R1-Distilled-Qwen-14B, trained using supervised fine-tuning (SFT) on curated datasets and model merging, and the models, post-training recipes, and datasets are open-sourced.",
-    tags: ["LLM for Math"],
-  },
-  {
-    title: "AceReason-Nemotron",
-    link: "https://ritvik19.medium.com/papers-explained-381-acereason-nemotron-0b3bd6495890",
-    date: "May 2025",
-    description:
-      "Demonstrates that large-scale reinforcement learning can significantly enhance the reasoning capabilities of strong small- and mid-sized models by first training on math-only prompts, then on code-only prompts.",
-    tags: ["LLM for Math", "Reinforcement Learning"],
-  }
 ];
