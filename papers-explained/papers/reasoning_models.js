@@ -31,4 +31,20 @@ const reasoning_models = [
       "Challenges the idea that RL only amplifies existing outputs and demonstrates that prolonged RL training can uncover novel reasoning strategies not accessible to base models. ProRL is designed to enable extended reinforcement learning training periods, facilitating deeper exploration of reasoning strategies by incorporating KL divergence control, reference policy resetting, and a diverse suite of tasks.",
     tags: ["Language Models", "LLM for Math"],
   },
+  {
+    title: "Adaptive Reasoning Model",
+    link: "https://ritvik19.medium.com/papers-explained-391-adaptive-reasoning-model-9aacae6918a9",
+    date: "May 2025",
+    description:
+      "A reasoning model that adaptively selects appropriate reasoning formats (Direct Answer, Short CoT, Code, and Long CoT) based on task difficulty to balance performance and computational efficiency. It is trained using Ada-GRPO, an adaptation of GRPO, to address format collapse and improve training speed.",
+    tags: ["Language Models", "LLM for Math"],
+  },
+  {
+    title: "AceReason-Nemotron 1.1",
+    link: "",
+    date: "June 2025",
+    description:
+      "Leverages the synergy between SFT and RL through scaling SFT training data, carefully selecting the sampling temperature during RL training to balance exploration and exploitation, and employing a stage-wise RL approach on math-only and code-only prompts.",
+    tags: ["LLM for Math", "Reinforcement Learning"],
+  }
 ];

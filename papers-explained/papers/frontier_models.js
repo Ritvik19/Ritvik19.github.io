@@ -289,4 +289,12 @@ const frontier_models = [
       "Hybrid models offering two modes: near-instant responses and extended thinking for deeper reasoning, setting new standards for coding, advanced reasoning, and AI agents.",
     tags: ["Multimodal Models", "Anthropic", "Claude"],
   },
+  {
+    title: "Gemini 2.5",
+    link: "",
+    date: "June 2025",
+    description:
+      "Google's next generation of AI models designed for agentic systems, featuring native multimodality, long context input, and tool use support, with each model offering different strengths in reasoning, cost, and latency. Gemini 2.5 Pro excels in reasoning and coding, Gemini 2.5 Flash balances quality, cost, and latency, Gemini 2.0 Flash is fast and cost-efficient, and Gemini 2.0 Flash-Lite is the fastest and most cost-efficient.",
+    tags: ["Multimodal Models", "Gemini", "Reasoning"],
+  }
 ];

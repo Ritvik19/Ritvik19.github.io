@@ -30,5 +30,13 @@ const reward_models = [
     description:
         "Enhance reward model performance by executing a deliberate reasoning process before generating final rewards, leveraging chain-of-thought reasoning and additional test-time compute for complex queries.",
     tags: ["Outcome Reward Model"],
-  }
+  },
+  {
+    title: "RewardAnything",
+    link: "",
+    date: "June 2025",
+    description:
+      "A generalizable reward model designed to explicitly follow natural language principles, addressing the limitations of current RMs that are rigidly aligned to fixed preference datasets trained using GRPO.",
+    tags: ["Reward Models", "Language Models"],
+  },
 ];

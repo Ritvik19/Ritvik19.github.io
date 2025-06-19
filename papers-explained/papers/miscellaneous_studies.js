@@ -425,11 +425,11 @@ const miscellaneous_studies = [
     tags: ["LLM Evaluation"],
   },
   {
-    title: "RewardAnything",
+    title: "Claude Research",
     link: "",
     date: "June 2025",
     description:
-      "A generalizable reward model designed to explicitly follow natural language principles, addressing the limitations of current RMs that are rigidly aligned to fixed preference datasets trained using GRPO.",
-    tags: ["Reward Models", "Language Models"],
+      "a multi-agent system developed by Anthropic that allows Claude to search across the web, Google Workspace, and integrations to accomplish complex tasks. It uses a multi-agent architecture with an orchestrator-worker pattern, where a lead agent coordinates the process and delegates to specialized subagents that operate in parallel.",
+    tags: ["Agentic Systems", "Anthropic", "Claude"],
   }
 ];

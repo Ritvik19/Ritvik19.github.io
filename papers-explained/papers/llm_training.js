@@ -320,14 +320,6 @@ const llm_training = [
     tags: ["Language Models", "LLM for Math"],
   },
   {
-    title: "Adaptive Reasoning Model",
-    link: "",
-    date: "May 2025",
-    description:
-      "A reasoning model that adaptively selects appropriate reasoning formats (Direct Answer, Short CoT, Code, and Long CoT) based on task difficulty to balance performance and computational efficiency. It is trained using Ada-GRPO, an adaptation of GRPO, to address format collapse and improve training speed.",
-    tags: ["Language Models", "LLM for Math"],
-  },
-  {
     title: "rStar-Coder",
     link: "",
     date: "May 2025",
