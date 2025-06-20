@@ -262,7 +262,7 @@ const retrieval_and_representation_learning = [
   },
   {
     title: "Hard Negative Mining for Domain-Specific Retrieval",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-392-hard-negative-mining-for-domain-specific-retrieval-a334df3c97fa",
     date: "May 2025",
     description:
       "Addresses the challenge of retrieving accurate, domain-specific information in enterprise search systems, by dynamically selecting semantically challenging but contextually irrelevant documents to improve re-ranking models. The method integrates diverse embedding models, performs dimensionality reduction, and employs a unique hard negative selection process to ensure computational efficiency and semantic precision.",
