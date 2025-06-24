@@ -155,7 +155,7 @@ const datasets = [
   },
   {
     title: "OpenThoughts",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-394-openthoughts-51fcf3dda8d2",
     date: "June 2025",
     description:
       "The OpenThoughts project aims to create open-source datasets for training reasoning models, leading to the development of OpenThinker models.",

@@ -1,5 +1,29 @@
 const reward_models = [
   {
+    title: "Prometheus",
+    link: "https://ritvik19.medium.com/papers-explained-170-prometheus-5e72b8054729",
+    date: "October 2023",
+    description:
+      "A 13B fully open source evaluation LLM trained on Feedback Collection curated using GPT-4 (in this work).",
+    tags: ["LLM Evaluation"],
+  },
+  {
+    title: "Prometheus 2",
+    link: "https://ritvik19.medium.com/papers-explained-171-prometheus-2-324e9c162e18",
+    date: "May 2024",
+    description:
+      "7B & 8x7B evaluation LLMs that score high correlations with both human evaluators and proprietary LM-based judges on both direct assessment and pairwise ranking, obtained by merging Mistral models trained on Feedback Collection and Preference Collection (curated in this work.",
+    tags: ["LLM Evaluation"],
+  },
+  {
+    title: "CriticGPT",
+    link: "https://ritvik19.medium.com/papers-explained-224-criticgpt-6d9af57451fa",
+    date: "June 2024",
+    description:
+      "A model based on GPT-4 trained with RLHF to catch errors in ChatGPT's code output, accepts a question-answer pair as input and outputs a structured critique that highlights potential problems in the answer.",
+    tags: ["Language Models", "OpenAI", "GPT"],
+  },
+  {
     title: "J1",
     link: "https://ritvik19.medium.com/papers-explained-385-j1-8245b6ee64df",
     date: "May 2025",

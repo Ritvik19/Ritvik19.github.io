@@ -96,14 +96,6 @@ const miscellaneous_studies = [
     tags: ["Prompt Compression"],
   },
   {
-    title: "Prometheus",
-    link: "https://ritvik19.medium.com/papers-explained-170-prometheus-5e72b8054729",
-    date: "October 2023",
-    description:
-      "A 13B fully open source evaluation LLM trained on Feedback Collection curated using GPT-4 (in this work).",
-    tags: ["LLM Evaluation"],
-  },
-  {
     title: "An In-depth Look at Gemini's Language Abilities",
     link: "https://ritvik19.medium.com/papers-explained-81-an-in-depth-look-at-geminis-language-abilities-540ca9046d8e",
     date: "December 2023",
@@ -134,14 +126,6 @@ const miscellaneous_studies = [
     description:
       "A novel approach to task-agnostic prompt compression, aiming to enhance generalizability, using  data distillation and leveraging a Transformer encoder for token classification.",
     tags: ["Prompt Compression"],
-  },
-  {
-    title: "Prometheus 2",
-    link: "https://ritvik19.medium.com/papers-explained-171-prometheus-2-324e9c162e18",
-    date: "May 2024",
-    description:
-      "7B & 8x7B evaluation LLMs that score high correlations with both human evaluators and proprietary LM-based judges on both direct assessment and pairwise ranking, obtained by merging Mistral models trained on Feedback Collection and Preference Collection (curated in this work.",
-    tags: ["LLM Evaluation"],
   },
   {
     title: "PromptWizard",
@@ -182,14 +166,6 @@ const miscellaneous_studies = [
     description:
       "A Gboard feature powered by a server-side LLM, enabling seamless sentence-level and paragraph-level corrections with a single tap.",
     tags: ["Language Models"],
-  },
-  {
-    title: "CriticGPT",
-    link: "https://ritvik19.medium.com/papers-explained-224-criticgpt-6d9af57451fa",
-    date: "June 2024",
-    description:
-      "A model based on GPT-4 trained with RLHF to catch errors in ChatGPT's code output, accepts a question-answer pair as input and outputs a structured critique that highlights potential problems in the answer.",
-    tags: ["Language Models", "OpenAI", "GPT"],
   },
   {
     title: "Gemma APS",
