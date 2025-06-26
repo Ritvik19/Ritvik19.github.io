@@ -130,6 +130,14 @@ const datasets = [
     tags: ["Datasets"],
   },
   {
+    title: "MVTamperBench",
+    link: "",
+    date: "December 2024",
+    description:
+      "A benchmark designed to evaluate the robustness of Multimodal Language Models against five prevalent video tampering techniques: rotation, masking, substitution, repetition, and dropping. It comprises 3.4K original videos expanded into over 17K tampered clips.",
+    tags: ["Datasets", "Benchmark", "Multimodal Datasets"],
+  },
+  {
     title: "Numina Math 1.5",
     link: "https://ritvik19.medium.com/paper-explained-316-numinamath-40501ae9baac#e825",
     date: "February 2025",
@@ -152,6 +160,14 @@ const datasets = [
     description:
       "A large-scale dataset of ~103K challenging math problems designed for training reasoning models via reinforcement learning or supervised finetuning. It features verifiable answers for rule-based RL, three distinct AI-generated solutions per problem for diverse training approaches, and rigorous decontamination against existing benchmarks to ensure evaluation integrity and promote generalizable reasoning.",
     tags: ["Datasets", "Scientific Data"],
+  },
+  {
+    title: "SweEval",
+    link: "",
+    date: "May 2025",
+    description:
+      "A cross-lingual enterprise safety benchmark designed to evaluate Large Language Models (LLMs) in handling sensitive language across diverse linguistic and cultural contexts. It assesses whether LLMs comply with or resist inappropriate instructions, such as including swear words, and evaluates their alignment with ethical frameworks, cultural nuances.",
+    tags: ["Datasets", "Benchmark"],
   },
   {
     title: "OpenThoughts",

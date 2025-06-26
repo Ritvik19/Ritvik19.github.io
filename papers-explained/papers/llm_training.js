@@ -321,7 +321,7 @@ const llm_training = [
   },
   {
     title: "rStar-Coder",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-396-rstar-coder-eeff4bb0b518",
     date: "May 2025",
     description:
       "A novel approach for improving code reasoning in LLMs by constructing a large-scale, verified dataset of 418K competition-level code problems with 580K long-reasoning solutions and rich test cases. It curates competitive programming problems, synthesizes new solvable problems, generates reliable input-output test cases using a three-step input generation method and mutual verification mechanism, and augments problems with test-case-verified long-reasoning solutions.",

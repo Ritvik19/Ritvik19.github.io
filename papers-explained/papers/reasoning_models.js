@@ -41,7 +41,7 @@ const reasoning_models = [
   },
   {
     title: "AceReason-Nemotron 1.1",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-395-acereason-nemotron-1-1-f2747af699a5",
     date: "June 2025",
     description:
       "Leverages the synergy between SFT and RL through scaling SFT training data, carefully selecting the sampling temperature during RL training to balance exploration and exploitation, and employing a stage-wise RL approach on math-only and code-only prompts.",
