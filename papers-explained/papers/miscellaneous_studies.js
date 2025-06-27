@@ -405,7 +405,15 @@ const miscellaneous_studies = [
     link: "",
     date: "June 2025",
     description:
-      "a multi-agent system developed by Anthropic that allows Claude to search across the web, Google Workspace, and integrations to accomplish complex tasks. It uses a multi-agent architecture with an orchestrator-worker pattern, where a lead agent coordinates the process and delegates to specialized subagents that operate in parallel.",
+      "A multi-agent system developed by Anthropic that allows Claude to search across the web, Google Workspace, and integrations to accomplish complex tasks. It uses a multi-agent architecture with an orchestrator-worker pattern, where a lead agent coordinates the process and delegates to specialized subagents that operate in parallel.",
     tags: ["Agentic Systems", "Anthropic", "Claude"],
+  },
+  {
+    title: "Kimi Researcher",
+    link: "",
+    date: "June 2025",
+    description:
+      "An autonomous agent that excels at multi-turn search and reasoning. It performs an average of 23 reasoning steps and explores over 200 URLs per task. Built on an internal version of the Kimi k-series model and trained entirely through end-to-end agentic reinforcement learning.",
+    tags: ["Agentic Systems"],
   }
 ];

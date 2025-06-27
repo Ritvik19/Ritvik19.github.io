@@ -267,5 +267,13 @@ const retrieval_and_representation_learning = [
     description:
       "Addresses the challenge of retrieving accurate, domain-specific information in enterprise search systems, by dynamically selecting semantically challenging but contextually irrelevant documents to improve re-ranking models. The method integrates diverse embedding models, performs dimensionality reduction, and employs a unique hard negative selection process to ensure computational efficiency and semantic precision.",
     tags: ["Retrieval"],
+  },
+  {
+    title: "Jina Embeddings v4",
+    link: "",
+    date: "June 2025",
+    description:
+      "A 3.8B multimodal embedding model based on Qwen2.5-VL that unifies text and image representations using a novel architecture supporting both single-vector and multi-vector embeddings. It incorporates task-specific LoRA adapters to optimize performance across diverse retrieval scenarios.",
+    tags: ["Representation Learning", "Multimodal Models"]
   }
 ];

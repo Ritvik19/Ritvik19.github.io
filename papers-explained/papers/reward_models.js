@@ -8,6 +8,14 @@ const reward_models = [
     tags: ["LLM Evaluation"],
   },
   {
+    title: "Prometheus Vision",
+    link: "",
+    date: "January 2024",
+    description:
+      "The first open-source VLM evaluator model, trained using the Perception Collection dataset, which contains 15K fine-grained score rubrics. It excels at assessing VLMs based on user-defined, fine-grained criteria and demonstrates a high correlation with human evaluators and GPT-4V, making it a cost-effective and transparent alternative for VLM evaluation.",
+    tags: ["VLM Evaluation"],
+  },
+  {
     title: "Prometheus 2",
     link: "https://ritvik19.medium.com/papers-explained-171-prometheus-2-324e9c162e18",
     date: "May 2024",

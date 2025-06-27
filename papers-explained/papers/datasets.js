@@ -163,7 +163,7 @@ const datasets = [
   },
   {
     title: "SweEval",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-397-sweeval-f779d7da1196",
     date: "May 2025",
     description:
       "A cross-lingual enterprise safety benchmark designed to evaluate Large Language Models (LLMs) in handling sensitive language across diverse linguistic and cultural contexts. It assesses whether LLMs comply with or resist inappropriate instructions, such as including swear words, and evaluates their alignment with ethical frameworks, cultural nuances.",
