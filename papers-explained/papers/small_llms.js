@@ -525,5 +525,13 @@ const small_llms = [
     description:
       "Mistral AI's first reasoning model, available in both open-source (Magistral Small, 24B parameters) and enterprise (Magistral Medium) versions, designed for domain-specific, transparent, and multilingual reasoning across various applications like business strategy, regulated industries, and software engineering.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
+  },
+  {
+    title: "Arcee Foundation Model",
+    link: "",
+    date: "June 2025",
+    description:
+      "A family of generative AI models built from the ground up for enterprise reality. Combined with built-in support for function calling and agentic reasoning, AFM-4.5B is ready to automate complex workflows immediately i.e. no fragile prompt engineering required.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
   }
 ];

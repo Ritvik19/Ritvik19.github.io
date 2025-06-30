@@ -394,7 +394,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Evaluation is All You Need",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-398-evaluation-is-all-you-need-648b9ede2d5e",
     date: "June 2025",
     description:
       "The study reveals that the benchmark evaluation results of reasoning models are subject to significant fluctuations caused by various factors. Subtle differences in evaluation conditions can lead to substantial variations in results, making their claimed performance improvements difficult to reproduce reliably.",

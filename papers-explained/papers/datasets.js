@@ -138,6 +138,14 @@ const datasets = [
     tags: ["Datasets", "Benchmark", "Multimodal Datasets"],
   },
   {
+    title: "Big Math",
+    link: "",
+    date: "February 2025",
+    description:
+      "A dataset of over 250,000 high-quality math questions designed for reinforcement learning (RL) in language models, addressing the gap between data quality and quantity in existing math datasets. It details the rigorous filtering, cleaning, and curation process, including the creation of Big-Math-Reformulated (47,000 reformulated questions).",
+    tags: ["Datasets", "Scientific Data"],
+  },
+  {
     title: "Numina Math 1.5",
     link: "https://ritvik19.medium.com/paper-explained-316-numinamath-40501ae9baac#e825",
     date: "February 2025",
@@ -176,5 +184,13 @@ const datasets = [
     description:
       "The OpenThoughts project aims to create open-source datasets for training reasoning models, leading to the development of OpenThinker models.",
     tags: ["Datasets", "Scientific Data", "Open Source"],
+  },
+  {
+    title: "OMEGA",
+    link: "",
+    date: "June 2025",
+    description:
+      "A benchmark to evaluate LLMs' out-of-distribution generalization in math across exploratory, compositional, and transformative axes. Experiments using OMEGA reveal that while LLMs show some improvement in exploratory generalization with fine-tuning, they struggle with compositional and transformative reasoning, highlighting a gap between LLM reasoning and human mathematical creativity.",
+    tags: ["Datasets", "Benchmark", "Scientific Data"],
   }
 ];

@@ -16,6 +16,14 @@ const llm_training = [
     tags: ["Synthetic Data"],
   },
   {
+    title: "Constitutional AI",
+    link: "",
+    date: "December 2022",
+    description:
+      "A method for training harmless AI assistants through self-improvement, using a list of rules or principles (a constitution) instead of human labels for harmful outputs. The process involves a supervised learning phase (critique, revision, and fine-tuning) and a reinforcement learning phase (AI preference evaluation and RL from AI Feedback), resulting in a non-evasive AI assistant that explains its objections to harmful queries.",
+    tags: [],
+  },
+  {
     title: "Reinforced Self-Training (ReST)",
     link: "https://ritvik19.medium.com/papers-explained-301-rest-6389371a68ac",
     date: "April 2023",
