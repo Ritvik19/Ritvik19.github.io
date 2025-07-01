@@ -335,4 +335,12 @@ const llm_training = [
       "A novel approach for improving code reasoning in LLMs by constructing a large-scale, verified dataset of 418K competition-level code problems with 580K long-reasoning solutions and rich test cases. It curates competitive programming problems, synthesizes new solvable problems, generates reliable input-output test cases using a three-step input generation method and mutual verification mechanism, and augments problems with test-case-verified long-reasoning solutions.",
     tags: ["LLM for Code"],
   },
+  {
+    title: "Reinforcement Learning with Reference Probability Reward (RLPR)",
+    link: "",
+    date: "June 2025",
+    description:
+      "A framework that extends RLVR to general domains without external verifiers by using the LLM's intrinsic probability of generating a correct answer as the reward signal. It introduces a probability-based reward calculated by the average decoding probabilities of the reference answer tokens, a debiasing method to eliminate reward bias, and an adaptive curriculum learning mechanism to stabilize training by filtering prompts with low reward standard deviation.",
+    tags: [],
+  }
 ];

@@ -65,7 +65,7 @@ const reward_models = [
   },
   {
     title: "RewardAnything",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-399-rewardanything-f100d1d97c8b",
     date: "June 2025",
     description:
       "A generalizable reward model designed to explicitly follow natural language principles, addressing the limitations of current RMs that are rigidly aligned to fixed preference datasets trained using GRPO.",
