@@ -57,7 +57,7 @@ const reward_models = [
   },
   {
     title: "Reward Reasoning Model",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-400-reward-reasoning-model-109dba633c27",
     date: "May 2025",
     description:
         "Enhance reward model performance by executing a deliberate reasoning process before generating final rewards, leveraging chain-of-thought reasoning and additional test-time compute for complex queries.",
