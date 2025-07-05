@@ -47,6 +47,14 @@ const tabular_data = [
     tags: ["Tabular Data"],
   },
   {
+    title: "TabM",
+    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#db36",
+    date: "October 2024",
+    description:
+      "A tabular deep learning model based on MLPs and parameter-efficient ensembling, where multiple MLPs are trained in parallel and share most of their weights, producing multiple predictions per object.",
+    tags: ["Tabular Data"],
+  },
+  {
     title: "RealMLP",
     link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#3cf9",
     date: "June 2025",
