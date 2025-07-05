@@ -46,4 +46,12 @@ const tabular_data = [
       "Transforms all features (categorical and numerical) to embeddings and applies a stack of Transformer layers to the embeddings.",
     tags: ["Tabular Data"],
   },
+  {
+    title: "RealMLP",
+    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#3cf9",
+    date: "June 2025",
+    description:
+      "An improved multilayer perceptron (MLP) designed for tabular data, incorporating techniques like robust scaling and smooth clipping for preprocessing, categorical embedding layers, PBLD embeddings for numerical features, a diagonal weight layer for feature selection, neural tangent parametrization for linear layers, and parametric activation functions with SELU or Mish.",
+    tags: ["Tabular Data"],  
+  }
 ];

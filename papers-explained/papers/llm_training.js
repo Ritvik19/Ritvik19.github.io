@@ -341,6 +341,15 @@ const llm_training = [
     date: "June 2025",
     description:
       "A framework that extends RLVR to general domains without external verifiers by using the LLM's intrinsic probability of generating a correct answer as the reward signal. It introduces a probability-based reward calculated by the average decoding probabilities of the reference answer tokens, a debiasing method to eliminate reward bias, and an adaptive curriculum learning mechanism to stabilize training by filtering prompts with low reward standard deviation.",
-    tags: [],
+    tags: ["Reinforcement Learning"],
+  },
+  {
+    title: "LongWriter-Zero",
+    link: "",
+    date: "June 2025",
+    description:
+      "A novel approach to ultra-long text generation that uses reinforcement learning to train LLMs, without relying on synthetic data or SFT. By using specialized reward models to guide the LLM towards improved length control, writing quality, and structural formatting.",
+    tags: ["Reinforcement Learning"],
+
   }
 ];

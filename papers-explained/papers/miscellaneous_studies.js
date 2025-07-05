@@ -415,5 +415,21 @@ const miscellaneous_studies = [
     description:
       "An autonomous agent that excels at multi-turn search and reasoning. It performs an average of 23 reasoning steps and explores over 200 URLs per task. Built on an internal version of the Kimi k-series model and trained entirely through end-to-end agentic reinforcement learning.",
     tags: ["Agentic Systems"],
+  },
+  {
+    title: "Universal Tokenizer",
+    link: "",
+    date: "June 2025",
+    description:
+      "Explores how to improve the ability of multilingual LLMs to adapt to new languages after pretraining, focusing on tokenizer design and proposes using a universal tokenizer trained on more languages than the pretraining languages, demonstrating that this approach significantly enhances language adaptation capabilities, even for languages unseen during pretraining, with minimal performance compromise on the original pretraining languages.",
+    tags: ["Language Models", "Multilingual Models"],
+  },
+  {
+    title: "Answer Matching",
+    link: "",
+    date: "July 2025",
+    description:
+      "Argues that multiple-choice benchmarks, traditionally used for evaluating language models, suffer from a critical flaw: they allow models to exploit discriminative shortcuts and answer questions without truly understanding or generating the correct response. The authors propose 'answer matching' as a superior alternative for evaluating the generative capabilities of language models.",
+    tags: ["LLM Evaluation"],
   }
 ];

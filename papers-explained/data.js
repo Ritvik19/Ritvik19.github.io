@@ -228,6 +228,7 @@ const literature_review_data = [
       "Tab Transformer",
       "Tabular ResNet",
       "Feature Tokenizer Transformer",
+      "RealMLP",
     ],
   },
   {
