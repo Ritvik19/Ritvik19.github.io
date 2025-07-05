@@ -173,17 +173,6 @@ function hideEmptySections() {
   });
 }
 
-// function populateNav() {
-//   nav = document.getElementById("nav");
-//   all_classes.forEach((navItem, index) => {
-//     nav.innerHTML += `<li><a href="#line_${index + 1}" class="nav-link">${navItem}</a></li>`;
-//   });
-//   nav.innerHTML += `<li><a href="#line_${all_classes.length + 1}" class="nav-link">Surveys</a></li>`;
-//   nav.innerHTML += `<li><a href="#line_${all_classes.length + 2}" class="nav-link">Journeys</a></li>`;
-//   nav.innerHTML += `<li><a href="#line_${all_classes.length + 3}" class="nav-link">Literature Reviews</a></li>`;
-//   nav.innerHTML += `<li><a href="#line_${all_classes.length + 4}" class="nav-link">Reading Lists</a></li>`;
-// }
-
 function populateNav(){
   const nav = document.getElementById("nav");
   count = 1;
@@ -198,9 +187,6 @@ function populateNav(){
     nav_item += `</ul></li>`;
     nav.innerHTML += nav_item;
   }
-  nav.innerHTML += `<li><a href="#line_${count}" class="nav-link">Surveys</a></li>`;
-  nav.innerHTML += `<li><a href="#line_${count + 1}" class="nav-link">Journeys</a></li>`;
-  nav.innerHTML += `<li><a href="#line_${count + 2}" class="nav-link">Literature Reviews</a></li>`;
 }
 
 populateContainer();

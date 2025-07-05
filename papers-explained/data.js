@@ -12,6 +12,7 @@ const nav_data = {
   "Neural Network Layers": ["Neural Network Layers"],
   "Model Merging": ["Model Merging"],
   "Miscellaneous Studies": ["Miscellaneous Studies"],
+  "Broad Studies": ["Surveys", "Journeys", "Literature Review"],
 }
 
 const all_classes = [
@@ -358,95 +359,4 @@ const literature_review_data = [
       "Select, Calculate, and Erase (SCE)",
     ]
   }
-];
-
-const reading_list_data = [
-  {
-    title: "Language Models",
-    link: "https://ritvik19.medium.com/list/language-models-11b008ddc292",
-  },
-  {
-    title: "Encoder Only Language Transformers",
-    link: "https://ritvik19.medium.com/list/encoderonly-language-transformers-0f2ff06e0309",
-  },
-  {
-    title: "Decoder Only Language Transformers",
-    link: "https://ritvik19.medium.com/list/decoderonly-language-transformers-5448110c6046",
-  },
-  {
-    title: "LLMs for Code",
-    link: "https://ritvik19.medium.com/list/llms-for-code-e5360a1b353a",
-  },
-  {
-    title: "Small LLMs",
-    link: "https://ritvik19.medium.com/list/small-llms-41124d5c7c80",
-  },
-  {
-    title: "GPT Models",
-    link: "https://ritvik19.medium.com/list/gpt-models-fa2cc801d840",
-  },
-  {
-    title: "LLaMA Models",
-    link: "https://ritvik19.medium.com/list/llama-models-5b8ea07308cb",
-  },
-  {
-    title: "Gemini / Gemma Models",
-    link: "https://ritvik19.medium.com/list/gemini-gemma-models-4cb7dfc50d42",
-  },
-  {
-    title: "Wizard Models",
-    link: "https://ritvik19.medium.com/list/wizard-models-9b972e860683",
-  },
-  {
-    title: "Orca Series",
-    link: "https://ritvik19.medium.com/list/orca-series-1c87367458fe",
-  },
-  {
-    title: "BLIP Series",
-    link: "https://ritvik19.medium.com/list/blip-series-4b0831017c5b",
-  },
-  {
-    title: "LLM Lingua Series",
-    link: "https://ritvik19.medium.com/list/llm-lingua-series-2f61b47d0343",
-  },
-  {
-    title: "Multi Task Language Models",
-    link: "https://ritvik19.medium.com/list/multi-task-language-models-e6a2a1e517e6",
-  },
-  {
-    title: "Layout Aware Transformers",
-    link: "https://ritvik19.medium.com/list/layout-transformers-1ce4f291a9f0",
-  },
-  {
-    title: "Retrieval and Representation Learning",
-    link: "https://ritvik19.medium.com/list/retrieval-and-representation-learning-bcd23de0bd8e",
-  },
-  {
-    title: "Vision Transformers",
-    link: "https://ritvik19.medium.com/list/vision-transformers-61e6836230f1",
-  },
-  {
-    title: "Multi Modal Transformers",
-    link: "https://ritvik19.medium.com/list/multi-modal-transformers-67453f215ecf",
-  },
-  {
-    title: "LLM Evaluation",
-    link: "https://ritvik19.medium.com/list/llm-evaluation-a011ddd1a546",
-  },
-  {
-    title: "Convolutional Neural Networks",
-    link: "https://ritvik19.medium.com/list/convolutional-neural-networks-5b875ce3b689",
-  },
-  {
-    title: "Object Detection",
-    link: "https://ritvik19.medium.com/list/object-detection-bd9e6e21ca3e",
-  },
-  {
-    title: "Region Based Convolutional Neural Networks",
-    link: "https://ritvik19.medium.com/list/rcnns-b51467f53dc9",
-  },
-  {
-    title: "Document Information Processing",
-    link: "https://ritvik19.medium.com/list/document-information-processing-3cd900a34972",
-  },
 ];
