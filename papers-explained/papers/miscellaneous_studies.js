@@ -362,7 +362,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Crosslingual Reasoning through Test-Time Scaling",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-403-crosslingual-reasoning-through-test-time-scaling-ee069fcca028",
     date: "May 2025",
     description:
       "Investigates the crosslingual generalization capabilities of English-centric Reasoning Language Models (RLMs) through test-time scaling. It demonstrates that scaling up inference compute for these models improves multilingual mathematical reasoning, reveals a quote-and-think language-mixing pattern, discovers a strategy to control reasoning language (with better performance in high-resource languages), and observes poor out-of-domain reasoning generalization.",

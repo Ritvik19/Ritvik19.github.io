@@ -192,5 +192,13 @@ const datasets = [
     description:
       "A benchmark to evaluate LLMs' out-of-distribution generalization in math across exploratory, compositional, and transformative axes. Experiments using OMEGA reveal that while LLMs show some improvement in exploratory generalization with fine-tuning, they struggle with compositional and transformative reasoning, highlighting a gap between LLM reasoning and human mathematical creativity.",
     tags: ["Datasets", "Benchmark", "Scientific Data"],
+  },
+  {
+    title: "TabArena",
+    link: "",
+    date: "June 2025",
+    description:
+      "A continuously maintained, living benchmark for tabular machine learning models, featuring a curated collection of 51 datasets, 16 models, focusing on tabular classification and regression for independent and identically distributed (IID) data in the small to medium data regime.",
+    tags: ["Datasets", "Benchmark", "Tabular Data"],
   }
 ];
