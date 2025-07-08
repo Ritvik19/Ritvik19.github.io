@@ -241,7 +241,7 @@ const multi_modal_lms = [
   },
   {
     title: "Pangea",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-404-pangea-b5fbfecf9912",
     date: "October 2024",
     description:
       "An open-source multilingual multimodal LLM designed to bridge linguistic and cultural gaps in visual understanding tasks, trained on PangeaIns, a 6 million sample instruction dataset spanning 39 languages, and evaluated using PangeaBench, a holistic evaluation suite encompassing 14 datasets covering 47 languages.",
