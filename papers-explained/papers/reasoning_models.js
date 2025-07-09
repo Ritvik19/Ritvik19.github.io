@@ -54,5 +54,13 @@ const reasoning_models = [
     description:
       "Leverages the synergy between SFT and RL through scaling SFT training data, carefully selecting the sampling temperature during RL training to balance exploration and exploitation, and employing a stage-wise RL approach on math-only and code-only prompts.",
     tags: ["LLM for Math", "Reinforcement Learning"],
+  },
+  {
+    title: "ReCode",
+    link: "",
+    date: "June 2025",
+    description:
+      "A framework that uses rule-based Reinforcement Learning for Code Update to improve LLMs' code generation performance in dynamic API scenarios by mimicking how human programmers adapt to API changes.",
+    tags: ["LLM for Code", "Reinforcement Learning"]
   }
 ];
