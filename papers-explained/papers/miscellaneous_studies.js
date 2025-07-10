@@ -426,10 +426,10 @@ const miscellaneous_studies = [
   },
   {
     title: "Answer Matching",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-406-answer-matching-0940b4c50570",
     date: "July 2025",
     description:
-      "Argues that multiple-choice benchmarks, traditionally used for evaluating language models, suffer from a critical flaw: they allow models to exploit discriminative shortcuts and answer questions without truly understanding or generating the correct response. The authors propose 'answer matching' as a superior alternative for evaluating the generative capabilities of language models.",
+      "Argues that multiple-choice benchmarks, traditionally used for evaluating language models, suffer from a critical flaw: they allow models to exploit discriminative shortcuts and answer questions without truly understanding or generating the correct response. Proposes 'Answer Matching' as a superior alternative for evaluating the generative capabilities of language models.",
     tags: ["LLM Evaluation"],
   }
 ];
