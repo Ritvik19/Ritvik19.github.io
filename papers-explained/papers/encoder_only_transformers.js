@@ -121,7 +121,7 @@ const encoder_only_transformers = [
   },
   {
     title: "Should We Still Pretrain Encoders with Masked Language Modeling?",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-407-should-we-still-pretrain-encoders-with-masked-language-modeling-27c25b39e3f0",
     date: "July 2025",
     description:
       "Investigates the impact of Masked Language Modeling (MLM) and Causal Language Modeling (CLM) objectives on learning text representations. The study compares models trained with MLM, CLM, and a combination of both, controlling for factors like model size, architecture, and data volume. The study finds that while MLM generally performs better across text representation tasks, CLM is more data-efficient and offers improved fine-tuning stability; a biphasic training strategy (CLM followed by MLM) achieves optimal performance, especially when initializing from pretrained CLM models.",
