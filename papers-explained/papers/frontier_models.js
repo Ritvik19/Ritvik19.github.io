@@ -296,5 +296,13 @@ const frontier_models = [
     description:
       "Google's next generation of AI models designed for agentic systems, featuring native multimodality, long context input, and tool use support, with each model offering different strengths in reasoning, cost, and latency. Gemini 2.5 Pro excels in reasoning and coding, Gemini 2.5 Flash balances quality, cost, and latency, Gemini 2.0 Flash is fast and cost-efficient, and Gemini 2.0 Flash-Lite is the fastest and most cost-efficient.",
     tags: ["Multimodal Models", "Gemini", "Reasoning"],
+  },
+  {
+    title: "Grok 4",
+    link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be#8e14",
+    date: "July 2025",
+    description:
+      "Trained using reinforcement learning on a 200k GPU cluster, featuring native tool use, real-time search integration, and an upgraded Voice Mode with visual analysis, achieving state-of-the-art results on benchmarks like ARC-AGI V2 and Vending-Bench.",
+    tags: ["Language Models", "Transformer Decoder", "Grok"],
   }
 ];

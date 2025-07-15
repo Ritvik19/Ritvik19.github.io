@@ -231,4 +231,12 @@ const language_models = [
       "Based on Griffin, uses a combination of linear recurrences and local attention instead of global attention to model long sequences efficiently.",
     tags: ["Language Models", "Gemma"],
   },
+  {
+    title: "Encoder-Decoder Gemma",
+    link: "https://medium.com/@ritvik19/papers-explained-408-encoder-decoder-gemma-a6f9ee73a5f4",
+    date: "April 2025",
+    description:
+      "Explores adapting pre-trained decoder-only LLMs to encoder-decoder models to leverage the strengths of both approaches for a better quality-efficiency trade-off.",
+    tags: ["Language Models", "Gemma"],
+  }
 ];

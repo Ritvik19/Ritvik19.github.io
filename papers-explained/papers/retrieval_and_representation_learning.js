@@ -270,7 +270,7 @@ const retrieval_and_representation_learning = [
   },
   {
     title: "Jina Embeddings v4",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-409-jina-embeddings-v4-9d266f0a6138",
     date: "June 2025",
     description:
       "A 3.8B multimodal embedding model based on Qwen2.5-VL that unifies text and image representations using a novel architecture supporting both single-vector and multi-vector embeddings. It incorporates task-specific LoRA adapters to optimize performance across diverse retrieval scenarios.",
