@@ -139,7 +139,7 @@ const datasets = [
   },
   {
     title: "Big Math",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-410-big-math-426eacadc021",
     date: "February 2025",
     description:
       "A dataset of over 250,000 high-quality math questions designed for reinforcement learning (RL) in language models, addressing the gap between data quality and quantity in existing math datasets. It details the rigorous filtering, cleaning, and curation process, including the creation of Big-Math-Reformulated (47,000 reformulated questions).",
