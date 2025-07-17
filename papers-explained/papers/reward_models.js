@@ -71,4 +71,12 @@ const reward_models = [
       "A generalizable reward model designed to explicitly follow natural language principles, addressing the limitations of current RMs that are rigidly aligned to fixed preference datasets trained using GRPO.",
     tags: ["Reward Models", "Language Models"],
   },
+  {
+    title: "One Token to Fool LLM-as-a-Judge",
+    link: "",
+    date: "July 2025",
+    description:
+      "Investigates that generative reward models are susceptible to superficial manipulations like non-word symbols or reasoning openers, leading to false positive rewards. To address this, it introduces a data augmentation strategy and trains a more robust generative reward model, highlighting the need for more reliable LLM-based evaluation methods.",
+    tags: ["LLM Evaluation"],
+  }
 ];

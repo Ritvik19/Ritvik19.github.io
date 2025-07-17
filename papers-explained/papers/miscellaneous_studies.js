@@ -431,5 +431,13 @@ const miscellaneous_studies = [
     description:
       "Argues that multiple-choice benchmarks, traditionally used for evaluating language models, suffer from a critical flaw: they allow models to exploit discriminative shortcuts and answer questions without truly understanding or generating the correct response. Proposes 'Answer Matching' as a superior alternative for evaluating the generative capabilities of language models.",
     tags: ["LLM Evaluation"],
+  },
+  {
+    title: "Reasoning or Memorization",
+    link: "",
+    date: "July 2025",
+    description:
+      "Investigates the reasoning capabilities of LLMs enhanced by RL, focusing on discrepancies in reported improvements across different model families like Qwen2.5 and Llama. It reveals that Qwen2.5's superior performance on mathematical benchmarks like MATH-500 may be due to data contamination from its pre-training on web-scale corpora, and demonstrates that only accurate reward signals consistently improve mathematical reasoning performance in RL.",
+    tags: ["Language Models", "LLM for Math"],
   }
 ];
