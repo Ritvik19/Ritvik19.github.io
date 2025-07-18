@@ -402,7 +402,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Claude Research",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-412-claude-research-334b1f6a353b",
     date: "June 2025",
     description:
       "A multi-agent system developed by Anthropic that allows Claude to search across the web, Google Workspace, and integrations to accomplish complex tasks. It uses a multi-agent architecture with an orchestrator-worker pattern, where a lead agent coordinates the process and delegates to specialized subagents that operate in parallel.",
