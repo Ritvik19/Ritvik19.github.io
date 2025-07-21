@@ -337,7 +337,7 @@ const llm_training = [
   },
   {
     title: "Reinforcement Learning with Reference Probability Reward (RLPR)",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-413-reinforcement-learning-with-reference-probability-reward-rlpr-ac742c006a22",
     date: "June 2025",
     description:
       "A framework that extends RLVR to general domains without external verifiers by using the LLM's intrinsic probability of generating a correct answer as the reward signal. It introduces a probability-based reward calculated by the average decoding probabilities of the reference answer tokens, a debiasing method to eliminate reward bias, and an adaptive curriculum learning mechanism to stabilize training by filtering prompts with low reward standard deviation.",
