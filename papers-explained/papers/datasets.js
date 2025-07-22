@@ -187,7 +187,7 @@ const datasets = [
   },
   {
     title: "OMEGA",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-414-out-of-distribution-math-problems-evaluation-with-3-generalization-axes-ac4abe71a794",
     date: "June 2025",
     description:
       "A benchmark to evaluate LLMs' out-of-distribution generalization in math across exploratory, compositional, and transformative axes. Experiments using OMEGA reveal that while LLMs show some improvement in exploratory generalization with fine-tuning, they struggle with compositional and transformative reasoning, highlighting a gap between LLM reasoning and human mathematical creativity.",

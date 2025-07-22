@@ -223,4 +223,13 @@ const llm_for_math = [
       "A series of mathematical reasoning models (1.5B, 7B, 14B, and 32B parameters), including a winning submission to the AI Mathematical Olympiad - Progress Prize 2 (AIMO-2) competition, trained on a massive dataset of 540K unique math problems and 3.2M solutions (OpenMathReasoning dataset) capable of CoT and TIR with Python code execution.",
     tags: ["LLM for Math"],
   },
+  {
+    title: "Fast Math R1 14B",
+    link: "",
+    date: "July 2025",
+    description:
+      "Ranked 4th on the public leaderboard and 8th on the private leaderboard of the second edition of AI Mathematical Olympiad (AIMO), uses a two-stage recipe for training mathematical LLMs, combining extended Supervised Fine-Tuning (SFT) for accuracy with Reinforcement Learning from online inference (GRPO) for efficiency.",
+    tags: ["LLM for Math"],
+
+  }
 ];
