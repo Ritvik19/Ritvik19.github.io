@@ -439,5 +439,13 @@ const miscellaneous_studies = [
     description:
       "Investigates the reasoning capabilities of LLMs enhanced by RL, focusing on discrepancies in reported improvements across different model families like Qwen2.5 and Llama. It reveals that Qwen2.5's superior performance on mathematical benchmarks like MATH-500 may be due to data contamination from its pre-training on web-scale corpora, and demonstrates that only accurate reward signals consistently improve mathematical reasoning performance in RL.",
     tags: ["Language Models", "LLM for Math"],
+  },
+  {
+    title: "Gemini 2.5 Pro Capable of Winning Gold at IMO 2025",
+    link: "https://ritvik19.medium.com/papers-explained-415-gemini-2-5-pro-capable-of-winning-gold-at-imo-2025-0e76cc8ae940",
+    date: "July 2025",
+    description:
+      "Presents a novel methodology based on pipeline design and prompt engineering with the Gemini 2.5 Pro model, solving  5 out of the 6 problems of IMO 2025.",
+    tags: ["Language Models", "Gemini", "LLM for Math", "Agentic Systems"],
   }
 ];
