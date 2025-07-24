@@ -345,11 +345,18 @@ const llm_training = [
   },
   {
     title: "LongWriter-Zero",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-416-longwriter-zero-326f86fa5be5",
     date: "June 2025",
     description:
       "A novel approach to ultra-long text generation that uses reinforcement learning to train LLMs, without relying on synthetic data or SFT. By using specialized reward models to guide the LLM towards improved length control, writing quality, and structural formatting.",
     tags: ["Reinforcement Learning"],
-
+  },
+  {
+    title: "Unary Feedback as Observation",
+    link: "",
+    date: "July 2025",
+    description:
+      "Addresses the issue of Large Reasoning Models trained with single-turn Reinforcement Learning struggling with multi-turn problem-solving due to repetitive responses and failure to incorporate feedback, using unary feedback (e.g., \"Let's try again\") in multi-turn RL to improve both single-turn performance and multi-turn reasoning accuracy, along with reward structures to minimize turns and encourage diverse reasoning.",
+    tags: ["Reinforcement Learning", "LLM for Math"],
   }
 ];
