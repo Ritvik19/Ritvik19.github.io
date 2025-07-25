@@ -410,7 +410,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Kimi Researcher",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-417-kimi-researcher-baa1c9f4ae68",
     date: "June 2025",
     description:
       "An autonomous agent that excels at multi-turn search and reasoning. It performs an average of 23 reasoning steps and explores over 200 URLs per task. Built on an internal version of the Kimi k-series model and trained entirely through end-to-end agentic reinforcement learning.",
