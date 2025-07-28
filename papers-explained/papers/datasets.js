@@ -195,10 +195,18 @@ const datasets = [
   },
   {
     title: "TabArena",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-418-tabarena-ff7e5159e982",
     date: "June 2025",
     description:
       "A continuously maintained, living benchmark for tabular machine learning models, featuring a curated collection of 51 datasets, 16 models, focusing on tabular classification and regression for independent and identically distributed (IID) data in the small to medium data regime.",
     tags: ["Datasets", "Benchmark", "Tabular Data"],
+  },
+  {
+    title: "OpenCodeReasoning II",
+    link: "",
+    date: "July 2025",
+    description:
+      "A large-scale dataset containing 2.5 million question-solution-critique triples for approximately 35,000 unique programming questions, featuring reasoning CoTs for both solutions and critiques. It also includes an extension to the LiveCodeBench benchmark to support C++ programming.",
+    tags: ["Datasets", "Code Data"],
   }
 ];
