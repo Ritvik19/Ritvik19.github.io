@@ -8,14 +8,6 @@ const reasoning_models = [
     tags: ["Multimodal Models"],
   },
   {
-    title: "The Ladder of Reasoning",
-    link: "",
-    date: "April 2025",
-    description:
-      "Analyzes the impact of supervised fine-tuning (SFT) on language models' mathematical reasoning abilities using the AIME24 dataset, revealing a ladder-like structure of problem difficulty (Easy, Medium, Hard, Exh). The study finds that progressing through these tiers requires different capabilities, with R1 reasoning sufficient for Medium-level, stability in deeper exploration needed for Hard-level, and unconventional problem-solving skills required for Exh-level, while also highlighting the importance of scaling SFT datasets and the limitations of SFT alone in achieving higher-level reasoning.",
-    tags: ["LLM for Math"],
-  },
-  {
     title: "Fathom R1",
     link: "https://ritvik19.medium.com/papers-explainedv377-fathom-r1-ba93dd040cbf",
     date: "May 2025",

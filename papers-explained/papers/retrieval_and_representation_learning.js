@@ -275,5 +275,13 @@ const retrieval_and_representation_learning = [
     description:
       "A 3.8B multimodal embedding model based on Qwen2.5-VL that unifies text and image representations using a novel architecture supporting both single-vector and multi-vector embeddings. It incorporates task-specific LoRA adapters to optimize performance across diverse retrieval scenarios.",
     tags: ["Representation Learning", "Multimodal Models"]
+  },
+  {
+    title: "GloVe 2024",
+    link: "",
+    date: "July 2025",
+    description:
+      "This report documents and evaluates new 2024 English GloVe models, addressing the need for updated word embeddings due to language evolution since the original 2014 models. The 2024 models, trained using Wikipedia, Gigaword, and a subset of Dolma, incorporate new culturally and linguistically relevant words, perform comparably on structural tasks, and demonstrate improved performance on recent NER datasets.",
+    tags: ["Representation Learning"]
   }
 ];

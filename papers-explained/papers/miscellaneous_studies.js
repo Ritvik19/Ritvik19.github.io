@@ -361,6 +361,14 @@ const miscellaneous_studies = [
     tags: ["Language Models"],
   },
   {
+    title: "The Ladder of Reasoning",
+    link: "https://ritvik19.medium.com/papers-explained-419-the-ladder-of-reasoning-e58f9727abec",
+    date: "April 2025",
+    description:
+      "Analyzes the impact of supervised fine-tuning (SFT) on language models' mathematical reasoning abilities using the AIME24 dataset, revealing a ladder-like structure of problem difficulty (Easy, Medium, Hard, Exh). The study finds that progressing through these tiers requires different capabilities, with R1 reasoning sufficient for Medium-level, stability in deeper exploration needed for Hard-level, and unconventional problem-solving skills required for Exh-level, while also highlighting the importance of scaling SFT datasets and the limitations of SFT alone in achieving higher-level reasoning.",
+    tags: ["LLM for Math"],
+  },
+  {
     title: "Crosslingual Reasoning through Test-Time Scaling",
     link: "https://ritvik19.medium.com/papers-explained-403-crosslingual-reasoning-through-test-time-scaling-ee069fcca028",
     date: "May 2025",
@@ -447,5 +455,13 @@ const miscellaneous_studies = [
     description:
       "Presents a novel methodology based on pipeline design and prompt engineering with the Gemini 2.5 Pro model, solving  5 out of the 6 problems of IMO 2025.",
     tags: ["Language Models", "Gemini", "LLM for Math", "Agentic Systems"],
+  },
+  {
+    title: "Multi-Domain Reasoning via Reinforcement Learning",
+    link: "",
+    date: "July 2025",
+    description:
+      "Investigates multi-domain reasoning in LLMs using RLVR, focusing on mathematical reasoning, code generation, and logical puzzle solving. The research evaluates in-domain improvements, cross-domain generalization, interactions during combined training, the influence of SFT on RL, and the impacts of curriculum learning, reward design, and language-specific factors, providing insights for optimizing RL methodologies to foster comprehensive, multi-domain reasoning capabilities in LLMs.",
+    tags: ["Language Models", "Reasoning"],
   }
 ];
