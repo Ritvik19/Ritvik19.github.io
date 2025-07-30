@@ -225,7 +225,7 @@ const llm_for_math = [
   },
   {
     title: "Fast Math R1 14B",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-420-fast-math-r1-14b-442d09c48987",
     date: "July 2025",
     description:
       "Ranked 4th on the public leaderboard and 8th on the private leaderboard of the second edition of AI Mathematical Olympiad (AIMO), uses a two-stage recipe for training mathematical LLMs, combining extended Supervised Fine-Tuning (SFT) for accuracy with Reinforcement Learning from online inference (GRPO) for efficiency.",

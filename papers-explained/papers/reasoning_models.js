@@ -54,5 +54,13 @@ const reasoning_models = [
     description:
       "A framework that uses rule-based Reinforcement Learning for Code Update to improve LLMs' code generation performance in dynamic API scenarios by mimicking how human programmers adapt to API changes.",
     tags: ["LLM for Code", "Reinforcement Learning"]
+  },
+  {
+    title: "MiroMind-M1",
+    link: "",
+    date: "July 2025",
+    description:
+      "A series of Reasoning Language Models built on the Qwen-2.5 backbone,trained in two stages: SFT on a curated dataset of math problems with chain-of-thought trajectories, followed by reinforcement learning with verifiable reward, utilizing a novel Context-Aware Multi-Stage Policy Optimization algorithm to enhance robustness and efficiency.",
+    tags: ["LLM for Math", "Reinforcement Learning"]
   }
 ];

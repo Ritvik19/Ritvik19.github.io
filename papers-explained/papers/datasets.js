@@ -208,5 +208,13 @@ const datasets = [
     description:
       "A large-scale dataset containing 2.5 million question-solution-critique triples for approximately 35,000 unique programming questions, featuring reasoning CoTs for both solutions and critiques. It also includes an extension to the LiveCodeBench benchmark to support C++ programming.",
     tags: ["Datasets", "Code Data"],
+  },
+  {
+    title: "MegaScience",
+    link: "",
+    date: "July 2025",
+    description:
+      "Introduces TextBookReasoning, a dataset of 650k reasoning questions extracted from 12k university-level science textbooks, and MegaScience, a 1.25 million instance dataset created by combining high-quality open-source datasets.",
+    tags: ["Datasets", "Scientific Data"],
   }
 ];
