@@ -265,7 +265,7 @@ const llm_training = [
   },
   {
     title: "AdaptiVocab",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-421-adaptivocab-5861615452bc",
     date: "March 2025",
     description:
       "An end-to-end approach for vocabulary adaptation designed to enhance LLM efficiency in low-resource domains by adapting the vocabulary to focused domains of interest. It modifies the vocabulary by replacing tokens with domain-specific n-gram-based tokens, reducing the number of tokens required for input processing and output generation, and initializes new n-token embeddings using an exponentially weighted combination of existing embeddings, followed by a lightweight fine-tuning phase.",

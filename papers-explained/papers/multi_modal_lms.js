@@ -343,4 +343,12 @@ const multi_modal_lms = [
       "An open and reproducible framework for image and video understanding research, addressing the limitations of closed-source VLMs and the issues with distillation from proprietary models.",
     tags: ["Multimodal Models"],
   },
+  {
+    title: "Voxtral",
+    link: "",
+    date: "July 2025",
+    description:
+      "Multimodal audio chat models that understand both spoken audio and text, with a 32K context window, handling audio files up to 40 minutes long and support native function calling with audio.",
+    tags: ["Multimodal Models", "Audio"],
+  }
 ];

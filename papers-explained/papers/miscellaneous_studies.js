@@ -433,6 +433,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "Multilingual Models"],
   },
   {
+    title: "Vision-Guided Chunking",
+    link: "",
+    date: "June 2025",
+    description:
+      "Introduces a vision-guided chunking approach that uses Large Multimodal Models to process PDF documents in batches, preserving semantic coherence and structural integrity across page boundaries. The method addresses the limitations of traditional text-based chunking in RAG systems by effectively handling complex layouts, tables, figures, and multi-page content.",
+    tags: ["Multimodal Models", "Document Understanding"],
+  },
+  {
     title: "Answer Matching",
     link: "https://ritvik19.medium.com/papers-explained-406-answer-matching-0940b4c50570",
     date: "July 2025",
