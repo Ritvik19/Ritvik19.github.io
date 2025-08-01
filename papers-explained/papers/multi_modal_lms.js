@@ -350,5 +350,13 @@ const multi_modal_lms = [
     description:
       "Multimodal audio chat models that understand both spoken audio and text, with a 32K context window, handling audio files up to 40 minutes long and support native function calling with audio.",
     tags: ["Multimodal Models", "Audio"],
+  },
+  {
+    title: "Command A Vision",
+    link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b#ec59",
+    date: "July 2025",
+    description:
+      "A 112B parameter vision language model based on Command A paired with the SigLIP2-patch16-512 vision encoder through a multimodal adapter for vision-language understanding, designed for enterprises, enabling agents to automate tedious tasks involving visual data such as slides, diagrams, PDFs, and photos.",
+    tags: ["Multimodal Models"],
   }
 ];

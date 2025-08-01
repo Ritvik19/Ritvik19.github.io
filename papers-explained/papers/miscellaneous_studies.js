@@ -329,7 +329,7 @@ const miscellaneous_studies = [
   },
   {
     title: "MDocAgent",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-422-mdocagent-db1c83ddc4ee",
     date: "March 2025",
     description:
       "A multi-modal, multi-agent framework for document understanding that leverages RAG with 5 specialized (general, critical, text, image, and summarizing) agents to improve complex question answering on documents with rich textual and visual information.",
