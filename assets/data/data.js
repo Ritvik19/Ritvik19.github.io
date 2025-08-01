@@ -144,6 +144,25 @@ const skills = {
 
 const models = [
   {
+    title: "Aryabhata 1.0",
+    description:
+      "Aryabhata 1.0 is a 7B parameter small language model for mathematics developed by Physics Wallah AI Research, optimized for JEE Mains.",
+    actions: [
+      {
+        title: "View",
+        link: "/aryabhata-1.0",
+      },
+      {
+        title: "View Model on Hugging Face",
+        link: "https://huggingface.co/PhysicsWallahAI/Aryabhata-1.0",
+      },
+      {
+        title: "View Demo",
+        link: "https://huggingface.co/spaces/PhysicsWallahAI/Aryabhata-Demo",
+      },
+    ],
+  },
+  {
     title: "SudokuNet",
     description:
       "Sudoku-Net is a neural network model that solves sudoku puzzles, developed to examine the performance of machine learning applications on solving sudokus.",
