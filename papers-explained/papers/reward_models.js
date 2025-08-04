@@ -1,5 +1,13 @@
 const reward_models = [
   {
+    title: "Shepherd",
+    link: "",
+    date: "August 2023",
+    description:
+      "A language model tuned to critique model responses and suggest refinements, trained on a high-quality feedback dataset curated from community feedback and human annotations. The model is named Shepherd, as it guides Llamas.",
+    tags: ["LLM Evaluation"],
+  },
+  {
     title: "Prometheus",
     link: "https://ritvik19.medium.com/papers-explained-170-prometheus-5e72b8054729",
     date: "October 2023",

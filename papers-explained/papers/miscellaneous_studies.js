@@ -450,7 +450,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Reasoning or Memorization",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-423-reasoning-or-memorization-29b5c073ed55",
     date: "July 2025",
     description:
       "Investigates the reasoning capabilities of LLMs enhanced by RL, focusing on discrepancies in reported improvements across different model families like Qwen2.5 and Llama. It reveals that Qwen2.5's superior performance on mathematical benchmarks like MATH-500 may be due to data contamination from its pre-training on web-scale corpora, and demonstrates that only accurate reward signals consistently improve mathematical reasoning performance in RL.",
