@@ -81,7 +81,7 @@ const reward_models = [
   },
   {
     title: "One Token to Fool LLM-as-a-Judge",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-424-one-token-to-fool-llm-as-a-judge-b8d30ed4d281",
     date: "July 2025",
     description:
       "Investigates that generative reward models are susceptible to superficial manipulations like non-word symbols or reasoning openers, leading to false positive rewards. To address this, it introduces a data augmentation strategy and trains a more robust generative reward model, highlighting the need for more reliable LLM-based evaluation methods.",
