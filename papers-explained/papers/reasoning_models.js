@@ -49,7 +49,7 @@ const reasoning_models = [
   },
   {
     title: "ReCode",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-425-recode-a0a63c7705fe",
     date: "June 2025",
     description:
       "A framework that uses rule-based Reinforcement Learning for Code Update to improve LLMs' code generation performance in dynamic API scenarios by mimicking how human programmers adapt to API changes.",
