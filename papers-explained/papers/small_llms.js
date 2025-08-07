@@ -528,7 +528,7 @@ const small_llms = [
   },
   {
     title: "Arcee Foundation Model",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-426-arcee-foundation-models-5751b562dc7b",
     date: "June 2025",
     description:
       "A family of generative AI models built from the ground up for enterprise reality. Combined with built-in support for function calling and agentic reasoning, AFM-4.5B is ready to automate complex workflows immediately i.e. no fragile prompt engineering required.",

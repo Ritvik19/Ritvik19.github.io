@@ -304,5 +304,13 @@ const frontier_models = [
     description:
       "Trained using reinforcement learning on a 200k GPU cluster, featuring native tool use, real-time search integration, and an upgraded Voice Mode with visual analysis, achieving state-of-the-art results on benchmarks like ARC-AGI V2 and Vending-Bench.",
     tags: ["Language Models", "Transformer Decoder", "Grok"],
+  },
+  {
+    title: "Claude Opus 4.1",
+    link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#7a6f",
+    date: "August 2025",
+    description:  
+      "An upgrade to Claude Opus 4 on agentic tasks, real-world coding, and reasoning.",
+    tags: ["Multimodal Models", "Anthropic", "Claude"],
   }
 ];
