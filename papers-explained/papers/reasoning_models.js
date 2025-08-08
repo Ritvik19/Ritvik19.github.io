@@ -62,5 +62,13 @@ const reasoning_models = [
     description:
       "A series of Reasoning Language Models built on the Qwen-2.5 backbone,trained in two stages: SFT on a curated dataset of math problems with chain-of-thought trajectories, followed by reinforcement learning with verifiable reward, utilizing a novel Context-Aware Multi-Stage Policy Optimization algorithm to enhance robustness and efficiency.",
     tags: ["LLM for Math", "Reinforcement Learning"]
+  },
+  {
+    title: "gpt oss",
+    link: "",
+    date: "August 2025",
+    description:
+      "A series of open-weight language models released by OpenAI, including gpt-oss-120b and gpt-oss-20b, designed for reasoning, agentic tasks, and versatile developer use cases, optimized for efficient deployment, tool use, and customization, with a focus on safety and alignment with OpenAI's standards.",
+    tags: ["Language Models", "OpenAI"]
   }
 ];

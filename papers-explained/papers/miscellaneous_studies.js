@@ -394,7 +394,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Paper2Poster",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-427-paper2poster-504437bba4cc",
     date: "May 2025",
     description:
       "A multi-agent pipeline that distills papers into structured assets, plans layouts, and refines panels with visual feedback.",
@@ -471,5 +471,13 @@ const miscellaneous_studies = [
     description:
       "Investigates multi-domain reasoning in LLMs using RLVR, focusing on mathematical reasoning, code generation, and logical puzzle solving. The research evaluates in-domain improvements, cross-domain generalization, interactions during combined training, the influence of SFT on RL, and the impacts of curriculum learning, reward design, and language-specific factors, providing insights for optimizing RL methodologies to foster comprehensive, multi-domain reasoning capabilities in LLMs.",
     tags: ["Language Models", "Reasoning"],
+  },
+  {
+    title: "OpenAI Harmony Response Format",
+    link: "",
+    date: "August 2025",
+    description:
+      "A chat format that structures conversations with special tokens and roles (system, developer, user, assistant, tool) to define message types, reasoning effort, instructions, and available tools, while utilizing channels (final, analysis, commentary) to separate user-facing responses from internal reasoning and tool calls, ensuring proper model behavior and safety.",
+    tags: ["OpenAI"],
   }
 ];

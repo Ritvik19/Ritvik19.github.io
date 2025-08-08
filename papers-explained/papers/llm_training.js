@@ -366,5 +366,13 @@ const llm_training = [
     description:
       "A synthetic data generation method that uses LLMs to reason and plan via CoT based on seed tasks, generating new synthetic prompts of similar quality and complexity, then filters the generated data for high quality using automatic metrics like Answer-Consistency for verifiable reasoning tasks and RIP for non-verifiable tasks.",
     tags: ["Synthetic Data"],
+  },
+  {
+    title: "Reinforcement Learning with Calibration Rewards (RLCR)",
+    link: "",
+    date: "July 2025",
+    description:
+      "A training approach for language models that aims to improve both accuracy and calibrated confidence estimation by optimizing a reward function that combines a binary correctness score with a Brier score, incentivizing calibrated prediction.",
+    tags: ["Reinforcement Learning"],
   }
 ];
