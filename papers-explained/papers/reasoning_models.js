@@ -65,7 +65,7 @@ const reasoning_models = [
   },
   {
     title: "gpt oss",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-428-gpt-oss-e1aed3d15afe",
     date: "August 2025",
     description:
       "A series of open-weight language models released by OpenAI, including gpt-oss-120b and gpt-oss-20b, designed for reasoning, agentic tasks, and versatile developer use cases, optimized for efficient deployment, tool use, and customization, with a focus on safety and alignment with OpenAI's standards.",

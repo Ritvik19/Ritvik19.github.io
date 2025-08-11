@@ -374,5 +374,13 @@ const llm_training = [
     description:
       "A training approach for language models that aims to improve both accuracy and calibrated confidence estimation by optimizing a reward function that combines a binary correctness score with a Brier score, incentivizing calibrated prediction.",
     tags: ["Reinforcement Learning"],
+  },
+  {
+    title: "Safe-Completions",
+    link: "",
+    date: "August 2025",
+    description:
+      "A safety-training approachused for GPT-5, which focuses on the safety of the model's output rather than a binary classification of user intent. Safe-completions aim to maximize helpfulness within safety policy constraints, improving safety on dual-use prompts, reducing the severity of safety failures, and increasing model helpfulness compared to traditional refusal-based training.",
+    tags: ["Safety"],
   }
 ];

@@ -312,5 +312,13 @@ const frontier_models = [
     description:  
       "An upgrade to Claude Opus 4 on agentic tasks, real-world coding, and reasoning.",
     tags: ["Multimodal Models", "Anthropic", "Claude"],
+  },
+  {
+    title: "GPT-5",
+    link: "",
+    date: "August 2025",
+    description:
+      "A unified model with a smart, efficient component for quick answers and a deeper reasoning component (GPT-5 thinking) for complex problems, managed by a real-time router.",
+    tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
   }
 ];
