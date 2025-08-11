@@ -474,7 +474,7 @@ const miscellaneous_studies = [
   },
   {
     title: "OpenAI Harmony Response Format",
-    link: "https://ritvik19.medium.com/papers-explained-428-gpt-oss-e1aed3d15afe",
+    link: "https://ritvik19.medium.com/papers-explained-428-gpt-oss-e1aed3d15afe#31fa",
     date: "August 2025",
     description:
       "A chat format that structures conversations with special tokens and roles (system, developer, user, assistant, tool) to define message types, reasoning effort, instructions, and available tools, while utilizing channels (final, analysis, commentary) to separate user-facing responses from internal reasoning and tool calls, ensuring proper model behavior and safety.",
