@@ -315,7 +315,7 @@ const frontier_models = [
   },
   {
     title: "GPT-5",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-429-gpt-5-0342672382e7",
     date: "August 2025",
     description:
       "A unified model with a smart, efficient component for quick answers and a deeper reasoning component (GPT-5 thinking) for complex problems, managed by a real-time router.",
