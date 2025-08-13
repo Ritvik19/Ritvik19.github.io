@@ -1,7 +1,7 @@
 let title = "Aryabhatta 1.0 : An exam-focused language model for JEE Math";
 let project_date = "July 2025"
 let links = {
-    "paper": "",
+    "paper": "https://arxiv.org/abs/2508.08665",
     "demo": "https://huggingface.co/spaces/PhysicsWallahAI/Aryabhata-Demo",
     "code": "",
     "model": "https://huggingface.co/PhysicsWallahAI/Aryabhata-1.0",
@@ -36,36 +36,6 @@ let project_contents = {
         {"type": "heading", "content": "Training Setup"},
         {"type": "text", "content": "The model was trained using a single NVIDIA H100 GPU with 80GB memory, utilizing an optimized training pipeline that allowed for efficient training within a limited compute budget."}
     ],
-    // ### Model Merging
-// We began with model merging (Weighted average) to build a strong initialization (Aryabhata 0.5) by combining diverse model capabilities:
-// * Qwen 2.5 Math: A robust math-centric LLM with solid symbolic math foundations.
-// * Ace Math: An enhanced version of Qwen 2.5 Math, fine-tuned by NVIDIA for improved accuracy in mathematics benchmarks.
-// * DeepSeek R1 Distill Qwen: A long-form reasoning model, fine-tuned on reasoning traces distilled from DeepSeek R1.
-
-// ### Data Curation + Rejection Sampling
-// We extracted ~250K raw questions from Physics Wallah's internal database and applied aggressive filtering and cleaning:
-// * Removed: diagram-based, non-English, and option-heavy questions.
-// * Kept: questions matching the distribution of JEE Main 2019–2024.
-// Final curated dataset: ~130K high-quality questions.
-
-// For each question:
-// * Generated 4 CoTs using Aryabhata 0.5.
-// * Retained only those leading to correct final answers.
-
-// Resulting Dataset:
-// * ~100K questions
-// * ~350K high-quality CoTs
-
-// We used this dataset for SFT.
-
-// ### Reinforcement Learning with Verifiable Rewards (RLVR)
-// We used a custom in-house variant of Group Relative Policy Optimization (GRPO), adapted for math-specific reward functions.
-// * Removed KL-divergence penalty
-// * Removed clipping
-
-// We used RLVR on the remaining ~30K questions.
-
-// This multi-phase training strategy allows Aryabhata 1.0 to capture **pedagogy-aligned reasoning patterns**, making it highly effective for solving real student queries in mathematics.
     "Method": [
         {"type": "heading", "content": "Model Merging"},
         {"type": "text", "content": "We began with model merging (weighted average) to build a strong initialization (Aryabhata 0.5) by combining diverse model capabilities:"},
