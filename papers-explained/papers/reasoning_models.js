@@ -70,5 +70,13 @@ const reasoning_models = [
     description:
       "A series of open-weight language models released by OpenAI, including gpt-oss-120b and gpt-oss-20b, designed for reasoning, agentic tasks, and versatile developer use cases, optimized for efficient deployment, tool use, and customization, with a focus on safety and alignment with OpenAI's standards.",
     tags: ["Language Models", "OpenAI"]
+  },
+  {
+    title: "ProRL V2",
+    link: "https://ritvik19.medium.com/papers-explained-386-prorl-261c9ac00bc7#06a7",
+    date: "August 2025",
+    description:
+      "The updated iteration of the ProRL regime, designed to test the effects of extended RL training on LLMs, pushing beyond typical training schedules with advanced algorithms, regularization, and domain coverage.",
+    tags: ["Language Models", "LLM for Math"]
   }
 ];

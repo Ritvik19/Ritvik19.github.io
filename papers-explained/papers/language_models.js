@@ -168,6 +168,14 @@ const language_models = [
     tags: ["Language Models"],
   },
   {
+    title: "Switch Transformers",
+    link: "",
+    date: "January 2021",
+    description:
+      "Sparsely-activated expert models that simplify and improve upon Mixture of Experts (MoE) by using a simplified routing algorithm and improved models with reduced communication and computational costs. They enable training large sparse models with lower precision formats, achieve significant speedups in pre-training.",
+    tags: ["Language Models", "Mixture of Experts"],
+  },
+  {
     title: "FLAN",
     link: "https://ritvik19.medium.com/papers-explained-46-flan-1c5e0d5db7c9",
     date: "September 2021",
