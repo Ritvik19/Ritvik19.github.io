@@ -479,5 +479,13 @@ const miscellaneous_studies = [
     description:
       "A chat format that structures conversations with special tokens and roles (system, developer, user, assistant, tool) to define message types, reasoning effort, instructions, and available tools, while utilizing channels (final, analysis, commentary) to separate user-facing responses from internal reasoning and tool calls, ensuring proper model behavior and safety.",
     tags: ["OpenAI"],
+  },
+  {
+    title: "Anatomy of a Machine Learning Ecosystem",
+    link: "https://ritvik19.medium.com/papers-explained-431-anatomy-of-a-machine-learning-ecosystem-f95f60950eb5",
+    date: "August 2025",
+    description:
+      "This work analyzes 1.86 million models on Hugging Face. The study of model family trees—networks that connect fine-tuned models to their base or parent—reveals sprawling fine-tuning lineages that vary widely in size and structure. Using an evolutionary biology lens to study ML models, model metadata and model cards are used to measure the genetic similarity and mutation of traits over model families.",
+    tags: [],
   }
 ];
