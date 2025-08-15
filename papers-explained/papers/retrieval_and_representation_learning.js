@@ -278,7 +278,7 @@ const retrieval_and_representation_learning = [
   },
   {
     title: "GloVe 2024",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-glove-2024-8c935a8ac58a",
     date: "July 2025",
     description:
       "This report documents and evaluates new 2024 English GloVe models, addressing the need for updated word embeddings due to language evolution since the original 2014 models. The 2024 models, trained using Wikipedia, Gigaword, and a subset of Dolma, incorporate new culturally and linguistically relevant words, perform comparably on structural tasks, and demonstrate improved performance on recent NER datasets.",
