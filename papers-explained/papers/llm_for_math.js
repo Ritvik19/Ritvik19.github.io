@@ -230,6 +230,13 @@ const llm_for_math = [
     description:
       "Ranked 4th on the public leaderboard and 8th on the private leaderboard of the second edition of AI Mathematical Olympiad (AIMO), uses a two-stage recipe for training mathematical LLMs, combining extended Supervised Fine-Tuning (SFT) for accuracy with Reinforcement Learning from online inference (GRPO) for efficiency.",
     tags: ["LLM for Math"],
-
+  },
+  {
+    title: "Aryabhata 1.0",
+    link: "https://ritvik19.medium.com/papers-explained-433-aryabhata-1-0-302d2eb383cc",
+    date: "August 2025",
+    description:
+      "A 7B parameter math reasoning model optimized for the Indian Joint Entrance Examination (JEE), built by merging Qwen-2.5-Math based models, followed by supervised fine-tuning with curriculum learning and reinforcement learning with verifiable rewards using A2C objective with group-relative advantage estimation.",
+    tags: ["LLM for Math"],
   }
 ];

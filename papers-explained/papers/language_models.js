@@ -192,6 +192,14 @@ const language_models = [
     tags: ["Language Models"],
   },
   {
+    title: "GLaM",
+    link: "",
+    date: "December 2021",
+    description:
+      "A family of language models that utilizes a sparsely activated mixture-of-experts architecture to scale model capacity while reducing training costs compared to dense models. The largest GLaM has 1.2 trillion parameters, approximately 7x larger than GPT-3, but consumes only 1/3 of the energy and requires half the computation FLOPs for inference.",
+    tags: ["Language Models", "Mixture of Experts"],
+  },
+  {
     title: "BERTopic",
     link: "https://ritvik19.medium.com/papers-explained-193-bertopic-f9aec10cd5a6",
     date: "March 2022",

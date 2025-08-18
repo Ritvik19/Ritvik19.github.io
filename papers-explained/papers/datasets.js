@@ -202,6 +202,14 @@ const datasets = [
     tags: ["Datasets", "Benchmark", "Tabular Data"],
   },
   {
+    title: "FineWeb 2",
+    link: "",
+    date: "June 2025",
+    description:
+      "A 20TB (5B document) multilingual dataset covering over 1000 languages, created using a new pre-training dataset curation pipeline based on FineWeb that can be automatically adapted to support any language. The pipeline includes steps for Language Identification, Deduplication, Filtering, and Dedup-informed upsampling (Rehydration), each of which improves performance.",
+    tags: ["Datasets", "HuggingFace"],
+  },
+  {
     title: "OpenCodeReasoning II",
     link: "",
     date: "July 2025",

@@ -56,6 +56,14 @@ const reasoning_models = [
     tags: ["LLM for Code", "Reinforcement Learning"]
   },
   {
+    title: "POLARIS",
+    link: "",
+    date: "June 2025",
+    description:
+      "A post-training recipe focused on calibrated data difficulty, enhanced data diversity, inference-time length scaling, and efficient training, designed to scale reinforcement learning on advanced reasoning models.",
+    tags: ["LLM for Math", "Reinforcement Learning"]
+  },
+  {
     title: "MiroMind-M1",
     link: "",
     date: "July 2025",
