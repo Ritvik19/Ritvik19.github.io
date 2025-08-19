@@ -1,5 +1,13 @@
 const miscellaneous_studies = [
   {
+    title: "ULMFiT", 
+    link: "",
+    date: "Jan 2018",
+    description:
+      "A transfer learning method for NLP that enables CV-like transfer learning for any NLP task. It uses techniques like discriminative fine-tuning, slanted triangular learning rates, and gradual unfreezing to retain previous knowledge and avoid catastrophic forgetting during fine-tuning.",
+    tags: ["Transfer Learning", "Language Models"],
+  },
+  {
     title: "TLDR",
     link: "https://ritvik19.medium.com/papers-explained-293-tldr-a31d787cd365",
     date: "April 2020",

@@ -345,7 +345,7 @@ const multi_modal_lms = [
   },
   {
     title: "Voxtral",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-434-voxtral-d178cdc242ca",
     date: "July 2025",
     description:
       "Multimodal audio chat models that understand both spoken audio and text, with a 32K context window, handling audio files up to 40 minutes long and support native function calling with audio.",
