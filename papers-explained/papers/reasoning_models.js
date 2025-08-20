@@ -86,5 +86,13 @@ const reasoning_models = [
     description:
       "The updated iteration of the ProRL regime, designed to test the effects of extended RL training on LLMs, pushing beyond typical training schedules with advanced algorithms, regularization, and domain coverage.",
     tags: ["Language Models", "LLM for Math"]
+  },
+  {
+    title: "Apriel-Nemotron-15B-Thinker",
+    link : "",
+    date: "August 2025",
+    description:
+      "A 15B parameter model in the ServiceNow Apriel SLM series. It is trained in a four stage training pipeline including: Base Model upscaling, Continual Pre-training, Supervised Fine-tuning (SFT), Reinforcement Learning using GRPO.",
+    tags: ["LLM for Math", "Reinforcement Learning"]
   }
 ];

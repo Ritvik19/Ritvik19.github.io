@@ -219,7 +219,7 @@ const datasets = [
   },
   {
     title: "MegaScience",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-435-megascience-ffe3fe3a8040",
     date: "July 2025",
     description:
       "Introduces TextBookReasoning, a dataset of 650k reasoning questions extracted from 12k university-level science textbooks, and MegaScience, a 1.25 million instance dataset created by combining high-quality open-source datasets.",
