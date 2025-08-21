@@ -88,6 +88,14 @@ const reasoning_models = [
     tags: ["Language Models", "LLM for Math"]
   },
   {
+    title: "Nemotron Nano 2",
+    link: "",
+    date: "August 2025",
+    description:
+      "A hybrid Mamba-Transformer language model designed to increase throughput for reasoning workloads, achieving accuracy compared to similarly-sized models like Qwen3-8B, with up to 6x higher inference throughput in reasoning settings. It builds on the Nemotron-H architecture, utilizes new datasets and recipes for pre-training, alignment, pruning, and distillation.",
+    tags: ["LLM for Math", "Reinforcement Learning", "Hybrid Models"]
+  },
+  {
     title: "Apriel-Nemotron-15B-Thinker",
     link : "",
     date: "August 2025",

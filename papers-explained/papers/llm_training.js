@@ -361,7 +361,7 @@ const llm_training = [
   },
   {
     title: "CoT-Self-Instruct",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-436-cot-self-instruct-7c95400ef23c",
     date: "July 2025",
     description:
       "A synthetic data generation method that uses LLMs to reason and plan via CoT based on seed tasks, generating new synthetic prompts of similar quality and complexity, then filters the generated data for high quality using automatic metrics like Answer-Consistency for verifiable reasoning tasks and RIP for non-verifiable tasks.",
