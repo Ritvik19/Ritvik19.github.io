@@ -102,5 +102,13 @@ const reasoning_models = [
     description:
       "A 15B parameter model in the ServiceNow Apriel SLM series. It is trained in a four stage training pipeline including: Base Model upscaling, Continual Pre-training, Supervised Fine-tuning (SFT), Reinforcement Learning using GRPO.",
     tags: ["LLM for Math", "Reinforcement Learning"]
+  },
+  {
+    title: "Command A Reasoning",
+    link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b#7840",
+    date: "August 2025",
+    description:
+      "A 111B reasoning model for enterprise tasks, offering secure, efficient, and scalable deployment options, a long context length, and a user-controlled token budget, making it ideal for agentic workflows and complex multi-step use cases.",
+    tags: ["Language Models"]
   }
 ];

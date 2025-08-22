@@ -257,10 +257,18 @@ const language_models = [
   },
   {
     title: "Encoder-Decoder Gemma",
-    link: "https://medium.com/@ritvik19/papers-explained-408-encoder-decoder-gemma-a6f9ee73a5f4",
+    link: "https://ritvik19.medium.com/papers-explained-408-encoder-decoder-gemma-a6f9ee73a5f4",
     date: "April 2025",
     description:
       "Explores adapting pre-trained decoder-only LLMs to encoder-decoder models to leverage the strengths of both approaches for a better quality-efficiency trade-off.",
     tags: ["Language Models", "Gemma"],
+  },
+  {
+    title: "Nemotron-H",
+    link: "",
+    date: "April 2025",
+    description:
+      "A family of hybrid Mamba-Transformer models (8B and 56B/47B parameters) designed to reduce inference costs while maintaining or improving accuracy compared to similarly sized open-source Transformer models, achieving up to 3x faster inference speeds; it utilizes techniques like MiniPuzzle for compression and FP8-based training to further enhance efficiency.",
+    tags: ["Language Models", "Hybrid Models"],
   }
 ];

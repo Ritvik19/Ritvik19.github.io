@@ -442,7 +442,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Vision-Guided Chunking",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-437-vision-guided-chunking-882220193e09",
     date: "June 2025",
     description:
       "Introduces a vision-guided chunking approach that uses Large Multimodal Models to process PDF documents in batches, preserving semantic coherence and structural integrity across page boundaries. The method addresses the limitations of traditional text-based chunking in RAG systems by effectively handling complex layouts, tables, figures, and multi-page content.",
