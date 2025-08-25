@@ -382,5 +382,13 @@ const llm_training = [
     description:
       "A safety-training approachused for GPT-5, which focuses on the safety of the model's output rather than a binary classification of user intent. Safe-completions aim to maximize helpfulness within safety policy constraints, improving safety on dual-use prompts, reducing the severity of safety failures, and increasing model helpfulness compared to traditional refusal-based training.",
     tags: ["Safety"],
+  },
+  {
+    title: "Agent Foundation Models (Chain-of-Agents)",
+    link: "",
+    date: "August 2025",
+    description:
+      "A novel LLM reasoning paradigm that enables end-to-end complex problem-solving by simulating multi-agent collaboration within a single model, eliminating the need for complex prompt and workflow engineering. Agent Foundation Models (AFMs) are trained using multi-agent distillation and reinforcement learning.",
+    tags: [],
   }
 ];

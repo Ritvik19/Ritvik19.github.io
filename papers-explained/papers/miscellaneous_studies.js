@@ -409,6 +409,14 @@ const miscellaneous_studies = [
     tags: ["Agentic Systems"],
   },
   {
+    title: "Hallucination Tax of Reinforcement Finetuning",
+    link: "",
+    date: "May 2025",
+    description:
+      "Identifies that models become more prone to confidently hallucinate answers to unanswerable questions. To address this, SUM (Synthetic Unanswerable Math), a dataset of unanswerable math problems, is introduced and demonstrates that incorporating a small portion of SUM during RFT significantly restores appropriate refusal behavior and improves generalization to other tasks.",
+    tags: ["Language Models", "Reasoning"],
+  },
+  {
     title: "Evaluation is All You Need",
     link: "https://ritvik19.medium.com/papers-explained-398-evaluation-is-all-you-need-648b9ede2d5e",
     date: "June 2025",
@@ -495,5 +503,15 @@ const miscellaneous_studies = [
     description:
       "This work analyzes 1.86 million models on Hugging Face. The study of model family trees—networks that connect fine-tuned models to their base or parent—reveals sprawling fine-tuning lineages that vary widely in size and structure. Using an evolutionary biology lens to study ML models, model metadata and model cards are used to measure the genetic similarity and mutation of traits over model families.",
     tags: [],
+  },
+  {
+    title: "Deep Think with Confidence (DeepConf)",
+    link: "",
+    date: "August 2025",
+    description:
+      "A test-time method designed to enhance the reasoning efficiency and performance of LLMs. It leverages model-internal confidence signals to dynamically filter out low-quality reasoning traces during or after generation, reducing computational overhead and improving accuracy across various reasoning tasks and models, including Qwen3 and GPT-OSS series.",
+    tags: ["Language Models", "LLM for Math", "Reasoning"],
   }
+
+
 ];

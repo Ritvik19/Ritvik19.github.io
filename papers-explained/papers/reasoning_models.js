@@ -65,7 +65,7 @@ const reasoning_models = [
   },
   {
     title: "MiroMind-M1",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-438-miromind-m1-d2206c0b1b1e",
     date: "July 2025",
     description:
       "A series of Reasoning Language Models built on the Qwen-2.5 backbone,trained in two stages: SFT on a curated dataset of math problems with chain-of-thought trajectories, followed by reinforcement learning with verifiable reward, utilizing a novel Context-Aware Multi-Stage Policy Optimization algorithm to enhance robustness and efficiency.",
