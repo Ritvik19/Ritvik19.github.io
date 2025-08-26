@@ -481,6 +481,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "Gemini", "LLM for Math", "Agentic Systems"],
   },
   {
+    title: "Context Rot",
+    link: "",
+    date: "July 2025",
+    description:
+      "Extends the Needle in a Haystack benchmark to include semantic matches, variations in haystack content, conversational question-answering, and a synthetic word replication task, demonstrating that LLMs exhibit non-uniform performance, i.e. performance degrades with increasing input length, even on simple tasks.",
+    tags: ["Language Models"],
+  },
+  {
     title: "Multi-Domain Reasoning via Reinforcement Learning",
     link: "",
     date: "July 2025",

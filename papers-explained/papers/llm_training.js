@@ -369,7 +369,7 @@ const llm_training = [
   },
   {
     title: "Reinforcement Learning with Calibration Rewards (RLCR)",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-439-reinforcement-learning-with-calibration-rewards-rlcr-bafda59538fd",
     date: "July 2025",
     description:
       "A training approach for language models that aims to improve both accuracy and calibrated confidence estimation by optimizing a reward function that combines a binary correctness score with a Brier score, incentivizing calibrated prediction.",
