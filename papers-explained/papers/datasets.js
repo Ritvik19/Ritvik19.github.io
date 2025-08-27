@@ -211,7 +211,7 @@ const datasets = [
   },
   {
     title: "OpenCodeReasoning II",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-440-opencodereasoning-ii-c1e27ef6fb5e",
     date: "July 2025",
     description:
       "A large-scale dataset containing 2.5 million question-solution-critique triples for approximately 35,000 unique programming questions, featuring reasoning CoTs for both solutions and critiques. It also includes an extension to the LiveCodeBench benchmark to support C++ programming.",

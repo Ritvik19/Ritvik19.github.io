@@ -533,5 +533,13 @@ const small_llms = [
     description:
       "A family of generative AI models built from the ground up for enterprise reality. Combined with built-in support for function calling and agentic reasoning, AFM-4.5B is ready to automate complex workflows immediately i.e. no fragile prompt engineering required.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
+  },
+  {
+    title: "SmolLM3",
+    link: "https://ritvik19.medium.com/papers-explained-176-smol-lm-a166d5f1facc#e4be",
+    date: "July 2025",
+    description:
+      "A 3B language model featuring dual-mode reasoning (think/no_think), multilingual support for six languages (English, French, Spanish, German, Italian, Portuguese), and long context capabilities up to 128k.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "HuggingFace"],
   }
 ];
