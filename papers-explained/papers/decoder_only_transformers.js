@@ -607,4 +607,12 @@ const decoder_only_transformers = [
       "An agentic LLM for software engineering tasks developed through a collaboration between Mistral AI and All Hands AI. It is finetuned from Mistral-Small-3.1",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
   },
+  {
+    title: "Kimi K2",
+    link: "",
+    date: "July 2025",
+    description:
+      "A 1.04T parameter MoE LLM with 32B activated parameters, pre-trained on 15.5 trillion tokens using the MuonClip optimizer, with a novel QK-clip technique to address training instability while enjoying the advanced token efficiency of Muon, and post-trained with a large-scale agentic data synthesis pipeline and reinforcement learning.",
+    tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
+  }
 ];

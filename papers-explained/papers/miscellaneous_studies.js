@@ -490,7 +490,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Multi-Domain Reasoning via Reinforcement Learning",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-441-multi-domain-reasoning-via-reinforcement-learning-71568a744ecd",
     date: "July 2025",
     description:
       "Investigates multi-domain reasoning in LLMs using RLVR, focusing on mathematical reasoning, code generation, and logical puzzle solving. The research evaluates in-domain improvements, cross-domain generalization, interactions during combined training, the influence of SFT on RL, and the impacts of curriculum learning, reward design, and language-specific factors, providing insights for optimizing RL methodologies to foster comprehensive, multi-domain reasoning capabilities in LLMs.",
