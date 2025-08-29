@@ -110,5 +110,13 @@ const reasoning_models = [
     description:
       "A 111B reasoning model for enterprise tasks, offering secure, efficient, and scalable deployment options, a long context length, and a user-controlled token budget, making it ideal for agentic workflows and complex multi-step use cases.",
     tags: ["Language Models"]
+  },
+  {
+    title: "Hermes 4",
+    link: "",
+    date: "August 2025",
+    description:
+      "A family of hybrid reasoning models that combines structured, multi-step reasoning with broad instruction-following ability. The report details the data synthesis and curation strategy, training methodology incorporating loss-masking and efficient packing, demonstrating that open-weight reasoning models can be effectively trained and evaluated to achieve performance comparable to frontier systems.",
+    tags: ["Language Models", "Transformer Decoder", "Reasoning"],
   }
 ];

@@ -386,7 +386,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Examining Citation Relationships using LLMs",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-442-examining-citation-relationships-using-llms-cfc3e9bda93f",
     date: "May 2025",
     description:
       "Addresses interpretability of LLMs in document-based tasks through attribution, which involves tracing generated outputs back to their source documents, through two techniques: a zero-shot approach framing attribution as textual entailment (using flan-ul2) and an attention-based binary classification technique (using flan-t5-small)",
