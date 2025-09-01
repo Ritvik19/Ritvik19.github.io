@@ -113,7 +113,7 @@ const reasoning_models = [
   },
   {
     title: "Hermes 4",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-443-hermes-4-2fba381f0c0a",
     date: "August 2025",
     description:
       "A family of hybrid reasoning models that combines structured, multi-step reasoning with broad instruction-following ability. The report details the data synthesis and curation strategy, training methodology incorporating loss-masking and efficient packing, demonstrating that open-weight reasoning models can be effectively trained and evaluated to achieve performance comparable to frontier systems.",

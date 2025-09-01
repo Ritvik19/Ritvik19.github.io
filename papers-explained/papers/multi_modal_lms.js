@@ -344,6 +344,14 @@ const multi_modal_lms = [
     tags: ["Multimodal Models"],
   },
   {
+    title: "Kimi-VL",
+    link: "",
+    date: "April 2025",
+    description:
+      "An efficient open-source MoE VLM with only 2.8B activated parameters in its language decoder, demonstrating strong performance in multimodal reasoning, long-context understanding (up to 128K), and agent capabilities. It excels in diverse tasks such as image and video comprehension, OCR, mathematical reasoning, and multi-image understanding, while its native-resolution vision encoder, MoonViT, enables it to process ultra-high-resolution visual inputs effectively.",
+    tags: ["Multimodal Models", "Mixtures of Experts"],
+  },
+  {
     title: "Voxtral",
     link: "https://ritvik19.medium.com/papers-explained-434-voxtral-d178cdc242ca",
     date: "July 2025",
