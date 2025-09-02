@@ -57,7 +57,7 @@ const reasoning_models = [
   },
   {
     title: "POLARIS",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-444-polaris-d0384cf030c5",
     date: "June 2025",
     description:
       "A post-training recipe focused on calibrated data difficulty, enhanced data diversity, inference-time length scaling, and efficient training, designed to scale reinforcement learning on advanced reasoning models.",
@@ -118,5 +118,13 @@ const reasoning_models = [
     description:
       "A family of hybrid reasoning models that combines structured, multi-step reasoning with broad instruction-following ability. The report details the data synthesis and curation strategy, training methodology incorporating loss-masking and efficient packing, demonstrating that open-weight reasoning models can be effectively trained and evaluated to achieve performance comparable to frontier systems.",
     tags: ["Language Models", "Transformer Decoder", "Reasoning"],
+  },
+  {
+    title: "rStar2-Agent",
+    link: "",
+    date: "August 2025",
+    description:
+      "A 14B math reasoning model trained with agentic reinforcement learning, utilizing advanced cognitive behaviors like careful tool use and reflection on code execution feedback. It incorporates innovations such as an efficient RL infrastructure, the GRPO-RoC algorithm, and an efficient agent training recipe, enabling strong generalization to other tasks.",
+    tags: ["LLM for Math", "Reinforcement Learning", "Agentic Models"]
   }
 ];
