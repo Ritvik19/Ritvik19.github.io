@@ -283,5 +283,13 @@ const retrieval_and_representation_learning = [
     description:
       "This report documents and evaluates new 2024 English GloVe models, addressing the need for updated word embeddings due to language evolution since the original 2014 models. The 2024 models, trained using Wikipedia, Gigaword, and a subset of Dolma, incorporate new culturally and linguistically relevant words, perform comparably on structural tasks, and demonstrate improved performance on recent NER datasets.",
     tags: ["Representation Learning"]
+  },
+  {
+    title: "Jina Code Embeddings",
+    link: "",
+    date: "August 2025",
+    description:
+      "A novel code embedding model suite designed to retrieve code from natural language queries, perform technical question-answering, and identify semantically similar code snippets across programming languages. It makes use of an autoregressive backbone (Qwen2.5-Coder) pre-trained on both text and code, generating embeddings via last-token pooling",
+    tags: ["Representation Learning", "Code Models"]
   }
 ];

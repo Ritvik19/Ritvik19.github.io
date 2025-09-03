@@ -482,7 +482,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Context Rot",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-443-context-rot-4bbd72d77631",
     date: "July 2025",
     description:
       "Extends the Needle in a Haystack benchmark to include semantic matches, variations in haystack content, conversational question-answering, and a synthetic word replication task, demonstrating that LLMs exhibit non-uniform performance, i.e. performance degrades with increasing input length, even on simple tasks.",
