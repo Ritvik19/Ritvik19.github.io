@@ -353,7 +353,7 @@ const llm_training = [
   },
   {
     title: "Unary Feedback as Observation",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-446-unary-feedback-as-observation-ef72b6bd3458",
     date: "July 2025",
     description:
       "Addresses the issue of Large Reasoning Models trained with single-turn Reinforcement Learning struggling with multi-turn problem-solving due to repetitive responses and failure to incorporate feedback, using unary feedback (e.g., \"Let's try again\") in multi-turn RL to improve both single-turn performance and multi-turn reasoning accuracy, along with reward structures to minimize turns and encourage diverse reasoning.",

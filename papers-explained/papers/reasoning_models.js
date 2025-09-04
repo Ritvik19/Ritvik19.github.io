@@ -40,6 +40,14 @@ const reasoning_models = [
     tags: ["Language Models", "LLM for Math"],
   },
   {
+    title: "General-Reasoner",
+    link: "",
+    date: "May 2025",
+    description:
+      "Enhances LLM reasoning across diverse domains by constructing a large-scale, high-quality dataset of verifiable questions curated by web crawling and developing a generative model-based answer verifier with chain-of-thought.",
+    tags: ["Language Models", "Reinforcement Learning"],
+  },
+  {
     title: "AceReason-Nemotron 1.1",
     link: "https://ritvik19.medium.com/papers-explained-395-acereason-nemotron-1-1-f2747af699a5",
     date: "June 2025",
