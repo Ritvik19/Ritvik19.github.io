@@ -1,7 +1,7 @@
 const miscellaneous_studies = [
   {
     title: "ULMFiT", 
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-447-ulmfit-acc076afe367",
     date: "Jan 2018",
     description:
       "A transfer learning method for NLP that enables CV-like transfer learning for any NLP task. It uses techniques like discriminative fine-tuning, slanted triangular learning rates, and gradual unfreezing to retain previous knowledge and avoid catastrophic forgetting during fine-tuning.",
@@ -519,6 +519,14 @@ const miscellaneous_studies = [
     description:
       "A test-time method designed to enhance the reasoning efficiency and performance of LLMs. It leverages model-internal confidence signals to dynamically filter out low-quality reasoning traces during or after generation, reducing computational overhead and improving accuracy across various reasoning tasks and models, including Qwen3 and GPT-OSS series.",
     tags: ["Language Models", "LLM for Math", "Reasoning"],
+  },
+  {
+    title: "Reasoning Vectors",
+    link: "",
+    date: "September 2025",
+    description: 
+      "Introduces a method for extracting and transferring reasoning capabilities between large language models using a \"reasoning vector\". This vector, calculated as the difference between a reinforcement learning-optimized model and a supervised fine-tuned model, can be added to other instruction-tuned models to improve their performance on reasoning benchmarks like GSM8K, HumanEval, SciQ, and BigBenchHard, demonstrating a way to reuse existing computational investments.",
+    tags: ["Language Models", "LLM for Math", "Reasoning", "Model Merging"],
   }
 
 
