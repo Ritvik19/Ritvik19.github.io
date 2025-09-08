@@ -1,7 +1,7 @@
 const language_models = [
   {
     title: "Sparsely-Gated Mixture-of-Experts Layer",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-448-sparsely-gated-mixture-of-experts-layer-e3462e8c0232",
     date: "Jan 2017",
     description:
       "Introduces the Sparsely-Gated Mixture-of-Experts (MoE) layer consisting of feed-forward sub-networks and a trainable gating network addresses the challenges of conditional computation and dramatically increase model capacity without a proportional increase in computation.",

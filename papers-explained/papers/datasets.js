@@ -224,5 +224,13 @@ const datasets = [
     description:
       "Introduces TextBookReasoning, a dataset of 650k reasoning questions extracted from 12k university-level science textbooks, and MegaScience, a 1.25 million instance dataset created by combining high-quality open-source datasets.",
     tags: ["Datasets", "Scientific Data"],
+  },
+  {
+    title: "FineVision",
+    link: "",
+    date: "September 2025",
+    description:
+      "A multimodal dataset with 24 million samples, created by collecting over 200 datasets containing 17M images, 89M question-answer turns, and 10B answer tokens, totaling 5TB of high-quality data.",
+    tags: ["Datasets", "Multimodal Datasets", "HuggingFace"],
   }
 ];
