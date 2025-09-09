@@ -169,7 +169,7 @@ const language_models = [
   },
   {
     title: "Switch Transformers",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-449-switch-transformers-5c3d3d877fb7",
     date: "January 2021",
     description:
       "Sparsely-activated expert models that simplify and improve upon Mixture of Experts (MoE) by using a simplified routing algorithm and improved models with reduced communication and computational costs. They enable training large sparse models with lower precision formats, achieve significant speedups in pre-training.",
