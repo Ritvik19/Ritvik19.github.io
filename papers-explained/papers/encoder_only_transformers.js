@@ -126,5 +126,13 @@ const encoder_only_transformers = [
     description:
       "Investigates the impact of Masked Language Modeling (MLM) and Causal Language Modeling (CLM) objectives on learning text representations. The study compares models trained with MLM, CLM, and a combination of both, controlling for factors like model size, architecture, and data volume. The study finds that while MLM generally performs better across text representation tasks, CLM is more data-efficient and offers improved fine-tuning stability; a biphasic training strategy (CLM followed by MLM) achieves optimal performance, especially when initializing from pretrained CLM models.",
     tags: ["Language Models", "Transformer Encoder"]
+  },
+  {
+    title: "mmBERT",
+    link: "",
+    date: "September 2025",
+    description:
+      "An encoder-only language model pretrained on a massive multilingual dataset (3T tokens across 1800+ languages) using an architecture inspired from ModernBERT. It incorporates novel techniques like an inverse mask ratio schedule and inverse temperature sampling ratio, and strategically introduces low-resource languages during the training decay phase to significantly boost performance.",
+    tags: ["Language Models", "Transformer Encoder", "Multilingual Models"]
   }
 ];
