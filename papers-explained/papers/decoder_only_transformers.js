@@ -609,7 +609,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Kimi K2",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-451-kimi-k2-05663a5ee4aa",
     date: "July 2025",
     description:
       "A 1.04T parameter MoE LLM with 32B activated parameters, pre-trained on 15.5 trillion tokens using the MuonClip optimizer, with a novel QK-clip technique to address training instability while enjoying the advanced token efficiency of Muon, and post-trained with a large-scale agentic data synthesis pipeline and reinforcement learning.",

@@ -210,6 +210,14 @@ const datasets = [
     tags: ["Datasets", "HuggingFace"],
   },
   {
+    title: "NaturalThoughts",
+    link: "",
+    date: "July 2025",
+    description:
+      "Curates a high-quality dataset of reasoning traces curated by selecting examples from NaturalReasoning to improve the reasoning capabilities of smaller language models through supervised finetuning. The study demonstrates that scaling high-quality, diverse reasoning data and selecting difficult examples requiring diverse reasoning strategies are more effective for distilling reasoning skills, and that training with a mix of System-1 (final answer only) and System-2 (full reasoning traces) distillation improves inference-time efficiency.",
+    tags: ["Datasets", "Scientific Data"],
+  },
+  {
     title: "OpenCodeReasoning II",
     link: "https://ritvik19.medium.com/papers-explained-440-opencodereasoning-ii-c1e27ef6fb5e",
     date: "July 2025",
@@ -232,5 +240,5 @@ const datasets = [
     description:
       "A multimodal dataset with 24 million samples, created by collecting over 200 datasets containing 17M images, 89M question-answer turns, and 10B answer tokens, totaling 5TB of high-quality data.",
     tags: ["Datasets", "Multimodal Datasets", "HuggingFace"],
-  }
+  },
 ];
