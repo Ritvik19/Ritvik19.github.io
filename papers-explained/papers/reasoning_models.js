@@ -80,6 +80,14 @@ const reasoning_models = [
     tags: ["LLM for Math", "Reinforcement Learning"]
   },
   {
+    title: "Klear-Reasoner",
+    link: "",
+    date: "August 2025",
+    description:
+      "A reasoning model that achieves high performance on multiple benchmarks by using long Chain-of-Thought supervised fine-tuning and reinforcement learning. It addresses issues with current clipping mechanisms in RL by proposing Gradient-Preserving clipping Policy Optimization (GPPO), which enhances exploration and improves learning from negative samples.",
+    tags: ["LLM for Math", "Reinforcement Learning"]
+  },
+  {
     title: "gpt oss",
     link: "https://ritvik19.medium.com/papers-explained-428-gpt-oss-e1aed3d15afe",
     date: "August 2025",
@@ -105,7 +113,7 @@ const reasoning_models = [
   },
   {
     title: "Apriel-Nemotron-15B-Thinker",
-    link : "",
+    link : "https://ritvik19.medium.com/papers-explained-452-apriel-nemotron-15b-thinker-463f8f4b5045",
     date: "August 2025",
     description:
       "A 15B parameter model in the ServiceNow Apriel SLM series. It is trained in a four stage training pipeline including: Base Model upscaling, Continual Pre-training, Supervised Fine-tuning (SFT), Reinforcement Learning using GRPO.",
