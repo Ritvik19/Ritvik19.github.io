@@ -265,7 +265,7 @@ const language_models = [
   },
   {
     title: "Nemotron-H",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-453-nemotron-h-bc40f4b899cb",
     date: "April 2025",
     description:
       "A family of hybrid Mamba-Transformer models (8B and 56B/47B parameters) designed to reduce inference costs while maintaining or improving accuracy compared to similarly sized open-source Transformer models, achieving up to 3x faster inference speeds; it utilizes techniques like MiniPuzzle for compression and FP8-based training to further enhance efficiency.",

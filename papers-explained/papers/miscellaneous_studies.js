@@ -401,6 +401,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "LLM for Math"],
   },
   {
+    title: "AutoL2S",
+    link: "",
+    date: "May 2025",
+    description:
+      "A framework designed to enable LLMs to compress their reasoning paths based on the complexity of the question, reducing unnecessary long CoT reasoning by training on data annotated with both long and short CoT paths and a special <EASY> token to indicate when shorter reasoning suffices.",
+    tags: ["Language Models"],
+  },
+  {
     title: "Paper2Poster",
     link: "https://ritvik19.medium.com/papers-explained-427-paper2poster-504437bba4cc",
     date: "May 2025",
