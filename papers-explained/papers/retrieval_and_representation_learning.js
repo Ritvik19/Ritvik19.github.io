@@ -48,6 +48,14 @@ const retrieval_and_representation_learning = [
     tags: ["Retrieval"],
   },
   {
+    title: "CLAP",
+    link: "",
+    date: "June 2022",
+    description:
+      "Learns audio concepts from natural language supervision by connecting language and audio using two encoders namely CNN14 and BERT and contrastive learning g to bring audio and text descriptions into a joint multimodal space.",
+    tags: ["Representation Learning", "Multimodal Models", "Audio Models"],
+  },
+  {
     title: "Matryoshka Representation Learning",
     link: "https://ritvik19.medium.com/papers-explained-matryoshka-representation-learning-e7a139f6ad27",
     date: "May 2022",

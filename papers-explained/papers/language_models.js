@@ -270,5 +270,13 @@ const language_models = [
     description:
       "A family of hybrid Mamba-Transformer models (8B and 56B/47B parameters) designed to reduce inference costs while maintaining or improving accuracy compared to similarly sized open-source Transformer models, achieving up to 3x faster inference speeds; it utilizes techniques like MiniPuzzle for compression and FP8-based training to further enhance efficiency.",
     tags: ["Language Models", "Hybrid Models"],
+  },
+  {
+    title: "VaultGemma",
+    link: "",
+    date: "September 2025",
+    description:
+      "A 1 billion parameter model within the Gemma family, fully trained with differential privacy (DP) on the same data mixture used for the Gemma 2 series. VaultGemma addresses the privacy risks inherent in LLMs, which are susceptible to memorizing and extracting training data, potentially disclosing sensitive information.",
+    tags: ["Language Models", "Gemma", "Differential Privacy"],
   }
 ];
