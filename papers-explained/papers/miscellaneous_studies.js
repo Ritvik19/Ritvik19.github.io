@@ -522,7 +522,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Deep Think with Confidence (DeepConf)",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-456-deep-think-with-confidence-deepconf-5aa9d7018ab0",
     date: "August 2025",
     description:
       "A test-time method designed to enhance the reasoning efficiency and performance of LLMs. It leverages model-internal confidence signals to dynamically filter out low-quality reasoning traces during or after generation, reducing computational overhead and improving accuracy across various reasoning tasks and models, including Qwen3 and GPT-OSS series.",
