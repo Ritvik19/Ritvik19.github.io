@@ -418,7 +418,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Hallucination Tax of Reinforcement Finetuning",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-457-hallucination-tax-of-reinforcement-finetuning-17ddb7ae2620",
     date: "May 2025",
     description:
       "Identifies that models become more prone to confidently hallucinate answers to unanswerable questions. To address this, SUM (Synthetic Unanswerable Math), a dataset of unanswerable math problems, is introduced and demonstrates that incorporating a small portion of SUM during RFT significantly restores appropriate refusal behavior and improves generalization to other tasks.",
@@ -535,6 +535,14 @@ const miscellaneous_studies = [
     description: 
       "Introduces a method for extracting and transferring reasoning capabilities between large language models using a \"reasoning vector\". This vector, calculated as the difference between a reinforcement learning-optimized model and a supervised fine-tuned model, can be added to other instruction-tuned models to improve their performance on reasoning benchmarks like GSM8K, HumanEval, SciQ, and BigBenchHard, demonstrating a way to reuse existing computational investments.",
     tags: ["Language Models", "LLM for Math", "Reasoning", "Model Merging"],
+  },
+  {
+    title: "AI-Augmented Textbook (Learn Your Way)",
+    link: "",
+    date: "September 2025",
+    description:
+      "An AI-augmented textbook system that leverages personalized content regeneration and diverse presentation formats like audio lessons and narrated slides, empowering learners with agency over their learning path and demonstrating improved learning outcomes compared to standard digital textbooks.",
+    tags: ["Language Models", "Gemini", "Agentic Systems"],
   }
 
 
