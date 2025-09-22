@@ -344,14 +344,6 @@ const miscellaneous_studies = [
     tags: ["Agentic Systems"],
   },
   {
-    title: "Long-To-Short LLM Reasoning With Model Merging",
-    link: "https://ritvik19.medium.com/papers-explained-357-long-to-short-llm-reasoning-with-model-merging-03a212b0ccad",
-    date: "March 2025",
-    description:
-      "Explores model merging as an efficient method for Long-to-Short reasoning in LLMs, aiming to reduce verbose reasoning steps without sacrificing accuracy. The study found that task-vector based merging, effectively reduced response length by ~50% while maintaining or slightly improving accuracy on 7B parameter models; activation-based merging showed even greater promise but is sensitive to calibration data; and merging efficacy was correlated with model scale, with smaller models struggling to learn complex reasoning and larger models posing challenges for significant length reduction.",
-    tags: ["Model Merging", "Language Models"],
-  },
-  {
     title: "QALIGN",
     link: "https://ritvik19.medium.com/papers-explained-372-qalign-977600e913fb",
     date: "April 2025",

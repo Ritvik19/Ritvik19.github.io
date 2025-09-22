@@ -320,5 +320,13 @@ const frontier_models = [
     description:
       "A unified model with a smart, efficient component for quick answers and a deeper reasoning component (GPT-5 thinking) for complex problems, managed by a real-time router.",
     tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+  },
+  {
+    title: "Grok 4 Fast",
+    link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be#bb66",
+    date: "September 2025",
+    description:
+      "A cost-efficient reasoning model, built upon the learnings from Grok 4, delivering frontier-level performance in both Enterprise and Consumer domains with exceptional token efficiency, featuring a 2M token context window, native tool use, and SOTA search capabilities.",
+    tags: ["Language Models", "Transformer Decoder", "Grok"],
   }
 ];

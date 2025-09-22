@@ -95,4 +95,20 @@ const model_merging = [
       "First selects the top τ% most variant elements within each parameter matrix across multiple target LLMs' fusion vectors (difference between fine-tuned and pivot model weights). Then, it calculates parameter matrix-level merging coefficients for each target LLM proportional to the sum of squares of the selected elements. Finally, it resolves sign conflicts within each parameter across fusion vectors by erasing elements with minority signs before merging the remaining parameters with their calculated coefficients, adding the result to the pivot model's weights.",
     tags: ["Model Merging"],
   },
+  {
+    title: "Mix Data or Merge Models",
+    link: "",
+    date: "October 2024",
+    description:
+      "Explores model merging as an alternative to data mixing for improving the safety and general performance of multilingual language models. The study finds that objective-based and language-based merging outperform data mixing, with specific merging algorithms like SLERP achieving the best balance between harm reduction and general performance across multiple languages.",
+    tags: ["Model Merging", "Cohere"],
+  },
+  {
+    title: "Long-To-Short LLM Reasoning With Model Merging",
+    link: "https://ritvik19.medium.com/papers-explained-357-long-to-short-llm-reasoning-with-model-merging-03a212b0ccad",
+    date: "March 2025",
+    description:
+      "Explores model merging as an efficient method for Long-to-Short reasoning in LLMs, aiming to reduce verbose reasoning steps without sacrificing accuracy. The study found that task-vector based merging, effectively reduced response length by ~50% while maintaining or slightly improving accuracy on 7B parameter models; activation-based merging showed even greater promise but is sensitive to calibration data; and merging efficacy was correlated with model scale, with smaller models struggling to learn complex reasoning and larger models posing challenges for significant length reduction.",
+    tags: ["Model Merging", "Language Models"],
+  },
 ];
