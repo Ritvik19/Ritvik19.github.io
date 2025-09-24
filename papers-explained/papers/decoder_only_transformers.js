@@ -208,7 +208,7 @@ const decoder_only_transformers = [
     date: "May 2023",
     description:
       "A LLaMa model fine-tuned on only 1,000 carefully curated prompts and responses, without any reinforcement learning or human preference modeling.",
-    tags: ["Language Models", "Transformer Decoder"],
+    tags: ["Language Models", "Transformer Decoder", "Less is More"],
   },
   {
     title: "Gorilla",
@@ -614,5 +614,13 @@ const decoder_only_transformers = [
     description:
       "A 1.04T parameter MoE LLM with 32B activated parameters, pre-trained on 15.5 trillion tokens using the MuonClip optimizer, with a novel QK-clip technique to address training instability while enjoying the advanced token efficiency of Muon, and post-trained with a large-scale agentic data synthesis pipeline and reinforcement learning.",
     tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
+  },
+  {
+    title: "LIMI", 
+    link: "https://ritvik19.medium.com/f696e12fdb3f/",
+    date: "September 2025",
+    description:
+      "Demonstrates that sophisticated agentic intelligence can emerge from minimal but strategically curated demonstrations of autonomous behavior. This challenges the traditional paradigm that more data yields better agency, using only 78 carefully designed training samples.",
+    tags: ["Language Models", "Transformer Decoder", "Less is More"],
   }
 ];

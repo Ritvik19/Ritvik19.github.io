@@ -57,7 +57,7 @@ const miscellaneous_studies = [
   },
   {
     title: "GGUF",
-    link: "",
+    link: "https://ritvik19.medium.com/bd7ec5b06f54",
     date: "August 2023",
     description:
       "A binary file format designed for storing and loading large language models (LLMs), specifically for inference, primarily within the GGML ecosystem and its derivatives like llama.cpp.",
@@ -394,7 +394,7 @@ const miscellaneous_studies = [
   },
   {
     title: "AutoL2S",
-    link: "",
+    link: "https://ritvik19.medium.com/9ab82981a24c",
     date: "May 2025",
     description:
       "A framework designed to enable LLMs to compress their reasoning paths based on the complexity of the question, reducing unnecessary long CoT reasoning by training on data annotated with both long and short CoT paths and a special <EASY> token to indicate when shorter reasoning suffices.",
@@ -522,7 +522,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Reasoning Vectors",
-    link: "",
+    link: "https://ritvik19.medium.com/94cfbe4387bb",
     date: "September 2025",
     description: 
       "Introduces a method for extracting and transferring reasoning capabilities between large language models using a \"reasoning vector\". This vector, calculated as the difference between a reinforcement learning-optimized model and a supervised fine-tuned model, can be added to other instruction-tuned models to improve their performance on reasoning benchmarks like GSM8K, HumanEval, SciQ, and BigBenchHard, demonstrating a way to reuse existing computational investments.",
@@ -530,11 +530,19 @@ const miscellaneous_studies = [
   },
   {
     title: "AI-Augmented Textbook (Learn Your Way)",
-    link: "",
+    link: "https://ritvik19.medium.com/97e47252096e",
     date: "September 2025",
     description:
       "An AI-augmented textbook system that leverages personalized content regeneration and diverse presentation formats like audio lessons and narrated slides, empowering learners with agency over their learning path and demonstrating improved learning outcomes compared to standard digital textbooks.",
     tags: ["Language Models", "Gemini", "Agentic Systems"],
+  },
+  {
+    title: "Smol2Operator",
+    link: "https://ritvik19.medium.com/3eb931dc6aa6",
+    date: "September 2025",
+    description:
+      "A comprehensive approach to training vision-language models for GUI automation, transforming a model with zero grounding capabilities into an agentic coder. It involves a multi-phase training strategy, including data transformation to create a unified action space and supervised fine-tuning to instill grounding capabilities and enhance agentic reasoning, with all training code, data processing pipelines, datasets, and the trained model being open-sourced to foster further research.",
+    tags: ["Multimodal Models", "GUI Automation"],
   }
 
 

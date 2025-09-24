@@ -273,7 +273,7 @@ const language_models = [
   },
   {
     title: "VaultGemma",
-    link: "",
+    link: "https://ritvik19.medium.com/f738ba8705dd",
     date: "September 2025",
     description:
       "A 1 billion parameter model within the Gemma family, fully trained with differential privacy (DP) on the same data mixture used for the Gemma 2 series. VaultGemma addresses the privacy risks inherent in LLMs, which are susceptible to memorizing and extracting training data, potentially disclosing sensitive information.",

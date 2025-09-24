@@ -41,7 +41,7 @@ const reasoning_models = [
   },
   {
     title: "General-Reasoner",
-    link: "",
+    link: "https://ritvik19.medium.com/d3b1c11bfc9a",
     date: "May 2025",
     description:
       "Enhances LLM reasoning across diverse domains by constructing a large-scale, high-quality dataset of verifiable questions curated by web crawling and developing a generative model-based answer verifier with chain-of-thought.",
@@ -81,7 +81,7 @@ const reasoning_models = [
   },
   {
     title: "Klear-Reasoner",
-    link: "",
+    link: "https://ritvik19.medium.com/985624c5348e",
     date: "August 2025",
     description:
       "A reasoning model that achieves high performance on multiple benchmarks by using long Chain-of-Thought supervised fine-tuning and reinforcement learning. It addresses issues with current clipping mechanisms in RL by proposing Gradient-Preserving clipping Policy Optimization (GPPO), which enhances exploration and improves learning from negative samples.",

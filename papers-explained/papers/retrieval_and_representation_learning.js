@@ -49,7 +49,7 @@ const retrieval_and_representation_learning = [
   },
   {
     title: "CLAP",
-    link: "",
+    link: "https://ritvik19.medium.com/3d13ce1e0b40",
     date: "June 2022",
     description:
       "Learns audio concepts from natural language supervision by connecting language and audio using two encoders namely CNN14 and BERT and contrastive learning g to bring audio and text descriptions into a joint multimodal space.",
@@ -294,7 +294,7 @@ const retrieval_and_representation_learning = [
   },
   {
     title: "Jina Code Embeddings",
-    link: "",
+    link: "https://ritvik19.medium.com/0a6c9ad05bbd",
     date: "August 2025",
     description:
       "A novel code embedding model suite designed to retrieve code from natural language queries, perform technical question-answering, and identify semantically similar code snippets across programming languages. It makes use of an autoregressive backbone (Qwen2.5-Coder) pre-trained on both text and code, generating embeddings via last-token pooling",

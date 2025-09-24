@@ -189,7 +189,7 @@ const llm_for_math = [
     date: "January 2025",
     description:
       "Proposes a new test-time scaling approach that achieves strong reasoning performance after supervised finetuning on a small, curated 1,000-sample dataset (s1K) of diverse, difficult questions with reasoning traces, and employs 'budget forcing' to control test-time compute by limiting or extending the model's thinking process.",
-    tags: ["LLM for Math"],
+    tags: ["LLM for Math", "Less is More"],
   },
   {
     title: "LIMO",
@@ -197,7 +197,7 @@ const llm_for_math = [
     date: "February 2025",
     description:
       "Challenges the notion that complex reasoning requires massive datasets by achieving state-of-the-art performance on mathematical reasoning benchmarks using only 817 curated training examples and emphasizing high-quality reasoning chains.",
-    tags: ["LLM for Math"],
+    tags: ["LLM for Math", "Less is More"],
   },
   {
     title: "MathFusion",
