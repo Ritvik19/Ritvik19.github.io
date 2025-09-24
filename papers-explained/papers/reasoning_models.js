@@ -137,7 +137,7 @@ const reasoning_models = [
   },
   {
     title: "rStar2-Agent",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-460-rstar2-agent-a3e7f451ddb7",
     date: "August 2025",
     description:
       "A 14B math reasoning model trained with agentic reinforcement learning, utilizing advanced cognitive behaviors like careful tool use and reflection on code execution feedback. It incorporates innovations such as an efficient RL infrastructure, the GRPO-RoC algorithm, and an efficient agent training recipe, enabling strong generalization to other tasks.",
