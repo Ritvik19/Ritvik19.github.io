@@ -401,7 +401,7 @@ const llm_training = [
   },
   {
     title: "LLM-JEPA",
-    link: "https://ritvik19.medium.com/ceedfd0e63d8",
+    link: "https://ritvik19.medium.com/papers-explained-461-llm-jepa-ceedfd0e63d8",
     date: "September 2025",
     description:
       "Introduces JEPA-based training objective for LLMs that operates in embedding space using different views of data, such as text and code, to improve representation quality while maintaining generative capabilities.",
