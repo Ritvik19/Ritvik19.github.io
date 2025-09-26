@@ -425,6 +425,14 @@ const miscellaneous_studies = [
     tags: ["LLM Evaluation"],
   },
   {
+    title: "Treasure Hunt",
+    link: "https://ritvik19.medium.com/be83ba0d6e1c",
+    date: "June 2025",
+    description:
+      "Explores improving the performance of large language models (LLMs) on underrepresented use cases by optimizing training protocols with \"Treasure Markers.\" These markers, representing detailed data characteristics and task provenance, are used during training to improve controllability and performance, especially on long-tail examples, and can be inferred automatically at inference time, leading to significant gains in generation quality and adherence to constraints.",
+    tags: ["Language Models"],
+  },
+  {
     title: "Claude Research",
     link: "https://ritvik19.medium.com/papers-explained-412-claude-research-334b1f6a353b",
     date: "June 2025",
@@ -538,12 +546,18 @@ const miscellaneous_studies = [
   },
   {
     title: "Smol2Operator",
-    link: "https://ritvik19.medium.com/3eb931dc6aa6",
+    link: "https://ritvik19.medium.com/papers-explained-462-smol2operator-3eb931dc6aa6",
     date: "September 2025",
     description:
       "A comprehensive approach to training vision-language models for GUI automation, transforming a model with zero grounding capabilities into an agentic coder. It involves a multi-phase training strategy, including data transformation to create a unified action space and supervised fine-tuning to instill grounding capabilities and enhance agentic reasoning, with all training code, data processing pipelines, datasets, and the trained model being open-sourced to foster further research.",
     tags: ["Multimodal Models", "GUI Automation"],
+  },
+  {
+    title: "What Characterizes Effective Reasoning",
+    link: "https://ritvik19.medium.com/8cf140bdb4e1",
+    date: "September 2025",
+    description:
+      "Investigates what characterizes effective chain-of-thought reasoning in large reasoning models across math and scientific tasks. It finds that longer CoTs and higher review ratios are negatively associated with accuracy, while the Failed-Step Fraction (FSF), a measure of failed reasoning branches, robustly predicts correctness. Interventions show that FSF-based reranking improves accuracy and removing failed branches enhances subsequent reasoning, suggesting that models are biased by earlier mistakes.",
+    tags: ["Language Models", "Reasoning"],
   }
-
-
 ];

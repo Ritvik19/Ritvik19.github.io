@@ -304,6 +304,14 @@ const multi_modal_lms = [
     tags: ["Multimodal Models", "Synthetic Data", "Phi"],
   },
   {
+    title: "Smol VLM2",
+    link: "https://ritvik19.medium.com/papers-explained-346-smolvlm-9b4e208fa66b#d1c7",
+    date: "February 2025",
+    description:
+      "A family of efficient video language models (2.2B, 500M, and 256M parameters), designed to democratize video understanding by enabling deployment on diverse devices with minimal computational resources.",
+    tags: ["Multimodal Models", "HuggingFace"],
+  },
+  {
     title: "Aya Vision",
     link: "https://ritvik19.medium.com/papers-explained-332-aya-vision-5aec8dce396e",
     date: "March 2025",
