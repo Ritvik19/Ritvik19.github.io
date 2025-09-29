@@ -235,7 +235,7 @@ const datasets = [
   },
   {
     title: "FineVision",
-    link: "https://ritvik19.medium.com/e4b1af24ecbf",
+    link: "https://ritvik19.medium.com/papers-explained-463-finevision-e4b1af24ecbf",
     date: "September 2025",
     description:
       "A multimodal dataset with 24 million samples, created by collecting over 200 datasets containing 17M images, 89M question-answer turns, and 10B answer tokens, totaling 5TB of high-quality data.",

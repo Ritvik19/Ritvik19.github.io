@@ -299,5 +299,13 @@ const retrieval_and_representation_learning = [
     description:
       "A novel code embedding model suite designed to retrieve code from natural language queries, perform technical question-answering, and identify semantically similar code snippets across programming languages. It makes use of an autoregressive backbone (Qwen2.5-Coder) pre-trained on both text and code, generating embeddings via last-token pooling",
     tags: ["Representation Learning", "Code Models"]
+  },
+  {
+    title: "EmbeddingGemma",
+    link: "https://ritvik19.medium.com/076b2bc8b460",
+    date: "September 2025",
+    description:
+      "A lightweight (300M parameter) open text embedding model based on the Gemma 3 language model family using encoder-decoder initialization, geometric embedding distillation, a spread-out regularizer, and checkpoint merging from varied, optimized mixtures.",
+    tags: ["Representation Learning"]
   }
 ];
