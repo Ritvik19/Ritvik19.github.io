@@ -5,7 +5,7 @@ const frontier_models = [
     date: "November 2022",
     description:
       "An interactive model designed to engage in conversations, built on top of GPT 3.5.",
-    tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   },
   {
     title: "GPT 4",
@@ -13,7 +13,7 @@ const frontier_models = [
     date: "March 2023",
     description:
       "A multimodal transformer model pre-trained to predict the next token in a document, which can accept image and text inputs and produce text outputs.",
-    tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   },
   {
     title: "GPT-4V",
@@ -21,7 +21,7 @@ const frontier_models = [
     date: "September 2023",
     description:
       "A multimodal model that combines text and vision capabilities, allowing users to instruct it to analyze image inputs.",
-    tags: ["Multimodal Models", "OpenAI", "GPT"],
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   },
   {
     title: "Grok 1",
@@ -29,12 +29,7 @@ const frontier_models = [
     date: "November 2023",
     description:
       "A 314B Mixture-of-Experts model, modeled after the Hitchhiker's Guide to the Galaxy, designed to be witty.",
-    tags: [
-      "Language Models",
-      "Transformer Decoder",
-      "Mixtures of Experts",
-      "Grok",
-    ],
+    tags: ["Frontier Model", "Mixtures of Experts", "Grok" ],
   },
   {
     title: "Gemini 1.0",
@@ -42,7 +37,7 @@ const frontier_models = [
     date: "December 2023",
     description:
       "A family of highly capable multi-modal models, trained jointly across image, audio, video, and text data for the purpose of building a model with strong generalist capabilities across modalities.",
-    tags: ["Multimodal Models", "Gemini"],
+    tags: ["Frontier Model", "Gemini"],
   },
   {
     title: "Gemini 1.5 Pro",
@@ -50,7 +45,7 @@ const frontier_models = [
     date: "February 2024",
     description:
       "A highly compute-efficient multimodal mixture-of-experts model that excels in long-context retrieval tasks and understanding across text, video, and audio modalities.",
-    tags: ["Multimodal Models", "Mixtures of Experts", "Gemini"],
+    tags: ["Frontier Model", "Mixtures of Experts", "Gemini"],
   },
   {
     title: "Claude 3",
@@ -58,7 +53,7 @@ const frontier_models = [
     date: "March 2024",
     description:
       "A family of VLMs consisting of Haiku, Sonnet, and Opus models, sets new industry standards for cognitive tasks, offering varying levels of intelligence, speed, and cost-efficiency.",
-    tags: ["Multimodal Models", "Anthropic", "Claude"],
+    tags: ["Frontier Model", "Anthropic", "Claude"],
   },
   {
     title: "Grok 1.5",
@@ -66,19 +61,14 @@ const frontier_models = [
     date: "March 2024",
     description:
       "An advancement over grok, capable of long context understanding up to 128k tokens and advanced reasoning.",
-    tags: [
-      "Language Models",
-      "Transformer Decoder",
-      "Mixtures of Experts",
-      "Grok",
-    ],
+    tags: ["Frontier Model", "Mixtures of Experts", "Grok"],
   },
   {
     title: "Grok 1.5 V",
     link: "https://ritvik19.medium.com/papers-explained-186-grok-0d9f1aef69be",
     date: "April 2024",
     description: "The first multimodal model in the grok series.",
-    tags: ["Multimodal Models", "Grok"],
+    tags: ["Frontier Model", "Grok"],
   },
   {
     title: "GPT-4o",
@@ -86,7 +76,7 @@ const frontier_models = [
     date: "May 2024",
     description:
       "An omni model accepting and generating various types of inputs and outputs, including text, audio, images, and video.",
-    tags: ["Multimodal Models", "OpenAI", "GPT"],
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   },
   {
     title: "Gemini 1.5 Flash",
@@ -94,7 +84,7 @@ const frontier_models = [
     date: "May 2024",
     description:
       "A more lightweight variant of the Gemini 1.5 pro, designed for efficiency with minimal regression in quality, making it suitable for applications where compute resources are limited.",
-    tags: ["Multimodal Models", "Gemini"],
+    tags: ["Frontier Model", "Gemini"],
   },
   {
     title: "Claude 3.5 Sonnet",
@@ -102,7 +92,7 @@ const frontier_models = [
     date: "June 2024",
     description:
       "Surpasses previous versions and competitors in intelligence, speed, and cost-efficiency, excelling in graduate-level reasoning, undergraduate-level knowledge, coding proficiency, and visual reasoning.",
-    tags: ["Multimodal Models", "Anthropic", "Claude"],
+    tags: ["Frontier Model", "Anthropic", "Claude"],
   },
   {
     title: "Mistral Large 2",
@@ -110,7 +100,7 @@ const frontier_models = [
     date: "July 2024",
     description:
       "A 123B model, offers significant improvements in code generation, mathematics, and reasoning capabilities, advanced function calling, a 128k context window, and supports dozens of languages and over 80 coding languages.",
-    tags: ["Language Models", "Transformer Decoder", "Mistral"],
+    tags: ["Frontier Model", "Mistral"],
   },
   {
     title: "GPT-4o mini",
@@ -118,7 +108,7 @@ const frontier_models = [
     date: "July 2024",
     description:
       "A cost-efficient small model that outperforms GPT-4 on chat preferences, enabling a broad range of tasks with low latency and supporting text, vision, and multimodal inputs and outputs.",
-    tags: ["Multimodal Models", "OpenAI", "GPT"],
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   },
   {
     title: "Grok 2",
@@ -126,7 +116,7 @@ const frontier_models = [
     date: "August 2024",
     description:
       "A frontier language model with state-of-the-art capabilities in chat, coding, and reasoning on par with Claude 3.5 Sonnet and GPT-4-Turbo.",
-    tags: ["Multimodal Models", "Grok"],
+    tags: ["Frontier Model", "Grok"],
   },
 
   {
@@ -135,13 +125,7 @@ const frontier_models = [
     date: "September 2024",
     description:
       "A large language model trained with reinforcement learning to think before answering, producing a long internal chain of thought before responding.",
-    tags: [
-      "Language Models",
-      "Transformer Decoder",
-      "OpenAI",
-      "GPT",
-      "Reasoning",
-    ],
+    tags: ["Frontier Model", "OpenAI", "GPT", "Reasoning"],
   },
   {
     title: "o1-mini",
@@ -149,13 +133,7 @@ const frontier_models = [
     date: "September 2024",
     description:
       "A cost-efficient reasoning model, excelling at STEM, especially math and coding, nearly matching the performance of OpenAI o1 on evaluation benchmarks.",
-    tags: [
-      "Language Models",
-      "Transformer Decoder",
-      "OpenAI",
-      "GPT",
-      "Reasoning",
-    ],
+    tags: ["Frontier Model", "OpenAI", "GPT", "Reasoning"],
   },
   {
     title: "Claude 3.5 Haiku",
@@ -163,7 +141,7 @@ const frontier_models = [
     date: "October 2024",
     description:
       "A fast and affordable language model that excels in tasks such as coding, reasoning, and content creation.",
-    tags: ["Multimodal Models", "Anthropic", "Claude"],
+    tags: ["Frontier Model", "Anthropic", "Claude"],
   },
   {
     title: "Gemini 2.0 Flash",
@@ -171,7 +149,7 @@ const frontier_models = [
     date: "December 2024",
     description:
       "A faster, more powerful large language model than its predecessor, boasting enhanced multimodal input/output (including native image generation and steerable multilingual audio), native tool use (like Google Search and code execution), and enabling a new class of agentic experiences through improved reasoning and complex instruction following.",
-    tags: ["Multimodal Models", "Gemini"],
+    tags: ["Frontier Model", "Gemini"],
   },
   {
     title: "o3-mini",
@@ -179,13 +157,7 @@ const frontier_models = [
     date: "January 2025",
     description:
       "A cost-efficient reasoning model, excelling in STEM fields, while maintaining low latency. It supports features like function calling, structured outputs, and developer messages, and offers adjustable reasoning effort levels (low, medium, high) for optimized performance.",
-    tags: [
-      "Language Models",
-      "Transformer Decoder",
-      "OpenAI",
-      "GPT",
-      "Reasoning",
-    ],
+    tags: ["Frontier Model", "OpenAI", "GPT", "Reasoning"],
   },
   {
     title: "Gemini 2.0 Flash Lite",
@@ -193,7 +165,7 @@ const frontier_models = [
     date: "February 2025",
     description:
       "A production-ready language model offering enhanced performance over its predecessor (1.5 Flash) in reasoning, multimodal tasks, math, and factual accuracy, along with cost-effective pricing, making it ideal for applications requiring long context windows.",
-    tags: ["Multimodal Models", "Gemini"],
+    tags: ["Frontier Model", "Gemini"],
   },
   {
     title: "Grok 3 Beta",
@@ -201,7 +173,7 @@ const frontier_models = [
     date: "February 2025",
     description:
       "Trained on a massive scale with 10x the compute of previous models, exhibiting advanced reasoning, and a 1 million token context window, with a Think mode and is available in a cost-efficient mini version for STEM tasks. Grok agents like DeepSearch further enhance its capabilities by combining reasoning with tool use like internet access and code interpreters.",
-    tags: ["Language Models", "Transformer Decoder", "Grok"],
+    tags: ["Frontier Model", "Grok"],
   },
   {
     title: "Claude 3.7 Sonnet",
@@ -209,7 +181,7 @@ const frontier_models = [
     date: "February 2025",
     description:
       "A hybrid reasoning model offering both fast responses and detailed, user-visible step-by-step thinking controllable by a token budget, featuring integration with GitHub and a new coding tool (Claude Code).",
-    tags: ["Multimodal Models", "Anthropic", "Claude"],
+    tags: ["Frontier Model", "Anthropic", "Claude"],
   },
   {
     title: "GPT-4.5",
@@ -217,7 +189,7 @@ const frontier_models = [
     date: "February 2025",
     description:
       "A research preview model representing an advancement in scaling unsupervised learning through increased compute, data, architecture, and optimization innovations, resulting in broader knowledge, deeper understanding, reduced hallucinations, and increased reliability. It excels in tasks requiring natural conversation, creativity, and understanding human intent due to new scalable training techniques derived from smaller models.",
-    tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   },
   {
     title: "Gemini 2.5 Pro",
@@ -225,7 +197,7 @@ const frontier_models = [
     date: "March 2025",
     description:
       "Google's most advanced experimental AI model, excelling in complex tasks due to its enhanced reasoning and coding capabilities, achieving state-of-the-art performance on various benchmarks, and building upon Gemini's strengths of native multimodality and a long context window.",
-    tags: ["Multimodal Models", "Gemini", "Reasoning"],
+    tags: ["Frontier Model", "Gemini", "Reasoning"],
   },
   {
     title: "GPT-4.1",
@@ -233,7 +205,7 @@ const frontier_models = [
     date: "April 2025",
     description:
       "Advanced language models offering superior coding, instruction following, and long-context comprehension (up to 1 million tokens) compared to predecessors, with lower cost and latency, excelling in real-world tasks and boast enhanced vision capabilities",
-    tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   },
   {
     title: "Gemini 2.5 Flash",
@@ -241,7 +213,7 @@ const frontier_models = [
     date: "April 2025",
     description:
       "A hybrid reasoning model that allows developers to control a 'thinking' process for improved accuracy on complex tasks, offering a customizable thinking budget to balance quality, cost, and speed.",
-    tags: ["Multimodal Models", "Gemini", "Reasoning"],
+    tags: ["Frontier Model", "Gemini", "Reasoning"],
   },
   {
     title: "o3",
@@ -249,14 +221,7 @@ const frontier_models = [
     date: "April 2025",
     description:
       "Reasoning model, excelling in complex tasks requiring multi-faceted analysis, especially those involving visual data like images and charts. It leverages tools like web search, code execution, and image generation to provide comprehensive answers and demonstrates significantly improved performance across various benchmarks and real-world tasks.",
-    tags: [
-      "Language Models",
-      "Transformer Decoder",
-      "OpenAI",
-      "GPT",
-      "Reasoning",
-      "Multimodal",
-    ],
+    tags: ["Frontier Model", "OpenAI", "GPT", "Reasoning", "Multimodal"],
   },
   {
     title: "o4-mini",
@@ -264,14 +229,7 @@ const frontier_models = [
     date: "April 2025",
     description:
       "A smaller, faster, and more cost-effective reasoning model optimized for speed and efficiency. While powerful in math, coding, and visual tasks, it maintains strong performance in other areas and supports higher usage limits due to its efficiency, making it suitable for high-volume applications.",
-    tags: [
-      "Language Models",
-      "Transformer Decoder",
-      "OpenAI",
-      "GPT",
-      "Reasoning",
-      "Multimodal",
-    ],
+    tags: ["Frontier Model", "OpenAI", "GPT", "Reasoning", "Multimodal"],
   },
   {
     title: "Mistral Medium 3",
@@ -279,7 +237,7 @@ const frontier_models = [
     date: "May 2025",
     description:
       "A cost-effective, high-performing language model designed for enterprise use, offering SOTA performance comparable to Claude Sonnet 3.7 at 8x lower cost, excelling in professional tasks like coding and STEM.",
-    tags: ["Language Models", "Transformer Decoder", "Mistral"],
+    tags: ["Frontier Model", "Mistral"],
   },
   {
     title: "Claude 4",
@@ -287,7 +245,7 @@ const frontier_models = [
     date: "May 2025",
     description:
       "Hybrid models offering two modes: near-instant responses and extended thinking for deeper reasoning, setting new standards for coding, advanced reasoning, and AI agents.",
-    tags: ["Multimodal Models", "Anthropic", "Claude"],
+    tags: ["Frontier Model", "Anthropic", "Claude"],
   },
   {
     title: "Gemini 2.5",
@@ -295,7 +253,7 @@ const frontier_models = [
     date: "June 2025",
     description:
       "Google's next generation of AI models designed for agentic systems, featuring native multimodality, long context input, and tool use support, with each model offering different strengths in reasoning, cost, and latency. Gemini 2.5 Pro excels in reasoning and coding, Gemini 2.5 Flash balances quality, cost, and latency, Gemini 2.0 Flash is fast and cost-efficient, and Gemini 2.0 Flash-Lite is the fastest and most cost-efficient.",
-    tags: ["Multimodal Models", "Gemini", "Reasoning"],
+    tags: ["Frontier Model", "Gemini", "Reasoning"],
   },
   {
     title: "Grok 4",
@@ -303,7 +261,7 @@ const frontier_models = [
     date: "July 2025",
     description:
       "Trained using reinforcement learning on a 200k GPU cluster, featuring native tool use, real-time search integration, and an upgraded Voice Mode with visual analysis, achieving state-of-the-art results on benchmarks like ARC-AGI V2 and Vending-Bench.",
-    tags: ["Language Models", "Transformer Decoder", "Grok"],
+    tags: ["Frontier Model", "Grok"],
   },
   {
     title: "Claude Opus 4.1",
@@ -311,7 +269,7 @@ const frontier_models = [
     date: "August 2025",
     description:  
       "An upgrade to Claude Opus 4 on agentic tasks, real-world coding, and reasoning.",
-    tags: ["Multimodal Models", "Anthropic", "Claude"],
+    tags: ["Frontier Model", "Anthropic", "Claude"],
   },
   {
     title: "GPT-5",
@@ -319,7 +277,7 @@ const frontier_models = [
     date: "August 2025",
     description:
       "A unified model with a smart, efficient component for quick answers and a deeper reasoning component (GPT-5 thinking) for complex problems, managed by a real-time router.",
-    tags: ["Language Models", "Transformer Decoder", "OpenAI", "GPT"],
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   },
   {
     title: "Grok 4 Fast",
@@ -327,6 +285,14 @@ const frontier_models = [
     date: "September 2025",
     description:
       "A cost-efficient reasoning model, built upon the learnings from Grok 4, delivering frontier-level performance in both Enterprise and Consumer domains with exceptional token efficiency, featuring a 2M token context window, native tool use, and SOTA search capabilities.",
-    tags: ["Language Models", "Transformer Decoder", "Grok"],
+    tags: ["Frontier Model", "Grok"],
+  },
+  {
+    title: "Claude 4.5 Sonnet",
+    link: "",
+    date: "September 2025",
+    description:
+      "Excels in coding, computer use, reasoning, and math, making it the best coding model and strongest for building complex agents, while also being the most aligned frontier model with improved safety features.",
+    tags: ["Frontier Model", "Anthropic", "Claude"],
   }
 ];
