@@ -302,7 +302,7 @@ const retrieval_and_representation_learning = [
   },
   {
     title: "EmbeddingGemma",
-    link: "https://ritvik19.medium.com/076b2bc8b460",
+    link: "https://ritvik19.medium.com/papers-explained-465-embeddinggemma-076b2bc8b460",
     date: "September 2025",
     description:
       "A lightweight (300M parameter) open text embedding model based on the Gemma 3 language model family using encoder-decoder initialization, geometric embedding distillation, a spread-out regularizer, and checkpoint merging from varied, optimized mixtures.",

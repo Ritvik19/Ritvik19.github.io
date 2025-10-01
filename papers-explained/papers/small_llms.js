@@ -541,5 +541,13 @@ const small_llms = [
     description:
       "A 3B language model featuring dual-mode reasoning (think/no_think), multilingual support for six languages (English, French, Spanish, German, Italian, Portuguese), and long context capabilities up to 128k.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "HuggingFace"],
+  },
+  {
+    title: "MobileLLM-R1",
+    link: "https://ritvik19.medium.com/00d456b46e5e",
+    date: "September 2025",
+    description:
+      "A series of sub-billion-parameter reasoning models that achieve strong reasoning abilities with significantly less data (∼2T tokens of high-quality data resampled to 4.2T tokens) compared to other models.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Reasoning"],
   }
 ];
