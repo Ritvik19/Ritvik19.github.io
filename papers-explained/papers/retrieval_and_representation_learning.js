@@ -294,7 +294,7 @@ const retrieval_and_representation_learning = [
   },
   {
     title: "Jina Code Embeddings",
-    link: "https://ritvik19.medium.com/0a6c9ad05bbd",
+    link: "https://ritvik19.medium.com/papers-explained-466-jina-code-embeddings-0a6c9ad05bbd",
     date: "August 2025",
     description:
       "A novel code embedding model suite designed to retrieve code from natural language queries, perform technical question-answering, and identify semantically similar code snippets across programming languages. It makes use of an autoregressive backbone (Qwen2.5-Coder) pre-trained on both text and code, generating embeddings via last-token pooling",
