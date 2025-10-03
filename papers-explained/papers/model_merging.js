@@ -97,7 +97,7 @@ const model_merging = [
   },
   {
     title: "Mix Data or Merge Models",
-    link: "https://ritvik19.medium.com/75a3373c7f30",
+    link: "https://ritvik19.medium.com/papers-explained-467-mix-data-or-merge-models-75a3373c7f30",
     date: "October 2024",
     description:
       "Explores model merging as an alternative to data mixing for improving the safety and general performance of multilingual language models. The study finds that objective-based and language-based merging outperform data mixing, with specific merging algorithms like SLERP achieving the best balance between harm reduction and general performance across multiple languages.",
