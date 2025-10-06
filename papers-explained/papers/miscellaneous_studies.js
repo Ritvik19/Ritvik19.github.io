@@ -559,5 +559,13 @@ const miscellaneous_studies = [
     description:
       "Investigates what characterizes effective chain-of-thought reasoning in large reasoning models across math and scientific tasks. It finds that longer CoTs and higher review ratios are negatively associated with accuracy, while the Failed-Step Fraction (FSF), a measure of failed reasoning branches, robustly predicts correctness. Interventions show that FSF-based reranking improves accuracy and removing failed branches enhances subsequent reasoning, suggesting that models are biased by earlier mistakes.",
     tags: ["Language Models", "Reasoning"],
+  },
+  {
+    title: "FusioN",
+    link: "https://ritvik19.medium.com/0c884d0a465c",
+    date: "October 2025",
+    description:
+      "A method that synthesizes information from multiple LLM-generated candidates to create a single, higher-quality answer, outperforming the traditional Best-of-N (BoN) approach in both test-time scaling (Multiple samples are generated and combined from a single model during testing) and synthetic data generation (Samples from diverse teacher models are fused to enhance a student model).",
+    tags: ["Language Models", "Agentic Systems"],
   }
 ];

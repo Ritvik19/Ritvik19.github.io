@@ -142,5 +142,13 @@ const reasoning_models = [
     description:
       "A 14B math reasoning model trained with agentic reinforcement learning, utilizing advanced cognitive behaviors like careful tool use and reflection on code execution feedback. It incorporates innovations such as an efficient RL infrastructure, the GRPO-RoC algorithm, and an efficient agent training recipe, enabling strong generalization to other tasks.",
     tags: ["LLM for Math", "Reinforcement Learning", "Agentic Models"]
+  },
+  {
+    title: "Apriel-1.5-15B-Thinker",
+    link: "https://ritvik19.medium.com/228b6fab1efd",
+    date: "October 2025",
+    description:
+      "A 15-billion parameter open-weights multimodal reasoning model that achieves frontier-level performance through a three-stage training methodology involving depth upscaling, staged continual pre-training, and high-quality supervised fine-tuning. The model's design focuses on maximizing the potential of the base model through mid-training, without employing reinforcement learning or preference optimization, making it suitable for organizations with limited infrastructure.",
+    tags: ["Multimodal Models", "Language Models"],
   }
 ];

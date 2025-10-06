@@ -307,5 +307,21 @@ const retrieval_and_representation_learning = [
     description:
       "A lightweight (300M parameter) open text embedding model based on the Gemma 3 language model family using encoder-decoder initialization, geometric embedding distillation, a spread-out regularizer, and checkpoint merging from varied, optimized mixtures.",
     tags: ["Representation Learning"]
+  },
+  {
+    title: "Jina Reranker v3",
+    link: "https://ritvik19.medium.com/c45f2830754e",
+    date: "September 2025",
+    description:
+      "A 0.6B parameter multilingual document reranker introduces a novel last but not late interaction. It conducts causal self-attention between query and documents within the same context window, enabling rich cross-document interactions before extracting contextual embeddings from the last token of each document.",
+    tags: ["Retrieval", "Reranking"]
+  },
+  {
+    title: "ModernVBERT",
+    link: "https://ritvik19.medium.com/05494fe9f391",
+    date: "September 2025",
+    description:
+      "A compact 250M-parameter vision-language encoder designed for efficient visual document retrieval. Through controlled experiments, the authors identify key design choices that significantly impact retrieval performance, such as attention masking, image resolution, modality alignment data regimes, and late interaction centered contrastive objectives.",
+    tags: ["Retrieval", "Multimodal Models"]
   }
 ];

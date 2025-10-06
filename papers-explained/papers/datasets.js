@@ -211,7 +211,7 @@ const datasets = [
   },
   {
     title: "NaturalThoughts",
-    link: "https://ritvik19.medium.com/360e8075f17c",
+    link: "https://ritvik19.medium.com/papers-explained-468-naturalthoughts-360e8075f17c",
     date: "July 2025",
     description:
       "Curates a high-quality dataset of reasoning traces curated by selecting examples from NaturalReasoning to improve the reasoning capabilities of smaller language models through supervised finetuning. The study demonstrates that scaling high-quality, diverse reasoning data and selecting difficult examples requiring diverse reasoning strategies are more effective for distilling reasoning skills, and that training with a mix of System-1 (final answer only) and System-2 (full reasoning traces) distillation improves inference-time efficiency.",
