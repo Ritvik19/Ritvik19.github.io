@@ -129,7 +129,7 @@ const encoder_only_transformers = [
   },
   {
     title: "mmBERT",
-    link: "https://ritvik19.medium.com/53c062841b7a",
+    link: "https://ritvik19.medium.com/papers-explained-471-mmbert-53c062841b7a",
     date: "September 2025",
     description:
       "An encoder-only language model pretrained on a massive multilingual dataset (3T tokens across 1800+ languages) using an architecture inspired from ModernBERT. It incorporates novel techniques like an inverse mask ratio schedule and inverse temperature sampling ratio, and strategically introduces low-resource languages during the training decay phase to significantly boost performance.",
