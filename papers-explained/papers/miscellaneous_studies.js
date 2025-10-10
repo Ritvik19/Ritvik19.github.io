@@ -561,8 +561,16 @@ const miscellaneous_studies = [
     tags: ["Language Models", "Reasoning"],
   },
   {
+    title: "Fathom-DeepResearch",
+    link: "https://ritvik19.medium.com/c022d3fa6863",
+    date: "September 2025",
+    description:
+      "An agentic system composed of Fathom-Search-4B, a DeepSearch model optimized for evidence-based investigation through web search, and Fathom-Synthesizer-4B, which converts DeepSearch traces into structured DeepResearch reports.",
+    tags: ["Language Models", "Agentic Systems"],
+  },
+  {
     title: "FusioN",
-    link: "https://ritvik19.medium.com/0c884d0a465c",
+    link: "https://ritvik19.medium.com/papers-explained-473-fusion-0c884d0a465c",
     date: "October 2025",
     description:
       "A method that synthesizes information from multiple LLM-generated candidates to create a single, higher-quality answer, outperforming the traditional Best-of-N (BoN) approach in both test-time scaling (Multiple samples are generated and combined from a single model during testing) and synthetic data generation (Samples from diverse teacher models are fused to enhance a student model).",
