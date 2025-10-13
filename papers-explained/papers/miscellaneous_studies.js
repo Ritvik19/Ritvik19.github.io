@@ -562,7 +562,7 @@ const miscellaneous_studies = [
   },
   {
     title: "Fathom-DeepResearch",
-    link: "https://ritvik19.medium.com/c022d3fa6863",
+    link: "https://ritvik19.medium.com/papers-explained-473-fathom-deepresearch-c022d3fa6863",
     date: "September 2025",
     description:
       "An agentic system composed of Fathom-Search-4B, a DeepSearch model optimized for evidence-based investigation through web search, and Fathom-Synthesizer-4B, which converts DeepSearch traces into structured DeepResearch reports.",
@@ -575,5 +575,13 @@ const miscellaneous_studies = [
     description:
       "A method that synthesizes information from multiple LLM-generated candidates to create a single, higher-quality answer, outperforming the traditional Best-of-N (BoN) approach in both test-time scaling (Multiple samples are generated and combined from a single model during testing) and synthetic data generation (Samples from diverse teacher models are fused to enhance a student model).",
     tags: ["Language Models", "Agentic Systems"],
+  },
+  {
+    title: "UserLM",
+    link: "https://ritvik19.medium.com/33c5a51525bd",
+    date: "October 2025",
+    description:
+      "Purpose-built language models post-trained to simulate human users in multi-turn conversations, addressing the shortcomings of using assistant LMs as user simulators, the approach leverages real human-assistant conversations as training data and “flips the dialogue” to train the UserLM.",
+    tags: ["Language Models"],
   }
 ];
