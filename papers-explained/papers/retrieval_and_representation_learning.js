@@ -310,7 +310,7 @@ const retrieval_and_representation_learning = [
   },
   {
     title: "Jina Reranker v3",
-    link: "https://ritvik19.medium.com/c45f2830754e",
+    link: "https://ritvik19.medium.com/papers-explained-474-jina-reranker-v3-c45f2830754e",
     date: "September 2025",
     description:
       "A 0.6B parameter multilingual document reranker introduces a novel last but not late interaction. It conducts causal self-attention between query and documents within the same context window, enabling rich cross-document interactions before extracting contextual embeddings from the last token of each document.",

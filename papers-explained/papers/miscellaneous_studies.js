@@ -569,6 +569,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "Agentic Systems"],
   },
   {
+    title: "A single character can make or break your LLM evals",
+    link: "https://ritvik19.medium.com/8741757cd6c3",
+    date: "September 2025",
+    description:
+      "Investigates the impact of the single-character delimiter used to separate demonstration examples in LLM prompts, revealing that this seemingly minor choice can significantly affect model performance, leading to performance variations of up to ±23% on benchmarks like MMLU.",
+    tags: ["LLM Evaluation"],
+  },
+  {
     title: "FusioN",
     link: "https://ritvik19.medium.com/papers-explained-473-fusion-0c884d0a465c",
     date: "October 2025",
