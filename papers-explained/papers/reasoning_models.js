@@ -81,7 +81,7 @@ const reasoning_models = [
   },
   {
     title: "Klear-Reasoner",
-    link: "https://ritvik19.medium.com/985624c5348e",
+    link: "https://ritvik19.medium.com/papers-explained-476-klear-reasoner-985624c5348e",
     date: "August 2025",
     description:
       "A reasoning model that achieves high performance on multiple benchmarks by using long Chain-of-Thought supervised fine-tuning and reinforcement learning. It addresses issues with current clipping mechanisms in RL by proposing Gradient-Preserving clipping Policy Optimization (GPPO), which enhances exploration and improves learning from negative samples.",
