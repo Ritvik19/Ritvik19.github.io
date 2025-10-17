@@ -289,10 +289,18 @@ const frontier_models = [
   },
   {
     title: "Claude 4.5 Sonnet",
-    link: "",
+    link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#bf64",
     date: "September 2025",
     description:
       "Excels in coding, computer use, reasoning, and math, making it the best coding model and strongest for building complex agents, while also being the most aligned frontier model with improved safety features.",
+    tags: ["Frontier Model", "Anthropic", "Claude"],
+  },
+  {
+    title: "Claude Haiku 4.5",
+    link: "https://ritvik19.medium.com/papers-explained-181-claude-89dd45e35d92#6ccd",
+    date: "October 2025",
+    description:
+      "Anthropic’s latest small model, offering near-frontier coding performance at one-third the cost and more than twice the speed of Claude Sonnet 4.",
     tags: ["Frontier Model", "Anthropic", "Claude"],
   }
 ];

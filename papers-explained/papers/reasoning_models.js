@@ -41,7 +41,7 @@ const reasoning_models = [
   },
   {
     title: "General-Reasoner",
-    link: "https://ritvik19.medium.com/d3b1c11bfc9a",
+    link: "https://ritvik19.medium.com/papers-explained-477-general-reasoner-d3b1c11bfc9a",
     date: "May 2025",
     description:
       "Enhances LLM reasoning across diverse domains by constructing a large-scale, high-quality dataset of verifiable questions curated by web crawling and developing a generative model-based answer verifier with chain-of-thought.",
