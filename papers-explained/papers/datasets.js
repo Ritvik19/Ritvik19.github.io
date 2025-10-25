@@ -53,7 +53,7 @@ const datasets = [
     tags: ["Datasets", "LLM Evaluation"],
   },
   {
-    title: "Fine Web",
+    title: "FineWeb",
     link: "https://ritvik19.medium.com/papers-explained-174-fineweb-280bbc08068b",
     date: "May 2024",
     description:

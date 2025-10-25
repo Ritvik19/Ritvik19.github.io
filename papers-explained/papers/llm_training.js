@@ -406,5 +406,13 @@ const llm_training = [
     description:
       "Introduces JEPA-based training objective for LLMs that operates in embedding space using different views of data, such as text and code, to improve representation quality while maintaining generative capabilities.",
     tags: [],
+  },
+  {
+    title: "Extracting alignment data in open models",
+    link: "https://ritvik19.medium.com/699673967849",
+    date: "October 2025",
+    description:
+      "Explores the extraction of alignment training data from post-trained language models building upon the work done in magpie, demonstrating that models readily reproduce data used in post-training phases like SFT or RL.",
+    tags: ["Synthetic Data"],
   }
 ];

@@ -111,4 +111,12 @@ const model_merging = [
       "Explores model merging as an efficient method for Long-to-Short reasoning in LLMs, aiming to reduce verbose reasoning steps without sacrificing accuracy. The study found that task-vector based merging, effectively reduced response length by ~50% while maintaining or slightly improving accuracy on 7B parameter models; activation-based merging showed even greater promise but is sensitive to calibration data; and merging efficacy was correlated with model scale, with smaller models struggling to learn complex reasoning and larger models posing challenges for significant length reduction.",
     tags: ["Model Merging", "Language Models"],
   },
+  {
+    title: "Model Interpolation for Efficient Reasoning",
+    link: "https://ritvik19.medium.com/9029e3301a8b",
+    date: "October 2025",
+    description:
+      "Revisits model interpolation for efficient reasoning in LLMs, revealing a three-stage evolutionary paradigm as the interpolation coefficient changes.",
+    tags: ["Model Merging", "Language Models"],
+  }
 ];
