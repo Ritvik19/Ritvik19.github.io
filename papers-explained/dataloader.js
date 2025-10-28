@@ -34,7 +34,7 @@ function createCard({ title, link, date, description, tags }) {
         ${createTags(tags)}
       </div>
       <div class="card-footer">
-        <a target="_blank" href=${link}>
+          <a target="_blank" href="https://ritvik19.medium.com/${link}">
           <img src="https://img.shields.io/badge/Read_on-Medium-337ab7?style=flat" alt="Read on Medium">
         </a>
       </div>
