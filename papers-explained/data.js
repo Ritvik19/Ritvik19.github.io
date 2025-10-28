@@ -184,7 +184,7 @@ const journeys_data = [
 const literature_review_data = [
   {
     title: "Convolutional Neural Networks",
-    link: "https://ritvik19.medium.com/papers-explained-review-01-convolutional-neural-networks-78aeff61dcb3",
+    link: "78aeff61dcb3",
     papers: [
       "LeNet",
       "AlexNet",
@@ -203,7 +203,7 @@ const literature_review_data = [
   },
   {
     title: "Layout Transformers",
-    link: "https://ritvik19.medium.com/papers-explained-review-02-layout-transformers-b2d165c94ad5",
+    link: "b2d165c94ad5",
     papers: [
       "Layout LM",
       "LamBERT",
@@ -218,12 +218,12 @@ const literature_review_data = [
   },
   {
     title: "Region Based Convolutional Neural Networks",
-    link: "https://ritvik19.medium.com/papers-explained-review-03-rcnns-42c0a3974493",
+    link: "42c0a3974493",
     papers: ["RCNN", "Fast RCNN", "Faster RCNN", "Mask RCNN", "Cascade RCNN"],
   },
   {
     title: "Tabular Deep Learning",
-    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b",
+    link: "776db04f965b",
     papers: [
       "Entity Embeddings",
       "Wide and Deep Learning",
@@ -237,7 +237,7 @@ const literature_review_data = [
   },
   {
     title: "Generative Adversarial Networks",
-    link: "https://ritvik19.medium.com/papers-explained-review-05-generative-adversarial-networks-bbb51b160d5e",
+    link: "bbb51b160d5e",
     papers: [
       "GAN",
       "Conditional GAN",
@@ -249,7 +249,7 @@ const literature_review_data = [
   },
   {
     title: "Parameter Efficient FineTuning",
-    link: "https://ritvik19.medium.com/papers-explained-review-06-parameter-efficient-finetuning-6934fafa74e5",
+    link: "6934fafa74e5",
     papers: [
       "LoRA",
       "DyLoRA",
@@ -266,7 +266,7 @@ const literature_review_data = [
   },
   {
     title: "Convolution Layers",
-    link: "https://ritvik19.medium.com/papers-explained-review-07-convolution-layers-c083e7410cd3",
+    link: "c083e7410cd3",
     papers: [
       "Convolution Layer",
       "Separable Convolution",
@@ -277,12 +277,12 @@ const literature_review_data = [
   },
   {
     title: "Recurrent Layers",
-    link: "https://ritvik19.medium.com/papers-explained-review-08-recurrent-layers-ff2f224af059",
+    link: "ff2f224af059",
     papers: ["Simple Recurrent", "LSTM", "GRU"],
   },
   {
     title: "Attention Layers",
-    link: "https://ritvik19.medium.com/papers-explained-review-09-attention-layers-beeef323e7f5",
+    link: "beeef323e7f5",
     papers: [
       "Scaled Dot Product Attention",
       "Multi Head Attention",
@@ -295,7 +295,7 @@ const literature_review_data = [
   },
   {
     title: "Normalization Layers",
-    link: "https://ritvik19.medium.com/papers-explained-review-10-normalization-layers-56b556c9646e",
+    link: "56b556c9646e",
     papers: [
       "Batch Normalisation",
       "Layer Normalisation",
@@ -307,7 +307,7 @@ const literature_review_data = [
   },
   {
     title: "Auto Encoders",
-    link: "https://ritvik19.medium.com/papers-explained-review-11-auto-encoders-3b8f08b4eac0",
+    link: "3b8f08b4eac0",
     papers: [
       "Auto Encoders",
       "Sparse Auto Encoders",
@@ -322,7 +322,7 @@ const literature_review_data = [
   },
   {
     title: "LLMs for Maths",
-    link: "https://ritvik19.medium.com/papers-explained-review-12-llms-for-maths-1597e3c7251c",
+    link: "1597e3c7251c",
     papers: [
       "Wizard Math",
       "MAmmoTH",
@@ -349,7 +349,7 @@ const literature_review_data = [
   },
   {
     title: "Model Merging",
-    link: "https://ritvik19.medium.com/papers-explained-review-13-model-merging-d0db49797b90",
+    link: "d0db49797b90",
     papers: [
       "Model Soup",
       "Spherical Linear Interpolation (SLERP)",
