@@ -1,7 +1,7 @@
 const encoder_only_transformers = [
   {
     title: "BERT",
-    link: "https://ritvik19.medium.com/papers-explained-02-bert-31e59abc0615",
+    link: "https://ritvik19.medium.com/31e59abc0615",
     date: "October 2018",
     description:
       "Introduced pre-training for Encoder Transformers. Uses unified architecture across different tasks.",
@@ -9,7 +9,7 @@ const encoder_only_transformers = [
   },
   {
     title: "RoBERTa",
-    link: "https://ritvik19.medium.com/papers-explained-03-roberta-81db014e35b9",
+    link: "https://ritvik19.medium.com/81db014e35b9",
     date: "July 2019",
     description:
       "Built upon BERT, by carefully optimizing hyperparameters and training data size to improve performance on various language tasks .",
@@ -17,7 +17,7 @@ const encoder_only_transformers = [
   },
   {
     title: "Sentence BERT",
-    link: "https://ritvik19.medium.com/papers-explained-04-sentence-bert-5159b8e07f21",
+    link: "https://ritvik19.medium.com/5159b8e07f21",
     date: "August 2019",
     description:
       "A modification of BERT that uses siamese and triplet network structures to derive sentence embeddings that can be compared using cosine-similarity.",
@@ -25,7 +25,7 @@ const encoder_only_transformers = [
   },
   {
     title: "Tiny BERT",
-    link: "https://ritvik19.medium.com/papers-explained-05-tiny-bert-5e36fe0ee173",
+    link: "https://ritvik19.medium.com/5e36fe0ee173",
     date: "September 2019",
     description:
       "Uses attention transfer, and task specific distillation for distilling BERT.",
@@ -33,7 +33,7 @@ const encoder_only_transformers = [
   },
   {
     title: "ALBERT",
-    link: "https://ritvik19.medium.com/papers-explained-07-albert-46a2a0563693",
+    link: "https://ritvik19.medium.com/46a2a0563693",
     date: "September 2019",
     description:
       "Presents certain parameter reduction techniques to lower memory consumption and increase the training speed of BERT.",
@@ -41,7 +41,7 @@ const encoder_only_transformers = [
   },
   {
     title: "Distil BERT",
-    link: "https://ritvik19.medium.com/papers-explained-06-distil-bert-6f138849f871",
+    link: "https://ritvik19.medium.com/6f138849f871",
     date: "October 2019",
     description:
       "Distills BERT on very large batches leveraging gradient accumulation, using dynamic masking and without the next sentence prediction objective.",
@@ -49,7 +49,7 @@ const encoder_only_transformers = [
   },
   {
     title: "Distil RoBERTa",
-    link: "https://medium.com/dair-ai/papers-explained-06-distil-bert-6f138849f871#a260",
+    link: "https://medium.com/dair-ai/6f138849f871#a260",
     date: "October 2019",
     description:
       "Distillation of RoBERTa, using the same techniques as Distil BERT.",
@@ -57,7 +57,7 @@ const encoder_only_transformers = [
   },
   {
     title: "FastBERT",
-    link: "https://ritvik19.medium.com/papers-explained-37-fastbert-5bd246c1b432",
+    link: "https://ritvik19.medium.com/5bd246c1b432",
     date: "April 2020",
     description:
       "A speed-tunable encoder with adaptive inference time having branches at each transformer output to enable early outputs.",
@@ -65,7 +65,7 @@ const encoder_only_transformers = [
   },
   {
     title: "MobileBERT",
-    link: "https://ritvik19.medium.com/papers-explained-36-mobilebert-933abbd5aaf1",
+    link: "https://ritvik19.medium.com/933abbd5aaf1",
     date: "April 2020",
     description:
       "Compressed and faster version of the BERT, featuring bottleneck structures, optimized attention mechanisms, and knowledge transfer.",
@@ -73,7 +73,7 @@ const encoder_only_transformers = [
   },
   {
     title: "DeBERTa",
-    link: "https://ritvik19.medium.com/papers-explained-08-deberta-a808d9b2c52d",
+    link: "https://ritvik19.medium.com/a808d9b2c52d",
     date: "June 2020",
     description:
       "Enhances BERT and RoBERTa through disentangled attention mechanisms, an enhanced mask decoder, and virtual adversarial training.",
@@ -81,7 +81,7 @@ const encoder_only_transformers = [
   },
   {
     title: "DeBERTa v2",
-    link: "https://ritvik19.medium.com/papers-explained-08-deberta-a808d9b2c52d#f5e1",
+    link: "https://ritvik19.medium.com/a808d9b2c52d#f5e1",
     date: "June 2020",
     description:
       "Enhanced version of the DeBERTa featuring a new vocabulary, nGiE integration, optimized attention mechanisms, additional model sizes, and improved tokenization.",
@@ -89,7 +89,7 @@ const encoder_only_transformers = [
   },
   {
     title: "DeBERTa v3",
-    link: "https://ritvik19.medium.com/papers-explained-182-deberta-v3-65347208ce03",
+    link: "https://ritvik19.medium.com/65347208ce03",
     date: "November 2021",
     description:
       "Enhances the DeBERTa architecture by introducing replaced token detection (RTD) instead of mask language modeling (MLM), along with a novel gradient-disentangled embedding sharing method, exhibiting superior performance across various natural language understanding tasks.",
@@ -97,7 +97,7 @@ const encoder_only_transformers = [
   },
   {
     title: "ModernBERT",
-    link: "https://ritvik19.medium.com/papers-explained-277-modernbert-59f25989f685",
+    link: "https://ritvik19.medium.com/59f25989f685",
     date: "December 2024",
     description:
       "Modernized encoder-only transformer model trained on 2 trillion tokens with a native 8192 sequence length, incorporating architectural improvements like GeGLU activations, RoPE embeddings, alternating attention, and unpadding, resulting in state-of-the-art performance across diverse classification and retrieval tasks (including code) and superior inference speed and memory efficiency compared to existing encoder models.",
@@ -105,7 +105,7 @@ const encoder_only_transformers = [
   },
   {
     title: "It’s All in The [MASK]",
-    link: "https://ritvik19.medium.com/papers-explained-312-its-all-in-the-mask-8c010744924e",
+    link: "https://ritvik19.medium.com/8c010744924e",
     date: "February 2025",
     description:
       "Introduces ModernBERT-Large-Instruct, a 0.4B parameter encoder-only model using its masked language modeling (MLM) head for generative classification, achieving strong zero-shot performance on classification and knowledge tasks, rivaling larger LLMs.",
@@ -113,7 +113,7 @@ const encoder_only_transformers = [
   },
   {
     title: "NeoBERT",
-    link: "https://ritvik19.medium.com/papers-explained-327-neobert-b209f06dfc73",
+    link: "https://ritvik19.medium.com/b209f06dfc73",
     date: "February 2025",
     description:
       "A next-generation encoder model incorporating advancements in architecture, data, and pre-training strategies. It features an optimal depth-to-width ratio, an extended context length of 4,096 tokens, and a compact 250M parameter footprint, while also being fully open-source with released code, data, training scripts, and model checkpoints.",
@@ -121,7 +121,7 @@ const encoder_only_transformers = [
   },
   {
     title: "Should We Still Pretrain Encoders with Masked Language Modeling?",
-    link: "https://ritvik19.medium.com/papers-explained-407-should-we-still-pretrain-encoders-with-masked-language-modeling-27c25b39e3f0",
+    link: "https://ritvik19.medium.com/27c25b39e3f0",
     date: "July 2025",
     description:
       "Investigates the impact of Masked Language Modeling (MLM) and Causal Language Modeling (CLM) objectives on learning text representations. The study compares models trained with MLM, CLM, and a combination of both, controlling for factors like model size, architecture, and data volume. The study finds that while MLM generally performs better across text representation tasks, CLM is more data-efficient and offers improved fine-tuning stability; a biphasic training strategy (CLM followed by MLM) achieves optimal performance, especially when initializing from pretrained CLM models.",
@@ -129,7 +129,7 @@ const encoder_only_transformers = [
   },
   {
     title: "mmBERT",
-    link: "https://ritvik19.medium.com/papers-explained-471-mmbert-53c062841b7a",
+    link: "https://ritvik19.medium.com/53c062841b7a",
     date: "September 2025",
     description:
       "An encoder-only language model pretrained on a massive multilingual dataset (3T tokens across 1800+ languages) using an architecture inspired from ModernBERT. It incorporates novel techniques like an inverse mask ratio schedule and inverse temperature sampling ratio, and strategically introduces low-resource languages during the training decay phase to significantly boost performance.",

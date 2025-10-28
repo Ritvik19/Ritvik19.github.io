@@ -1,7 +1,7 @@
 const tabular_data = [
   {
     title: "Entity Embeddings",
-    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#932e",
+    link: "https://ritvik19.medium.com/776db04f965b#932e",
     date: "April 2016",
     description:
       "Maps categorical variables into continuous vector spaces through neural network learning, revealing intrinsic properties.",
@@ -9,7 +9,7 @@ const tabular_data = [
   },
   {
     title: "Wide and Deep Learning",
-    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#bfdc",
+    link: "https://ritvik19.medium.com/776db04f965b#bfdc",
     date: "June 2016",
     description:
       "Combines memorization of specific patterns with generalization of similarities.",
@@ -17,7 +17,7 @@ const tabular_data = [
   },
   {
     title: "Deep and Cross Network",
-    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#0017",
+    link: "https://ritvik19.medium.com/776db04f965b#0017",
     date: "August 2017",
     description:
       "Combines the  a novel cross network with deep neural networks (DNNs) to efficiently learn feature interactions without manual feature engineering.",
@@ -25,7 +25,7 @@ const tabular_data = [
   },
   {
     title: "Tab Transformer",
-    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#48c4",
+    link: "https://ritvik19.medium.com/776db04f965b#48c4",
     date: "December 2020",
     description:
       "Employs multi-head attention-based Transformer layers to convert categorical feature embeddings into robust contextual embeddings.",
@@ -33,14 +33,14 @@ const tabular_data = [
   },
   {
     title: "Tabular ResNet",
-    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#46af",
+    link: "https://ritvik19.medium.com/776db04f965b#46af",
     date: "June 2021",
     description: "An MLP with skip connections.",
     tags: ["Tabular Data"],
   },
   {
     title: "Feature Tokenizer Transformer",
-    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#1ab8",
+    link: "https://ritvik19.medium.com/776db04f965b#1ab8",
     date: "June 2021",
     description:
       "Transforms all features (categorical and numerical) to embeddings and applies a stack of Transformer layers to the embeddings.",
@@ -48,7 +48,7 @@ const tabular_data = [
   },
   {
     title: "TabM",
-    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#db36",
+    link: "https://ritvik19.medium.com/776db04f965b#db36",
     date: "October 2024",
     description:
       "A tabular deep learning model based on MLPs and parameter-efficient ensembling, where multiple MLPs are trained in parallel and share most of their weights, producing multiple predictions per object.",
@@ -56,7 +56,7 @@ const tabular_data = [
   },
   {
     title: "RealMLP",
-    link: "https://ritvik19.medium.com/papers-explained-review-04-tabular-deep-learning-776db04f965b#3cf9",
+    link: "https://ritvik19.medium.com/776db04f965b#3cf9",
     date: "June 2025",
     description:
       "An improved multilayer perceptron (MLP) designed for tabular data, incorporating techniques like robust scaling and smooth clipping for preprocessing, categorical embedding layers, PBLD embeddings for numerical features, a diagonal weight layer for feature selection, neural tangent parametrization for linear layers, and parametric activation functions with SELU or Mish.",

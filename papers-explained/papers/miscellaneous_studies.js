@@ -293,7 +293,15 @@ const miscellaneous_studies = [
     date: "February 2025",
     description:
       "An open-source Python toolkit that converts PDFs into linearized plain text while preserving structured content (sections, tables, lists, equations, etc.). It uses a document-anchoring approach, leveraging a fine-tuned 7B VLM.",
-    tags: ["Language Models", "Multimodal Models"],
+    tags: ["Language Models", "Multimodal Models", "OCR"],
+  },
+  {
+    title: "olmOCR",
+    link: "https://ritvik19.medium.com/papers-explained-479-olmocr-291cbda5f5fe",
+    date: "February 2025",
+    description:
+      "An open-source toolkit designed for extracting and linearizing text from PDFs into clean, plain text suitable for language model development. It utilizes a fine-tuned 7B VLM trained on a diverse dataset of 260,000 PDF pages and includes a benchmark, olmOCR-Bench, for evaluating document extraction tools.",
+    tags: ["Language Models", "Multimodal Models", "OCR"],
   },
   {
     title: "Rethinking Compute-Optimal Test-Time Scaling",
@@ -591,5 +599,21 @@ const miscellaneous_studies = [
     description:
       "Purpose-built language models post-trained to simulate human users in multi-turn conversations, addressing the shortcomings of using assistant LMs as user simulators, the approach leverages real human-assistant conversations as training data and “flips the dialogue” to train the UserLM.",
     tags: ["Language Models"],
+  },
+  {
+    title: "olmOCR 2",
+    link: "https://ritvik19.medium.com/33fbf89757eb",
+    date: "October 2025",
+    description:
+      "A specialized vision language model trained using reinforcement learning with verifiable rewards based on binary unit tests.",
+    tags: ["Language Models", "Multimodal Models", "OCR"],
+  },
+  {
+    title: "DeepSeek-OCR",
+    link: "https://ritvik19.medium.com/d7e1c19499d7",
+    date: "October 2025",
+    description:
+      "A VLM designed to explore visual modality as an efficient compression medium for textual information in LLMs achieving high OCR decoding precision with significant token reduction (7-20x). It introduces DeepEncoder, a novel architecture that maintains low activation memory and minimal vision tokens even with high-resolution inputs.",
+    tags: ["Language Models", "Multimodal Models", "OCR"],
   }
 ];

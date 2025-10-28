@@ -1,7 +1,7 @@
 const decoder_only_transformers = [
   {
     title: "GPT",
-    link: "https://ritvik19.medium.com/papers-explained-43-gpt-30b6f1e6d226",
+    link: "https://ritvik19.medium.com/30b6f1e6d226",
     date: "June 2018",
     description:
       "A Decoder only transformer which is autoregressively pretrained and then finetuned for specific downstream tasks using task-aware input transformations.",
@@ -9,7 +9,7 @@ const decoder_only_transformers = [
   },
   {
     title: "GPT 2",
-    link: "https://ritvik19.medium.com/papers-explained-65-gpt-2-98d0a642e520",
+    link: "https://ritvik19.medium.com/98d0a642e520",
     date: "February 2019",
     description:
       "Demonstrates that language models begin to learn various language processing tasks without any explicit supervision.",
@@ -17,7 +17,7 @@ const decoder_only_transformers = [
   },
   {
     title: "GPT 3",
-    link: "https://ritvik19.medium.com/papers-explained-66-gpt-3-352f5a1b397",
+    link: "https://ritvik19.medium.com/352f5a1b397",
     date: "May 2020",
     description:
       "Demonstrates that scaling up language models greatly improves task-agnostic, few-shot performance.",
@@ -25,7 +25,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Codex",
-    link: "https://ritvik19.medium.com/papers-explained-45-codex-caca940feb31",
+    link: "https://ritvik19.medium.com/caca940feb31",
     date: "July 2021",
     description:
       "A GPT language model finetuned on publicly available code from GitHub.",
@@ -39,7 +39,7 @@ const decoder_only_transformers = [
   },
   {
     title: "WebGPT",
-    link: "https://ritvik19.medium.com/papers-explained-123-webgpt-5bb0dd646b32",
+    link: "https://ritvik19.medium.com/5bb0dd646b32",
     date: "December 2021",
     description:
       "A fine-tuned GPT-3 model utilizing text-based web browsing, trained via imitation learning and human feedback, enhancing its ability to answer long-form questions with factual accuracy.",
@@ -47,7 +47,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Gopher",
-    link: "https://ritvik19.medium.com/papers-explained-47-gopher-2e71bbef9e87",
+    link: "https://ritvik19.medium.com/2e71bbef9e87",
     date: "December 2021",
     description:
       "Provides a comprehensive analysis of the performance of various Transformer models across different scales upto 280B on 152 tasks.",
@@ -55,7 +55,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LaMDA",
-    link: "https://ritvik19.medium.com/papers-explained-76-lamda-a580ebba1ca2",
+    link: "https://ritvik19.medium.com/a580ebba1ca2",
     date: "January 2022",
     description:
       "Transformer based models specialized for dialog, which are pre-trained on public dialog data and web text.",
@@ -63,7 +63,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Instruct GPT",
-    link: "https://ritvik19.medium.com/papers-explained-48-instructgpt-e9bcd51f03ec",
+    link: "https://ritvik19.medium.com/e9bcd51f03ec",
     date: "March 2022",
     description:
       "Fine-tuned GPT using supervised learning (instruction tuning) and reinforcement learning from human feedback to align with user intent.",
@@ -71,7 +71,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Chinchilla",
-    link: "https://ritvik19.medium.com/papers-explained-49-chinchilla-a7ad826d945e",
+    link: "https://ritvik19.medium.com/a7ad826d945e",
     date: "March 2022",
     description:
       "Investigated the optimal model size and number of tokens for training a transformer LLM within a given compute budget (Scaling Laws).",
@@ -79,7 +79,7 @@ const decoder_only_transformers = [
   },
   {
     title: "CodeGen",
-    link: "https://ritvik19.medium.com/papers-explained-125-codegen-a6bae5c1f7b5",
+    link: "https://ritvik19.medium.com/a6bae5c1f7b5",
     date: "March 2022",
     description:
       "An LLM trained for program synthesis using input-output examples and natural language descriptions.",
@@ -87,7 +87,7 @@ const decoder_only_transformers = [
   },
   {
     title: "PaLM",
-    link: "https://ritvik19.medium.com/papers-explained-50-palm-480e72fa3fd5",
+    link: "https://ritvik19.medium.com/480e72fa3fd5",
     date: "April 2022",
     description:
       "A 540-B parameter, densely activated, Transformer, trained using Pathways, (ML system that enables highly efficient training across multiple TPU Pods).",
@@ -95,7 +95,7 @@ const decoder_only_transformers = [
   },
   {
     title: "GPT-NeoX-20B",
-    link: "https://ritvik19.medium.com/papers-explained-78-gpt-neox-20b-fe39b6d5aa5b",
+    link: "https://ritvik19.medium.com/fe39b6d5aa5b",
     date: "April 2022",
     description:
       "An autoregressive LLM trained on the Pile, and the largest dense model that had publicly available weights at the time of submission.",
@@ -103,7 +103,7 @@ const decoder_only_transformers = [
   },
   {
     title: "OPT",
-    link: "https://ritvik19.medium.com/papers-explained-51-opt-dacd9406e2bd",
+    link: "https://ritvik19.medium.com/dacd9406e2bd",
     date: "May 2022",
     description:
       "A suite of decoder-only pre-trained transformers with parameter ranges from 125M to 175B. OPT-175B being comparable to GPT-3.",
@@ -111,7 +111,7 @@ const decoder_only_transformers = [
   },
   {
     title: "BLOOM",
-    link: "https://ritvik19.medium.com/papers-explained-52-bloom-9654c56cd2",
+    link: "https://ritvik19.medium.com/9654c56cd2",
     date: "November 2022",
     description:
       "A 176B-parameter open-access decoder-only transformer, collaboratively developed by hundreds of researchers, aiming to democratize LLM technology.",
@@ -119,7 +119,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Galactica",
-    link: "https://ritvik19.medium.com/papers-explained-53-galactica-1308dbd318dc",
+    link: "https://ritvik19.medium.com/1308dbd318dc",
     date: "November 2022",
     description:
       "An LLM trained on scientific data thus specializing in scientific knowledge.",
@@ -127,7 +127,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LLaMA",
-    link: "https://ritvik19.medium.com/papers-explained-55-llama-c4f302809d6b",
+    link: "https://ritvik19.medium.com/c4f302809d6b",
     date: "February 2023",
     description:
       "A collection of foundation LLMs by Meta ranging from 7B to 65B parameters, trained using publicly available datasets exclusively.",
@@ -135,7 +135,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Toolformer",
-    link: "https://ritvik19.medium.com/papers-explained-140-toolformer-d21d496b6812",
+    link: "https://ritvik19.medium.com/d21d496b6812",
     date: "February 2023",
     description:
       "An LLM trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction.",
@@ -143,7 +143,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Alpaca",
-    link: "https://ritvik19.medium.com/papers-explained-56-alpaca-933c4d9855e5",
+    link: "https://ritvik19.medium.com/933c4d9855e5",
     date: "March 2023",
     description:
       "A fine-tuned LLaMA 7B model, trained on instruction-following demonstrations generated in the style of self-instruct using text-davinci-003.",
@@ -151,7 +151,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Vicuna",
-    link: "https://ritvik19.medium.com/papers-explained-101-vicuna-daed99725c7e",
+    link: "https://ritvik19.medium.com/daed99725c7e",
     date: "March 2023",
     description:
       "A 13B LLaMA chatbot fine tuned on user-shared conversations collected from ShareGPT, capable of generating more detailed and well-structured answers compared to Alpaca.",
@@ -159,7 +159,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Bloomberg GPT",
-    link: "https://ritvik19.medium.com/papers-explained-120-bloomberggpt-4bedd52ef54b",
+    link: "https://ritvik19.medium.com/4bedd52ef54b",
     date: "March 2023",
     description:
       "A 50B language model train on general purpose and domain specific data to support a wide range of tasks within the financial industry.",
@@ -167,7 +167,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Pythia",
-    link: "https://ritvik19.medium.com/papers-explained-121-pythia-708284c32964",
+    link: "https://ritvik19.medium.com/708284c32964",
     date: "April 2023",
     description:
       "A suite of 16 LLMs all trained on public data seen in the exact same order and ranging in size from 70M to 12B parameters.",
@@ -175,7 +175,7 @@ const decoder_only_transformers = [
   },
   {
     title: "WizardLM",
-    link: "https://ritvik19.medium.com/papers-explained-127-wizardlm-65099705dfa3",
+    link: "https://ritvik19.medium.com/65099705dfa3",
     date: "April 2023",
     description:
       "Introduces Evol-Instruct, a method to generate large amounts of instruction data with varying levels of complexity using LLM instead of humans to fine tune a Llama model ",
@@ -188,7 +188,7 @@ const decoder_only_transformers = [
   },
   {
     title: "CodeGen 2",
-    link: "https://ritvik19.medium.com/papers-explained-codegen2-d2690d7eb831",
+    link: "https://ritvik19.medium.com/d2690d7eb831",
     date: "May 2023",
     description:
       "Proposes an approach to make the training of LLMs for program synthesis more efficient by unifying key components of model architectures, learning methods, infill sampling, and data distributions",
@@ -196,7 +196,7 @@ const decoder_only_transformers = [
   },
   {
     title: "PaLM 2",
-    link: "https://ritvik19.medium.com/papers-explained-58-palm-2-1a9a23f20d6c",
+    link: "https://ritvik19.medium.com/1a9a23f20d6c",
     date: "May 2023",
     description:
       "Successor of PALM, trained on a mixture of different pre-training objectives in order to understand different aspects of language.",
@@ -204,7 +204,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LIMA",
-    link: "https://ritvik19.medium.com/papers-explained-57-lima-f9401a5760c3",
+    link: "https://ritvik19.medium.com/f9401a5760c3",
     date: "May 2023",
     description:
       "A LLaMa model fine-tuned on only 1,000 carefully curated prompts and responses, without any reinforcement learning or human preference modeling.",
@@ -212,7 +212,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Gorilla",
-    link: "https://ritvik19.medium.com/papers-explained-139-gorilla-79f4730913e9",
+    link: "https://ritvik19.medium.com/79f4730913e9",
     date: "May 2023",
     description:
       "A retrieve-aware finetuned LLaMA-7B model, specifically for API calls.",
@@ -220,7 +220,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Falcon",
-    link: "https://ritvik19.medium.com/papers-explained-59-falcon-26831087247f",
+    link: "https://ritvik19.medium.com/26831087247f",
     date: "June 2023",
     description:
       "An Open Source LLM trained on properly filtered and deduplicated web data alone.",
@@ -228,7 +228,7 @@ const decoder_only_transformers = [
   },
   {
     title: "WizardCoder",
-    link: "https://ritvik19.medium.com/papers-explained-wizardcoder-a12ecb5b93b6",
+    link: "https://ritvik19.medium.com/a12ecb5b93b6",
     date: "June 2023",
     description:
       "Enhances the performance of the open-source Code LLM, StarCoder, through the application of Code Evol-Instruct.",
@@ -242,7 +242,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Tulu",
-    link: "https://ritvik19.medium.com/papers-explained-181-tulu-ee85648cbf1b",
+    link: "https://ritvik19.medium.com/ee85648cbf1b",
     date: "June 2023",
     description:
       "Explores instruction-tuning of language models ranging from 6.7B to 65B parameters on 12 different instruction datasets.",
@@ -250,7 +250,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LLaMA 2",
-    link: "https://ritvik19.medium.com/papers-explained-60-llama-v2-3e415c5b9b17",
+    link: "https://ritvik19.medium.com/3e415c5b9b17",
     date: "July 2023",
     description:
       "Successor of LLaMA. LLaMA 2-Chat is optimized for dialogue use cases.",
@@ -258,7 +258,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Tool LLM",
-    link: "https://ritvik19.medium.com/papers-explained-141-tool-llm-856f99e79f55",
+    link: "https://ritvik19.medium.com/856f99e79f55",
     date: "July 2023",
     description:
       "A LLaMA model finetuned on an instruction-tuning dataset for tool use, automatically created using ChatGPT.",
@@ -266,14 +266,14 @@ const decoder_only_transformers = [
   },
   {
     title: "Humpback",
-    link: "https://ritvik19.medium.com/papers-explained-61-humpback-46992374fc34",
+    link: "https://ritvik19.medium.com/46992374fc34",
     date: "August 2023",
     description: "LLaMA finetuned using Instruction backtranslation.",
     tags: ["Language Models", "Transformer Decoder", "Synthetic Data"],
   },
   {
     title: "Code LLaMA",
-    link: "https://ritvik19.medium.com/papers-explained-62-code-llama-ee266bfa495f",
+    link: "https://ritvik19.medium.com/ee266bfa495f",
     date: "August 2023",
     description: "LLaMA 2 based LLM for code.",
     tags: [
@@ -285,7 +285,7 @@ const decoder_only_transformers = [
   },
   {
     title: "WizardMath",
-    link: "https://ritvik19.medium.com/papers-explained-129-wizardmath-265e6e784341",
+    link: "https://ritvik19.medium.com/265e6e784341",
     date: "August 2023",
     description:
       "Proposes Reinforcement Learning from Evol-Instruct Feedback (RLEIF) method, applied to Llama-2 to enhance the mathematical reasoning abilities.",
@@ -298,7 +298,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LLaMA 2 Long",
-    link: "https://ritvik19.medium.com/papers-explained-63-llama-2-long-84d33c26d14a",
+    link: "https://ritvik19.medium.com/84d33c26d14a",
     date: "September 2023",
     description:
       "A series of long context LLMs s that support effective context windows of up to 32,768 tokens.",
@@ -306,7 +306,7 @@ const decoder_only_transformers = [
   },
   {
     title: "MAmmoTH",
-    link: "https://ritvik19.medium.com/papers-explained-230-mammoth-06189e929910",
+    link: "https://ritvik19.medium.com/06189e929910",
     date: "September 2023",
     description:
       "A series of LLMs specifically designed for general math problem-solving, trained on MathInstruct, a dataset compiled from 13 math datasets with intermediate rationales that combines chain-of-thought and program-of-thought approaches to accommodate different thought processes for various math problems.",
@@ -314,7 +314,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Llemma",
-    link: "https://ritvik19.medium.com/papers-explained-69-llemma-0a17287e890a",
+    link: "https://ritvik19.medium.com/0a17287e890a",
     date: "October 2023",
     description:
       "An LLM for mathematics, formed by continued pretraining of Code Llama on a mixture of scientific papers, web data containing mathematics, and mathematical code.",
@@ -322,7 +322,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Tulu v2",
-    link: "https://ritvik19.medium.com/papers-explained-182-tulu-v2-ff38ab1f37f2",
+    link: "https://ritvik19.medium.com/ff38ab1f37f2",
     date: "November 2023",
     description:
       "An updated version of Tulu covering the open resources for instruction tuning om better base models to new finetuning techniques.",
@@ -330,7 +330,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Mixtral 8x7B",
-    link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745",
+    link: "https://ritvik19.medium.com/9e9f40ebb745",
     date: "January 2024",
     description:
       "A Sparse Mixture of Experts language model based on Mistral 7B trained with multilingual data using a context size of 32k tokens.",
@@ -343,7 +343,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Nemotron-4 15B",
-    link: "https://ritvik19.medium.com/papers-explained-206-nemotron-4-15b-7d895fb56134",
+    link: "https://ritvik19.medium.com/7d895fb56134",
     date: "February 2024",
     description:
       "A 15B multilingual language model trained on 8T text tokens by Nvidia.",
@@ -351,7 +351,7 @@ const decoder_only_transformers = [
   },
   {
     title: "DBRX",
-    link: "https://ritvik19.medium.com/papers-explained-119-dbrx-17c61739983c",
+    link: "https://ritvik19.medium.com/17c61739983c",
     date: "March 2024",
     description:
       "A 132B open, general-purpose fine grained Sparse MoE LLM surpassing GPT-3.5 and competitive with Gemini 1.0 Pro.",
@@ -359,7 +359,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Command R",
-    link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b",
+    link: "https://ritvik19.medium.com/94ba068ebd2b",
     date: "March 2024",
     description:
       "An LLM optimized for retrieval-augmented generation and tool use, across multiple languages.",
@@ -367,7 +367,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Mixtral 8x22B",
-    link: "https://ritvik19.medium.com/papers-explained-95-mixtral-8x7b-9e9f40ebb745#20f3",
+    link: "https://ritvik19.medium.com/9e9f40ebb745#20f3",
     date: "April 2024",
     description:
       "A open-weight AI model optimised for performance and efficiency, with capabilities such as fluency in multiple languages, strong mathematics and coding abilities, and precise information recall from large documents.",
@@ -380,7 +380,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Llama 3",
-    link: "https://ritvik19.medium.com/papers-explained-187a-llama-3-51e2b90f63bb",
+    link: "https://ritvik19.medium.com/51e2b90f63bb",
     date: "April 2024",
     description:
       "A family of 8B and 70B parameter models trained on 15T tokens with a focus on data quality, demonstrating state-of-the-art performance on various benchmarks, improved reasoning capabilities.",
@@ -388,7 +388,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Command R+",
-    link: "https://ritvik19.medium.com/papers-explained-166-command-r-models-94ba068ebd2b#c2b5",
+    link: "https://ritvik19.medium.com/94ba068ebd2b#c2b5",
     date: "April 2024",
     description:
       "Successor of Command R+ with improved performance for retrieval-augmented generation and tool use, across multiple languages.",
@@ -396,7 +396,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Rho-1",
-    link: "https://ritvik19.medium.com/papers-explained-132-rho-1-788125e42241",
+    link: "https://ritvik19.medium.com/788125e42241",
     date: "April 2024",
     description:
       "Introduces Selective Language Modelling that optimizes the loss only on tokens that align with a desired distribution, utilizing a reference model to score and select tokens.",
@@ -404,7 +404,7 @@ const decoder_only_transformers = [
   },
   {
     title: "MAmmoTH 2",
-    link: "https://ritvik19.medium.com/papers-explained-231-mammoth2-e9c0e6fb9795",
+    link: "https://ritvik19.medium.com/e9c0e6fb9795",
     date: "May 2024",
     description:
       "LLMs fine tuned on a dataset curated through the proposed paradigm that efficiently harvest 10M naturally existing instruction data from the pre-training web corpus to enhance LLM reasoning. It involves recalling relevant documents, extracting instruction-response pairs, and refining the extracted pairs using open-source LLMs.",
@@ -412,7 +412,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Codestral 22B",
-    link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#057b",
+    link: "https://ritvik19.medium.com/b9632dedf580#057b",
     date: "May 2024",
     description:
       "An open-weight model designed for code generation tasks, trained on over 80 programming languages, and licensed under the Mistral AI Non-Production License, allowing developers to use it for research and testing purposes.",
@@ -425,7 +425,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Aya 23",
-    link: "https://ritvik19.medium.com/papers-explained-151-aya-23-d01605c3ee80",
+    link: "https://ritvik19.medium.com/d01605c3ee80",
     date: "May 2024",
     description:
       "A family of multilingual language models supporting 23 languages, designed to balance breadth and depth by allocating more capacity to fewer languages during pre-training.",
@@ -438,7 +438,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Nemotron-4 340B",
-    link: "https://ritvik19.medium.com/papers-explained-207-nemotron-4-340b-4cfe268439f8",
+    link: "https://ritvik19.medium.com/4cfe268439f8",
     date: "June 2024",
     description:
       "340B models, along with a reward model by Nvidia, suitable for generating synthetic data to train smaller language models, with over 98% of the data used in model alignment being synthetically generated.",
@@ -446,7 +446,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LLama 3.1",
-    link: "https://ritvik19.medium.com/papers-explained-187b-llama-3-1-f0fb06898c59",
+    link: "https://ritvik19.medium.com/f0fb06898c59",
     date: "July 2024",
     description:
       "A family of multilingual language models ranging from 8B to 405B parameters, trained on a massive dataset of 15T tokens and achieving comparable performance to leading models like GPT-4 on various tasks.",
@@ -454,7 +454,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LLama 3.1 - Multimodal Experiments",
-    link: "https://ritvik19.medium.com/papers-explained-187c-llama-3-1-multimodal-experiments-a1940dd45575",
+    link: "https://ritvik19.medium.com/a1940dd45575",
     date: "July 2024",
     description:
       "Additional experiments of adding multimodal capabilities to Llama3.",
@@ -467,7 +467,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LLM Compiler",
-    link: "https://ritvik19.medium.com/papers-explained-223-llm-compiler-15b1ddb9a1b0",
+    link: "https://ritvik19.medium.com/15b1ddb9a1b0",
     date: "July 2024",
     description:
       "A suite of pre-trained models designed for code optimization tasks, built upon Code Llama, with two sizes (7B and 13B), trained on LLVM-IR and assembly code to optimize compiler intermediate representations, assemble/disassemble, and achieve high accuracy in optimizing code size and disassembling from x86_64 and ARM assembly back into LLVM-IR.",
@@ -480,7 +480,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Apple Intelligence Foundation Language Models",
-    link: "https://ritvik19.medium.com/papers-explained-222-apple-intelligence-foundation-language-models-2b8a41371a42",
+    link: "https://ritvik19.medium.com/2b8a41371a42",
     date: "July 2024",
     description:
       "Two foundation language models, AFM-on-device (a ~3 B parameter model) and AFM-server (a larger server-based model), designed to power Apple Intelligence features efficiently, accurately, and responsibly, with a focus on Responsible AI principles that prioritize user empowerment, representation, design care, and privacy protection.",
@@ -488,7 +488,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Hermes 3",
-    link: "https://ritvik19.medium.com/papers-explained-188-hermes-3-67d36cfe07d8",
+    link: "https://ritvik19.medium.com/67d36cfe07d8",
     date: "August 2024",
     description:
       "Neutrally generalist instruct and tool use models, created by fine-tuning Llama 3.1 models with strong reasoning and creative abilities, and are designed to follow prompts neutrally without moral judgment or personal opinions.",
@@ -496,7 +496,7 @@ const decoder_only_transformers = [
   },
   {
     title: "OLMoE",
-    link: "https://ritvik19.medium.com/papers-explained-270-olmoe-38832ff4f9bd",
+    link: "https://ritvik19.medium.com/38832ff4f9bd",
     date: "September 2024",
     description:
       "An open source language model based on sparse Mixture-of-Experts architecture with 7B parameters, out of which only 1B parameters are active per input token. Conducted extensive experiments on MoE training, analyzing routing strategies, expert specialization, and the impact of design choices like routing algorithms and expert size.",
@@ -504,7 +504,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Llama 3.1-Nemotron-51B",
-    link: "https://ritvik19.medium.com/papers-explained-209-minitron-approach-in-practice-6b473f67328d#5df9",
+    link: "https://ritvik19.medium.com/6b473f67328d#5df9",
     date: "September 2024",
     description:
       "Uses knowledge distillation and NAS to optimize various constraints, resulting in a model that achieves 2.2x faster inference compared to the reference model while maintaining nearly the same accuracy, with an irregular block structure that reduces or prunes attention and FFN layers for better utilization of H100 and improved LLMs for inference.",
@@ -518,7 +518,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LLama 3.2",
-    link: "https://ritvik19.medium.com/papers-explained-187d-llama-3-2-e517fa1f2528",
+    link: "https://ritvik19.medium.com/e517fa1f2528",
     date: "September 2024",
     description:
       "Small and medium-sized vision LLMs (11B and 90B), and lightweight, text-only models (1B and 3B).",
@@ -532,7 +532,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Aya Expanse",
-    link: "https://ritvik19.medium.com/papers-explained-151-aya-23-d01605c3ee80#c4a1",
+    link: "https://ritvik19.medium.com/d01605c3ee80#c4a1",
     date: "October 2024",
     description:
       "A family of 8B and 32B highly performant multilingual models that excel across 23 languages.",
@@ -545,7 +545,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Tulu v3",
-    link: "https://ritvik19.medium.com/papers-explained-183-tulu-v3-fc7758b18724",
+    link: "https://ritvik19.medium.com/fc7758b18724",
     date: "November 2024",
     description:
       "A family of post-trained models based on Llama 3.1 that outperform instruct versions of other models, including closed models like GPT-4o-mini and Claude 3.5-Haiku, using training methods like supervised finetuning, Direct Preference Optimization, and Reinforcement Learning with Verifiable Rewards.",
@@ -553,7 +553,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Llama 3.3",
-    link: "https://ritvik19.medium.com/papers-explained-187e-quantized-llama-3-2-cc6965f61370#bd2c",
+    link: "https://ritvik19.medium.com/cc6965f61370#bd2c",
     date: "December 2024",
     description:
       "A multilingual, instruction-tuned generative language model with 70B parameters, optimized for dialogue use cases and trained on 15 trillion tokens of public data, incorporating both human-generated and synthetic data for safety and quality control.",
@@ -561,7 +561,7 @@ const decoder_only_transformers = [
   },
   {
     title: "OLMo 2",
-    link: "https://ritvik19.medium.com/papers-explained-olmo-2-f4d34e886503",
+    link: "https://ritvik19.medium.com/f4d34e886503",
     date: "January 2025",
     description:
       "A family of open-source language models featuring improved architecture, training recipes, and pre-training data mixtures. It incorporates a new specialized data mix (Dolmino Mix 1124) introduced via late-stage curriculum training, and best practices from Tülu 3 are incorporated to develop OLMo 2-Instruct.",
@@ -569,7 +569,7 @@ const decoder_only_transformers = [
   },
   {
     title: "AceCoder",
-    link: "https://ritvik19.medium.com/papers-explained-acecoder-2611b3feef6c",
+    link: "https://ritvik19.medium.com/2611b3feef6c",
     date: "February 2025",
     description:
       "Leverages automated large-scale test-case synthesis to enhance code model training via reinforcement learning. It creates a dataset (AceCode-89K) of questions and test cases, trains reward models (AceCode-RM) using pass rates, and then uses these reward models and test-case pass rewards for reinforcement learning, significantly improving code generation performance across various benchmarks.",
@@ -577,7 +577,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Command A",
-    link: "https://ritvik19.medium.com/papers-explained-347-command-a-4e0512baee56",
+    link: "https://ritvik19.medium.com/4e0512baee56",
     date: "March 2025",
     description:
       "A 111 billion parameter open-weights research release model optimized for business-critical agentic and multilingual tasks. It features a 256K context length, is trained on 23 languages, and is specifically designed for RAG and tool use,offering verifiable citations for both.",
@@ -585,7 +585,7 @@ const decoder_only_transformers = [
   },
   {
     title: "UltraLong",
-    link: "https://ritvik19.medium.com/papers-explained-363-ultralong-981e997e4e19",
+    link: "https://ritvik19.medium.com/981e997e4e19",
     date: "April 2025",
     description:
       "Introduces a training method for developing ultra-long context LLMs with context windows extending up to 4 million tokens, achieved through efficient continued pretraining with YaRN-based scaling, followed by instruction tuning.",
@@ -593,7 +593,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Llama-Nemotron",
-    link: "https://ritvik19.medium.com/papers-explained-362-llama-nemotron-d6b64f407e28",
+    link: "https://ritvik19.medium.com/d6b64f407e28",
     date: "May 2025",
     description:
       "An open-source family of heterogeneous reasoning models (Nano (8B), Super (49B), and Ultra (253B)) designed for exceptional reasoning, and efficient inference. Trained using neural architecture search, knowledge distillation, continued pretraining, supervised fine-tuning, and reinforcement learning, these models offer a dynamic reasoning toggle for switching between standard chat and detailed reasoning modes, achieving state-of-the-art performance, especially LN-Ultra which surpasses DeepSeek-R1 in scientific reasoning.",
@@ -601,7 +601,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Devstral",
-    link: "https://ritvik19.medium.com/papers-explained-mistral-7b-b9632dedf580#d26b",
+    link: "https://ritvik19.medium.com/b9632dedf580#d26b",
     date: "May 2025",
     description:
       "An agentic LLM for software engineering tasks developed through a collaboration between Mistral AI and All Hands AI. It is finetuned from Mistral-Small-3.1",
@@ -609,7 +609,7 @@ const decoder_only_transformers = [
   },
   {
     title: "Kimi K2",
-    link: "https://ritvik19.medium.com/papers-explained-451-kimi-k2-05663a5ee4aa",
+    link: "https://ritvik19.medium.com/05663a5ee4aa",
     date: "July 2025",
     description:
       "A 1.04T parameter MoE LLM with 32B activated parameters, pre-trained on 15.5 trillion tokens using the MuonClip optimizer, with a novel QK-clip technique to address training instability while enjoying the advanced token efficiency of Muon, and post-trained with a large-scale agentic data synthesis pipeline and reinforcement learning.",
