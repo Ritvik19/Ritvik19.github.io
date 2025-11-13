@@ -150,5 +150,13 @@ const reasoning_models = [
     description:
       "A 15-billion parameter open-weights multimodal reasoning model that achieves frontier-level performance through a three-stage training methodology involving depth upscaling, staged continual pre-training, and high-quality supervised fine-tuning. The model's design focuses on maximizing the potential of the base model through mid-training, without employing reinforcement learning or preference optimization, making it suitable for organizations with limited infrastructure.",
     tags: ["Multimodal Models", "Language Models"],
+  },
+  {
+    title: "gpt oss safeguard",
+    link: "d8d36703a63e",
+    date: "October 2025",
+    description:
+      "A set of open-weight reasoning models based on gpt oss designed for safety classification tasks, allowing developers to classify content based on their own policies by providing both the policy and the content to the model at inference time. It uses chain-of-thought reasoning, enabling developers to understand how the model reaches its decisions, and offers flexibility in adapting to evolving risks.",
+    tags: ["Language Models", "OpenAI"]
   }
 ];
