@@ -118,5 +118,13 @@ const model_merging = [
     description:
       "Revisits model interpolation for efficient reasoning in LLMs, revealing a three-stage evolutionary paradigm as the interpolation coefficient changes.",
     tags: ["Model Merging", "Language Models"],
+  },
+  {
+    title: "Souper Model (Soup Of Category Experts)",
+    link: "998a8b33a3e0",
+    date: "November 2025",
+    description:
+      "A model souping technique that leverages benchmark composition through an automatic category-aware expert selection mechanism. It identifies \"expert\" models for weakly-correlated benchmark category clusters and combines them using optimized weighted averaging.",
+    tags: ["Model Merging", "Language Models"],
   }
 ];

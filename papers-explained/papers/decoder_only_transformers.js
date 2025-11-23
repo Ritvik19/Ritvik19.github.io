@@ -622,5 +622,13 @@ const decoder_only_transformers = [
     description:
       "Demonstrates that sophisticated agentic intelligence can emerge from minimal but strategically curated demonstrations of autonomous behavior. This challenges the traditional paradigm that more data yields better agency, using only 78 carefully designed training samples.",
     tags: ["Language Models", "Transformer Decoder", "Less is More"],
+  },
+  {
+    title: "Command A Translate",
+    link: "bb9d0e0151e7",
+    date: "November 2025",
+    description:
+      "A machine translation model built on Cohere's Command A through direct preference optimization and a novel difficulty filtering data preparation pipeline. An extended version, CommandA-WMT, uses a two-model architecture with post-editing steps like step-by-step reasoning and Minimum Bayes Risk decoding for WMT 2025, demonstrating consistent gains in translation quality and highlighting the potential of LLM-based approaches in machine translation.",
+    tags: ["Language Models", "Transformer Decoder", "Cohere"],
   }
 ];
