@@ -158,5 +158,13 @@ const reasoning_models = [
     description:
       "A set of open-weight reasoning models based on gpt oss designed for safety classification tasks, allowing developers to classify content based on their own policies by providing both the policy and the content to the model at inference time. It uses chain-of-thought reasoning, enabling developers to understand how the model reaches its decisions, and offers flexibility in adapting to evolving risks.",
     tags: ["Language Models", "OpenAI"]
+  },
+  {
+    title: "P1",
+    link: "15520a79edd3",
+    date: "November 2025",
+    description:
+      "A family of open-source physics reasoning models, including P1-235B-A22B (Gold-medal performance at IPhO 2025) and P1-30B-A3B (Silver-medal performance), trained via reinforcement learning and designed for Olympiad-level physics problem-solving. Combined with the PhysicsMinions agent framework, P1-235B-A22B achieves the top score on IPhO 2025.",
+    tags: ["Reinforcement Learning"]
   }
 ];
