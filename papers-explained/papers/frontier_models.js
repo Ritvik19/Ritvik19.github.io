@@ -302,5 +302,39 @@ const frontier_models = [
     description:
       "Anthropic’s latest small model, offering near-frontier coding performance at one-third the cost and more than twice the speed of Claude Sonnet 4.",
     tags: ["Frontier Model", "Anthropic", "Claude"],
+  },
+  {
+    title: "GPT 5.1",
+    link: "0342672382e7#6047",
+    date: "November 2025",
+    description:
+      "An upgrade to the GPT-5 series, featuring GPT-5.1 Instant (warmer, more intelligent, better instruction following) and GPT-5.1 Thinking (more efficient, easier to understand), with improved customization options for ChatGPT's tone and style.",
+    tags: ["Frontier Model", "OpenAI", "GPT"],
+  },
+  {
+    title: "Grok 4.1",
+    link: "0d9f1aef69be#b913",
+    date: "November 2025",
+    description:
+      "A significant upgrade focusing on enhanced real-world usability, particularly in creative, emotional, and collaborative interactions, while retaining the intelligence and reliability of its predecessor.",
+    tags: ["Frontier Model", "Grok"],
+  },
+  {
+    title: "Gemini 3",
+    link: "3b8877cf4da9#1277",
+    date: "November 2025",
+    description:
+      "Google's most intelligent AI model, enhancing reasoning and multimodal capabilities, with a Deep Think mode. It outperforms previous models in reasoning, multimodality, and coding benchmarks, enabling users to learn, build, and plan anything with improved reasoning and tool use.",
+    tags: ["Frontier Model", "Gemini", "Reasoning"],
+  },
+  {
+    title: "Claude Opus 4.5",
+    link: "89dd45e35d92#25d5",
+    date: "November 2025",
+    description:
+      "An enhanced version of Claude Opus 4, excelling in coding, agentic tasks, and general computer use, while also demonstrating significant improvements in research, spreadsheet handling, and overall reasoning capabilities.",
+    tags: ["Frontier Model", "Anthropic", "Claude"],
   }
+
+
 ];
