@@ -178,6 +178,14 @@ const datasets = [
     tags: ["Datasets", "Benchmark"],
   },
   {
+    title: "Reasoning Gym",
+    link: "3202ebfddeec",
+    date: "May 2025",
+    description:  
+      "A comprehensive library of procedurally generated reasoning environments designed for RLVR training. It offers over 100 algorithmically verifiable tasks spanning diverse domains, allowing for unlimited training data with adjustable complexity and enabling researchers to study reasoning model development systematically.",
+    tags: ["Datasets", "Environment", "Scientific Data"],
+  },
+  {
     title: "OpenThoughts",
     link: "51fcf3dda8d2",
     date: "June 2025",
@@ -240,5 +248,5 @@ const datasets = [
     description:
       "A multimodal dataset with 24 million samples, created by collecting over 200 datasets containing 17M images, 89M question-answer turns, and 10B answer tokens, totaling 5TB of high-quality data.",
     tags: ["Datasets", "Multimodal Datasets", "HuggingFace"],
-  },
+  }
 ];

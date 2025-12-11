@@ -630,5 +630,21 @@ const decoder_only_transformers = [
     description:
       "A machine translation model built on Cohere's Command A through direct preference optimization and a novel difficulty filtering data preparation pipeline. An extended version, CommandA-WMT, uses a two-model architecture with post-editing steps like step-by-step reasoning and Minimum Bayes Risk decoding for WMT 2025, demonstrating consistent gains in translation quality and highlighting the potential of LLM-based approaches in machine translation.",
     tags: ["Language Models", "Transformer Decoder", "Cohere"],
+  },
+  {
+    title: "Mistral 3",
+    link: "b9632dedf580#2f5b",
+    date: "December 2025",
+    description:  
+      "A suite of models, including three small, dense models (14B, 8B, and 3B) and the advanced Mistral Large 3, a sparse mixture-of-experts model with 41B active and 675B total parameters, offering state-of-the-art performance, multimodal and multilingual capabilities, and are optimized for both edge and enterprise use cases, providing the best performance-to-cost ratio in their category.",
+    tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Mistral"],
+  },
+  {
+    title: "Devstral 2",
+    link: "b9632dedf580#54fc",
+    date: "December 2025",
+    description:
+      "Next-generation coding model available in two sizes: Devstral 2 (123B parameters) and Devstral Small 2 (24B parameters). It is highly efficient and competitive with larger models and supports a 256K context window, is cost-efficient, and can be deployed on limited hardware.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
   }
 ];
