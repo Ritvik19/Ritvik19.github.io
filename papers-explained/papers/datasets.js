@@ -130,6 +130,14 @@ const datasets = [
     tags: ["Datasets"],
   },
   {
+    title: "OEIS Sequence Benchmark",
+    link: "20b0eecb7d45",
+    date: "November 2024",
+    description:
+      "A benchmark to evaluate LLMs on integer sequence generation tasks from the Online Encyclopedia of Integer Sequences (OEIS). It assesses models' abilities to generate Python code for these sequences without using lookup tables.",
+    tags: ["Benchmark"],
+  },
+  {
     title: "MVTamperBench",
     link: "828a22e9e0b9",
     date: "December 2024",

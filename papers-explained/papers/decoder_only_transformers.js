@@ -608,6 +608,14 @@ const decoder_only_transformers = [
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
   },
   {
+    title: "EvoLM",
+    link: "12167bdbf93c",
+    date: "June 2025",
+    description:
+      "A comprehensive model suite designed to systematically and transparently analyze the training dynamics of language models across various stages, including pre-training, continued pre-training, supervised fine-tuning, and reinforcement learning.",
+    tags: ["Language Models", "Transformer Decoder"],
+  },
+  {
     title: "Kimi K2",
     link: "05663a5ee4aa",
     date: "July 2025",
