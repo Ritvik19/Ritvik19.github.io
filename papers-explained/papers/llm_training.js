@@ -256,6 +256,14 @@ const llm_training = [
     tags: [],
   },
   {
+    title: "GRAPE",
+    link: "22ce6da195a5",
+    date: "February 2025",
+    description:
+      "A novel supervised fine-tuning framework designed to enhance the performance of LLMs by selecting responses that align most closely with the target model's pretrained distribution. It gathers responses from various LLMs for each instruction, selects the one with the highest probability according to the target model, and proceeds with standard SFT training.",
+    tags: [],
+  },
+  {
     title: "SPHERE",
     link: "f256c1a7bb0f",
     date: "March 2025",

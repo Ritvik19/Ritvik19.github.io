@@ -272,7 +272,7 @@ const frontier_models = [
     tags: ["Frontier Model", "Anthropic", "Claude"],
   },
   {
-    title: "GPT-5",
+    title: "GPT 5",
     link: "0342672382e7",
     date: "August 2025",
     description:
@@ -334,7 +334,13 @@ const frontier_models = [
     description:
       "An enhanced version of Claude Opus 4, excelling in coding, agentic tasks, and general computer use, while also demonstrating significant improvements in research, spreadsheet handling, and overall reasoning capabilities.",
     tags: ["Frontier Model", "Anthropic", "Claude"],
+  },
+  {
+    title: "GPT 5.2",
+    link: "0342672382e7#2b77",
+    date: "December 2025",
+    description:
+      "An advancement in the GPT-5 series, designed to enhance professional knowledge work by excelling in creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.",
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   }
-
-
 ];

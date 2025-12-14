@@ -425,6 +425,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "Reasoning"],
   },
   {
+    title: "Who Reasons in LLMs?",
+    link: "301725c9fce2",
+    date: "May 2025",
+    description:
+      "Hypothesizes that the reasoning capabilities in well-trained LLMs are primarily attributed to the output projection module (o_proj) in the Transformer's multi-head self-attention module, while other modules contribute more to fluent dialogue.",
+    tags: ["Language Models"],
+  },
+  {
     title: "Evaluation is All You Need",
     link: "648b9ede2d5e",
     date: "June 2025",
