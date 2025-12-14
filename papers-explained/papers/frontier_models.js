@@ -16,7 +16,7 @@ const frontier_models = [
     tags: ["Frontier Model", "OpenAI", "GPT"],
   },
   {
-    title: "GPT-4V",
+    title: "GPT 4V",
     link: "6e27c8a1d6ea",
     date: "September 2023",
     description:
@@ -71,7 +71,7 @@ const frontier_models = [
     tags: ["Frontier Model", "Grok"],
   },
   {
-    title: "GPT-4o",
+    title: "GPT 4o",
     link: "a234bccfd662",
     date: "May 2024",
     description:
@@ -103,7 +103,7 @@ const frontier_models = [
     tags: ["Frontier Model", "Mistral"],
   },
   {
-    title: "GPT-4o mini",
+    title: "GPT 4o mini",
     link: "a234bccfd662#08b9",
     date: "July 2024",
     description:
@@ -184,7 +184,7 @@ const frontier_models = [
     tags: ["Frontier Model", "Anthropic", "Claude"],
   },
   {
-    title: "GPT-4.5",
+    title: "GPT 4.5",
     link: "dc1d4b097ad1",
     date: "February 2025",
     description:
@@ -200,7 +200,7 @@ const frontier_models = [
     tags: ["Frontier Model", "Gemini", "Reasoning"],
   },
   {
-    title: "GPT-4.1",
+    title: "GPT 4.1",
     link: "dc1d4b097ad1#a605",
     date: "April 2025",
     description:
