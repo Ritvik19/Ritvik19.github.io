@@ -549,5 +549,13 @@ const small_llms = [
     description:
       "A series of sub-billion-parameter reasoning models that achieve strong reasoning abilities with significantly less data (∼2T tokens of high-quality data resampled to 4.2T tokens) compared to other models.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Reasoning"],
+  },
+  {
+    title: "Rnj-1",
+    link: "43be78ab4b40",
+    date: "December 2025",
+    description:
+      "An 8B model following the open-source Gemma 3 architecture, employs global self-attention and YaRN to extend the context to 32k, it is a part of the open-source AI movement and aims to advance AI technologies equitably.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
   }
 ];
