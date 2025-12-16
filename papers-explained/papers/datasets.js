@@ -256,5 +256,13 @@ const datasets = [
     description:
       "A multimodal dataset with 24 million samples, created by collecting over 200 datasets containing 17M images, 89M question-answer turns, and 10B answer tokens, totaling 5TB of high-quality data.",
     tags: ["Datasets", "Multimodal Datasets", "HuggingFace"],
+  },
+  {
+    title: "FACTS Leaderboard",
+    link: "2ad8cda79681",
+    date: "December 2025",
+    description: 
+      "An online benchmarking suite designed to evaluate the factual accuracy of large language models (LLMs) across diverse scenarios. It aggregates performance on four sub-leaderboards: FACTS Multimodal (image-based questions), FACTS Parametric (closed-book factoid questions), FACTS Search (information-seeking scenarios using a search API), and FACTS Grounding v2 (long-form responses grounded in provided documents).",
+    tags: ["Datasets", "Benchmark", "Factual Accuracy"],
   }
 ];
