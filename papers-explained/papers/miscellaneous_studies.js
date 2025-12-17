@@ -623,5 +623,13 @@ const miscellaneous_studies = [
     description:
       "A VLM designed to explore visual modality as an efficient compression medium for textual information in LLMs achieving high OCR decoding precision with significant token reduction (7-20x). It introduces DeepEncoder, a novel architecture that maintains low activation memory and minimal vision tokens even with high-resolution inputs.",
     tags: ["Language Models", "Multimodal Models", "OCR"],
+  },
+  {
+    title: "Nemotron-Parse 1.1",
+    link: "e94225fc944d",
+    date: "November 2025",
+    description:
+      "A lightweight document parsing and OCR model that follows an encoder-decoder architecture with 885M parameters, including a compact 256M-parameter language decoder.",
+    tags: ["Language Models", "Multimodal Models", "OCR"],
   }
 ];
