@@ -557,5 +557,13 @@ const small_llms = [
     description:
       "An 8B model following the open-source Gemma 3 architecture, employs global self-attention and YaRN to extend the context to 32k, it is a part of the open-source AI movement and aims to advance AI technologies equitably.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs"],
+  },
+  {
+    title: "Nemotron 3 Nano",
+    link: "8c95d44b0540",
+    date: "December 2025",
+    description:
+      "A 31.6B Mixture-of-Experts hybrid Mamba-Transformer (Activating 6 of 128 experts, only ~3.2B params, ~3.6B with embeddings) pretrained on 25 trillion tokens (including >3T new tokens) and supporting context lengths up to 1M tokens; it uses Mamba-2 and Grouped-Query-Attention blocks. The model was post-trained with supervised fine-tuning, multi-environment RLVR, and RLHF.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Nvidia"],
   }
 ];
