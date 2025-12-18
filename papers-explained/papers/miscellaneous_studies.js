@@ -631,5 +631,13 @@ const miscellaneous_studies = [
     description:
       "A lightweight document parsing and OCR model that follows an encoder-decoder architecture with 885M parameters, including a compact 256M-parameter language decoder.",
     tags: ["Language Models", "Multimodal Models", "OCR"],
+  },
+  {
+    title: "On the Interplay of Pre-Training, Mid-Training, and RL on Reasoning Language Models",
+    link: "28ea687d27ae",
+    date: "December 2025",
+    description:
+      "Investigates the interplay between pre-training, mid-training, and RL in shaping reasoning capabilities of language models. Through a controlled experimental framework with synthetic reasoning tasks, they demonstrate that RL yields genuine reasoning gains only when pre-training leaves sufficient headroom and RL data target the model's edge of competence, while mid-training significantly enhances performance under fixed compute.",
+    tags: ["Language Models", "Reasoning"],
   }
 ];
