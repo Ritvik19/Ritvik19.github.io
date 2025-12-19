@@ -278,5 +278,13 @@ const language_models = [
     description:
       "A 1 billion parameter model within the Gemma family, fully trained with differential privacy (DP) on the same data mixture used for the Gemma 2 series. VaultGemma addresses the privacy risks inherent in LLMs, which are susceptible to memorizing and extracting training data, potentially disclosing sensitive information.",
     tags: ["Language Models", "Gemma", "Differential Privacy"],
+  },
+  {
+    title: "T5Gemma 2",
+    link: "c406dbdd3839",
+    date: "December 2025",
+    description:
+      "A family of lightweight open encoder-decoder LLMs featuring three model sizes: 270M-270M, 1B-1B, and 4B-4B, designed for multilingual, multimodal, and long-context understanding. It builds upon the T5Gemma architecture, adapting pretrained decoder-only models with the UL2 objective and incorporating innovations like tied word embeddings and merged attention for efficiency.",
+    tags: ["Language Models", "Gemma"],
   }
 ];
