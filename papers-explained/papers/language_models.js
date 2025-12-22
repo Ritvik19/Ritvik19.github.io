@@ -272,6 +272,14 @@ const language_models = [
     tags: ["Language Models", "Hybrid Models"],
   },
   {
+    title: "FlexOlmo",
+    link: "27651ea5bf26",
+    date: "July 2025",
+    description:
+      "A new class of mixture-of-experts language models that enables distributed training on locally held, closed datasets without data sharing, and supports “data-flexible” inference where independently trained expert modules (FFNs and router embeddings) can be added or removed at will, with strict opt-out guarantees for specific data sources. Each expert is trained asynchronously using a frozen public model as an anchor and a domain-informed router embedding.",
+    tags: ["Language Models", "Mixture of Experts"],
+  },
+  {
     title: "VaultGemma",
     link: "f738ba8705dd",
     date: "September 2025",
