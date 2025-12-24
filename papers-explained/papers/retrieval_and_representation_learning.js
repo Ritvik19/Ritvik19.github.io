@@ -88,6 +88,14 @@ const retrieval_and_representation_learning = [
     tags: ["Representation Learning"],
   },
   {
+    title: "Meta CLIP",
+    link: "29a47642feff",
+    date: "September 2023",
+    description:
+      "A transparent data-curation approach that starts from a raw web data pool (e.g., CommonCrawl) and uses metadata derived from CLIP’s concepts (queries/visual concepts) to select and balance a subset of image–text pairs over this metadata distribution, instead of relying on black-box CLIP-score filtering. MetaCLIP data significantly outperforms CLIP’s original WIT400M and LAION on zero-shot ImageNet and other benchmarks.",
+    tags: ["Representation Learning", "Multimodal Models"],
+  },
+  {
     title: "Jina Embeddings v2",
     link: "c5d540a9154f",
     date: "October 2023",
