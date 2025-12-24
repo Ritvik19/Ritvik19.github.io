@@ -301,6 +301,14 @@ const retrieval_and_representation_learning = [
     tags: ["Representation Learning"]
   },
   {
+    title: "Meta CLIP 2",
+    link: "804c9e9c100f",
+    date: "July 2025",
+    description:
+      "A worldwide CLIP training recipe that extends Meta CLIP’s English-only data curation to 300+ languages using Wikipedia and multilingual WordNet, with per-language substring matching and balancing to create a controlled, concept-balanced distribution from native, non-English alt-texts without machine translation, private data, or distillation.",
+    tags: ["Representation Learning", "Multimodal Models", "Multilingual Models"]
+  },
+  {
     title: "Jina Code Embeddings",
     link: "0a6c9ad05bbd",
     date: "August 2025",
