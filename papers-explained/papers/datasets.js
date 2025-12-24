@@ -154,6 +154,14 @@ const datasets = [
     tags: ["Datasets", "Scientific Data"],
   },
   {
+    title: "NaturalReasoning",
+    link: "9356f510b0a4",
+    date: "February 2025",
+    description:
+      "A 2.8M-question dataset of challenging, real-world reasoning problems automatically curated from pretraining corpora via backtranslation, covering diverse domains such as Mathematics, Physics, Computer Science, Economics & Business, Social Sciences, and more.",
+    tags: ["Datasets", "Scientific Data"],
+  },
+  {
     title: "Numina Math 1.5",
     link: "paper-explained-316-numinamath-40501ae9baac#e825",
     date: "February 2025",
