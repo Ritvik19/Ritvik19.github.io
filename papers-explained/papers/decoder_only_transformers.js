@@ -313,6 +313,14 @@ const decoder_only_transformers = [
     tags: ["Language Models", "Transformer Decoder", "Scientific Data"],
   },
   {
+    title: "SteerLM",
+    link: "785a493499dc",
+    date: "October 2023",
+    description:
+      "An SFT based alternative to RLHF that aligns LLMs with human preferences by conditioning generation on an explicit, multi-dimensional set of attributes rather than a single scalar reward. It uses an Attribute Prediction model to label prompt–response pairs with these attributes, then trains the model to generate responses conditioned on both the prompt and attribute values, enabling users at inference time to steer responses along multiple dimensions while avoiding the complexity of RLHF.",
+    tags: ["Language Models", "Transformer Decoder"],
+  },
+  {
     title: "Llemma",
     link: "0a17287e890a",
     date: "October 2023",
