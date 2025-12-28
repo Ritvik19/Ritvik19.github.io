@@ -8,6 +8,14 @@ const datasets = [
     tags: ["Datasets", "Multimodal Datasets", "HuggingFace"],
   },
   {
+    title: "HelpSteer",
+    link: "8653a643a462",
+    date: "November 2023",
+    description: 
+      "A 37k-sample multi-attribute helpfulness dataset where each response is annotated not only for overall helpfulness but also for correctness, coherence, complexity, and verbosity, aiming to avoid artifacts like models equating length with quality.",
+    tags: ["Datasets", "LLM Safety"],
+  },
+  {
     title: "Dolma",
     link: "a656169269cb",
     date: "January 2024",
