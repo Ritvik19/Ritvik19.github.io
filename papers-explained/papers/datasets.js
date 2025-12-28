@@ -179,11 +179,19 @@ const datasets = [
   },
   {
     title: "Numina Math 1.5",
-    link: "paper-explained-316-numinamath-40501ae9baac#e825",
+    link: "40501ae9baac#e825",
     date: "February 2025",
     description:
       "An update over NuminaMath dataset containing approximately 900k competition-level math problems with Chain of Thought (CoT) solutions, sourced from Chinese high school exercises to international mathematics olympiads. It includes metadata like answer, problem_type, and question_type for each problem, and features manually curated data from olympiads, contests, and specific mathematical domains, while removing the synthetic dataset synthetic_amc.",
     tags: ["Datasets", "Scientific Data"],
+  },
+  {
+    title: "HelpSteer 3",
+    link: "e2ba71915370",
+    date: "March 2025",
+    description:
+      "A dataset collected from over 7,000 annotators across 80+ regions, focused on diverse, open-ended general-domain tasks where ground-truth answers often do not exist. For each task, annotators provide rich textual feedback on response helpfulness and then edit the original responses using that feedback, enabling the training of dedicated Feedback and Edit models. These models are used in a three-stage inference-time pipeline: one model generates multiple initial drafts, a second model produces detailed feedback on those drafts, and a third model edits them accordingly.",
+    tags: ["Datasets", "LLM Safety"],
   },
   {
     title: "OpenCodeReasoning",
