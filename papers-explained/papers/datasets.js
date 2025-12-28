@@ -114,6 +114,14 @@ const datasets = [
     tags: ["Datasets", "Multimodal Datasets"],
   },
   {
+    title: "Help Steer 2 Preference",
+    link: "9e95fd369850",
+    date: "October 2024",
+    description:
+      "A high‑quality dataset originally designed for Regression-style reward modeling, where responses to prompts are rated on a Likert-5 scale for helpfulness and safety. It augments HelpSteer2 with matched preference annotations, ie directions, strengths, and human-written justifications, so it can also support Bradley-Terry style training, enabling the first controlled, head-to-head comparison between Bradley-Terry and Regression reward models.",
+    tags: ["Datasets", "LLM Safety"],
+  },
+  {
     title: "OmniMath",
     link: "bd2687c23e81",
     date: "October 2024",
