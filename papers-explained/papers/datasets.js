@@ -69,6 +69,14 @@ const datasets = [
     tags: ["Datasets", "Language Model Datasets", "HuggingFace"],
   },
   {
+    title: "HelpSteer 2",
+    link: "041ceb1b6749",
+    date: "June 2024",
+    description:
+      "An open-source helpfulness preference dataset of about 10k response pairs, designed for training reward models that align LLMs with human preferences, despite being an order of magnitude smaller than older datasets like HH-RLHF.",
+    tags: ["Datasets", "LLM Safety"],  
+  },
+  {
     title: "Numina Math",
     link: "paper-explained-316-numinamath-40501ae9baac",
     date: "July 2024",
