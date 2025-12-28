@@ -218,6 +218,14 @@ const datasets = [
     tags: ["Datasets", "Scientific Data"],
   },
   {
+    title: "Help Steer 3 Preference",
+    link: "2ebd5725a525",
+    date: "May 2025",
+    description:
+      "A human-annotated preference dataset of over 40,000 samples designed for training general-domain, instruction-following language models with RLHF. It focuses on high-quality, diverse, and commercially usable data across real-world tasks, including STEM, coding, multilingual, and general domains, using specialist annotators (with domain degrees, work experience, and language proficiency) to label responses from 17 language models on prompts drawn from sources like WildChat-1M and ShareGPT.",
+    tags: ["Dataset", "LLM Safety"],
+  },
+  {
     title: "SweEval",
     link: "f779d7da1196",
     date: "May 2025",
