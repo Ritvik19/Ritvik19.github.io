@@ -344,6 +344,14 @@ const llm_training = [
     tags: ["LLM for Code"],
   },
   {
+    title: "Long Magpie",
+    link: "88810df48680",
+    date: "May 2025",
+    description:
+      "A self-synthesis framework for automatically generating large-scale, high-quality long-context instruction data without human annotation or complex prompt engineering. It exploits the fact that aligned long-context LLMs, when given a document followed by the special tokens that usually precede a user query, will auto-regressively generate contextually relevant questions and answers.",
+    tags: ["Synthetic Data"],
+  },
+  {
     title: "Reinforcement Learning with Reference Probability Reward (RLPR)",
     link: "ac742c006a22",
     date: "June 2025",
