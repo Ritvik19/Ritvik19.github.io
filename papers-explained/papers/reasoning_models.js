@@ -166,5 +166,13 @@ const reasoning_models = [
     description:
       "A family of open-source physics reasoning models, including P1-235B-A22B (Gold-medal performance at IPhO 2025) and P1-30B-A3B (Silver-medal performance), trained via reinforcement learning and designed for Olympiad-level physics problem-solving. Combined with the PhysicsMinions agent framework, P1-235B-A22B achieves the top score on IPhO 2025.",
     tags: ["Reinforcement Learning"]
+  },
+  {
+    title: "Nemotron Cascade",
+    link: "4fc163e3bdbf",
+    date: "December 2025",
+    description:
+      "A family of general-purpose reasoning models trained with a cascaded, domain-wise reinforcement learning (Cascade RL) framework, starting from Qwen3-8B/14B base models. Instead of mixing heterogeneous prompts from many domains, it applies RL sequentially across domains, which simplifies infrastructure, allows domain-specific hyperparameters and curricula.",
+    tags: ["Reinforcement Learning"]
   }
 ];
