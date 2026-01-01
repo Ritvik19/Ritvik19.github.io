@@ -288,6 +288,14 @@ const language_models = [
     tags: ["Language Models", "Gemma", "Differential Privacy"],
   },
   {
+    title: "Nemotron 3",
+    link: "62e863712b21",
+    date: "December 2025",
+    description:
+      "A family of open models: Nano, Super, and Ultra, built on a Mixture-of-Experts hybrid Mamba–Transformer architecture with a few self-attention layers, delivering strong agentic, reasoning, and conversational capabilities, and context lengths up to 1M tokens. Super and Ultra use NVFP4, LatentMoE, and MTP layers for improved quality and faster long-form generation, while all models are post-trained with multi-environment reinforcement learning to enable multi-step tool use and inference-time reasoning budget control.",
+    tags: ["Language Models", "Mixture of Experts", "Hybrid Models"],
+  },
+  {
     title: "T5Gemma 2",
     link: "c406dbdd3839",
     date: "December 2025",
