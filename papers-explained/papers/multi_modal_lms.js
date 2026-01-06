@@ -374,5 +374,13 @@ const multi_modal_lms = [
     description:
       "A 112B parameter vision language model based on Command A paired with the SigLIP2-patch16-512 vision encoder through a multimodal adapter for vision-language understanding, designed for enterprises, enabling agents to automate tedious tasks involving visual data such as slides, diagrams, PDFs, and photos.",
     tags: ["Multimodal Models"],
+  },
+  {
+    title: "Nemotron Nano V2 VL",
+    link: "80cdd141c3c8",
+    date: "November 2025",
+    description:
+      "A 12B-parameter vision–language model built on the Nemotron Nano V2 hybrid Mamba–Transformer LLM and the RADIOv2.5 vision encoder, designed for strong real-world document understanding, long-video comprehension, visual question answering, and STEM reasoning.",
+    tags: ["Multimodal Models"],
   }
 ];
