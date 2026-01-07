@@ -380,7 +380,15 @@ const multi_modal_lms = [
     link: "80cdd141c3c8",
     date: "November 2025",
     description:
-      "A 12B-parameter vision–language model built on the Nemotron Nano V2 hybrid Mamba–Transformer LLM and the RADIOv2.5 vision encoder, designed for strong real-world document understanding, long-video comprehension, visual question answering, and STEM reasoning.",
+      "A 12B-parameter vision-language model built on the Nemotron Nano V2 hybrid Mamba-Transformer LLM and the RADIOv2.5 vision encoder, designed for strong real-world document understanding, long-video comprehension, visual question answering, and STEM reasoning.",
+    tags: ["Multimodal Models"],
+  },
+  {
+    title: "Jina-VLM",
+    link: "3d83a03005ca",
+    date: "December 2025",
+    description:
+      "A 2.4B-parameter multilingual vision-language model that couples a SigLIP2-So400M/14-384 vision encoder with a Qwen3-1.7B-Base language backbone via an attention-pooling connector, enabling token-efficient processing of arbitrary-resolution images through overlapping tiling and attention-based token pooling (reducing visual tokens by 4x).",
     tags: ["Multimodal Models"],
   }
 ];
