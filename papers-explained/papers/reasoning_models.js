@@ -168,6 +168,14 @@ const reasoning_models = [
     tags: ["Reinforcement Learning"]
   },
   {
+    title: "ToolOrchestra",
+    link: "fc50eb47177f",
+    date: "November 2025",
+    description:
+      "A reinforcement-learning-based method for training a small 8B-parameter Orchestrator model that coordinates a diverse set of tools, including web search, deterministic functions, specialized LLMs, and powerful generalist LLMs, the Orchestrator alternates between reasoning and tool calls over multiple turns.",
+    tags: ["Reinforcement Learning", "Tool Use"]
+  },
+  {
     title: "Nemotron Cascade",
     link: "4fc163e3bdbf",
     date: "December 2025",
