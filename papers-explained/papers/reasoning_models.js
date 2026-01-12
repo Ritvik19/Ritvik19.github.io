@@ -72,6 +72,14 @@ const reasoning_models = [
     tags: ["LLM for Math", "Reinforcement Learning"]
   },
   {
+    title: "OctThinker",
+    link: "bdec24e27301",
+    date: "June 2025",
+    description:
+      "Explores the effects of midtraining on RL performance and emphasises the importance of high-quality mathematical corpora, QA-styled data, particularly long chain-of-thought (CoT) reasoning examples, and instruction data. While long-CoT improves reasoning depth, it can also induce verbosity of model responses and instability of RL training.",
+    tags: ["LLM for Math", "Reinforcement Learning", "Mid Training"]
+  },
+  {
     title: "MiroMind-M1",
     link: "d2206c0b1b1e",
     date: "July 2025",
