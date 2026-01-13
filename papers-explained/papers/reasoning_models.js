@@ -168,6 +168,14 @@ const reasoning_models = [
     tags: ["Language Models", "OpenAI"]
   },
   {
+    title: "DR Tulu",
+    link: "123b031776c5",
+    date: "November 2025",
+    description:
+      "The first open model directly trained for open-ended, long-form deep research, using a new method called Reinforcement Learning with Evolving Rubrics (RLER), where evaluation rubrics co-evolve with the policy model and are grounded in live, searched knowledge rather than static, closed-book criteria.",
+    tags: ["Reinforcement Learning", "Deep Research"]
+  },
+  {
     title: "P1",
     link: "15520a79edd3",
     date: "November 2025",
