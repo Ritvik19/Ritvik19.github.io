@@ -565,5 +565,13 @@ const small_llms = [
     description:
       "A 31.6B Mixture-of-Experts hybrid Mamba-Transformer (Activating 6 of 128 experts, only ~3.2B params, ~3.6B with embeddings) pretrained on 25 trillion tokens (including >3T new tokens) and supporting context lengths up to 1M tokens; it uses Mamba-2 and Grouped-Query-Attention blocks. The model was post-trained with supervised fine-tuning, multi-environment RLVR, and RLHF.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Nvidia"],
+  },
+  {
+    title: "TranslateGemma",
+    link: "016d61e37245",
+    date: "January 2026",
+    description:
+      "A suite of open machine translation models built on the Gemma 3 foundation models, enhanced via a two-stage process: supervised fine-tuning on a rich mix of high-quality synthetic and human-translated parallel data, followed by reinforcement learning using an ensemble of reward models (including MetricX-QE and AutoMQM) to directly optimize translation quality.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models", "Gemma"]  
   }
 ];
