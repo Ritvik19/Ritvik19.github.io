@@ -573,5 +573,13 @@ const small_llms = [
     description:
       "A suite of open machine translation models built on the Gemma 3 foundation models, enhanced via a two-stage process: supervised fine-tuning on a rich mix of high-quality synthetic and human-translated parallel data, followed by reinforcement learning using an ensemble of reward models (including MetricX-QE and AutoMQM) to directly optimize translation quality.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models", "Gemma"]  
+  },
+  {
+    title: "Ministral 3",
+    link: "81f394784f92",
+    date: "January 2026",
+    description:
+      "A family of parameter-efficient dense language models derived from the 24B-parameter Mistral Small 3.1 using a compute-efficient Cascade Distillation recipe (iterative pruning plus continued training with logit distillation). The series includes three sizes (3B, 8B, 14B), each released in three variants (base, instruction-finetuned, and reasoning), all with image understanding, long context windows (up to 256k tokens, 128k for reasoning models).",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral",]
   }
 ];
