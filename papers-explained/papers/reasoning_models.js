@@ -160,6 +160,14 @@ const reasoning_models = [
     tags: ["Multimodal Models", "Language Models"],
   },
   {
+    title: "BroRL",
+    link: "da46c4caec8f",
+    date: "October 2025",
+    description:
+      "A reinforcement learning scaling paradigm for LLMs within the RLVR framework that focuses on broadening exploration by dramatically increasing the number of rollouts per example (to hundreds or thousands) instead of just adding more training steps.",
+    tags: ["Language Models", "Reinforcement Learning"],
+  },
+  {
     title: "gpt oss safeguard",
     link: "d8d36703a63e",
     date: "October 2025",
