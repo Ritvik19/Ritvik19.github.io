@@ -132,11 +132,12 @@ function search() {
   if (search_query) {
     document.getElementById('search_input').value = search_query;
   }
-  const input = document.getElementById('search_input').value.toUpperCase();
+  const input = document.getElementById('search_input').value.toUpperCase().replace(/[ -]/g, "");
   const cards = document.getElementsByClassName("card");
 
   Array.from(cards).forEach(card => {
-    card.style.display = card.textContent.toUpperCase().includes(input) ? "" : "none";
+    card.style.display = card.textContent.toUpperCase().includes(input) || card.getElementsByTagName("h3")[0].textContent.toUpperCase().replace(/[ -]/g, "").includes(input)
+      ? "" : "none";
   });
 
   hideEmptySections();
