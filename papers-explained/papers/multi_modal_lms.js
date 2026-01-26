@@ -390,5 +390,13 @@ const multi_modal_lms = [
     description:
       "A 2.4B-parameter multilingual vision-language model that couples a SigLIP2-So400M/14-384 vision encoder with a Qwen3-1.7B-Base language backbone via an attention-pooling connector, enabling token-efficient processing of arbitrary-resolution images through overlapping tiling and attention-based token pooling (reducing visual tokens by 4x).",
     tags: ["Multimodal Models"],
+  },
+  {
+    title: "OpenVision 3",
+    link: "87bc2a984c68",
+    date: "January 2026",
+    description:
+      "A family of vision encoders that learn a single visual representation for both image understanding and generation. This is achieved by training a ViT encoder on two tasks: reconstructing images from compressed latents (for generative structure) and optimizing semantic features through contrastive learning and image captioning.",
+    tags: ["Multimodal Models"],    
   }
 ];
