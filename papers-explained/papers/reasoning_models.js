@@ -176,6 +176,14 @@ const reasoning_models = [
     tags: ["Language Models", "OpenAI"]
   },
   {
+    title: "ScaleRL",
+    link: "14ccd31f7d63",
+    date: "October 2025",
+    description:
+      "The first large-scale systematic study, amounting to more than 400,000 GPU-hours, defines a principled framework for analyzing and predicting RL scaling in LLMs. Sigmoidal compute-performance curves are fit for RL training and a wide range of common design choices are ablated to analyze their effects on asymptotic performance and compute efficiency.",
+    tags: ["Reinforcement Learning"]
+  },
+  {
     title: "DR Tulu",
     link: "123b031776c5",
     date: "November 2025",
