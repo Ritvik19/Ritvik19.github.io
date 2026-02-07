@@ -430,5 +430,13 @@ const llm_training = [
     description:
       "Explores the extraction of alignment training data from post-trained language models building upon the work done in magpie, demonstrating that models readily reproduce data used in post-training phases like SFT or RL.",
     tags: ["Synthetic Data"],
+  },
+  {
+    title: "Golden Goose",
+    link: "af78d02a0741",
+    date: "January 2026",
+    description:
+      "A method for scaling RLVR by synthesizing unlimited tasks from unverifiable internet text. It converts reasoning-rich sources into multiple-choice fill-in-the-middle question-answering tasks by prompting an LLM to identify and mask key reasoning steps and generate diverse, plausible distractors.",
+      tags: ["Synthetic Data"],
   }
 ];
