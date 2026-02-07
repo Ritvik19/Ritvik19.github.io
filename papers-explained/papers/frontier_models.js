@@ -342,5 +342,13 @@ const frontier_models = [
     description:
       "An advancement in the GPT-5 series, designed to enhance professional knowledge work by excelling in creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.",
     tags: ["Frontier Model", "OpenAI", "GPT"],
+  },
+  {
+    title: "Claude Opus 4.6",
+    link: "89dd45e35d92#bd90",
+    date: "February 2026",
+    description:
+      "Improves on Opus 4.5 in coding, long-context reasoning, and autonomous agentic work. It plans more carefully, sustains long-running tasks, operates reliably in large codebases, and excels at code review and debugging, while also handling complex everyday work like financial analysis, research, and creating or editing documents, spreadsheets, and presentations.",
+      tags: ["Frontier Model", "Anthropic", "Claude"],      
   }
 ];
