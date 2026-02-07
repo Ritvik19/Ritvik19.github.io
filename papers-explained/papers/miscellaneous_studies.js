@@ -639,5 +639,13 @@ const miscellaneous_studies = [
     description:
       "Investigates the interplay between pre-training, mid-training, and RL in shaping reasoning capabilities of language models. Through a controlled experimental framework with synthetic reasoning tasks, they demonstrate that RL yields genuine reasoning gains only when pre-training leaves sufficient headroom and RL data target the model's edge of competence, while mid-training significantly enhances performance under fixed compute.",
     tags: ["Language Models", "Reasoning"],
-  }
+  },
+  {
+    title: "DeepSeek-OCR 2",
+    link: "3478359cd7bc",
+    date: "January 2026",
+    description:
+      "A vision-language model system built around a new encoder architecture called DeepEncoder V2. The core idea is to enable causal, semantics-driven reordering of visual tokens before they are passed to an LLM, in contrast to conventional encoders that process image patches in a fixed raster-scan order (top-left to bottom-right).",
+    tags: ["Language Models", "Multimodal Models", "OCR"],
+  },
 ];
