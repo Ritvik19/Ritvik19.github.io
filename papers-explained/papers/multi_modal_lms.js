@@ -352,6 +352,14 @@ const multi_modal_lms = [
     tags: ["Multimodal Models"],
   },
   {
+    title: "Bespoke MiniChart 7B",
+    link: "0621b15714b2",
+    date: "April 2025",
+    description:
+      "A 7B-parameter open vision-language model built on Qwen2.5-VL-7B-Instruct. It is trained on a rigorously curated, real-image-based synthetic dataset produced via a four-step pipeline: atomic fact extraction, fact-based question generation, dual-LLM + LVLM answer verification, and question augmentation. The training process is further refined through a three-stage process: SFT warmup, large-scale rejection-sampled CoT SFT to 1M traces, and DPO on 240K preference pairs.",
+    tags: ["Multimodal Models"],  
+  },
+  {
     title: "Kimi-VL",
     link: "70c65b517f19",
     date: "April 2025",
