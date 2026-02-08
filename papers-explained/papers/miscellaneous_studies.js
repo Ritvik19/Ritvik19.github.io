@@ -529,6 +529,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "Reasoning"],
   },
   {
+    title: "GEPA",
+    link: "fa0f055c2e43",
+    date: "July 2025",
+    description:
+      "A reflective prompt optimizer for compound AI systems that replaces scalar-reward RL (like GRPO) with natural-language-based learning from rollouts. It serializes full system trajectories (instructions, reasoning chains, tool calls, error messages, etc.), reflects on them in language to diagnose failures and propose prompt mutations, and then uses multi-objective evolutionary search with a Pareto front to combine complementary high-level rules while avoiding local optima.",
+    tags: ["Agentic Systems", "Prompt Optimization"],
+  },
+  {
     title: "OpenAI Harmony Response Format",
     link: "e1aed3d15afe#31fa",
     date: "August 2025",
