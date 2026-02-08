@@ -640,6 +640,14 @@ const decoder_only_transformers = [
     tags: ["Language Models", "Transformer Decoder", "Less is More"],
   },
   {
+    title: "Code World Model",
+    link: "2c5959944cfd",
+    date: "September 2025",
+    description:
+      "A 32B-parameter, dense, decoder-only LLM designed to advance research on code generation with world models by mid-training on large-scale observation–action trajectories from Python interpreter traces and agentic Docker environments, then further improving it with extensive multi-task reasoning RL in verifiable coding, math, and multi-turn software engineering settings.",
+    tags: ["Language Models", "Transformer Decoder", "Code Generation"],
+  },
+  {
     title: "Command A Translate",
     link: "bb9d0e0151e7",
     date: "November 2025",
