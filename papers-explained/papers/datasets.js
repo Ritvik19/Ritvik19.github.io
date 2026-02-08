@@ -328,5 +328,13 @@ const datasets = [
     description:
       "An OCR-centric corpus of scientific articles derived from PubMed Central Open Access PDFs. Each page image is annotated with Google Cloud Vision and released in a compact JSON schema with word-, line-, and paragraph-level bounding boxes. The corpus spans 209.5K articles (1.5M pages; 1.3B words) and supports layout-aware modeling, coordinate-grounded QA, and evaluation of OCR-dependent pipelines.",
     tags: ["Datasets", "Multimodal Datasets"],
+  },
+  {
+    title: "Terminal-Bench",
+    link: "67116f963f93",
+    date: "January 2026",
+    description:
+      "A hard benchmark of 89 carefully curated, containerized terminal tasks designed to evaluate AI agents on realistic, high-skill work such as configuring legacy systems, reimplementing research papers, and solving general software engineering problems. Each task provides a unique environment, a natural-language instruction, human-written reference solution, and comprehensive tests.",
+    tags: ["Datasets", "Benchmark", "Code Data"],
   }
 ];
