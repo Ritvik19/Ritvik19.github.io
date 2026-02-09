@@ -87,4 +87,12 @@ const peft = [
       "Decomposes the high-rank LoRA matrix into multiple single-rank components, allowing dynamic pruning of less important components during training for a more efficient parameter budget allocation.",
     tags: ["Parameter Efficient Fine Tuning"],
   },
+  {
+    title: "TinyLoRA",
+    link: "e70da95c5d44",
+    date: "February 2026",
+    description:
+      "An extra low-rank variant of LoRA that scales adapter size down arbitrarily, even to a single trained parameter, enabling extremely parameter-efficient reinforcement learning-based reasoning finetuning.",
+    tags: ["Parameter Efficient Fine Tuning"],
+  }
 ];
