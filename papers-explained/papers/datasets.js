@@ -336,5 +336,13 @@ const datasets = [
     description:
       "A hard benchmark of 89 carefully curated, containerized terminal tasks designed to evaluate AI agents on realistic, high-skill work such as configuring legacy systems, reimplementing research papers, and solving general software engineering problems. Each task provides a unique environment, a natural-language instruction, human-written reference solution, and comprehensive tests.",
     tags: ["Datasets", "Benchmark", "Code Data"],
+  },
+  {
+    title: "Dr. SCI",
+    link: "bbfaf7a332fd",
+    date: "February 2026",
+    description:
+      "A large-scale scientific reasoning framework built around a new dataset and post-training pipeline for large language models. The Dr. SCI dataset contains 1M curated STEM questions across eight subjects. The standard SFT→RL workflow is redesigned via three components: Exploration-Expanding SFT to broaden the model’s reasoning patterns before RL, a Dynamic Difficulty Curriculum that adapts training data to the model’s evolving capability, and SciRubric-Guided RL, which uses rubric-based, decomposed rewards plus explicit final-answer correctness to stabilize RL on open-ended questions.",
+    tags: ["Datasets", "Scientific Data"],
   }
 ];
