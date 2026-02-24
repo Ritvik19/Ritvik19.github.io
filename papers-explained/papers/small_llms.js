@@ -581,5 +581,13 @@ const small_llms = [
     description:
       "A family of parameter-efficient dense language models derived from the 24B-parameter Mistral Small 3.1 using a compute-efficient Cascade Distillation recipe (iterative pruning plus continued training with logit distillation). The series includes three sizes (3B, 8B, 14B), each released in three variants (base, instruction-finetuned, and reasoning), all with image understanding, long context windows (up to 256k tokens, 128k for reasoning models).",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral",]
+  },
+  {
+    title: "Tiny Aya",
+    link: "5eccbb462932",
+    date: "February 2026",
+    description:
+      "A family of 3.35B open-weight multilingual language models, designed for balanced performance across 70+ languages through deliberate data curation, training design, and a comprehensive multilingual evaluation framework. The release includes Tiny Aya Base (pretrained model), Tiny Aya Global (instruction-tuned model optimized for consistent multilingual performance), and three region-specialized variants: Tiny Aya Earth (Africa and West Asia), Tiny Aya Fire (South Asia), and Tiny Aya Water (Asia-Pacific and Europe).",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models"],
   }
 ];
