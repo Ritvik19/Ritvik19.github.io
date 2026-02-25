@@ -617,6 +617,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "Agentic Systems"],
   },
   {
+    title: "Art of Asking",
+    link: "604ba808ff26",
+    date: "October 2025",
+    description:
+      "Proposes a lightweight prompt-space optimization framework that systematically transforms translated prompts along three dimensions: Naturalness, Cultural Adaptation, and Difficulty Enhancement using an off-the-shelf multilingual LLM for 12 languages across 7 families.",
+    tags: ["Prompt Optimization", "Multilingual Models"],
+  },
+  {
     title: "UserLM",
     link: "33c5a51525bd",
     date: "October 2025",
