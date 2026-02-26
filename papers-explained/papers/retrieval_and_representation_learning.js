@@ -339,5 +339,13 @@ const retrieval_and_representation_learning = [
     description:
       "A compact 250M-parameter vision-language encoder designed for efficient visual document retrieval. Through controlled experiments, the authors identify key design choices that significantly impact retrieval performance, such as attention masking, image resolution, modality alignment data regimes, and late interaction centered contrastive objectives.",
     tags: ["Retrieval", "Multimodal Models"]
+  },
+  {
+    title: "PPLX Embedding",
+    link: "706ce04596af",
+    date: "February 2026",
+    description:
+      "A family of multilingual embedding models built by converting a causally masked LLM into a bidirectional diffusion-pretrained encoder, then training it with multi-stage contrastive learning on large-scale question-document and triplet data for web-scale retrieval. Two variants are released at 0.6B and 4B parameters, pplx-embed-v1 for standard retrieval and pplx-embed-context-v1 for contextualized passage embeddings that incorporate global document context.",
+    tags: ["Representation Learning", "Multilingual Models", "Retrieval"]
   }
 ];
