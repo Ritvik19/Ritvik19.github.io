@@ -214,5 +214,13 @@ const reasoning_models = [
     description:
       "A family of general-purpose reasoning models trained with a cascaded, domain-wise reinforcement learning (Cascade RL) framework, starting from Qwen3-8B/14B base models. Instead of mixing heterogeneous prompts from many domains, it applies RL sequentially across domains, which simplifies infrastructure, allows domain-specific hyperparameters and curricula.",
     tags: ["Reinforcement Learning"]
+  },
+  {
+    title: "Composition RL",
+    link: "f537cd947a10",
+    date: "February 2026",
+    description:
+      "Combats the growing number of too-easy (pass-rate-1) verifiable prompts in RLVR by automatically composing multiple existing problems into new, more challenging verifiable questions. It can follow a curriculum that gradually increases the compositional depth K and can improve reasoning performance in cross-domain settings.",
+    tags: ["Reinforcement Learning", "Curriculum Learning", "Synthetic Data"]
   }
 ];
