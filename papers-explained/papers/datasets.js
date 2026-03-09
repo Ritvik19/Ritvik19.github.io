@@ -344,5 +344,13 @@ const datasets = [
     description:
       "A large-scale scientific reasoning framework built around a new dataset and post-training pipeline for large language models. The Dr. SCI dataset contains 1M curated STEM questions across eight subjects. The standard SFT→RL workflow is redesigned via three components: Exploration-Expanding SFT to broaden the model’s reasoning patterns before RL, a Dynamic Difficulty Curriculum that adapts training data to the model’s evolving capability, and SciRubric-Guided RL, which uses rubric-based, decomposed rewards plus explicit final-answer correctness to stabilize RL on open-ended questions.",
     tags: ["Datasets", "Scientific Data"],
+  },
+  {
+    title: "CHIMERA",
+    link: "e3a368a1830c",
+    date: "March 2026",
+    description:
+      "A compact synthetic reasoning dataset featuring 9K samples with long Chain-of-Thought (CoT) reasoning trajectories, spanning 8 scientific disciplines and over 1K fine-grained topics, and utilizes fully automated quality control through strong reasoning models.",
+    tags: ["Datasets", "Scientific Data", "Synthetic Data"],
   }
 ];
