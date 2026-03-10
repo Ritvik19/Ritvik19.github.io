@@ -296,7 +296,7 @@ const multi_modal_lms = [
     tags: ["Multimodal Models", "Nvidia"],
   },
   {
-    title: "Phi-4 Multimodal",
+    title: "Phi 4 Multimodal",
     link: "2be1a69be78c",
     date: "February 2025",
     description:
@@ -406,5 +406,13 @@ const multi_modal_lms = [
     description:
       "A family of vision encoders that learn a single visual representation for both image understanding and generation. This is achieved by training a ViT encoder on two tasks: reconstructing images from compressed latents (for generative structure) and optimizing semantic features through contrastive learning and image captioning.",
     tags: ["Multimodal Models"],    
+  },
+  {
+    title: "Phi 4 Reasoning Vision 15B",
+    link: "fbbce5596e8a",
+    date: "March 2026",
+    description:
+      "A compact, open-weight multimodal reasoning model designed for efficiency and effectiveness in vision-language tasks. It excels in math and science reasoning, user interface understanding, and general vision-language tasks, achieving competitive performance with significantly less training and inference compute compared to larger models.",
+    tags: ["Multimodal Models", "Phi"],
   }
 ];
