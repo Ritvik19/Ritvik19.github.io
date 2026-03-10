@@ -222,5 +222,13 @@ const reasoning_models = [
     description:
       "Combats the growing number of too-easy (pass-rate-1) verifiable prompts in RLVR by automatically composing multiple existing problems into new, more challenging verifiable questions. It can follow a curriculum that gradually increases the compositional depth K and can improve reasoning performance in cross-domain settings.",
     tags: ["Reinforcement Learning", "Curriculum Learning", "Synthetic Data"]
+  },
+  {
+    title: "QED Nano",
+    link: "dd7f19dec9d7",
+    date: "February 2026",
+    description:
+      "A compact 4B language model specifically trained to write mathematical proofs at the level of Olympiad-level problems. It achieves this through a three-stage process: supervised fine-tuning, reinforcement learning with rubric-based rewards, and training with a reasoning cache for iterative proof construction.",
+    tags: ["LLM for Math", "Reinforcement Learning", "HuggingFace"]
   }
 ];
