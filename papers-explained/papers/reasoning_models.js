@@ -88,6 +88,14 @@ const reasoning_models = [
     tags: ["LLM for Math", "Reinforcement Learning"]
   },
   {
+    title: "Rubrics as Rewards",
+    link: "229ff69f7355",
+    date: "July 2025",
+    description:
+      "A reinforcement learning framework that uses structured, instance-specific rubrics as reward signals to train models for complex reasoning tasks in real-world domains like medicine and science. By decomposing evaluation criteria into modular, interpretable subgoals, RaR overcomes the limitations of traditional reward models and enables on-policy learning with transparent and aligned supervision.",
+    tags: ["Reinforcement Learning"]
+  },
+  {
     title: "Klear-Reasoner",
     link: "985624c5348e",
     date: "August 2025",
