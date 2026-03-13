@@ -352,5 +352,13 @@ const datasets = [
     description:
       "A compact synthetic reasoning dataset featuring 9K samples with long Chain-of-Thought (CoT) reasoning trajectories, spanning 8 scientific disciplines and over 1K fine-grained topics, and utilizes fully automated quality control through strong reasoning models.",
     tags: ["Datasets", "Scientific Data", "Synthetic Data"],
+  },
+  {
+    title: "IH Challenge",
+    link: "cf2433051b7e",
+    date: "March 2026",
+    description:
+      "A reinforcement learning training dataset designed to improve instruction hierarchy (IH) robustness in LLMs by teaching them to prioritize conflicting instructions from different roles (system, developer, user, tools). It achieves this through three key principles: IF-simple tasks, programmatically gradable evaluations, and diverse task families to avoid shortcut learning.",
+    tags: ["Datasets", "LLM Safety"],
   }
 ];
