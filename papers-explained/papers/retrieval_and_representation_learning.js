@@ -355,5 +355,13 @@ const retrieval_and_representation_learning = [
     description:
       "A family of compact text embedding models trained using a novel method that combines model distillation with task-specific contrastive loss, supporting long inputs, multiple languages, and robustness to truncation and quantization.",
     tags: ["Representation Learning", "Multilingual Models"]
+  },
+  {
+    title: "Gemini Embedding 2",
+    link: "324982aeb756#438b",
+    date: "March 2026",
+    description:
+      "Natively multimodal embedding model built on the Gemini architecture that maps text, images, video, audio, and PDFs into a single unified embedding space across 100+ languages, supports interleaved multimodal inputs, and uses Matryoshka Representation Learning to flexibly scale embedding dimensions.",
+    tags: ["Representation Learning", "Multimodal Models", "Multilingual Models"]
   }
 ];
