@@ -238,5 +238,13 @@ const reasoning_models = [
     description:
       "A compact 4B language model specifically trained to write mathematical proofs at the level of Olympiad-level problems. It achieves this through a three-stage process: supervised fine-tuning, reinforcement learning with rubric-based rewards, and training with a reasoning cache for iterative proof construction.",
     tags: ["LLM for Math", "Reinforcement Learning", "HuggingFace"]
+  },
+  {
+    title: "Leanstral",
+    link: "b9632dedf580#3b3a",
+    date: "March 2026",
+    description:  
+      "An open-source, highly efficient Lean 4 focused code and proof agent that uses a sparse architecture and parallel inference with Lean as a verifier to generate and formally prove implementations in realistic formal repositories. ",
+    tags: ["LLM for Code", "Formal Methods"]
   }
 ];
