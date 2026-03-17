@@ -414,5 +414,13 @@ const multi_modal_lms = [
     description:
       "A compact, open-weight multimodal reasoning model designed for efficiency and effectiveness in vision-language tasks. It excels in math and science reasoning, user interface understanding, and general vision-language tasks, achieving competitive performance with significantly less training and inference compute compared to larger models.",
     tags: ["Multimodal Models", "Phi"],
+  },
+  {
+    title: "Mistral Small 4",
+    link: "b9632dedf580#4181",
+    date: "March 2026",
+    description:
+      "A hybrid Mixture-of-Experts model (128 experts, 4 active per token, 119B total / 6-8B active parameters, 256k context) that unifies Magistral (reasoning), Pixtral (multimodal), Devstral (agentic coding), and Mistral Small (instruct) into a single model with reasoning_effort control.",
+    tags: ["Multimodal Models", "Mixtures of Experts", "Mistral"],
   }
 ];
