@@ -350,5 +350,29 @@ const frontier_models = [
     description:
       "Improves on Opus 4.5 in coding, long-context reasoning, and autonomous agentic work. It plans more carefully, sustains long-running tasks, operates reliably in large codebases, and excels at code review and debugging, while also handling complex everyday work like financial analysis, research, and creating or editing documents, spreadsheets, and presentations.",
       tags: ["Frontier Model", "Anthropic", "Claude"],      
+  },
+  {
+    title: "GPT 5.4",
+    link: "0342672382e7#ff48",
+    date: "March 2026",
+    description:
+      "An upgrade to the GPT-5 series, combines GPT-5.3-Codex's top-tier coding with improved knowledge work, tool use, and native computer-use, supports up to a 1M-token context in Codex, and is the most token-efficient and factual model yet.",
+    tags: ["Frontier Model", "OpenAI", "GPT"],
+  },
+  {
+    title: "GPT 5.4 Mini",
+    link: "0342672382e7#0b23",
+    date: "March 2026",
+    description:
+      "A fast, efficient small model that significantly improves on GPT-5 mini in coding, reasoning, multimodal understanding, and tool use, while running more than 2x faster and approaching GPT-5.4 performance. It is optimized for low-latency, high-volume workloads.",
+    tags: ["Frontier Model", "OpenAI", "GPT"],
+  },
+  {
+    title: "GPT 5.4 Nano",
+    link: "0342672382e7#0b23",
+    date: "March 2026",
+    description:
+      "A major upgrade over GPT-5 nano, designed for scenarios where speed and cost matter most, such as classification, data extraction, ranking, and simpler coding subagents that handle supporting tasks.",
+    tags: ["Frontier Model", "OpenAI", "GPT"],
   }
 ];
