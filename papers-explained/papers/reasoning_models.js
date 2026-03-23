@@ -246,5 +246,14 @@ const reasoning_models = [
     description:  
       "An open-source, highly efficient Lean 4 focused code and proof agent that uses a sparse architecture and parallel inference with Lean as a verifier to generate and formally prove implementations in realistic formal repositories. ",
     tags: ["LLM for Code", "Formal Methods"]
+  },
+  {
+    title: "Nemotron Cascade 2",
+    link: "1ac869c28c8c",
+    date: "March 2026",
+    description:
+      "An open 30B Mixture-of-Experts model with 3B activated parameters that uses a Cascade RL framework plus multi-domain on-policy distillation to achieve best-in-class reasoning, strong agentic capabilities, and gold-medal-level performance on the 2025 IMO, IOI, and ICPC World Finals, approaching frontier open models.",
+    tags: ["Reinforcement Learning"]
+
   }
 ];
