@@ -670,5 +670,13 @@ const decoder_only_transformers = [
     description:
       "Next-generation coding model available in two sizes: Devstral 2 (123B parameters) and Devstral Small 2 (24B parameters). It is highly efficient and competitive with larger models and supports a 256K context window, is cost-efficient, and can be deployed on limited hardware.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
+  },
+  {
+    title: "Nemotron 3 Super",
+    link: "a85eaac06bc3",
+    date: "April 2026",
+    description:
+      "A 120B (active 12B) parameter hybrid Mamba-Attention Mixture-of-Experts model that utilizes LatentMoE for efficiency and MTP for accelerated inference. It's pre-trained in NVFP4 on 25 trillion tokens and further post-trained for agentic behavior, achieving comparable accuracy to GPT-OSS-120B and Qwen3.5-122B while offering significantly higher throughput.",
+    tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Nvidia", "Hybrid Models"],
   }
 ];
