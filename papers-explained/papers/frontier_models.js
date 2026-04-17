@@ -374,5 +374,12 @@ const frontier_models = [
     description:
       "A major upgrade over GPT-5 nano, designed for scenarios where speed and cost matter most, such as classification, data extraction, ranking, and simpler coding subagents that handle supporting tasks.",
     tags: ["Frontier Model", "OpenAI", "GPT"],
+  },
+  {
+    title: "Claude Opus 4.7",
+    link: "89dd45e35d92#b998",
+    date: "April 2026",
+    description:
+      "An upgrade over Opus 4.6 that delivers significantly better performance in advanced software engineering, long-running agentic workflows, finance and legal analysis, and multimodal tasks. It offers much stronger instruction following, higher-resolution vision (up to ~3.75 MP), improved memory for multi-session work, and better safety on measures like honesty and prompt-injection resistance."
   }
 ];
