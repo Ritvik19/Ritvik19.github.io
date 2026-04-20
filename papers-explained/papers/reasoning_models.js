@@ -254,6 +254,13 @@ const reasoning_models = [
     description:
       "An open 30B Mixture-of-Experts model with 3B activated parameters that uses a Cascade RL framework plus multi-domain on-policy distillation to achieve best-in-class reasoning, strong agentic capabilities, and gold-medal-level performance on the 2025 IMO, IOI, and ICPC World Finals, approaching frontier open models.",
     tags: ["Reinforcement Learning"]
-
+  },
+  {
+    title: "Composer 2",
+    link: "9bc921210902",
+    date: "March 2026",
+    description:
+      "A specialized coding model designed for agentic software engineering, excelling in long-term planning, multi-step execution, and coding intelligence. Trained through continued pretraining and reinforcement learning in a real-world environment, it achieves high performance on both internal and public benchmarks while being more cost-effective than general-purpose models.",
+    tags: ["LLM for Code", "Reinforcement Learning"]
   }
 ];
