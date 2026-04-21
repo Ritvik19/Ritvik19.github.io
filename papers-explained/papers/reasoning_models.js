@@ -262,5 +262,13 @@ const reasoning_models = [
     description:
       "A specialized coding model designed for agentic software engineering, excelling in long-term planning, multi-step execution, and coding intelligence. Trained through continued pretraining and reinforcement learning in a real-world environment, it achieves high performance on both internal and public benchmarks while being more cost-effective than general-purpose models.",
     tags: ["LLM for Code", "Reinforcement Learning"]
+  },
+  {
+    title: "Apriel-1.5-OpenReasoner",
+    link: "5826103aac57",
+    date: "April 2026",
+    description:
+      "A 15B open-weight reasoning model trained using a multi-domain RL post-training recipe across five diverse domains: mathematics, code generation, instruction following, logical puzzles, and function calling. It incorporates adaptive domain sampling to maintain target domain ratios during asynchronous training and a difficulty-aware length penalty to encourage concise reasoning on easier problems while allowing longer traces for harder ones.",
+    tags: ["Language Models", "Reinforcement Learning"]
   }
 ];
