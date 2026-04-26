@@ -672,4 +672,12 @@ const miscellaneous_studies = [
       "A vision-language model system built around a new encoder architecture called DeepEncoder V2. The core idea is to enable causal, semantics-driven reordering of visual tokens before they are passed to an LLM, in contrast to conventional encoders that process image patches in a fixed raster-scan order (top-left to bottom-right).",
     tags: ["Language Models", "Multimodal Models", "OCR"],
   },
+  {
+    title: "How2Everything",
+    link: "baef4f7ae61f",
+    date: "February 2026",
+    description:
+      "A scalable system designed to evaluate and improve goal-conditioned, step-by-step procedure generation by LLMs. It consists of: How2Mine, a pipeline that extracts and refines 351K procedures from 980K web documents across 14 topics; How2Bench, a 7K-example evaluation set for benchmarking; and How2Score, an LLM-based protocol that detects critical procedural failures, distilled into a reproducible 8B model called How2Judge.",
+    tags: ["Language Models"]
+  }
 ];
