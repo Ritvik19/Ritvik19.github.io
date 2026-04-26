@@ -240,6 +240,14 @@ const reasoning_models = [
     tags: ["LLM for Math", "Reinforcement Learning", "HuggingFace"]
   },
   {
+    title: "Likelihood-Based Reward Designs for General LLM Reasoning",
+    link: "e889106eff08",
+    date: "February 2026",
+    description:
+      "This paper systematically investigates likelihood-based reward functions, specifically probability and log-probability of reference answers, for fine-tuning LLMs on reasoning across both verifiable and non-verifiable domains. The authors find that using the log-probability of the reference answer as the reward consistently outperforms other methods, achieving comparable or better success rates than standard binary rewards in verifiable settings and performing similarly to supervised fine-tuning in non-verifiable settings.",
+    tags: ["Reinforcement Learning", "Reward Design"]
+  },
+  {
     title: "Leanstral",
     link: "b9632dedf580#3b3a",
     date: "March 2026",
