@@ -672,6 +672,14 @@ const decoder_only_transformers = [
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
   },
   {
+    title: "Sarvam 30B and Sarvam 105B",
+    link: "fea8e76080fa",
+    date: "March 2026",
+    description:
+      "India-trained Mixture-of-Experts reasoning models built end-to-end in-house, with optimized Indic tokenization.",
+    tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
+  },
+  {
     title: "Nemotron 3 Super",
     link: "a85eaac06bc3",
     date: "April 2026",
