@@ -360,5 +360,13 @@ const datasets = [
     description:
       "A reinforcement learning training dataset designed to improve instruction hierarchy (IH) robustness in LLMs by teaching them to prioritize conflicting instructions from different roles (system, developer, user, tools). It achieves this through three key principles: IF-simple tasks, programmatically gradable evaluations, and diverse task families to avoid shortcut learning.",
     tags: ["Datasets", "LLM Safety"],
+  },
+  {
+    title: "FinePhrase",
+    link: "bf43cd53d6b9",
+    date: "March 2026",
+    description:
+      "A 486B-token synthetic pretraining dataset created through 90 experiments, over 1 trillion generated tokens, and 12.7 GPU-years of research to find the best \"recipe\" for synthetic data, outperforming all existing baselines.",
+    tags: ["Datasets", "Synthetic Data", "HuggingFace"],
   }
 ];
