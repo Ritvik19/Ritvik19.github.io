@@ -679,5 +679,13 @@ const miscellaneous_studies = [
     description:
       "A scalable system designed to evaluate and improve goal-conditioned, step-by-step procedure generation by LLMs. It consists of: How2Mine, a pipeline that extracts and refines 351K procedures from 980K web documents across 14 topics; How2Bench, a 7K-example evaluation set for benchmarking; and How2Score, an LLM-based protocol that detects critical procedural failures, distilled into a reproducible 8B model called How2Judge.",
     tags: ["Language Models"]
+  },
+  {
+    title: "OpenAI Privacy Filter",
+    link: "04d7eae93107",
+    date: "April 2026",
+    description:
+      "A small, efficient, bidirectional token-classification model developed for detecting and redacting personally identifiable information (PII) in unstructured text, featuring a 1.5 billion parameter architecture with 50 million active parameters, can process up to 128,000 token contexts.",
+      tags: ["Language Models", "Privacy"],
   }
 ];
