@@ -298,6 +298,14 @@ const datasets = [
     tags: ["Datasets", "Scientific Data"],
   },
   {
+    title: "Beyond Web",
+    link: "eb0483a21dff",
+    date: "August 2025",
+    description:
+      "A synthetic data generation framework that produces high quality synthetic data for pretraining by leveraging targeted document rephrasing to yield diverse, relevant, and information dense synthetic data",
+    tags: ["Datasets", "Synthetic Data", "HuggingFace"],
+  },
+  {
     title: "FineVision",
     link: "e4b1af24ecbf",
     date: "September 2025",
