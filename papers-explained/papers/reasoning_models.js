@@ -278,5 +278,13 @@ const reasoning_models = [
     description:
       "A 15B open-weight reasoning model trained using a multi-domain RL post-training recipe across five diverse domains: mathematics, code generation, instruction following, logical puzzles, and function calling. It incorporates adaptive domain sampling to maintain target domain ratios during asynchronous training and a difficulty-aware length penalty to encourage concise reasoning on easier problems while allowing longer traces for harder ones.",
     tags: ["Language Models", "Reinforcement Learning"]
+  },
+  {
+    title: "Advancing Search Augmented Language Models",
+    link: "bceb21866e26",
+    date: "April 2026",
+    description:
+      "Perplexity develops search agents using a two-stage post-training pipeline: first, Supervised Fine-Tuning establishes deployment-critical behaviors like guardrails and stylistic consistency, then Reinforcement Learning refines accuracy and tool-use efficiency using a blend of verifiable QA and rubric-based chat data.",
+    tags: ["Language Models", "Reinforcement Learning", "Search Agents", "Perplexity"]
   }
 ];
