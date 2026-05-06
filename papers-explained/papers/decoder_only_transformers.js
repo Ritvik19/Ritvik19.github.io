@@ -672,6 +672,14 @@ const decoder_only_transformers = [
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
   },
   {
+    title: "Arcee Trinity",
+    link: "03b148275c8a",
+    date: "February 2026",
+    description:
+      "A family of sparse Mixture-of-Experts (MoE) language models featuring interleaved local and global attention, gated attention, depth-scaled sandwich norm, and sigmoid routing. Trinity Large introduces a novel load balancing strategy (SMEBU), and is trained with the Muon optimizer for high efficiency and stability.",
+    tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
+  },
+  {
     title: "Sarvam 30B and Sarvam 105B",
     link: "fea8e76080fa",
     date: "March 2026",
