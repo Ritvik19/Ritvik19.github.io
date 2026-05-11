@@ -24,14 +24,6 @@ const miscellaneous_studies = [
     tags: [],
   },
   {
-    title: "What do Vision Transformers Learn",
-    link: "ef4a80da46d8",
-    date: "January 2022",
-    description:
-      "Provides insights into the working mechanisms of vision transformers and their similarities and differences from convolutional neural networks.",
-    tags: ["Vision Transformers"],
-  },
-  {
       title: "Text Classification with Gzip",
       link: "ffda2859c6f4",
       date: "December 2022",

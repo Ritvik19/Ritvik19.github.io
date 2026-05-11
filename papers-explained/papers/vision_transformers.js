@@ -72,6 +72,14 @@ const vision_transformers = [
     tags: ["Vision Transformers"],
   },
   {
+    title: "What do Vision Transformers Learn",
+    link: "ef4a80da46d8",
+    date: "January 2022",
+    description:
+      "Provides insights into the working mechanisms of vision transformers and their similarities and differences from convolutional neural networks.",
+    tags: ["Vision Transformers"],
+  },
+  {
     title: "DINOv2",
     link: "e1e6d12a5c85",
     date: "April 2022",
