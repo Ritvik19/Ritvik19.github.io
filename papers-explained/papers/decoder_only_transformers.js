@@ -672,6 +672,14 @@ const decoder_only_transformers = [
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mistral"],
   },
   {
+    title: "Olmo 3",
+    link: "1ee7134a4e67",
+    date: "December 2025",
+    description:
+      "A fully-open family of 7B and 32B language and thinking models designed for long-context reasoning, function calling, coding, instruction following, general chat, and knowledge recall, with complete transparency of the entire model flow.",
+    tags: ["Language Models", "Transformer Decoder"],
+  },
+  {
     title: "Arcee Trinity",
     link: "03b148275c8a",
     date: "February 2026",
