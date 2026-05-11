@@ -32,6 +32,14 @@ const miscellaneous_studies = [
     tags: ["Vision Transformers"],
   },
   {
+      title: "Text Classification with Gzip",
+      link: "ffda2859c6f4",
+      date: "December 2022",
+      description:
+        "A simple, lightweight, and universal non-parametric method for text classification that combines a lossless compressor (like gzip) with a k-nearest-neighbor classifier.",
+      tags: ["Text Classification"],
+  },
+  {
     title: "Are Emergent Abilities of Large Language Models a Mirage?",
     link: "4160cf0e44cb",
     date: "April 2023",
