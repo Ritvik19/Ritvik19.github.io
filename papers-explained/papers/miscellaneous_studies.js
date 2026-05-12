@@ -144,6 +144,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "LLM Evaluation", "Fact-Checking"],
   },
   {
+    title: "gzip Predicts Data-dependent Scaling Laws",
+    link: "44c1d94b1213",
+    date: "May 2024",
+    description:
+      "Demonstrates that scaling laws are sensitive to differences in data complexity and gzip compression algorithm, is an effective predictor of how data complexity impacts scaling properties.",
+    tags: ["Scaling Laws", "Data Complexity"],
+  },
+  {
     title: "PromptWizard",
     link: "228568783085",
     date: "May 2024",
