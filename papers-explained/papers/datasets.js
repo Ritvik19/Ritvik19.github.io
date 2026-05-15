@@ -290,6 +290,15 @@ const datasets = [
     tags: ["Datasets", "Code Data"],
   },
   {
+    title: "IFBench",
+    link: "959c7204cf10",
+    date: "July 2025",
+    description:
+      "A benchmark introduced to evaluate language models’ ability to generalize precise instruction following beyond the overfitted constraints in IFEval; it features 58 novel, diverse, and challenging verifiable constraints covering skills like counting, formatting, sentence/word/character manipulations, and copying.",
+    tags: ["Datasets", "Benchmark", "LLM Safety"],
+
+  },
+  {
     title: "MegaScience",
     link: "ffe3fe3a8040",
     date: "July 2025",
