@@ -286,5 +286,13 @@ const reasoning_models = [
     description:
       "Perplexity develops search agents using a two-stage post-training pipeline: first, Supervised Fine-Tuning establishes deployment-critical behaviors like guardrails and stylistic consistency, then Reinforcement Learning refines accuracy and tool-use efficiency using a blend of verifiable QA and rubric-based chat data.",
     tags: ["Language Models", "Reinforcement Learning", "Search Agents", "Perplexity"]
+  },
+  {
+    title: "Reward Hacking in Rubric-Based RL",
+    link: "cfefd83ed729",
+    date: "May 2026",
+    description:
+      "Shows that in rubric-based reinforcement learning, reward hacking persists even with stronger verifiers, as gains concentrate on presence-based criteria like completeness but broader quality declines, highlighting the limitations of rubrics and the need for better diagnostics such as the self-internalization gap.",
+    tags: ["Reinforcement Learning"]
   }
 ];
