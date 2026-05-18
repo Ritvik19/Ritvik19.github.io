@@ -302,5 +302,13 @@ const language_models = [
     description:
       "A family of lightweight open encoder-decoder LLMs featuring three model sizes: 270M-270M, 1B-1B, and 4B-4B, designed for multilingual, multimodal, and long-context understanding. It builds upon the T5Gemma architecture, adapting pretrained decoder-only models with the UL2 objective and incorporating innovations like tied word embeddings and merged attention for efficiency.",
     tags: ["Language Models", "Gemma"],
+  },
+  {
+    title: "EMO",
+    link: "9ab88479e1f2",
+    date: "May 2026",
+    description:
+      "An MoE model designed for modularity, enabling independent use and composition of expert subsets without human-defined priors. By constraining all tokens within a document to select experts from a shared pool, it fosters domain-level expert specialization and allows selective deployment with minimal performance loss.",
+    tags: ["Language Models", "Mixture of Experts"],
   }
 ];
