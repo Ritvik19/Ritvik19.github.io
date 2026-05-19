@@ -371,5 +371,13 @@ const retrieval_and_representation_learning = [
     description:
       "Compares grep and vector retrieval across custom (Chronos) and provider-native CLI harnesses (Claude Code, Codex, Gemini CLI), evaluating both inline tool results and file-based result presentation, and examining performance as irrelevant corpus noise increases. Results show grep tends to yield higher accuracy than vector search, yet overall performance is strongly affected by harness and tool-calling style.",
     tags: ["Language Models", "Retrieval"],
+  },
+  {
+    title: "Jina Embeddings v5 Omni",
+    link: "1a08a156e52e",
+    date: "May 2026",
+    description:
+      "A multimodal embedding approach that extends Jina Embeddings v5 Text models to encode text, image, audio, and video into a unified semantic space by adding frozen non-text encoders and training only the small connecting components.",
+    tags: ["Representation Learning", "Multimodal Models"]
   }
 ];
