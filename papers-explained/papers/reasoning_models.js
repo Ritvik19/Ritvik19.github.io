@@ -160,6 +160,14 @@ const reasoning_models = [
     tags: ["LLM for Math", "Reinforcement Learning", "Agentic Models"]
   },
   {
+    title: "Composer",
+    link: "9bc921210902#ecbf",
+    date: "October 2025",
+    description:
+      "A fast, software engineering-focused mixture-of-experts (MoE) language model, trained with reinforcement learning (RL) to efficiently solve real-world coding challenges in large codebases using production search and editing tools.",
+    tags: ["LLM for Code", "Reinforcement Learning", "Mixture-of-Experts"]
+  },
+  {
     title: "Apriel-1.5-15B-Thinker",
     link: "228b6fab1efd",
     date: "October 2025",
@@ -240,6 +248,14 @@ const reasoning_models = [
     tags: ["LLM for Math", "Reinforcement Learning", "HuggingFace"]
   },
   {
+    title: "Composer 1.5",
+    link: "9bc921210902#f259",
+    date: "February 2026",
+    description:
+      "An improved agentic coding model that builds on the original Composer 1 by scaling reinforcement learning 20x further and using more compute in post-training than in pretraining. It introduces self-summarization for handling long tasks.",
+    tags: ["LLM for Code", "Reinforcement Learning"]
+  },
+  {
     title: "Likelihood-Based Reward Designs for General LLM Reasoning",
     link: "e889106eff08",
     date: "February 2026",
@@ -294,5 +310,13 @@ const reasoning_models = [
     description:
       "Shows that in rubric-based reinforcement learning, reward hacking persists even with stronger verifiers, as gains concentrate on presence-based criteria like completeness but broader quality declines, highlighting the limitations of rubrics and the need for better diagnostics such as the self-internalization gap.",
     tags: ["Reinforcement Learning"]
+  },
+  {
+    title: "Composer 2.5",
+    link: "9bc921210902#4db4",
+    date: "May 2026",
+    description:
+      "Built on Moonshot's Kimi K2.5 checkpoint, improves intelligence and usability over Composer 2 by scaling training, expanding synthetic task diversity (25x increase), and introducing targeted RL with textual feedback to adjust behavior at problem points.",
+    tags: ["LLM for Code", "Reinforcement Learning"]
   }
 ];
