@@ -357,14 +357,6 @@ const retrieval_and_representation_learning = [
     tags: ["Representation Learning", "Multilingual Models"]
   },
   {
-    title: "Gemini Embedding 2",
-    link: "324982aeb756#438b",
-    date: "March 2026",
-    description:
-      "Natively multimodal embedding model built on the Gemini architecture that maps text, images, video, audio, and PDFs into a single unified embedding space across 100+ languages, supports interleaved multimodal inputs, and uses Matryoshka Representation Learning to flexibly scale embedding dimensions.",
-    tags: ["Representation Learning", "Multimodal Models", "Multilingual Models"]
-  },
-  {
     title: "Is Grep All You Need",
     link: "5b10a6e92f77",
     date: "May 2026",
@@ -379,5 +371,13 @@ const retrieval_and_representation_learning = [
     description:
       "A multimodal embedding approach that extends Jina Embeddings v5 Text models to encode text, image, audio, and video into a unified semantic space by adding frozen non-text encoders and training only the small connecting components.",
     tags: ["Representation Learning", "Multimodal Models"]
+  },
+  {
+    title: "Gemini Embedding 2",
+    link: "a9e9ed849227",
+    date: "June 2026",
+    description:
+      "Natively multimodal embedding model built on the Gemini architecture that maps text, images, video, audio, and PDFs into a single unified embedding space across 100+ languages, supports interleaved multimodal inputs, and uses Matryoshka Representation Learning to flexibly scale embedding dimensions.",
+    tags: ["Representation Learning", "Multimodal Models", "Multilingual Models"]
   }
 ];
