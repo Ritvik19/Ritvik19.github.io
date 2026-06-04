@@ -1,0 +1,233 @@
+/* Dark mode for Academic project pages — uses same html.dark + theme.js as main site */
+
+/* Horizontal spacing aligned with assets/css/design-system.css (papers / portfolio) */
+:root {
+  --site-padding-x: 2rem;
+  --site-padding-x-narrow: 1rem;
+  --site-nav-padding-y: 0.5rem;
+}
+
+/* Bulma research project pages (aryabhata, sudoku-net, small-llms, …) */
+body:has(#project-contents) .navbar {
+  min-height: auto;
+  padding: var(--site-nav-padding-y) var(--site-padding-x);
+}
+
+body:has(#project-contents) .navbar-item {
+  padding-top: var(--site-nav-padding-y);
+  padding-bottom: var(--site-nav-padding-y);
+}
+
+body:has(#project-contents) #main-content {
+  padding-left: var(--site-padding-x);
+  padding-right: var(--site-padding-x);
+}
+
+body:has(#project-contents) .hero .hero-body {
+  padding: 2rem 0 1.5rem;
+}
+
+body:has(#project-contents) .section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body:has(#project-contents) .section .hero-body,
+body:has(#project-contents) .teaser .hero-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body:has(#project-contents) .footer {
+  padding: 2rem var(--site-padding-x);
+}
+
+@media (max-width: 600px) {
+  body:has(#project-contents) .navbar,
+  body:has(#project-contents) #main-content,
+  body:has(#project-contents) .footer {
+    padding-left: var(--site-padding-x-narrow);
+    padding-right: var(--site-padding-x-narrow);
+  }
+
+  body:has(#project-contents) .navbar {
+    padding-top: var(--site-nav-padding-y);
+    padding-bottom: var(--site-nav-padding-y);
+  }
+
+  body:has(#project-contents) .hero .hero-body {
+    padding: 1.5rem 0 1rem;
+  }
+}
+
+html.dark {
+  --primary-color: #5b8def;
+  --primary-hover: #7aa3f5;
+  --text-primary: #e8e8e8;
+  --text-secondary: #b0b0b0;
+  --text-light: #888888;
+  --background-primary: #121212;
+  --background-secondary: #1a1a1a;
+  --background-accent: #252525;
+  --border-color: #333333;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.5);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.5);
+}
+
+html.dark body {
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+}
+
+html.dark .title,
+html.dark .subtitle,
+html.dark .content,
+html.dark .content p,
+html.dark .content li,
+html.dark .content h3,
+html.dark .content h4 {
+  color: var(--text-primary) !important;
+}
+
+html.dark .content.has-text-justified,
+html.dark .content.has-text-justified p {
+  color: var(--text-secondary) !important;
+}
+
+html.dark .navbar {
+  background-color: var(--background-secondary) !important;
+  border-bottom: 1px solid var(--border-color);
+}
+
+html.dark .navbar-item,
+html.dark .navbar-item strong {
+  color: var(--text-primary) !important;
+}
+
+html.dark .navbar-item:hover {
+  background-color: var(--background-accent) !important;
+  color: var(--primary-color) !important;
+}
+
+html.dark .hero {
+  background-color: var(--background-primary) !important;
+}
+
+html.dark .hero.is-light,
+html.dark .section.is-light {
+  background-color: var(--background-secondary) !important;
+}
+
+html.dark .section:not(.is-light) {
+  background-color: var(--background-primary) !important;
+}
+
+html.dark .publication-title {
+  color: var(--text-primary) !important;
+}
+
+html.dark .publication-venue {
+  background: var(--background-accent);
+  color: var(--text-secondary);
+}
+
+html.dark .table {
+  background-color: var(--background-accent);
+  color: var(--text-primary);
+}
+
+html.dark .table th {
+  background-color: var(--background-secondary);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+html.dark .table td {
+  border-color: var(--border-color);
+  color: var(--text-secondary);
+}
+
+html.dark .table.is-striped tbody tr:nth-child(even) {
+  background-color: var(--background-secondary);
+}
+
+html.dark .footer {
+  background: var(--background-secondary);
+  border-top-color: var(--border-color);
+}
+
+html.dark .results-carousel .item {
+  background: var(--background-accent);
+}
+
+html.dark .button.is-dark {
+  background: var(--background-accent) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+html.dark .button.is-dark:hover {
+  background: var(--primary-color) !important;
+  color: #fff !important;
+}
+
+html.dark pre,
+html.dark code {
+  background: var(--background-accent) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+/* Theme toggle (shared with portfolio pages) */
+#mode {
+  cursor: pointer;
+  position: fixed;
+  right: var(--site-padding-x, 2rem);
+  top: var(--site-nav-padding-y, 0.5rem);
+  z-index: 1000;
+  border-radius: 8px;
+  line-height: 0;
+  background: var(--background-primary, #fff);
+  border: 1px solid var(--border-color, #e0e0e0);
+  box-shadow: var(--shadow-sm, 0 1px 2px rgba(0, 0, 0, 0.05));
+}
+
+html.dark #mode {
+  background: var(--background-secondary);
+  border-color: var(--border-color);
+}
+
+#mode svg {
+  width: 20px;
+  padding: 12px;
+  box-sizing: content-box;
+  color: var(--text-primary, #1a1a1a);
+}
+
+html.dark #mode svg {
+  color: var(--text-primary);
+}
+
+html.dark #mode .light {
+  display: none;
+}
+
+html:not(.dark) #mode .dark {
+  display: none;
+}
+
+html #mode .light {
+  display: block;
+}
+
+html.dark #mode .dark {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  #mode {
+    right: var(--site-padding-x-narrow, 1rem);
+  }
+}

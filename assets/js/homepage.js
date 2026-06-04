@@ -1,89 +1,47 @@
-function get_nav_item(index, title, super_index) {
-  return `<li><a href="#line${super_index}_${index}">${title}</a></li>`;
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
 }
 
-function get_action_buttons(actions, columns=2) {
-  console.log(actions);
-  let rows = "";
-  let cols = "";
-  let count = 0;
-  let table = "<table>"
-  for (const element of actions) {
-    console.log(element)
-    if (count % columns == 0) {
-      rows += "<tr>"
-    }
-    rows += `<td style="padding: 0px 10px;"><a href="${element["link"]}" role="button" target="_blank">${element["title"]}</a></td>`
-    count += 1;
-    if (count % columns == 0) {
-      rows += "</tr>"
-    }
-  }
-  table += rows
-  table += "</table>"
-  return table;
+function renderActionLinks(actions) {
+  return actions
+    .map(
+      (a) =>
+        `<a class="btn btn-ghost" href="${a.link}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a>`
+    )
+    .join('');
 }
 
-function get_project_block(
-  index,
-  title,
-  description,
-  actions,
-  columns=2
-) {
+function renderResearchCard(item) {
   return `
-        <div class="row">
-            <div class="col-md-12 left-align">
-                <h4 class="dark-text" id="line3_${index}">
-                    ${title}
-                </h4>
-            </div>
-            <div class="col-md-12">
-                <p>${description}</p>
-                ${get_action_buttons(actions, columns)}
-            </div>
-            <div class="col-md-12">
-                <br><hr><br>
-            </div>
-        </div>`;
+    <article class="card">
+      <h3 class="card-title">${escapeHtml(item.title)}</h3>
+      <div class="card-body">${item.description}</div>
+      <div class="card-footer">${renderActionLinks(item.actions)}</div>
+    </article>`;
 }
 
-function get_skill_bar(skill, progress) {
+function renderPublication(item) {
   return `
-    <div class="progress">
-        <div class="progress-bar bg-info" role="progressbar" style="width: ${progress}%" aria-valuenow="${progress}" aria-valuemin="0" aria-valuemax="100">
-            ${skill}
-        </div>
-    </div>`;
+    <article class="publication-item">
+      <h3>${escapeHtml(item.title)}</h3>
+      <div class="card-body">${item.description}</div>
+      <div class="publication-links">${renderActionLinks(item.actions)}</div>
+    </article>`;
 }
 
-let nav_projects = document.getElementById("nav-projects");
-let container_projects = document.getElementById("container-projects");
-let nav_models = document.getElementById("nav-models");
-let container_models = document.getElementById("container-models");
-let skill_set = document.getElementById("skills");
-
-for (let i = 0; i < data.length; i++) {
-  nav_projects.innerHTML += get_nav_item(i + 1, data[i]["title"], 3);
-  container_projects.innerHTML += get_project_block(
-    i + 1,
-    data[i]["title"],
-    data[i]["description"],
-    data[i]["actions"]
-  );
+function renderProjects() {
+  const list = document.getElementById('container-projects');
+  if (!list || typeof data === 'undefined') return;
+  list.innerHTML = `<div class="publication-list">${data.map(renderPublication).join('')}</div>`;
 }
 
-for (let s in skills) {
-  skill_set.innerHTML += get_skill_bar(s, skills[s]);
+function renderResearch() {
+  const grid = document.getElementById('container-models');
+  if (!grid || typeof models === 'undefined') return;
+  grid.innerHTML = `<div class="card-grid">${models.map(renderResearchCard).join('')}</div>`;
 }
 
-for (let i = 0; i < models.length; i++) {
-  nav_models.innerHTML += get_nav_item(i + 1, models[i]["title"], 4);
-  container_models.innerHTML += get_project_block(
-    i + 1,
-    models[i]["title"],
-    models[i]["description"],
-    models[i]["actions"],
-    4
-  );
-}
+renderProjects();
+renderResearch();

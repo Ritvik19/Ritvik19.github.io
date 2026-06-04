@@ -2,182 +2,71 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <meta name="keywords" content="" />
-
-    <title>Papers Explained</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Curated ML research papers explained — notes and mind maps by Ritvik Rastogi." />
+    <title>Papers Explained · Ritvik Rastogi</title>
     <link rel="shortcut icon" href="../assets/images/favicon.jpg" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../assets/fonts/font-awesome-4.3.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="../assets/css/stroke.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/css/animate.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../assets/css/prettyPhoto.css"
-    />
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
-
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../assets/js/syntax-highlighter/styles/shCore.css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../assets/js/syntax-highlighter/styles/shThemeRDark.css"
-      media="all"
-    />
-
-    <link rel="stylesheet" type="text/css" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/design-system.css" />
   </head>
-
   <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-      <i class="fa fa-chevron-up" aria-hidden="true"></i>
-    </button>
-
-    <script src="../assets/js/top.js"></script>
-
-    <div id="wrapper">
-      <div id="mode">
-        <div class="dark">
-          <svg aria-hidden="true" viewBox="0 0 512 512">
-            <title>lightmode</title>
-            <path
-              fill="currentColor"
-              d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"
-            ></path>
-          </svg>
-        </div>
-        <div class="light">
-          <svg aria-hidden="true" viewBox="0 0 512 512">
-            <title>darkmode</title>
-            <path
-              fill="currentColor"
-              d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"
-            ></path>
-          </svg>
-        </div>
+    <div id="mode" aria-hidden="true">
+      <div class="dark">
+        <svg viewBox="0 0 512 512"><path fill="currentColor" d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"></path></svg>
       </div>
-
-      <div class="container">
-        <section id="top" class="section docs-heading">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="big-title text-center">
-                <h1>Papers Explained</h1>
-                <p class="lead">
-                  Understanding Machine Learning, One Paper At A Time
-                </p>
-                <p>
-                  This is a curated collection of papers I've read, along with
-                  detailed notes I've taken during my study.
-                </p>
-                <a href="https://ritvik19medium.com/subscribe">
-                  <img
-                    src="https://img.shields.io/badge/Subscribe_to-Medium-00ab6c?style=social"
-                    alt="Subscribe to Medium"
-                  />
-                </a>
-                for weekly updates on new papers and articles.
-              </div>
-              <!-- end title -->
-            </div>
-            <!-- end 12 -->
-          </div>
-          <!-- end row -->
-
-          <hr />
-        </section>
-        <!-- end section -->
-
-        <div class="row">
-          <div class="col-md-3">
-            <nav
-              class="docs-sidebar"
-              data-spy="affix"
-              data-offset-top="300"
-              data-offset-bottom="200"
-              role="navigation"
-            >
-              <ul class="nav" id="nav" style="display: inline-block"></ul>
-            </nav>
-          </div>
-          <div class="col-md-9" id="container">
-            <section class="welcome">
-              <div class="row">
-                <div class="col-md-12 left-align">
-                  <div class="row">
-                    <div class="col-md-12 full">
-                      <div>
-                        <input
-                          class="form-control"
-                          type="text"
-                          id="search_input"
-                          onkeyup="search()"
-                          placeholder="Find research by title or keywords..."
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end row -->
-                </div>
-              </div>
-            </section>
-          </div>
-          <!-- end col -->
-        </div>
-        <!--  end row -->
+      <div class="light">
+        <svg viewBox="0 0 512 512"><path fill="currentColor" d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"></path></svg>
       </div>
-      <!--  end container -->
     </div>
-    <!-- end wrapper -->
-    <script
-      src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js"
-      user-profile="https://topmate.io/embed/profile/ritvik19?theme=93C5F9"
-      btn-style='{"backgroundColor":"#000","color":"#fff","border":"1px solid #000"}'
-      embed-version="v1"
-      button-text="Let's Connect"
-      position-right="60px"
-      position-bottom="50px"
-      custom-padding="0px"
-      custom-font-size="16px"
-      custom-font-weight="500"
-      custom-width="200px"
-      async=""
-      defer=""
-    ></script>
 
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/retina.js"></script>
-    <script src="../assets/js/jquery.fitvids.js"></script>
-    <script src="../assets/js/wow.js"></script>
-    <script src="../assets/js/jquery.prettyPhoto.js"></script>
+    <button type="button" id="scrollTop" title="Back to top" aria-label="Back to top">↑</button>
 
-    <!-- CUSTOM PLUGINS -->
-    <script src="../assets/js/custom.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a href="/" class="site-logo">Ritvik Rastogi</a>
+        <nav>
+          <ul class="site-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/papers-explained/">Papers Explained</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container container--papers">
+      <header class="docs-heading">
+        <h1>Papers Explained</h1>
+        <p class="lead">Understanding machine learning, one paper at a time.</p>
+        <p>
+          A curated collection of papers with detailed study notes.
+          <a href="https://ritvik19.medium.com/" target="_blank" rel="noopener">Follow on Medium</a> for new articles.
+        </p>
+      </header>
+
+      <div class="docs-layout">
+        <aside class="docs-sidebar">
+          <nav role="navigation">
+            <ul class="nav" id="nav"></ul>
+          </nav>
+        </aside>
+
+        <main class="docs-main" id="container">
+          <div class="search-bar">
+            <input
+              type="search"
+              id="search_input"
+              onkeyup="search()"
+              placeholder="Search by title or keywords…"
+              aria-label="Search papers"
+            />
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <p><a href="/">← Back to home</a></p>
+    </footer>
+
     <script src="papers/language_models.js"></script>
     <script src="papers/encoder_only_transformers.js"></script>
     <script src="papers/decoder_only_transformers.js"></script>
@@ -205,12 +94,8 @@
     <script src="papers/miscellaneous_studies.js"></script>
     <script src="papers/reasoning_models.js"></script>
     <script src="papers/reward_models.js"></script>
-
+    <script src="../assets/js/theme.js"></script>
     <script src="data.js"></script>
     <script src="dataloader.js"></script>
-
-    <script src="../assets/js/syntax-highlighter/scripts/shCore.js"></script>
-    <script src="../assets/js/syntax-highlighter/scripts/shBrushBash.js"></script>
-    <script src="../assets/js/syntax-highlighter/scripts/shBrushPython.js"></script>
   </body>
 </html>

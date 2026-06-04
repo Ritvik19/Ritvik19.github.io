@@ -4,8 +4,8 @@
   }
   #mindmap {
     display: block;
-    width: 100vw;
-    height: 90vh;
+    width: 100%;
+    height: calc(100vh - 60px);
   }
   #mindmap a {
     color: #2980b9;

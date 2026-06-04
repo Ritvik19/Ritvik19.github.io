@@ -1,31 +1,5 @@
 const data = [
   {
-    title: "mcts-langchain",
-    description:
-      "Langchain implmentation of the paper 'Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B' by Zhang, et al.",
-    actions: [
-      {
-        title: "View GitHub Repository",
-        link: "https://github.com/Ritvik19/mcts-langchain",
-      },
-      {
-        title: "View the Original Paper",
-        link: "https://arxiv.org/abs/2406.07394/",
-      },
-    ],
-  },
-  {
-    title: "Zeta",
-    description:
-      "Agent Zeta is an AI assistant dedicated to enhancing your journey through machine learning research papers, offering insightful analysis and interactive discussions.",
-    actions: [
-      {
-        title: "View Zeta in Action",
-        link: "https://huggingface.co/spaces/Ritvik19/Zeta",
-      },
-    ],
-  },
-  {
     title: "Data Science from Scratch",
     description:
       "A collection of various implementations of various data science techniques and research papers." +
@@ -38,28 +12,6 @@ const data = [
       {
         title: "View ML Notebooks",
         link: "https://github.com/dair-ai/ML-Notebooks",
-      },
-    ],
-  },
-  {
-    title: "VidScripter",
-    description:
-      "A One Stop Solution to Video Transcription. It provides you with options to download, convert to audio, transcribe and summarize any video.",
-    actions: [
-      {
-        title: "View VidScripter in Action",
-        link: "https://huggingface.co/spaces/Ritvik19/VidScripter",
-      },
-    ],
-  },
-  {
-    title: "Marker IO",
-    description:
-      "A tool that converts a PDF file to markdown, useing a combination of OCR and NLP to extract text and images from the PDF.",
-    actions: [
-      {
-        title: "View Marker IO in Action",
-        link: "https://huggingface.co/spaces/Ritvik19/marker-io",
       },
     ],
   },
@@ -100,37 +52,7 @@ const data = [
         link: "https://github.com/Ritvik19/pyradox-tabular",
       },
     ],
-  },
-  {
-    title: "Text Data Augmentation",
-    description:
-      "A library that implements various State of the Art Text Data Augmentation Techniques for Natural Language Processing Applications",
-    actions: [
-      {
-        title: "View Text Data Augmentation Documentation",
-        link: "/text-data-augmentation",
-      },
-      {
-        title: "View Text Data Augmentation on GitHub",
-        link: "https://github.com/Ritvik19/text-data-augmentation",
-      },
-    ],
-  },
-  {
-    title: "vizard",
-    description:
-      "A library that provides you with Low Code Data Visualisations for any Tabular Data Science Project",
-    actions: [
-      {
-        title: "View vizard Documentation",
-        link: "/vizard",
-      },
-      {
-        title: "View vizard on GitHub",
-        link: "https://github.com/Ritvik19/vizard",
-      },
-    ],
-  },
+  }
 ];
 
 const skills = {
@@ -144,22 +66,14 @@ const skills = {
 
 const models = [
   {
-    title: "Aryabhata 1.0",
+    title: "Aryabhata 1",
     description:
-      "Aryabhata 1.0 is a 7B parameter small language model for mathematics developed by Physics Wallah AI Research, optimized for JEE Mains.",
+      "Aryabhata 1 is a 7B parameter small language model for mathematics developed by Physics Wallah AI Research, optimized for JEE Mains.",
     actions: [
       {
         title: "View",
-        link: "/aryabhata-1.0",
-      },
-      {
-        title: "View Model on Hugging Face",
-        link: "https://huggingface.co/PhysicsWallahAI/Aryabhata-1.0",
-      },
-      {
-        title: "View Demo",
-        link: "https://huggingface.co/spaces/PhysicsWallahAI/Aryabhata-Demo",
-      },
+        link: "/aryabhata-1",
+      }
     ],
   },
   {
@@ -172,16 +86,5 @@ const models = [
         link: "/sudoku-net",
       },
     ],
-  },
-  {
-    title: "Small LLMs",
-    description:
-      "A project that aims to provide framework and recipies for aligning small language models.",
-    actions: [
-      {
-        title: "View",
-        link: "/small-llms",
-      },
-    ],
-  },
+  }
 ];

@@ -1,4 +1,4 @@
-let title = "Aryabhatta 1.0 : An exam-focused language model for JEE Math";
+let title = "Aryabhata 1 : An exam-focused language model for JEE Math";
 let project_date = "July 2025"
 let links = {
     "paper": "https://arxiv.org/abs/2508.08665",
@@ -15,7 +15,7 @@ let link2icon = {
     "paper": "fas fa-file-pdf",
 }
 let project_contents = {
-    "Overview": [{"type": "text", "content": "<b>Aryabhata 1.0</b> is a 7B parameter small language model for mathematics developed by <b>Physics Wallah AI Research</b>, optimized for high-stakes Indian competitive exams like <b>JEE Mains</b>. Despite its compact size, Aryabhata 1.0 achieves <b>state-of-the-art performance</b> on exam-centric reasoning tasks with impressive <b>token efficiency</b> and low inference cost."}],
+    "Overview": [{"type": "text", "content": "<b>Aryabhata 1</b> is a 7B parameter small language model for mathematics developed by <b>Physics Wallah AI Research</b>, optimized for high-stakes Indian competitive exams like <b>JEE Mains</b>. Despite its compact size, Aryabhata 1 achieves <b>state-of-the-art performance</b> on exam-centric reasoning tasks with impressive <b>token efficiency</b> and low inference cost."}],
     "Key Features": [{"type": "list", "content": [
         "<b>Architecture:</b> 7B parameter causal decoder-based model.",
         "<b>Exam-Centric Optimization:</b> Specifically tuned for JEE-level Mathematics reasoning.",
@@ -62,7 +62,7 @@ let project_contents = {
             "<b>Removed:</b> Clipping"
         ]},
         {"type": "text", "content": "We used RLVR on the remaining ~30K questions."},
-        {"type": "text", "content": "This multi-phase training strategy allows Aryabhata 1.0 to capture pedagogy-aligned reasoning patterns, making it highly effective for solving real student queries in mathematics."},
+        {"type": "text", "content": "This multi-phase training strategy allows Aryabhata 1 to capture pedagogy-aligned reasoning patterns, making it highly effective for solving real student queries in mathematics."},
     ],
     "Results": [
         {"type": "heading", "content": "Evaluation Setup"},
@@ -103,7 +103,7 @@ let project_contents = {
     ],
     "Citation": [
         {"type": "text", "content": "If you use this model, please cite:"},
-        {"type": "code", "content": "@misc{Aryabhata2025,\n  title = {Aryabhata 1.0: A compact, exam-focused language model tailored for mathematics in Indian competitive exams, especially JEE Main.},\n  author = {Physics Wallah AI Research},\n  year = {2025},\n  note = {\\url{https://huggingface.co/PhysicsWallahAI/Aryabhata-1.0}},\n}"}
+        {"type": "code", "content": "@misc{Aryabhata2025,\n  title = {Aryabhata 1: A compact, exam-focused language model tailored for mathematics in Indian competitive exams, especially JEE Main.},\n  author = {Physics Wallah AI Research},\n  year = {2025},\n  note = {\\url{https://huggingface.co/PhysicsWallahAI/Aryabhata-1.0}},\n}"}
     ]
 }
 
