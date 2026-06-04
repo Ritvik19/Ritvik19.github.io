@@ -318,5 +318,13 @@ const reasoning_models = [
     description:
       "Built on Moonshot's Kimi K2.5 checkpoint, improves intelligence and usability over Composer 2 by scaling training, expanding synthetic task diversity (25x increase), and introducing targeted RL with textual feedback to adjust behavior at problem points.",
     tags: ["LLM for Code", "Reinforcement Learning"]
+  },
+  {
+    title: "Policy-Aware Rubric Reward (POW3R)",
+    link: "6fa98f57e4f9",
+    date: "May 2026",
+    description:
+      "A policy-aware rubric reward framework that dynamically reallocates training pressure toward rubric criteria that currently distinguish the model's outputs, based on rollout-level contrastiveness measured by the standard deviation of judge verdicts. It blends and clips this signal to maintain a learning floor for saturated or failed criteria, then renormalizes within rubric categories to preserve the original human weights and category balance, resulting in more informative reward signals and faster, more robust learning.",
+    tags: ["Reinforcement Learning", "Reward Design"]
   }
 ];
