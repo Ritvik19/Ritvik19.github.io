@@ -326,5 +326,13 @@ const reasoning_models = [
     description:
       "A policy-aware rubric reward framework that dynamically reallocates training pressure toward rubric criteria that currently distinguish the model's outputs, based on rollout-level contrastiveness measured by the standard deviation of judge verdicts. It blends and clips this signal to maintain a learning floor for saturated or failed criteria, then renormalizes within rubric categories to preserve the original human weights and category balance, resulting in more informative reward signals and faster, more robust learning.",
     tags: ["Reinforcement Learning", "Reward Design"]
+  },
+  {
+    title: "MAI Thinking-1",
+    link: "e5afeca9bbfc",
+    date: "June 2026",
+    description:
+      "A 35B active/1T total parameter MoE model developed from scratch trained solely on 30T tokens of high-quality, exclusively human-generated data with no synthetic, open-source, or third-party model distillation. Its development uses empirically-driven, scalable pre-training, robust reinforcement learning and a hill-climbing optimization process.",
+    tags: ["Language Models", "Reinforcement Learning", "Mixture-of-Experts"]
   }
 ];
