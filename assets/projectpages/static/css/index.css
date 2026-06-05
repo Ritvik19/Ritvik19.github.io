@@ -837,7 +837,7 @@ a:focus {
 .content.has-text-justified .table td:not(:first-child),
 .content.has-text-justified table th:not(:first-child),
 .content.has-text-justified table td:not(:first-child) {
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .content .carousel.results-carousel {

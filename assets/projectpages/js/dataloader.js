@@ -77,37 +77,17 @@ function renderBlock(content) {
   return '';
 }
 
-function blockHasWideTable(content) {
-  if (content.type === 'table') return content.rows.length > 5;
-  if (content.type === 'html') return (content.content.match(/<tr>/g) || []).length > 5;
-  return false;
-}
-
-function sectionHasTable(content_array) {
-  return content_array.some((c) => c.type === 'table');
-}
-
-function sectionHasCarousel(content_array) {
-  return content_array.some((c) => c.type === 'carousel');
-}
-
 function create_content_section(header, content_array, is_hero_light) {
-  const hasTable = sectionHasTable(content_array);
-  const hasCarousel = sectionHasCarousel(content_array);
-  const hasWideTable = content_array.some(blockHasWideTable);
-  const useFullWidth = hasTable || hasCarousel || hasWideTable;
+  const hasTable = content_array.some((c) => c.type === 'table' || (c.type === 'html' && c.content.includes('<table')));
+  const hasCarousel = content_array.some((c) => c.type === 'carousel');
   const contentClass =
     hasTable || hasCarousel ? 'content' : 'content has-text-justified';
-  const columnClass = useFullWidth ? 'column' : 'column is-four-fifths';
-  const rowClass = useFullWidth
-    ? 'columns is-centered'
-    : 'columns is-centered has-text-centered';
 
   return `<section class="section ${is_hero_light}">
     <div class="container is-max-desktop">
-      <div class="${rowClass}">
-        <div class="${columnClass}">
-          <h2 class="title is-3${useFullWidth ? '' : ' has-text-centered'}">${header}</h2>
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3${hasTable || hasCarousel ? '' : ' has-text-centered'}">${header}</h2>
           <div class="${contentClass}">
             ${content_array.map(renderBlock).join('')}
           </div>
