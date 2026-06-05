@@ -232,7 +232,7 @@ const llm_for_math = [
     tags: ["LLM for Math"],
   },
   {
-    title: "Aryabhata 1.0",
+    title: "Aryabhata 1",
     link: "302d2eb383cc",
     date: "August 2025",
     description:
