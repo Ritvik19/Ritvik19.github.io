@@ -1,5 +1,22 @@
 const data = [
   {
+    title: "Nanoformers",
+    description:
+      "A minimal playground for building and training transformer models from scratch. " +
+      "Covers self-supervised, supervised, reinforcement, and contrastive learning " +
+      "with tiny transformer architectures, PEFT (LoRA/QLoRA), and 20+ training runs logged on Weights & Biases.",
+    actions: [
+      {
+        title: "View Nanoformers Documentation",
+        link: "/nanoformers/",
+      },
+      {
+        title: "View Nanoformers on GitHub",
+        link: "https://github.com/Ritvik19/Nanoformers",
+      },
+    ],
+  },
+  {
     title: "Data Science from Scratch",
     description:
       "A collection of various implementations of various data science techniques and research papers." +
@@ -7,7 +24,7 @@ const data = [
     actions: [
       {
         title: "View Data Science from Scratch Documentation",
-        link: "/data-science-from-scratch",
+        link: "/data-science-from-scratch/",
       },
       {
         title: "View ML Notebooks",
@@ -29,7 +46,7 @@ const data = [
     actions: [
       {
         title: "View pradox Documentation",
-        link: "/pyradox",
+        link: "/pyradox/",
       },
       {
         title: "View pyradox on GitHub",
@@ -37,7 +54,7 @@ const data = [
       },
       {
         title: "View pyradox-generative Documentation",
-        link: "/pyradox-generative",
+        link: "/pyradox-generative/",
       },
       {
         title: "View pyradox-generative on GitHub",
@@ -45,7 +62,7 @@ const data = [
       },
       {
         title: "View pyradox-tabular Documentation",
-        link: "/pyradox-tabular",
+        link: "/pyradox-tabular/",
       },
       {
         title: "View pyradox-tabular on GitHub",

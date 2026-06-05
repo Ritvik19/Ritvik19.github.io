@@ -749,5 +749,45 @@ a:focus {
   }
 }
 
+/* Embedded HTML tables from migrated docs content */
+.content .table-wrap {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.content table.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.content table.data-table th,
+.content table.data-table td {
+  padding: 0.65rem 0.85rem;
+  text-align: left;
+  border: 1px solid var(--border-color);
+}
+
+.content table.data-table th {
+  background: var(--background-accent);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.content table.data-table tbody tr:nth-child(even) {
+  background: var(--background-secondary);
+}
+
+.content h4 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.content .table-container {
+  overflow-x: auto;
+  margin: 1rem 0;
+  max-width: 100%;
+}
 
 

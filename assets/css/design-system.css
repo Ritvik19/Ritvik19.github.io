@@ -77,6 +77,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Home page content — navbar stays edge-to-edge */
+.site-header + main {
+  padding: var(--space-2xl);
+}
+
 a {
   color: var(--color-link);
   text-decoration: none;
@@ -895,6 +900,10 @@ ol.reference {
 }
 
 @media (max-width: 600px) {
+  .site-header + main {
+    padding: var(--space-lg);
+  }
+
   .container {
     padding: 0 var(--space-md);
   }

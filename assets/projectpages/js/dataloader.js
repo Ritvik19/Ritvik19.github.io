@@ -46,10 +46,12 @@ function renderBlock(content) {
     return `<ul>${content.content.map((item) => `<li>${item}</li>`).join('')}</ul>`;
   }
   if (content.type === 'table') {
-    return `<table class="table is-fullwidth is-bordered is-striped">
-      <thead><tr>${content.columns.map((c) => `<th>${c}</th>`).join('')}</tr></thead>
-      <tbody>${content.rows.map((row) => `<tr>${row.map((cell) => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody>
-    </table>`;
+    return `<div class="table-container">
+      <table class="table is-fullwidth is-bordered is-striped">
+        <thead><tr>${content.columns.map((c) => `<th>${c}</th>`).join('')}</tr></thead>
+        <tbody>${content.rows.map((row) => `<tr>${row.map((cell) => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody>
+      </table>
+    </div>`;
   }
   if (content.type === 'carousel') {
     return `<div class="carousel results-carousel">
@@ -66,18 +68,31 @@ function renderBlock(content) {
   if (content.type === 'code') {
     return `<pre class="is-code"><code>${content.content}</code></pre>`;
   }
+  if (content.type === 'html') {
+    return content.content;
+  }
   if (content.type === 'bullet') {
     return `<ul>${content.content.map((item) => `<li>${item}</li>`).join('')}</ul>`;
   }
   return '';
 }
 
+function blockHasWideTable(content) {
+  if (content.type === 'table') return content.rows.length > 5;
+  if (content.type === 'html') return (content.content.match(/<tr>/g) || []).length > 5;
+  return false;
+}
+
 function create_content_section(header, content_array, is_hero_light) {
+  const hasWideTable = content_array.some(blockHasWideTable);
+  const columnClass = hasWideTable ? 'column' : 'column is-four-fifths';
+  const rowClass = hasWideTable ? 'columns is-centered' : 'columns is-centered has-text-centered';
+
   return `<section class="section ${is_hero_light}">
     <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">${header}</h2>
+      <div class="${rowClass}">
+        <div class="${columnClass}">
+          <h2 class="title is-3${hasWideTable ? '' : ' has-text-centered'}">${header}</h2>
           <div class="content has-text-justified">
             ${content_array.map(renderBlock).join('')}
           </div>
