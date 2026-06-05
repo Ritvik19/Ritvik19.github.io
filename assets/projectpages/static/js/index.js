@@ -129,6 +129,9 @@ $(document).ready(function() {
 		infinite: true,
 		autoplay: true,
 		autoplaySpeed: 5000,
+		// Default breakpoints show 2–3 slides on tablet widths; most project
+		// carousels only have 1–2 images and layout breaks when slidesToShow > count.
+		breakpoints: [{ changePoint: 99999, slidesToShow: 1, slidesToScroll: 1 }],
     }
 
 	// Initialize all div with carousel class

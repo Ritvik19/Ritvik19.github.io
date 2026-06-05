@@ -256,28 +256,38 @@ body {
 .results-carousel {
   overflow: hidden;
   padding: 1rem 0;
+  width: 100%;
 }
 
-.results-carousel .item {
-  margin: 1rem;
+.results-carousel.slider {
+  margin: 1.5rem 0;
+}
+
+.results-carousel .slider-item .item,
+.results-carousel > .item {
+  margin: 0;
   overflow: hidden;
   padding: 1.5rem;
-  font-size: 0;
   background: var(--background-primary);
   border-radius: var(--border-radius-lg);
   box-shadow: var(--shadow-md);
   transition: var(--transition);
   border: 1px solid var(--border-color);
+  height: 100%;
+  box-sizing: border-box;
 }
 
-.results-carousel .item:hover {
+.results-carousel .slider-item .item:hover,
+.results-carousel > .item:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
 }
 
-.results-carousel .item img,
+.results-carousel .slider-item .item img,
+.results-carousel > .item img,
 .results-carousel video {
-  margin: 0;
+  display: block;
+  margin: 0 auto;
   border-radius: var(--border-radius);
   width: 100%;
   height: auto;
@@ -642,8 +652,9 @@ code {
     top: auto;
   }
   
-  .results-carousel .item {
-    margin: 0.5rem;
+  .results-carousel .slider-item .item,
+  .results-carousel > .item {
+    margin: 0;
     padding: 1rem;
   }
   
@@ -787,6 +798,51 @@ a:focus {
 .content .table-container {
   overflow-x: auto;
   margin: 1rem 0;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Bulma justify/center on parent .content breaks table column alignment */
+.content .table-container .table,
+.content.has-text-justified table,
+.content.has-text-justified .table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.content .table-container .table th,
+.content .table-container .table td,
+.content.has-text-justified table th,
+.content.has-text-justified table td,
+.content.has-text-justified .table th,
+.content.has-text-justified .table td {
+  text-align: left !important;
+  vertical-align: middle;
+}
+
+.content .table-container .table th:first-child,
+.content .table-container .table td:first-child,
+.content.has-text-justified .table th:first-child,
+.content.has-text-justified .table td:first-child,
+.content.has-text-justified table th:first-child,
+.content.has-text-justified table td:first-child {
+  white-space: normal;
+  min-width: 9rem;
+}
+
+.content .table-container .table th:not(:first-child),
+.content .table-container .table td:not(:first-child),
+.content.has-text-justified .table th:not(:first-child),
+.content.has-text-justified .table td:not(:first-child),
+.content.has-text-justified table th:not(:first-child),
+.content.has-text-justified table td:not(:first-child) {
+  white-space: nowrap;
+}
+
+.content .carousel.results-carousel {
+  text-align: center;
+  margin: 1.5rem auto;
   max-width: 100%;
 }
 

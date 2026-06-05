@@ -83,17 +83,32 @@ function blockHasWideTable(content) {
   return false;
 }
 
+function sectionHasTable(content_array) {
+  return content_array.some((c) => c.type === 'table');
+}
+
+function sectionHasCarousel(content_array) {
+  return content_array.some((c) => c.type === 'carousel');
+}
+
 function create_content_section(header, content_array, is_hero_light) {
+  const hasTable = sectionHasTable(content_array);
+  const hasCarousel = sectionHasCarousel(content_array);
   const hasWideTable = content_array.some(blockHasWideTable);
-  const columnClass = hasWideTable ? 'column' : 'column is-four-fifths';
-  const rowClass = hasWideTable ? 'columns is-centered' : 'columns is-centered has-text-centered';
+  const useFullWidth = hasTable || hasCarousel || hasWideTable;
+  const contentClass =
+    hasTable || hasCarousel ? 'content' : 'content has-text-justified';
+  const columnClass = useFullWidth ? 'column' : 'column is-four-fifths';
+  const rowClass = useFullWidth
+    ? 'columns is-centered'
+    : 'columns is-centered has-text-centered';
 
   return `<section class="section ${is_hero_light}">
     <div class="container is-max-desktop">
       <div class="${rowClass}">
         <div class="${columnClass}">
-          <h2 class="title is-3${hasWideTable ? '' : ' has-text-centered'}">${header}</h2>
-          <div class="content has-text-justified">
+          <h2 class="title is-3${useFullWidth ? '' : ' has-text-centered'}">${header}</h2>
+          <div class="${contentClass}">
             ${content_array.map(renderBlock).join('')}
           </div>
         </div>
@@ -112,3 +127,20 @@ for (const key in project_contents) {
   );
   is_hero_light = is_hero_light === 'is-light' ? '' : 'is-light';
 }
+
+function initProjectCarousels() {
+  if (typeof bulmaCarousel === 'undefined' || !document.querySelector('.carousel')) {
+    return;
+  }
+  bulmaCarousel.attach('.carousel', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    loop: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    breakpoints: [{ changePoint: 99999, slidesToShow: 1, slidesToScroll: 1 }],
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initProjectCarousels);
