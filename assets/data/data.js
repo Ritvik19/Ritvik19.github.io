@@ -66,6 +66,17 @@ const skills = {
 
 const models = [
   {
+    title: "Aryabhata 2",
+    description:
+      "A 20B reasoning model for competitive STEM exams (JEE, NEET), post-trained from GPT-OSS-20B via GRPO on Physics Wallah's curated curriculum.",
+    actions: [
+      {
+        title: "View",
+        link: "/aryabhata-2",
+      },
+    ],
+  },
+  {
     title: "Aryabhata 1",
     description:
       "Aryabhata 1 is a 7B parameter small language model for mathematics developed by Physics Wallah AI Research, optimized for JEE Mains.",
