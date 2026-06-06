@@ -129,7 +129,7 @@ const reasoning_models = [
   },
   {
     title: "Apriel-Nemotron-15B-Thinker",
-    link : "463f8f4b5045",
+    link: "463f8f4b5045",
     date: "August 2025",
     description:
       "A 15B parameter model in the ServiceNow Apriel SLM series. It is trained in a four stage training pipeline including: Base Model upscaling, Continual Pre-training, Supervised Fine-tuning (SFT), Reinforcement Learning using GRPO.",
@@ -267,7 +267,7 @@ const reasoning_models = [
     title: "Leanstral",
     link: "b9632dedf580#3b3a",
     date: "March 2026",
-    description:  
+    description:
       "An open-source, highly efficient Lean 4 focused code and proof agent that uses a sparse architecture and parallel inference with Lean as a verifier to generate and formally prove implementations in realistic formal repositories. ",
     tags: ["LLM for Code", "Formal Methods"]
   },
@@ -302,6 +302,14 @@ const reasoning_models = [
     description:
       "Perplexity develops search agents using a two-stage post-training pipeline: first, Supervised Fine-Tuning establishes deployment-critical behaviors like guardrails and stylistic consistency, then Reinforcement Learning refines accuracy and tool-use efficiency using a blend of verifiable QA and rubric-based chat data.",
     tags: ["Language Models", "Reinforcement Learning", "Search Agents", "Perplexity"]
+  },
+  {
+    title: "Aryabhata 2",
+    link: "9d3d23738731",
+    date: "May 2026",
+    description:
+      "A competitive exams focused model, post-trained from GPT-OSS-20B by PhysicsWallah using three phased reinforcement learning on a rigorously cleaned and verified curriculum of Physics, Chemistry, Mathematics, and Reasoning questions.",
+    tags: ["Reasoning Models", "Reinforcement Learning", "Competitive Exams"]
   },
   {
     title: "Reward Hacking in Rubric-Based RL",
