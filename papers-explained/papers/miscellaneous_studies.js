@@ -1,6 +1,6 @@
 const miscellaneous_studies = [
   {
-    title: "ULMFiT", 
+    title: "ULMFiT",
     link: "acc076afe367",
     date: "Jan 2018",
     description:
@@ -24,12 +24,12 @@ const miscellaneous_studies = [
     tags: [],
   },
   {
-      title: "Text Classification with Gzip",
-      link: "ffda2859c6f4",
-      date: "December 2022",
-      description:
-        "A simple, lightweight, and universal non-parametric method for text classification that combines a lossless compressor (like gzip) with a k-nearest-neighbor classifier.",
-      tags: ["Text Classification"],
+    title: "Text Classification with Gzip",
+    link: "ffda2859c6f4",
+    date: "December 2022",
+    description:
+      "A simple, lightweight, and universal non-parametric method for text classification that combines a lossless compressor (like gzip) with a k-nearest-neighbor classifier.",
+    tags: ["Text Classification"],
   },
   {
     title: "Are Emergent Abilities of Large Language Models a Mirage?",
@@ -497,6 +497,14 @@ const miscellaneous_studies = [
     tags: ["Multimodal Models", "Document Understanding"],
   },
   {
+    title: "NuExtract 2.0",
+    link: "f722082999b5#7396",
+    date: "July 2025",
+    description:
+      "A specialized LLM for extracting structured information from both text and image documents. It introduces vision capabilities to handle scanned documents, PDFs, and images directly, abstraction for tasks like classification and reformulation, and in-context learning to customize the model with examples in the prompt.",
+    tags: ["Multimodal Models", "Document Understanding"],
+  },
+  {
     title: "Answer Matching",
     link: "0940b4c50570",
     date: "July 2025",
@@ -572,7 +580,7 @@ const miscellaneous_studies = [
     title: "Reasoning Vectors",
     link: "94cfbe4387bb",
     date: "September 2025",
-    description: 
+    description:
       "Introduces a method for extracting and transferring reasoning capabilities between large language models using a \"reasoning vector\". This vector, calculated as the difference between a reinforcement learning-optimized model and a supervised fine-tuned model, can be added to other instruction-tuned models to improve their performance on reasoning benchmarks like GSM8K, HumanEval, SciQ, and BigBenchHard, demonstrating a way to reuse existing computational investments.",
     tags: ["Language Models", "LLM for Math", "Reasoning", "Model Merging"],
   },
@@ -689,11 +697,19 @@ const miscellaneous_studies = [
     tags: ["Language Models"]
   },
   {
+    title: "NuExtract 3.0",
+    link: "f722082999b5#5c4f",
+    date: "March 2026",
+    description:
+      "A 4B reasoning-enabled vision-language model built on Qwen 3.5-4B, specialized in document extraction, unifying both structured extraction (documents to JSON) and content extraction (OCR, documents to Markdown).",
+    tags: ["Language Models", "Multimodal Models", "OCR", "Document Understanding"],
+  },
+  {
     title: "OpenAI Privacy Filter",
     link: "04d7eae93107",
     date: "April 2026",
     description:
       "A small, efficient, bidirectional token-classification model developed for detecting and redacting personally identifiable information (PII) in unstructured text, featuring a 1.5 billion parameter architecture with 50 million active parameters, can process up to 128,000 token contexts.",
-      tags: ["Language Models", "Privacy"],
+    tags: ["Language Models", "Privacy"],
   }
 ];
