@@ -342,5 +342,13 @@ const reasoning_models = [
     description:
       "A 35B active/1T total parameter MoE model developed from scratch trained solely on 30T tokens of high-quality, exclusively human-generated data with no synthetic, open-source, or third-party model distillation. Its development uses empirically-driven, scalable pre-training, robust reinforcement learning and a hill-climbing optimization process.",
     tags: ["Language Models", "Reinforcement Learning", "Mixture-of-Experts"]
+  },
+  {
+    title: "Rubric Guided Self Distillation",
+    link: "bd61a188450f",
+    date: "June 2026",
+    description:
+      "A verifier-free training method for open-ended, rubric-graded tasks, where the teacher is conditioned on the rubric and its outputs are distilled, token-by-token, into an unconditioned student model, thus internalizing rubric criteria without relying on expensive LLM verifier calls.",
+    tags: ["Reinforcement Learning", "Reward Design", "Self-Distillation"]
   }
 ];
