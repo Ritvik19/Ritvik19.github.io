@@ -665,6 +665,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "Multimodal Models", "OCR"],
   },
   {
+    title: "Mellum",
+    link: "765aef2f7e6c",
+    date: "October 2025",
+    description:
+      "A family of open-weight, 4B-parameter code completion models designed by JetBrains for interactive use in IDEs, specifically optimized for multi-line, in-editor completion with low latency and a compact size.",
+    tags: ["Language Models", "LLM for Code", "JetBrains"]
+  },
+  {
     title: "Nemotron-Parse 1.1",
     link: "e94225fc944d",
     date: "November 2025",
@@ -711,5 +719,13 @@ const miscellaneous_studies = [
     description:
       "A small, efficient, bidirectional token-classification model developed for detecting and redacting personally identifiable information (PII) in unstructured text, featuring a 1.5 billion parameter architecture with 50 million active parameters, can process up to 128,000 token contexts.",
     tags: ["Language Models", "Privacy"],
+  },
+  {
+    title: "Mellum 2",
+    link: "7c59fdbfb6e6",
+    date: "May 2026",
+    description:
+      "An open-weight 12B-parameter MoE language model from JetBrains, with 2.5B active parameters per token, specialized in software engineering tasks including code generation and editing, debugging, multi-step reasoning, tool use and function calling, agentic coding, and conversational programming assistance.",
+    tags: ["Language Models", "LLM for Code", "JetBrains", "Mixture of Experts (MoE)"]
   }
 ];
