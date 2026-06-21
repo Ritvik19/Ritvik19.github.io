@@ -224,6 +224,14 @@ const reasoning_models = [
     tags: ["Reinforcement Learning", "Tool Use"]
   },
   {
+    title: "VibeThinker-1.5B",
+    link: "ef56288a0329",
+    date: "November 2025",
+    description:
+      "A 1.5B-parameter dense language model developed using the innovative Spectrum-to-Signal Principle, which separates SFT and RL into distinct phases: “Diversity-Exploring Distillation” in SFT generates diverse solutions, while “MaxEnt-Guided Policy Optimization” in RL amplifies correct reasoning paths.",
+    tags: ["Reinforcement Learning", "Language Models"]
+  },
+  {
     title: "Nemotron Cascade",
     link: "4fc163e3bdbf",
     date: "December 2025",
@@ -350,5 +358,13 @@ const reasoning_models = [
     description:
       "A verifier-free training method for open-ended, rubric-graded tasks, where the teacher is conditioned on the rubric and its outputs are distilled, token-by-token, into an unconditioned student model, thus internalizing rubric criteria without relying on expensive LLM verifier calls.",
     tags: ["Reinforcement Learning", "Reward Design", "Self-Distillation"]
+  },
+  {
+    title: "VibeThinker-3B",
+    link: "a82a4fe1299f",
+    date: "June 2026",
+    description:
+      "A compact dense model, developed to investigate how far verifiable reasoning can be pushed within a strictly small-model regime. Building upon the Spectrum-to-Signal post-training paradigm, the model is systematically enhanced through an optimized pipeline that includes curriculum-based supervised fine-tuning, multi-domain reinforcement learning, and offline self-distillation.",
+    tags: ["Language Models", "Reinforcement Learning"]
   }
 ];
