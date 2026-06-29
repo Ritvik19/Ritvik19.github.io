@@ -11,7 +11,7 @@ const datasets = [
     title: "HelpSteer",
     link: "8653a643a462",
     date: "November 2023",
-    description: 
+    description:
       "A 37k-sample multi-attribute helpfulness dataset where each response is annotated not only for overall helpfulness but also for correctness, coherence, complexity, and verbosity, aiming to avoid artifacts like models equating length with quality.",
     tags: ["Datasets", "LLM Safety"],
   },
@@ -74,7 +74,7 @@ const datasets = [
     date: "June 2024",
     description:
       "An open-source helpfulness preference dataset of about 10k response pairs, designed for training reward models that align LLMs with human preferences, despite being an order of magnitude smaller than older datasets like HH-RLHF.",
-    tags: ["Datasets", "LLM Safety"],  
+    tags: ["Datasets", "LLM Safety"],
   },
   {
     title: "Numina Math",
@@ -237,7 +237,7 @@ const datasets = [
     title: "Reasoning Gym",
     link: "3202ebfddeec",
     date: "May 2025",
-    description:  
+    description:
       "A comprehensive library of procedurally generated reasoning environments designed for RLVR training. It offers over 100 algorithmically verifiable tasks spanning diverse domains, allowing for unlimited training data with adjustable complexity and enabling researchers to study reasoning model development systematically.",
     tags: ["Datasets", "Environment", "Scientific Data"],
   },
@@ -326,7 +326,7 @@ const datasets = [
     title: "FACTS Leaderboard",
     link: "2ad8cda79681",
     date: "December 2025",
-    description: 
+    description:
       "An online benchmarking suite designed to evaluate the factual accuracy of large language models (LLMs) across diverse scenarios. It aggregates performance on four sub-leaderboards: FACTS Multimodal (image-based questions), FACTS Parametric (closed-book factoid questions), FACTS Search (information-seeking scenarios using a search API), and FACTS Grounding v2 (long-form responses grounded in provided documents).",
     tags: ["Datasets", "Benchmark", "Factual Accuracy"],
   },
@@ -385,5 +385,13 @@ const datasets = [
     description:
       "A 486B-token synthetic pretraining dataset created through 90 experiments, over 1 trillion generated tokens, and 12.7 GPU-years of research to find the best \"recipe\" for synthetic data, outperforming all existing baselines.",
     tags: ["Datasets", "Synthetic Data", "HuggingFace"],
+  },
+  {
+    title: "OpenThoughts Agent",
+    link: "567cddd67283",
+    date: "June 2026",
+    description:
+      "A fully open data curation pipeline for training agentic language models , through over 100 controlled ablation experiments, it identifies key factors such as instruction choice, teacher model selection, trace filtering, and task source diversity, resulting in a  training set of 100K example that, when used to fine-tune Qwen3-32B, delivers superior performance on multiple agentic benchmarks compared to previous open data model.",
+    tags: ["Datasets", "Synthetic Data", "Agentic Systems"],
   }
 ];
