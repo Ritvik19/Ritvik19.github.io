@@ -24,6 +24,14 @@ const miscellaneous_studies = [
     tags: [],
   },
   {
+    title: "Sparse Upcycling",
+    link: "804de5de9c18",
+    date: "December 2022",
+    description:
+      "A method for upgrading pretrained dense neural network models into larger, sparsely activated Mixture-of-Experts models by initializing them from a dense checkpoint and continuing training with a relatively small additional computational budget.",
+    tags: ["Language Models", "Mixture-of-Experts"]
+  },
+  {
     title: "Text Classification with Gzip",
     link: "ffda2859c6f4",
     date: "December 2022",
@@ -727,5 +735,13 @@ const miscellaneous_studies = [
     description:
       "An open-weight 12B-parameter MoE language model from JetBrains, with 2.5B active parameters per token, specialized in software engineering tasks including code generation and editing, debugging, multi-step reasoning, tool use and function calling, agentic coding, and conversational programming assistance.",
     tags: ["Language Models", "LLM for Code", "JetBrains", "Mixture of Experts (MoE)"]
+  },
+  {
+    title: "Compress Distil",
+    link: "c5f78c8c8a18",
+    date: "June 2026",
+    description:
+      "A pipeline that generates correct long chain-of-thought traces with a large teacher model, rewrites them using instruction-tuned compressor models, and fine-tunes student models on compressed traces maintaining up to 96% of the accuracy of raw traces.",
+    tags: ["Language Models"]
   }
 ];
