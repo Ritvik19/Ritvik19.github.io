@@ -632,7 +632,7 @@ const decoder_only_transformers = [
     tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts"],
   },
   {
-    title: "LIMI", 
+    title: "LIMI",
     link: "f696e12fdb3f/",
     date: "September 2025",
     description:
@@ -659,7 +659,7 @@ const decoder_only_transformers = [
     title: "Mistral 3",
     link: "b9632dedf580#2f5b",
     date: "December 2025",
-    description:  
+    description:
       "A suite of models, including three small, dense models (14B, 8B, and 3B) and the advanced Mistral Large 3, a sparse mixture-of-experts model with 41B active and 675B total parameters, offering state-of-the-art performance, multimodal and multilingual capabilities, and are optimized for both edge and enterprise use cases, providing the best performance-to-cost ratio in their category.",
     tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Mistral"],
   },
@@ -701,6 +701,14 @@ const decoder_only_transformers = [
     date: "April 2026",
     description:
       "A 120B (active 12B) parameter hybrid Mamba-Attention Mixture-of-Experts model that utilizes LatentMoE for efficiency and MTP for accelerated inference. It's pre-trained in NVFP4 on 25 trillion tokens and further post-trained for agentic behavior, achieving comparable accuracy to GPT-OSS-120B and Qwen3.5-122B while offering significantly higher throughput.",
+    tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Nvidia", "Hybrid Models"],
+  },
+  {
+    title: "Nemotron 3 Ultra",
+    link: "2443ef0c834b",
+    date: "June 2026",
+    description:
+      "A 550B total and 55B active parameter Mixture-of-Experts Hybrid Mamba-Attention language model, pretrained on 20 trillion text tokens, then extended the context length to 1M tokens, and post-trained using Supervised Fine Tuning, Reinforcement Learning, and Multi-teacher On-Policy Distillation. It employs multiple key technologies: LatentMoE, Multi Token Prediction (MTP), NVFP4 pre-training, multi-environment RLVR, MOPD, and reasoning budget control.",
     tags: ["Language Models", "Transformer Decoder", "Mixtures of Experts", "Nvidia", "Hybrid Models"],
   }
 ];
