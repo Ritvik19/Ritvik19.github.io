@@ -68,7 +68,7 @@ const reward_models = [
     link: "109dba633c27",
     date: "May 2025",
     description:
-        "Enhance reward model performance by executing a deliberate reasoning process before generating final rewards, leveraging chain-of-thought reasoning and additional test-time compute for complex queries.",
+      "Enhance reward model performance by executing a deliberate reasoning process before generating final rewards, leveraging chain-of-thought reasoning and additional test-time compute for complex queries.",
     tags: ["Outcome Reward Model"],
   },
   {
@@ -85,6 +85,14 @@ const reward_models = [
     date: "July 2025",
     description:
       "Investigates that generative reward models are susceptible to superficial manipulations like non-word symbols or reasoning openers, leading to false positive rewards. To address this, it introduces a data augmentation strategy and trains a more robust generative reward model, highlighting the need for more reliable LLM-based evaluation methods.",
+    tags: ["LLM Evaluation"],
+  },
+  {
+    title: "LLM as a Verifier",
+    link: "58c8ab45fb3f",
+    date: "July 2026",
+    description:
+      "A probabilistic verification framework that uses the full distribution of scoring token logits from large language models to generate fine-grained, continuous scores for assessing solution quality, rather than relying on traditional discrete outputs.",
     tags: ["LLM Evaluation"],
   }
 ];
