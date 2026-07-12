@@ -572,7 +572,7 @@ const small_llms = [
     date: "January 2026",
     description:
       "A suite of open machine translation models built on the Gemma 3 foundation models, enhanced via a two-stage process: supervised fine-tuning on a rich mix of high-quality synthetic and human-translated parallel data, followed by reinforcement learning using an ensemble of reward models (including MetricX-QE and AutoMQM) to directly optimize translation quality.",
-    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models", "Gemma"]  
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models", "Gemma"]
   },
   {
     title: "Ministral 3",
@@ -589,5 +589,13 @@ const small_llms = [
     description:
       "A family of 3.35B open-weight multilingual language models, designed for balanced performance across 70+ languages through deliberate data curation, training design, and a comprehensive multilingual evaluation framework. The release includes Tiny Aya Base (pretrained model), Tiny Aya Global (instruction-tuned model optimized for consistent multilingual performance), and three region-specialized variants: Tiny Aya Earth (Africa and West Asia), Tiny Aya Fire (South Asia), and Tiny Aya Water (Asia-Pacific and Europe).",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multilingual Models"],
+  },
+  {
+    title: "Gemma 4",
+    link: "ba2108a444a9",
+    date: "July 2026",
+    description:
+      "Natively multimodal language models, featuring both dense and Mixture-of-Experts architectures. It introduces multi-token prediction for faster decoding, quantized versions for memory efficiency, and a unified encoder-free architecture for the 12B model.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mixtures of Experts", "Gemma"]
   }
 ];
