@@ -49,7 +49,7 @@ const encoder_only_transformers = [
   },
   {
     title: "Distil RoBERTa",
-    link: "https://medium.com/dair-ai/6f138849f871#a260",
+    link: "6f138849f871#a260",
     date: "October 2019",
     description:
       "Distillation of RoBERTa, using the same techniques as Distil BERT.",
