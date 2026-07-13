@@ -17,7 +17,7 @@ const retrieval_and_representation_learning = [
   },
   {
     title: "ColBERT",
-    link: "https://medium.com/@ritvik19/fe2fd0509649",
+    link: "fe2fd0509649",
     date: "April 2020",
     description:
       "Introduces a late interaction architecture that adapts deep LMs (in particular, BERT) for efficient retrieval.",

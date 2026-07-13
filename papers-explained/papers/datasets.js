@@ -54,7 +54,7 @@ const datasets = [
   },
   {
     title: "RewardBench",
-    link: "A benchmark dataset and code-base designed to evaluate reward models used in RLHF",
+    link: "31c79c15eb52",
     date: "March 2024",
     description:
       "A benchmark dataset and code-base designed to evaluate reward models used in RLHF.",
@@ -78,7 +78,7 @@ const datasets = [
   },
   {
     title: "Numina Math",
-    link: "paper-explained-316-numinamath-40501ae9baac",
+    link: "40501ae9baac",
     date: "July 2024",
     description:
       "A public AI4Maths dataset, comprising 860,000 competition math problems and solutions, ranging from high-school to advanced competition levels, annotated with chain-of-thought traces. It aims to improve mathematical reasoning in LLMs and is instrumental in developing a model that won the 1st AIMO Progress Prize, demonstrating its effectiveness in advancing state-of-the-art mathematical reasoning models.",

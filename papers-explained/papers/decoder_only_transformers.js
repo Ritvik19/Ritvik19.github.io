@@ -633,7 +633,7 @@ const decoder_only_transformers = [
   },
   {
     title: "LIMI",
-    link: "f696e12fdb3f/",
+    link: "f696e12fdb3f",
     date: "September 2025",
     description:
       "Demonstrates that sophisticated agentic intelligence can emerge from minimal but strategically curated demonstrations of autonomous behavior. This challenges the traditional paradigm that more data yields better agency, using only 78 carefully designed training samples.",
