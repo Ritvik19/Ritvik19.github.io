@@ -344,7 +344,7 @@ const small_llms = [
   },
   {
     title: "Mistral Small",
-    link: "https://medium.com/dair-ai/b9632dedf580#5662",
+    link: "b9632dedf580#5662",
     date: "September 2024",
     description:
       "A 22B model with significant improvements in human alignment, reasoning capabilities, and code over the previous model.",
