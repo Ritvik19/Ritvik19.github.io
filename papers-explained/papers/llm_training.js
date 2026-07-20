@@ -446,6 +446,13 @@ const llm_training = [
     description:
       "A curriculum reinforcement learning framework for mathematical reasoning that transforms each hard problem into a sequence of verifiable subproblems, ordered from easier to harder, with the final subproblem being the original problem itself.",
     tags: ["Reinforcement Learning"],
-
+  },
+  {
+    title: "Teacher-Routed Exploration via Forward KL (TREK)",
+    link: "da20a690b2ad",
+    date: "June 2026",
+    description:
+      "Identifies prompts where the student model's pass rate is low, selects verified solutions with highest student likelihood, applies a short forward-KL phase to expand the student's sampling support to include these modes, and then resumes on-policy GRPO refinement, resulting in faster and more effective training especially on hard reasoning and agentic task.",
+    tags: ["Reinforcement Learning"],
   }
 ];
