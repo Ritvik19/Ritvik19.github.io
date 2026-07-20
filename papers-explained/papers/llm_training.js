@@ -440,6 +440,14 @@ const llm_training = [
     tags: ["Synthetic Data"],
   },
   {
+    title: "Self-Optimization via Asymmetric RL (SOAR)",
+    link: "7b56235c07c2",
+    date: "January 2026",
+    description:
+      "An asymmetric self-play framework where a teacher model, initialized from a pretrained LLM, generates synthetic problems and is rewarded based on the student model's improvement on a subset of hard problems, rather than intrinsic proxy rewards.",
+    tags: ["Reinforcement Learning", "Meta RL"],
+  },
+  {
     title: "Subproblem Curriculum Reinforcement Learning (SCRL)",
     link: "c1d94c6f3b00",
     date: "May 2026",
