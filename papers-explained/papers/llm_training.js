@@ -437,6 +437,15 @@ const llm_training = [
     date: "January 2026",
     description:
       "A method for scaling RLVR by synthesizing unlimited tasks from unverifiable internet text. It converts reasoning-rich sources into multiple-choice fill-in-the-middle question-answering tasks by prompting an LLM to identify and mask key reasoning steps and generate diverse, plausible distractors.",
-      tags: ["Synthetic Data"],
+    tags: ["Synthetic Data"],
+  },
+  {
+    title: "Subproblem Curriculum Reinforcement Learning (SCRL)",
+    link: "c1d94c6f3b00",
+    date: "May 2026",
+    description:
+      "A curriculum reinforcement learning framework for mathematical reasoning that transforms each hard problem into a sequence of verifiable subproblems, ordered from easier to harder, with the final subproblem being the original problem itself.",
+    tags: ["Reinforcement Learning"],
+
   }
 ];
