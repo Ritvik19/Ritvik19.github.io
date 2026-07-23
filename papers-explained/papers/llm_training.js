@@ -448,6 +448,14 @@ const llm_training = [
     tags: ["Synthetic Data"],
   },
   {
+    title: "Self-Distilled Reasoner",
+    link: "72bb42dd93ed",
+    date: "January 2026",
+    description:
+      "A training framework where a single language model acts as both teacher and student: the teacher is given privileged information (e.g., correct answers or reasoning traces) while the student only sees the question. The student generates its own answer trajectories, and the learning objective minimizes the per-token divergence between the student's and teacher's token distributions for these generated answers.",
+    tags: ["Distillation"],
+  },
+  {
     title: "Self-Optimization via Asymmetric RL (SOAR)",
     link: "7b56235c07c2",
     date: "January 2026",
