@@ -40,6 +40,14 @@ const llm_training = [
     tags: [],
   },
   {
+    title: "Generalized Knowledge Distillation",
+    link: "52bebe2e0252",
+    date: "June 2023",
+    description:
+      "Trains a student model on its own self-generated output sequences and leverages teacher feedback for those sequences instead of using only a fixed set of outputs.",
+    tags: ["Distillation"],
+  },
+  {
     title: "ReST^EM",
     link: "9abe7c76936e",
     date: "December 2023",
