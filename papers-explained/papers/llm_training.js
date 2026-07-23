@@ -456,6 +456,14 @@ const llm_training = [
     tags: ["Distillation"],
   },
   {
+    title: "Self-Distillation Fine-Tuning",
+    link: "651ba44d1163",
+    date: "January 2026",
+    description:
+      "A method for continual learning that enables foundation models to learn new skills from demonstrations without forgetting existing capabilities. It uses the model itself as both teacher and student: the teacher is conditioned on both the task input and an expert demonstration, while the student is conditioned only on the task input; the student's on-policy generated trajectories are then updated to match the teacher's predictions, allowing on-policy learning from demonstrations without requiring explicit reward functions or reward inference.",
+    tags: ["Distillation"],
+  },
+  {
     title: "Self-Optimization via Asymmetric RL (SOAR)",
     link: "7b56235c07c2",
     date: "January 2026",
