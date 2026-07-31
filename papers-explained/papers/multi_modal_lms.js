@@ -422,5 +422,13 @@ const multi_modal_lms = [
     description:
       "A hybrid Mixture-of-Experts model (128 experts, 4 active per token, 119B total / 6-8B active parameters, 256k context) that unifies Magistral (reasoning), Pixtral (multimodal), Devstral (agentic coding), and Mistral Small (instruct) into a single model with reasoning_effort control.",
     tags: ["Multimodal Models", "Mixtures of Experts", "Mistral"],
+  },
+  {
+    title: "Nemotron 3 Nano Omni",
+    link: "7761aa5c9e09",
+    date: "April 2026",
+    description:
+      "An efficient omni-modal model built on the Nemotron 3 Nano 30B-A3B backbone, natively supporting audio, text, images, and video. It features architectural advances, including native audio support, dynamic image resolution, Conv3D-based video token compression, and extended context length.",
+    tags: ["Multimodal Models"],
   }
 ];
