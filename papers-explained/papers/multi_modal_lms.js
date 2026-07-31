@@ -408,6 +408,14 @@ const multi_modal_lms = [
     tags: ["Multimodal Models"],    
   },
   {
+    title: "Kimi K2.5",
+    link: "2598a949ad61",
+    date: "February 2026",
+    description:
+      "A 1.1T open-source native multimodal agentic model that jointly optimizes text and vision, using techniques like joint text-vision pre-training, zero-vision SFT, and joint text-vision reinforcement learning.",
+    tags: ["Language Models", "Multimodal Models", "Agentic Models"],
+  },
+  {
     title: "Phi 4 Reasoning Vision 15B",
     link: "fbbce5596e8a",
     date: "March 2026",
