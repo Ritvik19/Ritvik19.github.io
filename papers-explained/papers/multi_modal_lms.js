@@ -438,5 +438,13 @@ const multi_modal_lms = [
     description:
       "An efficient omni-modal model built on the Nemotron 3 Nano 30B-A3B backbone, natively supporting audio, text, images, and video. It features architectural advances, including native audio support, dynamic image resolution, Conv3D-based video token compression, and extended context length.",
     tags: ["Multimodal Models"],
+  },
+  {
+    title: "Kimi K3",
+    link: "97c6b5e539bb",
+    date: "July 2026",
+    description:
+      "A 2.8 trillion-parameter native multimodal Mixture-of-Experts model with 104 billion activated parameters and a 1-million-token context window, built using innovations like Kimi Delta Attention, Attention Residuals, and Stable LatentMoE.",
+    tags: ["Language Models", "Multimodal Models", "Mixtures of Experts"],
   }
 ];
