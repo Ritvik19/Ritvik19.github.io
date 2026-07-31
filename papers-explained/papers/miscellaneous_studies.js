@@ -743,5 +743,13 @@ const miscellaneous_studies = [
     description:
       "A pipeline that generates correct long chain-of-thought traces with a large teacher model, rewrites them using instruction-tuned compressor models, and fine-tunes student models on compressed traces maintaining up to 96% of the accuracy of raw traces.",
     tags: ["Language Models"]
+  },
+  {
+    title: "Shieldstral",
+    link: "535b8ff3209b",
+    date: "July 2026",
+    description:
+      "A 3B-parameter policy-adaptive multimodal safety classifier built on Ministral-3B, which formulates content moderation as a binary question-answering task, unifying diverse moderation tasks into a single yes/no problem.",
+    tags: ["Language Models", "Multimodal Models", "Safety"],
   }
 ];
