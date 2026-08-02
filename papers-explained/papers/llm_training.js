@@ -486,5 +486,13 @@ const llm_training = [
     description:
       "Identifies prompts where the student model's pass rate is low, selects verified solutions with highest student likelihood, applies a short forward-KL phase to expand the student's sampling support to include these modes, and then resumes on-policy GRPO refinement, resulting in faster and more effective training especially on hard reasoning and agentic task.",
     tags: ["Reinforcement Learning"],
+  },
+  {
+    title: "Weak to Strong On Policy Distillation",
+    link: "6dd143fcdd0b",
+    date: "July 2026",
+    description:
+      "Improves a strong student by distilling from multiple weak model by constructing a proxy teacher in logit space by taking the difference between a positive and a negative weak model (e.g., post- vs. pre-RL, larger vs. smaller base, or correct vs. wrong hint), and adds this capability direction to the student's own base, and then distills from it using per-token reverse KL on the student's own rollout.",
+    tags: ["Distillation"],
   }
 ];
