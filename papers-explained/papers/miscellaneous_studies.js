@@ -751,5 +751,13 @@ const miscellaneous_studies = [
     description:
       "A 3B-parameter policy-adaptive multimodal safety classifier built on Ministral-3B, which formulates content moderation as a binary question-answering task, unifying diverse moderation tasks into a single yes/no problem.",
     tags: ["Language Models", "Multimodal Models", "Safety"],
+  },
+  {
+    title: "Is One Layer Enough",
+    link: "36b5241b379b",
+    date: "July 2026",
+    description:
+      "Shows that most RL gains are highly concentrated in a small subset, often just a single layer, typically located in the middle of the network while layers near the input and output ends contribute substantially less.",
+    tags: ["Language Models", "Reasoning"],
   }
 ];
