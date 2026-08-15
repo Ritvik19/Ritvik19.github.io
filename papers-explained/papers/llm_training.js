@@ -494,5 +494,13 @@ const llm_training = [
     description:
       "Improves a strong student by distilling from multiple weak model by constructing a proxy teacher in logit space by taking the difference between a positive and a negative weak model (e.g., post- vs. pre-RL, larger vs. smaller base, or correct vs. wrong hint), and adds this capability direction to the student's own base, and then distills from it using per-token reverse KL on the student's own rollout.",
     tags: ["Distillation"],
+  },
+  {
+    title: "Unsupervised On-Policy Self Distillation",
+    link: "13e21a1df42d",
+    date: "July 2026",
+    description:
+      "A method for improving large language models post-training by distilling knowledge purely from the model’s own generations, without any external supervision such as ground-truth labels or larger teacher models. It samples multiple independent rollouts for each problem, uses majority vote among these to construct a pseudo-solution, and then distills the model’s teacher distribution (conditioned on the shortest agreeing pseudo-solution) into the prefixes of its longest disagreeing (incorrect) completions, allowing the model to self-correct where it is confidently wrong.",
+    tags: ["Distillation"],
   }
 ];
