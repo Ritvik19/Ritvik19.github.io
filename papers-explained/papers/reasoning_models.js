@@ -366,5 +366,13 @@ const reasoning_models = [
     description:
       "A compact dense model, developed to investigate how far verifiable reasoning can be pushed within a strictly small-model regime. Building upon the Spectrum-to-Signal post-training paradigm, the model is systematically enhanced through an optimized pipeline that includes curriculum-based supervised fine-tuning, multi-domain reinforcement learning, and offline self-distillation.",
     tags: ["Language Models", "Reinforcement Learning"]
+  },
+  {
+    title: "Rubric Distillation",
+    link: "97c3ca77cae7",
+    date: "August 2026",
+    description:
+      "A simple regularization method that combats reward hacking in reinforcement learning with rubrics, where at each training step, a random fraction (e.g., 30–50%) of rubric criteria are dropped before computing the reward, ensuring the policy is never optimized on the same fixed proxy twice. This method uses group-shared masking (so all rollouts of a prompt are graded on the same sub-rubric) for compatibility with GRPO.",
+    tags: ["Reinforcement Learning", "Reward Design"]
   }
 ];
