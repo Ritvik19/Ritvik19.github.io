@@ -272,14 +272,6 @@ const reasoning_models = [
     tags: ["Reinforcement Learning", "Reward Design"]
   },
   {
-    title: "Leanstral",
-    link: "b9632dedf580#3b3a",
-    date: "March 2026",
-    description:
-      "An open-source, highly efficient Lean 4 focused code and proof agent that uses a sparse architecture and parallel inference with Lean as a verifier to generate and formally prove implementations in realistic formal repositories. ",
-    tags: ["LLM for Code", "Formal Methods"]
-  },
-  {
     title: "Nemotron Cascade 2",
     link: "1ac869c28c8c",
     date: "March 2026",
@@ -366,6 +358,14 @@ const reasoning_models = [
     description:
       "A compact dense model, developed to investigate how far verifiable reasoning can be pushed within a strictly small-model regime. Building upon the Spectrum-to-Signal post-training paradigm, the model is systematically enhanced through an optimized pipeline that includes curriculum-based supervised fine-tuning, multi-domain reinforcement learning, and offline self-distillation.",
     tags: ["Language Models", "Reinforcement Learning"]
+  },
+  {
+    title: "Leanstral",
+    link: "06f0927fe5b0",
+    date: "July 2026",
+    description:
+      "A series of 119B A6B generalist, open-source code-agent models specialized for Lean 4 and operating within the standard Mistral Vibe code-agent interface without relying on bespoke scaffolds.",
+    tags: ["LLM for Code", "Formal Methods"]
   },
   {
     title: "Rubric Distillation",
