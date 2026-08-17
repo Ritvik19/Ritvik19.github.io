@@ -759,5 +759,13 @@ const miscellaneous_studies = [
     description:
       "Shows that most RL gains are highly concentrated in a small subset, often just a single layer, typically located in the middle of the network while layers near the input and output ends contribute substantially less.",
     tags: ["Language Models", "Reasoning"],
+  },
+  {
+    title: "Passive Skill Distillation",
+    link: "481e342aa9d1",
+    date: "August 2026",
+    description:
+      "Compiles reusable, natural-language procedural skills from a small corpus of existing agentic task trajectories using a coding agent, and injects these skills into non-reasoning language models’ prompts, recovering 55%–100%+ of the performance gap between non-reasoning and reasoning modes on multi-step agentic benchmark.",
+    tags: ["Language Models", "Reasoning"],
   }
 ];
