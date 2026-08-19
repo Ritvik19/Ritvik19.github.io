@@ -88,6 +88,14 @@ const reward_models = [
     tags: ["LLM Evaluation"],
   },
   {
+    title: "Unsupervised Process Reward Models",
+    link: "7ee981eb13c4",
+    date: "May 2026",
+    description:
+      "A method for training unsupervised PRMs that requires no human supervision, neither at the level of step-by-step annotations nor through ground-truth verification of final answers. The key idea behind this approach is to define a scoring function, derived from LLM next-token probabilities, that jointly assesses candidate positions of first erroneous steps across a batch of reasoning trajectories.",
+    tags: ["Process Reward Model"],
+  }
+  {
     title: "LLM as a Verifier",
     link: "58c8ab45fb3f",
     date: "July 2026",
