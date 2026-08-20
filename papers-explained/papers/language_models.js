@@ -256,6 +256,14 @@ const language_models = [
     tags: ["Language Models", "Gemma"],
   },
   {
+    title: "Low-Rank Training in Transformer LMs",
+    link: "cc3f8c294de5",
+    date: "July 2024",
+    description:
+      "This study focuses on applying low-rank parameterization to the computationally intensive feedforward networks of Transformer based LLMs at scale up to 1.3B parameters by training from scratch on the RefinedWeb dataset, showing that low-rank parameterization is both efficient and effective during training.",
+    tags: ["Language Models", "Low-Rank Parameterization"],
+  },
+  {
     title: "Encoder-Decoder Gemma",
     link: "a6f9ee73a5f4",
     date: "April 2025",
