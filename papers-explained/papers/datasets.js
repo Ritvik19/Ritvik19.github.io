@@ -1,5 +1,13 @@
 const datasets = [
   {
+    title: "CLRS Benchmark",
+    link: "60a80a8e43ef",
+    date: "May 2022",
+    description:
+      "Covers classical algorithms from the Introduction to Algorithms textbook spanning a variety of algorithmic reasoning procedures, including sorting, searching, dynamic programming, graph algorithms, string algorithms and geometric algorithms to consolidate progress in learning representations of algorithms with neural networks.",
+    tags: ["Datasets", "Algorithmic Data"],
+  },
+  {
     title: "TinyStories",
     link: "0218b6d43763",
     date: "March 2023",
@@ -83,6 +91,14 @@ const datasets = [
     description:
       "A large-scale dataset for pretraining LLMs, consisting of 15T tokens, shown to produce better-performing models than other open pretraining datasets.",
     tags: ["Datasets", "Language Model Datasets", "HuggingFace"],
+  },
+  {
+    title: "CLRS Text Benchmark",
+    link: "60a80a8e43ef#ee39",
+    date: "June 2024",
+    description:
+      "A benchmark inspired by the original CLRS dataset, offering a textual version of algorithmic execution traces for the 30 algorithmic tasks, based on the Introduction to Algorithms textbook.",
+    tags: ["Datasets", "Algorithmic Data"],
   },
   {
     title: "HelpSteer 2",
