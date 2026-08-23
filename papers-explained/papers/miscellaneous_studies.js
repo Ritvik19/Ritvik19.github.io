@@ -767,5 +767,13 @@ const miscellaneous_studies = [
     description:
       "Compiles reusable, natural-language procedural skills from a small corpus of existing agentic task trajectories using a coding agent, and injects these skills into non-reasoning language models’ prompts, recovering 55%–100%+ of the performance gap between non-reasoning and reasoning modes on multi-step agentic benchmark.",
     tags: ["Language Models", "Reasoning"],
+  },
+  {
+    title: "SFT Conflicts, RL Coexists",
+    link: "1ecd4a2d9bd8",
+    date: "August 2026",
+    description:
+      "Finds that SFT suffers from severe task conflicts and performance collapse in multi-stage training, while RL enables stable and cumulative improvements due to sparse and approximately orthogonal parameter updates across tasks.",
+    tags: ["Language Models", "Reasoning"],
   }
 ];
