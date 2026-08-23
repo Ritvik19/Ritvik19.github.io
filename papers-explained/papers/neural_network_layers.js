@@ -146,4 +146,53 @@ const neural_network_layers = [
     description: "",
     tags: ["Neural Network Layers", "Normalization"],
   },
+  {
+    title: "Sinusoidal Position Encoding",
+    link: "3dafda9e6f47#a2b0",
+    date: "June 2017",
+    description: "Uses fixed sine and cosine functions to create a d-dimensional vector for each absolute position. Different dimensions use different wavelengths, ranging from 2π to 10000⋅2π, so lower dimensions capture fine-grained positional differences while higher dimensions capture longer-range patterns; these vectors are added to token embeddings.",
+    tags: ["Neural Network Layers", "Position Encoding"],
+  },
+  {
+    title: "Learned Position Encoding",
+    link: "3dafda9e6f47#671e",
+    date: "",
+    description: "Treats each absolute position 0,1,…,N−1 as a discrete index into a trainable embedding table, and the retrieved position vector is added to the token embedding before entering the Transformer.",
+    tags: ["Neural Network Layers", "Position Encoding"],
+  },
+  {
+    title: "Relative Position Encoding",
+    link: "3dafda9e6f47#e4f6",
+    date: "March 2018",
+    description: "Instead of encoding where a token is in the sequence, it models the relative distance/offset (j−i) between a query and key, incorporating learned relative key/value representations directly into attention; distances are typically clipped to [−k,k], giving 2k+1 relative positions. This lets attention separately capture semantic matching and positional preference.",
+    tags: ["Neural Network Layers", "Position Encoding"],
+  },
+  {
+    title: "Rotary Position Encoding (RoPE)",
+    link: "5797f508073f",
+    date: "April 2021",
+    description: "Encodes absolute positions with a rotation matrix and explicitly models relative position dependencies within the self-attention mechanism, offering several advantages, including flexibility in sequence length, a decaying inter-token dependency with increasing relative distance, and compatibility with linear self-attention.",
+    tags: ["Neural Network Layers", "Position Encoding"],
+  },
+  {
+    title: "Attention with Linear Bias (ALiBi)",
+    link: "66ff030750bf",
+    date: "August 2021",
+    description: "A position representation method for transformers to enable efficient and effective extrapolation to longer input sequences, it does not add positional embeddings to word embeddings; instead, it biases query-key attention scores with a penalty that is proportional to their distance.",
+    tags: ["Neural Network Layers", "Attention"],
+  },
+  {
+    title: "No Position Encoding (NoPE)",
+    link: "9a670429a736",
+    date: "May 2023",
+    description: "Systematically compares five positional encoding methods (APE, T5’s Relative PE, ALiBi, Rotary, and NoPE) on decoder-only Transformers across reasoning and mathematical tasks, finding that commonly used PEs are not effective for length generalization and NoPE outperforms explicit PE methods.",
+    tags: ["Neural Network Layers", "Position Encoding"],
+  },
+  {
+    title: "Yet another RoPE extensioN method (YaRN)",
+    link: "3eb0225c90db",
+    date: "September 2023",
+    description: "A compute-efficient technique for extending the context window of models trained with Rotary Position Embeddings (RoPE).",
+    tags: ["Neural Network Layers", "Position Encoding"],
+  }
 ];
