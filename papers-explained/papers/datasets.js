@@ -24,6 +24,14 @@ const datasets = [
     tags: ["Datasets", "Multimodal Datasets", "HuggingFace"],
   },
   {
+    title: "SycophancyEval",
+    link: "a3d274127bc2",
+    date: "October 2023",
+    description:
+      "Investigates the prevalence of sycophancy in models whose fine tuning used human feedback, and the potential role of human preference judgments in such behavior.",
+    tags: ["Datasets", "Benchmark", "LLM Evaluation", "Sycophancy", "Anthropic"],
+  },
+  {
     title: "HelpSteer",
     link: "8653a643a462",
     date: "November 2023",
@@ -274,6 +282,14 @@ const datasets = [
     tags: ["Datasets", "Environment", "Scientific Data"],
   },
   {
+    title: "SYCON (SYcophantic CONformity) Bench",
+    link: "62205d1f4136",
+    date: "May 2025",
+    description:
+      "A benchmark for evaluating sycophantic behavior in multi-turn, free-form conversational settings, by measuring how quickly a model conforms to the user (Turn of Flip) and how frequently it shifts its stance under sustained user pressure (Number of Flip).",
+    tags: ["Datasets", "Benchmark", "LLM Evaluation", "Sycophancy"],
+  },
+  {
     title: "OpenThoughts",
     link: "51fcf3dda8d2",
     date: "June 2025",
@@ -425,5 +441,21 @@ const datasets = [
     description:
       "A fully open data curation pipeline for training agentic language models , through over 100 controlled ablation experiments, it identifies key factors such as instruction choice, teacher model selection, trace filtering, and task source diversity, resulting in a  training set of 100K example that, when used to fine-tune Qwen3-32B, delivers superior performance on multiple agentic benchmarks compared to previous open data model.",
     tags: ["Datasets", "Synthetic Data", "Agentic Systems"],
+  },
+  {
+    title: "Who Flips?",
+    link: "a826d55d4acf",
+    date: "June 2026",
+    description:
+      "Introduces a controlled protocol to evaluate the answer stability of large language models (LLMs) by challenging correct responses with model-generated, argument-only counter-arguments for incorrect options.",
+    tags: ["Datasets", "Benchmark", "LLM Evaluation", "Sycophancy"],
+  },
+  {
+    title: "SycoBench-600",
+    link: "25763fece8da",
+    date: "July 2026",
+    description:
+      "A benchmark designed to evaluate language models' susceptibility to social pressure (doubt, authority, explicit wrong suggestion) and their ability to selectively accept correct user suggestions while resisting incorrect ones.",
+    tags: ["Datasets", "Benchmark", "LLM Evaluation", "Sycophancy"],
   }
 ];
