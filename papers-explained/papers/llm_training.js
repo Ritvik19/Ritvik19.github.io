@@ -502,5 +502,13 @@ const llm_training = [
     description:
       "A method for improving large language models post-training by distilling knowledge purely from the model’s own generations, without any external supervision such as ground-truth labels or larger teacher models. It samples multiple independent rollouts for each problem, uses majority vote among these to construct a pseudo-solution, and then distills the model’s teacher distribution (conditioned on the shortest agreeing pseudo-solution) into the prefixes of its longest disagreeing (incorrect) completions, allowing the model to self-correct where it is confidently wrong.",
     tags: ["Distillation"],
+  },
+  {
+    title: "On-policy Distillation with Verifiable Reward",
+    link: "3f231794b5b4",
+    date: "August 2026",
+    description:
+      "Reformulates the reward in sampled-token OPD using trajectory correctness and applies a simple ReLU gating mechanism ensuring non-negative rewards for correct trajectories and non-positive rewards for incorrect ones, aligning dense token-level guidance from a teacher model with task-level correctness.",
+    tags: ["Distillation"],
   }
 ];
