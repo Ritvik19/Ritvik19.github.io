@@ -510,5 +510,13 @@ const llm_training = [
     description:
       "Reformulates the reward in sampled-token OPD using trajectory correctness and applies a simple ReLU gating mechanism ensuring non-negative rewards for correct trajectories and non-positive rewards for incorrect ones, aligning dense token-level guidance from a teacher model with task-level correctness.",
     tags: ["Distillation"],
+  },
+  {
+    title: "TailSFT",
+    link: "4875d05e400f",
+    date: "August 2026",
+    description:
+      "An SFT algorithm that filters out already-fit sequences during training to focus learning on under-modeled regions (the \"tail\") of the data distribution, thereby prioritizing coverage (high pass@k at large k) over low cross-entropy loss.",
+    tags: ["SFT","Reinforcement Learning"],
   }
 ];
