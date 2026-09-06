@@ -689,6 +689,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "Competitive LM"]
   },
   {
+    title: "Artificial Hivemind",
+    link: "1615e8079c92",
+    date: "October 2025",
+    description:
+      "LLMs often give similar answers, even to open-ended and creative questions, which could make everyone think alike over time, a problem called the \"Artificial Hivemind\". To study and fix this, this work created the Infinity-Chat dataset with 26K real questions and 31K human ratings, showing that these AI models don’t reflect the variety of human opinions and preferences as well as we might hope.",
+    tags: ["Language Models"],
+  },
+  {
     title: "Nemotron-Parse 1.1",
     link: "e94225fc944d",
     date: "November 2025",
