@@ -141,7 +141,7 @@ const llm_for_math = [
     date: "July 2024",
     description:
       "Winner of the 1st AIMO Progress Prize, based on DeepSeek Math, finetuned in two stages: CoT and ToRA.",
-    tags: ["LLM for Math"],
+    tags: ["LLM for Math", "Competitive LM"],
   },
   {
     title: "Qwen 2 Math",
@@ -221,7 +221,7 @@ const llm_for_math = [
     date: "April 2025",
     description:
       "A series of mathematical reasoning models (1.5B, 7B, 14B, and 32B parameters), including a winning submission to the AI Mathematical Olympiad - Progress Prize 2 (AIMO-2) competition, trained on a massive dataset of 540K unique math problems and 3.2M solutions (OpenMathReasoning dataset) capable of CoT and TIR with Python code execution.",
-    tags: ["LLM for Math"],
+    tags: ["LLM for Math", "Competitive LM"],
   },
   {
     title: "Fast Math R1 14B",

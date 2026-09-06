@@ -374,5 +374,13 @@ const reasoning_models = [
     description:
       "A simple regularization method that combats reward hacking in reinforcement learning with rubrics, where at each training step, a random fraction (e.g., 30–50%) of rubric criteria are dropped before computing the reward, ensuring the policy is never optimized on the same fixed proxy twice. This method uses group-shared masking (so all rollouts of a prompt are graded on the same sub-rubric) for compatibility with GRPO.",
     tags: ["Reinforcement Learning", "Reward Design"]
+  },
+  {
+    title: "Nemotron 3 CC",
+    link: "6d6d3b72b060",
+    date: "September 2026",
+    description:
+      "An end-to-end pipeline for competitive programming that includes large-scale problem curation, synthetic reasoning trace generation, SFT, RL, and an iterative GenCorrect test-time refinement strategy. The fine-tuned Nemotron-3 Ultra-CC system scores 535.4/600 in IOI 2026, surpassing both the gold threshold and the top human score.",
+    tags: ["Reinforcement Learning", "Competitive LM"]
   }
 ];

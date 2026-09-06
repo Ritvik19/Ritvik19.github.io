@@ -681,6 +681,14 @@ const miscellaneous_studies = [
     tags: ["Language Models", "LLM for Code", "JetBrains"]
   },
   {
+    title: "GenCluster",
+    link: "8ad12cc83bac",
+    date: "October 2025",
+    description:
+      "A test-time compute framework that combines large-scale generation, behavioral clustering, ranking, and a round-robin submission strategy to efficiently explore diverse solution spaces under limited validation budgets to attain IOI gold-level performance using open-weight models.",
+    tags: ["Language Models", "Competitive LM"]
+  },
+  {
     title: "Nemotron-Parse 1.1",
     link: "e94225fc944d",
     date: "November 2025",

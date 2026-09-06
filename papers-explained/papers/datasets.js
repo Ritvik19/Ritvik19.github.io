@@ -146,7 +146,7 @@ const datasets = [
     date: "July 2024",
     description:
       "A public AI4Maths dataset, comprising 860,000 competition math problems and solutions, ranging from high-school to advanced competition levels, annotated with chain-of-thought traces. It aims to improve mathematical reasoning in LLMs and is instrumental in developing a model that won the 1st AIMO Progress Prize, demonstrating its effectiveness in advancing state-of-the-art mathematical reasoning models.",
-    tags: ["Datasets", "Scientific Data"],
+    tags: ["Datasets", "Scientific Data", "Competitive LM"],
   },
   {
     title: "Cosmopedia v2",
