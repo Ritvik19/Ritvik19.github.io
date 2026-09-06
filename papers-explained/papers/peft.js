@@ -94,5 +94,13 @@ const peft = [
     description:
       "An extra low-rank variant of LoRA that scales adapter size down arbitrarily, even to a single trained parameter, enabling extremely parameter-efficient reinforcement learning-based reasoning finetuning.",
     tags: ["Parameter Efficient Fine Tuning"],
+  },
+  {
+    title: "NoRA",
+    link: "18c1ed7abf2a",
+    date: "August 2026",
+    description:
+      "Normalizes the down-projection matrix A along the rank dimension during training, or at initialization (NoRA-init), to stabilize and accelerate optimization, while preserving LoRA's exact weight mergeability and improves training convergence, stability, downstream performance, and resistance to catastrophic forgetting.",
+    tags: ["Parameter Efficient Fine Tuning"],
   }
 ];
