@@ -309,7 +309,7 @@ const reasoning_models = [
     date: "May 2026",
     description:
       "A competitive exams focused model, post-trained from GPT-OSS-20B by PhysicsWallah using three phased reinforcement learning on a rigorously cleaned and verified curriculum of Physics, Chemistry, Mathematics, and Reasoning questions.",
-    tags: ["Reasoning Models", "Reinforcement Learning", "Competitive Exams"]
+    tags: ["Reasoning Models", "Reinforcement Learning", "Competitive LM"]
   },
   {
     title: "Reward Hacking in Rubric-Based RL",

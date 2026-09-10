@@ -237,6 +237,14 @@ const llm_for_math = [
     date: "August 2025",
     description:
       "A 7B parameter math reasoning model optimized for the Indian Joint Entrance Examination (JEE), built by merging Qwen-2.5-Math based models, followed by supervised fine-tuning with curriculum learning and reinforcement learning with verifiable rewards using A2C objective with group-relative advantage estimation.",
-    tags: ["LLM for Math"],
+    tags: ["LLM for Math", "Competitive LM"],
+  },
+  {
+    title: "Nemotron Labs IMO 2026",
+    link: "73ce03261940",
+    date: "September 2026",
+    description:
+      "Two specialist fine-tuned checkpoints based on Nemotron 3 Ultra and a high-compute, entirely natural-language inference pipeline without any formal provers, external tools, or internet access the system iteratively generates, verifies, and refines proofs, ultimately achieving a gold medal at IMO 2026 (30/42 points).",
+    tags: ["LLM for Math", "Competitive LM"],
   }
 ];
