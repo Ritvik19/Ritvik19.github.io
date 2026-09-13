@@ -791,5 +791,13 @@ const miscellaneous_studies = [
     description:
       "Finds that SFT suffers from severe task conflicts and performance collapse in multi-stage training, while RL enables stable and cumulative improvements due to sparse and approximately orthogonal parameter updates across tasks.",
     tags: ["Language Models", "Reasoning"],
+  },
+  {
+    title: "Revisiting Complete Reasoning Traces for Post-Training",
+    link: "9eb91bf0b897",
+    date: "September 2026",
+    description:
+      "Shows that full reasoning trajectories provide only limited benefit for post-training LLMs, whereas partial or endpoint trajectories, even with heavy truncation, are highly effective.",
+    tags: ["Language Models", "Reasoning"],
   }
 ];
