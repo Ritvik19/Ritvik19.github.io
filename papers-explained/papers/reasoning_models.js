@@ -8,6 +8,30 @@ const reasoning_models = [
     tags: ["Multimodal Models"],
   },
   {
+    title: "Search R1",
+    link: "614b480de319",
+    date: "March 2025",
+    description:
+      "An RL framework for reasoning models where the LLM learns to autonomously generate multiple search queries during step-by-step reasoning with real-time retrieval.",
+    tags: ["Reinforcement Learning", "Search Agents"],
+  },
+  {
+    title: "ReSearch",
+    link: "1f3ba010f95f",
+    date: "March 2025",
+    description:
+      "A framework to integrate reasoning with external search operations using reinforcement learning, without any supervised data on reasoning steps.",
+    tags: ["Reinforcement Learning", "Search Agents"],
+  },
+  {
+    title: "DeepResearcher",
+    link: "dbd4d21c23c4",
+    date: "April 2025",
+    description:
+      "A framework for training LLM research agents end-to-end using RL in real-world web environments, where agents interact directly with live search engines instead of relying on static text corpora or manually engineered prompts.",
+    tags: ["Reinforcement Learning", "Deep Research"],
+  },
+  {
     title: "Fathom R1",
     link: "ba93dd040cbf",
     date: "May 2025",
@@ -160,6 +184,14 @@ const reasoning_models = [
     tags: ["LLM for Math", "Reinforcement Learning", "Agentic Models"]
   },
   {
+    title: "SFR-DeepResearch",
+    link: "186281b33e3b",
+    date: "September 2025",
+    description:
+      "A single-agent LLM framework for Deep Research tasks, featuring minimal web crawling and Python tool integration. It uses a simple RL recipe with entirely synthetic data to continually enhance the agent to dynamically plan and execute actions such as web search, browsing, and coding.",
+    tags: ["Reinforcement Learning", "Deep Research"],
+  },
+  {
     title: "Composer",
     link: "9bc921210902#ecbf",
     date: "October 2025",
@@ -200,11 +232,27 @@ const reasoning_models = [
     tags: ["Reinforcement Learning"]
   },
   {
+    title: "PokeeResearch",
+    link: "b6976532d436",
+    date: "October 2025",
+    description:
+      "Systematically examines key design choices at both training and inference stages for deep research agents. It finds that using AI feedback from an LLM as the reward function greatly improves performance over rule-based rewards; the on-policy RLOO algorithm is much more sample-efficient than the commonly used off-policy GRPO for fine-tuning; curating training data by filtering low-quality samples and adjusting difficulty based on pass@k metrics leads to stronger learning signals; and employing an error-tolerant test-time rollout strategy further boosts accuracy.",
+    tags: ["Reinforcement Learning", "Deep Research"],
+  },
+  {
+    title: "Tongyi DeepResearch",
+    link: "8366b11678a8",
+    date: "October 2025",
+    description:
+      "An agentic LLM specifically designed for long-horizon, deep information-seeking research tasks, developed through a training framework that combines mid-training and agentic post-training on a highly scalable fully automatic data synthesis pipeline.",
+    tags: ["Reinforcement Learning", "Deep Research"],
+  },
+  {
     title: "DR Tulu",
-    link: "123b031776c5",
+    link: "17f13ca39293",
     date: "November 2025",
     description:
-      "The first open model directly trained for open-ended, long-form deep research, using a new method called Reinforcement Learning with Evolving Rubrics (RLER), where evaluation rubrics co-evolve with the policy model and are grounded in live, searched knowledge rather than static, closed-book criteria.",
+      "A fully open deep research agent trained end-to-end for open-ended, long-form tasks using Reinforcement Learning with Evolving Rubrics (RLER), a method where rubrics continuously adapt with the model to give discriminative, up-to-date feedback.",
     tags: ["Reinforcement Learning", "Deep Research"]
   },
   {
@@ -286,6 +334,14 @@ const reasoning_models = [
     description:
       "A specialized coding model designed for agentic software engineering, excelling in long-term planning, multi-step execution, and coding intelligence. Trained through continued pretraining and reinforcement learning in a real-world environment, it achieves high performance on both internal and public benchmarks while being more cost-effective than general-purpose models.",
     tags: ["LLM for Code", "Reinforcement Learning"]
+  },
+  {
+    title: "OpenSeeker",
+    link: "ce56311ee04f",
+    date: "March 2026",
+    description:
+      "A fully open-source search agent that introduces fact-grounded, scalable, controllable QA synthesis, which generates complex multi-hop reasoning tasks by reverse-engineering web graphs, and denoised trajectory synthesis, which cleans training data using retrospective summarization to promote high-quality action generation.",
+    tags: ["Reinforcement Learning", "Search Agents"],
   },
   {
     title: "Apriel-1.5-OpenReasoner",
@@ -374,6 +430,14 @@ const reasoning_models = [
     description:
       "A simple regularization method that combats reward hacking in reinforcement learning with rubrics, where at each training step, a random fraction (e.g., 30–50%) of rubric criteria are dropped before computing the reward, ensuring the policy is never optimized on the same fixed proxy twice. This method uses group-shared masking (so all rollouts of a prompt are graded on the same sub-rubric) for compatibility with GRPO.",
     tags: ["Reinforcement Learning", "Reward Design"]
+  },
+  {
+    title: "Iris",
+    link: "d362822b3a0d",
+    date: "September 2026",
+    description:
+      "A family of search agents trained through alternating supervised fine-tuning and reinforcement learning against live web search, using in-cluster judges and observation summarizers.",
+    tags: ["Reinforcement Learning", "Search Agents"],
   },
   {
     title: "Nemotron 3 CC",
