@@ -451,6 +451,14 @@ const datasets = [
     tags: ["Datasets", "Scientific Data"],
   },
   {
+    title: "DRACO",
+    link: "ca9e3ffabbb8",
+    date: "February 2026",
+    description:
+      "A benchmark designed to evaluate complex deep research tasks that span 10 domains and use information from 40 countries, based on real-world anonymized requests from Perplexity Deep Research.",
+    tags: ["Datasets", "Benchmark", "Agentic Systems"],
+  },
+  {
     title: "CHIMERA",
     link: "e3a368a1830c",
     date: "March 2026",
@@ -497,5 +505,13 @@ const datasets = [
     description:
       "A benchmark designed to evaluate language models' susceptibility to social pressure (doubt, authority, explicit wrong suggestion) and their ability to selectively accept correct user suggestions while resisting incorrect ones.",
     tags: ["Datasets", "Benchmark", "LLM Evaluation", "Sycophancy"],
+  },
+  {
+    title: "WANDR",
+    link: "5621c389a123",
+    date: "August 2026",
+    description:
+      "A benchmark of 500 realistic agentic data-collection tasks for knowledge work, where each task requires systems to discover large sets of entities (the “wide” axis) and establish facts about each through orchestrated web searches (the “deep” axis). Grading is reference-free and evidence-verified by re-fetching cited pages, aggregating record-level judgments into soft and hard precision, recall, and F1 metrics, making WANDR uniquely challenging and unsaturated.",
+    tags: ["Datasets", "Benchmark", "Agentic Systems"],
   }
 ];
