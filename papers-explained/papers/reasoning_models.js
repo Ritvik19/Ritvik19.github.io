@@ -446,5 +446,13 @@ const reasoning_models = [
     description:
       "An end-to-end pipeline for competitive programming that includes large-scale problem curation, synthetic reasoning trace generation, SFT, RL, and an iterative GenCorrect test-time refinement strategy. The fine-tuned Nemotron-3 Ultra-CC system scores 535.4/600 in IOI 2026, surpassing both the gold threshold and the top human score.",
     tags: ["Reinforcement Learning", "Competitive LM"]
+  },
+  {
+    title: "LongCat DeepResearch",
+    link: "1309f2cdddef",
+    date: "September 2026",
+    description:
+      "A deep research system that integrates an enhanced LongCat model with a multi-agent workflow, featuring global planning via an executable ResearchSpec and parallel evidence-gathering by research agents for each report section.",
+    tags: ["Reinforcement Learning", "Deep Research"]
   }
 ];
