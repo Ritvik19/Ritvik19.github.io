@@ -344,6 +344,14 @@ const reasoning_models = [
     tags: ["Reinforcement Learning", "Search Agents"],
   },
   {
+    title: "OpenResearcher",
+    link: "8995d77a1b9a",
+    date: "March 2026",
+    description:
+      "A fully open-source, scalable, and reproducible pipeline for synthesizing high-quality, long-horizon deep research trajectories over a fixed 15M-document corpus.",
+    tags: ["Reinforcement Learning", "Deep Research"],
+  },
+  {
     title: "Apriel-1.5-OpenReasoner",
     link: "5826103aac57",
     date: "April 2026",
