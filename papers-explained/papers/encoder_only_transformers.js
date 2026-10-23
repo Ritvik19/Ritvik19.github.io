@@ -128,11 +128,27 @@ const encoder_only_transformers = [
     tags: ["Language Models", "Transformer Encoder"]
   },
   {
+    title: "Ettin Suite of Paired Encoders and Decoders",
+    link: "36382b1c594a",
+    date: "July 2025",
+    description:
+      "Introduces a suite of encoder-only and decoder-only language models, paired by size and trained on identical data and recipes, ranging from 17M to 1B parameters and up to 2 trillion tokens.",
+    tags: ["Language Models", "Transformer Encoder"]
+  },
+  {
     title: "mmBERT",
     link: "53c062841b7a",
     date: "September 2025",
     description:
       "An encoder-only language model pretrained on a massive multilingual dataset (3T tokens across 1800+ languages) using an architecture inspired from ModernBERT. It incorporates novel techniques like an inverse mask ratio schedule and inverse temperature sampling ratio, and strategically introduces low-resource languages during the training decay phase to significantly boost performance.",
     tags: ["Language Models", "Transformer Encoder", "Multilingual Models"]
+  },
+  {
+    title: "UltraBERT",
+    link: "91ba2a2ea643",
+    date: "October 2026",
+    description:
+      "A bidirectional encoder model that mixes low (5%) and high (50%) masking ratio sequences within each batch and assigning separate LM heads to each ratio, while restricting distillation to the low-ratio sequences. This design leverages the finding that classification prefers lower masking and retrieval prefers higher masking, and, after large-scale training (up to 2T tokens), results in efficient models that outperform larger baselines in both domains.",
+    tags: ["Language Models", "Transformer Encoder", "Retrieval"]
   }
 ];

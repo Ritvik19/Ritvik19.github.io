@@ -462,5 +462,13 @@ const reasoning_models = [
     description:
       "A deep research system that integrates an enhanced LongCat model with a multi-agent workflow, featuring global planning via an executable ResearchSpec and parallel evidence-gathering by research agents for each report section.",
     tags: ["Reinforcement Learning", "Deep Research"]
+  },
+  {
+    title: "Rufus Air",
+    link: "854fe699aae5",
+    date: "September 2026",
+    description:
+      "An open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B) which improves over the official GLM-4.5-Air post-trained release and is competitive with similarly sized open models.",
+    tags: ["Language Models", "Reinforcement Learning", "Mixture-of-Experts"]
   }
 ];

@@ -799,5 +799,13 @@ const miscellaneous_studies = [
     description:
       "Shows that full reasoning trajectories provide only limited benefit for post-training LLMs, whereas partial or endpoint trajectories, even with heavy truncation, are highly effective.",
     tags: ["Language Models", "Reasoning"],
+  },
+  {
+    title: "Releasing the Inner Jev",
+    link: "71e57afc0834",
+    date: "October 2026",
+    description:
+      "This work shows that existing open instruction-tuned language models can achieve comparable performance without any additional training by reading out answers from letters in the model’s output logits at the last token position and a simple supervised fine-tuning recipe can improve their performance further.",
+    tags: ["Language Models", "Reasoning"],
   }
 ];

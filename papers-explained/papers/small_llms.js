@@ -597,5 +597,13 @@ const small_llms = [
     description:
       "Natively multimodal language models, featuring both dense and Mixture-of-Experts architectures. It introduces multi-token prediction for faster decoding, quantized versions for memory efficiency, and a unified encoder-free architecture for the 12B model.",
     tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Mixtures of Experts", "Gemma"]
+  },
+  {
+    title: "Muse Glimmer 30B",
+    link: "e9fb6d03377b",
+    date: "October 2026",
+    description:
+      "An open-source 30B causal language model designed specifically for autonomous agentic tasks on consumer hardware, integrating multi-step reasoning, reliable tool use, and failure recovery in a single model that runs locally without requiring cloud infrastructure. It supports both text and image inputs, and covers about 140 languages.",
+    tags: ["Language Models", "Transformer Decoder", "Small LLMs", "Multimodal Models", "Agentic Models"]
   }
 ];
