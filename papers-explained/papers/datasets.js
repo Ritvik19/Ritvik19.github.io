@@ -322,6 +322,14 @@ const datasets = [
     tags: ["Datasets", "Benchmark", "LLM Evaluation", "Sycophancy"],
   },
   {
+    title: "Elephant",
+    link: "aa79d2fe34fe",
+    date: "May 2025",
+    description:
+      "Introduces social sycophancy, characterizing sycophancy as excessive preservation of a user’s face (their desired self-image), and presents Elephant, a benchmark for measuring social sycophancy in an LLM.",
+    tags: ["Datasets", "Benchmark", "LLM Evaluation", "Sycophancy"],
+  },
+  {
     title: "OpenThoughts",
     link: "51fcf3dda8d2",
     date: "June 2025",
